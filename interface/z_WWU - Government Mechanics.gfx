@@ -634,35 +634,4 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
-	
-    #----------------------------
-    # Blood troll
-    #----------------------------
-    spriteType = {
-		name = "GFX_blood_troll_bg"
-		texturefile = "gfx//interface//government_mechanics//blood_troll//blood_troll_bg.dds"
-		loadType = "INGAME"
-		transparencecheck = yes
-	}
-
-	spriteType = {
-		name = "GFX_blood_troll_ability_1"
-		texturefile = "gfx//interface//government_mechanics//blood_troll//blood_troll_ability_1.dds"
-		loadType = "INGAME"
-		transparencecheck = yes
-	}
-
-	spriteType = {
-		name = "GFX_blood_troll_ability_2"
-		texturefile = "gfx//interface//government_mechanics//blood_troll//blood_troll_ability_2.dds"
-		loadType = "INGAME"
-		transparencecheck = yes
-	}
-
-	spriteType = {
-		name = "GFX_blood_troll_ability_3"
-		texturefile = "gfx//interface//government_mechanics//blood_troll//blood_troll_ability_3.dds"
-		loadType = "INGAME"
-		transparencecheck = yes
-	}
 }

@@ -42,8 +42,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Rebuild Eldarath
+#Rebuild Eldarath
+country_decisions = {
     rebuild_eldarath = {
 		major = yes
         ai_importance = 0
@@ -95,8 +97,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Rebuild Eldrethalas
+#Rebuild Eldrethalas
+country_decisions = {
     restore_eldrethalas = {
 		major = yes
         ai_importance = 0
@@ -148,8 +152,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Rebuild Eldrethar
+#Rebuild Eldrethar
+country_decisions = {
     rebuild_eldrethar = {
 		major = yes
         ai_importance = 0
@@ -201,8 +207,10 @@ country_decisions = {
 			factor = 1
 		}
 	}	
+}
 
-	#Rebuild Isildien
+#Rebuild Isildien
+country_decisions = {
     rebuild_isildien = {
 		major = yes
         ai_importance = 0
@@ -254,8 +262,10 @@ country_decisions = {
 			factor = 1
 		}
 	}	
+}
 
-	#Rebuild Keltheril
+#Rebuild Keltheril
+country_decisions = {
     rebuild_keltheril= {
 		major = yes
         ai_importance = 0
@@ -306,8 +316,10 @@ country_decisions = {
 			factor = 1
 		}
 	}	
+}
 
-	#Rebuild Latharlazal
+#Rebuild Latharlazal
+country_decisions = {
     rebuild_latharlazal = {
 		major = yes
         ai_importance = 0
@@ -360,8 +372,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Rebuild Loretharan
+#Rebuild Loretharan
+country_decisions = {
     rebuild_loretharan = {
 		major = yes
         ai_importance = 0
@@ -413,8 +427,10 @@ country_decisions = {
 			factor = 1
 		}
 	}	
+}
 
-	#Rebuild Mathystra
+#Rebuild Mathystra
+country_decisions = {
     rebuild_mathystra = {
 		major = yes
         ai_importance = 0
@@ -466,8 +482,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Rebuild Morlosaran
+#Rebuild Morlosaran
+country_decisions = {
     rebuild_morlosaran = {
 		major = yes
         ai_importance = 0
@@ -519,8 +537,10 @@ country_decisions = {
 			factor = 1
 		}
 	}	
+}
 
-	#Rebuild Narthalas
+#Rebuild Narthalas
+country_decisions = {
     rebuild_narthalas = {
 		major = yes
         ai_importance = 0
@@ -585,8 +605,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Rebuild Shandaral
+#Rebuild Shandaral
+country_decisions = {
     rebuild_shandaral = {
 		major = yes
         ai_importance = 0
@@ -636,8 +658,10 @@ country_decisions = {
 			factor = 1
 		}
 	}	
+}
 
-	#Restore Suramar
+#Restore Suramar
+country_decisions = {
     restore_suramar = {
 		major = yes
         ai_importance = 0
@@ -695,8 +719,10 @@ country_decisions = {
 			factor = 1
 		}
 	}	
+}
 
-	#Restore Vashjir
+#Restore Vashjir
+country_decisions = {
     restore_vashjir = {
 		major = yes
         ai_importance = 0
@@ -748,8 +774,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Rebuild Zinazshari
+#Rebuild Zinazshari
+country_decisions = {
     rebuild_zinazshari = {
 		major = yes
         ai_importance = 0

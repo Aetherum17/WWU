@@ -137,10 +137,10 @@ country_event = {
 			}
 			}
 create_general = {
-    tradition = 80
+    tradition = 40
 }
 create_general = {
-    tradition = 80
+    tradition = 40
 }
 		}
 		}

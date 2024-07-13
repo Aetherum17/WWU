@@ -5,7 +5,6 @@ owner = A29
 controller = A29
 add_core = A29
 add_core = BRS
-add_core = A75
 
 base_tax = 1
 base_production = 1

@@ -1,16 +1,6 @@
 #-----------------------------
 # Windows
 #-----------------------------
-# Faction Dropdown Menu
-is_faction_dropdown_menu_open = {
-    has_country_flag = gui_flag__faction_dropdown_menu
-}
-
-# Library of Knowledge
-is_library_gui_open = {
-    has_country_flag = gui_flag__library_gui_open
-}
-
 # Court View
 is_ruler_information_panel_open = {
     has_country_flag = gui_flag__court_view_ruler_information_panel_open

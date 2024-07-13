@@ -101,29 +101,6 @@
  KUN_eradication_of_pandaria_threats_title: "Eradication of Pandaria's Threats"
  KUN_eradication_of_pandaria_threats_desc: "Down for good."
 
- KUN_the_pirate_outpost_title: "Pirate Outpost"
- KUN_the_pirate_outpost_desc: "Everyone needs their remote, secluded islands to rest from time to time."
-
- # Column 5
-
- KUN_rally_the_fleet_title: "Rally the Fleet"
- KUN_rally_the_fleet_desc: "Water Monkey Sees Action"
-
- KUN_establish_the_naval_base_title: "Establishment of Naval Bases"
- KUN_establish_the_naval_base_desc: "Ships production goes brrr"
-
- KUN_sea_domination_title: "Sea Domination"
- KUN_sea_domination_desc: "How does that justify me getting those random claims?"
-
- KUN_way_of_the_pirate_title: "Way of the Pirate"
- KUN_way_of_the_pirate_desc: "Now we just need a small ship in a bottle"
-
- KUN_plunder_the_booty_title: "Plunder of Booty"
- KUN_plunder_the_booty_desc: "Hmmm, what a name..."
-
- KUN_the_mightiest_of_pirates_title: "The Mightiest of Pirates"
- KUN_the_mightiest_of_pirates_desc: "We are the Pirate King!"
-
 
  # Modifiers
 
@@ -174,17 +151,6 @@
  mission_hozen_valley: "The Hozen Valley"
  desc_mission_hozen_valley: ""
 
- # Column 5M
- 
- mission_kunza_flagship: "Kunza Flagships"
- desc_mission_kunza_flagship: ""
-
- mission_allow_raids: "Kunzen: Allow Raids"
- desc_mission_allow_raids: ""
-
- mission_privateering: "Efficient Privateering"
- desc_mission_privateering: ""
-
  # Extra M
 
  mukla_subdued: "King Mukla Subdued"
@@ -192,12 +158,6 @@
 
  mukla_embraced: "King Mukla Embraced"
  desc_mukla_embraced: ""
-
- event_august_power: "Power of August Celestials"
- desc_event_august_power: ""
-
- mission_hozen_admirality_alt: "Hozen Admirality"
- desc_mission_hozen_admirality_alt: ""
 
  # Custom
 
@@ -242,15 +202,4 @@
   wwu_mission_kunzen.5.title: "Rise of King Mukla"
   wwu_mission_kunzen.5.desc: "Our development in the jungles of Jaguero Isles awakened the infamous King Mukla, leader of the island and one of the few remaining Gigantic Gorillas that still walk lands of Azeroth. Our work has been dedicated to persuading him, making him join our ranks and help us expand our reaches. With his might, legions of enemy armies would fall to us."
   wwu_mission_kunzen.5.option.a: "Make him a general. Why not. It must go right!"
-  wwu_mission_kunzen.5.option.b: "Respect his 'King' status"
-
-  wwu_mission_kunzen.6.title: "Fate of Kunzen Admirality"
-  wwu_mission_kunzen.6.desc: "Our ascention into the masters of Plunder Isle had called forward desire to reform our old, outdated system of leadership. What path we desire to follow?"
-  wwu_mission_kunzen.6.option.a: "From today onwards, all of Kunzen could become great. We stand with republic!"
-  wwu_mission_kunzen.6.option.b: "We shall stand with our traditional systems of leadership."
-
-  wwu_mission_kunzen.7.title: "Change of Vision?"
-  wwu_mission_kunzen.7.desc: "As we delved deeper with our path of piracy, some of us started to question our believes, seeing our actions against teaching of the Monkey King. While most see this as irrelevant, we as a leader must declare, what will be our path forward?"
-  wwu_mission_kunzen.7.option.a: "Nonesence. Our faith is strong."
-  wwu_mission_kunzen.7.option.b: "You know what? They are right. The Gold is our focus!"
-  wwu_mission_kunzen.7.option.c: "I. See. Darker. Visions..."
+  wwu_mission_kunzen.5.option.b: "Respect his 'King' status" 

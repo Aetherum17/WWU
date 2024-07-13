@@ -62,16 +62,6 @@ cb_zandalar_war_against_pandaria = {
 	war_goal = zandalar_war_against_pandaria
 } 
 
-#Fungarian Rebellion against Nazmir
-cb_fungarian_invasion_on_nazmir = { 
-	valid_for_subject = no 
-	ai_peace_desire = -200 
-	
-	is_triggered_only = yes
- 
-	war_goal = fungarian_invasion_on_nazmir
-}
-
 cb_war_of_aggression = { 
 	valid_for_subject = no 
 	ai_peace_desire = -500

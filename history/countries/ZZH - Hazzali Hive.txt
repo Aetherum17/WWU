@@ -1,10 +1,8 @@
 
 # Centipaar
 government              = monarchy
-add_government_reform   = silithid_lair_reform
-
+add_government_reform   = aqir_kingdom_reform
 mercantilism 		= 10
-government_rank 	= 1
 technology_group 	= tech_qiraji
 religion			= cthun
 primary_culture 	= culture_silithid

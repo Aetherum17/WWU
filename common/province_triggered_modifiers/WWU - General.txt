@@ -324,7 +324,6 @@ goblin_zandalari_provinces = {
 }
 
 blood_totem_building_province = {
-	picture = "blood_totem_1"
 	potential = {
 		always = yes
 	}
@@ -348,8 +347,7 @@ blood_totem_building_province = {
 	}
 }
 
-blood_totem_province = {	
-	picture = "blood_totem_1"
+blood_totem_province = {
 	potential = {
 		always = yes
 	}

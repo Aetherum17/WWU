@@ -15,7 +15,7 @@ mission_flight_of_all_dragonflights_b03 = {
 
 mission_dragon_dragonblight_b03 = {
     ae_impact = -0.05
-    movement_speed = 0.1
+    local_friendly_movement_speed = 0.1
 }
 
 mission_dragonblight_masters_b03 = {
@@ -56,7 +56,7 @@ mission_stabilise_chromatic_dr_b03 = {
 }
 
 mission_chromatic_wc_b03 = {
-    hostile_attrition = 1
+    local_hostile_attrition = 1
 	supply_limit_modifier = 0.1
 }
 
@@ -74,7 +74,7 @@ mission_last_bastion_b03 = {
 
 mission_dragonblight_owners_b03 = {
     improve_relation_modifier = 0.1
-	culture_conversion_cost = -0.1
+	local_culture_conversion_cost = -0.1
 }
 
 mission_dragonflight_culture_b03 = {

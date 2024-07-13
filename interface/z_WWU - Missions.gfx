@@ -2885,48 +2885,4 @@ spriteTypes = {
 		name = "mission_marketplacewc3r" 
 		texturefile = "gfx//interface//missions//marketplacewc3r.dds" 
 	}
-	spriteType = { 
-		name = "mission_naz_totem_1" 
-		texturefile = "gfx//interface//missions//naz_totem_1.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_totem_2" 
-		texturefile = "gfx//interface//missions//naz_totem_2.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_totem_3" 
-		texturefile = "gfx//interface//missions//naz_totem_3.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_totem_4" 
-		texturefile = "gfx//interface//missions//naz_totem_4.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_totem_5" 
-		texturefile = "gfx//interface//missions//naz_totem_5.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_totem_6" 
-		texturefile = "gfx//interface//missions//naz_totem_6.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_totem_7" 
-		texturefile = "gfx//interface//missions//naz_totem_7.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_fungarian_1" 
-		texturefile = "gfx//interface//missions//naz_fungarian_1.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_fungarian_2" 
-		texturefile = "gfx//interface//missions//naz_fungarian_2.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_fungarian_3" 
-		texturefile = "gfx//interface//missions//naz_fungarian_3.dds" 
-	}
-	spriteType = { 
-		name = "mission_naz_fungarian_4" 
-		texturefile = "gfx//interface//missions//naz_fungarian_4.dds" 
-	}
 }

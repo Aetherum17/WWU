@@ -44,7 +44,7 @@ po_dismantle_horde = {
                 }
                 country_event = { id = wwu_faction_system_collapse.2 }
             }
-            else = 
+            else
             {
                 country_event = { id = wwu_faction_system_collapse.3 }
             }

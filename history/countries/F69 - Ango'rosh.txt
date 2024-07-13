@@ -30,7 +30,5 @@ capital = 3768
         mil = 5
         birth_date = 563.1.1
     }
-
-    add_country_flag = angarosh_outland_missions_unlocked
 } 
 

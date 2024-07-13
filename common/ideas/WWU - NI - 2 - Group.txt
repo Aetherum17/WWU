@@ -1039,15 +1039,15 @@ orc_ideas = {
 	
     # Horde of Volunteers
 	orc_ideas_1 = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
     # Veteran Smiths
 	orc_ideas_2 = {
-		infantry_cost = -0.2
+		infantry_cost = -0.25
 	}
     # Aggressive Warriors
 	orc_ideas_3 = {
-		global_regiment_recruit_speed = -0.2
+		global_regiment_recruit_speed = -0.25
 	}
     # Frontier Expansion
 	orc_ideas_4 = {
@@ -1087,17 +1087,16 @@ ogre_ideas = {
 	
 	# Two Heads, Better than One
 	ogre_ideas_1 = {
-		idea_cost = -0.05
-		technology_cost = -0.05
+		idea_cost = -0.1
 	}
 	# Brutal Warriors
 	ogre_ideas_2 = {
 		army_tradition = 1.0
-		army_tradition_from_battle = 0.15
+        leader_cost = -0.1
 	}
 	# Adaptability
 	ogre_ideas_3 = {
-		land_attrition = -0.15
+		land_attrition = -0.2
 	}
 	# Fearless Warriors
 	ogre_ideas_4 = {
@@ -1106,17 +1105,17 @@ ogre_ideas = {
 	# Descendents of the Gronn
 	ogre_ideas_5 = {
 		prestige = 1.0
-        shock_damage_received = -0.1
+        shock_damage = 0.1
 	}
 	# Hunting Parties
 	ogre_ideas_6 = {
 		land_maintenance_modifier = -0.1
-        recover_army_morale_speed = 0.1
+        infantry_shock = 0.5
 	}
 	# Ogre Magi
 	ogre_ideas_7 = {
 		leader_land_fire = 1
-        fire_damage = 0.1
+        infantry_fire = 0.5
 	}
 }
 
@@ -1266,7 +1265,7 @@ jungle_troll_ideas = {
 ice_troll_ideas = {
 	start = {
 		infantry_cost = -0.15
-        land_attrition = -0.15
+        infantry_shock = 0.5
 	}
 
 	bonus = {
@@ -1301,7 +1300,6 @@ ice_troll_ideas = {
 	ice_troll_ideas_5 = {
         leader_land_manuever = 1
         shock_damage = 0.1
-		infantry_shock = 0.5
 	}
     # Scrapping the Barrel
 	ice_troll_ideas_6 = {
@@ -1370,11 +1368,11 @@ sand_troll_ideas = {
 blood_troll_ideas = {
 	start = {
 		infantry_shock = 0.5
-        reinforce_speed = 0.1
+        culture_conversion_cost = -0.1
 	}
 
 	bonus = {
-        church_power_modifier = 0.25
+        reinforce_speed = 0.2
 	}
 	
 	trigger = {
@@ -1389,16 +1387,14 @@ blood_troll_ideas = {
     # Cannibalistic Trolls
 	blood_troll_ideas_2 = {
 		war_exhaustion = -0.05
-		recover_army_morale_speed = 0.1
 	}
     # Primitive Unity
 	blood_troll_ideas_3 = {
-		tolerance_own = 1
-		religious_unity = 0.1
+		province_warscore_cost = -0.15
 	}
     # Bloodsingers
 	blood_troll_ideas_4 = {
-		stability_cost_modifier = -0.2
+		stability_cost_modifier = -0.25
 	}
     # Matriarchs of Blood
 	blood_troll_ideas_5 = {
@@ -1411,7 +1407,7 @@ blood_troll_ideas = {
 	}
     # Blood Frenzy
 	blood_troll_ideas_7 = {
-        land_morale = 0.15
+        land_morale = 0.2
 	}
 }
 
@@ -1496,13 +1492,13 @@ tauren_ideas = {
 	}
     # Tauren Totems
 	tauren_ideas_5 = {
-        fire_damage_received = -0.15
-        shock_damage_received = -0.15
+        fire_damage_received = -0.1
+        shock_damage_received = -0.1
 	}
     # The Great Hunt
 	tauren_ideas_6 = {
         movement_speed = 0.1
-        land_morale = 0.15
+        land_morale = 0.1
 	}
     # Rites of the Earthmother
 	tauren_ideas_7 = {
@@ -4172,16 +4168,15 @@ saberon_ideas = {
 	
     # Savagery of the Saberon
 	saberon_ideas_1 = {
-		shock_damage = 0.1
+		shock_damage = 0.2
 	}
     # Rending Claws
 	saberon_ideas_2 = {
-		morale_damage = 0.1
+		siege_ability = 0.1
 	}
     # Intelligent Felines
 	saberon_ideas_3 = {
-		idea_cost = -0.05
-		technology_cost = -0.05
+		idea_cost = -0.1
 	}
     # Shadowshapers
 	saberon_ideas_4 = {
@@ -4189,7 +4184,7 @@ saberon_ideas = {
 	}
     # Hills of Arak
 	saberon_ideas_5 = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
     # Strong Hearts
 	saberon_ideas_6 = {
@@ -4197,7 +4192,7 @@ saberon_ideas = {
 	}
     # Might of the Pridelords
 	saberon_ideas_7 = {
-		mil_tech_cost_modifier = -0.15
+		mil_tech_cost_modifier = -0.2
 	}
 }
 

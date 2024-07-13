@@ -27,7 +27,6 @@ country_event = {
                 NOT = { is_subject_of_type = private_enterprise }
                 NOT = { is_subject_of_type = self_governing_colony }
                 NOT = { is_subject_of_type = subjugated_vassal }
-                NOT = { is_subject_of_type = silithid_hive }
             }
         }
         

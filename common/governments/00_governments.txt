@@ -57,7 +57,6 @@ monarchy = {
                 gilneas_kingdom_reform
                 lordaeron_kingdom_reform
                 alterac_kingdom_reform
-                silithid_lair_reform
 			}
 		}
         tier_monarchy_labor_organisation = {
@@ -319,7 +318,6 @@ monarchy = {
         gilneas_kingdom_legacy
         lordaeron_kingdom_legacy
         alterac_kingdom_legacy
-        silithid_lair_legacy
     }
 }
 
@@ -933,7 +931,6 @@ tribal = {
                 vrykul_clan_reform
                 murloc_tribe_reform
                 migratory_centaur_reform
-                gronn_tribe_reform
 			}
 		}
         tier_tribal_tribal_organisation = {
@@ -1098,7 +1095,6 @@ tribal = {
         vrykul_clan_legacy
         murloc_tribe_legacy
         migratory_centaur_legacy
-        gronn_tribe_legacy
     }
 }
 

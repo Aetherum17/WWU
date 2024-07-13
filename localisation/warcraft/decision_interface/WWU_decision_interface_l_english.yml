@@ -209,7 +209,8 @@
  string_DI_emerald_dream: "£decision_icon_emerald_dream£    "
  string_DI_blood_totem: "£decision_icon_blood_totem£    "
  string_DI_blood_totem_reload: "£decision_icon_blood_totem_reload£    "
- string_DI_fungarian_slave: "£decision_icon_fungarian_slave£    "
+ 
+ # string_DI_: "£decision_icon_£    "
  # string_DI_: "£decision_icon_£    "
  # string_DI_: "£decision_icon_£    "
  # string_DI_: "£decision_icon_£    "

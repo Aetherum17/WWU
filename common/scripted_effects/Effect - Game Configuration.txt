@@ -174,7 +174,6 @@ setup_default_game_configuration = {
     #set_global_flag = enabled_warmonger_system
     set_global_flag = enabled_regional_aggressive_expansion
     set_global_flag = enabled_balance_of_power_system
-    set_global_flag = enabled_draenor_collapse
     
     # Content
     set_global_flag = enable_content_eastern_kingdoms

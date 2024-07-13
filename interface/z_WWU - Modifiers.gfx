@@ -14,45 +14,10 @@ spriteTypes = {
 		name = "troll_fungarian"
 		texturefile = "gfx/interface/ideas_eu4/troll_fungarian.dds"
 	}
-    # showing province that spawning fungarians
-    spriteType = {
-		name = "troll_fungarian_main_base"
-		texturefile = "gfx/interface/ideas_eu4/troll_fungarian_main_base.dds"
-	}
-    # zandalar modifier
-    spriteType = {
-		name = "troll_fungarian_good"
-		texturefile = "gfx/interface/ideas_eu4/troll_fungarian_good.dds"
-	}
-    # nazmir modifier
-    spriteType = {
-		name = "troll_fungarian_bad"
-		texturefile = "gfx/interface/ideas_eu4/troll_fungarian_bad.dds"
-	}
     # an icon showing the country appearing on zandalar
     spriteType = {
 		name = "troll_scorpion"
 		texturefile = "gfx/interface/ideas_eu4/troll_scorpion.dds"
-	}
-    # nazmir modifier
-    spriteType = {
-		name = "blood_totem_1"
-		texturefile = "gfx/interface/ideas_eu4/blood_totem_1.dds"
-	}
-    # nazmir modifier
-    spriteType = {
-		name = "blood_totem_2"
-		texturefile = "gfx/interface/ideas_eu4/blood_totem_2.dds"
-	}
-    # nazmir modifier
-    spriteType = {
-		name = "blood_totem_3"
-		texturefile = "gfx/interface/ideas_eu4/blood_totem_3.dds"
-	}
-    # nazmir modifier
-    spriteType = {
-		name = "blood_totem_4"
-		texturefile = "gfx/interface/ideas_eu4/blood_totem_4.dds"
 	}
     # nerubian cave modifier
     spriteType = {

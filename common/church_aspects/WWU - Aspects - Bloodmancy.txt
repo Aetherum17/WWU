@@ -113,9 +113,9 @@ bloodmancy_consume_blood_aspect = {
 		dominant_religion = bloodmancy
 	}
 	effect = {
-        add_adm_power = 50
-        add_dip_power = 50
-        add_mil_power = 50
+        add_adm_power = 30
+        add_dip_power = 30
+        add_mil_power = 30
 	}
 	ai_will_do = {
 		factor = 1

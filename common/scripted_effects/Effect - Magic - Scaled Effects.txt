@@ -3081,68 +3081,15 @@ scaled_spell_effect__mass_hex = {
 
 # Big Bad Voodoo
 scaled_spell_effect__big_bad_voodoo = {
-    hidden_effect = {
-        set_variable = { which = temp_counter value = 0 }
-    }
-    
-    if = {
-        limit = {
-            has_legendary_aptitude = yes
-        }
-        
-        custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_5
-        hidden_effect = { set_variable = { which = temp_counter value = 25 } }
-    }
-    else_if = {
-        limit = {
-            has_epic_aptitude = yes
-        }
-        
-        custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_4
-        hidden_effect = { set_variable = { which = temp_counter value = 20 } }
-    }
-    else_if = {
-        limit = {
-            has_rare_aptitude = yes
-        }
-        
-        custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_3
-        hidden_effect = { set_variable = { which = temp_counter value = 15 } }
-    }
-    else_if = {
-        limit = {
-            has_common_aptitude = yes
-        }
-        
-        custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_2
-        hidden_effect = { set_variable = { which = temp_counter value = 10 } }
-    }
-    else = {
-        custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_1
-        hidden_effect = { set_variable = { which = temp_counter value = 5 } }
-    }
+    custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT
     
     hidden_effect = {
-        while = {
+        every_owned_province = {
             limit = {
-                check_variable = {
-                    which = temp_counter
-                    value = 0
-                }
+                NOT = { is_core = ROOT }
             }
             
-            subtract_variable = {
-                which = temp_counter
-                value = 1
-            }
-            
-            random_owned_province = {
-                limit = {
-                    NOT = { is_core = ROOT }
-                }
-                
-                add_core = ROOT
-            }
+            add_core = ROOT
         }
     }
 }

@@ -14,12 +14,12 @@ mission_silver_bastion_of_faith_a_svh = {
 }
 
 mission_silver_bastion_of_faith_b_svh = {
-    build_cost = -0.15
+    local_build_cost = -0.15
 }
 
 mission_silver_bastion_of_faith_c_svh = {
-    development_cost = -0.1
-	state_maintenance_modifier = -0.1
+    local_build_time = -0.25
+	local_state_maintenance_modifier = -0.25
 }
 
 mission_fate_of_menethil_harbor_svh = {
@@ -27,7 +27,7 @@ mission_fate_of_menethil_harbor_svh = {
 }
 
 mission_fate_of_redridge_svh = {
-    war_exhaustion = -0.05
+    war_exhaustion = -0.1
 }
 
 mission_fate_of_stormwind_city_svh = {
@@ -35,7 +35,7 @@ mission_fate_of_stormwind_city_svh = {
 }
 
 mission_fate_of_westfall_svh = {   
-    production_efficiency = 0.1
+    local_production_efficiency = 0.25
 }
 
 mission_fate_of_duskwood_svh = {
@@ -51,7 +51,7 @@ mission_guardian_medivh_svh = {
 }
 
 mission_rise_of_order_economy_svh = {
-    global_tax_modifier = 0.1
+    local_tax_modifier = 0.1
 }
 
 mission_orders_founding_svh = {
@@ -63,15 +63,15 @@ mission_prestigious_order_svh = {
 }
 
 mission_order_network_a_svh = {
-    movement_speed = 0.1
+    local_friendly_movement_speed = 0.1
 }
 
 mission_order_network_b_svh = {
-    hostile_attrition = 1
+    local_hostile_attrition = 1
 }
 
 mission_order_network_c_svh = {
-    global_manpower_modifier = 0.2
+    local_manpower_modifier = 0.2
 }
 
 mission_alliance_counter_attacks_svh = {
@@ -136,7 +136,8 @@ mission_retake_western_plaguelands_svh = {
 }
 
 mission_securing_our_lands_svh = {
-    land_forcelimit_modifier = 0.1
+    local_monthly_devastation = -0.05
+    local_production_efficiency = 0.25
 }
 
 mission_death_of_alex_mograine_svh = {
@@ -144,7 +145,7 @@ mission_death_of_alex_mograine_svh = {
 }
 
 mission_question_of_composition_svh = {
-    manpower_recovery_speed = 0.1
+    local_manpower_modifier = 0.2
 }   
 
 mission_question_of_ethos_svh = {

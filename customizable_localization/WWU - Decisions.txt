@@ -1855,14 +1855,14 @@ defined_text = {
     }
 }
 
-defined_text = {
-    name = DI_fungarian_slave
-	random = no
+# defined_text = {
+    # name = DI_
+	# random = no
     
-    text = {
-        localisation_key = string_DI_fungarian_slave
-    }
-}
+    # text = {
+        # localisation_key = string_DI_
+    # }
+# }
 
 # defined_text = {
     # name = DI_

@@ -1,5 +1,5 @@
 government = tribal
-add_government_reform = gronn_tribe_reform
+add_government_reform = tribal_despotism_reform
 add_government_reform = wwu_tribal_established_warband_reform
 
 mercantilism 		= 10 
@@ -7,18 +7,7 @@ technology_group 	= tech_ogre
 religion			= earth
 primary_culture 	= culture_gronn
 add_accepted_culture    = culture_ogre
-capital = 3835
-
-546.1.1 = {
-    monarch = {
-        name = "Gruul"
-        dynasty = "the Gronn"
-        adm = 3
-        dip = 2
-        mil = 6
-        birth_date = 500.1.1
-    }
-}
+capital = 1695
 
 590.1.1 = { 
     monarch = {
@@ -29,9 +18,5 @@ capital = 3835
         mil = 6
         birth_date = 540.1.1
     }
-}
-
-617.1.1 = {
-    capital = 1695
-}
+} 
 

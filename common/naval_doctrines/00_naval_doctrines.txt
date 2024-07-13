@@ -10,7 +10,6 @@ naval_doctrine_heavy_bombardment = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 1
 }
@@ -23,7 +22,6 @@ naval_doctrine_skirmish_tactics = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 12
 }
@@ -36,7 +34,6 @@ naval_doctrine_strategic_positioning = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 4
 }
@@ -49,7 +46,6 @@ naval_doctrine_boarding_tactics = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 5
 }
@@ -62,7 +58,6 @@ naval_doctrine_swift_blockades = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 8
 }
@@ -75,7 +70,6 @@ naval_doctrine_relief_forces = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 9
 }
@@ -88,7 +82,6 @@ naval_doctrine_merchant_navy = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 10
 }
@@ -105,7 +98,6 @@ naval_doctrine_coastal_assistance = {
 	}
 	effect = {}
 	removed_effect = {}
-	cost = 0.1
 	
 	button_gfx = 6
 }

@@ -79,7 +79,6 @@ country_decisions = {
 		}
 		allow = {
             church_power = 200
-            NOT = { stability = 3 }
 		}
         effect = {
             add_church_power = -200

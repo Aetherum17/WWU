@@ -1,1649 +1,1683 @@
 namespace = wwu_blood_totem
 
-# main body of blood totem system
+	# main body of blood totem system
 country_event = {
-  id = wwu_blood_totem.1
-  title = wwu_blood_totem.1.title
-  desc = wwu_blood_totem.1.desc
-  picture = NAZMIR_2_eventPicture
+	id = wwu_blood_totem.1
+	title = wwu_blood_totem.1.title
+	desc = wwu_blood_totem.1.desc
+	picture = NAZMIR_2_eventPicture
+    
+    is_triggered_only = yes
 
-  is_triggered_only = yes
-
-  immediate = {
-    set_country_flag = blood_totem_menu_open
-  }
-  option = {
-    # Easy to do sacrificials
-    name = wwu_blood_totem.1.op1
-    # country don 't have cooldown
-    if = {
-      limit = {
-        NOT = {
-          has_country_modifier = easy_sacrificial_cd
-        }
-      }
-      # 1 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 1
-          }
-          NOT = {
+    immediate = {
+			set_country_flag = blood_totem_menu_open
+	}
+	option = {
+	# Easy to do sacrificials
+		name = wwu_blood_totem.1.op1
+	# if country don't have cooldown
+		if = {
+		limit = {
+		NOT = { has_country_modifier = easy_sacrificial_cd 
+		}
+		}
+	# 1 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 2
+                which = wwu_blood_totem.1_a
+                value = 1
             }
-          }
-        }
-        if = {
-          limit = {
-            has_advisor = yes
-            adm_power = 10
-            dip_power = 10
-            mil_power = 10
-          }
-          custom_tooltip = wwu_blood_totem_1_a_1a
-          hidden_effect = {
-            kill_advisor = random
-            add_adm_power = -10
-            add_dip_power = -10
-            add_mil_power = -10
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 2
             }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		has_advisor = yes
+		adm_power = 10
+		dip_power = 10
+		mil_power = 10
+		}
+		custom_tooltip = wwu_blood_totem_1_a_1a
+		hidden_effect = {
+		kill_advisor = random
+		add_adm_power = -10
+		add_dip_power = -10
+		add_mil_power = -10
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_a_1b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		has_advisor = yes
+		adm_power = 10
+		dip_power = 10
+		mil_power = 10
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_a_1b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 2 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 2
-          }
-          NOT = {
+	# 2 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 3
+                which = wwu_blood_totem.1_a
+                value = 2
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 3
+            }
+			}
+			}
+		if = {
+		limit = {
+		is_spellcaster = yes
+		has_mana_4 = yes
+		}
+		custom_tooltip = wwu_blood_totem_1_a_2a
+		hidden_effect = {
+		    change_variable = {
+            which = ruler_magic_mana
+            value = -4
         }
-        if = {
-          limit = {
-            is_spellcaster = yes
-            has_mana_4 = yes
-          }
-          custom_tooltip = wwu_blood_totem_1_a_2a
-          hidden_effect = {
-            change_variable = {
-              which = ruler_magic_mana
-              value = -4
-            }
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_a_2b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		is_spellcaster = yes
+		has_mana_4 = yes
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_a_2b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 3 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a value = 3
-          }
-          NOT = {
+	# 3 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a value = 4
+                which = wwu_blood_totem.1_a
+                value = 3
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 4
+            }
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.25
+		adm_power = 25
+		}
+		custom_tooltip = wwu_blood_totem_1_a_3a
+		hidden_effect = {
+		add_yearly_manpower = -1
+		add_adm_power = -25
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        if = {
-          limit = {
-            manpower_percentage = 0.25
-            adm_power = 25
-          }
-          custom_tooltip = wwu_blood_totem_1_a_3a
-          hidden_effect = {
-            add_yearly_manpower = -1
-            add_adm_power = -25
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.25
+		adm_power = 25
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_a_3b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_a_3b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-        }
-      }
-
-      # 4 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 4
-          }
-          NOT = {
+	# 4 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 5
+                which = wwu_blood_totem.1_a
+                value = 4
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.25
-            dip_power = 25
-          }
-          custom_tooltip = wwu_blood_totem_1_a_4a
-          hidden_effect = {
-            add_yearly_manpower = -1
-            add_dip_power = -25
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 5
             }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.25
+		dip_power = 25
+		}
+		custom_tooltip = wwu_blood_totem_1_a_4a
+		hidden_effect = {
+		add_yearly_manpower = -1
+		add_dip_power = -25
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_a_4b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.25
+		dip_power = 25
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_a_4b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 5 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 5
-          }
-          NOT = {
+	# 5 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 6
+                which = wwu_blood_totem.1_a
+                value = 5
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.25
-            mil_power = 25
-          }
-          custom_tooltip = wwu_blood_totem_1_a_5a
-          hidden_effect = {
-            add_yearly_manpower = -1
-            add_mil_power = -25
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 6
             }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.25
+		mil_power = 25
+		}
+		custom_tooltip = wwu_blood_totem_1_a_5a
+		hidden_effect = {
+		add_yearly_manpower = -1
+		add_mil_power = -25
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_a_5b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.25
+		mil_power = 25
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_a_5b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 6 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 6
-          }
-          NOT = {
+	# 6 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 7
+                which = wwu_blood_totem.1_a
+                value = 6
             }
-          }
-        }
-        if = {
-          limit = {
-            ADM = 2
-            DIP = 2
-            MIL = 2
-          }
-          custom_tooltip = wwu_blood_totem_1_a_6a
-          hidden_effect = {
-            kill_ruler = yes
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 7
             }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		ADM = 2
+		DIP = 2
+		MIL = 2
+		}
+		custom_tooltip = wwu_blood_totem_1_a_6a
+		hidden_effect = {
+		kill_ruler = yes
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_a_6b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		ADM = 2
+		DIP = 2
+		MIL = 2
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_a_6b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 7 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 7
-          }
-          NOT = {
+	# 7 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 8
+                which = wwu_blood_totem.1_a
+                value = 7
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 8
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_easy_7 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_a_7a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_easy_7"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_a_7a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_easy_7"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_a_7b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_easy_7
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_a_7b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 8 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 8
-          }
-          NOT = {
+	# 8 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 9
+                which = wwu_blood_totem.1_a
+                value = 8
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 9
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_easy_8 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_a_8a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_easy_8"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_a_8a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_easy_8"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_a_8b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_easy_8
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_a_8b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 9 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 9
-          }
-          NOT = {
+	# 9 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_a
-              value = 10
+                which = wwu_blood_totem.1_a
+                value = 9
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_a
+                value = 10
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_easy_9 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_a_9a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_easy_9"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_a_9a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_easy_9"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_a_9b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_easy_9
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_a_9b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 10 option of easy sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_a
-            value = 10
-          }
-
-        }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_a_10a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_easy_10"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "easy_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_easy_sacrificial = yes
-            blood_add_1 = yes
-            blood_small_add = yes
-          }
-
-        }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_a_10b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
-        }
-      }
-
-    }
-
-    # country have cooldown
-    if = {
-      limit = {
-        has_country_modifier = easy_sacrificial_cd
-
-      }
-      custom_tooltip = wwu_blood_totem_1_a_b
-      hidden_effect = {
-        country_event = {
-          id = wwu_blood_totem.2
-        }
-      }
-    }
-
-  }
-
-  option = {
-    # medium to do sacrificials
-    name = wwu_blood_totem.1.op2
-    # country don 't have cooldown
-    if = {
-      limit = {
-        NOT = {
-          has_country_modifier = medium_sacrificial_cd
-        }
-      }
-      # 1 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 1
-          }
-          NOT = {
+	# 10 option of easy sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 2
+                which = wwu_blood_totem.1_a
+                value = 10
             }
-          }
+			
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_easy_10 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_a_10a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_easy_10"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_advisor = yes
-            adm_power = 25
-            dip_power = 25
-            mil_power = 25
-          }
-          custom_tooltip = wwu_blood_totem_1_b_1a
-          hidden_effect = {
-            kill_advisor = random
-            add_adm_power = -25
-            add_dip_power = -25
-            add_mil_power = -25
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_b_1b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "easy_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_easy_sacrificial = yes
+		blood_add_1 = yes
+		blood_small_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_easy_10
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_a_10b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 2 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 2
-          }
-          NOT = {
+}
+
+	# if country have cooldown
+		if = {
+		limit = {
+		has_country_modifier = easy_sacrificial_cd 
+		
+		}
+		custom_tooltip = wwu_blood_totem_1_a_b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		}
+
+}
+
+	option = {
+	# medium to do sacrificials
+		name = wwu_blood_totem.1.op2
+	# if country don't have cooldown
+		if = {
+		limit = {
+		NOT = { has_country_modifier = medium_sacrificial_cd 
+		}
+		}
+	# 1 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 3
+                which = wwu_blood_totem.1_b
+                value = 1
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 2
+            }
+			}
+			}
+		if = {
+		limit = {
+		has_advisor = yes
+		adm_power = 25
+		dip_power = 25
+		mil_power = 25
+		}
+		custom_tooltip = wwu_blood_totem_1_b_1a
+		hidden_effect = {
+		kill_advisor = random
+		add_adm_power = -25
+		add_dip_power = -25
+		add_mil_power = -25
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        if = {
-          limit = {
-            is_spellcaster = yes
-            has_mana_8 = yes
-          }
-          custom_tooltip = wwu_blood_totem_1_b_2a
-          hidden_effect = {
-            change_variable = {
-              which = ruler_magic_mana
-              value = -8
-            }
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		has_advisor = yes
+		adm_power = 25
+		dip_power = 25
+		mil_power = 25
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_b_1b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_b_2b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
-        }
-      }
-
-      # 3 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 3
-          }
-          NOT = {
+	# 2 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 4
+                which = wwu_blood_totem.1_b
+                value = 2
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.5
-            adm_power = 50
-          }
-          custom_tooltip = wwu_blood_totem_1_b_3a
-          hidden_effect = {
-            add_yearly_manpower = -2.5
-            add_adm_power = -50
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 3
             }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		is_spellcaster = yes
+		has_mana_8 = yes
+		}
+		custom_tooltip = wwu_blood_totem_1_b_2a
+		hidden_effect = {
+		    change_variable = {
+            which = ruler_magic_mana
+            value = -8
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_b_3b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		is_spellcaster = yes
+		has_mana_8 = yes
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_b_2b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 4 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 4
-          }
-          NOT = {
+	# 3 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 5
+                which = wwu_blood_totem.1_b
+                value = 3
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.5
-            dip_power = 50
-          }
-          custom_tooltip = wwu_blood_totem_1_b_4a
-          hidden_effect = {
-            add_yearly_manpower = -2.5
-            add_dip_power = -50
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 4
             }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.5
+		adm_power = 50
+		}
+		custom_tooltip = wwu_blood_totem_1_b_3a
+		hidden_effect = {
+		add_yearly_manpower = -2.5
+		add_adm_power = -50
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_b_4b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.5
+		adm_power = 50
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_b_3b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 5 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 5
-          }
-          NOT = {
+	# 4 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 6
+                which = wwu_blood_totem.1_b
+                value = 4
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.5
-            mil_power = 50
-          }
-          custom_tooltip = wwu_blood_totem_1_b_5a
-          hidden_effect = {
-            add_yearly_manpower = -2.5
-            add_mil_power = -50
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 5
             }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.5
+		dip_power = 50
+		}
+		custom_tooltip = wwu_blood_totem_1_b_4a
+		hidden_effect = {
+		add_yearly_manpower = -2.5
+		add_dip_power = -50
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_b_5b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.5
+		dip_power = 50
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_b_4b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 6 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 6
-          }
-          NOT = {
+	# 5 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 7
+                which = wwu_blood_totem.1_b
+                value = 5
             }
-          }
-        }
-        if = {
-          limit = {
-            ADM = 3
-            DIP = 3
-            MIL = 3
-          }
-          custom_tooltip = wwu_blood_totem_1_b_6a
-          hidden_effect = {
-            kill_ruler = yes
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 6
             }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.5
+		mil_power = 50
+		}
+		custom_tooltip = wwu_blood_totem_1_b_5a
+		hidden_effect = {
+		add_yearly_manpower = -2.5
+		add_mil_power = -50
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_b_6b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.5
+		mil_power = 50
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_b_5b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 7 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 7
-          }
-          NOT = {
+	# 6 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 8
+                which = wwu_blood_totem.1_b
+                value = 6
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 7
+            }
+			}
+			}
+		if = {
+		limit = {
+		ADM = 3
+		DIP = 3
+		MIL = 3
+		}
+		custom_tooltip = wwu_blood_totem_1_b_6a
+		hidden_effect = {
+		kill_ruler = yes
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_b_7a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_medium_7"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		ADM = 3
+		DIP = 3
+		MIL = 3
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_b_6b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_b_7b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
-        }
-      }
-
-      # 8 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 8
-          }
-          NOT = {
+	# 7 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 9
+                which = wwu_blood_totem.1_b
+                value = 7
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 8
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_medium_7 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_b_7a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_medium_7"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_b_8a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_medium_8"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_b_8b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_medium_7
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_b_7b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 9 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 9
-          }
-          NOT = {
+	# 8 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_b
-              value = 10
+                which = wwu_blood_totem.1_b
+                value = 8
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 9
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_medium_8 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_b_8a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_medium_8"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_b_9a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_medium_9"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_b_9b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_medium_8
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_b_8b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 10 option of medium sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_b
-            value = 10
-          }
-
-        }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_b_10a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_medium_10"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "medium_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_medium_sacrificial = yes
-            blood_add_2 = yes
-            blood_medium_add = yes
-          }
-
-        }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_b_10b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
-        }
-      }
-
-    }
-
-    # country have cooldown
-    if = {
-      limit = {
-        has_country_modifier = medium_sacrificial_cd
-
-      }
-      custom_tooltip = wwu_blood_totem_1_b_b
-      hidden_effect = {
-        country_event = {
-          id = wwu_blood_totem.2
-        }
-      }
-    }
-
-  }
-
-
-  option = {
-    # hard to do sacrificials
-    name = wwu_blood_totem.1.op3
-    # country don 't have cooldown
-    if = {
-      limit = {
-        NOT = {
-          has_country_modifier = hard_sacrificial_cd
-        }
-      }
-      # 1 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 1
-          }
-          NOT = {
+	# 9 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 2
+                which = wwu_blood_totem.1_b
+                value = 9
             }
-          }
-        }
-        if = {
-          limit = {
-            has_advisor = yes
-            adm_power = 50
-            dip_power = 50
-            mil_power = 50
-          }
-          custom_tooltip = wwu_blood_totem_1_c_1a
-          hidden_effect = {
-            kill_advisor = random
-            add_adm_power = -50
-            add_dip_power = -50
-            add_mil_power = -50
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_b
+                value = 10
             }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_medium_9 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_b_9a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_medium_9"
+            duration = 1825 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_c_1b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-      }
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
+        }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_medium_9
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_b_9b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 2 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 2
-          }
-          NOT = {
+	# 10 option of medium sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 3
+                which = wwu_blood_totem.1_b
+                value = 10
             }
-          }
+			
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_medium_10 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_b_10a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_medium_10"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            is_spellcaster = yes
-            has_mana_10 = yes
-          }
-          custom_tooltip = wwu_blood_totem_1_c_2a
-          hidden_effect = {
-            change_variable = {
-              which = ruler_magic_mana
-              value = -10
-            }
-            random_list = {
-              34 = {
-                change_adm = -1
-              }
-              33 = {
-                change_dip = -1
-              }
-              33 = {
-                change_mil = -1
-              }
-            }
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_c_2b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "medium_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_medium_sacrificial = yes
+		blood_add_2 = yes
+		blood_medium_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_medium_10
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_b_10b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 3 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 3
-          }
-          NOT = {
+}
+
+	# if country have cooldown
+		if = {
+		limit = {
+		has_country_modifier = medium_sacrificial_cd 
+		
+		}
+		custom_tooltip = wwu_blood_totem_1_b_b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		}
+
+}
+
+
+	option = {
+	# hard to do sacrificials
+		name = wwu_blood_totem.1.op3
+	# if country don't have cooldown
+		if = {
+		limit = {
+		NOT = { has_country_modifier = hard_sacrificial_cd 
+		}
+		}
+	# 1 option of hard sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 4
+                which = wwu_blood_totem.1_c
+                value = 1
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.75
-            adm_power = 100
-          }
-          custom_tooltip = wwu_blood_totem_1_c_3a
-          hidden_effect = {
-            add_yearly_manpower = -4
-            add_adm_power = -100
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 2
             }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		has_advisor = yes
+		adm_power = 50
+		dip_power = 50
+		mil_power = 50
+		}
+		custom_tooltip = wwu_blood_totem_1_c_1a
+		hidden_effect = {
+		kill_advisor = random
+		add_adm_power = -50
+		add_dip_power = -50
+		add_mil_power = -50
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_c_3b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		has_advisor = yes
+		adm_power = 50
+		dip_power = 50
+		mil_power = 50
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_c_1b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 4 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 4
-          }
-          NOT = {
+	# 2 option of hard sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 5
+                which = wwu_blood_totem.1_c
+                value = 2
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.75
-            dip_power = 100
-          }
-          custom_tooltip = wwu_blood_totem_1_c_4a
-          hidden_effect = {
-            add_yearly_manpower = -4
-            add_dip_power = -100
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 3
             }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		is_spellcaster = yes
+		has_mana_10 = yes
+		}
+		custom_tooltip = wwu_blood_totem_1_c_2a
+		hidden_effect = {
+		    change_variable = {
+            which = ruler_magic_mana
+            value = -10
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_c_4b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+		random_list = {
+                34 = {
+					change_adm = -1
+					}
+                33 = {
+					change_dip = -1
+					}
+                33 = {
+					change_mil = -1
+					}
+					}
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		is_spellcaster = yes
+		has_mana_10 = yes
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_c_2b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 5 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 5
-          }
-          NOT = {
+	# 3 option of hard sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 6
+                which = wwu_blood_totem.1_c
+                value = 3
             }
-          }
-        }
-        if = {
-          limit = {
-            manpower_percentage = 0.75
-            mil_power = 100
-          }
-          custom_tooltip = wwu_blood_totem_1_c_5a
-          hidden_effect = {
-            add_yearly_manpower = -4
-            add_mil_power = -100
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 4
             }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.75
+		adm_power = 100
+		}
+		custom_tooltip = wwu_blood_totem_1_c_3a
+		hidden_effect = {
+		add_yearly_manpower = -4
+		add_adm_power = -100
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_c_5b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.75
+		adm_power = 100
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_c_3b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 6 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 6
-          }
-          NOT = {
+	# 4 option of hard sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 7
+                which = wwu_blood_totem.1_c
+                value = 4
             }
-          }
-        }
-        if = {
-          limit = {
-            ADM = 4
-            DIP = 4
-            MIL = 4
-          }
-          custom_tooltip = wwu_blood_totem_1_c_6a
-          hidden_effect = {
-            kill_ruler = yes
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 5
             }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.75
+		dip_power = 100
+		}
+		custom_tooltip = wwu_blood_totem_1_c_4a
+		hidden_effect = {
+		add_yearly_manpower = -4
+		add_dip_power = -100
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        else = {
-          custom_tooltip = wwu_blood_totem_1_c_6b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.75
+		dip_power = 100
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_c_4b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-      }
-
-      # 7 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 7
-          }
-          NOT = {
+	# 5 option of hard sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 8
+                which = wwu_blood_totem.1_c
+                value = 5
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 6
+            }
+			}
+			}
+		if = {
+		limit = {
+		manpower_percentage = 0.75
+		mil_power = 100
+		}
+		custom_tooltip = wwu_blood_totem_1_c_5a
+		hidden_effect = {
+		add_yearly_manpower = -4
+		add_mil_power = -100
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_c_7a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_hard_7"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		manpower_percentage = 0.75
+		mil_power = 100
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_c_5b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_c_7b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
-        }
-      }
-
-      # 8 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 8
-          }
-          NOT = {
+	# 6 option of hard sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 9
+                which = wwu_blood_totem.1_c
+                value = 6
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 7
+            }
+			}
+			}
+		if = {
+		limit = {
+		ADM = 4
+		DIP = 4
+		MIL = 4
+		}
+		custom_tooltip = wwu_blood_totem_1_c_6a
+		hidden_effect = {
+		kill_ruler = yes
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_c_8a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_hard_8"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		NOT = {
+		ADM = 4
+		DIP = 4
+		MIL = 4
+		}
+		}
+		custom_tooltip = wwu_blood_totem_1_c_6b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-        }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_c_8b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
-        }
-      }
-
-      # 9 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 9
-          }
-          NOT = {
+	# 7 option of hard sacrifice
+		if = {
+		limit = {
             check_variable = {
-              which = wwu_blood_totem.1_c
-              value = 10
+                which = wwu_blood_totem.1_c
+                value = 7
             }
-          }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 8
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_hard_7 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_c_7a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_hard_7"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_c_9a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_hard_9"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_c_9b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
-            }
-          }
-
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
         }
-      }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_hard_7
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_c_7b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-      # 10 option of hard sacrifice
-      if = {
-        limit = {
-          check_variable = {
-            which = wwu_blood_totem.1_c
-            value = 10
-          }
-
+	# 8 option of hard sacrifice
+		if = {
+		limit = {
+            check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 8
+            }
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 9
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_hard_8 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_c_8a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_hard_8"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            NOT = {
-              has_country_modifier = blood_totem_curse_cd
-            }
-          }
-          custom_tooltip = wwu_blood_totem_1_c_10a
-          hidden_effect = {
-            add_country_modifier = {
-              name = "blood_totem_hard_10"
-              duration = 1825
-            }
-            add_country_modifier = {
-              name = "blood_totem_curse_cd"
-              duration = 1825
-              hidden = yes
-            }
-            add_country_modifier = {
-              name = "hard_sacrificial_cd"
-              duration = 730
-              hidden = yes
-            }
-            clr_country_flag = blood_totem_menu_open
-            random_hard_sacrificial = yes
-            blood_add_3 = yes
-            blood_big_add = yes
-          }
-
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-        if = {
-          limit = {
-            has_country_modifier = blood_totem_curse_cd
-          }
-          custom_tooltip = wwu_blood_totem_1_c_10b
-          hidden_effect = {
-            country_event = {
-              id = wwu_blood_totem.2
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
+        }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_hard_8
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_c_8b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
+
+	# 9 option of hard sacrifice
+		if = {
+		limit = {
+            check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 9
             }
-          }
-
+		NOT = { check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 10
+            }
+			}
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_hard_9 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_c_9a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_hard_9"
+            duration = 1825 
+            hidden = yes
         }
-      }
-
-    }
-
-    # country have cooldown
-    if = {
-      limit = {
-        has_country_modifier = hard_sacrificial_cd
-
-      }
-      custom_tooltip = wwu_blood_totem_1_c_b
-      hidden_effect = {
-        country_event = {
-          id = wwu_blood_totem.2
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
         }
-      }
-    }
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
+        }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_hard_9
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_c_9b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-  }
+	# 10 option of hard sacrifice
+		if = {
+		limit = {
+            check_variable = {
+                which = wwu_blood_totem.1_c
+                value = 10
+            }
+			
+			}
+		if = {
+		limit = {
+		NOT = { has_country_modifier = blood_totem_hard_10 }
+		NOT = { has_country_modifier = blood_totem_curse_cd }
+		}
+		custom_tooltip = wwu_blood_totem_1_c_10a
+		hidden_effect = {
+        add_country_modifier = {
+            name = "blood_totem_hard_10"
+            duration = 1825 
+            hidden = yes
+        }
+        add_country_modifier = {
+            name = "blood_totem_curse_cd"
+            duration = 1825 
+            hidden = yes
+        }
+        add_country_modifier = {
+            name = "hard_sacrificial_cd"
+            duration = 730 
+            hidden = yes
+        }
+		clr_country_flag = blood_totem_menu_open
+		random_hard_sacrificial = yes
+		blood_add_3 = yes
+		blood_big_add = yes
+		}
+		
+	}
+		if = {
+		limit = {
+		has_country_modifier = blood_totem_hard_10
+		has_country_modifier = blood_totem_curse_cd
+		}
+		custom_tooltip = wwu_blood_totem_1_c_10b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		
+	}
+}
 
-  option = {
-    # exit the event
-    name = wwu_blood_totem.1.op4
-    clr_country_flag = blood_totem_menu_open
+}
 
-  }
+	# if country have cooldown
+		if = {
+		limit = {
+		has_country_modifier = hard_sacrificial_cd 
+		
+		}
+		custom_tooltip = wwu_blood_totem_1_c_b
+		hidden_effect = {
+		country_event = { id = wwu_blood_totem.2 }
+		}
+		}
+
+}
+
+	option = {
+	# exit the event
+		name = wwu_blood_totem.1.op4
+		clr_country_flag = blood_totem_menu_open
+
+}
 
 }
 
 
 
-# redirection to event 1
+	# redirection to event 1
 country_event = {
-  id = wwu_blood_totem.2
-  title = wwu_blood_totem.2.title
-  desc = wwu_blood_totem.2.desc
-  picture = NAZMIR_2_eventPicture
-  hidden = yes
-  is_triggered_only = yes
+	id = wwu_blood_totem.2
+	title = wwu_blood_totem.2.title
+	desc = wwu_blood_totem.2.desc
+	picture = NAZMIR_2_eventPicture
+    hidden = yes
+    is_triggered_only = yes
 
-  option = {
-    name = wwu_blood_totem.2.op1
-    country_event = {
-      id = wwu_blood_totem.1
-    }
-  }
-}
+	option = {
+	name = wwu_blood_totem.2.op1
+	country_event = { id = wwu_blood_totem.1 }
+	}
+	}

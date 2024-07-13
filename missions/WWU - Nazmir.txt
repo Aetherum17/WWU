@@ -1,1233 +1,236 @@
-#-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+#--------------------------------------
 # Nazmir
-#-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-NAZ_nazmir_column_1 = {
-  slot = 1
-  generic = no
-  ai = yes
-
-  potential = {
-    OR = {
-      tag = NZM
-      tag = AMK
-      tag = NTV
-      tag = NAZ
-    }
-  }
-  has_country_shield = yes
-
-  # Claim the Blood Gate
-  NAZ_one_two = {
-    icon = mission_tools
-    position = 2
-    required_missions = {
-      NAZ_three_one
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_5_check
-        check_variable = {
-          which = nazmir_blood
-          value = 5
-        }
-      }
-      all_owned_province = {
-        NOT = {
-          is_colony = yes
-        }
-      }
-      num_of_owned_provinces_with = {
-        value = 1
-        region = region_nazmir
-        has_production_building_trigger = yes
-        has_forcelimit_building_trigger = yes
-        num_of_times_improved = 1
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      custom_tooltip = nazmir_develop_left
-      hidden_effect = {
-        change_variable = {
-          which = nazmir_expedition
-          value = 1
-        }
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  NAZ_one_three = {
-    icon = mission_lumber
-    position = 3
-    required_missions = {
-      NAZ_one_two
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_10_check
-        check_variable = {
-          which = nazmir_blood
-          value = 5
-        }
-      }
-      all_owned_province = {
-        NOT = {
-          is_colony = yes
-        }
-      }
-      num_of_owned_provinces_with = {
-        value = 3
-        region = region_nazmir
-        has_production_building_trigger = yes
-        has_forcelimit_building_trigger = yes
-        num_of_times_improved = 1
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      custom_tooltip = nazmir_develop_left
-      hidden_effect = {
-        change_variable = {
-          which = nazmir_expedition
-          value = 1
-        }
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  NAZ_one_four = {
-    icon = mission_oil
-    position = 4
-    required_missions = {
-      NAZ_one_three
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_15_check
-        check_variable = {
-          which = nazmir_blood
-          value = 15
-        }
-      }
-      all_owned_province = {
-        NOT = {
-          is_colony = yes
-        }
-      }
-      num_of_owned_provinces_with = {
-        value = 5
-        region = region_nazmir
-        has_production_building_trigger = yes
-        has_forcelimit_building_trigger = yes
-        num_of_times_improved = 1
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      custom_tooltip = nazmir_develop_left
-      hidden_effect = {
-        change_variable = {
-          which = nazmir_expedition
-          value = 1
-        }
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  NAZ_one_five = {
-    icon = mission_lumbermill
-    position = 5
-    required_missions = {
-      NAZ_one_four
-      NAZ_two_four
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_5_check
-        check_variable = {
-          which = nazmir_blood
-          value = 20
-        }
-      }
-      all_owned_province = {
-        NOT = {
-          is_colony = yes
-        }
-      }
-      num_of_owned_provinces_with = {
-        value = 7
-        region = region_nazmir
-        has_production_building_trigger = yes
-        has_forcelimit_building_trigger = yes
-        num_of_times_improved = 1
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      custom_tooltip = nazmir_develop_last
-      hidden_effect = {
-        every_owned_province = {
-          limit = {
-            region = region_nazmir
-          }
-          if = {
-            limit = {
-              has_building = wow_mine_3
-            }
-            add_base_production = 1
-          }
-          if = {
-            limit = {
-              has_building = wow_mine_2
-            }
-            add_building = wow_mine_3
-          }
-          if = {
-            limit = {
-              has_building = wow_mine_1
-            }
-            add_building = wow_mine_2
-          }
-          if = {
-            limit = {
-              has_building = wow_arsenal_3
-            }
-            set_base_manpower = 1
-          }
-          if = {
-            limit = {
-              has_building = wow_arsenal_2
-            }
-            add_building = wow_arsenal_3
-          }
-          if = {
-            limit = {
-              has_building = wow_arsenal_1
-            }
-            add_building = wow_arsenal_2
-          }
-        }
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-}
-
-NAZ_nazmir_column_2 = {
-  slot = 2
-  generic = no
-  ai = yes
-
-  potential = {
-    OR = {
-      tag = NZM
-      tag = AMK
-      tag = NTV
-      tag = NAZ
-    }
-  }
-  has_country_shield = yes
-
-  # Claim the Blood Gate
-  NAZ_two_three = {
-    icon = mission_naz_totem_3
-    position = 3
-    required_missions = {
-      NAZ_three_two
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_10_check
-        check_variable = {
-          which = nazmir_blood
-          value = 10
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_small_3_check
-        check_variable = {
-          which = nazmir_small
-          value = 3
-        }
-      }
-
-    }
-
-    effect = {
-      add_adm_power = 100
-      add_devotion = 10
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  # Claim the Blood Gate
-  NAZ_two_four = {
-    icon = mission_equipment
-    position = 4
-    required_missions = {
-      NAZ_one_three
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_15_check
-        check_variable = {
-          which = nazmir_blood
-          value = 15
-        }
-      }
-      num_of_owned_provinces_with = {
-        value = 1
-        area = area_primal_wetlands
-        OR = {
-          has_building = wow_tower_1
-          has_building = wow_tower_2
-          has_building = wow_tower_3
-        }
-        has_fort_building_trigger = yes
-      }
-    }
-
-    provinces_to_highlight = {
-      area = area_primal_wetlands
-    }
-
-    effect = {
-      custom_tooltip = nazmir_develop_right
-      random_province = {
-        limit = {
-          area = area_primal_wetlands
-          OR = {
-            has_building = wow_tower_1
-            has_building = wow_tower_2
-            has_building = wow_tower_3
-          }
-          has_fort_building_trigger = yes
-        }
-        add_province_modifier = {
-          name = nazmir_zandalar_fort
-          duration = 9125
-        }
-        hidden_effect = {
-          if = {
-            limit = {
-              has_building = wow_fort_4
-            }
-            add_building = wow_fort_5
-          }
-          if = {
-            limit = {
-              has_building = wow_fort_3
-            }
-            add_building = wow_fort_4
-          }
-          if = {
-            limit = {
-              has_building = wow_fort_2
-            }
-            add_building = wow_fort_3
-          }
-          if = {
-            limit = {
-              has_building = wow_fort_1
-            }
-            add_building = wow_fort_2
-          }
-        }
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  # Claim the Blood Gate
-  NAZ_two_five = {
-    icon = mission_bones
-    position = 5
-    required_missions = {
-      NAZ_two_four
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_20_check
-        check_variable = {
-          which = nazmir_blood
-          value = 20
-        }
-      }
-      num_of_owned_provinces_with = {
-        value = 15
-        region = region_nazmir
-        OR = {
-          has_building = wow_tower_1
-          has_building = wow_tower_2
-          has_building = wow_tower_3
-        }
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      country_or_non_sovereign_subject_holds = ROOT
-    }
-
-    effect = {
-      add_country_modifier = {
-        name = nazmir_zandalar_fort_b
-        duration = -1
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-
-}
-
-NAZ_nazmir_column_3 = {
-  slot = 3
-  generic = no
-  ai = yes
-
-  potential = {
-    OR = {
-      tag = NZM
-      tag = AMK
-      tag = NTV
-      tag = NAZ
-    }
-  }
-  has_country_shield = yes
-
-  # Claim the Blood Gate
-  NAZ_three_one = {
-    icon = mission_naz_totem_1
-    position = 1
-    required_missions = {}
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_1_check_any
-        OR = {
-          check_variable = {
-            which = nazmir_small
-            value = 1
-          }
-          check_variable = {
-            which = nazmir_medium
-            value = 1
-          }
-          check_variable = {
-            which = nazmir_big
-            value = 1
-          }
-        }
-      }
-    }
-
-
-    effect = {
-      custom_tooltip = nazmir_unlock_colonization_1_tooltip
-      hidden_effect = {
-        set_country_flag = nazmir_unlock_colonization_1
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  # Claim the Blood Gate
-  NAZ_three_two = {
-    icon = mission_naz_totem_2
-    position = 2
-    required_missions = {
-      NAZ_three_one
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_5_check
-        check_variable = {
-          which = nazmir_blood
-          value = 5
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_small_1_check
-        check_variable = {
-          which = nazmir_small
-          value = 1
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_medium_1_check
-        check_variable = {
-          which = nazmir_medium
-          value = 1
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_big_1_check
-        check_variable = {
-          which = nazmir_big
-          value = 1
-        }
-      }
-
-    }
-
-    effect = {
-      hidden_effect = {
-        set_country_flag = event_nazmir_7
-        change_variable = {
-          which = nazmir_blood_cycle
-          value = 1
-        }
-      }
-      country_event = {
-        id = wwu_nazmir.7
-      }
-      custom_tooltip = nazmir_unlock_event_7_a
-      add_devotion = 10
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  # Claim the Blood Gate
-  NAZ_three_three = {
-    icon = mission_naz_totem_4
-    position = 3
-    required_missions = {
-      NAZ_three_two
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_10_check
-        check_variable = {
-          which = nazmir_blood
-          value = 10
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_medium_3_check
-        check_variable = {
-          which = nazmir_medium
-          value = 3
-        }
-      }
-
-    }
-
-    effect = {
-      add_dip_power = 100
-      add_devotion = 10
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  # Claim the Blood Gate
-  NAZ_three_four = {
-    icon = mission_naz_totem_6
-    position = 4
-    required_missions = {
-      NAZ_three_three
-      NAZ_two_three
-      NAZ_four_three
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_15_check
-        check_variable = {
-          which = nazmir_blood
-          value = 15
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_small_4_check
-        check_variable = {
-          which = nazmir_small
-          value = 4
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_medium_4_check
-        check_variable = {
-          which = nazmir_medium
-          value = 4
-        }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_big_4_check
-        check_variable = {
-          which = nazmir_big
-          value = 4
-        }
-      }
-
-    }
-
-
-    effect = {
-      custom_tooltip = nazmir_unlock_event_7_b
-      add_devotion = 10
-      hidden_effect = {
-        change_variable = {
-          which = nazmir_blood_cycle
-          value = 1
-        }
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  # Claim the Blood Gate
-  NAZ_three_six = {
-    icon = mission_naz_totem_7
-    position = 6
-    required_missions = {
-      NAZ_three_four
-      NAZ_one_five
-      NAZ_five_five
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_30_check
-        check_variable = {
-          which = nazmir_blood
-          value = 30
-        }
-      }
-      num_of_owned_provinces_with = {
-        value = 15
-        region = region_nazmir
-      }
-      devotion = 75
-    }
-
-
-    effect = {
-      hidden_effect = {
-        if = {
-          limit = {
-            tag = NZM
-          }
-          inherit = NTV
-          inherit = AMK
-        }
-        if = {
-          limit = {
-            tag = NTV
-          }
-          inherit = NZM
-          inherit = AMK
-        }
-        if = {
-          limit = {
-            tag = AMK
-          }
-          inherit = NTV
-          inherit = NZM
-        }
-        random_owned_province = {
-          limit = {
-            has_province_modifier = defend_capital_against_fungarians
-          }
-          remove_province_modifier = defend_capital_against_fungarians
-        }
-
-        1122 = {
-          add_province_modifier = {
-            name = defend_capital_against_fungarians
-            duration = -1
-          }
-        }
-      }
-      change_tag = NAZ
-      set_government_rank = 2
-      set_capital = 1122
-      remove_government_reform = blood_tribe_matriarchy_reform
-      add_government_reform = blood_matriarchy_reform
-      custom_tooltip = nazmir_unlock_event_7_c
-      hidden_effect = {
-        add_government_reform = blood_matriarchy_reform
-        change_variable = {
-          which = nazmir_blood_cycle
-          value = 1
-        }
-      }
-
-      region_zuldazar = {
-        add_permanent_claim = ROOT
-      }
-      add_power_projection = {
-        type = 25_ permanent_power_projection
-        amount = 25
-      }
-	  hidden_effect = {
-		complete_mission = NAZ_three_six
-	  }
-
-
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-}
-
+#--------------------------------------
 NAZ_nazmir_column_4 = {
-  slot = 4
-  generic = no
-  ai = yes
-
-  potential = {
-    OR = {
-      tag = NZM
-      tag = AMK
-      tag = NTV
-      tag = NAZ
-    }
-  }
-  has_country_shield = yes
-
-  # Claim the Blood Gate
-  NAZ_four_three = {
-    icon = mission_naz_totem_5
-    position = 3
-    required_missions = {
-      NAZ_three_two
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_10_check
-        check_variable = {
-          which = nazmir_blood
-          value = 10
+	slot = 4
+	generic = no
+	ai = yes
+    
+	potential = {
+		tag = NAZ
+	}
+	has_country_shield = yes
+	
+    # Claim the Blood Gate
+    NAZ_claim_the_blood_gate = {
+		icon = mission_blood_rage
+        
+		required_missions = {  }
+		
+		trigger = {
+            1136 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+            
+        provinces_to_highlight = {
+            province_id = 1136
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
-      }
-      custom_trigger_tooltip = {
-        tooltip = nazmir_big_3_check
-        check_variable = {
-          which = nazmir_big
-          value = 3
+        
+		effect = {
+			region_zuldazar = {
+                add_permanent_claim = ROOT
+            }
+		}
+        
+        ai_weight   = { factor = 1 }
+	}
+    
+    # Crush the Zandalari
+    NAZ_crush_the_zandalari = {
+		icon = mission_troll_hexxer
+        
+		required_missions = { NAZ_claim_the_blood_gate }
+		
+		trigger = {
+            NOT = { exists = A78 }
+            2469 = { country_or_non_sovereign_subject_holds = ROOT}
+		}
+        
+        provinces_to_highlight = {
+            OR = {
+                owned_by = A78
+                province_id = 2469
+            }
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
-      }
-
-    }
-
-
-    effect = {
-      add_dip_power = 100
-      add_devotion = 10
-
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-
-
+        
+		effect = {
+            add_mil_power = 300
+            
+			add_country_modifier = {
+                name = dazaralor_riches
+                duration = -1
+            }
+		}
+        
+        ai_weight   = { factor = 1 }
+	}
+    
+    # Spread the Blood of G'huun
+    NAZ_spread_the_blood_of_ghuun = {
+		icon = mission_blood_troll
+        
+		required_missions = { NAZ_crush_the_zandalari }
+		
+		trigger = {
+            any_province = {
+                country_or_non_sovereign_subject_holds = ROOT
+                NOT = { superregion = zandalar_superregion }
+            }
+		}
+        
+        provinces_to_highlight = {
+            NOT = { superregion = zandalar_superregion }
+            is_sea = no
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+        
+		effect = {
+            add_prestige = 25
+            
+			add_country_modifier = {
+                name = blood_of_ghuun
+                duration = -1
+            }
+		}
+        
+        ai_weight   = { factor = 1 }
+	}
 }
 
 NAZ_nazmir_column_5 = {
-  slot = 5
-  generic = no
-  ai = yes
-
-  potential = {
-    OR = {
-      tag = NZM
-      tag = AMK
-      tag = NTV
-      tag = NAZ
-    }
-  }
-  has_country_shield = yes
-
-  # Prevent the Cataclysm
-  NAZ_five_one = {
-    icon = mission_burning_castle
-    position = 1
-    required_missions = {}
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_20_check
-        check_variable = {
-          which = nazmir_blood
-          value = 20
+	slot = 5
+	generic = no
+	ai = yes
+    
+	potential = {
+		tag = NAZ
+	}
+	has_country_shield = yes
+	
+    # Restore the Necropolis
+    NAZ_restore_the_necropolis = {
+		icon = mission_blood_corruption
+        
+		required_missions = {  }
+		
+		trigger = {
+            1127 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                base_tax = 8
+                base_production = 8
+                base_manpower = 8
+            }
+		}
+        
+        provinces_to_highlight = {
+            province_id = 1127
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
-      }
-      A78 = {
-        OR = {
-          has_disaster = zandalar_cataclysm
-          custom_trigger_tooltip = {
-            tooltip = nazmir_mission_zandalari_cataclysm_a
+        
+		effect = {
+            if = {
+                limit = {
+                    1128 = { is_empty = yes }
+                }
+                1128 = {
+                    cede_province = ROOT
+                    add_core = ROOT
+                }
+            }
+            if = {
+                limit = {
+                    1129 = { is_empty = yes }
+                }
+                1129 = {
+                    cede_province = ROOT
+                    add_core = ROOT
+                }
+            }
+            if = {
+                limit = {
+                    1130 = { is_empty = yes }
+                }
+                1130 = {
+                    cede_province = ROOT
+                    add_core = ROOT
+                }
+            }
+            add_country_modifier = {
+                name = necropolis_restored
+                duration = -1
+            }
+		}
+        
+        ai_weight   = { factor = 1 }
+	}
+    
+    # Oust the Tortollan
+    NAZ_oust_the_tortollan = {
+		icon = mission_hearthstone_vanilla
+        
+		required_missions = { NAZ_restore_the_necropolis }
+		
+		trigger = {
+            1120 = { country_or_non_sovereign_subject_holds = ROOT }
+            NOT = { exists = TOR }
+		}
+        
+        provinces_to_highlight = {
             OR = {
-              has_country_flag = zandalari_cataclysm_handling_bad
-              has_country_flag = zandalari_cataclysm_handling_good
+                owned_by = TOR
+                province_id = 1120
             }
-          }
-          NOT = {
-            exists = yes
-          }
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
-      }
-
-      capital_scope = {
-        infantry_in_province = 20
-      }
-    }
-
-    effect = {
-      capital_scope = {
-        kill_units = {
-          who = ROOT
-          type = infantry
-          amount = 20
-        }
-      }
-      custom_tooltip = nazmir_mission_zandalari_cataclysm_b
-      hidden_effect = {
-        if = {
-          limit = {
-            A78 = {
-              has_disaster = zandalar_cataclysm
+        
+		effect = {
+            add_prestige = 10
+            
+			region_voldun = {
+                add_permanent_claim = ROOT
             }
-          }
-          zandalar_superregion = {
-            limit = {
-              owned_by = ROOT
+		}
+        
+        ai_weight   = { factor = 1 }
+	}
+    
+    # Dominate Vol'dun
+    NAZ_dominate_voldun = {
+		icon = mission_cannibalize
+        
+		required_missions = { NAZ_oust_the_tortollan }
+		
+		trigger = {
+            NOT = { exists = TOR }
+            NOT = { exists = SEK }
+            NOT = { exists = VLC }
+            1115 = { country_or_non_sovereign_subject_holds = ROOT }
+            1118 = { country_or_non_sovereign_subject_holds = ROOT }
+            1120 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+        
+        provinces_to_highlight = {
+            OR = {
+                owned_by = TOR
+                owned_by = SEK
+                owned_by = VLC
+                province_id = 1115
+                province_id = 1118
+                province_id = 1120
             }
-            add_devastation = -50
-            remove_province_modifier = zandalari_province_affected_by_cataclysm
-          }
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
-        if = {
-          limit = {
-            A78 = {
-              OR = {
-                OR = {
-                  has_country_flag = zandalari_cataclysm_handling_bad
-                  has_country_flag = zandalari_cataclysm_handling_good
-                }
-                NOT = {
-                  exists = yes
-                }
-              }
+        
+		effect = {
+            add_prestige = 50
+            
+			add_country_modifier = {
+                name = subjugation_of_sethraliss
+                duration = -1
             }
-          }
-          add_adm_power = 100
-          add_dip_power = 100
-          add_mil_power = 100
-          blood_add_3 = yes
-        }
-      }
-    }
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-
-  # Claim the Blood Gate
-  NAZ_five_two = {
-    icon = mission_naz_fungarian_1
-    position = 2
-    required_missions = {
-      NAZ_three_one
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_5_check
-        check_variable = {
-          which = nazmir_blood
-          value = 5
-        }
-      }
-      OR = {
-        custom_trigger_tooltip = {
-          tooltip = nazmir_fungarian_1_check
-          check_variable = {
-            which = wwu_blood_fungarian_bonus
-            value = 1
-          }
-        }
-        num_of_owned_provinces_with = {
-          value = 5
-          region = region_nazmir
-        }
-      }
-      FN1 = {
-        NOT = {
-          exists = yes
-        }
-      }
-      NOT = {
-        is_at_war = yes
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      custom_tooltip = fungarian_campain_bonus_1
-      hidden_effect = {
-        set_country_flag = nazmir_fungarian_army_tradition
-      }
-      create_general = {
-        tradition = 60
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  NAZ_five_three = {
-    icon = mission_naz_fungarian_2
-    position = 3
-    required_missions = {
-      NAZ_five_two
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_10_check
-        check_variable = {
-          which = nazmir_blood
-          value = 10
-        }
-      }
-      OR = {
-        num_of_owned_provinces_with = {
-          value = 4
-          has_province_modifier = zandalar_fungarian_bad
-        }
-        num_of_owned_provinces_with = {
-          value = 10
-          region = region_nazmir
-        }
-      }
-      FN1 = {
-        NOT = {
-          exists = yes
-        }
-      }
-      NOT = {
-        is_at_war = yes
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      add_years_of_owned_provinces_manpower = {
-        years = 10
-        trigger = {
-          has_province_modifier = zandalar_fungarian_bad
-        }
-        custom_tooltip = zandalar_fungarian_exploit_province_a
-      }
-
-      if = {
-        limit = {
-          any_owned_province = {
-            has_province_modifier = zandalar_fungarian_bad
-          }
-        }
-        every_owned_province = {
-          limit = {
-            has_province_modifier = zandalar_fungarian_bad
-          }
-          add_province_modifier = {
-            name = zandalar_fungarian_bad_bad
-            duration = 1825
-          }
-        }
-      }
-
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  NAZ_five_four = {
-    icon = mission_naz_fungarian_3
-    position = 4
-    required_missions = {
-      NAZ_five_three
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_15_check
-        check_variable = {
-          which = nazmir_blood
-          value = 15
-        }
-      }
-      OR = {
-        custom_trigger_tooltip = {
-          tooltip = nazmir_fungarian_7_check
-          check_variable = {
-            which = wwu_blood_fungarian_bonus
-            value = 7
-          }
-        }
-        num_of_owned_provinces_with = {
-          value = 15
-          region = region_nazmir
-        }
-      }
-      FN1 = {
-        NOT = {
-          exists = yes
-        }
-      }
-      NOT = {
-        is_at_war = yes
-      }
-
-      capital_scope = {
-        country_or_non_sovereign_subject_holds = ROOT
-        has_fort_building_trigger = yes
-        infantry_in_province = 5
-      }
-      army_size = 20
-
-
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      capital_scope = {
-        kill_units = {
-          who = ROOT
-          type = infantry
-          amount = 5
-        }
-      }
-      add_country_modifier = {
-        name = defend_against_fungarians
-        duration = 5475
-      }
-      capital_scope = {
-        add_province_modifier = {
-          name = defend_capital_against_fungarians
-          duration = -1
-        }
-      }
-      custom_tooltip = fungarian_campain_bonus_2
-      custom_tooltip = fungarian_campain_bonus_3
-      if = {
-        limit = {
-          capital_scope = {
-            has_building = wow_fort_4
-          }
-        }
-        capital_scope = {
-          add_building = wow_fort_5
-        }
-      }
-      if = {
-        limit = {
-          capital_scope = {
-            has_building = wow_fort_3
-          }
-        }
-        capital_scope = {
-          add_building = wow_fort_4
-        }
-      }
-      if = {
-        limit = {
-          capital_scope = {
-            has_building = wow_fort_2
-          }
-        }
-        capital_scope = {
-          add_building = wow_fort_3
-        }
-      }
-      if = {
-        limit = {
-          capital_scope = {
-            has_building = wow_fort_1
-          }
-        }
-        capital_scope = {
-          add_building = wow_fort_2
-        }
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-  NAZ_five_five = {
-    icon = mission_naz_fungarian_4
-    position = 5
-    required_missions = {
-      NAZ_five_four
-    }
-
-    trigger = {
-      custom_trigger_tooltip = {
-        tooltip = nazmir_blood_20_check
-        check_variable = {
-          which = nazmir_blood
-          value = 20
-        }
-      }
-      OR = {
-        custom_trigger_tooltip = {
-          tooltip = nazmir_fungarian_8_check
-          check_variable = {
-            which = wwu_blood_fungarian_bonus
-            value = 8
-          }
-        }
-        num_of_owned_provinces_with = {
-          value = 15
-          region = region_nazmir
-        }
-      }
-      FN1 = {
-        NOT = {
-          exists = yes
-        }
-      }
-      NOT = {
-        is_at_war = yes
-      }
-      any_owned_province = {
-        has_province_modifier = zandalar_trap_5
-      }
-    }
-
-    provinces_to_highlight = {
-      region = region_nazmir
-      NOT = {
-        country_or_non_sovereign_subject_holds = ROOT
-      }
-    }
-
-    effect = {
-      add_devotion = 25
-      add_prestige = 25
-      add_power_projection = {
-        type = mission_rewards_power_projection
-        amount = 15
-      }
-      country_event = {
-        id = wwu_nazmir.3
-      }
-    }
-
-    ai_weight = {
-      factor = 1
-    }
-  }
-
-
-
+		}
+        
+        ai_weight   = { factor = 1 }
+	}
 }

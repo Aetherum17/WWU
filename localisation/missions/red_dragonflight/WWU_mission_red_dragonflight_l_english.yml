@@ -147,15 +147,3 @@
 
  mission_dragonblight_owners_b03: "Dragonblight Owners"
  desc_mission_galakrond_wc_b03: ""
-
-
- # Red Dragonflight Event
-
- wwu_mission_red_dragonflight.1.title: "The Shadow of Galakrond"
- wwu_mission_red_dragonflight.1.desc: "With the rise of the long fallen Father of Dragons, the dark energies arose from his reanimated corpse. With his power, all surrounded proto-drakes had felt a pulse of magic spread across their potent bodies. What type of magic was it?"
- wwu_mission_red_dragonflight.1.option.a: "The Rot, Decay and Despair of Earth..."
- wwu_mission_red_dragonflight.1.option.b: "The Primal Fury, the truth of the Elements..."
- wwu_mission_red_dragonflight.1.option.c: "The Shadow from Within..."
- wwu_mission_red_dragonflight.1.option.d: "The Quiet Whisper, but...familiar."
- wwu_mission_red_dragonflight.1.option.e: "The Truth of the Harbringer..."
-

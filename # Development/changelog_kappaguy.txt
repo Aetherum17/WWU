@@ -1,17 +1,25 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
+# History
+- Rastakhan Zandalar received the Greatest Blessing which extends his life to 250 years. It's just over 100 years since the first bookmark.
 
-# Nazmir update
+- Added a warning to the provinces about the appearance of countries wanting to declare war on the colonizer on Zandalar.
 
-- Dividing Nazmir into three tribes
+# Events
+- Once a new ruler of Zandalar is chosen, loa blessings are available to choose from, extending lives to 150, 200, or 250 years.
 
-- 18 new missions for Nazmir tribes
+- After selecting the option to take away the Thunderking's power in the "Lei Shen's Body" event, the ruler of Zandalar becomes truly immortal, thus removing the lifespan limit set by the blessing.
 
-- The mechanics of blood and sacrifice of victims for Nazmir tags
+# Missions
+- The Zandalar mission, Empire of the gold, now gives +1 local goods size and gold depletion chance -15% for each use of expand infrastructure up to a maximum of level 3. Additionally, there is an optional option to spawn a third gold mine in Zandalar
 
-- The mechanics of colonization of Nazmir lands along with wars with Fungarians who inhabit the provinces there and the ability to choose trade good
+# Balance
+- Disaster Cataclysm now gives 75 devastation instead of 90 and 25 autonomy instead of 75.
 
-- New government for Nazmir along with bloody totem mechanics
+- The Power of Gold idea now gives -25% gold depletion chance instead of -50%
 
-- Around 10 new events
+# Bugfixes
+- After the naga and pirate invasion of Zandalar, the province that was initially colonized ceases to be a colony and becomes a full province
+
+- Events in Rise of Zandalar can be completed, which unlocks the rest of the story.

@@ -5,7 +5,7 @@ add_government_reform = wwu_tribal_established_warband_reform
 technology_group = tech_saberon
 primary_culture = culture_saberon
 religion = shamanism
-capital = 5597
+capital = 3833
 
 546.1.1 = {
     monarch = {

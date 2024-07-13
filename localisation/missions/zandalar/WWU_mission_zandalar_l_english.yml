@@ -6,8 +6,6 @@
  A78_zandalar_column_4: ""
  A78_zandalar_column_5: ""
  
- grain_shortage: "Grain Shortage"
- 
  A78_zan_one_two_title: "Fleet Renovation"
  A78_zan_one_two_desc: "Zandalar has had a great fleet since Shattering. We must start re-creating our invincible armada."
  
@@ -600,20 +598,12 @@
  zandalar_trap_2: "Dangerous area"
  zandalar_trap_2_desc: "After you start colonizing this province, enemies will appear who will want to §Ydeclare war§! on you!"
  
- zandalar_trap_3: "Fungarians territories"
- zandalar_trap_3_desc: "When playing as Nazmir minor, possession of these provinces will pose the risk of enemies appearing."
+ zandalar_trap_3: "Dangerous area"
+ zandalar_trap_3_desc: "After you start colonizing this province, enemies will appear who will want to §Ydeclare war§! on you!"
  
  zandalar_trap_4: "Dangerous area"
  zandalar_trap_4_desc: "After you start colonizing this province, enemies will appear who will want to §Ydeclare war§! on you!"
-
- zandalar_trap_5: "Fungarians capital"
- zandalar_trap_5_desc: "This province will always be the capital in the wars of the Fungarians against the Nazmir minors."
  
- zandalar_fungarian_bad: "Enslaved Fungarian population"
- zandalar_fungarian_bad_desc: "The population of Fungarians has been completely enslaved by the trolls of Nazmir. They will work here until their miserable end."
-
- zandalar_fungarian_good: "Co-existing Fungarian population"
- zandalar_fungarian_good_desc: "The Fungarians population is co-existing. They will have their own autonomy here and bring benefits to the rest of society."
  # ------------------------------------
  # -- Zandalar: Pandaria Invasion
  # ------------------------------------
@@ -950,7 +940,7 @@
  cataclysm_ending_survival_tt: "Thanks to the efficient handling of the cataclysm, sympathy for the king grew. Apparently the cataclysm was not as bad as Zul described it."
  
  zandalari_cataclysm_time_tt: "§Y15 years§! must pass from the beginning of the §RCataclysm§!."
- zandalari_cataclysm_start_tt: "The cataclysm has begun.\n§RAll provinces on the continent of Zandalar will get 75 devastation, 25 local autonomy, and for 25 years:§!\n§R +2 local unrest§!\n§R +0.05 local monthly devastation§!"
+ zandalari_cataclysm_start_tt: "The cataclysm has begun.\n§RAll provinces on the continent of Zandalar will get 90 devastation, 75 local autonomy, and for 25 years:§!\n§R +2 local unrest§!\n§R +0.05 local monthly devastation§!"
  zandalari_cataclysm_ask_for_help_warning_tt: "The people may turn to Prophet Zul if we fail them."
  
  cataclysm_zul_assistance_tt: "Prophet Zul will assist us during the Cataclysm if it comes to pass."

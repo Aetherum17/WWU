@@ -1,44 +1,6 @@
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Topbar
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Icon: Faction Dropdown Menu
-custom_icon = {
-   name = topbar_faction_dropdown_menu_bg
-   potential = { 
-        is_faction_dropdown_menu_open = yes
-   }
-}
-
-# Button: Toggle Menu: Faction Dropdown Menu
-custom_button = {
-    name = wwu_menu_button_faction_dropdown_menu
-    tooltip = FACTION_DROP_DOWN_MENU_TT
-    
-    potential = {
-        always = yes # This mechanic is always available.
-    }
-    
-    trigger = { 
-        hidden_trigger = { 
-            always = yes
-        }
-    }
-    
-    effect = { 
-        if = {
-            limit = {
-                NOT = { is_faction_dropdown_menu_open = yes }
-            }
-            close_all_topbar_windows = yes
-            open_faction_dropdown_menu = yes
-        }
-        else = {
-            close_all_topbar_windows = yes
-        }
-       
-    }
-}
-
 # Button: Toggle Window: National Identity
 custom_button = {
     name = wwu_menu_button_national_identity
@@ -79,9 +41,7 @@ custom_button = {
     }
     
     trigger = {     
-        hidden_trigger = { 
-            always = yes
-        }
+        always = yes
     }
     
     effect = { 
@@ -191,7 +151,7 @@ custom_button = {
     tooltip = ALLIANCE_FACTION_TT
     
     potential = {
-       is_faction_dropdown_menu_open = yes
+       always = yes # This mechanic is always available.
     }
     
     trigger = { 
@@ -226,7 +186,7 @@ custom_button = {
     tooltip = HORDE_FACTION_TT
     
     potential = {
-       is_faction_dropdown_menu_open = yes
+       always = yes # This mechanic is always available.
     }
     
     trigger = { 
@@ -261,7 +221,7 @@ custom_button = {
     tooltip = TRADE_COALITION_FACTION_TT
     
     potential = {
-        is_faction_dropdown_menu_open = yes
+       always = yes # This mechanic is always available.
     }
     
     trigger = { 
@@ -296,14 +256,14 @@ custom_button = {
     tooltip = DRAGON_ASPECTS_FACTION_TT
     
     potential = {
-       is_faction_dropdown_menu_open = yes
+       always = yes # This mechanic is always available.
     }
     
     trigger = { 
         hidden_trigger = { 
             has_global_flag = enabled_faction_mechanics
             any_country = {
-                OR = {
+                OR {
                     is_dragon_aspects_head = yes
                     is_dragon_aspects_member = yes
                 }

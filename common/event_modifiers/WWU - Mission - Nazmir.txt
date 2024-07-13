@@ -9,10 +9,6 @@ hard_sacrificial_cd = {
 }
 blood_totem_curse_cd = {
 }
-nazmir_fungarian_cd = {
-}
-nazmir_blood_cycle_cd = {
-}
 
 #----------------------------------------------
 # Missions
@@ -32,103 +28,6 @@ necropolis_restored = {
 
 subjugation_of_sethraliss = {
     infantry_power = 0.05
-}
-
-defend_against_fungarians = {
-    land_morale = 0.05
-    military_tactics = 0.1
-}
-
-defend_against_fungarians = {
-    land_morale = 0.05
-    military_tactics = 0.15
-}
-    
-defend_capital_against_fungarians = {
-    local_defensiveness = 0.25
-    local_garrison_size = 0.25
-}
-
-nazmir_expedition_size = {
-    trade_goods_size = 1
-}
-
-nazmir_zandalar_fort_a= {
-    local_fort_maintenance_modifier = -1
-    local_hostile_attrition = 1
-}
-
-nazmir_zandalar_fort_b = {
-    hostile_attrition = 1
-    max_hostile_attrition = 1
-}
-
-nazmir_blood_troll_ability_1_totem = {
-    picture = "blood_totem_2"
-    tax_income = 6
-    land_forcelimit = 0.5
-    local_missionary_strength = -0.03
-}
-
-nazmir_blood_troll_ability_2_totem = {
-    picture = "blood_totem_4"
-    trade_goods_size = 0.4
-    land_forcelimit = 0.5
-    local_missionary_strength = -0.03
-}
-
-nazmir_blood_troll_ability_3_totem = {
-    picture = "blood_totem_3"
-    local_manpower = 0.25
-    land_forcelimit = 0.5
-    local_missionary_strength = -0.03
-}
-
-#----------------------------------------------
-# Fungarians
-#----------------------------------------------
-nazmir_fungarian_invasion = {
-    global_tax_income = 60
-    land_forcelimit = 10
-    infantry_power = 0.10
-}
-
-nazmir_fungarian_invasion_bonus_1 = {
-    global_tax_income = 24
-    land_forcelimit = 4
-}
-nazmir_fungarian_invasion_bonus_2 = {
-    global_tax_income = 24
-    land_forcelimit = 4
-}
-nazmir_fungarian_invasion_bonus_3 = {
-    global_tax_income = 24
-    land_forcelimit = 4
-}
-nazmir_fungarian_invasion_bonus_4 = {
-    global_tax_income = 24
-    land_forcelimit = 4
-}
-nazmir_fungarian_invasion_bonus_5 = {
-    global_tax_income = 24
-    land_forcelimit = 4
-}
-nazmir_fungarian_invasion_bonus_6 = {
-    global_tax_income = 24
-    land_forcelimit = 4
-}
-nazmir_fungarian_invasion_bonus_7 = {
-    global_tax_income = 60
-    land_forcelimit = 10
-}
-zandalar_fungarian_bad_bad = {
-    local_manpower_modifier = -0.5
-}
-#----------------------------------------------
-# Colonizing
-#----------------------------------------------
-nazmir_fungarian_colonizing = {
-    local_colonial_growth = 100
 }
 
 #----------------------------------------------

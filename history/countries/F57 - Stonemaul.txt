@@ -4,7 +4,7 @@ add_government_reform = wwu_tribal_established_warband_reform
 
 mercantilism 		= 10 
 technology_group 	= tech_ogre
-religion			= ogre_idolatry
+religion			= arcane
 primary_culture 	= culture_ogre
 capital 			= 3826
 

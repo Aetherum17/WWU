@@ -213,11 +213,6 @@ A45 = "countries/Dragonmaw.txt"                 # - A45
 A46 = "countries/Frostwolf.txt"                 # - A46
 A47 = "countries/MokNathal.txt"                 # - A47
 A43 = "countries/Twilights Hammer.txt"          # - A43
-DRS = "countries/Dark Scar.txt"                 # - DRS
-BWC = "countries/Bladewind.txt"                 # - BWC
-RWC = "countries/Redwalker.txt"                 # - RWC
-WCC = "countries/Whiteclaw.txt"                 # - WCC
-LBC = "countries/Lightning Blade Clan.txt"      # - LBC
 
 # Post-Draenor
 A42 = "countries/Stormreaver.txt"               # - A42
@@ -250,8 +245,6 @@ A53 = "countries/Bloodmaul.txt"             # - A53
 F69 = "countries/Ango'rosh.txt"             # - F69
 A52 = "countries/Gordunni.txt"              # - A52
 F57 = "countries/Stonemaul.txt"             # - F57
-ASM = "countries/Ashmaul.txt"               # - ASM
-GVH = "countries/Gor'vosh.txt"              # - GVH
 
 # Post-Draenor
 P50 = "countries/Crushridge.txt"            # - P50
@@ -448,12 +441,6 @@ F54 = "countries/Farstriders.txt"               # - F54
 FLM = "countries/Federation of Loch Modan.txt"  # - FLM
 FHN = "countries/Federation of Hinterlands.txt" # - FHN
 FES = "countries/Federation of Eastweald.txt"   # - FES
-QL1 = "countries/Dawnstar.txt"
-QL2 = "countries/Fairbreeze.txt"
-QL3 = "countries/Goldenmist.txt"
-QL4 = "countries/Suncrown.txt"
-QL5 = "countries/Sunsail.txt"
-QL6 = "countries/Windrunner.txt"
 
 #-------------------------------------
 # Blood Elf
@@ -558,7 +545,7 @@ SNB = "countries/Sindragosa Brood.txt"         # - SNB
 SPB = "countries/Sapphiron Brood.txt"          # - SPB
 CNB = "countries/Cyanigosa Brood.txt"          # - CNB
 HHB = "countries/Haleh Brood.txt"              # - HHB
-AZG = "countries/Brood of Senegos.txt"          # - AZG
+AZG = "countries/Azuregos Flight.txt"          # - AZG
 AZV = "countries/Azure Vault.txt"
 
 #-------------------------------------
@@ -1278,11 +1265,6 @@ NTV = "countries/Nathavor.txt"
 NZM = "countries/Nazmani.txt"
 
 #-------------------------------------
-# Fungarian
-#-------------------------------------
-FN1 = "countries/Fungarian Warriors.txt"
-
-#-------------------------------------
 # Tortollan
 #-------------------------------------
 TOR = "countries/Tortollan Refuge.txt"
@@ -1300,7 +1282,6 @@ SRP = "countries/Snarlpaw.txt"
 SMS = "countries/Steamscar.txt"
 TTR = "countries/Tailthrasher.txt"
 BKG = "countries/Blackfang.txt"
-PTH = "countries/Panthran.txt"
 
 #-------------------------------------
 # Botani

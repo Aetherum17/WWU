@@ -2,14 +2,13 @@ is_city = yes
 owner = A37
 controller = A37
 add_core = A37
-add_core = F77
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_gronn
-religion = earth
+culture = culture_orc
+religion = shamanism
 
 hre = no
 trade_goods = resource_common_skins
@@ -17,7 +16,6 @@ trade_goods = resource_common_skins
 # Fel Conversion
 560.1.1 = {
     religion = fel
-    culture = culture_orc
 }
 
 # Outlandification
@@ -26,5 +24,5 @@ trade_goods = resource_common_skins
     owner = ---
     controller = ---
     remove_core = A37
-} 
+}
 

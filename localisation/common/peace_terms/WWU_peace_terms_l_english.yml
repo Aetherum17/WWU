@@ -76,18 +76,6 @@
  CB_ALLOWED_po_stop_summoning_yshaarj: "Stop the Summoning of Y'Shaarj"
  po_stop_summoning_yshaarj_desc: "Stop the Summoning of Y'Shaarj. §Y[From.GetName]§! will fail to summon them."
  
- # Drive out the Fungarians
- po_drive_out_the_fungarian: "Enslave the Fungarians"
- PEACE_po_drive_out_the_fungarian: "Enslave the Fungarians"
- CB_ALLOWED_po_drive_out_the_fungarian: "Enslave the Fungarians"
- po_drive_out_the_fungarian_desc: "The Fungarians will be enslaved."
-
- # Humiliate the Nazmir
- po_humilate_the_nazmir_fungarian: "Humiliate the Nazmir"
- PEACE_po_humilate_the_nazmir_fungarian: "Humiliate the Nazmir"
- CB_ALLOWED_po_humilate_the_nazmir_fungarian: "Humiliate the Nazmir"
- po_humilate_the_nazmir_fungarian_desc: "Humiliate the Nazmir."
-
  # Drive out the Nazeshi
  po_drive_out_the_nazeshi: "Drive out the Nazeshi"
  PEACE_po_drive_out_the_nazeshi: "Drive out the Nazeshi"

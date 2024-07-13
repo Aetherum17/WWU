@@ -1,16 +1,21 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
- New Quelthalas Releasables
--Dawnstar
--Fairbreeze
--Goldenmist
--Suncrown
--Sunsail
--Windrunner
 
--Murloc tags of the region present since first bookmark
- 
+Releasables:
+-Astranaar
+-Mirkfallon Dryads
+-Laughing Sisters
+-Sisters of Celebras
+
+New Tag:
+-Twisted Grove
+
+Adjastments:
+-Change of Shendralar and Felwood in preperation of Shendralar Mission Tree (Wildspawn in Felwood and Shendralar owns the entire city)
+-Quality of Life Menu for Ancient Elven City formables
+-Quality of Life Menu for Demonic Invasion formables
+
 # TO NOT BE REPORTED IN NEXT UPLOADS BEFORE ULDUM UPDATE
 - Flavour name changes for Uldum and Halls of Origination formables
  

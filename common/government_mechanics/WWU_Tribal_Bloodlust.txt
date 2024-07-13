@@ -15,10 +15,10 @@ tribal_bloodlust_mechanic = {
 			
 			scaled_modifier = {
 				modifier = {
-                    infantry_power = 0.125
+                    infantry_power = 0.2
                     war_exhaustion = -0.1
-                    siege_ability = 0.15
-					ae_impact = 0.2
+                    siege_ability = 0.2
+					ae_impact = 0.25
 				}
 			}
 		}
@@ -28,9 +28,9 @@ tribal_bloodlust_mechanic = {
 		tribal_bloodlust_call_to_arms = {
 			icon = GFX_tribal_bloodlust_ability_ADM
 			cost_type = tribal_bloodlust
-			cost = 40
+			cost = 50
             
-			cooldown_years = 3
+			cooldown_years = 0
             
 			trigger = {
                 is_at_war = yes
@@ -38,7 +38,7 @@ tribal_bloodlust_mechanic = {
 			}
             
 			effect = {
-				add_yearly_manpower = 2.5
+				add_yearly_manpower = 2.0
 			}
             
 			ai_chance = {
@@ -49,7 +49,7 @@ tribal_bloodlust_mechanic = {
         tribal_bloodlust_scorch_the_earth = {
 			icon = GFX_tribal_bloodlust_ability_DIP
 			cost_type = tribal_bloodlust
-			cost = 35
+			cost = 30
             
 			cooldown_years = 5
             

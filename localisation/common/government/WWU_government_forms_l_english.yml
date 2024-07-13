@@ -240,11 +240,6 @@
  alterac_kingdom_reform_desc: ""
  alterac_kingdom_legacy: "Kingdom of Alterac"
  alterac_kingdom_legacy_desc: ""
-
- silithid_lair_reform: "Silithrid Lair"
- silithid_lair_reform_desc: ""
- silithid_lair_legacy: "Silithrid Lair"
- silithid_lair_legacy_desc: ""
  
  # Republic
  noble_republic_reform: "Noble Republic"
@@ -593,11 +588,6 @@
  murloc_tribe_reform_desc: ""
  murloc_tribe_legacy: "Murloc Clan"
  murloc_tribe_legacy_desc: ""
-
- gronn_tribe_reform: "Gronn Tribe"
- gronn_tribe_reform_desc: ""
- gronn_tribe_legacy: "Gronn Tribe"
- gronn_tribe_legacy_desc: ""
  
  # Native
  native_tribe_reform: "Native Clan"

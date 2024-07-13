@@ -62,7 +62,7 @@ mission_searing_gorge_a29 = {
 }
 
 mission_thorium_mines_a29 = {
-    global_trade_goods_size_modifier = 0.1
+    trade_goods_size_modifier = 0.25
 }
 
 mission_titanic_origins_a29 = {

@@ -1,14 +1,14 @@
 is_city = yes
-owner = F77
-controller = F77
-add_core = F77
+owner = A41
+controller = A41
+add_core = A41
 
 base_tax = 1
 base_production = 6
 base_manpower = 4
 
-culture = culture_gronn
-religion = earth
+culture = culture_orc
+religion = shamanism
 
 hre = no
 trade_goods = resource_common_metals
@@ -16,8 +16,6 @@ trade_goods = resource_common_metals
 # Fel Conversion
 560.1.1 = {
     religion = fel
-    culture = culture_orc
-    add_core = A41
 }
 
 # Outlandification
@@ -26,4 +24,4 @@ trade_goods = resource_common_metals
     owner = ---
     controller = ---
     remove_core = A41
-} 
+}

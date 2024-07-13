@@ -289,11 +289,6 @@ B92_burning_legion_column_4 = {
                 infantry = ROOT
                 infantry = ROOT
             }
-
-            add_country_modifier = {
-                name = mission_demonic_footholds
-                duration = -1
-            }
 		}
 	}
     

@@ -819,16 +819,6 @@ on_yearly_pulse = {
         wwu_zemlan_pirates.2                        # Zem'lan Revenants - Reduce Ruler Stats - Improved Curse
         wwu_zemlan_pirates.3                        # No access to the curse!
         wwu_zemlan_pirates.4                        # The Undying Zem'lan Curse
-		
-		# Nazmir
-		wwu_nazmir_fungarian_invasion.10			# Fungarian Invasion!
-		wwu_nazmir_fungarian_invasion.11			# Fungarian Driven Out!
-		wwu_nazmir_fungarian_invasion.12			# Defeated by the Fungarian!
-		
-		wwu_nazmir.4								# Fungarian mission reward every 25 years
-		wwu_nazmir.5								# Expedition into nazmir mission reward
-
-		wwu_nazmir.7								# Blood cycle mission reward
         
         # Zandalar 
         wwu_zandalar_rise_of_the_zandalari.1        # The Prophet demands access to the Golden Fleet
@@ -1192,7 +1182,6 @@ on_yearly_pulse_2 = {
         20 = wwu_setup_goblin.1             # Ratchet
         20 = wwu_setup_goblin.2             # Gadgetzan
         20 = wwu_setup_dragonflight.1       # Infinite Dragonflight
-        20 = wwu_setup_teldrassil.1         # Bloodfeather
         
         500 = 0
     }

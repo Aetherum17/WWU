@@ -512,21 +512,6 @@ dragon_aspects_legacy = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
 }
-silithid_lair_legacy = {
-    icon = "crown"
-	legacy_government = yes # legacy_equivalent = despotic_monarchy_legacy
-    
-    monarchy = yes
-  
-	ai = { factor = 1 }
-    
-    valid_for_new_country = yes   
-    allow_normal_conversion = yes 
-	allow_convert = yes           
-    
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
-}
 
 #--------------------------------------------
 # Republic
@@ -1725,23 +1710,6 @@ murloc_tribe_legacy = {
     
     tribal = yes
     
-	ai = { factor = 0 }
-    
-    valid_for_new_country = yes     
-    allow_normal_conversion = yes   
-    allow_convert = yes             
-
-    valid_for_nation_designer = yes
-    nation_designer_cost = 0
-}
-
-gronn_tribe_legacy = {
-    icon = "challenge"
-    legacy_government = yes # legacy_equivalent = warband_legacy
-
-    tribal = yes
-    nomad = yes
-
 	ai = { factor = 0 }
     
     valid_for_new_country = yes     

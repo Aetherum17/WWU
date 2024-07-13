@@ -2,8 +2,6 @@
  #----------------------------------------
  # Warcraft Faction GUI
  #----------------------------------------
- FACTION_DROP_DOWN_MENU_TT: "§YFactions§!\nClick to open the Factions sub-menu."
- 
  # Interface Elements
  warcraft_faction_alliance_faction_title: "The Alliance"
  warcraft_faction_horde_faction_title: "The Horde"

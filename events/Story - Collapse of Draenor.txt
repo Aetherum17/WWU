@@ -770,7 +770,7 @@ country_event = {
 	is_triggered_only = yes
     
 	trigger = {
-        has_global_flag = enabled_draenor_collapse
+        NOT = { has_global_flag = prevent_draenor_collapse }
         NOT = { has_global_flag = setup_outland }
         
         has_global_flag = opened_dimensional_portals
@@ -799,7 +799,11 @@ country_event = {
 	option = {
 		name = wwu_setup_outland.2.option.a
         
-        add_mil_power = -100
+        trigger = {
+            mil_power = 250
+        }
+        
+        add_mil_power = -250
         
         custom_tooltip = DRAENOR_COLLAPSE_DELAYED_TT
         
@@ -835,9 +839,10 @@ country_event = {
         
         trigger = {
             ai = no
+            mil_power = 800
         }
         
-        add_mil_power = -250
+        add_mil_power = -800
         
         custom_tooltip = DRAENOR_COLLAPSE_STOPPED_TT
         

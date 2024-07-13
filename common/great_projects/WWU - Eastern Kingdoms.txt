@@ -1306,8 +1306,8 @@ gp_thoradins_wall = {
             local_defensiveness = 0.5
 		}
 		country_modifiers = {
-            garrison_size = 0.15
-            defensiveness = 0.1
+            hostile_attrition = 1
+            max_hostile_attrition = 1
 		}
 		on_upgraded = {
 			owner = { add_prestige = 10 }
@@ -2766,8 +2766,8 @@ gp_grim_batol = {
             local_defensiveness = 0.5
 		}
 		country_modifiers = {
-			centralize_state_cost = -0.1 
-            state_maintenance_modifier = -0.1
+            hostile_attrition = 1
+            max_hostile_attrition = 1
 		}
 		on_upgraded = {
 			owner = { add_prestige = 10 }
@@ -3786,8 +3786,8 @@ gp_windrunner_spire = {
             local_manpower_modifier = 0.5
 		}
 		country_modifiers = {
-            discipline = 0.05
-            leader_land_manuever = 1
+            hostile_attrition = 1
+            max_hostile_attrition = 1
 		}
 		on_upgraded = {
 			owner = { add_prestige = 10 }

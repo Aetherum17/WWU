@@ -826,10 +826,6 @@ spriteTypes = {
 		name = "GFX_decision_icon_blood_totem_reload"
 		texturefile = "gfx/interface/decision_icons/blood_totem_reload.dds"
 	}
-    spriteType = {
-		name = "GFX_decision_icon_fungarian_slave"
-		texturefile = "gfx/interface/decision_icons/fungarian_slave.dds"
-	}
     # spriteType = {
 		# name = "GFX_decision_icon_"
 		# texturefile = "gfx/interface/decision_icons/XXX.dds"

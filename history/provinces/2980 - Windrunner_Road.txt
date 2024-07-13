@@ -5,7 +5,6 @@ owner = B12
 controller = B12
 add_core = B12
 add_core = A90
-add_core = QL6
 
 base_tax = 1
 base_production = 1

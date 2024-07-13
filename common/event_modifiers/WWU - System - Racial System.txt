@@ -1281,7 +1281,7 @@ jungle_troll_military = {
     war_exhaustion = -0.02
     
     # Debuffs
-    artillery_power = -0.2
+    artillery_fire = -0.2
     yearly_army_professionalism = -0.001
 }
 
@@ -1305,7 +1305,7 @@ forest_troll_military = {
     war_exhaustion = -0.02
     
     # Debuffs
-    artillery_power = -0.2
+    artillery_fire = -0.2
     yearly_army_professionalism = -0.001
 }
 
@@ -1329,7 +1329,7 @@ sand_troll_military = {
     war_exhaustion = -0.02
     
     # Debuffs
-    artillery_power = -0.2
+    artillery_fire = -0.2
     yearly_army_professionalism = -0.001
 }
 
@@ -1355,7 +1355,7 @@ frost_troll_military = {
     war_exhaustion = -0.02
     
     # Debuffs
-    artillery_power = -0.2
+    artillery_fire = -0.2
     yearly_army_professionalism = -0.001
 }
 
@@ -1769,7 +1769,7 @@ blood_troll_military = {
     war_exhaustion = -0.02
     
     # Debuffs
-    artillery_power = -0.2
+    artillery_fire = -0.2
     yearly_army_professionalism = -0.001
 }
 
@@ -1792,7 +1792,7 @@ dark_troll_military = {
     war_exhaustion = -0.02
     
     # Debuffs
-    artillery_power = -0.2
+    artillery_fire = -0.2
     yearly_army_professionalism = -0.001
 }
 

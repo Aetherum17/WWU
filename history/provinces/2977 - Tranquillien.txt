@@ -5,7 +5,6 @@ owner = A90
 controller = A90
 add_core = A59
 add_core = A90
-add_core = QL4
 
 base_tax = 2
 base_production = 1

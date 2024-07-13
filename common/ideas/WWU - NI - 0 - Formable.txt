@@ -1834,12 +1834,12 @@ hlo_ideas = {
 #-----------------------------
 htd_ideas = {
 	start = {
-		development_cost = -0.1
-        culture_conversion_cost = -0.2
+		development_cost = -0.05
+        culture_conversion_cost = -0.15
 	}
     
 	bonus = {
-        extra_manpower_at_religious_war = yes 
+        power_projection_from_insults = 1
 	}
 	
 	trigger = {
@@ -1849,29 +1849,26 @@ htd_ideas = {
 	
 	htd_ideas_1 = {
 		province_warscore_cost = -0.1
-		core_creation = -0.15
 	}
 	htd_ideas_2 = {
-		technology_cost = -0.05
-		idea_cost = -0.05
+		core_creation = -0.2
 	}
 	htd_ideas_3 = {
 		global_missionary_strength = 0.02
-		religious_unity = 10
 	}
 	htd_ideas_4 = {
 		general_cost = -0.1
-        leader_land_shock = 1
+        province_warscore_cost = -0.2
 	}
 	htd_ideas_5 = {
-		warscore_cost_vs_other_religion = -0.15
+		warscore_cost_vs_other_religion = -0.1
 	}
 	htd_ideas_6 = {
-		shock_damage = 0.1
+		shock_damage = 0.05
 	}
 	htd_ideas_7 = {
-		years_of_nationalism = -5
-		liberty_desire_from_subject_development = -0.15
+		unjustified_demands = -0.5
+		inflation_reduction = 0.2
 	}
 }
 

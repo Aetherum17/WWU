@@ -58,7 +58,7 @@ mission_capital_city_fs = {
 }
 
 mission_home_sweet_home = {
-    global_manpower_modifier = 0.2
+    local_manpower_modifier = 0.5
 }
 
 mission_end_of_war_for_survival = {
@@ -75,7 +75,7 @@ mission_break_the_gilnean_wall = {
 }
 
 mission_new_forsaken = {
-    global_regiment_recruit_speed = -0.15
+    land_forcelimit_modifier = 0.1
 }
 
 mission_destroy_the_castle_of_wood = {

@@ -45,17 +45,6 @@
  
  scourge_vassal_subject: "Scourge Subject"
  scourge_vassal_bonus: "Scourge Overlord"
-
- # Silithid Hive
- silithid_hive: "Silithid Hive"
- silithid_hive_title: "Silithid Hive"
- silithid_hive_plural: "Silithid Hives"
- silithid_hive_title_plural: "Silithid Hives"
- silithid_hive_is_our: "Silithid Hive"
- silithid_hive_long_desc: "A subserviant hive under domain of Anh'Qiraj."
-
- silithid_hive_subject: "Silithid Subject"
- silithid_hive_bonus: "Silithid Overlord"
  
  # Modifiers
  union_subject: "Union Subject" 

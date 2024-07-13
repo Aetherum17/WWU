@@ -4,7 +4,6 @@ is_city = yes
 owner = A90
 controller = A90
 add_core = A90
-add_core = QL2
 
 base_tax = 1
 base_production = 1

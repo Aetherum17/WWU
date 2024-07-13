@@ -1,6 +1,20 @@
 #----------------------------------------------
 # Missions
 #----------------------------------------------
+mission_hozen_fury = {
+    morale_damage = 0.2
+}
+
+mission_apes_together_strong = {
+    infantry_power = 0.05
+}
+
+mission_goblin_equipment = {
+    infantry_cost = -0.1
+}
+
+### NEW ###
+
 mission_saltfur_alliance = {
     diplomatic_reputation = 1
     improve_relation_modifier = 0.2
@@ -30,7 +44,7 @@ mission_kunza_unified = {
     development_cost = -0.1
     colonists = 1
     global_colonial_growth = 20
-    global_tax_modifier = 0.15
+    tax_income = 72
 }
 
 mission_settling_islands = {
@@ -47,14 +61,8 @@ mission_colonial_rush = {
 }
 
 mission_hozen_admirality = {
-    republican_tradition = 0.5
-    global_ship_cost = -0.25
-    naval_maintenance_modifier = -0.15
-}
-
-mission_hozen_admirality_alt = {
-    capture_ship_chance = 0.1
-    naval_forcelimit_modifier = 0.15
+    capture_ship_chance = 0.15
+    naval_maintenance_modifier = -0.1
 }
 
 mission_monkey_rule_zandalar = {
@@ -92,22 +100,4 @@ mukla_subdued = {
 mukla_embraced = {
     land_morale = 0.1
     army_tradition = 1
-}
-
-mission_kunza_flagship = {
-    max_flagships = 1
-    leader_naval_fire = 1
-}
-
-mission_allow_raids = {
-    may_perform_slave_raid_on_same_religion = yes
-}
-
-event_august_power = {
-    religious_unity = 0.2
-    tolerance_own = 1
-}
-
-mission_privateering = {
-    privateer_efficiency = 0.2
 }

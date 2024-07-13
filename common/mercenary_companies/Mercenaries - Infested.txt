@@ -6,7 +6,7 @@ wwu_specialist_infested_1_1 = {
     regiments_per_development = 0.10
     cavalry_weight = 0.0
     artillery_weight = 0.0
-    cost_modifier = 1.25
+    cost_modifier = 1.5
 	sprites = { sprite_pack_botani }
     
     trigger = {
@@ -24,7 +24,7 @@ wwu_specialist_infested_1_2 = {
     regiments_per_development = 0.075
     cavalry_weight = 0.0
     artillery_weight = 0.0
-    cost_modifier = 1
+    cost_modifier = 1.25
 	sprites = { sprite_pack_botani }
     
     trigger = {
@@ -42,7 +42,7 @@ wwu_specialist_infested_1_3 = {
     regiments_per_development = 0.05
     cavalry_weight = 0.0
     artillery_weight = 0.0
-    cost_modifier = 0.75
+    cost_modifier = 1.0
 	sprites = { sprite_pack_botani }
     
     trigger = {

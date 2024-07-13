@@ -90,17 +90,18 @@ A29_ironforge_column_2 = {
 		
 		trigger = {
 			is_subject = no
+		    is_at_war = no
 			if = {
 				limit = {
 					has_estate = estate_nobility
 				}
 				estate_influence = {
 					estate = estate_nobility
-					influence = 60
+					influence = 50
 				}
 				estate_loyalty = {
 					estate = estate_nobility
-					loyalty = 65
+					loyalty = 60
 				}
 			}
 		}
@@ -122,15 +123,6 @@ A29_ironforge_column_2 = {
 			}
 			area_frostmane_hills = {
 				add_permanent_claim = ROOT
-			}
-
-			define_general = {
-				shock = 5
-				fire = 1
-				manuever = 2
-				siege = 2
-				name = "Grim Thunderbrew, The Mountain King"
-				female = no
 			}
 		}
 	}

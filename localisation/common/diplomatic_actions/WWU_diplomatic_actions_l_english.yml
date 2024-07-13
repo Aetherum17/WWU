@@ -9,13 +9,6 @@
  request_aid_tributary_vassal_tooltip: "Request that our tributary subject join us in our current war."
  request_aid_tributary_vassal_dialog: "Request that our tributary subject join us in our current war."
  request_aid_tributary_tooltip: "Request Subject Aid"
-
- request_aid_silithid_hive: "Request Subject Aid"
- request_aid_silithid_hive_title: "Request Subject Aid"
- request_aid_silithid_hive_desc: "Request Subject Aid will have the following effect:\n\n§Y[From.GetName]§! will consider whether they should join us in our current war."
- request_aid_silithid_hive_tooltip: "Request that our subservient hive join us in our current war."
- request_aid_silithid_hive_dialog: "Request that our subservient hive join us in our current war."
- request_aid_silithid_tooltip: "Request Subject Aid"
  
  # --- Influence
  teleport_army: "Teleport Army"

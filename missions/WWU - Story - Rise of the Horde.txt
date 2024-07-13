@@ -126,7 +126,7 @@ wwu_rise_of_the_horde_column_3 = {
         
 		trigger = {
             OR = {
-                hidden_trigger = {
+                hidden_trigger = [
                     has_global_flag = allow_messenger_from_nerzhul
                 }
                 A34 = {
@@ -149,7 +149,7 @@ wwu_rise_of_the_horde_column_3 = {
         
 		trigger = {
             OR = {
-                hidden_trigger = {
+                hidden_trigger = [
                     has_global_flag = allow_acceptance_of_warlocks
                 }
                 A34 = {

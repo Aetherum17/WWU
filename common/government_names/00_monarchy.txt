@@ -1275,26 +1275,3 @@ gov_alterac_kingdom = {
         has_reform = alterac_kingdom_reform
 	}
 }
-gov_silitihid_lair = {
-	rank = {
-		1 = GOV_SILITIHID_LAIR
-        2 = GOV_SILITIHID_LAIR
-        3 = GOV_SILITIHID_LAIR
-	}
-	
-	ruler_male = {
-		1 = GOV_SILITHRID_OVERLORD
-        2 = GOV_SILITHRID_OVERLORD
-        3 = GOV_SILITHRID_OVERLORD
-	}
-	
-	ruler_female = {
-		1 = GOV_SILITHRID_BROODQUEEN
-        2 = GOV_SILITHRID_BROODQUEEN
-        3 = GOV_SILITHRID_BROODQUEEN
-	}
-	
-	trigger = {
-        has_reform = silithid_lair_reform
-	}
-}

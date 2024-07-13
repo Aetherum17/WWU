@@ -252,7 +252,7 @@ is_historical_horde_member = {
             tag = P36 # Tushui Order
         }
     }
-    else = 
+    else
     {
         OR = {
             tag = B88 # Shadow Council

@@ -25,7 +25,6 @@ capital 			= 953
         arcane = yes
     }
     
-    set_ruler_flag = mage_personality
     set_ruler_flag = ruler_portrait_aegwynn
     set_ruler_flag = is_immortal
 } 
@@ -48,7 +47,6 @@ capital 			= 953
 
     religion = fel 
     
-    set_ruler_flag = warlock_personality
     set_ruler_flag = ruler_portrait_medivh
     set_ruler_flag = is_immortal
 }
@@ -69,7 +67,6 @@ capital 			= 953
         fel = yes
     }
     
-    set_ruler_flag = warlock_personality
     set_ruler_flag = ruler_portrait_malchezaar
     set_ruler_flag = is_immortal
     

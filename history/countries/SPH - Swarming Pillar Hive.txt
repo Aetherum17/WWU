@@ -1,10 +1,9 @@
 
 # Centipaar
 government              = monarchy
-add_government_reform   = silithid_lair_reform
+add_government_reform   = aqir_kingdom_reform
 
 mercantilism 		= 10
-government_rank 	= 1
 technology_group 	= tech_qiraji
 religion			= cthun
 primary_culture 	= culture_silithid
@@ -12,15 +11,4 @@ capital 			= 1514
 
 # Default Estate privileges
 set_estate_privilege = estate_nobility_scarab_commander
-
-546.1.1 = {
-    monarch = {
-        name = "Silithid"
-        dynasty = "Swarmer"
-        adm = 2
-        dip = 2
-        mil = 2
-    }
-    add_ruler_personality = ruthless_personality
-}
 

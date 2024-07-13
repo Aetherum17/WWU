@@ -32,12 +32,12 @@ capital 			= 2469
         MANA = 5
         voodoo = yes
     }
-	
-	add_country_modifier = {
-		name = powerful_zandalar_loa_blessing
-		duration = -1
-	}
 } 
+
+add_country_modifier = {
+    name = powerful_zandalar_loa_blessing
+    duration = -1
+}
 
 620.1.1 = {
 	heir = {

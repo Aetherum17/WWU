@@ -10245,7 +10245,7 @@ chaos_rebels = {
 	}
 
 	# Localisation for their demands
-	demands_description = "chaos_rebels_demand"
+	demands_description = "chaos_demand"
 
 	# Country Scope
 	demands_enforced_effect = {

@@ -610,7 +610,7 @@ A08_lordaeron_column_5 = {
 				}
 				AND = {
 					OR = {
-						A08 = { is_rival = ROOT }
+						is_rival = yes
 						ai_attitude = {
 							who = A08
 							attitude = attitude_hostile
@@ -635,7 +635,7 @@ A08_lordaeron_column_5 = {
 				limit = {
 					A08 = {
 						OR = {
-							NOT = { war_with = A18 }
+							NOT = { at_war_with = A18 }
 							ai_attitude = {
 								who = A08
 								attitude = attitude_hostile

@@ -527,9 +527,8 @@
  #-----------------------------------------------
  # Form Demonic Formables
  #-----------------------------------------------
- demonic_invasion_force_formation_menu_title: "[DI_golden_crown] Demon Invasion Force Formation Menu"
- demonic_invasion_force_formation_menu_desc: "Use it to open and close the formable menu"
- 
+ decision_diff_menu_open_title: "[DI_golden_crown] Demon Invasion Force Formation Menu"
+ decision_diff_menu_open_desc: "Use it to open and close the formable menu"
  dem_inv_force_menu_open: "Demonic Invasion Force Menu Open"
  summoned_demonic_invasion_force: "Summoned Demonic Invasion Force"
  

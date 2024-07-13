@@ -163,20 +163,20 @@ guiTypes = {
 		guiButtonType = {
 			name ="messageicon_bg"
 			quadTextureSprite = "GFX_messageicon_bg"
-			position = { x= 10 y = 58 }
+			position = { x= 10 y = 35 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "diplomessageicon_button"
-			position = { x = 20 y = 68 }
+			position = { x = 20 y = 45 }
 			quadTextureSprite ="GFX_messageicons"	
 		}
 
 		guiButtonType = {
 			name ="diplo_flag_overlay"
 			quadTextureSprite = "GFX_flag_smallest"
-			position = { x= 24 y = 97 }
+			position = { x= 24 y = 74 }
 			Orientation = "UPPER_LEFT"
 		}			
 	}

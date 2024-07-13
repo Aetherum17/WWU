@@ -11,10 +11,6 @@ bookmark =
 	date = 546.1.1
     
     country = STW
-    country = A29
-    country = A14
-    country = A16
     country = A41
     country = A34
-    country = OGR
 }

@@ -41,24 +41,6 @@ zandalar_trap_3 = {
 zandalar_trap_4 = {
     picture = "troll_scorpion"
 }
-zandalar_trap_5 = {
-    picture = "troll_fungarian_main_base"
-}
-
-# Fungarians provinces
-zandalar_fungarian_good = {
-    picture = "troll_fungarian_good"
-    local_tax_modifier = 0.1
-    local_production_efficiency = 0.1
-    local_manpower_modifier = 0.2
-    min_autonomy = 10
-}
-zandalar_fungarian_bad = {
-    picture = "troll_fungarian_bad"
-    trade_goods_size = 0.5
-    land_forcelimit = 1
-    local_unrest = 2
-}
 
 # Modifiers
 zandalar_loa_blessing = {

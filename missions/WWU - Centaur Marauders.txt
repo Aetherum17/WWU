@@ -98,7 +98,7 @@ H04_cen_mar_column_1 = {
         }
 
         effect = {
-            add_adm_power = -100
+            add_mil_power = -100
             add_dip_power = -100
             add_mil_power = -100
 

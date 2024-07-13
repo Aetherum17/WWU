@@ -1,0 +1,34 @@
+is_city = yes
+owner = F57
+controller = F57
+add_core = F57
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+culture = culture_ogre
+religion = arcane
+
+hre = no
+trade_goods = resource_common_fish
+
+# Orc Conflicts
+590.1.1 = {
+    remove_core = F57
+    
+    owner = A38
+    controller = A38
+    add_core = A38
+    
+    culture = culture_orc
+    religion = fel
+}
+
+# Outlandification
+600.1.1 = {
+    
+    owner = ---
+    controller = ---
+    remove_core = A38
+}

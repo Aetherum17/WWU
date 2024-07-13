@@ -1,15 +1,14 @@
 is_city = yes
-owner = F77
-controller = F77
+owner = SMS
+controller = SMS
 add_core = SMS
-add_core = F77
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_gronn
-religion = earth
+culture = culture_saberon
+religion = shamanism
 
 hre = no
 trade_goods = resource_common_ores
@@ -32,4 +31,4 @@ trade_goods = resource_common_ores
     owner = ---
     controller = ---
     remove_core = A41
-} 
+}

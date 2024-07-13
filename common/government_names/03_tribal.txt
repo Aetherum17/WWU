@@ -692,27 +692,3 @@ gov_murloc_tribe = {
         has_reform = murloc_tribe_reform
 	}
 }
-
-gov_gronn_tribe = {
-	rank = {
-		1 = GOV_GRONN_TRIBE
-		2 = GOV_GRONN_TRIBE
-		3 = GOV_GRONN_TRIBE
-	}
-	
-	ruler_male = {
-		1 = GOV_CHIEF
-        2 = GOV_CHIEF
-        3 = GOV_CHIEF
-	}
-	
-	ruler_female = {
-		1 = GOV_CHIEFESS
-        2 = GOV_CHIEFESS
-        3 = GOV_CHIEFESS
-	}
-	
-	trigger = {
-        has_reform = gronn_tribe_reform
-	}
-}

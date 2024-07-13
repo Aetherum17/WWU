@@ -579,44 +579,6 @@ custom_button = {
     }
 }
 
-# Draenor Collapse
-custom_button = {
-    name = button_draenor_collapse_OFF
-    tooltip = draenor_collapse_TT
-    
-    potential = {
-        NOT = { has_global_flag = enabled_draenor_collapse }
-    }
-    
-    trigger = { 
-        hidden_trigger = {
-            always = yes
-        }
-    }
-    
-    effect = { 
-        toggle_feature = { FLAG = draenor_collapse }
-    }
-}
-custom_button = {
-    name = button_draenor_collapse_ON
-    tooltip = draenor_collapse_TT
-    
-    potential = {
-        has_global_flag = enabled_draenor_collapse
-    }
-    
-    trigger = { 
-        hidden_trigger = {
-            always = yes
-        }
-    }
-    
-    effect = { 
-        toggle_feature = { FLAG = draenor_collapse }
-    }
-}
-
 # Eastern Kingdoms
 custom_button = {
     name = button_eastern_kingdoms_OFF

@@ -6,7 +6,7 @@ mercantilism 		= 10
 technology_group 	= tech_orc
 primary_culture 	= culture_orc
 religion			= shamanism
-capital 			= 5576
+capital 			= 3831
 
 # Draenor
 546.1.1 = {
@@ -17,11 +17,7 @@ capital 			= 5576
         dip = 3
         mil = 2
         birth_date = 470.1.1
-        religion = ogre_idolatry
-        culture = culture_ogre
     }
-
-    add_ruler_personality = cruel_personality
 }
 
 # Fel Conversion

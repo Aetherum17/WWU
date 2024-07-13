@@ -430,8 +430,6 @@ country_event = {
 ##########################
 ### Missions Anh'Qiraj ###
 ##########################
-
-# Fate of Cho'gall
 country_event = {
     id = wwu_aqir.100
     title = wwu_aqir.100.title
@@ -451,7 +449,7 @@ country_event = {
             define_ruler = {
                 name = "Cho'gall"
                 dynasty = "the Empowered"
-                age = 35
+                age = 75
                 claim = 100
                 adm = 7
                 dip = 7
@@ -478,8 +476,8 @@ country_event = {
 
         A43 = {
             define_ruler = {
-                name = "Twilight Father"
-                dynasty = "of Twilight"
+                name = "Twilight"
+                dynasty = "Father"
                 claim = 100
                 adm = 5
                 dip = 5
@@ -493,7 +491,6 @@ country_event = {
     }
 }
 
-# Corruption of Caverns of Time
 # Called for KOT - Keepers of Time
 country_event = {
     id = wwu_aqir.101
@@ -590,7 +587,6 @@ country_event = {
     }
 }
 
-# Fate of Zul'Farrak
 country_event = {
     id = wwu_aqir.102
     title = wwu_aqir.102.title
@@ -689,7 +685,6 @@ country_event = {
     }
 }
 
-# Corruption of Lethon's Brood
 country_event = {
     id = wwu_aqir.103
     title = wwu_aqir.103.title
@@ -704,6 +699,11 @@ country_event = {
 
     option = {
         name = wwu_aqir.103.option.a
+
+        if = {
+            limit = {
+                exists = GD2
+            }
             
             create_subject = {
                 subject_type = vassal
@@ -724,6 +724,7 @@ country_event = {
 
                 white_peace = A97
             }
+        }
                 
         ai_chance = {
             factor = 100
@@ -731,7 +732,9 @@ country_event = {
     }
 }
 
-# The Fall of Feathermoon Stronghold
+#############################
+### Sentinel Hidden Event ###
+#############################
 country_event = {
     id = wwu_aqir.104
     title = wwu_aqir.104.title
@@ -756,7 +759,6 @@ country_event = {
     }
 }
 
-# Empire of the Shifting Sands
 country_event = {
     id = wwu_aqir.105
     title = wwu_aqir.105.title
@@ -782,53 +784,78 @@ country_event = {
     }
 }
 
-# AI HELPERS
+###############
+### AI SKIP ###
+###############
 
-# Corrupt the Caverns of Time Helper
-country_event = {
-    id = wwu_aqir.200
-    title = wwu_aqir.200.title
-    desc = wwu_aqir.200.desc
-    picture = CTHUN_CLOSEUP_eventPicture
+# Those events are not called from anywhere
 
-    is_triggered_only = yes
-
-    option = {
-        name = wwu_aqir.200.option.a
-
-        declare_war_with_cb = {
-            who = KOT
-            casus_belli = cb_merciless_war
-        }
-
-        add_spy_network_in = {
-            who = KOT
-            value = 75
-        }
-    }
-}
-
-# Corruption of Lethon Helper
-country_event = {
-    id = wwu_aqir.200
-    title = wwu_aqir.200.title
-    desc = wwu_aqir.200.desc
-    picture = CTHUN_CLOSEUP_eventPicture
-
-    is_triggered_only = yes
-
-    option = {
-        name = wwu_aqir.200.option.a
-
-        declare_war_with_cb = {
-            who = GD2
-            casus_belli = cb_merciless_war
-        }
-
-        add_spy_network_in = {
-            who = GD2
-            value = 75
-        }
-    }
-}
+#country_event = {
+#    id = wwu_aqir.200
+#    title = wwu_aqir.200.title
+#    desc = wwu_aqir.200.desc
+#    picture = SCARAB_eventPicture
+#
+#    is_triggered_only = yes
+#
+#    mean_time_to_happen = {
+#        days = 1
+#    }
+#
+#    trigger = {
+#        A97 = {
+#            ai = yes
+#            OR = {
+#                has_opinion = {
+#                    who = PAQ
+#                    value = 125
+#                }
+#                has_spy_network_in = {
+#                    who = PAQ
+#                    value = 20
+#                }
+#            }
+#        }
+#    }
+#
+#    option = {
+#        name = wwu_aqir.200.option.a
+#
+#        inherit = PAQ
+#    }
+#}
+#
+#country_event = {
+#    id = wwu_aqir.201
+#    title = wwu_aqir.201.title
+#    desc = wwu_aqir.201.desc
+#    picture = SCARAB_eventPicture
+#
+#    is_triggered_only = yes
+#
+#    fire_only_once = yes
+#
+#    mean_time_to_happen = {
+#        days = 1
+#    }
+#
+#    trigger = {
+#        A97 = {
+#            ai = yes
+#            mission_completed = A97_awaken_the_qiraji
+#        }
+#    }
+#
+#    option = {
+#        name = wwu_aqir.201.option.a
+#
+#        A97 = {
+#            add_casus_belli = {
+#                target = H03
+#                type = cb_vassalize_mission
+#                months = 300
+#            }
+#        }
+#    }
+#}
 

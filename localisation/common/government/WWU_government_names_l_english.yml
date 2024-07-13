@@ -37,7 +37,6 @@
  GOV_KINGDOM_OF_LORDAERON: "Kingdom of Lordaeron"
  GOV_KINGDOM_OF_ALTERAC: "Kingdom of Alterac"
  GOV_DRAGON_ASPECTS: "Council of the Dragon Aspects"
- GOV_SILITIHID_LAIR: "Silithrid Lair"
  
  # Republic
  GOV_REPUBLIC: "Republic"
@@ -106,7 +105,6 @@
  GOV_ASHTONGUE_COMMAND: "Ashtongue Command"
  GOV_COILSKAR_COMMAND: "Coilskar Command"
  GOV_COILFANG_COMMAND: "Coilfang Command"
- GOV_THE_PERFECT_ONES: "The Centaur Order"
  
  # Tribal
  GOV_CLAN: "Clan"
@@ -137,6 +135,5 @@
  GOV_KRAUL: "Kraul"
  GOV_VRYKUL_CLAN: "Vrykul Clan"
  GOV_MURLOC_CLAN: "Murloc Clan"
- GOV_GRONN_TRIBE: "Gronn Tribe"
  
  

@@ -356,17 +356,6 @@ close_all_topbar_windows = {
     close_horde_gui = yes
     close_trade_coalition_gui = yes
     close_dragon_aspects_gui = yes
-    
-    close_faction_dropdown_menu = yes
-}
-
-# Faction Dropdown Menu
-open_faction_dropdown_menu = {
-    hidden_effect = { set_country_flag = gui_flag__faction_dropdown_menu }
-}
-
-close_faction_dropdown_menu = {
-    hidden_effect = { clr_country_flag = gui_flag__faction_dropdown_menu }
 }
 
 # Ruler Information Panel

@@ -14,6 +14,3 @@ ai_handler__mission_switch_timer = { }
 
 # Features
 ai_handler__army_teleport_timer = { }
-
-# Decisions
-ai_handler__demonic_invasion_force_formation_menu = { }

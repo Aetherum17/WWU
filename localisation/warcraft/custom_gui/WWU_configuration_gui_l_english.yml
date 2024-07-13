@@ -53,9 +53,6 @@
  button_balance_of_power_system_ON: "Balance of Power"
  button_balance_of_power_system_OFF: "Balance of Power"
  
- button_draenor_collapse_ON: "Collapse of Draenor"
- button_draenor_collapse_OFF: "Collapse of Draenor"
- 
  button_eastern_kingdoms_ON: "Eastern Kingdoms"
  button_eastern_kingdoms_OFF: "Eastern Kingdoms"
  
@@ -118,7 +115,6 @@
  
  balance_of_power_system_TT: "§YBalance of Power§!\nThis system makes it more difficult to maintain high Prestige, Army Tradition and Navy Tradition as a nation grows in size and strength."
  
- draenor_collapse_TT: "§YCollapse of Draenor§!\nEnabling the Collapse of Draenor will allow the conversion of Draenor into Outland if Dimensional Portals are opened."
  
  # Features
  racial_modifiers_TT: "§YRacial Modifiers§!\nThis system grants each 'racial' group bonuses and detriments based on their administration and military structures."

@@ -1,65 +1,7 @@
 ﻿l_english:
  # --- Missions ---
- NAZ_nazmir_column_1: ""
- NAZ_nazmir_column_2: ""
- NAZ_nazmir_column_3: ""
  NAZ_nazmir_column_4: ""
  NAZ_nazmir_column_5: ""
-
- NAZ_one_two_title: "Colonization of provinces"
- NAZ_one_two_desc: "As we conquer the uninhabited lands of Nazmir, we need to start developing them to start being useful to our tribe!"
-
- NAZ_one_three_title: "Provincial expansion"
- NAZ_one_three_desc: "As we conquer the uninhabited lands of Nazmir, we need to start developing them to start being useful to our tribe!"
-
- NAZ_one_four_title: "Expanded expansion"
- NAZ_one_four_desc: "As we conquer the uninhabited lands of Nazmir, we need to start developing them to start being useful to our tribe!"
-
- NAZ_one_five_title: "Leap forward industries!"
- NAZ_one_five_desc: "Our tribe sent all the men to work in improving what we already have. Thanks to this we will be able to match the Zandalar."
-
- NAZ_two_three_title: "Small sacrifices"
- NAZ_two_three_desc: "To get help from our God whom we worship, our tribe must commit specific sacrifices."
-
- NAZ_two_four_title: "Border defense"
- NAZ_two_four_desc: "The Zandalar Empire that emerges from the crisis will take us as a target. We need to get ready!"
-
- NAZ_two_five_title: "Toxic environment"
- NAZ_two_five_desc: "The traps set by us, along with the hostile environment on Nazmir, gives a great defense whose techniques we can use everywhere else."
-
- NAZ_three_one_title: "First sacrifice"
- NAZ_three_one_desc: "The first sacrifice was sacrificed in the name of our god!"
-
- NAZ_three_two_title: "Systematic sacrifices"
- NAZ_three_two_desc: "Sacrifices made to our god should be made systematically, so that our god does not get upset."
-
- NAZ_three_three_title: "Medium sacrifices"
- NAZ_three_three_desc: "To get help from our God whom we worship, our tribe must commit specific sacrifices."
-
- NAZ_three_four_title: "Increasing the number of sacrifices"
- NAZ_three_four_desc: "Pick up the pace! Our god gives us great power for making sacrifices!"
-
- NAZ_three_six_title: "Nazmir unification"
- NAZ_three_six_desc: "The tribes of bloody trolls have been united, the time of trolls is coming, the time of bloody trolls! Get ready the higher-ups of Zandalar, here we come!"
-
- NAZ_four_three_title: "Big sacrifices"
- NAZ_four_three_desc: "To get help from our God whom we worship, our tribe must commit specific sacrifices."
-
- NAZ_five_one_title: "Preparing for a cataclysmic event"
- NAZ_five_one_desc: "The prophet Zul of Zandalar predicted that the earth would shake and an unimaginable cataclysm would fall on the entire island. We must prepare for it."
-
- NAZ_five_two_title: "Mushroom wars"
- NAZ_five_two_desc: "To get all of Nazmir for yourself, it is important to deal with natives living here."
-
- NAZ_five_three_title: "Mushrooms in shackles"
- NAZ_five_three_desc: "We will use Fungarians to fight against ourselves with our blood magic."
-
- NAZ_five_four_title: "Preparing for the final clash"
- NAZ_five_four_desc: "Soon there will be a final showdown over who will dominate Nazmir, we need to get ready!"
-
- NAZ_five_five_title: "Mushroom soup"
- NAZ_five_five_desc: "After winning the war, we must decide how we will deal with the losers. What will be most beneficial to us?"
-
 
  # --- Core Events ---
  wwu_nazmir.1.title: "First Blood Matron"
@@ -69,49 +11,7 @@
  wwu_nazmir.2.title: "Sacrificial Altar"
  wwu_nazmir.2.desc: "Deep in the swamps, the blood troll village of [Root.Capital.GetCapitalName] is terrifying. A sacrificial altar was built in its heart, a place of dark rituals and bloody offerings to G'huun.\nG'huun's followers, the blood trolls, prepare for a ceremony that will bring them the power and favor of their cruel god. Enemies of the cult, caught in constant conflict, are to be sacrificed so that their screams and suffering may be a tribute to G'huun. But it's not just the enemies that will be sacrificed; also the men of the tribe will have the "honor" to join their opponents on the altar."
  wwu_nazmir.2.op1: "Bring the victims!"
-
- wwu_nazmir.4.title: "Fate of minor races"
- wwu_nazmir.4.desc: "Let the minor races, give us back what they promised! Let them be happy that they are still alive and can serve our bloody god!"
- wwu_nazmir.4.op1: "Great, let them give us what they have"
-
- wwu_nazmir.3.title: "Fate of Fungarians"
- wwu_nazmir.3.desc: "Exhausted and defeated, the Fungarians await imminent judgment from the bloodthirsty trolls. Their former abodes, once full of life, now lie in ruins. The Fungarians have died in battle. Their warriors, wounded and weary, sit in a circle, awaiting the bloody trolls. Their eyes show fear and resignation. The bloody trolls approach, their bodies covered with bloody marks. They invoke dark powers, and their eyes glow ominously. Judgment is imminent."
- wwu_nazmir.3.op1: "To the mushroom plantations!"
- wwu_nazmir.3.op2: "Give them autonomy"
-
- wwu_nazmir.5.title: "Method of extracting raw materials"
- wwu_nazmir.5.desc: "Along with the change in method, the speed of resource extraction will change. Let's keep this in mind, maybe it is better to pay more now to have more benefits later?"
- wwu_nazmir.5.op1: "Advanced method"
- wwu_nazmir.5.op2: "Normal method"
-
- wwu_nazmir.6.title: "Trade good in the province"
- wwu_nazmir.6.desc: "Deep within the heart of Nazmir, the blood trolls find themselves at a crossroads. Their once-abundant province harbors a wealth of resources, but they grapple with uncertainty over which path to take. Gathered around a moss-covered council stone, the Blood Martron debate her options with elders."
- wwu_nazmir.6.op1: "We are going to extract oil!"
- wwu_nazmir.6.op2: "We are going to extract artefacts!"
- wwu_nazmir.6.op3: "We are going to extract fossil!"
- wwu_nazmir.6.op4: "We are going to extract wood!"
-
- wwu_nazmir.7.title: "Blood Cycle"
- wwu_nazmir.7.desc: "In the dark depths of the Nazmir forests, the blood trolls pay homage to their mighty deity, G'huun. With each Blood Cycle, the trolls gather at an ancient temple where the altar is covered in dry earth and charred bones. Under the veil of night, when stars illuminate the sky, the ritual begins. The blood trolls bring their offerings: freshly harvested hearts of men, blood from wounds, and sometimes even their own fingers. They believe that their suffering and bloody tributes strengthen Ghuun. In return, they seek his favor and protection against enemies."
- wwu_nazmir.7.op1: "Bring the sacrifices!"
-
- wwu_nazmir.8.title: "Ai helper"
- wwu_nazmir.8.desc: ""
- wwu_nazmir.8.op1: "Yes!"
-
- # --- Fungarians Events ---
- wwu_nazmir_fungarian_invasion.10.title: "Fungarians uprising!"
- wwu_nazmir_fungarian_invasion.10.desc: "Fungarians, a unique race of sentient mushroom people, inhabit the same marshy lands. Their fungal society thrives amidst the damp foliage, but the arrival of the blood trolls has disrupted their peaceful existence. The Fungarian spore warriors—swift, silent, and deadly—ambush blood troll patrols. They sabotage voodoo rituals, disrupt supply lines, and free captive Fungarians"
- wwu_nazmir_fungarian_invasion.10.option.a: "Make mushroom soup out of them"
-
- wwu_nazmir_fungarian_invasion.11.title: "Victory over the Fungarians"
- wwu_nazmir_fungarian_invasion.11.desc: "The blood trolls adapted their tactics. They set traps in the marshes, ensnaring unsuspecting Fungarian scouts. Many Fungarians fled deeper into the swamp, seeking refuge in hidden caverns and hollowed-out tree trunks. Their once-proud society fractured, and hope dwindled like a dying ember."
- wwu_nazmir_fungarian_invasion.11.option.a: "Put them to work!"
-
- wwu_nazmir_fungarian_invasion.12.title: "Defeat against Fungarians"
- wwu_nazmir_fungarian_invasion.12.desc: "The Fungarians tapped into their unique fungal abilities. Their mycelial networks connected every spore warrior, allowing them to share thoughts, strategies, and even memories. As one, they coordinated attacks and outmaneuvered the blood trolls. As the blood trolls retreated, the swamp responded. Fungal blooms erupted, painting the landscape in vibrant hues. Bioluminescent mushrooms carpeted the ground, and the air hummed with life."
- wwu_nazmir_fungarian_invasion.12.option.a: "Where's our soup?"
-
+ 
  # --- Totem Events ---
  
  wwu_blood_totem.1.title: "Menu of sacrifices"
@@ -131,103 +31,18 @@
  nazmir_blood_totem_reload_decision_title: "[DI_blood_totem_reload] Reload possible sacrifices"
  nazmir_blood_totem_reload_decision_desc: "Let's find other ways to strengthen our god"
 
- nazmir_colonize_fungarians_decision_title: "[DI_fungarian_slave] Colonize the areas of Fungarians"
- nazmir_colonize_fungarians_decision_desc: "Gotta Catch 'Em All!"
-
  # -- Tooltips --
- event_1_tooltip: "The remaining tribes become autonomous §YLesser blood matron§! subjects. They won't help you in wars unless an event forces them to. You can integrate them by completing your mission tree.\n\nThe §Ydecision§! to build a Sacrificial Altar is unlocked."
+ event_1_tooltip: "The remaining tribes become autonomous §YLesser blood matron§! subjects. They will use for their missions the amount of blood of their overlord so they will be able to complete missions on their own, but it is you who will §Yintegrate§! them on the path to uniting §YNazmir§! through the final mission.\n\nThe §Ydecision§! to build a Sacrificial Altar is unlocked."
  
  event_2_tooltip: ""
-
- event_5_tooltip_a: "The province will get an additional modifier to trade goods."
  
  decision_2_nazmir_tooltip: "Current blood amount: §Y[This.nazmir_blood.GetValue]§!£blood£\nCurrent small sacrifices amount: §Y[This.nazmir_small.GetValue]§!\nCurrent medium sacrifices amount: §Y[This.nazmir_medium.GetValue]§!\nCurrent big sacrifices amount: §Y[This.nazmir_big.GetValue]§!\n\nOpen the offering menu."
  
  decision_3_nazmir_tooltip: "\nRandomize new sacrificials for §Ysmall§! normal, §Ymedium§! normal and §Yhard§! normal options.\n\nRemove the cooldown from taking every sacrificial.\n\nRemove the cooldown from taking §YBlood Curse§!."
  
- nazmir_blood_5_check: "Have at least §Y5§!£blood£"
-
- nazmir_blood_10_check: "Have at least §Y10§!£blood£"
-
- nazmir_blood_15_check: "Have at least §Y15§!£blood£"
-
- nazmir_blood_20_check: "Have at least §Y20§!£blood£"
-
- nazmir_blood_25_check: "Have at least §Y25§!£blood£"
-
- nazmir_blood_30_check: "Have at least §Y30§!£blood£"
-
- nazmir_small_1_check: "§Y1§! small sacrifices was made."
-
- nazmir_small_3_check: "§Y3§! small sacrifices were made."
-
- nazmir_small_4_check: "§Y4§! small sacrifices were made."
-
- nazmir_medium_1_check: "§Y1§! medium sacrifices was made."
-
- nazmir_medium_3_check: "§Y3§! medium sacrifices were made."
-
- nazmir_medium_4_check: "§Y4§! medium sacrifices were made."
-
- nazmir_big_1_check: "§Y1§! big sacrifices was made."
-
- nazmir_big_3_check: "§Y3§! big sacrifices were made."
-
- nazmir_big_4_check: "§Y4§! big sacrifices were made."
-
- nazmir_blood_1_check_any: "Any sacrifice has been made."
-
- nazmir_unlock_colonization_1_tooltip: "The decision to colonize provinces belonging to the §YFungarians§! in §YNazmir§! has been unlocked."
-
- nazmir_mission_zandalari_cataclysm_a: "Completed the Cataclism disaster"
-
- nazmir_mission_zandalari_cataclysm_b: "If Zandalar has Cataclysm disaster then:\n  All owned provinces in §YZandalar Subcontinent§!:\n    Change Devastation by §G-50%§!\n    Remove province modifier: §YAffected by the Cataclysm§!\n\nIf Zandalar has completed the Cataclysm disaster or does not exist:\n  Gain §G100§!£adm£ power.\n  Gain §G100§!£dip£ power.\n  Gain §G100§!£mil£ power.\n  Gain§G 3§!£blood£."
-
- zandalari_fungarian_invasion_tt: "Fungarian forces will attempt to attack our capital.\nA §Yspecial peacemaking§! option is available."
-
- nazmir_fungarian_1_check: "Conduct your first war with the Fungarians.\n"
-
- nazmir_fungarian_7_check: "Conduct §Y7§! wars with the Fungarians.\n"
-
- nazmir_fungarian_8_check: "Conduct §Y8§! wars with the Fungarians.\n"
-
- fungarian_campain_bonus_1: "Every time you win a war with the Fungarians, you will also receive §G5§! army traditions.\n"
-
- fungarian_campain_bonus_2: "After moving the capital by forming Nazmir, this modifier will be transferred to the new capital.\n"
-
- fungarian_campain_bonus_3: "Upgrade the fort building level on your capital.\n"
-
- zandalar_fungarian_exploit_province_a: "Gain §Y10 years of manpower§! from each province with a modifier §YEnslaved Fungarian population§!."
-
- zandalar_fungarian_exploit_province_b: "Gain §Y5 years of manpower§! from each province with a modifier §YEnslaved Fungarian population§!. These provinces will receive a §R-50% manpower§! recovery modifier for §Y5 years§!."
-
- event_3_tooltip_a: "Any province having §YEnslaved Fungarian population§!, this modifier will be extended indefinitely.\n\nEvery §Y25 years§! there will be an event giving manpower from the provinces with an §YEnslaved Fungarian population§! modifier."
- 
- event_3_tooltip_b: "Any province having §YEnslaved Fungarian population§!, this modifier will be removed.\n\nEvery §Y25 years§! there will be an event that will add a general. Army tradition of the general will depend on the development of the province with modifier §YCo-existing Fungarian population§! according to §Y5 development§! = §Y10 army tradition§!."
-
- nazmir_develop_left: "The next time you colonize in the §YNazmir region§! and province will be belonging to Fungarians there will be an event that allows you to choose a trade good for the colonized province.\nAlso it will automatically add an §YEnslaved Fungarian population§! modifier to it.\nIf you have an unused charge of this event, then add another one without losing the previous one."
-
- nazmir_develop_right: "Upgrade the fort building level on province having mission requirements.\n"
-
- nazmir_develop_last: "All provinces in the §YNazmir region§! will get the upgraded buildings that were needed for this mission."
-
- nazmir_unlock_event_7_a: "The above event will occur every §Y20 years§!."
-
- nazmir_unlock_event_7_b: "Event §YBlood Cycle§! from now on will give 2£blood£."
-
- nazmir_unlock_event_7_c: "Event §YBlood Cycle§! from now on will give 3£blood£."
-
- nazmir_lose_5_blood: "Lose §R5§!£blood£"
-
- nazmir_blood_troll_ability_1: "A random province with Blood religion and no other totems will get §G+1§! Base Tax and:\n    Local Tax Income: §G+6.00§!\n    Local Force Limit: §G+0.50§!\n    Local Missionary Strenght: §R-3.0%§!"
-
- nazmir_blood_troll_ability_2: "A random province with Blood religion and no other totems will get §G+1§! Base Production and:\n    Local Goods Produced: §G+0.40§!\n    Local Force Limit: §G+0.50§!\n    Local Missionary Strenght: §R-3.0%§!"
-
- nazmir_blood_troll_ability_3: "A random province with Blood religion and no other totems will get §G+1§! Base Manpower and:\n    Local Manpower: §G+250§!\n    Local Force Limit: §G+0.50§!\n    Local Missionary Strenght: §R-3.0%§!"
-
  # --- Totem Tooltips ---
- wwu_blood_totem_1_a_1a: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£yes£\n    Country has hired an advisor.\n    Country has at least §Y10§!£adm£ power.\n    Country has at least §Y10§!£dip£ power.\n    Country has at least §Y10§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R10§!£adm£ power.\n    Lose §R10§!£dip£ power.\n    Lose §R10§!£mil£ power."
- wwu_blood_totem_1_a_1b: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£no£\n    Country has hired an advisor.\n    Country has at least §Y10§!£adm£ power.\n    Country has at least §Y10§!£dip£ power.\n    Country has at least §Y10§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R10§!£adm£ power.\n    Lose §R10§!£dip£ power.\n    Lose §R10§!£mil£ power."
+ wwu_blood_totem_1_a_1a: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£yes£\n    Country has hired an advisor.\n    Country has at least §Y10§!£adm£ power.\n    Country has at least §Y10§!£dip£ power.\n   Country has at least §Y10§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R10§!£adm£ power.\n    Lose §R10§!£dip£ power.\n    Lose §R10§!£mil£ power."
+ wwu_blood_totem_1_a_1b: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£no£\n    Country has hired an advisor.\n    Country has at least §Y10§!£adm£ power.\n    Country has at least §Y10§!£dip£ power.\n   Country has at least §Y10§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R10§!£adm£ power.\n    Lose §R10§!£dip£ power.\n    Lose §R10§!£mil£ power."
  wwu_blood_totem_1_a_2a: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£yes£\n    Ruler is spellcaster.\n    Ruler has at least §Y4§! points of mana.\n\nEffects of sacrifice:\n    Lose §Y4§! points of mana."
  wwu_blood_totem_1_a_2b: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£no£\n    Ruler is spellcaster.\n    Ruler has at least §Y4§! points of mana.\n\nEffects of sacrifice:\n    Lose §Y4§! points of mana."
  wwu_blood_totem_1_a_3a: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£yes£\n    Country has a manpower level of at least §Y25%§!.\n    Country has at least §Y25§!£adm£ power.\n\nEffects of sacrifice:\n    Lose §R1§! yearly manpower.\n    Lose §R25§!£adm£ power."
@@ -247,8 +62,8 @@
  wwu_blood_totem_1_a_10a: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£yes£\n    Country does not have this §YBlood Curse§!.\n    Country does not have §YBlood Curse§! cooldown.\n\nEffects of sacrifice:\n  Get a §YBlood Curse§! for §Y5§! years which gives the following modifiers:\n        National Supply Limit Modifier: §R-10%§!\n  You cannot choose another §YBlood Curse§! for the next §Y5§! years."
  wwu_blood_totem_1_a_10b: "Type of sacrifice:\n  §YSmall§! normal\n\nReward for the sacrifice:\n £blood£\n\nConditions for sacrifice:\n£no£\n    Country does not have this §YBlood Curse§!.\n    Country does not have §YBlood Curse§! cooldown.\n\nEffects of sacrifice:\n  Get a §YBlood Curse§! for §Y5§! years which gives the following modifiers:\n        National Supply Limit Modifier: §R-10%§!\n  You cannot choose another §YBlood Curse§! for the next §Y5§! years."
  
- wwu_blood_totem_1_b_1a: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has hired an advisor.\n    Country has at least §Y25§!£adm£ power.\n    Country has at least §Y25§!£dip£ power.\n    Country has at least §Y25§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R25§!£adm£ power.\n    Lose §R25§!£dip£ power.\n    Lose §R25§!£mil£ power."
- wwu_blood_totem_1_b_1b: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has hired an advisor.\n    Country has at least §Y25§!£adm£ power.\n    Country has at least §Y25§!£dip£ power.\n    Country has at least §Y25§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R25§!£adm£ power.\n    Lose §R25§!£dip£ power.\n    Lose §R25§!£mil£ power."
+ wwu_blood_totem_1_b_1a: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has hired an advisor.\n    Country has at least §Y25§!£adm£ power.\n    Country has at least §Y25§!£dip£ power.\n   Country has at least §Y25§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R25§!£adm£ power.\n    Lose §R25§!£dip£ power.\n    Lose §R25§!£mil£ power."
+ wwu_blood_totem_1_b_1b: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has hired an advisor.\n    Country has at least §Y25§!£adm£ power.\n    Country has at least §Y25§!£dip£ power.\n   Country has at least §Y25§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R25§!£adm£ power.\n    Lose §R25§!£dip£ power.\n    Lose §R25§!£mil£ power."
  wwu_blood_totem_1_b_2a: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Ruler is spellcaster.\n    Ruler has at least §Y8§! points of mana.\n\nEffects of sacrifice:\n    Lose §Y8§! points of mana."
  wwu_blood_totem_1_b_2b: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£no£\n    Ruler is spellcaster.\n    Ruler has at least §Y8§! points of mana.\n\nEffects of sacrifice:\n    Lose §Y8§! points of mana."
  wwu_blood_totem_1_b_3a: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has a manpower level of at least §Y50%§!.\n    Country has at least §Y50§!£adm£ power.\n\nEffects of sacrifice:\n    Lose §R2.5§! yearly manpower.\n    Lose §R50§!£adm£ power."
@@ -268,15 +83,15 @@
  wwu_blood_totem_1_b_10a: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country does not have this §YBlood Curse§!.\n    Country does not have §YBlood Curse§! cooldown.\n\nEffects of sacrifice:\n  Get a §YBlood Curse§! for §Y5§! years which gives the following modifiers:\n        National Supply Limit Modifier: §R-25%§!\n  You cannot choose another §YBlood Curse§! for the next §Y5§! years."
  wwu_blood_totem_1_b_10b: "Type of sacrifice:\n  §YMedium§! normal\n\nReward for the sacrifice:\n £blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country does not have this §YBlood Curse§!.\n    Country does not have §YBlood Curse§! cooldown.\n\nEffects of sacrifice:\n  Get a §YBlood Curse§! for §Y5§! years which gives the following modifiers:\n        National Supply Limit Modifier: §R-25%§!\n  You cannot choose another §YBlood Curse§! for the next §Y5§! years."
  
- wwu_blood_totem_1_c_1a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has hired an advisor.\n    Country has at least §Y50§!£adm£ power.\n    Country has at least §Y50§!£dip£ power.\n    Country has at least §Y50§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R50§!£adm£ power.\n    Lose §R50§!£dip£ power.\n    Lose §R50§!£mil£ power."
- wwu_blood_totem_1_c_1b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has hired an advisor.\n    Country has at least §Y50§!£adm£ power.\n    Country has at least §Y50§!£dip£ power.\n    Country has at least §Y50§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R50§!£adm£ power.\n    Lose §R50§!£dip£ power.\n    Lose §R50§!£mil£ power."
+ wwu_blood_totem_1_c_1a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has hired an advisor.\n    Country has at least §Y50§!£adm£ power.\n    Country has at least §Y50§!£dip£ power.\n   Country has at least §Y50§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R50§!£adm£ power.\n    Lose §R50§!£dip£ power.\n    Lose §R50§!£mil£ power."
+ wwu_blood_totem_1_c_1b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has hired an advisor.\n    Country has at least §Y50§!£adm£ power.\n    Country has at least §Y50§!£dip£ power.\n   Country has at least §Y50§!£mil£ power.\n\nEffects of sacrifice:\n    Kill a random advisor.\n    Lose §R50§!£adm£ power.\n    Lose §R50§!£dip£ power.\n    Lose §R50§!£mil£ power."
  wwu_blood_totem_1_c_2a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Ruler is spellcaster.\n    Ruler has at least §Y10§! points of mana.\n\nEffects of sacrifice:\n    Lose §Y10§! points of mana.\n    Ruler lose §Y1§! random ADM or DIP or MIL skill."
  wwu_blood_totem_1_c_2b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Ruler is spellcaster.\n    Ruler has at least §Y10§! points of mana.\n\nEffects of sacrifice:\n    Lose §Y10§! points of mana.\n    Ruler lose §Y1§! random ADM or DIP or MIL skill."
  wwu_blood_totem_1_c_3a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has a manpower level of at least §Y75%§!.\n    Country has at least §Y100§!£adm£ power.\n\nEffects of sacrifice:\n    Lose §R4§! yearly manpower.\n    Lose §R100§!£adm£ power."
  wwu_blood_totem_1_c_3b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has a manpower level of at least §Y75%§!.\n    Country has at least §Y100§!£adm£ power.\n\nEffects of sacrifice:\n    Lose §R4§! yearly manpower.\n    Lose §R100§!£adm£ power."
  wwu_blood_totem_1_c_4a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has a manpower level of at least §Y75%§!.\n    Country has at least §Y100§!£dip£ power.\n\nEffects of sacrifice:\n    Lose §R4§! yearly manpower.\n    Lose §R100§!£dip£ power."
  wwu_blood_totem_1_c_4b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has a manpower level of at least §Y75%§!.\n    Country has at least §Y100§!£dip£ power.\n\nEffects of sacrifice:\n    Lose §R4§! yearly manpower.\n    Lose §R100§!£dip£ power."
- wwu_blood_totem_1_c_5a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has a manpower level of at least §Y75%§!.\n    Country has at least §Y100§!£mil£ power.\n\nEffects of sacrifice:\n    Lose §R4§! yearly manpower.\n    Lose §R100§!£mil£ power."
+ wwu_blood_totem_1_c_5a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has a manpower level of at least §Y75%§!.\n    Country has at least §Y100§!£mil£ power.\n\nEffects of sacrifice:\n    Lose §R4§! yearly manpower.\n    Lose §R100§!£adm£ power."
  wwu_blood_totem_1_c_5b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has a manpower level of at least §Y75%§!.\n    Country has at least §Y100§!£mil£ power.\n\nEffects of sacrifice:\n    Lose §R4§! yearly manpower.\n    Lose §R100§!£mil£ power."
  wwu_blood_totem_1_c_6a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country has a ruler with an administrative, diplomatic, military skill of at least §Y4§!.\n\nEffects of sacrifice:\n    Kill §Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§!."
  wwu_blood_totem_1_c_6b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country has a ruler with an administrative, diplomatic, military skill of at least §Y4§!.\n\nEffects of sacrifice:\n    Kill §Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§!."
@@ -289,48 +104,10 @@
  wwu_blood_totem_1_c_10a: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£yes£\n    Country does not have this §YBlood Curse§!.\n    Country does not have §YBlood Curse§! cooldown.\n\nEffects of sacrifice:\n  Get a §YBlood Curse§! for §Y5§! years which gives the following modifiers:\n        National Supply Limit Modifier: §R-50%§!\n  You cannot choose another §YBlood Curse§! for the next §Y5§! years."
  wwu_blood_totem_1_c_10b: "Type of sacrifice:\n  §YBig§! normal\n\nReward for the sacrifice:\n £blood££blood££blood£\n\nConditions for sacrifice:\n£no£\n    Country does not have this §YBlood Curse§!.\n    Country does not have §YBlood Curse§! cooldown.\n\nEffects of sacrifice:\n  Get a §YBlood Curse§! for §Y5§! years which gives the following modifiers:\n        National Supply Limit Modifier: §R-50%§!\n  You cannot choose another §YBlood Curse§! for the next §Y5§! years."
 
- wwu_blood_totem_1_a_b: "The cooldown for easy sacrifice of §Y2 years§! is still ongoing."
- wwu_blood_totem_1_b_b: "The cooldown for medium sacrifice of §Y2 years§! is still ongoing."
- wwu_blood_totem_1_c_b: "The cooldown for hard sacrifice of §Y2 years§! is still ongoing."
-
- nazmir_blood: "£blood£"
+ wwu_blood_totem_1_a_b: "The cooldown for easy sacrifice of §Y2§! years is still ongoing."
+ wwu_blood_totem_1_b_b: "The cooldown for medium sacrifice of §Y2§! years is still ongoing."
+ wwu_blood_totem_1_c_b: "The cooldown for hard sacrifice of §Y2§! years is still ongoing."
  # --- Modifiers ---
- blood_totem_easy_7: "Blood Curse"
- blood_totem_easy_7_desc: ""
-
- blood_totem_easy_8: "Blood Curse"
- blood_totem_easy_8_desc: ""
-
- blood_totem_easy_9: "Blood Curse"
- blood_totem_easy_9_desc: ""
-
- blood_totem_easy_10: "Blood Curse"
- blood_totem_easy_10_desc: ""
-
- blood_totem_medium_7: "Blood Curse"
- blood_totem_medium_7_desc: ""
-
- blood_totem_medium_8: "Blood Curse"
- blood_totem_medium_8_desc: ""
-
- blood_totem_medium_9: "Blood Curse"
- blood_totem_medium_9_desc: ""
-
- blood_totem_medium_10: "Blood Curse"
- blood_totem_medium_10_desc: ""
-
- blood_totem_hard_7: "Blood Curse"
- blood_totem_hard_7_desc: ""
-
- blood_totem_hard_8: "Blood Curse"
- blood_totem_hard_8_desc: ""
-
- blood_totem_hard_9: "Blood Curse"
- blood_totem_hard_9_desc: ""
-
- blood_totem_hard_10: "Blood Curse"
- blood_totem_hard_10_desc: ""
-
  dazaralor_riches: "Dazar'alor Riches"
  desc_dazaralor_riches: ""
  
@@ -349,54 +126,11 @@
  blood_totem_province: "Sacrificial Altar"
  blood_totem_province_desc: "Having a province with this modifier allows you to use special interactions through §Ydecisions§!.\n\nThe number of provinces you have with this modifier does not affect its effect."
  
- nazmir_fungarian_colonizing: "Campain into Nazmir"
- nazmir_fungarian_colonizing_desc: ""
-
- zandalar_fungarian_bad_bad: "Ingredients for mushroom soup"
- zandalar_fungarian_bad_bad_desc: ""
-
- defend_against_fungarians: "Mushrooming"
- defend_against_fungarians_desc: ""
-
- defend_capital_against_fungarians: "Defense against enemies"
- defend_capital_against_fungarians_desc: ""
-
- nazmir_zandalar_fort_b: "Toxic environment"
- nazmir_zandalar_fort_b_desc: ""
-
- nazmir_blood_troll_ability_1_totem: "Administration Totem"
- nazmir_blood_troll_ability_1_totem_desc: ""
-
- nazmir_blood_troll_ability_2_totem: "Production Totem"
- nazmir_blood_troll_ability_2_totem_desc: ""
-
- nazmir_blood_troll_ability_3_totem: "Manpower Totem"
- nazmir_blood_troll_ability_3_totem_desc: ""
-
  # --- Subjects ---
  
- lesser_bloodmother_title: "Lesser Blood Matron"
- lesser_bloodmother: "Lesser Blood Matron"
- lesser_bloodmother_is_our: "Lesser Blood Matron"
- lesser_bloodmother_plural: "Lesser Blood Matrons"
- lesser_bloodmother_title_plural: "Lesser Blood Matrons"
- lesser_bloodmother_long_desc: " "
+ lesser_bloodmother_title: "Lesser blood matron"
+ lesser_bloodmother_is_our: "Lesser blood matron"
+ lesser_bloodmother_plural: "Lesser blood matrons"
+ lesser_bloodmother_title_plural: "Lesser blood matrons"
  
- # --- Misc ---
- blood_trolls_mechanic: "Bloody totems"
- blood_trolls_mechanic_desc: ""
-
- blood_troll_ability_1: "Administration Totem"
- blood_troll_ability_1_desc: ""
-
- blood_troll_ability_2: "Production Totem"
- blood_troll_ability_2_desc: ""
-
- blood_troll_ability_3: "Manpower Totem"
- blood_troll_ability_3_desc: ""
-
- ability_blood_trolls_mechanic: "Bloody totems"
- ability_blood_trolls_mechanic_desc: ""
-
- deadrot: "Deadrot"
- deadrot_ADJ: "Deadrot"
+ # -- Effects --

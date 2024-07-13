@@ -1,16 +1,27 @@
+
 is_city = yes
 
-owner = B27
-controller = B27
-add_core = B27
+owner = A90
+controller = A90
 add_core = A90
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_murloc
-religion = deep_mother
+culture = culture_high_elf
+religion = holy_light
 
 hre = no
 trade_goods = resource_common_fish
+
+
+618.1.1 = {
+	owner = B27
+	controller = B27
+	culture = culture_murloc
+	religion = deep_mother
+	add_core = B27
+	remove_core = A90
+}
+

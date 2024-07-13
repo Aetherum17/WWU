@@ -1,12 +1,16 @@
 # Empty Province
-is_city = yes
-owner = B92
-controller = B92
-add_core = B92
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_eredar
 religion = fel
 
 hre = no
 trade_goods = unknown
+
 

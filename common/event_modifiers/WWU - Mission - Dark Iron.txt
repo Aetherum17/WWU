@@ -41,7 +41,7 @@ mission_thorium_pits = {
 }
 
 mission_redridge_mines = {
-    global_trade_goods_size_modifier = 0.05
+    trade_goods_size_modifier = 0.05
 }
 
 mission_boil_the_sea = {

@@ -594,10 +594,6 @@ blood_matriarchy_reform = {
         succession_ghuuns_chosen = yes
         enables_automatic_spellcasting_ruler = yes
 	}
-
-        government_abilities = {
-            blood_trolls_mechanic
-        }
     
     potential = {
         OR = {

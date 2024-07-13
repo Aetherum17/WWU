@@ -2,7 +2,6 @@
 
 government 			= theocracy
 add_government_reform = blood_tribe_matriarchy_reform
-set_government_rank = 1
 mercantilism 		= 10
 technology_group 	= tech_blood_troll
 religion			= bloodmancy

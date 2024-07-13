@@ -1109,7 +1109,7 @@ wwu_northrend_furbolg_column_5 = {
 			}
 			add_country_modifier = {
                 name = mission_grizzlemaw_architecture_nf
-                duration = 3650
+                duration = 3652
             }
 		}
 	}	
@@ -1146,7 +1146,7 @@ wwu_northrend_furbolg_column_5 = {
 			}
 			add_country_modifier = {
                 name = mission_grizzlemaw_architecture_b_nf
-                duration = 3650
+                duration = 3652
             }
 		}
 	}

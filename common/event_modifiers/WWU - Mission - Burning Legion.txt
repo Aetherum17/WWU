@@ -24,8 +24,3 @@ mission_demonic_subjects = {
 mission_tomb_of_sargeras = {
     discipline = 0.05
 }
-
-mission_demonic_footholds = {
-    colonists = 1
-    global_colonial_growth = 25
-}

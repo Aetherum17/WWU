@@ -697,7 +697,7 @@ STW_stormwind_column_2 = {
 			region_swamp_of_sorrows = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-				religion = ROOT
+				region = ROOT
 				culture = ROOT
 			}
 		}
@@ -738,19 +738,23 @@ STW_stormwind_column_2 = {
 					has_building = wow_tower_3
 				}
 				has_building = wow_portal
-				OR = {
-					has_great_project = {
-						type = gp_stormwind_mage_tower
-						tier = 1
-					}
-					has_great_project = {
-						type = gp_stormwind_mage_tower
-						tier = 2
-					}
-					has_great_project = {
-						type = gp_stormwind_mage_tower
-						tier = 3
-					}
+			}
+			OR = {
+				has_great_project = {
+    				type = gp_stormwind_mage_tower
+    				tier = 0
+				}
+				has_great_project = {
+    				type = gp_stormwind_mage_tower
+    				tier = 1
+				}
+				has_great_project = {
+    				type = gp_stormwind_mage_tower
+    				tier = 2
+				}
+				has_great_project = {
+    				type = gp_stormwind_mage_tower
+    				tier = 3
 				}
 			}
 		}
@@ -764,10 +768,10 @@ STW_stormwind_column_2 = {
 				add_base_manpower = 1
 				add_base_production = 1
 				add_base_tax = 1
-				add_great_project_tier = {
-					type = gp_stormwind_mage_tower
-					tier = 1
-				}
+			}
+			add_great_project_tier = {
+    			type = gp_stormwind_mage_tower
+    			tier = 1
 			}
 
 			add_adm_power = 100
@@ -792,19 +796,23 @@ STW_stormwind_column_2 = {
 					has_building = wow_temple_2
 					has_building = wow_temple_3
 				}
-				OR = {
-					has_great_project = {
-						type = gp_cathedral_of_light
-						tier = 1
-					}
-					has_great_project = {
-						type = gp_cathedral_of_light
-						tier = 2
-					}
-					has_great_project = {
-						type = gp_cathedral_of_light
-						tier = 3
-					}
+			}
+			OR = {
+				has_great_project = {
+    				type = gp_cathedral_of_light
+    				tier = 0
+				}
+				has_great_project = {
+    				type = gp_cathedral_of_light
+    				tier = 1
+				}
+				has_great_project = {
+    				type = gp_cathedral_of_light
+    				tier = 2
+				}
+				has_great_project = {
+    				type = gp_cathedral_of_light
+    				tier = 3
 				}
 			}
 		}
@@ -816,10 +824,10 @@ STW_stormwind_column_2 = {
 		effect = {
 			2204 = {
 				add_base_manpower = 2
-				add_great_project_tier = {
-					type = gp_cathedral_of_light
-					tier = 1
-				}
+			}
+			add_great_project_tier = {
+    			type = gp_cathedral_of_light
+    			tier = 1
 			}
 
 			define_advisor = {
@@ -1958,7 +1966,7 @@ STW_stormwind_column_4 = {
 
 		trigger = {
 			is_at_war = no
-			NOT = { num_of_rebel_armies = 1 }
+			num_of_rebel_armies = 0
 			stability = 3
 			legitimacy = 90
 		}

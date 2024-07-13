@@ -1,7 +1,7 @@
 #Demonic Invasion Force Fromations Menu
 #Open/Close
 country_decisions = {
-    demonic_invasion_force_formation_menu = {
+    decision_diff_menu_open = {
 		major = yes
         ai_importance = 0
         
@@ -14,7 +14,7 @@ country_decisions = {
 		}
 		
 		allow = {
-            NOT = { has_country_modifier = ai_handler__demonic_invasion_force_formation_menu }	
+            always = yes			
 		}
 		
 		effect = {		    
@@ -30,33 +30,16 @@ country_decisions = {
 			    }
 			    clr_country_flag = dem_inv_force_menu_open  
 		    }
-            
-            if = {
-                limit = {
-                    ai = yes
-                }
-                
-                add_country_modifier = {
-                    name = ai_handler__demonic_invasion_force_formation_menu
-                    duration = 3600
-                }
-            }
 		}
 		
 		ai_will_do = {
 			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                NOT = { 
-                    has_country_modifier = ai_handler__demonic_invasion_force_formation_menu
-                }
-            }
 		}
 	}
+}
 
-	#Form Aurinor
+#Form Aurinor
+country_decisions = {
     form_aurinor = {
 		major = yes
         ai_importance = 0
@@ -90,8 +73,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Bonich
+#Form Bonich
+country_decisions = {
     form_bonich = {
 		major = yes
         ai_importance = 0
@@ -125,8 +110,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Cengar
+#Form Cengar
+country_decisions = {
     form_cengar = {
 		major = yes
         ai_importance = 0
@@ -160,8 +147,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Mardum
+#Form Mardum
+country_decisions = {
     form_mardum = {
 		major = yes
         ai_importance = 0
@@ -195,8 +184,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Naigtal
+#Form Naigtal
+country_decisions = {
     form_naigtal = {
 		major = yes
         ai_importance = 0
@@ -230,8 +221,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Nihilam
+#Form Nihilam
+country_decisions = {
     form_nihilam = {
 		major = yes
         ai_importance = 0
@@ -265,8 +258,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Niskara
+#Form Niskara
+country_decisions = {
     form_niskara = {
 		major = yes
         ai_importance = 0
@@ -300,8 +295,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Rancora
+#Form Rancora
+country_decisions = {
     form_rancora = {
 		major = yes
         ai_importance = 0
@@ -335,8 +332,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Sangua
+#Form Sangua
+country_decisions = {
     form_sangua = {
 		major = yes
         ai_importance = 0
@@ -370,8 +369,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Val
+#Form Val
+country_decisions = {
     form_val = {
 		major = yes
         ai_importance = 0
@@ -405,8 +406,10 @@ country_decisions = {
 			factor = 1
 		}
 	}
+}
 
-	#Form Xoroth
+#Form Xoroth
+country_decisions = {
     form_xoroth = {
 		major = yes
         ai_importance = 0

@@ -4,7 +4,7 @@
 # Brotherhood of Horse
 wwu_specialist_stormwind_horsebrothers_1 = {
 	regiments_per_development = 0.10
-	cost_modifier = 1.25
+	cost_modifier = 1.5
 	cavalry_weight = 0.45
 	artillery_weight = 0.1 
 	sprites = { sprite_pack_stormwind_gfx }
@@ -21,7 +21,7 @@ wwu_specialist_stormwind_horsebrothers_1 = {
 }
 wwu_specialist_stormwind_horsebrothers_2 = {
 	regiments_per_development = 0.075
-	cost_modifier = 1
+	cost_modifier = 1.25
 	cavalry_weight = 0.45
 	artillery_weight = 0.1
 	sprites = { sprite_pack_stormwind_gfx }
@@ -38,7 +38,7 @@ wwu_specialist_stormwind_horsebrothers_2 = {
 }
 wwu_specialist_stormwind_horsebrothers_3 = {
 	regiments_per_development = 0.05
-	cost_modifier = 0.75
+	cost_modifier = 1.0
 	cavalry_weight = 0.45
 	artillery_weight = 0.1
 	sprites = { sprite_pack_stormwind_gfx }

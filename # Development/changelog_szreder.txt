@@ -2,89 +2,127 @@
 # Changelog
 #--------------------------------------
 
-#Monuments:
--Change Grim Batol, Thoradin Wall and Windrunner Spire monument bonus to reduce number of hostile_attrition Modifiers
-
-#Menu
--Added more suggested nations to Rise of the Horde bookmark
-
 #Map:
-Eastern Kingdoms:
--Replaced Gates of Ironforge terrain from Urban to Passage
--Added some additional development to Khaz Modan provinces
--Added few additional claims and cores for Frostmane and Khaz Modan
+General:
+-Reduced number of gold provinces in Stranglethorn Vale region
+-Added Fenris Isle and Webbed Coast areas to Silverpine Region
+-Fixed few incorrect culture provinces in Outland
 
-Draenor:
--Moved a lot of cores between nations
--Gronn will exists from 1st startdate
--Gorian Empire had their borders and cores expanded
-
-Diplomacy Setup:
--Frostwolf and Whiteclaw start with alliance
--Lightning Blade, Burning Blade and Bladewind start with alliance
--Thunderlord and Lightning Blade start with alliance
-
-Subject Setup:
--Laughing Skull starts as tributary subject of Stonemaul
--Dark Scar starts as vassal of Bladespire
-
-Added Tags:
--Bladewind
--Dark Scar
--Redwalker
--Whiteclaw
--Lightning Blade
--Ashmaul 
--Gor'vosh
--Panthran
+Rise of the Qiraj Bookmark:
+-Updated Polical Map of Mulgore
+-Redgill will now exists in Westfall
 
 #History:
-Aegwynn, Medivh and Malchezaar (rulers of Karazhan) will start with defined classes
+-Storwind will now start with two debuff Modifiers, that will have to be removed with a mission tree (removed in bookmarks past Beyond the Dark Portal)
+-Stomwind will now start with additional cores in Westfall region
 
-#Government Mechanics:
--Tribal Bloodlust Mechanic values rebalanced, "Call to Arms" interaction now has 3y cooldown, but costs less. "Scorch the Earth" interaction cost increased.
+-Leader of the Argussian Reach renamed to provent same-dynasty union
 
-#Goverment Reformes
--Added "Gronn Tribe" reform, used by Gronn
--Added "Silithid Lair" reform, used by Silithid
--Added Localization for "The Perfect Ones" reform, avalable for Centaur Marauders
--Troll Kingdom no longer gives land_forcelimit = 3 and infantry_power = 0.1, now grants land_morale = 0.1 and hostile_attrition = 1
+#Great Projects:
+-Tyr's Hand Great Project moved to correct location
+
+-Some Buildable Great Projects will now require money and time to construct, with currently:
+*Stormwind Mage Tower
+*Cathedral of Light
+*Tyr's Tomb
+
+#Subject Types:
+-Allowed Administrate Subject interaction for Subjegated Vassals
+-Increased base_libery_desire for Scourge Vassals, making them a bit harder to control
+-Restricted creating Scourge Vassals to Scourge CB
+-Scourge CB now suffers 125% AE
+
+#Goverment Mechanics:
+-Feudal Autorithy accept_vassalization_reasons moved from 100 --> 20
 
 #National Ideas:
--Rebalanced Ice Troll, Orc, Ogre and Saberon
--Burning Legion ideas will not longer have siberian frontrier, reduced value of siege_ability from 0.25 -> 0.2
--Heart of Darkness ideas reworked
--Blood Troll ideas reworked
--The Unbound ideas reworked
+-Kul'tiras will no longer have marine Modifiers (since they don't use marines)
+-Reduced some values in Stormwind ideas
+-Rebalanced Blackrock, Shattered Hand, Burning Blade, Twilight Hammer and Warsong
+-Fixed issue with Dark Conclave and Zangar Giants having default ideas
 
-#Subject Types
--Added "Silithid Hive" subject type, used by Silithid
+#Events:
+-Adjusted "The Darkmoon Faire" event to cost less mana to accept
 
-Mercenaries:
--Reduced cost of few mercenary companies (Class, Demonic, Scourge, Stromwind, Infested)
+#Formables:
+-Added Option to form The Fel Horde as Orc Culture in Outland
+-Added Option to reform Ahn'Qiraj as Aqir Culture
+-The Catacombs will no longer falsly add Ancient Elven City flag
 
-#Religion
-Bloodmancy:
--Consume Blood Aspect buffed from 30->50
+#Bugfixes:
+-Added more ways to remove the flag responsible for spawning Scourge of Lordaeron on sieged provinces
 
-#Missions
+#Missions:
 
-Burning Legion:
--Mission "Demonic Assult" now grants additional modifier reward
+Generic Mission Tree:
+-Added Mana rewards to each mission, so that you can catch up more easily as non-custom tree nation
+
+Wildhammer:
+-Rebalanced Mana rewards values
+-Readjusted Modifiers to use correct values
+-Readjusted rewards of "United Dwarves" mission to include accepted cultures
+
+Lordaeron:
+-Readjusted existing missions to have to do
+
+Scarlet Crusade:
+-Readjusted Modifiers to use correct values
+
+Wyrmrest Accord:
+-Readjusted Modifiers to use correct values
+
+Vermillion Redoubt:
+-Readjusted Modfieirs to use correct values
+
+Kul'tiras:
+-Added Localization to the missions
 
 Kunzen:
--Added 7 New Missions
--Fixed Reported Bugs
+-Added new mission tree, replacing old one
 
-Red Dragonflight:
--Added additional flavour event for Galakrond path
--Adjusted few missions and rewards
+Blackrock:
+-Expanded 5th column missions centered around development
 
-Khaz Modan:
--Mission "Strenghten the Nobility" estate values had been increased, now can Be complited while at war, and will give additional general as reward.
+Centaur Marauders:
+-Replaced "Ritual of Champion" mission due to effect not working with Centuar goverment type
+-Mission "Into the Stonetalor Mountains" bug fixed. Subjegation CB now has duration time of 10 years.
+-Mission "Control of Durotar" will now reward additional claims upon completed.
+-Mission "Awakening of the Earth Mother" bug fixed. Now will check for formables.
+-Mission "Subjegate Krenka Khanate" made harder with additional condition.
+-Mission "Rule Stonetalon" will now reward additional claims upon completed.
+-Mission "Culling of Mulgore" will no longer check for unrest and seperatism
+-Mission "Quillboar Agression" requirements readjusted
+-Mission "Dealing with Razormane" requirements readjusted to be less specific
+-Mission Event "Rise of Aratas and Perfect Ones" will now correctly switch to new goverment type on 1st option
 
-Ango'rosh:
--Added 8 New Missions
+Ahn'Qiraj:
+-Added Several AI skips, making AI be able to progreess the mission tree easier, die less and become a bigger threat for the region
+-Adjusted icons, localization and position of some missions
+-Added several "ifs" to mission that require some tags to exists to progress, making sure it won't break the mission tree
+-Adjusted mission rewards: Most temporarly claims became permanent, points & treasury rewards were reduced by 25-50%
+-Added few hidden interactions between Ahn'Qiraj and Night Elves/Druids, throught the mission tree
+
+Stormwind 1st Part:
+-Mission "Filling the Treasury" total gold needed reduced, no requires to have no loans
+-Mission "Survival of Humanity" will not only give permanent claims on Elwynn Region
+-Mission "Securing Westfall" now has alternative reward depending on condition
+-Mission "Reconquest of Elwynn Forest" rewards fixed
+-Mission "Conquest of Redridge" reward add_years_of_income nerfed from 5.0 --> 3.0
+-Mission "Securing Gradn Hamlet" now has alternative reward depending on condition
+-Mission "The Brotherhood of the Horse" will no longer unlock Stormwind Knight mercenary company
+-Mission "Stormwind Arsenal" values rebalanced, now can be complited indepenently
+-Mission Events from Guardian, Ironforge and New Dawn mission will not be consider global, allowing players to see the outcome made by AI
+-Adjusted localization errors
+
+Stormwind 2nd Part:
+-Mission "Balor Naval Command" unrest requirement removed
+-Mission "Reducing the Frontier Unrest" requirements reworked, now has different reward
+-Added Custom Tooltips informing of hidden rewards from Missions "Stormwind Mercantile Connections" and "Stormwind Armada"
+-Mission "Debate of Light and Flame" now can be complited indepenently
+-Mission "Balor Naval Command" now can be complited indepenently
+-Mission "Order of Knights" privilige reward removed
+-Adjusted localization errors
+-Added Development Branch
 
 #--------------------------------------
 # TODO
@@ -130,16 +168,3 @@ Possible Features:
 
 # Kunzen
 -Reevalueate Mission Rewards (best to ask for feedback)
-
-# Setup - Dragons of Nightmare Events
-
-# Dark Scar - Frostwolf - Thunderlord - Bladespire
--Events around Blood River War
-
-#Goverment Reforms
--Add unique icon for Gronn Tribe reform
--Add unique icon for Silithid Lair reform
-
-#Subjects
--Add unqiue icon for Silithid Hive subject type
--Fix problem with AQ mission "Bolster the Silithid Hives": Either add option to convert them to subject based on vassal, or rework the mission

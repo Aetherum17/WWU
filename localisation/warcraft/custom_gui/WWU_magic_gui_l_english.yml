@@ -115,11 +115,7 @@
  VOODOO_SPELL_3_TT: "Healing Wave"
  VOODOO_SPELL_4_TT: "Big Bad Voodoo"
  
- BIG_BAD_VOODOO_EFFECT_TT_5: "Up to §Y25§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
- BIG_BAD_VOODOO_EFFECT_TT_4: "Up to §Y20§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
- BIG_BAD_VOODOO_EFFECT_TT_3: "Up to §Y15§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
- BIG_BAD_VOODOO_EFFECT_TT_2: "Up to §Y10§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
- BIG_BAD_VOODOO_EFFECT_TT_1: "Up to §Y5§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
+ BIG_BAD_VOODOO_EFFECT_TT: "All owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
  
  NATURE_SPELL_1_TT: "Entangling Roots"
  NATURE_SPELL_2_TT: "Tranquility"

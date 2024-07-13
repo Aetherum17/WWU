@@ -2,9 +2,69 @@
 # Changelog
 #--------------------------------------
 # Interface
-- Changed topbar layout to better accomodate smaller resolutions.
+- Overhauled the visuals of the topbar to accomodate the new WWU-specific menu buttoms.
+- Added faction menu buttons.
+
+# Game Configuration
+- Game Configuration is now a custom window that appears at game start. It will auto-finalize after one month if the player unpauses.
+
+# Menus
+- Moved the following mechanics into there own windows:
+ - National Identity
+ - Achievements
+ - Archaeology
+ - Building Management
+ - Statagems
+
+- Added the following windows:
+ - Alliance faction view
+ - Horde faction view
+ - Trade Coalition faction view
+ - Dragon Aspects faction view
+ 
+- Added the ability to click the icons in the Stratagem menu.
+ 
+# History
+- Changed how the Horde warcraft faction is handled: the Horde faction is now one faction, and the horde is 'reformed' when Thrall's Horde is established. 
+
+# Archaeology
+Added artifacts:
+- Sulfuras, Hand of Ragnaros
+- Shalamane
+- Thunderfury, Blessed Blade of the Windseeker
+- Hammer of Twilight
+- Skull of Gul’dan
+- Eye of Dalaran
+- Atiesh, Grandstaff of the Guardian
+- Warglave of Azzinoth
+- Killmaim
+- Horn of Cenarius
+- Ancestral Staff
+- Necklace of Burning Souls
+- Soulfeast the Devourer
+- Shield of the Deathlord
+
+# Naval Missions
+- Circumnavigate the World mission is now blocked as it didn't function correctly with a closed world map.
+
+# Custom Nations
+- Added "Spellcaster" personality, allow you to assign magic-usage to a ruler within the Custom Nation Designer.
+
+# Map
+- Expanded the inland sea assignment around Gilneas sea zones.
+
+# Events
+- Added option to Draenor collapse event for human players that prevents it from happening entirely.
+
+# Missions
+- Changed the "Create Cult of the Damned" mission to only require the Liches faction to have 20 influence, not to be in power.
+
+# Bugfixes
+- Outland Dark Portal is now enabled upon the Collapse of Draenor.
+- Removed the 'fake' clique that used to host the custom menus.
+- Added fallbacks if Shadowmoon is defeated to progress to Rise of the Horde story missions.
+- Fixed an issue in the "Consume the Blood of Mannoroth" mission.
 
 #--------------------------------------
 # TODO
 #--------------------------------------
-

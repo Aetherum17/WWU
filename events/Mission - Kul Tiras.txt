@@ -489,7 +489,7 @@ country_event = {
         
         ai_chance = {
             factor = 0
-        } 
+        }
 	}
     
     after = {
@@ -559,7 +559,7 @@ country_event = {
         }
         
         ai_chance = {
-            factor = 20
+            factor = 10
         }
 	}
     option = {
@@ -574,7 +574,7 @@ country_event = {
         }
         
         ai_chance = {
-            factor = 20
+            factor = 10
         }
 	}
     option = {
@@ -590,7 +590,7 @@ country_event = {
         }
         
         ai_chance = {
-            factor = 20
+            factor = 10
         }
 	}
 }
