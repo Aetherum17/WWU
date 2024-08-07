@@ -1,0 +1,99 @@
+#----------------------------------------------
+# Missions
+#----------------------------------------------
+mission_counter_offensive_poa = {
+    army_tradition = 0.5
+	land_maintenance_modifier = -0.10
+}
+
+mission_sacrifices_poa = {
+    num_accepted_cultures = 1
+}
+
+mission_natural_defences_a_poa = {
+    hostile_attrition = 1
+    movement_speed = 0.10
+}
+
+mission_adapting_to_circumstances_poa = {
+    improve_relation_modifier = 0.2
+}
+
+mission_terror_of_the_desert_a_poa = {
+    cavalry_power = 0.2 
+	cavalry_shock = 1 
+}
+
+mission_terror_of_the_desert_b_poa = {
+    province_warscore_cost = -0.2
+}
+
+mission_duty_in_death_poa = {
+    global_unrest = -2
+	diplomatic_reputation = 1
+}
+
+mission_raise_the_banners_poa = {
+    land_maintenance_modifier = -0.10
+    general_cost = -0.20
+}
+
+mission_maddening_thoughts_poa = {
+    mercenary_cost = -0.10
+	mercenary_discipline = 0.10
+}
+
+mission_an_ancient_threat_poa = {
+    defensiveness = 0.10
+	war_exhaustion = -0.10
+}
+
+mission_affiliations_poa = {
+    improve_relation_modifier = 0.1
+	ae_impact = -0.1
+}
+
+mission_new_name_same_threat_poa = {
+    spy_offence = 0.1
+	global_spy_defence = 0.1
+}
+
+mission_halls_of_origination_poa = {
+    development_cost = -0.05
+	global_supply_limit_modifier = 0.10
+	merchants = 1
+}
+
+mission_fate_of_ahn_qiraz_poa = {
+    core_creation = -0.2
+	diplomatic_reputation = 1
+}
+
+mission_uldum_poa = {
+    prestige = 0.25
+	advisor_cost = -0.10
+}
+
+mission_diplomatic_initiatives_poa = {
+    diplomats = 1
+    diplomatic_upkeep = 1	
+}
+
+mission_rebuilding_a_city_of_old_poa = {
+    development_cost = -0.10
+    monthly_splendor = 1	
+}
+
+mission_natural_defences_b_poa = {
+    land_maintenance_modifier = -0.10
+	garrison_growth = 0.05
+}
+
+mission_faith_of_ammon_poa = {
+    prestige_per_development_from_conversion = 0.5 
+}
+
+mission_religious_dominance_poa = {
+    global_missionary_strength = 0.03
+    missionary_maintenance_cost = -0.1	
+}

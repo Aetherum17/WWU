@@ -333,15 +333,7 @@ country_event = {
                 NOT = { culture = culture_stone_tolvir }
             }
             change_culture = culture_stone_tolvir			
-        }
-	    every_owned_province = { 
-            limit = {
-                region = region_uldum
-			    culture = culture_tolvir
-                NOT = { culture = culture_stone_tolvir }
-            }
-            change_culture = culture_stone_tolvir			
-        }
+       } 
 		change_primary_culture = culture_stone_tolvir
 		
 		ai_chance = {
@@ -406,7 +398,6 @@ country_event = {
         
 		#Form Uldum
 		change_tag = G14
-		override_country_name = ULDUM
 		add_formable_bonus = yes
         trigger_ni_switch = yes
 		capital_scope = {
