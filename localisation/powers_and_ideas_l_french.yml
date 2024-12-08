@@ -1966,6 +1966,8 @@
  continental_trade_desc:0 "While the New World colonies had to import a lot of manufactored products, they also became a major supplier of raw materials for the European market."
  religious_outposts:0 "Religious Outposts"
  religious_outposts_desc:0 "Spreading Christianity in the New World by converting the indigenous peoples was a priority of especially the Catholic Church, and often went hand-in-hand with commercial interests in the process of colonizing the New World."
+ religious_outposts_2:0 "Religious Outposts"
+ religious_outposts_2_desc:0 "Spreading Christianity in the New World by converting the indigenous peoples was a priority of especially the Catholic Church, and often went hand-in-hand with commercial interests in the process of colonizing the New World."
  free_thinkers:0 "Free Thinkers"
  free_thinkers_desc:0 "The ideas that freedom of thought and freedom of speech is the right of every man were strong in the colonies. That without it there could be no such thing as public liberty."
  colonial_militia:0 "Colonial Militia"
@@ -6995,3 +6997,7 @@
  people_of_exile_desc:0 "Being more accustomed to travel because of our history, our people have it quite easy to settle new land."
  the_chosen_people:0 "The Chosen People"
  the_chosen_people_desc:0 "The Jews are the chosen people of God, with his divine will we shall never again lose Israel to our old enemies again."
+ 
+ estate_special_desc: " "
+ mantid_empire_reform_desc: " "
+ faction_custom_gui_influence: " "

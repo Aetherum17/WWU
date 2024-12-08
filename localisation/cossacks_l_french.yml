@@ -1435,7 +1435,7 @@
  brahmin_estate_is_not_in_power_tt:0 "The §YBrahmins§! are NOT in power."
  gain_dhimmi_estate_tt:0 "[Root.GetName] gains access to the §YDhimmi§! estate."
  lose_access_to_brahmins_tt:0 "[Root.GetName] loses access to the §YBrahmins§! estate."
- ESTATES_TITLE:0 "Realm Management"
+ ESTATES_TITLE:0 "Estates"
  ACHIEVEMENTS_FIX_SETTINGS:0 "Change Settings to allow Achievements"
  RNW_GENERATION_HOST:0 "Generating Random New World..."
  RNW_GENERATION_CLIENT:0 "Host is generating Random New World and will be unresponsive for some time..."

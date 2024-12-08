@@ -1,0 +1,17 @@
+﻿l_spanish:
+ #-----------------------------------------------
+ # Northrend
+ #----------------------------------------------- 
+ wwu_flavour_northrend.1.title: "Northrend Unification"
+ wwu_flavour_northrend.1.desc: "We finally unified the harsh lands of Northrend. Time to embrace a new name!"
+ wwu_flavour_northrend.1.a: "Northrend"
+ wwu_flavour_northrend.1.b: "Crown of the World"
+ wwu_flavour_northrend.1.c: "Crown of Azeroth"
+ 
+ # Name Change
+ NORTHREND: "Northrend"
+ NORTHREND_ADJ: "Northrend"
+ CROWN_OF_THE_WORLD: "Crown of the World"
+ CROWN_OF_THE_WORLD_ADJ: "Northrend"
+ CROWN_OF_THE_AZEROTH: "Crown of Azeroth"
+ CROWN_OF_THE_AZEROTH_ADJ: "Northrend"

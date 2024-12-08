@@ -1,0 +1,1039 @@
+graphical_culture = earthen_gfx
+
+color = { 122 90 41 }
+
+monarch_names = {
+	"Nargird" = 1
+	"Thilan" = 1
+	"Dumdas" = 1
+	"Dimrum" = 1
+	"Brundis" = 1
+	"Minvir" = 1
+	"Bruntor" = 1
+	"Brangard" = 1
+	"Mandas" = 1
+	"Monlun" = 1
+	"Argvir" = 1
+	"Brantir" = 1
+	"Thuvir" = 1
+	"Mantir" = 1
+	"Thauran" = 1
+	"Arglin" = 1
+	"Marrum" = 1
+	"Murtor" = 1
+	"Manrath" = 1
+	"Danrith" = 1
+	"Brunrith" = 1
+	"Thitur" = 1
+	"Dunvar" = 1
+	"Brantor" = 1
+	"Mondis" = 1
+	"Mirgurd" = 1
+	"Thutir" = 1
+	"Dimuron" = 1
+	"Argtor" = 1
+	"Dumtur" = 1
+	"Vuldvir" = 1
+	"Thirath" = 1
+	"Brundas" = 1
+	"Valdgird" = 1
+	"Minrum" = 1
+	"Mirlin" = 1
+	"Thugard" = 1
+	"Vuldvar" = 1
+	"Thirum" = 1
+	"Arguren" = 1
+	"Nurrath" = 1
+	"Bruntur" = 1
+	"Monrith" = 1
+	"Brunrath" = 1
+	"Thavir" = 1
+	"Nardas" = 1
+	"Nurlun" = 1
+	"Damrath" = 1
+	"Dimlin" = 1
+	"Danlan" = 1
+	"Minlan" = 1
+	"Margard" = 1
+	"Dungurd" = 1
+	"Nurrith" = 1
+	"Montor" = 1
+	"Brunuron" = 1
+	"Brunram" = 1
+	"Maruran" = 1
+	"Nurdis" = 1
+	"Mindis" = 1
+	"Dumtor" = 1
+	"Nururan" = 1
+	"Thutor" = 1
+	"Nargurd" = 1
+	"Mangird" = 1
+	"Niruren" = 1
+	"Branram" = 1
+	"Valdgard" = 1
+	"Minuron" = 1
+	"Dumvar" = 1
+	"Danvir" = 1
+	"Velduren" = 1
+	"Brungurd" = 1
+	"Nurlan" = 1
+	"Manuren" = 1
+	"Damvir" = 1
+	"Monuren" = 1
+	"Damvar" = 1
+	"Branvir" = 1
+	"Argrum" = 1
+	"Nirram" = 1
+	"Brunlan" = 1
+	"Mardis" = 1
+	"Thivir" = 1
+	"Margurd" = 1
+	"Vulddis" = 1
+	"Nurram" = 1
+	"Veldram" = 1
+	"Brunvir" = 1
+	"Thalin" = 1
+	"Nirvir" = 1
+	"Mangard" = 1
+	"Mantur" = 1
+	"Dantor" = 1
+	"Danuren" = 1
+	"Monram" = 1
+	"Thitor" = 1
+	"Veldgard" = 1
+	"Dumlun" = 1
+	"Manram" = 1
+	"Thadis" = 1
+	"Tharam" = 1
+	"Nirgird" = 1
+	"Thagard" = 1
+	"Thulin" = 1
+	"Thurum" = 1
+	"Thator" = 1
+	"Dunrum" = 1
+	"Dundis" = 1
+	"Valddis" = 1
+	"Valduran" = 1
+	"Thuuron" = 1
+	"Thilin" = 1
+	"Valdlan" = 1
+	"Vulduran" = 1
+	"Murdas" = 1
+	"Damrum" = 1
+	"Niruran" = 1
+	"Nurgurd" = 1
+	"Vuldtir" = 1
+	"Brungird" = 1
+	"Dumgard" = 1
+	"Thuram" = 1
+	"Velduran" = 1
+	"Nirlan" = 1
+	"Dimlan" = 1
+	"Thagurd" = 1
+	"Vuldrum" = 1
+	"Monvir" = 1
+	"Mirrath" = 1
+	"Dumdis" = 1
+	"Mintir" = 1
+	"Murdis" = 1
+	"Dimuren" = 1
+	"Mirlun" = 1
+	"Marvar" = 1
+	"Veldtor" = 1
+	"Minlin" = 1
+	"Miruren" = 1
+	"Velddas" = 1
+	"Minrith" = 1
+	"Damdas" = 1
+	"Mirtur" = 1
+	"Thauron" = 1
+	"Valdvar" = 1
+	"Nururon" = 1
+	"Nurgird" = 1
+	"Veldvir" = 1
+	"Dumgird" = 1
+	"Manrum" = 1
+	"Duntir" = 1
+	"Vuldtor" = 1
+	"Manlan" = 1
+	"Manlin" = 1
+	"Thidas" = 1
+	"Bruntir" = 1
+	"Dimlun" = 1
+	"Nardis" = 1
+	"Murtur" = 1
+	"Mongard" = 1
+	"Mintor" = 1
+	"Velddis" = 1
+	"Dunrath" = 1
+	"Tharath" = 1
+	"Dumgurd" = 1
+	"Dangurd" = 1
+	"Dumlin" = 1
+	"Argvar" = 1
+	"Nirlun" = 1
+	"Dimgard" = 1
+	"Mururen" = 1
+	"Vuldlan" = 1
+	"Mirgard" = 1
+	"Danvar" = 1
+	"Duntur" = 1
+	"Mirvar" = 1
+	"Dungard" = 1
+	"Damuron" = 1
+	"Mandis" = 1
+	"Brunuren" = 1
+	"Vuldtur" = 1
+	"Argdas" = 1
+	"Damtir" = 1
+	"Nurtor" = 1
+	"Nirrith" = 1
+	"Marrith" = 1
+	"Brunuran" = 1
+	"Monrath" = 1
+	"Dimtur" = 1
+	"Vuldgurd" = 1
+	"Mangurd" = 1
+	"Brungard" = 1
+	"Vuldrath" = 1
+	"Maruron" = 1
+	"Dumlan" = 1
+	"Mururon" = 1
+	"Mantor" = 1
+	"Damrith" = 1
+	"Branlan" = 1
+	"Dunuren" = 1
+	"Murrith" = 1
+	"Vuldram" = 1
+	"Nirtir" = 1
+	"Narrith" = 1
+	"Branvar" = 1
+	"Mongird" = 1
+	"Dimgurd" = 1
+	"Marvir" = 1
+	"Vulduren" = 1
+	"Brunlun" = 1
+	"Minuran" = 1
+	"Murlan" = 1
+	"Manuran" = 1
+	"Nartir" = 1
+	"Marlun" = 1
+	"Thuuren" = 1
+	"Damram" = 1
+	"Murram" = 1
+	"Marlan" = 1
+	"Argdis" = 1
+	"Narlin" = 1
+	"Damlan" = 1
+	"Thatur" = 1
+	"Vuldgard" = 1
+	"Dunram" = 1
+	"Mirrum" = 1
+	"Thutur" = 1
+	"Brandas" = 1
+	"Nurdas" = 1
+	"Nirgurd" = 1
+	"Brangird" = 1
+	"Dunlun" = 1
+	"Branrum" = 1
+	"Valdrith" = 1
+	"Monlin" = 1
+	"Thulan" = 1
+	"Nirdas" = 1
+	"Valduron" = 1
+	"Narram" = 1
+	"Valdtir" = 1
+	"Dungird" = 1
+	"Valdram" = 1
+	"Brunvar" = 1
+	"Vuldrith" = 1
+	"Thiram" = 1
+	"Monuran" = 1
+	"Dunuron" = 1
+	"Murrath" = 1
+	"Thauren" = 1
+	"Manuron" = 1
+	"Nartor" = 1
+	"Dandis" = 1
+	"Valdtur" = 1
+	"Branlin" = 1
+	"Dimdas" = 1
+	"Thalan" = 1
+	"Nurvar" = 1
+	"Tharum" = 1
+	"Brunrum" = 1
+	"Mondas" = 1
+	"Mirdas" = 1
+	"Veldrith" = 1
+	"Mirtir" = 1
+	"Valdrath" = 1
+	"Thiuron" = 1
+	"Marram" = 1
+	"Dimvir" = 1
+	"Branuran" = 1
+	"Thulun" = 1
+	"Dumuran" = 1
+	"Brunlin" = 1
+	"Dantir" = 1
+	"Miruran" = 1
+	"Veldlun" = 1
+	"Argtur" = 1
+	"Dimgird" = 1
+	"Arggurd" = 1
+	"Dimuran" = 1
+	"Thavar" = 1
+	"Damlun" = 1
+	"Dumvir" = 1
+	"Nurrum" = 1
+	"Montir" = 1
+	"Danrath" = 1
+	"Valdrum" = 1
+	"Damgurd" = 1
+	"Danrum" = 1
+	"Thagird" = 1
+	"Thugird" = 1
+	"Thiuran" = 1
+	"Murvir" = 1
+	"Murgard" = 1
+	"Monuron" = 1
+	"Thuuran" = 1
+	"Arggard" = 1
+	"Nirtor" = 1
+	"Manlun" = 1
+	"Thudas" = 1
+	"Dantur" = 1
+	"Argtir" = 1
+	"Vulduron" = 1
+	"Dumuron" = 1
+	"Veldtur" = 1
+	"Valdtor" = 1
+	"Miruron" = 1
+	"Veldrum" = 1
+	"Dumuren" = 1
+	"Arglan" = 1
+	"Nurtur" = 1
+	"Valdlun" = 1
+	"Dangird" = 1
+	"Arguron" = 1
+	"Danuron" = 1
+	"Thirith" = 1
+	"Thurith" = 1
+	"Arguran" = 1
+	"Dumrith" = 1
+	"Dumtir" = 1
+	"Dunlan" = 1
+	"Dundas" = 1
+	"Dumram" = 1
+	"Naruran" = 1
+	"Valdlin" = 1
+	"Nirtur" = 1
+	"Dunrith" = 1
+	"Nirlin" = 1
+	"Valdgurd" = 1
+	"Brantur" = 1
+	"Naruron" = 1
+	"Manrith" = 1
+	"Vulddas" = 1
+	"Mirtor" = 1
+	"Minuren" = 1
+	"Martor" = 1
+	"Martur" = 1
+	"Murrum" = 1
+	"Mingird" = 1
+	"Murtir" = 1
+	"Danlin" = 1
+	"Veldtir" = 1
+	"Narlan" = 1
+	"Nurvir" = 1
+	"Mirlan" = 1
+	"Arggird" = 1
+	"Mirvir" = 1
+	"Thatir" = 1
+	"Monvar" = 1
+	"Thitir" = 1
+	"Nurlin" = 1
+	"Danram" = 1
+	"Nirvar" = 1
+	"Damgird" = 1
+	"Veldgird" = 1
+	"Murgurd" = 1
+	"Narvir" = 1
+	"Nirrath" = 1
+	"Maruren" = 1
+	"Damlin" = 1
+	"Damgard" = 1
+	"Dimrath" = 1
+	"Niruron" = 1
+	"Nartur" = 1
+	"Valduren" = 1
+	"Dandas" = 1
+	"Dimvar" = 1
+	"Murvar" = 1
+	"Dunuran" = 1
+	"Monlan" = 1
+	"Danuran" = 1
+	"Narlun" = 1
+	"Narrath" = 1
+	"Narrum" = 1
+	"Murgird" = 1
+	"Thilun" = 1
+	"Branrath" = 1
+	"Dumrath" = 1
+	"Mirdis" = 1
+	"Vuldlin" = 1
+	"Margird" = 1
+	"Thidis" = 1
+	"Manvar" = 1
+	"Tharith" = 1
+	"Nirgard" = 1
+	"Manvir" = 1
+	"Minlun" = 1
+	"Thugurd" = 1
+	"Marrath" = 1
+	"Danlun" = 1
+	"Branuron" = 1
+	"Vuldgird" = 1
+	"Mirgird" = 1
+	"Thigurd" = 1
+	"Brangurd" = 1
+	"Thigird" = 1
+	"Nargard" = 1
+	"Dimrith" = 1
+	"Thurath" = 1
+	"Damtur" = 1
+	"Dimram" = 1
+	"Dimtor" = 1
+	"Mintur" = 1
+	"Damtor" = 1
+	"Damuren" = 1
+	"Thiuren" = 1
+	"Dumrum" = 1
+	"Branuren" = 1
+	"Valdvir" = 1
+	"Nirdis" = 1
+	"Minrath" = 1
+	"Martir" = 1
+	"Mirrith" = 1
+	"Argrith" = 1
+	"Thivar" = 1
+	"Dunvir" = 1
+	"Veldlin" = 1
+	"Damuran" = 1
+	"Branlun" = 1
+	"Valddas" = 1
+	"Marlin" = 1
+	"Branrith" = 1
+	"Mindas" = 1
+	"Veldlan" = 1
+	"Brandis" = 1
+	"Montur" = 1
+	"Naruren" = 1
+	"Thudis" = 1
+	"Mururan" = 1
+	"Nirrum" = 1
+	"Veldgurd" = 1
+	"Narvar" = 1
+	"Mingard" = 1
+	"Mardas" = 1
+	"Monrum" = 1
+	"Nururen" = 1
+	"Murlun" = 1
+	"Minvar" = 1
+	"Minram" = 1
+	"Dimtir" = 1
+	"Argram" = 1
+	"Dunlin" = 1
+	"Murlin" = 1
+	"Thalun" = 1
+	"Damdis" = 1
+	"Nurgard" = 1
+	"Thuvar" = 1
+	"Arglun" = 1
+	"Velduron" = 1
+	"Dangard" = 1
+	"Mongurd" = 1
+	"Thigard" = 1
+	"Mirram" = 1
+	"Veldvar" = 1
+	"Mingurd" = 1
+	"Veldrath" = 1
+	"Thadas" = 1
+	"Argrath" = 1
+	"Duntor" = 1
+	"Vuldlun" = 1
+	"Nurtir" = 1
+	"Flint" = 1
+	"Urel" = 1
+	"Bouldercrag" = 1
+	"Goggeroc" = 1
+	"Nargird" = -1
+	"Thilan" = -1
+	"Dumdas" = -1
+	"Dimrum" = -1
+	"Brundis" = -1
+	"Minvir" = -1
+	"Bruntor" = -1
+	"Brangard" = -1
+	"Mandas" = -1
+	"Monlun" = -1
+	"Argvir" = -1
+	"Brantir" = -1
+	"Thuvir" = -1
+	"Mantir" = -1
+	"Thauran" = -1
+	"Arglin" = -1
+	"Marrum" = -1
+	"Murtor" = -1
+	"Manrath" = -1
+	"Danrith" = -1
+	"Brunrith" = -1
+	"Thitur" = -1
+	"Dunvar" = -1
+	"Brantor" = -1
+	"Mondis" = -1
+	"Mirgurd" = -1
+	"Thutir" = -1
+	"Dimuron" = -1
+	"Argtor" = -1
+	"Dumtur" = -1
+	"Vuldvir" = -1
+	"Thirath" = -1
+	"Brundas" = -1
+	"Valdgird" = -1
+	"Minrum" = -1
+	"Mirlin" = -1
+	"Thugard" = -1
+	"Vuldvar" = -1
+	"Thirum" = -1
+	"Arguren" = -1
+	"Nurrath" = -1
+	"Bruntur" = -1
+	"Monrith" = -1
+	"Brunrath" = -1
+	"Thavir" = -1
+	"Nardas" = -1
+	"Nurlun" = -1
+	"Damrath" = -1
+	"Dimlin" = -1
+	"Danlan" = -1
+	"Minlan" = -1
+	"Margard" = -1
+	"Dungurd" = -1
+	"Nurrith" = -1
+	"Montor" = -1
+	"Brunuron" = -1
+	"Brunram" = -1
+	"Maruran" = -1
+	"Nurdis" = -1
+	"Mindis" = -1
+	"Dumtor" = -1
+	"Nururan" = -1
+	"Thutor" = -1
+	"Nargurd" = -1
+	"Mangird" = -1
+	"Niruren" = -1
+	"Branram" = -1
+	"Valdgard" = -1
+	"Minuron" = -1
+	"Dumvar" = -1
+	"Danvir" = -1
+	"Velduren" = -1
+	"Brungurd" = -1
+	"Nurlan" = -1
+	"Manuren" = -1
+	"Damvir" = -1
+	"Monuren" = -1
+	"Damvar" = -1
+	"Branvir" = -1
+	"Argrum" = -1
+	"Nirram" = -1
+	"Brunlan" = -1
+	"Mardis" = -1
+	"Thivir" = -1
+	"Margurd" = -1
+	"Vulddis" = -1
+	"Nurram" = -1
+	"Veldram" = -1
+	"Brunvir" = -1
+	"Thalin" = -1
+	"Nirvir" = -1
+	"Mangard" = -1
+	"Mantur" = -1
+	"Dantor" = -1
+	"Danuren" = -1
+	"Monram" = -1
+	"Thitor" = -1
+	"Veldgard" = -1
+	"Dumlun" = -1
+	"Manram" = -1
+	"Thadis" = -1
+	"Tharam" = -1
+	"Nirgird" = -1
+	"Thagard" = -1
+	"Thulin" = -1
+	"Thurum" = -1
+	"Thator" = -1
+	"Dunrum" = -1
+	"Dundis" = -1
+	"Valddis" = -1
+	"Valduran" = -1
+	"Thuuron" = -1
+	"Thilin" = -1
+	"Valdlan" = -1
+	"Vulduran" = -1
+	"Murdas" = -1
+	"Damrum" = -1
+	"Niruran" = -1
+	"Nurgurd" = -1
+	"Vuldtir" = -1
+	"Brungird" = -1
+	"Dumgard" = -1
+	"Thuram" = -1
+	"Velduran" = -1
+	"Nirlan" = -1
+	"Dimlan" = -1
+	"Thagurd" = -1
+	"Vuldrum" = -1
+	"Monvir" = -1
+	"Mirrath" = -1
+	"Dumdis" = -1
+	"Mintir" = -1
+	"Murdis" = -1
+	"Dimuren" = -1
+	"Mirlun" = -1
+	"Marvar" = -1
+	"Veldtor" = -1
+	"Minlin" = -1
+	"Miruren" = -1
+	"Velddas" = -1
+	"Minrith" = -1
+	"Damdas" = -1
+	"Mirtur" = -1
+	"Thauron" = -1
+	"Valdvar" = -1
+	"Nururon" = -1
+	"Nurgird" = -1
+	"Veldvir" = -1
+	"Dumgird" = -1
+	"Manrum" = -1
+	"Duntir" = -1
+	"Vuldtor" = -1
+	"Manlan" = -1
+	"Manlin" = -1
+	"Thidas" = -1
+	"Bruntir" = -1
+	"Dimlun" = -1
+	"Nardis" = -1
+	"Murtur" = -1
+	"Mongard" = -1
+	"Mintor" = -1
+	"Velddis" = -1
+	"Dunrath" = -1
+	"Tharath" = -1
+	"Dumgurd" = -1
+	"Dangurd" = -1
+	"Dumlin" = -1
+	"Argvar" = -1
+	"Nirlun" = -1
+	"Dimgard" = -1
+	"Mururen" = -1
+	"Vuldlan" = -1
+	"Mirgard" = -1
+	"Danvar" = -1
+	"Duntur" = -1
+	"Mirvar" = -1
+	"Dungard" = -1
+	"Damuron" = -1
+	"Mandis" = -1
+	"Brunuren" = -1
+	"Vuldtur" = -1
+	"Argdas" = -1
+	"Damtir" = -1
+	"Nurtor" = -1
+	"Nirrith" = -1
+	"Marrith" = -1
+	"Brunuran" = -1
+	"Monrath" = -1
+	"Dimtur" = -1
+	"Vuldgurd" = -1
+	"Mangurd" = -1
+	"Brungard" = -1
+	"Vuldrath" = -1
+	"Maruron" = -1
+	"Dumlan" = -1
+	"Mururon" = -1
+	"Mantor" = -1
+	"Damrith" = -1
+	"Branlan" = -1
+	"Dunuren" = -1
+	"Murrith" = -1
+	"Vuldram" = -1
+	"Nirtir" = -1
+	"Narrith" = -1
+	"Branvar" = -1
+	"Mongird" = -1
+	"Dimgurd" = -1
+	"Marvir" = -1
+	"Vulduren" = -1
+	"Brunlun" = -1
+	"Minuran" = -1
+	"Murlan" = -1
+	"Manuran" = -1
+	"Nartir" = -1
+	"Marlun" = -1
+	"Thuuren" = -1
+	"Damram" = -1
+	"Murram" = -1
+	"Marlan" = -1
+	"Argdis" = -1
+	"Narlin" = -1
+	"Damlan" = -1
+	"Thatur" = -1
+	"Vuldgard" = -1
+	"Dunram" = -1
+	"Mirrum" = -1
+	"Thutur" = -1
+	"Brandas" = -1
+	"Nurdas" = -1
+	"Nirgurd" = -1
+	"Brangird" = -1
+	"Dunlun" = -1
+	"Branrum" = -1
+	"Valdrith" = -1
+	"Monlin" = -1
+	"Thulan" = -1
+	"Nirdas" = -1
+	"Valduron" = -1
+	"Narram" = -1
+	"Valdtir" = -1
+	"Dungird" = -1
+	"Valdram" = -1
+	"Brunvar" = -1
+	"Vuldrith" = -1
+	"Thiram" = -1
+	"Monuran" = -1
+	"Dunuron" = -1
+	"Murrath" = -1
+	"Thauren" = -1
+	"Manuron" = -1
+	"Nartor" = -1
+	"Dandis" = -1
+	"Valdtur" = -1
+	"Branlin" = -1
+	"Dimdas" = -1
+	"Thalan" = -1
+	"Nurvar" = -1
+	"Tharum" = -1
+	"Brunrum" = -1
+	"Mondas" = -1
+	"Mirdas" = -1
+	"Veldrith" = -1
+	"Mirtir" = -1
+	"Valdrath" = -1
+	"Thiuron" = -1
+	"Marram" = -1
+	"Dimvir" = -1
+	"Branuran" = -1
+	"Thulun" = -1
+	"Dumuran" = -1
+	"Brunlin" = -1
+	"Dantir" = -1
+	"Miruran" = -1
+	"Veldlun" = -1
+	"Argtur" = -1
+	"Dimgird" = -1
+	"Arggurd" = -1
+	"Dimuran" = -1
+	"Thavar" = -1
+	"Damlun" = -1
+	"Dumvir" = -1
+	"Nurrum" = -1
+	"Montir" = -1
+	"Danrath" = -1
+	"Valdrum" = -1
+	"Damgurd" = -1
+	"Danrum" = -1
+	"Thagird" = -1
+	"Thugird" = -1
+	"Thiuran" = -1
+	"Murvir" = -1
+	"Murgard" = -1
+	"Monuron" = -1
+	"Thuuran" = -1
+	"Arggard" = -1
+	"Nirtor" = -1
+	"Manlun" = -1
+	"Thudas" = -1
+	"Dantur" = -1
+	"Argtir" = -1
+	"Vulduron" = -1
+	"Dumuron" = -1
+	"Veldtur" = -1
+	"Valdtor" = -1
+	"Miruron" = -1
+	"Veldrum" = -1
+	"Dumuren" = -1
+	"Arglan" = -1
+	"Nurtur" = -1
+	"Valdlun" = -1
+	"Dangird" = -1
+	"Arguron" = -1
+	"Danuron" = -1
+	"Thirith" = -1
+	"Thurith" = -1
+	"Arguran" = -1
+	"Dumrith" = -1
+	"Dumtir" = -1
+	"Dunlan" = -1
+	"Dundas" = -1
+	"Dumram" = -1
+	"Naruran" = -1
+	"Valdlin" = -1
+	"Nirtur" = -1
+	"Dunrith" = -1
+	"Nirlin" = -1
+	"Valdgurd" = -1
+	"Brantur" = -1
+	"Naruron" = -1
+	"Manrith" = -1
+	"Vulddas" = -1
+	"Mirtor" = -1
+	"Minuren" = -1
+	"Martor" = -1
+	"Martur" = -1
+	"Murrum" = -1
+	"Mingird" = -1
+	"Murtir" = -1
+	"Danlin" = -1
+	"Veldtir" = -1
+	"Narlan" = -1
+	"Nurvir" = -1
+	"Mirlan" = -1
+	"Arggird" = -1
+	"Mirvir" = -1
+	"Thatir" = -1
+	"Monvar" = -1
+	"Thitir" = -1
+	"Nurlin" = -1
+	"Danram" = -1
+	"Nirvar" = -1
+	"Damgird" = -1
+	"Veldgird" = -1
+	"Murgurd" = -1
+	"Narvir" = -1
+	"Nirrath" = -1
+	"Maruren" = -1
+	"Damlin" = -1
+	"Damgard" = -1
+	"Dimrath" = -1
+	"Niruron" = -1
+	"Nartur" = -1
+	"Valduren" = -1
+	"Dandas" = -1
+	"Dimvar" = -1
+	"Murvar" = -1
+	"Dunuran" = -1
+	"Monlan" = -1
+	"Danuran" = -1
+	"Narlun" = -1
+	"Narrath" = -1
+	"Narrum" = -1
+	"Murgird" = -1
+	"Thilun" = -1
+	"Branrath" = -1
+	"Dumrath" = -1
+	"Mirdis" = -1
+	"Vuldlin" = -1
+	"Margird" = -1
+	"Thidis" = -1
+	"Manvar" = -1
+	"Tharith" = -1
+	"Nirgard" = -1
+	"Manvir" = -1
+	"Minlun" = -1
+	"Thugurd" = -1
+	"Marrath" = -1
+	"Danlun" = -1
+	"Branuron" = -1
+	"Vuldgird" = -1
+	"Mirgird" = -1
+	"Thigurd" = -1
+	"Brangurd" = -1
+	"Thigird" = -1
+	"Nargard" = -1
+	"Dimrith" = -1
+	"Thurath" = -1
+	"Damtur" = -1
+	"Dimram" = -1
+	"Dimtor" = -1
+	"Mintur" = -1
+	"Damtor" = -1
+	"Damuren" = -1
+	"Thiuren" = -1
+	"Dumrum" = -1
+	"Branuren" = -1
+	"Valdvir" = -1
+	"Nirdis" = -1
+	"Minrath" = -1
+	"Martir" = -1
+	"Mirrith" = -1
+	"Argrith" = -1
+	"Thivar" = -1
+	"Dunvir" = -1
+	"Veldlin" = -1
+	"Damuran" = -1
+	"Branlun" = -1
+	"Valddas" = -1
+	"Marlin" = -1
+	"Branrith" = -1
+	"Mindas" = -1
+	"Veldlan" = -1
+	"Brandis" = -1
+	"Montur" = -1
+	"Naruren" = -1
+	"Thudis" = -1
+	"Mururan" = -1
+	"Nirrum" = -1
+	"Veldgurd" = -1
+	"Narvar" = -1
+	"Mingard" = -1
+	"Mardas" = -1
+	"Monrum" = -1
+	"Nururen" = -1
+	"Murlun" = -1
+	"Minvar" = -1
+	"Minram" = -1
+	"Dimtir" = -1
+	"Argram" = -1
+	"Dunlin" = -1
+	"Murlin" = -1
+	"Thalun" = -1
+	"Damdis" = -1
+	"Nurgard" = -1
+	"Thuvar" = -1
+	"Arglun" = -1
+	"Velduron" = -1
+	"Dangard" = -1
+	"Mongurd" = -1
+	"Thigard" = -1
+	"Mirram" = -1
+	"Veldvar" = -1
+	"Mingurd" = -1
+	"Veldrath" = -1
+	"Thadas" = -1
+	"Argrath" = -1
+	"Duntor" = -1
+	"Vuldlun" = -1
+	"Nurtir" = -1
+	"Flint" = -1
+	"Urel" = -1
+	"Bouldercrag" = -1
+	"Goggeroc" = -1
+
+}
+
+leader_names = {
+	"Bronzeshaper"
+	"Oreshaper"
+	"Ironcutter"
+	"Silvercrag"
+	"Stoneheart"
+	"Ironmantle"
+	"Rockshaper"
+	"Goldmantle"
+	"Ironheart"
+	"Stoneshaper"
+	"Goldshaper"
+	"Orecutter"
+	"Stonebeard"
+	"Orebeard"
+	"Oremantle"
+	"Stonecrag"
+	"Silvershaper"
+	"Ironcrag"
+	"Goldheart"
+	"Goldcrag"
+	"Goldbeard"
+	"Rockbeard"
+	"Bronzecutter"
+	"Rockcrag"
+	"Steelheart"
+	"Silverheart"
+	"Bronzemantle"
+	"Silverbeard"
+	"Bronzecrag"
+	"Goldcutter"
+	"Steelshaper"
+	"Stonemantle"
+	"Steelmantle"
+	"Silvercutter"
+	"Silvermantle"
+	"Rockheart"
+	"Rockmantle"
+	"Ironbeard"
+	"Oreheart"
+	"Bronzeheart"
+	"Steelcrag"
+	"Bronzebeard"
+	"Rockcutter"
+	"Ironshaper"
+	"Steelbeard"
+	"Stonecutter"
+	"Orecrag"
+	"Steelcutter"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	earthen_inf_a_1
+	earthen_cav_a_1
+	earthen_inf_a_2
+	earthen_cav_a_2
+	earthen_inf_a_3
+	earthen_cav_a_3
+	earthen_inf_a_4
+	earthen_cav_a_4
+	earthen_inf_a_5
+	earthen_cav_a_5
+}
+
+

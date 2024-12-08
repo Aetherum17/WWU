@@ -370,6 +370,82 @@ draconic_ties = {
     opinion = 50
     yearly_decay = -0.25
 }
+A12_opinion_godfrey_non_tolerance = {
+	opinion = -200
+}
+
+A12_strenght_in_unity_vassalisation_denied = {
+	opinion = -50
+	yearly_decay = 0.5
+}
+
+A12_refuse_to_help_us = {
+	opinion = -50
+	yearly_decay = 0.5
+}
+
+A12_A94_genn_is_a_liar = {
+	opinion = -100
+	yearly_decay = 0.25
+}
+
+is_gilnean_colony = {
+	opinion = 30
+}
+
+A12_has_accepted_our_refugiee = {
+	opinion = 15
+	yearly_decay = 0.05
+}
+
+A12_has_accepted_our_refugiee_b = {
+	opinion = 15
+	yearly_decay = 0.05
+}
+
+#--------------------------------------
+# Theramore
+#--------------------------------------
+A23_dealins_death = {
+	opinion = -200
+	yearly_decay = 0.5
+}
+A23_barren_digsites_a = {
+	opinion = -100
+	yearly_decay = 1
+}
+A23_barren_digsites_b = {
+	opinion = -50
+	yearly_decay = 1
+}
+A23_barren_digsites_c = {
+	opinion = 150
+	yearly_decay = 1
+}
+A23_barren_digsites_d = {
+	opinion = 100
+	yearly_decay = 1
+}
+A23_barren_digsites_e = {
+	opinion = -50
+	yearly_decay = 1
+}
+A23_barren_digsites_f = {
+	opinion = -100
+	yearly_decay = 1
+}
+A23_return_to_kultiras = {
+	opinion = -100
+	yearly_decay = 1
+}
+A23_fate_of_kultiras = {
+	opinion = 100
+	yearly_decay = 1
+}
+A23_fall_of_kultiras = {
+	opinion = -100
+	yearly_decay = 5
+}
 
 #--------------------------------------
 # Tribal Unity

@@ -18,22 +18,24 @@ trade_goods = resource_common_ores
 
 
 616.1.1 = {
-owner = CRA
-controller = CRA
-add_core = CRA
+    owner = CRA
+    controller = CRA
+    add_core = CRA
 
-religion = fel
-culture = culture_satyr
+    religion = fel
+    culture = culture_satyr
 }
 
-618.1.1 = {
-    owner = B44
-    controller = B44
-    add_core = B44
+618.1.1 = {   
+    owner = G02
+    controller = G02
+    add_core = G02
 	remove_core = CRA
 	
+	culture = culture_pit_lord
     religion = fel
-	culture = culture_corrupted_furbolg
+	
+    trade_goods = resource_fel
 }
 
 

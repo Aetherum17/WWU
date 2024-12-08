@@ -5,5 +5,284 @@
  wwu_gilneas.1.option.b: "We mustn't let our fellow humans stand alone."
  
  ALLOW_GREYMANE_WALL_TT: "We will be able to construct the Greymane Wall."
+ wwu_mission_gilneas.2.title: "The Fate of Gilneas"
+ wwu_mission_gilneas.2.desc: "After some hesitation, Lord Godfrey personally came to convince King [Root.Monarch.GetName] to join the Alliance of Lordaeron and send our forces to support the Alliance's war effort. However, this would mean committing our soldiers to war and possibly losing them. The king's skepticism contrasts with Godfrey's arguments in favor of integrating into the military Alliance, both to preserve our diplomatic and trade relations and to remain in good standing with its members. On the other hand, the king is confident that he can contain the Horde on his own, should the threat ever loom over the kingdom."
+ wwu_mission_gilneas.2.option.a: "We can fight the orcs alone!"
+ wwu_mission_gilneas.2.option.b: "We don't need them, but they need us!"
+
+ A12_join_the_alliance_of_lordaeron_tt: "We are joining the Alliance and sending them our professional militia."
+
+ wwu_mission_gilneas.3.title: "Bloodfang's Invasion of Gilneas"
+ wwu_mission_gilneas.3.desc: "Panic spread across Gilneas after citizens noticed shadows dancing on their rooftops and the distant sound of savage howls. Bloodthirsty beasts had breached the Greymane Wall after attacking our vanguard in the Silverpine Forest. Fear quickly gripped the city as people locked themselves in their homes, unsure how many creatures had infiltrated. Whispers of dark magic and betrayal filled the streets, and Gilneas' once-confident defenses began to crumble under the weight of this unseen threat. The city, teetering on the edge of chaos, now faced an uncertain future."
+ wwu_mission_gilneas.3.option.a: "The Worgen Curse!"
+  
+ wwu_mission_gilneas.4.title: "Northgate Rebellion"
+ wwu_mission_gilneas.4.desc: "The Northgate Rebellion was a pivotal uprising in Gilneas, marking a significant internal conflict that threatened the stability of the kingdom. Sparked by dissent against the decisions of King Genn Greymane, particularly his isolationist policies and the construction of the Greymane Wall, the rebellion was led by disgruntled noble families and citizens who felt abandoned by their ruler. Tensions escalated as the rebels sought to overthrow the monarchy and take control of the northern regions of Gilneas. Though the rebellion was ultimately quelled, it left deep scars on the nation, sowing distrust between the ruling elite and its people—setting the stage for future conflicts."
+ wwu_mission_gilneas.4.option.a: "Friend today, enemy tomorrow..."
+
+ wwu_mission_gilneas.5.title: "Darius Crowley judgement"
+ wwu_mission_gilneas.5.desc: "Darius Crowley, once a prominent figure in Gilneas and leader of the Northgate Rebellion, now stands before the court to face judgment for his actions. His rebellion against King Genn Greymane's rule caused significant turmoil and division within the kingdom. As the time has come to decide his fate, the people and leaders of Gilneas are divided on how to handle the former traitor. Should he be punished for his betrayal and the suffering he caused, or should the kingdom move past his transgressions and focus on healing and unity? The decision will shape the future of Gilneas and determine whether the scars of the rebellion will ever fully heal."
+ wwu_mission_gilneas.5.option.a: "He betrayed us, he must die"
+ wwu_mission_gilneas.5.option.b: "We must forget the past"
+  
+ wwu_mission_gilneas.6.title: "[A12.Monarch.GetName] claims to be the supreme leader of the Worgen"
+ wwu_mission_gilneas.6.desc: "[A12.Monarch.GetName] has declared themselves as the rightful and supreme leader of all Worgen, claiming to embody the strength and unity of the cursed race. This bold assertion has sparked a fierce debate among the Worgen, as some view it as a long-awaited return to order, while others see it as a dangerous grab for power by an opportunist. Now, the fate of Gilneas and its people hangs in the balance."
+ wwu_mission_gilneas.6.option.a: "Glory to [A12.Monarch.GetName] !"
+ wwu_mission_gilneas.6.option.b: "We will never recognize this impostor"
+  
+ wwu_mission_gilneas.7.title: "Gilneas ask for military support"
+ wwu_mission_gilneas.7.desc: "The kingdom of Gilneas is facing a dire threat from the Forsaken, who have launched a brutal invasion into their lands. The once-proud defenses of Gilneas are struggling to hold back the relentless assault. In this moment of crisis, Gilneas has reached out for military assistance. This is a chance to forge a stronger alliance or to let them fend for themselves."
+ wwu_mission_gilneas.7.option.a: "Sure, let's help them"
+ wwu_mission_gilneas.7.option.b: "No, we can't afford that"
+  
+ wwu_mission_gilneas.8.title: "Gilneas ask for military support"
+ wwu_mission_gilneas.8.desc: "The kingdom of Gilneas is facing a dire threat from the Forsaken, who have launched a brutal invasion into their lands. The once-proud defenses of Gilneas are struggling to hold back the relentless assault. In this moment of crisis, Gilneas has reached out for military assistance. This is a chance to forge a stronger alliance or to let them fend for themselves."
+ wwu_mission_gilneas.8.option.a: "Sure, let's help them"
+ wwu_mission_gilneas.8.option.b: "No, we can't afford that"
+ A12_A94_agreement_with_gilneas: "In exchange for ceding Tal'doren after the war, we commit to supporting Gilneas in its war against the invaders."
+  
+ wwu_mission_gilneas.9.title: "Gilneas ask for military support"
+ wwu_mission_gilneas.9.desc: "As Gilneas faces an external siege, King Genn Greymane sends an urgent request to the mountain realms of Khaz Modan. With their hardy dwarven warriors and skilled engineers, Khaz Modan’s assistance could turn the tide of the war. However, the dwarves are preoccupied with defending their own underground strongholds from growing threats. Will they divert their forces to aid a human ally in need, or deem the request too dangerous?"
+ wwu_mission_gilneas.9.option.a: "Sure, let's help them"
+ wwu_mission_gilneas.9.option.b: "No, we can't afford that"
+  
+ wwu_mission_gilneas.10.title: "Gilneas ask for military support"
+ wwu_mission_gilneas.10.desc: "The renowned Kul Tiran fleets, masters of the seas, could provide Gilneas with the naval support it desperately needs against its enemies. King Genn Greymane turns to House Proudmoore, seeking the naval reinforcements necessary to bolster his kingdom’s coastal defenses. However, with their own maritime engagements and the constant threat of piracy, Kul Tiras hesitates. Helping Gilneas now might weaken their own position on the high seas."
+ wwu_mission_gilneas.10.option.a: "Sure, let's help them"
+ wwu_mission_gilneas.10.option.b: "No, we can't afford that"
+  
+ wwu_mission_gilneas.11.title: "The rise of Scarlet Light in Gilneas"
+ wwu_mission_gilneas.11.desc: "A new movement has begun to emerge within Gilneas, driven by a fervent belief in the cleansing power of the Light. Although the teachings of this Scarlet faith are still nascent, its followers preach that the Light's justice must be enforced with uncompromising zeal. This growing sect views the threats from outside Gilneas, and even from within, as signs of corruption that must be purged. As the movement gathers strength, whispers of righteous retribution and holy wars are beginning to take root in the hearts of the people. Will the kingdom embrace this newfound faith, or try to suppress its dangerous zeal?"
+ wwu_mission_gilneas.11.option.a: "Embrace the Scarlet Light"
+ wwu_mission_gilneas.11.option.b: "Suppress this dangerous faith"
+  
+ wwu_mission_gilneas.12.title: "The Lich King's Proposal"
+ wwu_mission_gilneas.12.desc: "Whispers of Kel'Thuzad and the Cult of the Damned have begun to spread through our court, sowing the seeds of a dark offer. The Scourge, ever-expanding in its hunger for power, seeks to ensnare Gilneas in its shadow. In exchange for our submission, they promise protection and untold strength, slowly transforming us into a force bound to undeath. Yet, embracing this path means surrendering our sovereignty and falling under the will of the Cult. The fate of Gilneas now rests on a knife's edge—will we heed these insidious whispers or resist, fighting to preserve our independence?"
+ wwu_mission_gilneas.12.option.a: "Become a Scourge Domain"
+ wwu_mission_gilneas.12.option.b: "Keep our independance"
+  
+ wwu_mission_gilneas.13.title: "The Fate of Stormwind"
+ wwu_mission_gilneas.13.desc: "As the Scourge's invasion, backed by our corrupted and fallen forces in Gilneas, overwhelms Stormwind, the fate of the city lies in your hands. The once proud capital is now at our mercy. Do you wish to eradicate every remnant of its grandeur or mark our dominance by claiming its territories while sparing its great projects?"
+ wwu_mission_gilneas.13.option.a: "Destroy all of them !"
+ wwu_mission_gilneas.13.option.b: "Spare them, but we will plan our flag on these !"
+ A12_destroy_every_great_project_tt: "Destroy all §YGreat Projects§! in §YStormwind§!.\n\nPer every §YGreat Project§! that is destroyed, we will gain §G+100§! of each Monarch Power."
+ A12_shall_not_destroy_any_gp_tt: "We will annex every territories with a §YGreat Project§! in §YStormwind§!"
+  
+ wwu_mission_gilneas.14.title: "New Stromgarde from it ashes"
+ wwu_mission_gilneas.14.desc: "In the wake of the Scourge's devastation, New Stromgarde has risen from the ruins of the old kingdom. Once a proud stronghold, now it stands as a grim testament to the horrors of undeath. The living dead inhabit its broken streets, their presence a constant reminder of the Scourge's corruption. As we gaze upon this desolate realm"
+ wwu_mission_gilneas.14.option.a: "Great ! Another puppet for us !"
+  
+ wwu_mission_gilneas.15.title: "In search of our lost humanity..."
+ wwu_mission_gilneas.15.desc: " As the grip of the Scourge tightens, we find ourselves yearning for the humanity we have lost. No longer willing to be a pawn in the Scourge’s grand scheme, we prepare to assert our independence. Like the Forsaken who broke free under Sylvanas's leadership, we must now decide whether to reclaim our autonomy or remain under the shadow of the Scourge’s manipulation."
+ wwu_mission_gilneas.15.option.a: "We are lost..."
+  
+ wwu_mission_gilneas.16.title: "The Gilnean proposal"
+ wwu_mission_gilneas.16.desc: "In the wake of Gilneas' declaration of independence, we receive a proposal for an alliance. They recognize that their struggle mirrors our own and believe that together we might forge a path of resistance against our common foes. From our perspective, this offer is seen as an opportunity to strengthen our alliance and ensure that both parties can better defend themselves and pursue their objectives"
+ wwu_mission_gilneas.16.option.a: "We are in the same fight"
+ wwu_mission_gilneas.16.option.b: "Let them handle their problem on their own"
+  
+ wwu_mission_gilneas.17.title: "Alliance Accepted"
+ wwu_mission_gilneas.17.desc: "The Forsaken have responded favorably to our proposal for an alliance. They recognize the value of our mutual support and agree to join forces with us. This alliance will strengthen both of our positions and enhance our ability to resist our common enemies. Together, we will be a formidable force against those who seek to undermine us."
+ wwu_mission_gilneas.17.option.a: "A powerful partnership is forged"
+  
+ wwu_mission_gilneas.18.title: "Proposal Rejected"
+ wwu_mission_gilneas.18.desc: "The Forsaken have declined our offer of alliance. They do not see the value in collaborating with us at this time, and prefer to handle their own affairs independently. This rejection leaves us to face our challenges alone, but we must continue to fight for our survival and sovereignty as best we can."
+ wwu_mission_gilneas.18.option.a: "We must press on alone"
+  
+ wwu_mission_gilneas.19.title: "Total Subjugation by the Lich King"
+ wwu_mission_gilneas.19.desc: "Gilneas no longer holds any control over its fate. The Lich King has stripped us of all autonomy, dictating every decision and commanding absolute obedience. Our leaders are mere puppets, and our people are bound to serve the will of the Frozen Throne. There is no escape, no hope for freedom—only the cold, merciless rule of the Scourge."
+ wwu_mission_gilneas.19.option.a: "Submit to the will of the Lich King"
+ A12_become_scourge_dominion_tt: "§YThis event will profoundly change the country§!" 
+
+ wwu_mission_gilneas.24.title: "Gilneas future with the Alliance"
+ wwu_mission_gilneas.24.desc: "The Second War is over, but for Gilneas, the decisions made by the Alliance leaders are not without consequences. The establishment of internment camps for orcs, a project supported by Lordaeron, is a growing source of dissent. Gilneas, already reluctant to fully engage in Alliance affairs, views these camps as a colossal waste of resources and money. King [Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] believes that this financial burden could weaken his kingdom, and that the captive orcs should be executed or exiled, not imprisoned. This situation creates a major rift within the Alliance, leaving Gilneas at a crucial crossroads: to stay or to leave the Alliance."
+ wwu_mission_gilneas.24.option.a: "We need to leave the Alliance"
+ wwu_mission_gilneas.24.option.b: "Or not ?"
+  
+ wwu_mission_gilneas.21.title: "Koroth Hillbreaker"
+ wwu_mission_gilneas.21.desc: "Koroth Hillbreaker, the meanest and most destructive force in Gilneas, fiercely protects his den and the surrounding area. After a successful theft of his banner, he mistakenly believes that the Forsaken are responsible and becomes a key player in the conflict. His den, located just up the hill from the stagecoach crash site, is where the banner was stolen. The repercussions of this theft will be significant."
+ wwu_mission_gilneas.21.option.a: "Bones men mad ! Bones men must be dead !"
+ wwu_mission_gilneas.21.option.b: "Bones men mad ! Bones men and little men must be dead !"
+  
+ wwu_mission_gilneas.22.title: "Koroth Hillbreaker want to break bones men"
+ wwu_mission_gilneas.22.desc: "The plan to steal Koroth Hillbreaker's banner was executed flawlessly. The ettin and his ogre minions have been successfully manipulated into directing their wrath against the Forsaken. Gilneas has effectively used this opportunity to secure a strategic advantage."
+ wwu_mission_gilneas.22.option.a: "Great"
+  
+ wwu_mission_gilneas.23.title: "Koroth Hillbreaker want to break bones men"
+ wwu_mission_gilneas.23.desc: "The success of the plan has led to Koroth Hillbreaker and his ogres turning their fury towards the Forsaken. This has created a favorable situation for Gilneas, allowing it to further solidify its position by incorporating Koroth's territory and influence into its own realm."
+ wwu_mission_gilneas.23.option.a: "Great"
+  
+  ################### FLAVOUR ###################
+  
+ wwu_gilneas.2.title: "[Root.Monarch.GetName] Infected by the Curse"
+ wwu_gilneas.2.desc: "The Worgen Curse, a horrifying affliction, has spread through the royal family. Once infected, even the most noble and resolute leaders succumb to the primal rage and savage instincts of the Worgen. [Root.Monarch.GetName] now stands on the brink of losing their humanity, forever changed by the dark power of this curse."
+ wwu_gilneas.2.option.a: "The beginning of the end?"
+ A12_genn_can_be_cured_tt: "You can remove the modifier by completing this mission : §PAranas Antidote§!"
  
+ wwu_gilneas.3.title: "Rebellion of Godfrey and the Capture of [Root.Monarch.GetName]"
+ wwu_gilneas.3.desc: "Betrayed by one of Gilneas' most trusted nobles, Lord Godfrey, [ROOT.Monarch.GetName] has been captured. Godfrey, seeking to overthrow the monarchy and gain control for himself, now threatens the stability of the kingdom. Time is running out to rescue [ROOT.Monarch.GetName] and restore order before Gilneas falls into chaos."
+ wwu_gilneas.3.option.a: "Send our best men to save Genn"
  
+ wwu_gilneas.4.title: "Rebellion of Godfrey"
+ wwu_gilneas.4.desc: "Lord Godfrey's ambitions have driven him to rebellion. He gathers his forces, hoping to usurp the throne and rule Gilneas by force. His hatred for the Worgen curse fuels his rage, leading him to strike against those he once swore to protect. The future of the kingdom is now at stake."
+ wwu_gilneas.4.option.a: "We must defeat them!"
+ wwu_gilneas.4.option.b: "Play as Godfrey's Rebellion"
+ 
+ wwu_gilneas.5.title: "The Spread of the Worgen Curse"
+ wwu_gilneas.5.desc: "The curse is spreading rapidly, turning citizens into monstrous Worgen with each passing day. The people of Gilneas are terrified, and panic grips the streets. Unless swift action is taken, the kingdom risks being overrun by these savage creatures, doomed to eternal darkness."
+ wwu_gilneas.5.option.a: "We must cure this plague as quickly as possible!"
+ wwu_gilneas.5.option.b: "Send soldiers to support them!"
+ 
+ wwu_gilneas.6.title: "[Root.Heir.GetName] Infected by the Curse"
+ wwu_gilneas.6.desc: "In a cruel twist of fate, the heir to the throne has become the latest victim of the Worgen Curse. [Root.Heir.GetName] is now battling the beast within, teetering on the edge of losing their humanity. The future of the royal bloodline hangs in the balance as the curse threatens to consume all hope."
+ wwu_gilneas.6.option.a: "The beginning of the end?"
+ 
+ wwu_gilneas.7.title: "[Root.Monarch.GetName] Infected by the Curse"
+ wwu_gilneas.7.desc: "The curse has claimed another. [Root.Monarch.GetName] struggles against the growing fury within, trying desperately to retain control over their own mind. The kingdom watches anxiously, fearing that their ruler may soon fall completely to the savagery of the Worgen."
+ wwu_gilneas.7.option.a: "The beginning of the end?"
+ 
+ wwu_gilneas.8.title: "[Root.Consort.GetName] Infected by the Curse"
+ wwu_gilneas.8.desc: "Even the consort of the crown is not immune to the devastation of the Worgen Curse. [Root.Consort.GetName] must now face the horrifying transformation, with the curse threatening to tear apart not just their soul, but the entire royal family."
+ wwu_gilneas.8.option.a: "The beginning of the end?"
+ 
+ wwu_gilneas.9.title: "Assassination of Ashbury and Walden"
+ wwu_gilneas.9.desc: "In a dramatic turn of events, Ashbury and Walden, once loyalists but now traitors, have met their end at the hands of Worgen trackers. While on their own lands, the stealthy Worgen infiltrated their forces and struck decisively, eliminating both lords. This swift and covert action leaves Godfrey without his key allies, stripping him of crucial support. The death of Ashbury and Walden not only weakens their cause but also intensifies the struggle for control of Gilneas."
+ wwu_gilneas.9.option.a: "Our key supporters are dead"
+ 
+ wwu_gilneas.10.title: "Assassination Attempt Failed"
+ wwu_gilneas.10.desc: "The attempt to eliminate Ashbury and Walden has failed. These traitors remain at large, and their conspiracy against Gilneas continues to grow more dangerous. This failure is a setback for the crown, weakening its efforts to secure control over the rebellion."
+ wwu_gilneas.10.option.a: "This is a disaster..."
+ 
+ wwu_gilneas.11.title: "The suicide of Godfrey"
+ wwu_gilneas.11.desc: "In a profound act of despair, Vincent Godfrey chose to end his own life rather than witness a Worgen king on the throne of Gilneas. Determined to avoid living under the rule of a sovereign transformed by the Worgen curse, Godfrey preferred death to what he saw as a desecration. His death, though a personal choice, leaves a void in the kingdom and raises questions about the future of Gilneas, now marked by a personal tragedy."
+ wwu_gilneas.11.option.a: "Well..."
+ 
+ wwu_gilneas.12.title: "The Resurrection of Godfrey by the Forsaken"
+ wwu_gilneas.12.desc: "In a disturbing turn of events, the Forsaken have resurrected Lord Godfrey, once a powerful enemy of both the Worgen and the Horde. Now undead, Godfrey's betrayal is complete as he seeks vengeance against all who wronged him, including the Forsaken themselves. His dark ambitions have returned, more dangerous than ever."
+ wwu_gilneas.12.option.a: "He will pay for this!"
+ wwu_gilneas.12.option.b: "We don't need Godfrey"
+ A12_godfrey_exiled: "Godfrey, now on the run and in exile, hides in the shadows of the world, hunted by both the Horde and the Alliance. His downfall may have come, but his menace remains ever-present."
+ 
+ wwu_gilneas.13.title: "Arugal Summons the Worgen"
+ wwu_gilneas.13.desc: "In a desperate attempt to fend off the relentless Scourge, the sorcerer Arugal has called upon dark and forbidden magic. Tearing through the fabric of reality, he has summoned the Worgen from their shadowy realm. These feral creatures, driven by primal rage, may be the only hope to repel the Scourge, but at what cost? The power Arugal has unleashed could save Gilneas—or doom it."
+ wwu_gilneas.13.option.a: "A powerful weapon against the Scourge"
+ 
+ wwu_gilneas.14.title: "Assassination Attempt"
+ wwu_gilneas.14.desc: "Ashbury and Walden, former loyalists turned traitors who now support Godfrey, conspire against the crown. Their betrayal cannot go unpunished. The Worgen are sent to deal with them, hoping to bring swift justice and remove these poisonous figures before they cause further harm."
+ wwu_gilneas.14.option.a: "They have to die"
+ 
+ wwu_gilneas.15.title: "Untitled Event 15"
+ wwu_gilneas.15.desc: "No description available. 15"
+ wwu_gilneas.15.option.a: "Proceed. 15"
+ 
+ wwu_gilneas.16.title: "Assassination of Ashbury and Walden"
+ wwu_gilneas.16.desc: "In a dramatic turn of events, Ashbury and Walden, once loyalists but now traitors, have met their end at the hands of Worgen trackers. While on their own lands, the stealthy Worgen infiltrated their forces and struck decisively, eliminating both lords. This swift and covert action leaves Godfrey without his key allies, stripping him of crucial support."
+ wwu_gilneas.16.option.a: "Godfrey is now alone"
+ 
+ wwu_gilneas.17.title: "Darius Crowley in jail"
+ wwu_gilneas.17.desc: "Darius Crowley, once a loyal noble of Gilneas, became a fierce opponent of King Genn Greymane's reign, leading the Northgate Rebellion in defiance of the king's policies. After his forces were defeated, Crowley was captured and imprisoned, a powerful symbol of the king's authority over the rebellious factions. While his incarceration has quelled immediate unrest, the people of Gilneas remain divided, with Crowley’s supporters still harboring resentment and plotting in the shadows. His presence in jail is both a victory for the crown and a lingering reminder of the fragile stability within the kingdom."
+ wwu_gilneas.17.option.a: "A threat removed"
+ 
+ wwu_gilneas.18.title: "Stormwind Response"
+ wwu_gilneas.18.desc: "In the midst of the struggle against the Forsaken, Stormwind has offered to support Gilneas. However, this assistance comes at a cost. Stormwind requires certain commercial rights and political favors in exchange for its military aid. The citizens of Gilneas are divided, with some advocating for accepting Stormwind's help to defeat the Forsaken and others preferring to maintain Gilneas' independence, no matter the cost."
+ wwu_gilneas.18.option.a: "Accept Stormwind's aid"
+ wwu_gilneas.18.option.b: "Reject the offer"
+ 
+ wwu_gilneas.19.title: "Darnassus Reponse"
+ wwu_gilneas.19.desc: "On this day, the kingdom of Gilneas and the city of Darnassus seal a pact of strategic cooperation. In exchange for the cession of Tal'doren, a valuable domain, Darnassus commits to providing military and magical support to Gilneas in its war efforts. This treaty stipulates that Darnassus will send reinforcements in troops and resources to bolster Gilneas' defenses against growing threats. In return, Tal'doren will be transferred under the jurisdiction of Gilneas, strengthening its borders and extending its influence. Both parties thus affirm their solidarity in a common goal: to preserve the security and integrity of their respective realms."
+ wwu_gilneas.19.option.a: "Accept the darnassian offer"
+ wwu_gilneas.19.option.b: "What ? No !"
+  
+ wwu_gilneas.20.title: "Respect for the Gilnean-Elven Treaty"
+ wwu_gilneas.20.desc: "Amidst the ongoing conflicts, it is crucial to consider our obligations to our allies. The Gilnean-Elven Treaty stands as a cornerstone of our diplomatic relations with the elves. Upholding this treaty demonstrates our commitment to our agreements and fosters trust with our allies. However, if we choose to disregard this pact, it may have repercussions on our standing and future alliances. The decision now rests on whether to honor our promises or seek a different path"
+ wwu_gilneas.20.option.a: "We must honor our treaty with the elves"
+ wwu_gilneas.20.option.b: "Sorry, but we have changed our minds"
+    
+ wwu_gilneas.21.title: "The Gilnean refused our last agreement"
+ wwu_gilneas.21.desc: "The recent refusal of Gilneas to adhere to our last agreement has sparked outrage. Such an act of defiance undermines the trust and cooperation that are essential for our mutual interests. This betrayal not only jeopardizes our current relationships but could also affect future negotiations and alliances. The question now is how to address this breach and whether to take punitive action or seek reconciliation"
+ wwu_gilneas.21.option.a: "Traitor !"
+ wwu_gilneas.21.option.b: "Then, we are no longer ally !"
+    
+ wwu_gilneas.22.title: "Khaz Modan Response"
+ wwu_gilneas.22.desc: "The High King of Khaz Modan sends his reply. While the dwarves respect the alliance with Gilneas, they are deeply concerned with defending their own borders against threats from the depths. Their forces are stretched thin, but their loyalty to the Alliance remains strong. Will they prioritize helping Gilneas or focus on their own survival?"
+ wwu_gilneas.22.option.a: "We need all the support we can get!"
+ wwu_gilneas.22.option.b: "We can't afford it, let's look elsewhere"
+    
+ wwu_gilneas.23.title: "Kul Tiras Response"
+ wwu_gilneas.23.desc: "The Grand Admiral of Kul Tiras responds to Gilneas’ plea. While sympathetic to Gilneas’ plight, the Kul Tiran fleet is already committed to defending the seas from pirates and rival nations. Diverting ships to assist Gilneas could weaken their own defenses. Will they lend their strength or keep their focus on their maritime dominance?"
+ wwu_gilneas.23.option.a: "We need all the support we can get!"
+ wwu_gilneas.23.option.b: "We can't afford it, let's look elsewhere"
+    
+ wwu_gilneas.24.title: "The Question"
+ wwu_gilneas.24.desc: "Once a bastion of civilization and prosperity, the kingdom of Lordaeron was tragically ravaged by the Scourge, an invasion that transformed its lush lands into a wasteland of ruin and despair. The Alliance of Lordaeron, once a pillar of resistance against the encroaching darkness, crumbled under the weight of the undead hordes, leaving behind a legacy of suffering and devastation. As a historic neighbor and former ally, the Kingdom of Gilneas has observed with a mix of sadness and resolve the decline of this great nation.\n\nToday, driven by a profound sense of duty and restoration, the leaders of Gilneas embark on an ambitious campaign to reclaim the ancestral lands of Lordaeron. This rehabilitation project aims not only to restore the ravaged territories but also to reintroduce civilization into these once-flourishing regions.\n\nDetermined settlers from Gilneas venture forth to rebuild the fallen cities, revive the abandoned fields, and rekindle the spirit of old Lordaeron. This is not merely an act of territorial expansion but a reclamation of a shared heritage, a way to breathe new life into a land that once stood as a model of grandeur.\n\nWith each village rebuilt and every field cultivated, the dream of a restored Lordaeron, under the benevolent influence of Gilneas, takes shape. It is a powerful affirmation that even fallen kingdoms can be reborn under the light of determination and honor."
+ wwu_gilneas.24.option.a: "Past is past, we shall not revive what should stay buried"
+ wwu_gilneas.24.option.b: "We are the Lordaeron legacy"
+ X04_the_question_about_name: "Country name will not change and will remain §YNew Lordaeron§!.\n\n§YThis choice will not affect gameplay!§!"
+ X04_the_question_about_name_b: "§YThis choice will not affect gameplay!§!"
+    
+ wwu_gilneas_25_warning: "§YWARNING§! The §YNew Lordaeron§! does not have a §Ymission tree§! yet!"
+ wwu_gilneas.25.title: "Play as New Lordaeron?"
+ wwu_gilneas.25.desc: "With the rise of New Lordaeron, a choice must be made. Will you lead this new kingdom as its ruler, or continue your journey with the proud nation of Gilneas? The fate of both realms rests on this decision."
+ wwu_gilneas.25.option.a: "Play as New Lordaeron"
+ wwu_gilneas.25.option.b: "Stay as Gilneas"
+
+ wwu_gilneas.26.title: "Worgen technology group shifting"
+ wwu_gilneas.26.desc: "Your nation is shifting towards a unique path of development. Will you adapt?"
+ wwu_gilneas.26.option.a: "We are worgen !"
+ wwu_gilneas.26.option.b: "Keep initial idea"
+    
+ wwu_gilneas.27.title: "The Question - Player choice"
+ wwu_gilneas.27.desc: "Decide the future of your nation: will you remain a subject of Gilneas or pursue independence?"
+ wwu_gilneas.27.option.a: "Be a subject of Gilneas, like "historical path""
+ wwu_gilneas.27.option.b: "Play as free"
+ X04_we_stay_free_thanks_to_player: "Making this choice will maintain our diplomatic relations with Gilneas"
+    
+ #wwu_gilneas.28.title: "Total Subjugation by the Lich King"
+ #wwu_gilneas.28.desc: "Gilneas no longer holds any control over its fate. The Lich King has stripped us of all autonomy, dictating every decision and commanding absolute obedience. Our leaders are mere puppets, and our people are bound to serve the will of the Frozen Throne. There is no escape, no hope for freedom—only the cold, merciless rule of the Scourge."
+ #wwu_gilneas.28.option.a: "Submit to the will of the Lich King"
+    
+ wwu_gilneas.29.title: "Untitled Event 29"
+ wwu_gilneas.29.desc: "No description available 29."
+ wwu_gilneas.29.option.a: "Proceed 29."
+    
+ wwu_gilneas.30.title: "Untitled Event 30"
+ wwu_gilneas.30.desc: "No description available. 30"
+ wwu_gilneas.30.option.a: "Proceed. 30"
+
+ wwu_gilneas.31.title: "The New Risen Star"
+ wwu_gilneas.31.desc: "In the courts of Gilneas, all eyes turn to the young Genn Greymane, a child born into the weight of expectations. Though still at a tender age, many see a bright future for him, believing he will grow into a leader worthy of his lineage. However, there are those who question whether the young prince will be able to handle the immense responsibilities awaiting him, or if another path should be chosen for the kingdom."
+ wwu_gilneas.31.option.a: "Genn will be brilliant"
+ wwu_gilneas.31.option.b: "Disinherit Genn from the Greymane Dynasty"
+    
+ wwu_gilneas.32.title: "Untitled Event"
+ wwu_gilneas.32.desc: "No description available."
+ wwu_gilneas.32.option.a: "Proceed."
+    
+ wwu_gilneas.33.title: "The New Heir"
+ wwu_gilneas.33.desc: "As the Greymane dynasty prepares for the future, the question of succession arises. All eyes are on Prince Liam, who has grown into a strong and capable leader in his own right. Many believe he is the perfect candidate to carry the Greymane legacy forward, but others whisper that the future of Gilneas may be better served by a fresh start, free from the old bloodline."
+ wwu_gilneas.33.option.a: "Liam will be perfect"
+ wwu_gilneas.33.option.b: "Disinherit Liam from the Greymane Dynasty"
+    
+ wwu_gilneas.34.title: "Liam's death"
+ wwu_gilneas.34.desc: "Tragedy has struck Gilneas. Prince Liam, beloved by many and seen as the hope for the kingdom's future, has met an untimely end. The air is heavy with grief, and the kingdom mourns the loss of its shining heir. Genn, heartbroken and devastated, must now face the unbearable weight of losing his son."
+ wwu_gilneas.34.option.a: "No..... No.."
+    
+ wwu_gilneas.35.title: "Forgotten Shadow"
+ wwu_gilneas.35.desc: "After being ravaged by the Scourge and emancipated from its control, Gilneas finds itself embracing a new faith. This religion, akin to thE Forgotten Shadow, emerges among those who have freed themselves from the Lich King's grasp. The Forgotten Shadow becomes a beacon of hope and resilience for those seeking to rebuild their lives and identity."
+ wwu_gilneas.35.option.a: "Maybe we can find the peace here"
+
+ wwu_gilneas.36.title: "The Siege of Gilneas"
+ wwu_gilneas.36.desc: "The Forsaken have launched a full-scale siege on Gilneas, laying waste to the once-great kingdom. As the undead forces breach the city walls, the people of Gilneas must fight desperately to defend their homes. The siege not only tests the kingdom’s defenses but also the resolve of its leaders and citizens."
+ wwu_gilneas.36.option.a: "Rally the defenders"
+
+ wwu_gilneas.37.title: "Fall of the Capital"
+ wwu_gilneas.37.desc: "With the siege intensifying, Gilneas City has fallen to the Forsaken. The once-vibrant capital is now a grim fortress of the undead. The survivors face dire choices as they struggle to regroup and salvage what remains of their kingdom. The fall of the capital marks a significant turning point in the conflict."
+ wwu_gilneas.37.option.a: "Plan for evacuation and counterattack"
+ 
+ wwu_gilneas.38.title: "A New Dawn for Gilneas"
+ wwu_gilneas.38.desc: "Following the turbulent years of conflict and betrayal, a new era dawns for Gilneas. The kingdom must now face the challenges of rebuilding from the ruins and addressing the deep scars left by the past. The path forward requires careful leadership and a commitment to healing the divisions within the land."
+ wwu_gilneas.38.option.a: "Focus on reconstruction and reconciliation"
+ 
+ wwu_gilneas.39.title: ""
+ wwu_gilneas.39.desc: ""
+ wwu_gilneas.39.option.a: ""

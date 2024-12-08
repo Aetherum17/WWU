@@ -1,0 +1,202 @@
+X02_lote_column1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = X02
+	}
+	
+}
+
+X02_lote_column2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = X02
+	}
+
+	X02_support_of_north_villager = {
+		icon = mission_haymaker
+		position = 1
+		required_missions = {  }
+		trigger = {
+			has_spy_network_in = {
+				who = A12
+				value = 10
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_lordeast.1 }
+			
+			hidden_effect = {
+				add_spy_network_in = {
+					who = A12
+					value = -10
+				}
+			}
+		}
+	}
+}
+
+X02_lote_column3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = X02
+	}
+
+	X02_godfrey_propaganda = {
+		icon = mission_mirror
+		position = 1
+		required_missions = {  }
+		trigger = {
+			OR = {
+				A12 = {
+					OR = {
+						has_opinion_modifier = {
+							modifier = insulted
+							who = X02
+						}
+						has_opinion_modifier = {
+							modifier = scornfully_insulted
+							who = X02
+						}
+					}
+				}
+				army_size_percentage = 1
+			}
+		}
+		effect = {
+			custom_tooltip = X02_disable_decision_assassinate
+			set_global_flag = X02_disable_decision_assassinate_flag
+			
+			custom_tooltip = no_tooltip
+			add_country_modifier = {
+				name = X02_godfrey_propaganda_modifier
+				duration = 3650
+			}
+		}
+	}
+	X02_support_of_gilnean_nobles = {
+		icon = mission_gold_pile
+		position = 2
+		required_missions = { X02_support_of_north_villager X02_support_of_south_peasants }
+		trigger = {
+			has_spy_network_in = {
+				who = A12
+				value = 25
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_lordeast.3 }
+		
+			hidden_effect = {
+				add_spy_network_in = {
+					who = A12
+					value = -25
+				}
+			}
+		}
+	}
+	X02_support_of_the_merchants = {
+		icon = mission_lumbermill
+		position = 3
+		required_missions = { X02_support_of_gilnean_nobles }
+		trigger = {
+			has_spy_network_in = {
+				who = A12
+				value = 25
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_lordeast.4 }
+		
+			hidden_effect = {
+				add_spy_network_in = {
+					who = A12
+					value = -25
+				}
+			}
+		}
+	}
+}
+
+X02_lote_column4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = X02
+	}
+
+	X02_support_of_south_peasants = {
+		icon = mission_haymaker
+		position = 1
+		required_missions = {  }
+		trigger = {
+			has_spy_network_in = {
+				who = A12
+				value = 10
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_lordeast.2 }
+			
+			hidden_effect = {
+				add_spy_network_in = {
+					who = A12
+					value = -10
+				}
+			}
+		}
+	}
+}
+
+X02_lote_column5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = X02
+	}
+	X02_base_at_purgation_isle = {
+		icon = mission_humancastlewc3r
+		position = 2
+		required_missions = { X02_support_of_south_peasants }
+		trigger = {
+			962 = { #Purgation Isle
+				owner = {
+					has_spy_network_from = {
+						# Audax Validator "." Ignore_NEXT
+						who = PREV
+						value = 10
+					}
+				}
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_lordeast.5 }
+			
+			hidden_effect = {
+				add_spy_network_in = {
+					who = FROM
+					value = -10
+				}
+			}
+		}
+	}
+	X02_the_end_of_the_civil_war = {
+		icon = mission_human_male
+		position = 3
+		required_missions = { }
+		trigger = {
+			NOT = { exists = A12 }
+		}
+		effect = {
+			country_event = { id = wwu_mission_lordeast.6 }
+		}
+	}
+}
+

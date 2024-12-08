@@ -1,0 +1,9 @@
+
+# Northwatch
+government 			= monarchy
+add_government_reform = alterac_kingdom_reform
+mercantilism 		= 10
+technology_group 	= tech_human
+religion		    = holy_light
+primary_culture 	= culture_alterac
+capital 			 = 1363

@@ -1,0 +1,31 @@
+
+#Zharkenar
+government = monarchy
+add_government_reform = nighthold_reform
+mercantilism = 10
+technology_group = tech_nightborne
+religion = arcane
+primary_culture = culture_nightborne
+capital = 3182
+
+546.1.1 = { 
+	monarch = { 
+		name = "Ael'Yith" 
+		dynasty = "of Zharkenar" 
+		birth_date = 20.1.1
+		adm = 6
+		dip = 2
+		mil = 6 
+ 	}
+    
+    setup_spellcaster_history = {
+        APTITUDE = 5
+        FINESSE = 5
+        CONCENTRATION = 5
+        MANA = 5
+        arcane = yes
+    }
+    
+	set_ruler_flag = is_immortal
+	set_ruler_flag = mage_personality
+} 

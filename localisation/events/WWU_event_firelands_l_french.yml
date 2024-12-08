@@ -40,3 +40,17 @@
  wwu_firelands.8.desc: "The so-called Fire-God of pandaria had decided to bow before the true master of flames. We are pleased with this outcome."
  wwu_firelands.8.option.a: "He bows either way."
 
+ wwu_firelands.9.title: "Firelands Submission"
+ wwu_firelands.9.desc: "Within our dormant domain, a pilar of molten magma had erupted from the earth, and with it, the arcane pathways collected into a singularity of magic. A gateway, a portal, to the primal domain of Fire, the Firelands. From there, the servant of flames had stepped, hailing word of the Firelord himself, Ragnaros. By his order, he had called for our service to his cause, as one of his commanders. Now, do we stand by our lord, or or reject him, risking his wrath?"
+ wwu_firelands.9.option.a: "We shall serve the one and only, the Firelord."
+ wwu_firelands.9.option.b: "Our Ember shall outshine the Firelands itself."
+
+ wwu_firelands.10.title: "Empowerment of Blazerunner"
+ wwu_firelands.10.desc: "As the lord of Un'gore bowed to us, we stand with question in our mind. Should we spare our power, and empower him, letting his flame explode over surrounding jungles, or should we siphon his essence, and consolidate the power in our own hands?"
+ wwu_firelands.10.option.a: "The Flames of the Firelands shall spread wildfires over the mortal domain."
+ wwu_firelands.10.option.b: "He is but a temporary pawn. Power shall remain in our hand."
+
+ wwu_firelands.11.title: "Rejection of Blazerunner"
+ wwu_firelands.11.desc: "While the wild elemental of fire had heard our call, he had decided to spit in our face, and reject our great offer. While pride of the Lord of Firelands is injured, we shall not forget such betrayl."
+ wwu_firelands.11.option.a: "By the Flames of Sulfuras, he shall return to ash."
+

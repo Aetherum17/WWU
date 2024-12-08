@@ -95,3 +95,9 @@
  
  estate_nobility_power_plays: "Power Plays"
  estate_nobility_power_plays_desc: "Set nobles against each other, all in an attempt to take control of another crown."
+
+ estate_nobility_guild_of_heroes: "Guild of Heroes"
+ estate_nobility_guild_of_heroes_desc: "Expands share of mercenaries in our realm, reducing their bargining power, making them cheaper to emply."
+
+ estate_nobility_lords_on_horses: "Lords on Horses"
+ estate_nobility_lords_on_horses_desc: "Enables nobility ranks on our military, allowing us recruitment of generals from their ranks."

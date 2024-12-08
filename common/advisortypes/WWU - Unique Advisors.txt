@@ -290,3 +290,282 @@ unique_nazgrel = {
 		factor = 10
 	}
 }
+# Butcher easter egg
+unique_butcher = {
+	monarch_power = MIL
+	
+	# Bonus
+	shock_damage = 0.3
+	movement_speed = 0.3
+	
+	skill_scaled_modifier = { 
+        trigger = {
+            owner = {
+                uses_meritocracy = yes
+            }
+        }
+        
+        modifier = {
+			meritocracy = 0.5 
+		}
+    }
+
+	chance = {
+		factor = 100
+        
+        # Is past life span of advisor
+        modifier = {
+            factor = 0
+            
+            NOT = { is_year = 1000}
+        }
+        
+        # Is not Amaki
+        modifier = {
+            factor = 0
+            
+            owner = { 
+                NOT = { tag = AMK }
+            }
+        }
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+# Aranas
+unique_aranas = {
+	monarch_power = DIP
+	
+	# BONUS
+	technology_cost = -0.1
+    
+    
+	skill_scaled_modifier = { 
+        trigger = {
+            owner = {
+                uses_meritocracy = yes
+            }
+        }
+        
+        modifier = {
+			meritocracy = 0.5 
+		}
+    }
+
+	chance = {
+		factor = 0
+        
+        # The country should be Gilneas
+        modifier = {
+            factor = 0
+            
+			owner = { 
+				NOT = { tag = A12 }
+			}
+        }
+	}
+	
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+# Arugal
+unique_arugal = {
+	monarch_power = ADM
+	
+	# Bonus
+    global_institution_spread = 0.12
+    
+	skill_scaled_modifier = { 
+        trigger = {
+            owner = {
+                uses_meritocracy = yes
+            }
+        }
+        
+        modifier = {
+			meritocracy = 0.5 
+		}
+    }
+
+	chance = {
+		factor = 0
+        
+        # The country should be Gilneas
+        modifier = {
+            factor = 0
+            
+			owner = { 
+				NOT = { tag = A12 }
+			}
+        }
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+}
+
+# Shade of Arugal
+unique_shade_of_arugal = {
+	monarch_power = ADM
+	
+	# BONUS 
+	years_of_nationalism = -8
+    
+    
+	skill_scaled_modifier = { 
+        trigger = {
+            owner = {
+                uses_meritocracy = yes
+            }
+        }
+        
+        modifier = {
+			meritocracy = 0.5 
+		}
+    }
+
+	chance = {
+		factor = 0
+        
+        # The country should be The Scourge
+        modifier = {
+            factor = 0
+            
+			owner = { 
+				NOT = { tag = P11 }
+			}
+        }
+		
+		# The country should be The Scourge of Lordaeron and not controlled by AI
+        modifier = {
+            factor = 0
+            
+			owner = { 
+				NOT = { 
+					tag = P11
+					ai = yes
+				}
+			}
+        }
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+}
+
+# Calia Hastings
+unique_calia_hastings = {
+	monarch_power = DIP
+	
+	# Bonus
+    spy_offence = 0.44
+    
+	skill_scaled_modifier = { 
+        trigger = {
+            owner = {
+                uses_meritocracy = yes
+            }
+        }
+        
+        modifier = {
+			meritocracy = 0.5 
+		}
+    }
+
+	chance = {
+		factor = 0
+        
+        modifier = {
+            factor = 0
+            
+			owner = {
+                NOT = { tag = A23 }
+            }
+        }
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+}
+
+# Tabetha
+unique_tabetha = {
+	monarch_power = MIL
+	
+	# Bonus
+    land_morale = 0.2
+	infantry_fire = 1 
+    
+	skill_scaled_modifier = { 
+        trigger = {
+            owner = {
+                uses_meritocracy = yes
+            }
+        }
+        
+        modifier = {
+			meritocracy = 0.5 
+		}
+    }
+
+	chance = {
+		factor = 0
+        
+        modifier = {
+            factor = 0
+            
+			owner = {
+                NOT = { tag = A23 }
+            }
+        }
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+}
+
+# Inspector Tarem
+unique_inspector_tarem = {
+	monarch_power = DIP
+	
+	# Bonus
+    spy_offence = 0.33
+    power_projection_from_insults = 0.1 
+    
+	skill_scaled_modifier = { 
+        trigger = {
+            owner = {
+                uses_meritocracy = yes
+            }
+        }
+        
+        modifier = {
+			meritocracy = 0.5 
+		}
+    }
+
+	chance = {
+		factor = 0
+        
+        modifier = {
+            factor = 0
+            
+			owner = {
+                NOT = { tag = A23 }
+            }
+        }
+	}
+	
+	ai_will_do = {
+		factor = 80
+	}
+}

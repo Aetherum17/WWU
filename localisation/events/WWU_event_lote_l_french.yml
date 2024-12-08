@@ -1,0 +1,51 @@
+﻿l_french:
+ wwu_lordeast.1.title: ""
+ wwu_lordeast.1.desc: ""
+ wwu_lordeast.1.option.a: ""
+ 
+ wwu_lordeast.2.title: "Trench Warfare"
+ wwu_lordeast.2.desc: "The conflict has entered a grueling phase of trench warfare. Both sides are entrenched in defensive positions, with little progress being made. The stalemate is leading to high casualties and a protracted struggle."
+ wwu_lordeast.2.option.a: "The conflict is bogging down"
+
+ wwu_lordeast.3.title: "Dismantle the Fortresses"
+ wwu_lordeast.3.desc: "To break the deadlock in the ongoing conflict, it's crucial to dismantle the enemy's fortifications. By targeting and destroying these strongholds, we can weaken their defenses and gain a strategic advantage."
+ wwu_lordeast.3.option.a: "Let’s dismantle these fortresses"
+
+ 
+ ###########################
+ 
+ wwu_mission_lordeast.1.title: "Support of the North"
+ wwu_mission_lordeast.1.desc: "The northern lords have pledged their support to your cause. This backing provides you with additional troops and resources, crucial for strengthening your position in the rebellion and securing your control over the region."
+ wwu_mission_lordeast.1.option.a: "Great"
+
+ wwu_mission_lordeast.2.title: "Support of the South"
+ wwu_mission_lordeast.2.desc: "The southern territories have allied with you, offering essential reinforcements and resources. Their support will help you expand your influence and reinforce your military efforts against the rebellion."
+ wwu_mission_lordeast.2.option.a: "Great"
+
+ wwu_mission_lordeast.3.title: "Support of the Nobility"
+ wwu_mission_lordeast.3.desc: "Securing the loyalty of the nobility has provided you with significant political and military advantages. Their support legitimizes your rule and strengthens your position in the ongoing conflict."
+ wwu_mission_lordeast.3.option.a: "Great"
+
+ wwu_mission_lordeast.4.title: "Support of the Merchants"
+ wwu_mission_lordeast.4.desc: "The merchants have agreed to support your cause, ensuring a steady flow of funds and supplies. This economic boost is vital for sustaining your campaign and reinforcing your efforts in the rebellion."
+ wwu_mission_lordeast.4.option.a: "Great"
+
+ wwu_mission_lordeast.5.title: "Purgation Isle Outpost"
+ wwu_mission_lordeast.5.desc: "Establishing an outpost on Purgation Isle provides a crucial fallback position if the rebellion faces setbacks. This strategic location will serve as a vital defensive stronghold and support your efforts in the ongoing conflict."
+ wwu_mission_lordeast.5.option.a: "An outpost in case of disaster"
+
+ wwu_mission_lordeast.6.title: "The End of the Civil War"
+ wwu_mission_lordeast.6.desc: "The civil war has finally ended, marking a significant turning point. With the conflict resolved, you can now focus on rebuilding and consolidating your power, ensuring stability and control over the region."
+ wwu_mission_lordeast.6.option.a: "Finally!"
+
+ wwu_mission_lordeast.7.title: "[X02.Monarch.GetName] took the Emberstone area!"
+ wwu_mission_lordeast.7.desc: "[X02.Monarch.GetName] has successfully captured the Emberstone area, securing a critical region in the ongoing conflict. This victory could shift the balance of power significantly and may pose a serious threat to our operations in the region."
+ wwu_mission_lordeast.7.option.a: "No!"
+
+ wwu_mission_lordeast.8.title: "[X02.Monarch.GetName] took the Purgation Isle!"
+ wwu_mission_lordeast.8.desc: "[X02.Monarch.GetName] has seized control of Purgation Isle, a crucial strategic position. This loss could undermine our defensive capabilities and disrupt our plans to counter the rebellion effectively."
+ wwu_mission_lordeast.8.option.a: "No!"
+
+ wwu_mission_lordeast.9.title: "[X02.Monarch.GetName] won the Gilnean Civil War!"
+ wwu_mission_lordeast.9.desc: "[X02.Monarch.GetName] has emerged victorious in the Gilnean Civil War, consolidating their power and influence. This outcome  represents a significant shift in the region's political landscape and could impact our position in the ongoing struggle."
+ wwu_mission_lordeast.9.option.a: "Mmhhh"

@@ -108,6 +108,7 @@ remove_ownership = {
 }
 
 add_ownership = {
+	# Audax Validator "." Ignore_NEXT
     cede_province = PREV
     add_core = PREV
     change_culture = PREV

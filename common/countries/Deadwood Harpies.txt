@@ -1,0 +1,213 @@
+graphical_culture = harpy_gfx
+
+color = { 86 51 93 }
+
+monarch_names = {
+	"Frurlie" = 1
+	"Ynka" = 1
+	"Inda" = 1
+	"Rerlenne" = 1
+	"Umge" = 1
+	"Mylahe" = 1
+	"Vrarnenas" = 1
+	"Rugidri" = 1
+	"Vrurnon" = 1
+	"Imgalla" = 1
+	"Nego" = 1
+	"Sendi" = 1
+	"Huvo" = 1
+	"Ralde" = 1
+	"Alda" = 1
+	"Vrado" = 1
+	"Sysha" = 1
+	"Handi" = 1
+	"Rinkina" = 1
+	"Erli" = 1
+	"Mygno" = 1
+	"Agan" = 1
+	"Ezeh" = 1
+	"Zamdi" = 1
+	"Frera" = 1
+	"Uma" = 1
+	"Vrarno" = 1
+	"Phaglie" = 1
+	"Saldinni" = 1
+	"Yndiewe" = 1
+	"Phynki" = 1
+	"Alreoh" = 1
+	"Zygni" = 1
+	"Vrereole" = 1
+	"Lena" = 1
+	"Phenidras" = 1
+	"Agnendran" = 1
+	"Ushe" = 1
+	"Philna" = 1
+	"Zilrola" = 1
+	"Grilredri" = 1
+	"Rune" = 1
+	"Irme" = 1
+	"Vrulde" = 1
+	"Arlo" = 1
+	"Vanke" = 1
+	"Irmennil" = 1
+	"Ygno" = 1
+	"Selelin" = 1
+	"Undiri" = 1
+	"Frurlie" = -1
+	"Ynka" = -1
+	"Inda" = -1
+	"Rerlenne" = -1
+	"Umge" = -1
+	"Mylahe" = -1
+	"Vrarnenas" = -1
+	"Rugidri" = -1
+	"Vrurnon" = -1
+	"Imgalla" = -1
+	"Nego" = -1
+	"Sendi" = -1
+	"Huvo" = -1
+	"Ralde" = -1
+	"Alda" = -1
+	"Vrado" = -1
+	"Sysha" = -1
+	"Handi" = -1
+	"Rinkina" = -1
+	"Erli" = -1
+	"Mygno" = -1
+	"Agan" = -1
+	"Ezeh" = -1
+	"Zamdi" = -1
+	"Frera" = -1
+	"Uma" = -1
+	"Vrarno" = -1
+	"Phaglie" = -1
+	"Saldinni" = -1
+	"Yndiewe" = -1
+	"Phynki" = -1
+	"Alreoh" = -1
+	"Zygni" = -1
+	"Vrereole" = -1
+	"Lena" = -1
+	"Phenidras" = -1
+	"Agnendran" = -1
+	"Ushe" = -1
+	"Philna" = -1
+	"Zilrola" = -1
+	"Grilredri" = -1
+	"Rune" = -1
+	"Irme" = -1
+	"Vrulde" = -1
+	"Arlo" = -1
+	"Vanke" = -1
+	"Irmennil" = -1
+	"Ygno" = -1
+	"Selelin" = -1
+	"Undiri" = -1
+
+}
+
+leader_names = {
+	"Twistcrest"
+	"Crushwing"
+	"Queenfringe"
+	"Burstclaw"
+	"Snowscreech"
+	"Shiftfeather"
+	"Crazywail"
+	"Shiftquill"
+	"Moonshriek"
+	"Sparkscream"
+	"Spitescream"
+	"Poisoncrook"
+	"Queencrook"
+	"Coldshriek"
+	"Furyscream"
+	"Coursehook"
+	"Coursewing"
+	"Lightplume"
+	"Wormwail"
+	"Dreadplumes"
+	"Spirithook"
+	"Talonshrill"
+	"Sparkplume"
+	"Griefscream"
+	"Bloodwing"
+	"Wormscream"
+	"Gustcry"
+	"Solarwail"
+	"Quillclaw"
+	"Shadefringe"
+	"Feastwing"
+	"Crowshrill"
+	"Gusttalon"
+	"Thunderplumes"
+	"Spiritcry"
+	"Shadowplumes"
+	"Endscream"
+	"Ironclaw"
+	"Darksquawk"
+	"Edgeclaw"
+	"Crookquill"
+	"Owlwing"
+	"Owlshrill"
+	"Poisonfeather"
+	"Twistwail"
+	"Feastquill"
+	"Stormscream"
+	"Stitchcry"
+	"Sparkwail"
+	"Bitefringe"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	harpy_inf_a_1
+	harpy_cav_a_1
+	harpy_inf_a_2
+	harpy_cav_a_2
+	harpy_inf_a_3
+	harpy_cav_a_3
+	harpy_inf_a_4
+	harpy_cav_a_4
+	harpy_inf_a_5
+	harpy_cav_a_5
+}

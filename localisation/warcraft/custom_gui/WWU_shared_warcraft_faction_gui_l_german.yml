@@ -1,0 +1,166 @@
+﻿l_german:
+ #----------------------------------------
+ # Warcraft Faction GUI
+ #----------------------------------------
+ FACTION_DROP_DOWN_MENU_TT: "§YFactions§!\nClick to open the Factions sub-menu."
+ 
+ # Interface Elements
+ warcraft_faction_alliance_faction_title: "The Alliance"
+ warcraft_faction_horde_faction_title: "The Horde"
+ warcraft_faction_trade_coalition_faction_title: "The Trade Coalition"
+ warcraft_faction_dragon_aspects_faction_title: "The Dragon Aspects"
+ 
+ warcraft_faction_alliance_members_title: "Members:"
+ warcraft_faction_horde_members_title: "Members:"
+ warcraft_faction_trade_coalition_members_title: "Members:"
+ warcraft_faction_dragon_aspects_members_title: "Members:"
+ 
+ warcraft_faction_decisions_title: "Decisions"
+ warcraft_faction_renown_label: "[Root.faction_renown.GetValue]"
+ 
+ # Warcraft Factions
+ ALLIANCE_FACTION_TT: "§YThe Alliance§!\nSee who is the current High King and which countries are members of the Alliance."
+ HORDE_FACTION_TT: "§YThe Horde§!\nSee who is the current Warchief and which countries are members of the Horde."
+ TRADE_COALITION_FACTION_TT: "§YThe Trade Coalition§!\nSee who is the current Trade Prince and which countries are members of the Trade Coalition."
+ DRAGON_ASPECTS_FACTION_TT: "§YThe Dragon Aspects§!\nSee who is the current Leader and which countries are members of the Dragon Aspects."
+ 
+ TOPBAR_FACTION_LEADER_TT: "§Y[faction_leader.GetName]§! is the current leader of this faction."
+ TOPBAR_FACTION_MEMBER_1_TT: "§Y[faction_member_1.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_2_TT: "§Y[faction_member_2.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_3_TT: "§Y[faction_member_3.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_4_TT: "§Y[faction_member_4.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_5_TT: "§Y[faction_member_5.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_6_TT: "§Y[faction_member_6.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_7_TT: "§Y[faction_member_7.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_8_TT: "§Y[faction_member_8.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_9_TT: "§Y[faction_member_9.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_10_TT: "§Y[faction_member_10.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_11_TT: "§Y[faction_member_11.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_12_TT: "§Y[faction_member_12.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_13_TT: "§Y[faction_member_13.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_14_TT: "§Y[faction_member_14.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_15_TT: "§Y[faction_member_15.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_16_TT: "§Y[faction_member_16.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_17_TT: "§Y[faction_member_17.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_18_TT: "§Y[faction_member_18.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_19_TT: "§Y[faction_member_19.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_20_TT: "§Y[faction_member_20.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_21_TT: "§Y[faction_member_21.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_22_TT: "§Y[faction_member_22.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_23_TT: "§Y[faction_member_23.GetName]§! is a member of this faction."
+ TOPBAR_FACTION_MEMBER_24_TT: "§Y[faction_member_24.GetName]§! is a member of this faction."
+ 
+ TOPBAR_FACTION_RENOWN_TT: "Renown represents §Y[Root.GetName]'s§! influence within this faction.\n\n§YSources of Renown:§!\n- Yearly Pulse: §G1§! to §G3§!\n- Assisting in a Faction War: §G5§!"
+ 
+ IS_MEMBER_OF_THIS_FACTION_TT: "You must be a member of this faction to use their renown decisions."
+ 
+ TOPBAR_ALLIANCE_HINT_TT: "The High King is given the §YAlliance§! government form upon ascension.\n\nThe High King has access to the following diplomatic actions with members:\n- §YCall to War§!\n- §YPass the Leadership§!\n- §YKick out of the Alliance§!\n\nThe High King has access to the following diplomatic actions with non-members:\n- §YInvite to the Alliance§!"
+ TOPBAR_HORDE_HINT_TT: "The Warchief is given the §YOld Horde§! government form upon ascension, or the §YHorde§! government form if the Horde has been reformed.\n\nThe Warchief has access to the following diplomatic actions with members:\n- §YCall to War§!\n- §YPass the Leadership§!\n- §YKick out of the Horde§!\n\nThe Warchief has access to the following diplomatic actions with non-members:\n- §YInvite to the Horde§!"
+ TOPBAR_TRADE_COALITION_HINT_TT: "The Trade Prince is given the §YTrade Coalition§! government form upon ascension.\n\nThe Trade Prince has access to the following diplomatic actions with members:\n- §YCall to War§!\n- §YPass the Leadership§!\n- §YKick out of the Trade Coalition§!\n\nThe Trade Prince has access to the following diplomatic actions with non-members:\n- §YInvite to the Trade Coalition§!"
+ TOPBAR_DRAGON_ASPECTS_HINT_TT: "The Leader is given the §YDragon Aspects§! government form upon ascension.\n\nThe Leader has access to the following diplomatic actions with members:\n- §YCall to War§!\n- §YPass the Leadership§!\n- §YKick out of the Dragon Aspects§!\n\nThe Leader has access to the following diplomatic actions with non-members:\n- §YInvite to the Dragon Aspects§!"
+ 
+ TOPBAR_ALLIANCE_MEMBER_HINT_TT: "Members have access to the following diplomatic actions:\n- §YRequest Aid§!\n- §YRequest Leadership§!\n- §YLeave the Alliance§!"
+ TOPBAR_HORDE_MEMBER_HINT_TT: "Members have access to the following diplomatic actions:\n- §YRequest Aid§!\n- §YRequest Leadership§!\n- §YLeave the Horde§!"
+ TOPBAR_TRADE_COALITION_MEMBER_HINT_TT: "Members have access to the following diplomatic actions:\n- §YRequest Aid§!\n- §YRequest Leadership§!\n- §YLeave the Trade Coalition§!"
+ TOPBAR_DRAGON_ASPECTS_MEMBER_HINT_TT: "Members have access to the following diplomatic actions:\n- §YRequest Aid§!\n- §YRequest Leadership§!\n- §YLeave the Dragon Aspects§!"
+ 
+ TOPBAR_DECISIONS_HINT_TT: "These are decisions unique to §Y[Root.GetName]'s§! membership of this faction.\n\nSpend §YRenown§! to make use of these decisions."
+ 
+ FACTION_RENOWN_COST_20: "Has §Y20§! Faction Renown."
+ FACTION_RENOWN_COST_40: "Has §Y40§! Faction Renown."
+ FACTION_RENOWN_COST_60: "Has §Y60§! Faction Renown."
+ FACTION_RENOWN_COST_80: "Has §Y80§! Faction Renown."
+ FACTION_RENOWN_COST_100: "Has §Y100§! Faction Renown."
+ 
+ REDUCE_FACTION_RENOWN_20_TT: "Lose §R20§! Faction Renown."
+ REDUCE_FACTION_RENOWN_40_TT: "Lose §R40§! Faction Renown."
+ REDUCE_FACTION_RENOWN_60_TT: "Lose §R60§! Faction Renown."
+ REDUCE_FACTION_RENOWN_80_TT: "Lose §R80§! Faction Renown."
+ REDUCE_FACTION_RENOWN_100_TT: "Lose §R100§! Faction Renown."
+ 
+ ALLIANCE_FAVORS_50_TT: "We gain §G50§! favors with all §YAlliance§! members."
+ ALLIANCE_FAVORS_30_TT: "We gain §G30§! favors with all §YAlliance§! members."
+ 
+ # Faction Decisions
+ ALLIANCE_FACTION_DECISION_1: "Call upon Compatriots"
+ ALLIANCE_FACTION_DECISION_2: "Bolster Standing"
+ ALLIANCE_FACTION_DECISION_3: "Quid Pro Quo"
+ ALLIANCE_FACTION_DECISION_4: "Inspire Fervor"
+ ALLIANCE_FACTION_DECISION_5: "Disseminate Ideas"
+ 
+ HORDE_FACTION_DECISION_1: "Call to War"
+ HORDE_FACTION_DECISION_2: "Instill Resilience"
+ HORDE_FACTION_DECISION_3: "Enforce Obedience"
+ HORDE_FACTION_DECISION_4: "Bolster Industry"
+ HORDE_FACTION_DECISION_5: "Provoke Ferocity"
+ 
+ TRADE_COALITION_FACTION_DECISION_1: "Sign Favourable Loan"
+ TRADE_COALITION_FACTION_DECISION_2: "Encourage Mercantilism"
+ TRADE_COALITION_FACTION_DECISION_3: "Support Local Development"
+ TRADE_COALITION_FACTION_DECISION_4: "Bolster Exchange"
+ TRADE_COALITION_FACTION_DECISION_5: "Establish Cartel Influence"
+ 
+ DRAGON_ASPECTS_FACTION_DECISION_1: "Enforce Loyalty"
+ DRAGON_ASPECTS_FACTION_DECISION_2: "Heal the Wounded"
+ DRAGON_ASPECTS_FACTION_DECISION_3: "Seek Wisdom"
+ DRAGON_ASPECTS_FACTION_DECISION_4: "Crush Insolence"
+ DRAGON_ASPECTS_FACTION_DECISION_5: "Establish Order"
+ 
+ # Alliance - Decision Modifiers
+ faction_glory_to_us: "Glory to Us"
+ desc_faction_glory_to_us: ""
+ 
+ faction_quid_pro_quo: "Quid Pro Quo"
+ desc_faction_quid_pro_quo: ""
+ 
+ faction_ferverous_loyalty: "Ferverous Loyalty"
+ desc_faction_ferverous_loyalty: ""
+ 
+ faction_exchange_of_ideas: "Exchange of Ideas"
+ desc_faction_exchange_of_ideas: ""
+ 
+ # Old Horde - Decision Modifiers
+ faction_resilience: "Resilience"
+ desc_faction_resilience: ""
+ 
+ faction_wartime_industry: "War-time Industry"
+ desc_faction_wartime_industry: ""
+ 
+ faction_war_songs: "War Songs"
+ desc_faction_war_songs: ""
+ 
+ # Horde - Decision Modifiers
+ faction_tolerance_of_all: "Tolerance of All"
+ desc_faction_tolerance_of_all: ""
+ 
+ faction_trading_hubs: "Trading Hubs"
+ desc_faction_trading_hubs: ""
+ 
+ faction_pacification: "Pacification"
+ desc_faction_pacification: ""
+ 
+ faction_factional_loyalty: "Loyalty to the Horde"
+ desc_faction_factional_loyalty: ""
+ 
+ # Trade Coalition - Decision Modifiers
+ faction_local_developments: "Local Development Support"
+ desc_faction_local_developments: ""
+ 
+ faction_trade_exchanges: "Trade Exchanges"
+ desc_faction_trade_exchanges: ""
+ 
+ faction_cartel_influence: "Cartel Influence"
+ desc_faction_cartel_influence: ""
+ 
+ # Dragon Aspects - Decision Modifiers
+ faction_favour_of_the_red_dragonflight: "Blessing of the Red Dragonflight"
+ desc_faction_favour_of_the_red_dragonflight: ""
+ 
+ faction_favour_of_the_blue_dragonflight: "Blessing of the Blue Dragonflight"
+ desc_faction_favour_of_the_blue_dragonflight: ""
+ 
+ faction_favour_of_the_green_dragonflight: "Blessing of the Green Dragonflight"
+ desc_faction_favour_of_the_green_dragonflight: ""
+ 
+ faction_favour_of_the_black_dragonflight: "Blessing of the Black Dragonflight"
+ desc_faction_favour_of_the_black_dragonflight: ""

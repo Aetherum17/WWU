@@ -229,8 +229,8 @@ order_group = {
             hostile_attrition = 2
 		}
 		country_as_secondary = {
-			land_morale_constant = 0.25
-            hostile_attrition = 2
+			land_morale_constant = 0.15
+            hostile_attrition = 1
 		}
         province = {
             
@@ -342,16 +342,17 @@ order_group = {
         province = {
             local_missionary_strength = -0.03
         }
-        
-		holy_sites = { 2495 1514 1573 1968 1122 }
 		
-		blessings = {
-			corrupt_titan_the_dark_heart
-			corrupt_titan_cosmic_knowledge
-			corrupt_titan_protectors_of_history
-			corrupt_titan_breath_of_death
-			corrupt_titan_master_of_magic
+        uses_anglican_power = yes
+		aspects = {
+			corrupt_titanic_sangunare_ritual_aspect
+			corrupt_titanic_trial_by_fire_aspect
+			corrupt_titanic_visionare_aura_aspect
+			corrupt_titanic_makers_touch_aspect
+			corrupt_titanic_purge_evil_aspect
+			corrupt_titanic_wisdom_of_creators_aspect
 		}
+		aspects_name = CORRUPTED_TITANIC_ASPECTS
 		
 		on_convert = {
 			change_religion = corrupt_titan_worship

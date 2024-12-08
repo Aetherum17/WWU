@@ -16,7 +16,7 @@ hre = no
 trade_goods = resource_gems
 
 # The Frozen Throne
-618.1.1.1.1 = {
+618.1.1 = {
     # Thunder Bluff
     owner = THB
     controller = THB

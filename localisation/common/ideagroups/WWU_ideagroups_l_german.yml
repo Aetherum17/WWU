@@ -58,7 +58,7 @@
  wwu_economic_ideas_6: "War Enthusiasm"
  wwu_economic_ideas_6_desc: "Provides the following modifiers:"
  wwu_economic_ideas_7: "Crop Rotation"
- wwu_economic_ideas_7_desc: "Unlocks the §YConflict§! insurrection doctrine.\nProvides the following modifiers:"
+ wwu_economic_ideas_7_desc: "Unlocks the §YBribery§! insurrection stratagem.\nProvides the following modifiers:"
  
  wwu_expansion_ideas: "Expansion"
  wwu_expansion_ideas_desc: ""
@@ -75,7 +75,7 @@
  wwu_expansion_ideas_5_desc: "Provides the following modifiers:"
  wwu_expansion_ideas_6: "Global Territories"
  wwu_expansion_ideas_6_desc: "Provides the following modifiers:"
- wwu_expansion_ideas_7: "Policy of Overseers"
+ wwu_expansion_ideas_7: "Paying for Land"
  wwu_expansion_ideas_7_desc: "Unlocks the §YPurchase Land§! diplomatic action.\nProvides the following modifiers:"
  
  wwu_administrative_ideas: "Administrative"
@@ -130,7 +130,7 @@
  wwu_law_ideas_6: "Noble Consensus"
  wwu_law_ideas_6_desc: "Provides the following modifiers:"
  wwu_law_ideas_7: "Minority Rights"
- wwu_law_ideas_7_desc: "Unlocks the §YCorruption§! insurrection doctrine.\nProvides the following modifiers:"
+ wwu_law_ideas_7_desc: "Unlocks the §YCompromise§! insurrection stratagem.\nProvides the following modifiers:"
  
  wwu_development_ideas: "Development"
  wwu_development_ideas_desc: ""
@@ -166,7 +166,7 @@
  wwu_absolutism_ideas_6: "Uncompromising Vision"
  wwu_absolutism_ideas_6_desc: "Provides the following modifiers:"
  wwu_absolutism_ideas_7: "Autarchs"
- wwu_absolutism_ideas_7_desc: "Unlocks the §YGarrison§! insurrection doctrine.\nProvides the following modifiers:"
+ wwu_absolutism_ideas_7_desc: "Unlocks the §YGarrison§! insurrection stratagem.\nProvides the following modifiers:"
  
  wwu_autonomy_ideas: "Autonomy"
  wwu_autonomy_ideas_desc: ""
@@ -256,7 +256,7 @@
  wwu_tribal_ideas_6: "Conquest First, Rights Later"
  wwu_tribal_ideas_6_desc: "Provides the following modifiers:"
  wwu_tribal_ideas_7: "Fury of the Fearless"
- wwu_tribal_ideas_7_desc: "Unlocks the §YThundering Onslaught§! army doctrine.\nProvides the following modifiers:"
+ wwu_tribal_ideas_7_desc: "Provides the following modifiers:"
  
  wwu_nomadic_ideas: "Nomadic"
  wwu_nomadic_ideas_desc: ""
@@ -313,7 +313,7 @@
  wwu_espionage_ideas_6: "Language of Lies and Deals"
  wwu_espionage_ideas_6_desc: "Provides the following modifiers:"
  wwu_espionage_ideas_7: "Anti-Corruption Purges"
- wwu_espionage_ideas_7_desc: "Unlocks the §YSabotage§! homeland doctrine.\nProvides the following modifiers:"
+ wwu_espionage_ideas_7_desc: "Unlocks the §YSabotage§! defensive stratagem.\nProvides the following modifiers:"
  
  wwu_dynastic_ideas: "Dynastic"
  wwu_dynastic_ideas_desc: ""
@@ -349,7 +349,7 @@
  wwu_influence_ideas_6: "Many Realms"
  wwu_influence_ideas_6_desc: "Provides the following modifiers:"
  wwu_influence_ideas_7: "Marcher Lords"
- wwu_influence_ideas_7_desc: "Unlocks the §YSlander§! homeland doctrine.\nProvides the following modifiers:"
+ wwu_influence_ideas_7_desc: "Unlocks the §YSlander§! defensive stratagem.\nProvides the following modifiers:"
  
  wwu_trade_ideas: "Trade"
  wwu_trade_ideas_desc: ""
@@ -457,7 +457,7 @@
  wwu_propaganda_ideas_6: "Unending Rhetoric"
  wwu_propaganda_ideas_6_desc: "Provides the following modifiers:"
  wwu_propaganda_ideas_7: "Seeds of Chaos"
- wwu_propaganda_ideas_7_desc: "Unlocks the §YMarytrdom§! homeland doctrine.\nProvides the following modifiers:"
+ wwu_propaganda_ideas_7_desc: "Unlocks the §YMarytrdom§! defensive stratagem.\nProvides the following modifiers:"
  
  wwu_naval_ideas: "Naval"
  wwu_naval_ideas_desc: ""
@@ -523,7 +523,7 @@
  wwu_offensive_ideas_1_desc: "Provides the following modifiers:"
  wwu_offensive_ideas_2: "Local Conscripts"
  wwu_offensive_ideas_2_desc: "Provides the following modifiers:"
- wwu_offensive_ideas_3: "Lay of the Land"
+ wwu_offensive_ideas_3: "Way of the Land"
  wwu_offensive_ideas_3_desc: "Provides the following modifiers:"
  wwu_offensive_ideas_4: "Glory of War"
  wwu_offensive_ideas_4_desc: "Provides the following modifiers:"
@@ -532,7 +532,7 @@
  wwu_offensive_ideas_6: "Grand Army"
  wwu_offensive_ideas_6_desc: "Provides the following modifiers:"
  wwu_offensive_ideas_7: "Disciplined Warfare"
- wwu_offensive_ideas_7_desc: "Unlocks the §YMobile Warfare§! army doctrine.\nProvides the following modifiers:"
+ wwu_offensive_ideas_7_desc: "Provides the following modifiers:"
  
  wwu_defensive_ideas: "Defensive"
  wwu_defensive_ideas_desc: ""
@@ -550,7 +550,7 @@
  wwu_defensive_ideas_6: "Supply Lines"
  wwu_defensive_ideas_6_desc: "Provides the following modifiers:"
  wwu_defensive_ideas_7: "Improved Foraging"
- wwu_defensive_ideas_7_desc: "Unlocks the §YDefensive Posture§! army doctrine.\nProvides the following modifiers:"
+ wwu_defensive_ideas_7_desc: "Provides the following modifiers:"
  
  wwu_quality_ideas: "Quality"
  wwu_quality_ideas_desc: ""
@@ -568,7 +568,7 @@
  wwu_quality_ideas_6: "Fruit Barrels"
  wwu_quality_ideas_6_desc: "Provides the following modifiers:"
  wwu_quality_ideas_7: "Massed Batteries"
- wwu_quality_ideas_7_desc: "Unlocks the §YOverwhelming Firepower§! army doctrine.\nProvides the following modifiers:"
+ wwu_quality_ideas_7_desc: "Provides the following modifiers:"
  
  wwu_quantity_ideas: "Quantity"
  wwu_quantity_ideas_desc: ""
@@ -586,7 +586,7 @@
  wwu_quantity_ideas_6: "Homely Garrisons"
  wwu_quantity_ideas_6_desc: "Provides the following modifiers:"
  wwu_quantity_ideas_7: "Improved Supply Lines"
- wwu_quantity_ideas_7_desc: "Unlocks the §YMass Assault§! army doctrine.\nProvides the following modifiers:"
+ wwu_quantity_ideas_7_desc: "Provides the following modifiers:"
  
  wwu_professional_army_ideas: "Professional Army"
  wwu_professional_army_ideas_desc: ""
@@ -604,7 +604,7 @@
  wwu_professional_army_ideas_7: "Daily Drills"
  wwu_professional_army_ideas_7_desc: "Provides the following modifiers:"
  wwu_professional_army_ideas_6: "Battleready"
- wwu_professional_army_ideas_6_desc: "Unlocks the §YSow Terror§! siege doctrine.\nProvides the following modifiers:"
+ wwu_professional_army_ideas_6_desc: "Unlocks the §YSow Terror§! offensive stratagem.\nProvides the following modifiers:"
  
  wwu_mercenary_army_ideas: "Mercenary Army"
  wwu_mercenary_army_ideas_desc: ""
@@ -640,7 +640,7 @@
  wwu_armaments_ideas_6: "Greatswords"
  wwu_armaments_ideas_6_desc: "Provides the following modifiers:"
  wwu_armaments_ideas_7: "Diseased Ammunition"
- wwu_armaments_ideas_7_desc: "Unlocks the §YSlash and Burn§! siege doctrine.\nProvides the following modifiers:"
+ wwu_armaments_ideas_7_desc: "Unlocks the §YSlash and Burn§! offensive stratagem.\nProvides the following modifiers:"
  
  wwu_fortification_ideas: "Fortification"
  wwu_fortification_ideas_desc: ""
@@ -694,7 +694,7 @@
  wwu_tyranny_ideas_6: "Hammer the Nail"
  wwu_tyranny_ideas_6_desc: "Provides the following modifiers:"
  wwu_tyranny_ideas_7: "Absolute Rule"
- wwu_tyranny_ideas_7_desc: "Unlocks the §YEnslave the Remnants§! siege doctrine.\nProvides the following modifiers:"
+ wwu_tyranny_ideas_7_desc: "Unlocks the §YEnslavement§! offensive stratagem.\nProvides the following modifiers:"
  
  wwu_elitism_ideas: "Elitism"
  wwu_elitism_ideas_desc: ""
@@ -712,7 +712,7 @@
  wwu_elitism_ideas_6: "Victory in Battle"
  wwu_elitism_ideas_6_desc: "Provides the following modifiers:"
  wwu_elitism_ideas_7: "The Privileged Few"
- wwu_elitism_ideas_7_desc: "Unlocks the §YPurify and Cleanse§! siege doctrine.\nProvides the following modifiers:"
+ wwu_elitism_ideas_7_desc: "Unlocks the §YPurification§! offensive stratagem.\nProvides the following modifiers:"
  
  wwu_dominion_ideas: "Dominion"
  wwu_dominion_ideas_desc: ""

@@ -1,26 +1,20 @@
 
 is_city = yes
-
-owner = G50
-controller = G50
+owner = A08
+controller = A08
+add_core = A08
 add_core = G50
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 3
+base_manpower = 2
 
 culture = culture_lordaeron
 religion = holy_light
 
 hre = no
 trade_goods = resource_food
- 
-# First War
-592.1.1 = {
-    owner = A08
-    controller = A08
-    add_core = A08
-}
+
 
 617.1.1 = { 
 	religion = cult_of_the_damned

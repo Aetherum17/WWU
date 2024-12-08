@@ -195,9 +195,9 @@ country_event = {
             religion = earth
         }
 		
-		change_adm = 6
-		change_dip = 6
-		change_mil = 6
+		change_adm = 2
+		change_dip = 2
+		change_mil = 2
 
         country_event = { id = wwu_centaur_marauders.6 days = 3 }
 
@@ -266,7 +266,7 @@ country_event = {
     option = {
         name = wwu_centaur_marauders.7.option.a
 
-        H04 = {
+        CTR = {
             create_union = P27
         }
 
@@ -287,19 +287,19 @@ country_event = {
     option = {
         name = wwu_centaur_marauders.7.option.b
 
-        create_alliance = H04
+        create_alliance = CTR
 
-        add_historical_friend = H04
+        add_historical_friend = CTR
 
         add_accepted_culture = culture_centaur
 
         add_trust = {
-            who = H04
+            who = CTR
             value = 50
             mutual = yes
         }
 
-        H04 = {
+        CTR = {
             add_historical_friend = P27
 
             add_accepted_culture = culture_earth
@@ -315,22 +315,22 @@ country_event = {
 
         add_prestige = 10
 
-        add_historical_rival = H04
+        add_historical_rival = CTR
 
         add_casus_belli = {
-            target = H04
+            target = CTR
             type = cb_restore_personal_union
             months = 120
         }
 
-        H04 = {
+        CTR = {
             add_casus_belli = {
-                target = P27
+                target = CTR
                 type = cb_restore_personal_union
                 months = 120
             }
 
-            add_historical_rival = P27
+            add_historical_rival = B27
         }
 
         ai_chance = {

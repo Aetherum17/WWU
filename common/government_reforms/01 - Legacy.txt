@@ -752,6 +752,23 @@ trade_coalition_legacy = {
     valid_for_nation_designer = yes
     nation_designer_cost = 0
 }
+expeditionary_force_legacy = {
+	icon = "tribal_centralize_power"
+    legacy_government = yes # legacy_equivalent = tribal_federation_legacy
+    
+    tribal = yes
+	heir = yes
+	queen = yes
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     
+    allow_normal_conversion = yes   
+    allow_convert = yes             
+
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
 
 #--------------------------------------------
 # Theocracy
@@ -1281,7 +1298,21 @@ the_perfect_ones_legacy = {
     valid_for_nation_designer = yes
     nation_designer_cost = 0
 }
+ymirjar_order_legacy = {
+	icon = "paper_money_map"
+    legacy_government = yes # legacy_equivalent = theocracy_legacy
+    
+    religion = yes
+    
+	ai = { factor = 0 }
+    
+    valid_for_new_country = yes     
+    allow_normal_conversion = yes   
+    allow_convert = yes             
 
+    valid_for_nation_designer = yes
+    nation_designer_cost = 0
+}
 #--------------------------------------------
 # Tribal
 #--------------------------------------------
@@ -1431,23 +1462,6 @@ draenei_clan_legacy = {
     nation_designer_cost = 0
 }
 ancient_clan_legacy = {
-	icon = "tribal_centralize_power"
-    legacy_government = yes # legacy_equivalent = tribal_federation_legacy
-    
-    tribal = yes
-	heir = yes
-	queen = yes
-    
-	ai = { factor = 0 }
-    
-    valid_for_new_country = yes     
-    allow_normal_conversion = yes   
-    allow_convert = yes             
-
-    valid_for_nation_designer = yes
-    nation_designer_cost = 0
-}
-expeditionary_force_legacy = {
 	icon = "tribal_centralize_power"
     legacy_government = yes # legacy_equivalent = tribal_federation_legacy
     

@@ -15,13 +15,27 @@ religion = holy_light
 
 hre = no
 trade_goods = resource_food
- 
+
 618.1.1 = {
 	owner = F21
 	controller = F21
 	add_core = F21
 	culture = culture_crypt_fiend
+	religion = cult_of_the_damned 
+	remove_core = A90
+}
+
+619.1.1 = {
+	owner = NER
+	controller = NER
+	add_core = NER
+	remove_core = F21
+	
+	base_tax = 2
+    base_production = 1
+    base_manpower = 4
+
+	culture = culture_crypt_fiend
 	religion = cult_of_the_damned
-	remove_core = A90 
 }
 

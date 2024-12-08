@@ -1,6 +1,6 @@
 graphical_culture = wolvar_gfx
 
-color = { 6 133 30 }
+color = { 140 70 50 }
 
 monarch_names = {
 	"Jekrak" = 1

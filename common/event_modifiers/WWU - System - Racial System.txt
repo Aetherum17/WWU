@@ -108,7 +108,7 @@ centaur_administration = {
     # Debuffs
     technology_cost = 0.025
     yearly_innovativeness = -0.5
-    reform_progress_growth = -0.1
+    reform_progress_growth = -0.15
     ae_impact = 0.05
 }
 # Centaur Military
@@ -116,7 +116,7 @@ centaur_military = {
     # Buffs
     movement_speed = 0.2
     loot_amount = 0.15
-    cav_to_inf_ratio = 0.5
+    cav_to_inf_ratio = 0.25
     cavalry_flanking = 0.25
     cavalry_power = 0.1
     cavalry_cost = -0.25
@@ -1010,7 +1010,7 @@ satyr_administration = {
     trade_efficiency = -0.075
     tolerance_heathen = -1
     diplomatic_reputation = -3
-    improve_relation_modifier = -0.1
+    global_foreign_trade_power = -0.1
 }
 # Satyr Military
 satyr_military = {

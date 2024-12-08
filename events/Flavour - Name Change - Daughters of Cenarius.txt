@@ -1,0 +1,52 @@
+namespace = wwu_flavour_nc_daughter_of_cenarius
+
+# Pick a name for Daughters of Cenarius
+country_event = {
+	id = wwu_flavour_nc_daughter_of_cenarius.1
+	title = wwu_flavour_nc_daughter_of_cenarius.1.title
+	desc = wwu_flavour_nc_daughter_of_cenarius.1.desc
+	picture = KEEPER_OF_THE_GROVE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_nc_daughter_of_cenarius.1.a
+		
+		# Keep the Name
+		
+		ai_chance = {		
+			factor = 2
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_daughter_of_cenarius.1.b
+		
+		override_country_name = LORDS_OF_THE_FOREST
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_daughter_of_cenarius.1.c
+		
+		trigger = {
+		    NOT = { religion = nightmare }
+		}
+		
+		override_country_name = DEFENDERS_OF_THE_DREAM
+		
+		ai_chance = {
+			factor = 2
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_daughter_of_cenarius.1.d
+				
+		override_country_name = THE_WAYWATCHERS
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

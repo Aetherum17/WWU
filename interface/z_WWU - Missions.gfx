@@ -2885,4 +2885,213 @@ spriteTypes = {
 		name = "mission_marketplacewc3r" 
 		texturefile = "gfx//interface//missions//marketplacewc3r.dds" 
 	}
+	spriteType = { 
+		name = "mission_naz_totem_1" 
+		texturefile = "gfx//interface//missions//naz_totem_1.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_totem_2" 
+		texturefile = "gfx//interface//missions//naz_totem_2.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_totem_3" 
+		texturefile = "gfx//interface//missions//naz_totem_3.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_totem_4" 
+		texturefile = "gfx//interface//missions//naz_totem_4.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_totem_5" 
+		texturefile = "gfx//interface//missions//naz_totem_5.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_totem_6" 
+		texturefile = "gfx//interface//missions//naz_totem_6.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_totem_7" 
+		texturefile = "gfx//interface//missions//naz_totem_7.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_fungarian_1" 
+		texturefile = "gfx//interface//missions//naz_fungarian_1.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_fungarian_2" 
+		texturefile = "gfx//interface//missions//naz_fungarian_2.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_fungarian_3" 
+		texturefile = "gfx//interface//missions//naz_fungarian_3.dds" 
+	}
+	spriteType = { 
+		name = "mission_naz_fungarian_4" 
+		texturefile = "gfx//interface//missions//naz_fungarian_4.dds" 
+	}
+	spriteType = { 
+		name = "mission_greymane_wall" 
+		texturefile = "gfx//interface//missions//greymane_wall.dds" 
+	}
+	spriteType = { 
+		name = "mission_silverpine_forest" 
+		texturefile = "gfx//interface//missions//silverpine_forest.dds" 
+	}
+	spriteType = { 
+		name = "mission_forsaken_flag" 
+		texturefile = "gfx//interface//missions//forsaken_flag.dds" 
+	}
+	spriteType = { 
+		name = "mission_worgen" 
+		texturefile = "gfx//interface//missions//worgen.dds" 
+	}
+	spriteType = { 
+		name = "mission_scarlet_crusade_shields" 
+		texturefile = "gfx//interface//missions//scarlet_crusade_shields.dds" 
+	}
+	spriteType = { 
+		name = "mission_greymane_manor" 
+		texturefile = "gfx//interface//missions//greymane_manor.dds" 
+	}
+	spriteType = { 
+		name = "mission_exhaust" 
+		texturefile = "gfx//interface//missions//exhaust.dds" 
+	}	
+	spriteType = { 
+		name = "mission_achievement_dungeon_kezan" 
+		texturefile = "gfx//interface//missions//achievement_dungeon_kezan.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_zone_tirisfalglades_01" 
+		texturefile = "gfx//interface//missions//achievement_zone_tirisfalglades_01.dds" 
+	}
+	spriteType = { 
+		name = "mission_zuldazar" 
+		texturefile = "gfx//interface//missions//zuldazar.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_zone_dustwallowmarsh" 
+		texturefile = "gfx//interface//missions//achievement_zone_dustwallowmarsh.dds" 
+	}
+	spriteType = { 
+		name = "mission_jaina_staff" 
+		texturefile = "gfx//interface//missions//jaina_staff.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_boss_zuldazar_jaina" 
+		texturefile = "gfx//interface//missions//achievement_boss_zuldazar_jaina.dds" 
+	}
+	spriteType = { 
+		name = "mission_farm_pitchfork" 
+		texturefile = "gfx//interface//missions//farm_pitchfork.dds" 
+	}
+	spriteType = { 
+		name = "mission_farm_hoe" 
+		texturefile = "gfx//interface//missions//farm_hoe.dds" 
+	}
+	spriteType = { 
+		name = "mission_farm_shovel" 
+		texturefile = "gfx//interface//missions//farm_shovel.dds" 
+	}
+	spriteType = { 
+		name = "mission_farm_sickle" 
+		texturefile = "gfx//interface//missions//farm_sickle.dds" 
+	}
+	spriteType = { 
+		name = "mission_farm_scythe" 
+		texturefile = "gfx//interface//missions//farm_scythe.dds" 
+	}
+	spriteType = { 
+		name = "mission_onyxia" 
+		texturefile = "gfx//interface//missions//onyxia.dds" 
+	}
+	spriteType = { 
+		name = "mission_ability_rogue_thiefs_bargain" 
+		texturefile = "gfx//interface//missions//ability_rogue_thiefs_bargain.dds" 
+	}	
+	spriteType = { 
+		name = "mission_nazmir" 
+		texturefile = "gfx//interface//missions//nazmir.dds" 
+	}
+	spriteType = { 
+		name = "mission_voldun" 
+		texturefile = "gfx//interface//missions//voldun.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_raid_soo_orgrimmar_outdoors" 
+		texturefile = "gfx//interface//missions//achievement_raid_soo_orgrimmar_outdoors.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_zone_barrens_01" 
+		texturefile = "gfx//interface//missions//achievement_zone_barrens_01.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_zone_mulgore_01" 
+		texturefile = "gfx//interface//missions//achievement_zone_mulgore_01.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_zone_tanaris_01" 
+		texturefile = "gfx//interface//missions//achievement_zone_tanaris_01.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_zone_thousandneedles_01" 
+		texturefile = "gfx//interface//missions//achievement_zone_thousandneedles_01.dds" 
+	}
+	spriteType = { 
+		name = "mission_achievement_zone_durotar" 
+		texturefile = "gfx//interface//missions//achievement_zone_durotar.dds" 
+	}
+	
+	spriteType = { 
+		name = "mission_paperbundle_01" 
+		texturefile = "gfx//interface//missions//paperbundle_01.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_02" 
+		texturefile = "gfx//interface//missions//paperbundle_02.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_03" 
+		texturefile = "gfx//interface//missions//paperbundle_03.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_04" 
+		texturefile = "gfx//interface//missions//paperbundle_04.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_05" 
+		texturefile = "gfx//interface//missions//paperbundle_05.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_06" 
+		texturefile = "gfx//interface//missions//paperbundle_06.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_07" 
+		texturefile = "gfx//interface//missions//paperbundle_07.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_08" 
+		texturefile = "gfx//interface//missions//paperbundle_08.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_09" 
+		texturefile = "gfx//interface//missions//paperbundle_09.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_10" 
+		texturefile = "gfx//interface//missions//paperbundle_10.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_11" 
+		texturefile = "gfx//interface//missions//paperbundle_11.dds" 
+	}
+	spriteType = { 
+		name = "mission_paperbundle_12" 
+		texturefile = "gfx//interface//missions//paperbundle_12.dds" 
+	}
+	spriteType = {
+		name = "mission_utgarde_keep"
+		texturefile = "gfx//interface//missions//utgarde_keep.dds"
+	}
 }

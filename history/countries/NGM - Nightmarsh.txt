@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = primal_dominion_reform
+add_government_reform = wwu_tribal_established_hierarchy_reform
+
+technology_group = tech_botani
+primary_culture = culture_botani
+religion = sporemounds
+capital = 5510

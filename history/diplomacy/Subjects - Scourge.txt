@@ -51,6 +51,17 @@ dependency = {
 	end_date = 626.1.1
 }
 
+##############################
+### Wrath of the Lich King ###
+##############################
+dependency = {
+	subject_type = "scourge_vassal"
+	first = P11
+	second = SNB
+	start_date = 626.1.1
+	end_date = 631.1.1
+}
+
 #################
 ### Cataclysm ###
 #################

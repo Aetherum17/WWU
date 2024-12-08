@@ -1,0 +1,35 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+# Event Scarlets: 
+event_scarlet_tolerance_sl = {
+    tolerance_heretic = 2
+	 	religious_unity = 0.15
+}
+
+event_scarlet_dominance_sl = {
+    global_missionary_strength = 0.01
+	warscore_cost_vs_other_religion = -0.15
+}
+
+event_trust_in_our_memories_sl = {
+    diplomatic_reputation = 1
+	diplomatic_upkeep = 1 
+}
+
+# Event Argents: 
+event_argent_honor_ad = {
+    global_missionary_strength = 0.01
+	missionary_maintenance_cost = -0.1
+}
+
+event_argent_glory_ad = {
+    diplomatic_reputation = 1
+	warscore_cost_vs_other_religion = -0.15
+	promote_culture_cost = -0.1
+}
+
+event_tough_decisions_ad = {
+    tolerance_own = 1
+	global_heretic_missionary_strength = 0.02
+}

@@ -1,6 +1,6 @@
 
-# Winterfall
 is_city = yes
+
 owner = G03
 controller = G03
 add_core = G03
@@ -27,13 +27,13 @@ culture = culture_satyr
 }
 
 618.1.1 = {
-    owner = B44
-    controller = B44
-    add_core = B44
+    owner = G03
+    controller = G03
+    add_core = G03
 	remove_core = CRA
 	
-    religion = fel
-	culture = culture_corrupted_furbolg
+	culture = culture_frost_giant
+	religion = titan_worship
 }
 
 

@@ -14,9 +14,6 @@ hre = no
 trade_goods = unknown
 
 
-
-
-
 600.1.1 = { 
 owner = H05
 controller = H05

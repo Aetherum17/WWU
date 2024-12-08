@@ -3,6 +3,7 @@
 #-----------------------------------
 on_startup__init = {
     emperor = {
+		# Audax Validator "." Ignore_NEXT
 		save_global_event_target_as = Emperor
 	}
     
@@ -10,6 +11,7 @@ on_startup__init = {
 		limit = {
 			is_emperor_of_china = yes
 		}
+		# Audax Validator "." Ignore_NEXT
 		save_global_event_target_as = celestial_emperor
 	}
     
@@ -21,6 +23,7 @@ on_startup__init = {
         
         # Default "Horde Leader" event target to Shadowmoon
         A34 = {
+			# Audax Validator "." Ignore_NEXT
             save_global_event_target_as = horde_leader
         }
     
@@ -38,6 +41,7 @@ on_startup__init = {
         }
         
         # Set first player country as executor tag
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = executor
         
         # Invention Timer

@@ -1,12 +1,12 @@
 
 is_city = yes
-owner = A10
-controller = A10
-add_core = A10
+owner = A08
+controller = A08
+add_core = A08
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 2
+base_manpower = 2
 
 culture = culture_lordaeron
 religion = holy_light 
@@ -14,11 +14,6 @@ religion = holy_light
 hre = no
 trade_goods = resource_common_skins
  
-592.1.1 = { 
-	owner = A08
-	controller = A08
-    add_core = A08
-}
 
 # The Third War
 617.1.1 = { 

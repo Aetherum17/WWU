@@ -1,16 +1,16 @@
 
 is_city = yes
 
-owner = G39
-controller = G39
-add_core = G39
+owner = TAL
+controller = TAL
+add_core = TAL
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_satyr
-religion = fel
+culture = culture_night_elf
+religion = elune
 
 hre = no
 trade_goods = resource_rare_ores
@@ -20,4 +20,18 @@ add_permanent_province_modifier = {
     duration = -1
 }
 
+622.1.1 = {
+    owner = A94
+    controller = A94
+    add_core = A94
+	add_core = TAL
+}
 
+630.1.1 = {
+    owner = A79
+    add_core = A79
+    controller = A79
+	
+    religion = technomancy
+    culture = culture_goblin
+}

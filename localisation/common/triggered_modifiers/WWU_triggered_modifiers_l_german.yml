@@ -2,39 +2,24 @@
  #-----------------------------------------------
  # Triggered Modifiers
  #-----------------------------------------------
- # Government Mechanics
- fighting_against_power: "Fighting against Power"
- desc_fighting_against_power: "It is our diplomatic stance to intervene against any would-be hegemonies."
+ # Ruler
+ glacial_bureaucracy: "Glacial Bureaucracy"
+ desc_glacial_bureaucracy: "Due to the immortal nature of our race, our elections occur far less often."
  
- champion_of_the_people: "Champion of the People"
- desc_champion_of_the_people: "Our ruler is a champion of their people, and leads them in war."
+ slow_bureaucracy: "Slow Bureaucracy"
+ desc_slow_bureaucracy: "Due to the long-lived nature of our race, our elections occur less often."
  
- war_footing: "War Footing"
- desc_war_footing: "Our monarchy is on a war footing, and as such is prepared for war."
- 
- unity_of_the_horde: "Unity of the Horde"
- desc_unity_of_the_horde: "Our tribal horde is at war, and thus our people are united in purpose."
+ # Burning Legion
+ lanquishing_crusade: "Lanquishing Crusade"
+ desc_lanquishing_crusade: "Our demons ache for conflict, we must grant it soon!"
+
+ burning_crusade: "Burning Crusade"
+ desc_burning_crusade: "Our demons are sated by conflict."
  
  # Elwynn
  elwynn_ownership: "Elwynn Ownership"
  desc_elwynn_ownership: "Having Elwynn under control will bring stability and prosperity into our realm... or war to everyone else!"
  
- # Dwarves
- dwarven_civil_war: "Dwarven Civil War"
- desc_dwarven_civil_war: "Our ancestors began this bitter was that destroys our land"
- 
- glory_of_wildhammer: "Glory of Wildhammer"
- desc_glory_of_wildhammer: "Now that we defeated our rivals we will forge a new future for the dwarves"
- 
- glory_of_ironforge: "Glory of Ironforge"
- desc_glory_of_ironforge: "Now that we defeated our rivals we will forge a new future for the dwarves"
- 
- glory_of_dark_iron: "Glory of Dark Iron"
- desc_glory_of_dark_iron: "Now that we defeated our rivals we will forge a new future for the dwarves"
- 
- dwarves_united: "Dwarves United"
- desc_dwarves_united: "We finally united the three great dwarven clans and we forged a new future for our land... or brought the glory of an old one"
-
  # Old Gods
  presence_of_cthun: "Presence of C'Thun"
  desc_presence_of_cthun: "C'Thun is actively spreading his corruption."
@@ -48,18 +33,37 @@
  presence_of_yshaarj: "Presence of Y'Shaarj"
  desc_presence_of_yshaarj: "Y'Shaarj is actively spreading his corruption."
  
- # Republics
- immortal_republic: "Glacial Bureaucracy"
- desc_immortal_republic: "Due to the immortal nature of our race, our elections occur far less often."
+ # Government Attributes
+ fighting_against_power: "Fighting against Power"
+ desc_fighting_against_power: "It is our diplomatic stance to intervene against any would-be hegemonies."
  
- long_lived_republic: "Slow Bureaucracy"
- desc_long_lived_republic: "Due to the long-lived nature of our race, our elections occur less often."
+ champion_of_the_people: "Champion of the People"
+ desc_champion_of_the_people: "Our ruler is a champion of their people, and leads them in war."
  
- # Burning Legion
- lanquished_crusade: "Lanquishing Crusade"
- desc_lanquished_crusade: "Our demons ache for conflict, we must grant it soon!"
-
- burning_crusade: "Burning Crusade"
- desc_burning_crusade: "Our demons are sated by conflict."
+ war_footing: "War Footing"
+ desc_war_footing: "Our monarchy is on a war footing, and as such is prepared for war."
+ 
+ unity_of_the_horde: "Unity of the Horde"
+ desc_unity_of_the_horde: "Our tribal horde is at war, and thus our people are united in purpose."
+ 
+ # Dwarves
+ dwarven_civil_war: "Dwarven Civil War"
+ desc_dwarven_civil_war: "Our ancestors began this bitter was that destroys our land"
+ 
+ DWARVEN_CIVIL_WAR_TRIGGER_TT: "May be disabled by destroying or subjugating the other Dwarven kingdoms."
+ 
+ glory_of_wildhammer: "Glory of Wildhammer"
+ desc_glory_of_wildhammer: "Now that we defeated our rivals we will forge a new future for the dwarves"
+ 
+ glory_of_ironforge: "Glory of Ironforge"
+ desc_glory_of_ironforge: "Now that we defeated our rivals we will forge a new future for the dwarves"
+ 
+ glory_of_dark_iron: "Glory of Dark Iron"
+ desc_glory_of_dark_iron: "Now that we defeated our rivals we will forge a new future for the dwarves"
+ 
+ dwarves_united: "Dwarves United"
+ desc_dwarves_united: "We finally united the three great dwarven clans and we forged a new future for our land... or brought the glory of an old one"
+ 
+ 
 
  

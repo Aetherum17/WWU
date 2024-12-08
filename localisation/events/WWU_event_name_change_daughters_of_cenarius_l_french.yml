@@ -1,0 +1,18 @@
+﻿l_french:
+ #-----------------------------------------------
+ # Daughters of Cenarius
+ #----------------------------------------------- 
+ wwu_flavour_nc_daughter_of_cenarius.1.title: "Dream's Favorite Children!"
+ wwu_flavour_nc_daughter_of_cenarius.1.desc: "Now that we manifested dream's blessings into our lands, we need to give us a name that represents our high purpose. What shall we call ourselves?"
+ wwu_flavour_nc_daughter_of_cenarius.1.a: "We stick with Daughters of Cenarius."
+ wwu_flavour_nc_daughter_of_cenarius.1.b: "We are THE LORDS OF THE FORESTS!"
+ wwu_flavour_nc_daughter_of_cenarius.1.c: "We are the Defenders of the Dream!"
+ wwu_flavour_nc_daughter_of_cenarius.1.d: "We are the ones who protect the old ways! We are the WAYWATCHERS!"
+
+ # Name Change
+ LORDS_OF_THE_FOREST: "Lords of the Forest"
+ LORDS_OF_THE_FOREST_ADJ: "Cenarian"
+ DEFENDERS_OF_THE_DREAM: "Defenders of the Dream"
+ DEFENDERS_OF_THE_DREAM_ADJ: "Cenarian"
+ THE_WAYWATCHERS: "The Waywatchers"
+ THE_WAYWATCHERS_ADJ: "Waywatcher's"

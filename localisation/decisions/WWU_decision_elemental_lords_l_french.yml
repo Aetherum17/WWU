@@ -1,0 +1,15 @@
+﻿l_french:
+ #-----------------------------------------------
+ # Elemental Lords
+ #-----------------------------------------------
+ firelord_free_title: "[DI_fire_totem] Restore Core Faith: Flame"
+ firelord_free_desc: "In our previous struggle, our elemental domain had fallen into the hands of forces, who had defiled our elemental identity with their foul magic and believes. Now, we can restore our original form, our identity."
+
+ windlord_free_title: "[DI_wind_totem] Restore Core Faith: Wind"
+ windlord_free_desc: "In our previous struggle, our elemental domain had fallen into the hands of forces, who had defiled our elemental identity with their foul magic and believes. Now, we can restore our original form, our identity."
+
+ tidehunter_free_title: "[DI_water_totem] Restore Core Faith: Water"
+ tidehunter_free_desc: "In our previous struggle, our elemental domain had fallen into the hands of forces, who had defiled our elemental identity with their foul magic and believes. Now, we can restore our original form, our identity."
+
+ stonemother_free_title: "[DI_earth_totem] Restore Core Faith: Earth"
+ stonemother_free_desc: "In our previous struggle, our elemental domain had fallen into the hands of forces, who had defiled our elemental identity with their foul magic and believes. Now, we can restore our original form, our identity."

@@ -1,0 +1,44 @@
+
+# Darrowshire
+government			= monarchy
+add_government_reform = autocracy_reform
+government_rank		= 1
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= holy_light
+primary_culture 	= culture_lordaeron 
+capital 			= 2170
+
+
+546.1.1 = { 
+    monarch = { 
+        name = "Baron" 
+        dynasty = "Blackwood" 
+		adm = 2
+		dip = 2
+		mil = 2
+        birth_date = 480.1.1
+ 	}
+}
+
+586.1.1 = { 
+    monarch = { 
+		name = "Baron" 
+		dynasty = "Garithos" 
+		adm = 3
+		dip = 3
+		mil = 3
+        birth_date = 540.1.1
+	}
+	heir = { 
+		name = "Orthos"
+		dynasty = "Garithos" 
+		adm = 3
+		dip = 1
+		mil = 4 
+		birth_date = 580.1.1
+		death_date = 618.1.1
+		monarch_name = "Orthos I"
+		claim = 100
+	}
+}

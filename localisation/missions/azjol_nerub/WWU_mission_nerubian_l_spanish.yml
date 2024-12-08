@@ -9,7 +9,6 @@
  P74_encounter_the_vrykuls_title: "Encounter the Vrykuls"
  P74_encounter_the_vrykuls_desc: ""
  
- P74_encounter_the_vrykuls_tunnel_network_TT: "The §YNerubian Tunnel Network§! may now be expanded into the §YIcecrown§! region. A province must have a minimum of §Y10§! development and be of §YNerubian§! culture before a tunnel appears.\n"
  P74_encounter_the_vrykuls_development_TT: "All currently owned provinces within the §YIcecrown§! region will gain the §G1§! Base Tax, §G1§! Base Production and §G1§! Base Manpower.\n"
  P74_encounter_the_vrykuls_cultural_domination_TT: "All owned provinces (now and in the future) within the §YIcecrown§! region will gain the §YCultural Domination§! province modifier, reducing the §YLocal Culture Conversion Cost§! by §G25%§! and the §YLocal Development Cost§! by §G10%§!."
  
@@ -22,21 +21,18 @@
  P74_encounter_the_dragons_title: "Encounter the Dragons"
  P74_encounter_the_dragons_desc: ""
  
- P74_encounter_the_dragons_tunnel_network_TT: "The §YNerubian Tunnel Network§! may now be expanded into the §YWintergrasp§! region. A province must have a minimum of §Y10§! development and be of §YNerubian§! culture before a tunnel appears.\n"
  P74_encounter_the_dragons_development_TT: "All currently owned provinces within the §YWintergrasp§! region will gain the §G1§! Base Tax, §G1§! Base Production and §G1§! Base Manpower.\n"
  P74_encounter_the_dragons_cultural_domination_TT: "All owned provinces (now and in the future) within the §YWintergrasp§! region will gain the §YCultural Domination§! province modifier, reducing the §YLocal Culture Conversion Cost§! by §G25%§! and the §YLocal Development Cost§! by §G10%§!."
  
  P74_fall_of_wyrmrest_temple_title: "Fall of Wyrmrest Temple"
  P74_fall_of_wyrmrest_temple_desc: ""
 
- P74_fall_of_wyrmrest_temple_tunnel_network_TT: "The §YNerubian Tunnel Network§! may now be expanded into the §YDragonblight§! region. A province must have a minimum of §Y10§! development and be of §YNerubian§! culture before a tunnel appears.\n"
  P74_fall_of_wyrmrest_temple_development_TT: "All currently owned provinces within the §YDragonblight§! region will gain the §G1§! Base Tax, §G1§! Base Production and §G1§! Base Manpower.\n"
  P74_fall_of_wyrmrest_temple_cultural_domination_TT: "All owned provinces (now and in the future) within the §YDragonblight§! region will gain the §YCultural Domination§! province modifier, reducing the §YLocal Culture Conversion Cost§! by §G25%§! and the §YLocal Development Cost§! by §G10%§!."
  
  P74_the_nerubian_empire_title: "§YThe Nerubian Empire§!"
  P74_the_nerubian_empire_desc: ""
  
- P74_the_nerubian_empire_tunnel_network_TT: "The §YNerubian Tunnel Network§! may now be expanded into the §YNorthrend§! superregion. A province must have a minimum of §Y10§! development and be of §YNerubian§! culture before a tunnel appears.\n"
  P74_the_nerubian_empire_mercenary_company_TT: "Unlocks the §YHadronox§! §THero Mercenary Company§!. Company bonuses are:\n§G+10%§! Discipline\n§G+20%§! Morale Damage\n§G+20%§! Shock Damage\n"
  P74_the_nerubian_empire_development_TT: "All currently owned provinces within the §YNorthrend§! superregion will gain the §G1§! Base Tax, §G1§! Base Production and §G1§! Base Manpower.\n"
  P74_the_nerubian_empire_cultural_domination_TT: "All owned provinces (now and in the future) within the §YNorthrend§! superregion will gain the §YCultural Domination§! province modifier, reducing the §YLocal Culture Conversion Cost§! by §G25%§! and the §YLocal Development Cost§! by §G10%§!."
@@ -45,7 +41,7 @@
  P74_repairing_the_tunnel_network_title: "Repairing the Tunnel Network"
  P74_repairing_the_tunnel_network_desc: ""
  
- IMPROVE_TUNNEL_DECISION_UNLOCKED_TT: "The §YImprove Tunnel Network§! decision is unlocked."
+ IMPROVE_TUNNEL_DECISION_UNLOCKED_TT: "Gain the ability to increase the §YTunnel Depth§! within a province."
  
  P74_nerubian_three_two_title: "Emergence of the Faceless"
  P74_nerubian_three_two_desc: ""
@@ -58,7 +54,6 @@
  P74_encounter_the_tuskarrs_title: "Encounter the Tuskarrs"
  P74_encounter_the_tuskarrs_desc: ""
  
- P74_encounter_the_tuskarrs_tunnel_network_TT: "The §YNerubian Tunnel Network§! may now be expanded into the §YBorean Tundra§! region. A province must have a minimum of §Y10§! development and be of §YNerubian§! culture before a tunnel appears.\n"
  P74_encounter_the_tuskarrs_development_TT: "All currently owned provinces within the §YBorean Tundra§! region will gain the §G1§! Base Tax, §G1§! Base Production and §G1§! Base Manpower.\n"
  P74_encounter_the_tuskarrs_cultural_domination_TT: "All owned provinces (now and in the future) within the §YBorean Tundra§! region will gain the §YCultural Domination§! province modifier, reducing the §YLocal Culture Conversion Cost§! by §G25%§! and the §YLocal Development Cost§! by §G10%§!."
  
@@ -95,37 +90,34 @@
  P74_power_of_nerubian_wisdom_province_TT: "§YRoyal Archives§! have §YTunnel depth§! of at least level §Y10§!.\n"
  
  # --- Modifiers ---
- nerubian_tunnel_0: "Nerubian Surface Tunnels"
- desc_nerubian_tunnel_0: ""
- 
- nerubian_tunnel_1: "Nerubian Tunnels - Depth 1"
+ nerubian_tunnel_1: "Tunnel Depth I"
  desc_nerubian_tunnel_1: ""
  
- nerubian_tunnel_2: "Nerubian Tunnels - Depth 2"
+ nerubian_tunnel_2: "Tunnel Depth II"
  desc_nerubian_tunnel_2: ""
  
- nerubian_tunnel_3: "Nerubian Tunnels - Depth 3"
+ nerubian_tunnel_3: "Tunnel Depth III"
  desc_nerubian_tunnel_3: ""
  
- nerubian_tunnel_4: "Nerubian Tunnels - Depth 4"
+ nerubian_tunnel_4: "Tunnel Depth IV"
  desc_nerubian_tunnel_4: ""
  
- nerubian_tunnel_5: "Nerubian Tunnels - Depth 5"
+ nerubian_tunnel_5: "Tunnel Depth V"
  desc_nerubian_tunnel_5: ""
  
- nerubian_tunnel_6: "Nerubian Tunnels - Depth 6"
+ nerubian_tunnel_6: "Tunnel Depth VI"
  desc_nerubian_tunnel_6: ""
  
- nerubian_tunnel_7: "Nerubian Tunnels - Depth 7"
+ nerubian_tunnel_7: "Tunnel Depth VII"
  desc_nerubian_tunnel_7: ""
  
- nerubian_tunnel_8: "Nerubian Tunnels - Depth 8"
+ nerubian_tunnel_8: "Tunnel Depth VIII"
  desc_nerubian_tunnel_8: ""
  
- nerubian_tunnel_9: "Nerubian Tunnels - Depth 9"
+ nerubian_tunnel_9: "Tunnel Depth IX"
  desc_nerubian_tunnel_9: ""
  
- nerubian_tunnel_10: "Nerubian Tunnels - Depth 10"
+ nerubian_tunnel_10: "Tunnel Depth X"
  desc_nerubian_tunnel_10: ""
  
  nerubian_digging_a: "Complex Tunnels"

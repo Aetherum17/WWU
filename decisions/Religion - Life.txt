@@ -267,21 +267,24 @@ country_decisions = {
         allow = {
             religion = elune
             is_at_war = yes
+            stability = -2
         }
         effect = {
             custom_tooltip = NIGHT_WARRIOR_TT
             add_country_modifier = {
                 name = night_warrior_unleashed
-                duration = 9125
+                duration = 3650
             }
+            add_stability = -1
             
             hidden_effect = {
                 define_general = {
                     name = "The Night Warrior"
-                    fire = 4
-                    shock = 4
-                    manuever = 4
-                    siege = 4
+                    fire = 6
+                    shock = 6
+                    manuever = 6
+                    siege = 6
+                    trait = elite_enforcer_personality
                 }
                 
                 country_event = { id = wwu_elune.100 days = 1825 }
@@ -289,6 +292,12 @@ country_decisions = {
         }		
         ai_will_do = {
             factor = 1
+            modifier = {
+                factor = 0
+                NOT = {
+                    stability = 0
+                }
+            }
         }
     }
     

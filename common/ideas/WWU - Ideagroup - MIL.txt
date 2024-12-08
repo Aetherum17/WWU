@@ -16,7 +16,7 @@ wwu_offensive_ideas = {
     }
 
     bonus = {
-        land_attrition = -0.25
+        land_attrition = -0.1
     }
     
     # Surprise Offensive
@@ -25,7 +25,7 @@ wwu_offensive_ideas = {
     }
     # Local Conscripts
     wwu_offensive_ideas_2 = {
-        global_regiment_recruit_speed = -0.2
+        global_regiment_recruit_speed = -0.1
     }
     # Lay of the Land
     wwu_offensive_ideas_3 = {
@@ -33,16 +33,16 @@ wwu_offensive_ideas = {
     }
     # Glory of War
     wwu_offensive_ideas_4 = {
-        prestige_from_land = 1.0
+        prestige_from_land = 0.5
     }
     # Engineer Corps
     wwu_offensive_ideas_5 = {
-        siege_ability = 0.05
+        artillery_power = 0.1
         artillery_barrage_cost = -0.1
     }
     # Grand Army
     wwu_offensive_ideas_6 = {
-        land_forcelimit_modifier = 0.2
+        land_forcelimit_modifier = 0.15
     }
     # Disciplined Warfare
     wwu_offensive_ideas_7 = {
@@ -68,17 +68,16 @@ wwu_defensive_ideas = {
     }
     
     bonus = {
-        hostile_attrition = 2
+        hostile_attrition = 1
     }
     
     # Battlefield Traditions
     wwu_defensive_ideas_1 = {
-        army_tradition = 1.0
+        army_tradition = 0.5
     }
     # Military Drill
     wwu_defensive_ideas_2 = {
-        land_morale = 0.1
-		recover_army_morale_speed = 0.1
+		recover_army_morale_speed = 0.15
     }
     # Superior Aim
     wwu_defensive_ideas_3 = {
@@ -87,12 +86,11 @@ wwu_defensive_ideas = {
     }
     # Regimental System
     wwu_defensive_ideas_4 = {
-        reinforce_speed = 0.2
+        reinforce_speed = 0.15
     }
     # Defensive Mentality
     wwu_defensive_ideas_5 = {
         shock_damage_received = -0.1
-		defensiveness = 0.15
     }
     # Supply Lines
     wwu_defensive_ideas_6 = {
@@ -100,7 +98,7 @@ wwu_defensive_ideas = {
     }
     # Improved Foraging
     wwu_defensive_ideas_7 = {
-        land_maintenance_modifier = -0.1
+        land_maintenance_modifier = -0.15
     }
     
     ai_will_do = {
@@ -146,11 +144,11 @@ wwu_quality_ideas = {
     }
     # Fruit Barrels
     wwu_quality_ideas_6 = {
-        naval_attrition = -0.25
+        naval_attrition = -0.15
     }
     # Massed Batteries
     wwu_quality_ideas_7 = {
-        artillery_power = 0.1
+        backrow_artillery_damage = 0.1
         artillery_barrage_cost = -0.1
     }
     
@@ -173,15 +171,15 @@ wwu_quantity_ideas = {
     }
     
     bonus = {
-        land_forcelimit_modifier = 0.2
+        manpower_recovery_speed = 0.2
     }
     # Grand Army
     wwu_quantity_ideas_1 = {
-        global_manpower_modifier = 0.25
+        land_forcelimit_modifier = 0.2
     }
     # All Can Serve
     wwu_quantity_ideas_2 = {
-        manpower_recovery_speed = 0.1
+        global_manpower_modifier = 0.2
     }
     # Enforced Service
     wwu_quantity_ideas_3 = {
@@ -193,12 +191,12 @@ wwu_quantity_ideas = {
     }
     # Mercenary Contracts
     wwu_quantity_ideas_5 = {
-        mercenary_manpower = 0.25
-        mercenary_cost = -0.1
+        mercenary_manpower = 0.2
+        mercenary_cost = -0.15
     }
     # Homely Garrisons
     wwu_quantity_ideas_6 = {
-        garrison_size = 0.33
+        garrison_size = 0.2
         global_garrison_growth = 0.10
     }
     # Improved Supply Lines
@@ -229,12 +227,11 @@ wwu_professional_army_ideas = {
     # Daily Drills
     wwu_professional_army_ideas_7 = {
         drill_decay_modifier = -0.25
-        army_tradition = 1.0
+        army_tradition = 0.5
     }
     # Scheduled Drills
     wwu_professional_army_ideas_2 = {
-        drill_gain_modifier = 0.33
-        army_tradition_decay = -0.01
+        drill_gain_modifier = 0.2
     }
     # Forced Marches
     wwu_professional_army_ideas_3 = {
@@ -242,11 +239,11 @@ wwu_professional_army_ideas = {
     }
     # Rations
     wwu_professional_army_ideas_4 = {
-        land_attrition = -0.25
+        land_attrition = -0.1
     }
     # Organised Reserves
     wwu_professional_army_ideas_5 = {
-        reserves_organisation = 0.33
+        reserves_organisation = 0.2
     }
     # Professional Soldiers
     wwu_professional_army_ideas_1 = {
@@ -254,8 +251,7 @@ wwu_professional_army_ideas = {
     }
     # Battleready
     wwu_professional_army_ideas_6 = {   
-        morale_damage = 0.1
-        recover_army_morale_speed = 0.1
+        land_morale = 0.1
     }
     
     ai_will_do = {
@@ -298,12 +294,12 @@ wwu_mercenary_army_ideas = {
     }
     # Looters
     wwu_mercenary_army_ideas_7 = {
-        loot_amount = 0.5
+        loot_amount = 0.25
         available_province_loot = 0.25
     }
     # Established Contracts
     wwu_mercenary_army_ideas_2 = {
-        mercenary_manpower = 1.0
+        mercenary_manpower = 0.5
     }
     
     ai_will_do = {
@@ -333,7 +329,7 @@ wwu_armaments_ideas = {
     }
     # Prepared Storehouses
     wwu_armaments_ideas_3 = {
-        army_tradition_decay = -0.01
+        global_supply_limit_modifier = 0.15
     }
     # Unbreakable Lances
     wwu_armaments_ideas_4 = {
@@ -371,7 +367,7 @@ wwu_fortification_ideas = {
     }
     # Reinforced Barricades
     wwu_fortification_ideas_1 = {
-        defensiveness = 0.33
+        defensiveness = 0.2
     }
     # Battlefield Shelters
     wwu_fortification_ideas_2 = {
@@ -380,7 +376,6 @@ wwu_fortification_ideas = {
     # Stocked Garrisons
     wwu_fortification_ideas_3 = {
         garrison_size = 0.5
-        garrison_damage = 0.25
     }
     # All Are Welcome
     wwu_fortification_ideas_4 = {
@@ -388,18 +383,17 @@ wwu_fortification_ideas = {
     }
     # Maintained Forts
     wwu_fortification_ideas_5 = {
-       fort_maintenance_modifier = -0.33
-       movement_speed = 0.05
+       fort_maintenance_modifier = -0.15
+       rival_border_fort_maintenance = -0.33
     }
     # Farmsteads
     wwu_fortification_ideas_7 = {
-        global_supply_limit_modifier = 0.25
-        global_trade_goods_size_modifier = 0.1
+        global_supply_limit_modifier = 0.15
     }
     # Strategic Citadels
     wwu_fortification_ideas_6 = {
-        max_hostile_attrition = 2
-        hostile_attrition = 2
+        max_hostile_attrition = 1
+        hostile_attrition = 1
     }
     
     ai_will_do = {
@@ -417,25 +411,24 @@ wwu_militarization_ideas = {
     }
     
     bonus = {
-        mil_tech_cost_modifier = -0.1
+        mil_tech_cost_modifier = -0.05
     }
     # Regular Enlistment
     wwu_militarization_ideas_1 = {
-        reinforce_cost_modifier = -0.25
-        reinforce_speed = 0.1
+        manpower_recovery_speed = 0.1
     }
     # Wartime Efficiencies
     wwu_militarization_ideas_2 = {
-        governing_capacity_modifier = 0.15
-        administrative_efficiency = 0.025
+        war_taxes_cost_modifier = -0.33
+        war_exhaustion_cost = -0.2
     }
     # Home Support
     wwu_militarization_ideas_3 = {
-        manpower_in_own_culture_provinces = 0.33
+        manpower_in_own_culture_provinces = 0.2
     }
     # Combat Readiness
     wwu_militarization_ideas_4 = {
-        land_forcelimit_modifier = 0.2
+        land_forcelimit_modifier = 0.1
     }
     # Wartime Construction
     wwu_militarization_ideas_5 = {
@@ -443,13 +436,11 @@ wwu_militarization_ideas = {
     }
     # Marshal Law
     wwu_militarization_ideas_6 = {
-        max_absolutism = 10
-        harsh_treatment_cost = -0.1
+        overextension_impact_modifier = -0.1
     }
     # Common Fortitude
     wwu_militarization_ideas_7 = {
-        war_exhaustion_cost = -0.2
-        assault_fort_cost_modifier = -0.2
+        land_morale = 0.1
     }
     
     ai_will_do = {
@@ -472,7 +463,7 @@ wwu_tyranny_ideas = {
     # Tyranny of the Weak
     wwu_tyranny_ideas_1 = {
         yearly_absolutism = 1.0
-        max_absolutism = 10
+        max_absolutism = 15
     }
     # Enforced Legitimacy
     wwu_tyranny_ideas_2 = {
@@ -484,26 +475,23 @@ wwu_tyranny_ideas = {
     }
     # Military Parades
     wwu_tyranny_ideas_3 = {
-        prestige = 0.5
         army_tradition_decay = -0.01
     }
     # Labour Camps
     wwu_tyranny_ideas_4 = {
-        build_time = -0.1
         build_cost = -0.1
     }
     # Military Executions
     wwu_tyranny_ideas_5 = {
-        yearly_corruption = -0.05
+        army_tradition = 1
     }
     # Hammer the Nail
     wwu_tyranny_ideas_6 = {
-        years_of_nationalism = -10
-        harsh_treatment_cost = -0.1
+        harsh_treatment_cost = -0.25
     }
     # Absolute Rule
     wwu_tyranny_ideas_7 = {
-        core_creation = -0.1
+        max_absolutism_effect = 0.15
     }
     
     ai_will_do = {
@@ -525,7 +513,7 @@ wwu_elitism_ideas = {
     }
     # Unbridled Confidence 
     wwu_elitism_ideas_2 = {
-        land_morale_constant = 1.0
+        land_morale_constant = 0.5
     }
     # The Weak Shall Perish
     wwu_elitism_ideas_3 = {
@@ -538,6 +526,7 @@ wwu_elitism_ideas = {
     # Unbreakable Resolve
     wwu_elitism_ideas_4 = {
         assault_fort_ability = 1.0
+        reinforce_cost_modifier = -0.1
     }
     # The Privileged Few
     wwu_elitism_ideas_7 = {
@@ -569,6 +558,7 @@ wwu_dominion_ideas = {
     # Construction Incentives
     wwu_dominion_ideas_2 = {
         global_allowed_num_of_buildings = 1
+        development_cost_modifier = -0.025
     }
     # Sailors Brandy
     wwu_dominion_ideas_3 = {
@@ -580,7 +570,7 @@ wwu_dominion_ideas = {
     }
     # Local Power-brokers
     wwu_dominion_ideas_5 = {
-        overextension_impact_modifier = -0.1
+        overextension_impact_modifier = -0.15
     }
     # Overwhelming Firepower
     wwu_dominion_ideas_6 = {

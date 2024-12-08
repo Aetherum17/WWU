@@ -36,9 +36,10 @@ historical_friend = SVH
 	}
     
 	set_ruler_flag = warrior_personality
-
+	
+    add_ruler_personality = overly_generous_personality
+	
 	set_heir_flag = ruler_portrait_terenas_menethil
-
 	set_heir_flag = warrior_personality
 
 	add_country_modifier = {

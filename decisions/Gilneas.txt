@@ -137,4 +137,261 @@ country_decisions = {
             }
 		}
     }
+	launch_assasination_attempt_against_ashbury_walden = {
+		potential = {
+			tag = A12
+			
+			OR = {
+				X02 = {
+					exists = yes
+				}
+
+				has_country_flag = A12_godfrey_rebellion
+			}
+		
+			NOT = {	has_country_flag = launch_assasination_attempt_against_ashbury_walden_done }
+			NOT = { has_global_flag = X02_disable_decision_assassinate_flag }
+		}
+		
+		allow = {
+			mil_power = 100
+			legitimacy = 20
+			
+			has_spy_network_in = {
+				who = X02
+				value = 10
+			}
+		}
+		
+		effect = {
+			country_event = { id = wwu_gilneas.14 }
+			
+			add_mil_power = -100
+			add_legitimacy = -20
+			
+			set_country_flag = launch_assasination_attempt_against_ashbury_walden_done
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	find_the_body_of_godfrey = { #For the Forsaken
+		potential = {
+			tag = P14
+			has_global_flag = A12_godfrey_died
+			
+			NOT = { has_country_flag = body_of_godfrey_finded }
+		}
+		
+		allow = {
+			dip_power = 100
+			
+			has_spy_network_in = {
+				who = A12
+				value = 20
+			}
+		}
+		
+		effect = {
+			country_event = { id = wwu_gilneas.12 }
+			
+			add_dip_power = -100
+			add_spy_network_in = {
+				who = A12
+				value = -20
+			}
+			
+			set_country_flag = body_of_godfrey_finded
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	remake_lordaeron = { # A12_unlock_decision_reborn_lordaeron
+		potential = {
+			has_country_flag = A12_unlock_decision_reborn_lordaeron_cf #Took decision to cede Tirisfal to X04
+			NOT = { has_country_flag = A12_already_taken_remake_lordaeron }
+		}
+		
+		allow = {
+			area_lordaeron_capital = {
+				OR = {
+					controlled_by = ROOT
+					owned_by = ROOT
+				}
+			}
+			area_tirisfal_bulwark = {
+				OR = {
+					controlled_by = ROOT
+					owned_by = ROOT
+				}
+			}
+			543 = {
+				OR = {
+					controlled_by = ROOT
+					owned_by = ROOT
+				}
+			}
+			A08 = {
+				exists = no
+			}
+		}
+		
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						area_lordaeron_capital = {
+							OR = {
+								controlled_by = ROOT
+								owned_by = ROOT
+							}
+						}
+						area_tirisfal_bulwark = {
+							OR = {
+								controlled_by = ROOT
+								owned_by = ROOT
+							}
+						}
+						543 = {
+							OR = {
+								controlled_by = ROOT
+								owned_by = ROOT
+							}
+						}
+					}
+				}
+				custom_tooltip = A12_u_need_to_occupy_lordaeron_or_terriotires
+			}
+			else = {
+				A12_liberate_lordaeron_making_them_vassal = yes #Setup X04
+				
+				set_global_flag = is_X04_name_changing_flag
+				set_country_flag = A12_already_taken_remake_lordaeron
+				#custom_tooltip = " "
+				add_army_tradition = -20
+				add_navy_tradition = -20
+				add_manpower = -5
+				add_sailors = -1000
+				add_years_of_income = -1
+				add_mercantilism = -10
+			}
+		}
+	}
+	
+	A12_destroy_scholomance_decision = {
+		potential = {
+			owns = 790
+			790 = {
+				has_great_project = {
+					type = gp_scholomance
+					tier = 1
+				}	
+			}
+		}
+		
+		allow = {
+			adm_power = 250
+			dip_power = 250
+			mil_power = 250
+			prestige = 50
+		}
+		
+		effect = {
+			790 = {
+				destroy_great_project = {
+					type = gp_scholomance
+				}
+			}
+			
+			#custom_tooltip = " "
+			add_adm_power = -250
+			add_dip_power = -250
+			add_mil_power = -250
+			add_prestige = -50
+		}
+	}
+	
+	give_andorhal_to_new_lordaeron = { #Andorhal
+		potential = {
+			has_country_flag = A12_unlock_decision_reborn_lordaeron_for_andorhal_cf #Completed mission : "A12_reconquest_of_andorhal"
+			has_country_flag = A12_X04_spawned #Does X04 is actually free ?
+			NOT = { has_country_flag = A12_already_taken_give_andorhal_to_new_lordaeron }
+		}
+		
+		allow = {
+			area_andorhal = {
+				OR = {
+					controlled_by = ROOT
+					owned_by = ROOT
+				}
+			}
+			A08 = {
+				exists = no
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						area_andorhal = {
+							OR = {
+								controlled_by = ROOT
+								owned_by = ROOT
+							}
+						}
+					}
+				}
+				custom_tooltip = A12_u_need_to_occupy_andorhal_or_terriotires
+			}
+			else = {
+				A12_give_andorhal_to_new_lordaeron = yes #Give Andorhal to X04
+				
+				set_country_flag = A12_already_taken_give_andorhal_to_new_lordaeron
+			}
+		}
+	}
+	give_stratholme_to_new_lordaeron = { #Stratholme
+		potential = {
+			has_country_flag = A12_unlock_decision_reborn_lordaeron_for_stratholme_cf #Completed mission : "A12_reconquest_of_stratholme"
+			has_country_flag = A12_X04_spawned #Does X04 is actually free ?
+			NOT = { has_country_flag = A12_already_taken_give_stratholme_to_new_lordaeron }
+		}
+		
+		allow = {
+			area_stratholme = {
+				OR = {
+					controlled_by = ROOT
+					owned_by = ROOT
+				}
+			}
+			A08 = {
+				exists = no
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						area_stratholme = {
+							OR = {
+								controlled_by = ROOT
+								owned_by = ROOT
+							}
+						}
+					}
+				}
+				custom_tooltip = A12_u_need_to_occupy_stratholme_or_terriotires
+			}
+			else = {
+				A12_give_stratholme_to_new_lordaeron = yes #Give Stratholme to X04
+				
+				set_country_flag = A12_already_taken_give_stratholme_to_new_lordaeron
+			}
+		}
+	}
 }

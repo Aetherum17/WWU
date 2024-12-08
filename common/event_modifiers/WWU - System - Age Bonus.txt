@@ -484,7 +484,7 @@ age_bonus_movement_speed_onto_off_boat_modifier = {
     movement_speed_onto_off_boat_modifier = 0.33
 }
 age_bonus_landing_penalty = {
-    landing_penalty = -0.5
+    landing_penalty = -1.0
 }
 age_bonus_global_ship_repair = {
     global_ship_repair = 0.25

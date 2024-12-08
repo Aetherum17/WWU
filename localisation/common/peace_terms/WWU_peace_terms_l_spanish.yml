@@ -76,6 +76,18 @@
  CB_ALLOWED_po_stop_summoning_yshaarj: "Stop the Summoning of Y'Shaarj"
  po_stop_summoning_yshaarj_desc: "Stop the Summoning of Y'Shaarj. §Y[From.GetName]§! will fail to summon them."
  
+ # Drive out the Fungarians
+ po_drive_out_the_fungarian: "Enslave the Fungarians"
+ PEACE_po_drive_out_the_fungarian: "Enslave the Fungarians"
+ CB_ALLOWED_po_drive_out_the_fungarian: "Enslave the Fungarians"
+ po_drive_out_the_fungarian_desc: "The Fungarians will be enslaved."
+
+ # Humiliate the Nazmir
+ po_humilate_the_nazmir_fungarian: "Humiliate the Nazmir"
+ PEACE_po_humilate_the_nazmir_fungarian: "Humiliate the Nazmir"
+ CB_ALLOWED_po_humilate_the_nazmir_fungarian: "Humiliate the Nazmir"
+ po_humilate_the_nazmir_fungarian_desc: "Humiliate the Nazmir."
+
  # Drive out the Nazeshi
  po_drive_out_the_nazeshi: "Drive out the Nazeshi"
  PEACE_po_drive_out_the_nazeshi: "Drive out the Nazeshi"
@@ -164,13 +176,13 @@
  po_quell_the_gnoll_horde: "Quell the Gnoll Horde"
  PEACE_po_quell_the_gnoll_horde: "Quell the Gnoll Horde"
  CB_ALLOWED_po_quell_the_gnoll_horde: "Quell the Gnoll Horde"
- po_quell_the_gnoll_horde_desc: "Westfall, Darkshire and Redridge will be released, and the Gnoll Horde will be cut down to size."
+ po_quell_the_gnoll_horde_desc: "The Gnoll Horde will be defeated, dividing it between its smaller tribes, and giving us large amount of territories."
 
  # Quell the Frostmane Tribe
  po_quell_the_frostmane: "Quell the Frostmane Tribe"
  PEACE_po_quell_the_frostmane: "Quell the Frostmane Tribe"
  CB_ALLOWED_po_quell_the_frostmane: "Quell the Frostmane Tribe"
- po_quell_the_frostmane_desc: "Kharanos, Gnomeregan Exterior and Coldridge Pass will be cede to Ironforge, changing local religion and culture."
+ po_quell_the_frostmane_desc: "Kharanos, Gnomeregan Exterior, Coldridge Pass and Coldbase will be overtaken and resettled by Khaz Modan. Frostmane Hold will be overtaken and internment camp will be established."
  
  # Imprison Sargeras
  po_imprison_sargeras: "Imprison Sargeras"

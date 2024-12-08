@@ -1,25 +1,29 @@
-# Tideskorn Relations
-# dependency = {
-	# subject_type = "march"
-	# first = TID
-	# second = VLK
-	# start_date = 100.5.1
-	# end_date = 1000.1.1
-# }
+#----------------------------
+# Rise of the Horde
+#----------------------------
+# Jotunheim - Mjordin
+dependency = {
+	subject_type = "tributary_state"
+	first = P17
+	second = MJD
+	start_date = 546.1.1
+	end_date = 635.1.1
+}
 
-# dependency = {
-	# subject_type = "march"
-	# first = TID
-	# second = DRJ
-	# start_date = 100.5.1
-	# end_date = 1000.1.1
-# }
+# Hyladnir - Valkyrion
+dependency = {
+	subject_type = "tributary_state"
+	first = P16
+	second = VLR
+	start_date = 546.1.1
+	end_date = 627.1.1
+}
 
-# dependency = {
-	# subject_type = "march"
-	# first = TID
-	# second = BON
-	# start_date = 100.5.1
-	# end_date = 1000.1.1
-# }
-
+# Dragonflayer - Winterskorn
+dependency = {
+	subject_type = "vassal"
+	first = B08
+	second = B09
+	start_date = 540.1.1
+	end_date = 999.1.1
+}

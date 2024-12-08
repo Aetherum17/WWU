@@ -1,110 +1,471 @@
 #----------------------------------------------
 # Missions
 #----------------------------------------------
-mission_kezan_node_dominance = {
-    global_ship_cost = -0.1
+mission_adjast_to_the_marshes_a23 = {
+    land_attrition = -0.10
+	discipline = 0.01
+}
+
+mission_professional_marines_a23 = {
+    discipline = 0.05
+	global_regiment_cost = -0.05
+	infantry_power = 0.10 
+}
+
+mission_army_on_the_move_a23 = {
+    global_supply_limit_modifier = 0.05
+	movement_speed = 0.05
+}
+
+mission_a_stable_life_a23 = {
+    governing_capacity = 100
+	stability_cost_modifier = -0.05
+}
+
+mission_to_the_edges_of_the_marsh_a23 = {
+    years_of_nationalism = -5 
+}
+
+mission_a_new_mindset_a23 = {
+    global_institution_spread = 0.05 
+	reform_progress_growth = 0.1  
+}
+
+mission_titanic_relics_a23 = {
+    idea_cost = -0.05 
+}
+
+mission_tauren_claims_a23 = {
+    monarch_diplomatic_power = 1
+	unjustified_demands = -0.1
+}
+
+mission_the_gate_to_north_barrens_a23 = {
+    merchants = 1 
+	trade_efficiency = 0.05
+}
+
+mission_failure_of_the_crusades_a23 = {
+    missionaries = 1 
+	missionary_maintenance_cost = -0.05	
+}
+
+mission_northern_routes_a23 = {
+    caravan_power = 0.1
+}
+
+mission_the_great_plains_a23 = {
     trade_efficiency = 0.05
+	global_trade_power = 0.05
 }
 
-mission_zandalar_node_dominance = {
-    global_ship_repair = 0.2
-    global_own_trade_power = 0.1
+mission_tanaris_safe_heaven_a23 = {
+    merchants = 1 
+	mercantilism_cost = -0.1
 }
 
-mission_kul_tiran_node_dominance = {
-    global_ship_trade_power = 0.2
+mission_voldun_offensive_a23 = {
+    regiment_disembark_speed = 0.15
 }
 
-mission_strong_fleet_a = {
-    global_sailors_modifier = 0.25
-    galley_power = 0.05
+mission_nazmir_goods_a23 = {
+    global_trade_goods_size_modifier = 0.1
 }
 
-mission_strong_fleet_b = {
-    global_ship_recruit_speed = -0.1
-    naval_forcelimit_modifier = 0.25
+mission_united_mankind_a23 = {
+    global_unrest = -2 
+	autonomy_change_time = -0.15
 }
 
-mission_strong_fleet_c = {
-    heavy_ship_power = 0.05
-    navy_tradition_decay = -0.01
+mission_investigating_the_source_of_propaganda_a23 = {
+    advisor_cost = -0.1
+	yearly_corruption = -0.025
 }
 
-mission_strong_fleet_d = {
-    naval_attrition = -0.25
-    recover_navy_morale_speed = 0.05
+mission_deserters_a23 = {
+    artillery_level_modifier = 0.1
+    harsh_treatment_cost = -0.2
 }
 
-mission_mythical_continent = {
+mission_deserter_extermination_a23 = {
+    discipline = 0.01
+}
+
+mission_dragon_infestation_a23 = {
     diplomatic_reputation = 1
+	monthly_splendor = 1 
 }
 
-mission_dustmarsh_node_dominance = {
-    merchants = 1
-    ae_impact = -0.05
+mission_safe_homeland_a23 = {
+    defensiveness = 0.10 
 }
 
-mission_control_kezan = {
-    supply_limit_modifier = 0.1
-    build_time = -0.1
+mission_power_of_people_a23 = {
+    num_accepted_cultures = 2
 }
 
-mission_invade_zandalar = {
-    supply_limit_modifier = 0.1
-    fort_maintenance_modifier = -0.1
+mission_dwarven_expedition_a23 = {
+    vassal_income = 0.1
 }
 
-mission_invade_kultiras = {
-    supply_limit_modifier = 0.1
-    global_garrison_growth = 0.1
+mission_troll_capital_a23 = {
+	trade_steering = 0.1 
 }
 
-mission_invade_north_eastern_kingdoms = {
-    tax_income = 12
-    global_manpower_modifier = 0.1
+mission_surrounding_orgrimmar_a23 = {
+	military_tactics = 0.25
+	administrative_efficiency = 0.2 
 }
 
-mission_power_of_people = {
-    culture_conversion_cost = -0.25
+mission_dismantling_horde_a23 = {
+	diplomatic_reputation = 2
 }
 
-mission_consolidate_marsh = {
-    administrative_efficiency = 0.03
+mission_home_trade_a23 = {
+	placed_merchant_power = 1
+	global_ship_trade_power = 0.15
 }
 
-mission_colonizing_barrens = {
-    merchants = 1
+mission_better_market_opportunities_a23 = {
+	center_of_trade_upgrade_cost = -0.1
 }
 
-mission_control_crossroads = {
-    diplomatic_upkeep = 1
+mission_expanding_eastwards_a23 = {
+	trade_company_investment_cost = -0.1 
 }
 
-mission_isolate_horde = {
-    diplomatic_reputation = 1
+mission_rough_terrain_a23 = {
+	global_supply_limit_modifier = 0.10  
 }
 
-mission_dismantle_federation = {
-    global_unrest = -1
+mission_stable_holdings_a23 = {
+	development_cost = -0.1 
 }
 
-mission_northwatch = {
-    diplomatic_annexation_cost = -0.15
+mission_zandalari_fleets_a23 = {
+	global_sailors_modifier = 0.1 
+	sailor_maintenance_modifer = -0.1 
 }
 
-mission_expand_fortifications = {
-    defensiveness = 0.15
+mission_fall_of_the_zandalari_a23 = {
+	prestige_from_land = 0.10
+	army_tradition = 0.5
 }
 
-mission_destroy_orgrimmar = {
-    infantry_power = 0.05
+mission_zandalari_markets_a23 = {
+	global_prov_trade_power_modifier = 0.075	
 }
 
-mission_replace_faith_of_federation = {
-    global_missionary_strength = 0.02
+mission_zandalari_goods_a23 = {
+	global_trade_goods_size_modifier = 0.075
 }
 
-mission_theramore_settlers = {
-	global_colonial_growth = 5000
-	native_uprising_chance = -5
+mission_emperor_of_the_sea_a23 = {
+	max_absolutism = 10
+	navy_tradition_decay = -0.01 
+}
+
+mission_great_sea_empire_a23 = {
+	governing_capacity = 100
+	sailors_recovery_speed = 0.1 
+	naval_attrition = -0.1 
+}
+
+mission_a_fathers_death_a23 = {
+	own_coast_naval_combat_bonus = 1.0 
+	reform_progress_growth = 0.1 
+}
+
+mission_a_great_new_home_a23 = {
+	development_cost = -0.05
+	global_tax_modifier = 0.025 
+}
+
+mission_war_preparations_a23 = {
+	general_cost = -0.05
+	war_exhaustion = -0.025
+}
+
+mission_magic_trainees_a23 = {
+	military_tactics = 0.15
+    leader_land_fire = 1 
+}
+
+mission_a_mysterious_fire_a23 = {
+	discovered_relations_impact = -0.1 
+}
+
+mission_makrura_extremination_a23 = {
+	ae_impact = -0.1 
+}
+
+mission_border_control_a23 = {
+	rival_border_fort_maintenance = -0.10 
+}
+
+mission_durotar_offensive_a23 = {
+	regiment_disembark_speed = 0.1
+	leader_land_shock = 1 
+}
+
+mission_tiragarde_fort_a23 = {
+	defensiveness = 0.10 
+}
+
+mission_checkpoint_a23 = {
+	fort_maintenance_modifier = -0.10 
+}
+
+mission_center_of_north_barrens_a23 = {
+	morale_damage_received = -0.025 
+}
+
+mission_the_gates_of_barrens_a23 = {
+	global_monthly_devastation = -0.1 
+}
+
+mission_capture_the_bridge_a23 = {
+	infantry_power = 0.10 
+}
+
+mission_a_succesful_exodus_a23 = {
+	diplomatic_reputation = 1
+	prestige_decay = -0.01 
+	monthly_splendor = 1
+	administrative_efficiency = 0.2 
+}
+
+mission_a_rising_admiralty_a23 = {
+	state_governing_cost = -0.05
+	naval_forcelimit_modifier = 0.1 
+}
+
+mission_trading_fleets_a23 = {
+	light_ship_number_of_cannons_modifier = 0.1
+	light_ship_hull_size_modifier = 0.1 
+}
+
+mission_lost_isles_a23 = {
+	colonists = 1 
+}
+
+mission_lost_isles_controlled_a23 = {
+	global_colonial_growth = 20 
+}
+
+mission_mount_kezan_a23 = {
+	trade_company_governing_cost = -0.1 
+}
+
+mission_hunting_for_bananas_a23 = {
+	global_trade_goods_size_modifier = 0.1 
+}
+
+mission_bananas_is_the_new_gold_a23 = {
+	production_efficiency = 0.05
+}
+
+mission_nazjatar_a23 = {
+	prestige_from_naval = 0.1 
+}
+
+mission_isle_jumps_a23 = {
+	colony_cost_modifier = -0.25
+}
+
+mission_relations_with_fatherland_a23 = {
+	relation_with_same_culture_group = 15 
+}
+
+mission_reunification_a23 = {
+	liberty_desire_from_subject_development = -0.25 
+}
+
+mission_a_second_capital_a23 = {
+	development_cost_modifier = -0.05
+}
+
+mission_a_grand_fleet_a23 = {
+	flagship_morale = 0.4 
+	flagship_naval_engagement_modifier = 1
+}
+
+mission_landing_in_lordaeron_a23 = {
+	ae_impact = -0.3
+	province_warscore_cost = -0.2 
+}
+
+mission_cleansing_lordaeron_a23 = {
+	culture_conversion_cost = -0.25 
+}
+
+mission_ancient_empire_a23 = {
+	prestige_decay = -0.02
+	diplomatic_reputation = 2
+	administrative_efficiency = 0.1 
+}
+
+mission_hyjal_aftermath_a23 = {
+	improve_relation_modifier = 0.2
+}
+
+mission_grimtotem_agression_a23 = {
+	core_creation = -0.1 
+}
+
+mission_neutralize_the_grimtotem_a23 = {
+	rival_change_cost = -0.2 
+}
+
+mission_ogres_and_the_horde_a23 = {
+	army_tradition_from_battle = 0.01 
+}
+
+mission_old_habbits_a23 = {
+	power_projection_from_insults = 0.1 
+}
+
+mission_pushing_on_south_barrens_a23 = {
+	garrison_size = 0.10 
+}
+
+mission_secure_a_holding_a23 = {
+	artillery_power = 0.10 
+}
+
+mission_taurajo_assault_a23 = {
+	infantry_shock = 1 
+}
+
+mission_great_gates_a23 = {
+	artillery_fire = 1 
+}
+
+mission_city_of_the_skies_a23 = {
+	shock_damage_received = -0.10 
+	fire_damage_received = -0.10 
+}
+
+mission_alcaz_mines_a23 = {
+	monthly_gold_inflation_modifier = -0.1 
+}
+
+mission_oceanic_fleet_a23 = {
+	ship_durability = 0.1 
+	sunk_ship_morale_hit_recieved = -0.1 
+}
+
+mission_south_barrens_trade_a23 = {
+	center_of_trade_upgrade_cost = -0.1 
+}
+
+mission_north_barrens_trade_a23 = {
+	reduced_trade_penalty_on_non_main_tradenode = 0.15 
+}
+
+mission_broken_isles_a23 = {
+	overextension_impact_modifier = -0.1 
+	promote_culture_cost = -0.25 
+}
+
+mission_jorundal_invasion_point_a23 = {
+	privateering_efficiency_in_fleet_modifier = 0.1 
+}
+
+mission_broken_isle_rareties_a23 = {
+	trade_power_in_fleet_modifier = 0.5 
+	global_trade_goods_size = 0.1 
+}
+
+mission_lasting_impact_a23 = {
+	development_cost_modifier = -0.075
+}
+
+mission_seasoned_warriors_a23 = {
+	accept_vassalization_reasons = 15
+	liberty_desire = -5
+}
+
+mission_new_allies_a23 = {
+	diplomatic_upkeep = 1
+}
+
+mission_night_elven_allies_a23 = {
+	diplomats = 1 
+}
+
+mission_a_fragile_alliance_a23 = {
+	technology_cost = -0.1
+}
+
+mission_radicals_a23 = {
+	power_projection_from_insults = 0.1 
+}
+
+mission_draconic_artifact_a23 = {
+	idea_cost = -0.1 
+}
+
+mission_dragon_forces_a23 = {
+	global_spy_defence = 0.05 
+}
+
+mission_a_dangerous_situation_a23 = {
+	spy_action_cost_modifier = -0.2
+}
+
+mission_horde_marsh_invasion_a23 = {
+	hostile_attrition = 2
+	max_hostile_attrition = 3 
+}
+
+mission_weapon_of_mass_destruction_a23 = {
+	fort_maintenance_modifier = -0.10 
+}
+
+mission_the_end_of_a_siege_a23 = {
+	siege_ability = 0.10 
+	country_military_power = 1 
+}
+
+mission_prestigious_capital_a23 = {
+	country_diplomatic_power = 1
+}
+
+mission_naval_infrastructure_a23 = {
+	build_time = -0.25	
+}
+
+mission_production_infrastructure_a23 = {
+	build_cost = -0.2 
+}
+
+mission_early_road_system_a23 = {
+	movement_speed = 0.1
+}
+
+mission_fertile_lands_a23 = {
+	production_efficiency = 0.05 
+}
+
+mission_safe_barrens_a23 = {
+	global_unrest = -1 
+}
+
+mission_better_roads_a23 = {
+	envoy_travel_time = -0.15
+}
+
+mission_the_best_roads_a23 = {
+	trade_efficiency = 0.1
+	caravan_power = 0.15
+}
+
+mission_the_grand_road_a23 = {
+	center_of_trade_upgrade_cost = -0.1
+	global_trade_power = 0.1
+}
+
+mission_save_old_allies_a23 = {
+	relation_with_other_culture = 15	
 }

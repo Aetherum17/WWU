@@ -1,0 +1,29 @@
+
+#Nerubian Empire
+government              = monarchy
+add_government_reform   = nerubian_empire_reform
+
+mercantilism = 10
+technology_group = tech_nerubian
+religion = cult_of_the_damned
+primary_culture = culture_crypt_fiend
+capital = 1013
+
+619.1.1 = {
+	monarch = {
+		name = "Anok'suten"
+		dynasty = "of Nerubis" 	
+		adm = 3
+		dip = 1	
+		mil = 3
+	}
+    
+    setup_spellcaster_history = {
+        APTITUDE = 4
+        FINESSE = 2
+        CONCENTRATION = 4
+        MANA = 5
+        necromancy = yes
+    }
+	set_ruler_flag = is_immortal
+}

@@ -1,0 +1,2169 @@
+namespace = wwu_mission_theramore
+
+# Aftermath: Dealin's Death
+country_event = {
+    id = wwu_mission_theramore.1
+    title = wwu_mission_theramore.1.title
+    desc = wwu_mission_theramore.1.desc
+    picture = KUL_TIRAN_SHIP_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.1.option.a
+            
+		A14 = {
+			add_opinion = {
+                who = ROOT
+				modifier = A23_dealins_death
+	    	}
+		}
+	    add_historical_rival = A14
+		A14 = {
+	        add_historical_rival = ROOT
+	    }
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Grimtotem Settlers
+country_event = {
+    id = wwu_mission_theramore.2
+    title = wwu_mission_theramore.2.title
+    desc = wwu_mission_theramore.2.desc
+    picture = TAUREN_WARRIOR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	option = {
+        name = wwu_mission_theramore.2.option.a
+        
+	    if = {
+		    limit = {
+			    OR = {
+				    1450 = { NOT = { is_empty = yes } }
+				}
+			}
+			1450 = { add_core = ROOT }			
+		}
+		else_if = {
+		    limit = {
+			    OR = {
+				    1450 = { is_empty = yes }
+				}
+			}
+		    1450 = {
+			    cede_province = GMT
+                add_core = GMT
+			    change_culture = culture_tauren
+			    change_religion = tauren_shamanism
+		    }
+		}
+		if = {
+		    limit = {
+			    OR = {
+					1452 = { NOT = { is_empty = yes } }
+				}
+			}
+			1452 = { add_core = ROOT }
+		}
+		else_if = {
+		    limit = {
+			    OR = {
+				    1452 = { is_empty = yes }
+				}
+			}
+		    1452 = {
+			    cede_province = GMT
+                add_core = GMT
+			    change_culture = culture_tauren
+			    change_religion = tauren_shamanism
+		    }
+		}
+		if = {
+		    limit = {
+			    OR = {
+					3508 = { NOT = { is_empty = yes } }
+				}
+			}
+			3508 = { add_core = ROOT }
+		}
+		else_if = {
+		    limit = {
+			    OR = {
+				    3508 = { is_empty = yes }
+				}
+			}
+		    3508 = {
+			    cede_province = GMT
+                add_core = GMT
+			    change_culture = culture_tauren
+			    change_religion = tauren_shamanism
+		    }
+		}
+		if = {
+		    limit = {
+			    OR = {
+					2950 = { NOT = { is_empty = yes } }
+				}
+			}
+			2950 = { add_core = ROOT }
+		}
+		else_if = {
+		    limit = {
+			    OR = {
+				    2950 = { is_empty = yes }
+				}
+			}
+		    2950 = {
+			    cede_province = GMT
+                add_core = GMT
+			    change_culture = culture_tauren
+			    change_religion = tauren_shamanism
+		    }
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Onyxia
+country_event = {
+    id = wwu_mission_theramore.3
+    title = wwu_mission_theramore.3.title
+    desc = wwu_mission_theramore.3.desc
+    picture = ONYXICLAW_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.3.option.a
+
+		add_dip_power = 100
+		add_power_projection = {
+            type = mission_rewards_power_projection
+            amount = 20
+        }
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Tiragarde Keep
+country_event = {
+    id = wwu_mission_theramore.4
+    title = wwu_mission_theramore.4.title
+    desc = wwu_mission_theramore.4.desc
+    picture = DUROTAR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.4.option.a
+
+		trigger = {
+		    3406 = {
+                owned_by = A14
+			}
+			1382 = {
+                owned_by = A14
+			}
+		}
+        
+		add_treasury = -500
+		A14 = {
+		    add_treasury = 500
+		}
+		3406 = {
+			cede_province = ROOT
+            add_core = ROOT
+		}
+		1382 = {
+			cede_province = ROOT
+            add_core = ROOT
+		}
+		country_event = {
+			id = wwu_mission_northwatch.5
+        }
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.4.option.b
+
+		trigger = {
+		    3406 = {
+                NOT = { owned_by = A14 }
+			}
+			1382 = {
+                NOT = { owned_by = A14 }
+			}
+		}
+
+        3406 = {
+            add_core = ROOT
+		}
+		1382 = {
+            add_core = ROOT
+		}
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Theramorean Ideas
+country_event = {
+    id = wwu_mission_theramore.5
+    title = wwu_mission_theramore.5.title
+    desc = wwu_mission_theramore.5.desc
+    picture = SHIPS_CANNON_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.5.option.a
+
+		trigger_ni_switch = yes
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.5.option.b
+
+		add_prestige = 20
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Kalimdor Royal Road
+country_event = {
+    id = wwu_mission_theramore.6
+    title = wwu_mission_theramore.6.title
+    desc = wwu_mission_theramore.6.desc
+    picture = NORTH_BARRENS_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.6.option.a
+
+		remove_country_modifier = mission_early_road_system_a23
+		remove_country_modifier = mission_better_roads_a23
+		remove_country_modifier = mission_the_best_roads_a23
+		remove_country_modifier = mission_the_grand_road_a23
+		# Unite all previous ones
+        add_country_modifier = {
+			name = event_transregional_transportation_system_a23
+			duration = -1
+		}
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Blackhoof Village
+country_event = {
+    id = wwu_mission_theramore.7
+    title = wwu_mission_theramore.7.title
+    desc = wwu_mission_theramore.7.desc
+    picture = TAUREN_WARRIOR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.7.option.a
+        
+		if = {
+		    limit = {
+			    1450 = { owned_by = GMT }
+			}
+		    1450 = {
+			    cede_province = ROOT
+                add_core = ROOT
+			    remove_core = GMT
+		    }
+		}
+		if = {
+		    limit = {
+			    3508 = { owned_by = GMT }
+			}
+		    3508 = {
+			    cede_province = ROOT
+                add_core = ROOT
+			    remove_core = GMT
+		    }
+		}
+		if = {
+		    limit = {
+			    1452 = { owned_by = GMT }
+			}
+		    1452 = {
+			    cede_province = ROOT
+                add_core = ROOT
+			    remove_core = GMT
+		    }
+		}
+		if = {
+		    limit = {
+			    2950 = { owned_by = GMT }
+			}
+		    2950 = {
+			    cede_province = ROOT
+                add_core = ROOT
+			    remove_core = GMT
+		    }
+		}
+		white_peace = GMT
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Orgrimmar Radical Voices
+country_event = {
+    id = wwu_mission_theramore.8
+    title = wwu_mission_theramore.8.title
+    desc = wwu_mission_theramore.8.desc
+    picture = ORGRIMMAR_ASPIRANT_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.8.option.a
+    		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Horde Aggression
+country_event = {
+    id = wwu_mission_theramore.9
+    title = wwu_mission_theramore.9.title
+    desc = wwu_mission_theramore.9.desc
+    picture = HOLY_ASSAULT_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.9.option.a
+
+		add_manpower = -5
+		if = {
+		    limit = {
+		        exists = G06
+			}
+			add_manpower = -5
+		}
+		add_casus_belli = {
+            target = A48
+            type = cb_annex
+            months = 120
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Dig in Stonespire locations
+country_event = {
+    id = wwu_mission_theramore.10
+    title = wwu_mission_theramore.10.title
+    desc = wwu_mission_theramore.10.desc
+    picture = SOUTH_BARRENS_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.10.option.a
+
+		SES = {
+		    add_opinion = {
+                who = ROOT
+				modifier = A23_barren_digsites_a
+			}
+		}
+		THB = {
+		    add_opinion = {
+                who = ROOT
+                modifier = A23_barren_digsites_b			
+			}
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Stonespire Tauren and sacred locations
+country_event = {
+    id = wwu_mission_theramore.11
+    title = wwu_mission_theramore.11.title
+    desc = wwu_mission_theramore.11.desc
+    picture = CAIRNE_BLOODHOOF_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.11.option.a
+
+		#return/seed core to Stonespire
+		if = {
+		    limit = {
+		        NOT = { exists = SES }
+			}
+			release = SES
+		}
+		3434 = {
+			cede_province = SES
+            add_core = SES
+			remove_core = ROOT
+		}
+		1464 = {
+			cede_province = SES
+            add_core = SES
+			remove_core = ROOT
+		}
+		SES = {
+		    add_opinion = {
+                who = ROOT
+				modifier = A23_barren_digsites_c
+			}
+		}
+		THB = {
+		    add_opinion = {
+                who = ROOT
+				modifier = A23_barren_digsites_d
+			}
+		}		
+		add_historical_friend = THB
+		add_historical_friend = SES
+		THB = {
+		    add_historical_friend = ROOT
+		}
+		SES = {
+		    add_historical_friend = ROOT
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.11.option.b
+
+		#refuce to return core
+		if = {
+		    limit = {
+			    exists = SES
+			}
+		    SES = {
+		        add_opinion = {
+                    who = ROOT
+                    modifier = A23_barren_digsites_e			
+			    }
+		    }
+			add_historical_rival = SES
+			SES = {
+		        add_historical_rival = ROOT
+			    add_manpower = -5
+		    }
+		}
+		THB = {
+		    add_opinion = {
+                who = ROOT
+                modifier = A23_barren_digsites_f				
+			}
+		}		
+		add_historical_rival = THB 		
+		THB = {
+		    add_historical_rival = ROOT
+		}		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Suspicious Flyers
+country_event = {
+    id = wwu_mission_theramore.12
+    title = wwu_mission_theramore.12.title
+    desc = wwu_mission_theramore.12.desc
+    picture = ABUSIVE_SERGEANT_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+        tag = A23
+		A23 = {
+            mission_completed = A23_theramorean_marines
+			mission_completed = A23_preparing_for_war
+		}
+    }
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.12.option.a
+		
+		A23 = {
+			define_advisor = {
+				type = unique_calia_hastings
+				location = 3478
+				name = "Calia Hastings"
+				skill = 2
+			}
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Theramorean Deserters
+country_event = {
+    id = wwu_mission_theramore.13
+    title = wwu_mission_theramore.13.title
+    desc = wwu_mission_theramore.13.desc
+    picture = SYNDICATE_SPY_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.13.option.a
+        
+		trigger = {
+		    1463 = { owned_by = ROOT }
+			3513 = { owned_by = ROOT }
+			3503 = { owned_by = ROOT }
+		}
+		
+		1463 = {
+			cede_province = F58
+            add_core = F58
+		}
+		3513 = {
+			cede_province = F58
+            add_core = F58
+		}
+		3503 = {
+			cede_province = F58
+            add_core = F58
+		}
+		3503 = {
+		    spawn_infantry = { AMOUNT = 10 TAG = F58 }
+            spawn_cavalry = { AMOUNT = 1 TAG = F58 }
+            spawn_artillery = { AMOUNT = 4 TAG = F58 }
+		}		
+		F58 = {
+		    declare_war_with_cb = {
+                who = ROOT
+                casus_belli = cb_core
+            }
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.13.option.b
+        
+		trigger = {
+		    1463 = { NOT = { owned_by = ROOT }}
+			3513 = { NOT = { owned_by = ROOT }}
+			3503 = { NOT = { owned_by = ROOT }}
+		}
+		
+        if = {
+		    limit = {
+			    exists = F58
+			}
+			3503 = {
+		        spawn_infantry = { AMOUNT = 10 TAG = F58 }
+                spawn_cavalry = { AMOUNT = 1 TAG = F58 }
+                spawn_artillery = { AMOUNT = 4 TAG = F58 }
+		    }		
+		    F58 = {
+		        declare_war_with_cb = {
+                    who = ROOT
+                    casus_belli = cb_triggered_independence_war
+                }
+		    }
+		}
+		else_if = {
+		    limit = {
+			    NOT = { exists = F58 }
+			}	
+		    add_prestige = -20
+			add_dip_power = -50
+			add_mil_power = -50
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Tabetha and her Trainees
+country_event = {
+    id = wwu_mission_theramore.14
+    title = wwu_mission_theramore.14.title
+    desc = wwu_mission_theramore.14.desc
+    picture = MAGE_ARMOR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.14.option.a
+
+		# Tabetha as advisor with some insane skills
+		A23 = {
+			define_advisor = {
+				type = unique_tabetha
+				location = 3478
+				name = "Tabetha"
+				skill = 2
+			}
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.14.option.b
+
+		# A modifier for getting Garion as a trainer (some mil bonus)
+		add_country_modifier = {
+			name = event_trainer_garion_a23
+			duration = 7300
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.14.option.c
+
+		# A modifier for getting Morlann as a trainer (some mil bonus)
+		add_country_modifier = {
+			name = event_trainer_morlann_a23
+			duration = 7300
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Taurajo Captives
+country_event = {
+    id = wwu_mission_theramore.15
+    title = wwu_mission_theramore.15.title
+    desc = wwu_mission_theramore.15.desc
+    picture = TAUREN_WARRIOR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.15.option.a
+
+		# Release the Captives
+		add_dip_power = 100
+		add_adm_power = 100
+		add_mil_power = 100
+		hidden_effect = {
+		    set_country_flag = a_looming_tragedy_a23
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.15.option.b
+
+		# Deliver them to Thunderbluff
+		# positive rep reward
+		add_country_modifier = {
+			name = event_returned_captives_a23
+			duration = 18250
+		}
+		hidden_effect = {
+		    set_country_flag = move_of_good_will_a23
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.15.option.c
+
+		# Keep them for Leverage in Peace Deal
+		add_country_modifier = {
+			name = event_valuable_captives_a23
+			duration = 14600
+		}
+		hidden_effect = {
+		    set_country_flag = diplomatic_leverage_a23
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Death of Taurajo Captives
+country_event = {
+    id = wwu_mission_theramore.16
+    title = wwu_mission_theramore.16.title
+    desc = wwu_mission_theramore.16.desc
+    picture = SOUTH_BARRENS_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+	    has_country_flag = a_looming_tragedy_a23
+	}
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.16.option.a
+        
+		add_stability = -1
+		add_country_modifier = {
+			name = event_released_captives_a23
+			duration = 14600
+		}
+		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Gates of Mulgore
+country_event = {
+    id = wwu_mission_theramore.17
+    title = wwu_mission_theramore.17.title
+    desc = wwu_mission_theramore.17.desc
+    picture = TAUREN_WARRIOR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.17.option.a
+        
+		# They surrender the front areas
+		trigger = {
+			has_country_flag = move_of_good_will_a23
+		}
+		tooltip = {
+			every_owned_province = {
+				limit = {
+					controlled_by = THB
+					area = area_winterhoof_waterwell
+					area = area_red_rocks
+				}
+				change_controller = ROOT
+			}
+		}
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.17.option.b
+        
+		# They refuce to back down (especially with flag a looming tragedy)
+		trigger = {
+			has_country_flag = a_looming_tragedy_a23
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.17.option.c
+
+		# They will surrender everything outside the gate if the prisoners are returned
+		trigger = {
+			has_country_flag = diplomatic_leverage_a23
+		}
+		
+		THB = {
+            every_owned_province = {
+                limit = {
+                    region = region_south_barrens
+                }        
+                cede_province = ROOT
+            }
+        } 
+				
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Stonemaul Clan (flavor)
+country_event = {
+    id = wwu_mission_theramore.18
+    title = wwu_mission_theramore.18.title
+    desc = wwu_mission_theramore.18.desc
+    picture = OGRE_BRUTE_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.18.option.a
+        
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Fate of Thunderbluff
+country_event = {
+    id = wwu_mission_theramore.19
+    title = wwu_mission_theramore.19.title
+    desc = wwu_mission_theramore.19.desc
+    picture = SIEGE_ENGINE_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.19.option.a
+    
+		# Destroy Thunder Bluff
+		add_mil_power = 150
+		3426 = {
+			add_devastation = 60
+		}
+		1397 = {
+			add_devastation = 60
+		}
+		1388 = {
+			add_devastation = 60
+		}
+		3424 = {
+			add_devastation = 60
+		}
+		3423 = {
+			add_devastation = 60
+		}
+		3425 = {
+			add_devastation = 60
+		}
+		1473 = {
+			add_devastation = 60
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.19.option.b
+        
+		# Subjucate Thunder Bluff
+		create_subject = {
+            subject_type = tributary_vassal
+            subject = THB
+        }
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.19.option.c
+        
+		# Spare them
+		add_dip_power = 200
+		add_prestige = 20
+		add_power_projection = {
+            type = mission_rewards_power_projection
+            amount = 15
+        }
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Mystery of Shady Rest Inn
+#Potential Investigators
+country_event = {
+    id = wwu_mission_theramore.20
+    title = wwu_mission_theramore.20.title
+    desc = wwu_mission_theramore.20.desc
+    picture = SOUTH_BARRENS_eventPicture
+
+    
+	is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.20.option.a
+		
+		set_country_flag = inspector_tarem_available
+		A23 = {
+			define_advisor = {
+				type = unique_inspector_tarem
+				location = 3478
+				name = "Inspector Tarem"
+				skill = 2
+			}
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+#Start Investigation
+country_event = {
+    id = wwu_mission_theramore.21
+    title = wwu_mission_theramore.21.title
+    desc = wwu_mission_theramore.21.desc
+    picture = ABBENDIS_eventPicture
+
+   
+	is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.21.option.a		
+		
+		set_country_flag = shady_rest_destruction_culprits_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Follow Suspects
+country_event = {
+    id = wwu_mission_theramore.22
+    title = wwu_mission_theramore.22.title
+    desc = wwu_mission_theramore.22.desc
+    picture = ABUSIVE_SERGEANT_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+	    has_country_flag = shady_rest_destruction_culprits_a23
+	}
+	
+    mean_time_to_happen = {
+        days = 90
+    }
+    
+    option = {
+        name = wwu_mission_theramore.22.option.a
+        
+		# investigate Paval Reethe
+		hidden_effect = {		    
+			clr_country_flag = shady_rest_destruction_culprits_a23
+		}
+		set_country_flag = investigate_reethe_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.22.option.b
+        
+		# investigate Lieutenant Caldwell
+		hidden_effect = {		    
+			clr_country_flag = shady_rest_destruction_culprits_a23
+		}
+		set_country_flag = investigate_caldwell_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Dead Suspects
+country_event = {
+    id = wwu_mission_theramore.23
+    title = wwu_mission_theramore.23.title
+    desc = wwu_mission_theramore.23.desc
+    picture = FEIGN_DEATH_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	        has_country_flag = investigate_reethe_a23
+			has_country_flag = investigate_caldwell_a23
+		}
+	}
+	
+    mean_time_to_happen = {
+        days = 30
+    }
+    
+    option = {
+        name = wwu_mission_theramore.23.option.a
+        
+		hidden_effect = {
+		    clr_country_flag = investigate_reethe_a23
+			clr_country_flag = investigate_caldwell_a23			
+		}
+		set_country_flag = further_investigations_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Grimtotem Lead Clues
+country_event = {
+    id = wwu_mission_theramore.24
+    title = wwu_mission_theramore.24.title
+    desc = wwu_mission_theramore.24.desc
+    picture = INFESTED_TAUREN_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+	    has_country_flag = further_investigations_a23
+	}
+	
+    mean_time_to_happen = {
+        days = 30
+    }
+    
+    option = {
+        name = wwu_mission_theramore.24.option.a
+        
+		hidden_effect = {
+		    clr_country_flag = further_investigations_a23			
+		}
+		set_country_flag = grimtotem_investigation_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Mystery Solved
+country_event = {
+    id = wwu_mission_theramore.25
+    title = wwu_mission_theramore.25.title
+    desc = wwu_mission_theramore.25.desc
+    picture = SOUTH_BARRENS_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+	    has_country_flag = grimtotem_investigation_a23
+	}
+	
+    mean_time_to_happen = {
+        days = 60
+    }
+    
+    option = {
+        name = wwu_mission_theramore.25.option.a
+        
+		hidden_effect = {
+		    clr_country_flag = grimtotem_investigation_a23
+		}
+		set_country_flag = mystery_of_shady_rest_inn_solved_a23
+		add_country_modifier = {
+			name = event_shady_rest_inn_mystery_solved_a23
+			duration = -1
+		}
+		add_historical_rival = GMT
+		GMT = {
+		    add_historical_rival = ROOT
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Return to Kultiras
+country_event = {
+    id = wwu_mission_theramore.26
+    title = wwu_mission_theramore.26.title
+    desc = wwu_mission_theramore.26.desc
+    picture = KUL_TIRAS_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }	
+    
+    option = {
+        name = wwu_mission_theramore.26.option.a
+
+		
+		if = {
+		    limit = {
+			    OR = {
+			        has_global_flag = horde_dismantled
+					NOT = { exists = A48 }
+				}
+			}
+			remove_historical_rival = A14
+			A14 = {
+			    remove_historical_rival = ROOT
+			}
+			add_dip_power = 100
+			add_country_modifier = {
+			    name = event_healing_wounds_a23
+			    duration = 14600
+		    }
+			set_country_flag = returning_home_a23
+		}
+		else_if = {
+		    limit = {
+			    exists = A48
+				A48 = {
+				    is_subject = no
+				}
+			}
+			add_casus_belli = {
+                target = A14
+                type = cb_restore_personal_union_mission
+                months = 240
+		    }
+			add_mil_power = 100
+			A14 = {
+                add_opinion = {
+                    who = ROOT
+					modifier = A23_return_to_kultiras
+			    }
+			}
+			add_country_modifier = {
+			    name = event_spitting_on_dealins_memory_a23
+			    duration = 14600
+		    }
+			set_country_flag = returning_home_our_way_a23
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Fate of the Admiralty
+country_event = {
+    id = wwu_mission_theramore.27
+    title = wwu_mission_theramore.27.title
+    desc = wwu_mission_theramore.27.desc
+    picture = KUL_TIRAS_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }	
+    
+    option = {
+        name = wwu_mission_theramore.27.option.a
+        
+		# Alliance with Kultiras = Peaceful Union
+		trigger = {
+		    alliance_with = A14
+		}
+		
+		create_union = A14
+		A14 = {
+		    add_opinion = {
+			    who = ROOT
+				modifier = A23_fate_of_kultiras
+			}
+		}
+		ROOT = {
+		    add_opinion = {
+			    who = A14
+				modifier = A23_fate_of_kultiras
+			}
+		}
+		add_prestige = 20
+		add_power_projection = {
+            type = mission_rewards_power_projection
+            amount = 40
+        }
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.27.option.b
+		
+        # Control or Own Boralus = Force PU with this event
+		trigger = {
+		    570 = {
+			    controlled_by = ROOT
+			}
+		}
+		
+		create_union = A14
+		A14 = {
+		    add_opinion = {
+			    who = ROOT
+				modifier = A23_fall_of_kultiras
+			}
+		}
+		add_power_projection = {
+            type = mission_rewards_power_projection
+            amount = 20
+        }
+		add_mil_power = 150
+		remove_historical_rival = A14
+		A14 = {
+		    remove_historical_rival = ROOT
+        }
+			
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.27.option.c
+		
+        # Control or Own Boralus = Dismantle Kultiras and PU/vassalise the minors
+		trigger = {
+		    570 = {
+			    controlled_by = ROOT
+			}
+		}
+		
+		A14 = {
+		    release = WYC
+		    release = SNG
+			release = ASH
+		}
+		create_union = WYC		
+		create_union = SNG
+		create_union = ASH
+		inherit = A14		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Siege of Zuldazar -Flavor
+country_event = {
+    id = wwu_mission_theramore.28
+    title = wwu_mission_theramore.28.title
+    desc = wwu_mission_theramore.28.desc
+    picture = ZULDAZAR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.28.option.a
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Focusing Iris
+country_event = {
+    id = wwu_mission_theramore.29
+    title = wwu_mission_theramore.29.title
+    desc = wwu_mission_theramore.29.desc
+    picture = DRAGON_SOUL_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.29.option.a
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Blue Dragon Assistance
+country_event = {
+    id = wwu_mission_theramore.30
+    title = wwu_mission_theramore.30.title
+    desc = wwu_mission_theramore.30.desc
+    picture = HUNGRY_DRAGON_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.30.option.a
+		
+		#flavor about using it against Deathwing and dropping it at the frozen sea
+		set_country_flag = hide_artifact_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Horde Interferance
+country_event = {
+    id = wwu_mission_theramore.31
+    title = wwu_mission_theramore.31.title
+    desc = wwu_mission_theramore.31.desc
+    picture = HORDE_MARCH_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+	    has_country_flag = hide_artifact_a23
+	}
+	
+    mean_time_to_happen = {
+        days = 60
+    }
+    
+    option = {
+        name = wwu_mission_theramore.31.option.a
+        
+		A48 = {
+		    add_country_modifier = {
+			    name = event_stealing_focusing_iris_a23
+			    duration = 7300
+		    }
+			declare_war_with_cb = {
+                who = ROOT
+                casus_belli = cb_annex
+            }
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Stolen Iris Investigation
+country_event = {
+    id = wwu_mission_theramore.32
+    title = wwu_mission_theramore.32.title
+    desc = wwu_mission_theramore.32.desc
+    picture = HUNGRY_DRAGON_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.32.option.a
+        
+		# If spied of orgrimmar - no information
+		trigger = {
+		    A48 = {               
+    	 	    has_spy_network_from = {
+                    who = ROOT
+                    value = 50
+    		    }
+            }
+		}
+		
+		set_country_flag = fruitless_investigations_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.32.option.b
+        
+		# If spied on Blidgewater - investigate their fleets - knowledge of an unkown threat in later event
+		trigger = {
+		    A79 = {               
+    	 	    has_spy_network_from = {
+                    who = ROOT
+                    value = 50
+    		    }
+            }
+		}
+		
+		set_country_flag = fruitful_investigations_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.32.option.c
+        
+		# If spied on Silvermoon - creation of mana bomb
+		trigger = {
+		    A79 = {               
+    	 	    has_spy_network_from = {
+                    who = ROOT
+                    value = 50
+    		    }
+            }
+		}
+		
+		set_country_flag = terrifying_revelation_a23
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Siege of Theramore
+country_event = {
+    id = wwu_mission_theramore.33
+    title = wwu_mission_theramore.33.title
+    desc = wwu_mission_theramore.33.desc
+    picture = KUL_TIRAN_SHIP_eventPictur
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.33.option.a
+        
+		# Flavor - Horde sieges Theramore Isle
+		1439 = {
+		    add_devastation = 80
+		}
+        3499 = {
+		    spawn_infantry = { AMOUNT = 6 TAG = A48 }
+            spawn_cavalry = { AMOUNT = 1 TAG = A48 }
+            spawn_artillery = { AMOUNT = 2 TAG = A48 }
+		}
+		2951 = {
+		    spawn_infantry = { AMOUNT = 6 TAG = A48 }
+            spawn_cavalry = { AMOUNT = 1 TAG = A48 }
+            spawn_artillery = { AMOUNT = 2 TAG = A48 }
+		}
+	
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Mana Bomb
+country_event = {
+    id = wwu_mission_theramore.34
+    title = wwu_mission_theramore.34.title
+    desc = wwu_mission_theramore.34.desc
+    picture = MANASTORM_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.34.option.a
+        
+		# We never saw it coming! Our Glorious city is gone!
+		trigger = {
+		    has_country_flag = fruitless_investigations_a23
+		}
+		
+		if = {
+		    limit = {
+			    3435 = {
+				    owned_by = ROOT
+				}
+			}
+			set_capital = 3435
+		}
+		else_if = {
+		    limit = {
+			    1463 = {
+				    owned_by = ROOT
+				}
+			}
+			set_capital = 1463
+		}
+		1456 = { 
+		    remove_core = ROOT
+		    cede_province = --- 
+			add_devastation = 100
+			set_base_tax = 1
+			set_base_manpower = 1
+			set_base_production = 1
+			add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+		    }
+		}
+		3477 = { 
+		    remove_core = ROOT
+		    cede_province = --- 
+			add_devastation = 100
+			set_base_tax = 1
+			set_base_manpower = 1
+			set_base_production = 1
+			add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+		    }
+		}
+		3478 = { 
+		    remove_core = ROOT
+		    cede_province = ---
+			add_devastation = 100
+			set_base_tax = 1
+			set_base_manpower = 1
+			set_base_production = 1
+			add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+		    }
+		}
+		add_country_modifier = {
+			name = event_an_everlasting_tragedy_a23
+			duration = 18250
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.34.option.b
+        
+		# Thanks to the goblin fleet hyjacks we managed to steal the dangerous weapons the horde had manufactured!
+		trigger = {
+		    has_country_flag = fruitful_investigations_a23
+		}
+		
+		add_country_modifier = {
+			name = event_stealing_mana_bomb_a23
+			duration = 14600
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.34.option.c
+        
+		# We avoided a great calamity! The mana bomb was destroyed!
+		trigger = {
+		    has_country_flag = terrifying_revelation_a23
+		}
+		
+		add_country_modifier = {
+			name = event_end_of_a_great_threat_a23
+			duration = 7300
+		}
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Mana Bomb Drops at Orgrimmar
+country_event = {
+    id = wwu_mission_theramore.35
+    title = wwu_mission_theramore.35.title
+    desc = wwu_mission_theramore.35.desc
+    picture = ORGRIMMAR_ZEPPELIN_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.35.option.a
+        
+		# Revenge against the orcs!
+        ########################### set_capital =		
+		3164 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		3165 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		} 
+		3166 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		3167 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		3395 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		3396 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		3397 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		3398 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		3399 = {
+	    	remove_core = A48
+		    cede_province = ---
+			add_devastation = 100
+    	    set_base_tax = 1
+	        set_base_manpower = 1
+	        set_base_production = 1
+	        add_province_modifier = {
+			    name = event_arcane_radiation_a23
+			    duration = 18250
+			}
+		}
+		
+		add_country_modifier = {
+			name = event_opened_their_own_grave_a23
+			duration = -1
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.35.option.b
+        
+		# Force them into Servitude
+		create_subject = {
+            subject_type = tributary_vassal
+            subject = A48
+        }
+		add_adm_power = 150
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.35.option.c
+        
+		# We shall finish them our own way
+		add_country_modifier = {
+			name = event_honorable_warfare_a23
+			duration = 7300
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Fate of Theramore
+country_event = {
+    id = wwu_mission_theramore.36
+    title = wwu_mission_theramore.36.title
+    desc = wwu_mission_theramore.36.desc
+    picture = KUL_TIRAN_SHIP_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.36.option.a
+
+		#If Theramore Isle Fell - Refugees to New Capital - Rebuilding
+		trigger = {
+		    has_country_modifier = event_an_everlasting_tragedy_a23
+		}
+		capital_scope = {
+		    add_base_manpower = 4
+            add_base_tax = 4
+            add_base_production = 4
+		}
+		add_prestige = -40
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.36.option.b
+        
+		#Overwhelming Espionage
+		trigger = {
+		    has_country_modifier = event_end_of_a_great_threat_a23
+		}
+		
+		add_dip_tech = 1
+		add_mil_power = 100
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.36.option.c
+    
+		#Theramore Stole Mana Bomb 
+		trigger = {
+		    has_country_modifier = event_stealing_mana_bomb_a23
+		}
+		
+        add_mil_tech = 1
+		add_dip_power = 100
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Seaborn Rivals
+country_event = {
+    id = wwu_mission_theramore.37
+    title = wwu_mission_theramore.37.title
+    desc = wwu_mission_theramore.37.desc
+    picture = SOUTH_SEAS_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.37.option.a
+
+		#Nazjatar Lost War
+		NJZ  = {
+	    	add_country_modifier = {
+    			name = event_destroyed_fleets_a23
+	    		duration = 14600
+    		}
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Fate of Lordaeron
+country_event = {
+    id = wwu_mission_theramore.38
+    title = wwu_mission_theramore.38.title
+    desc = wwu_mission_theramore.38.desc
+    picture = GOLDSHIRE_FOOTMAN_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.38.option.a
+
+		#Release Lordaeron as PU
+		
+		spawn_lordaeron = yes
+		
+		create_union = A08
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.38.option.b      
+		
+		#Feed it to a Crusader vassal if said vassal exists
+		#no immigrants back
+		if = {
+		    limit = {
+			    exists = A22
+			}
+			spawn_scarlet_lordaeron = yes
+		    A22 = {
+		        override_country_name = SCARLET_LORDAERON
+			    hidden_effect = {
+                    set_country_flag = is_scarlet_lordaeron_flag
+                }
+		    }
+		}
+		else_if = {
+		    limit = {
+			    NOT = { exists = A22 } 
+			}
+			release = A22
+			spawn_scarlet_lordaeron = yes
+		    A22 = {
+		        override_country_name = SCARLET_LORDAERON
+			    hidden_effect = {
+                    set_country_flag = is_scarlet_lordaeron_flag
+                }
+		    }
+			create_subject = {
+                subject_type = vassal
+                subject = A22
+            }
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	option = {
+        name = wwu_mission_theramore.38.option.c
+
+		#Keep the lands as they are and bring back immigrants
+		add_country_modifier = {
+    		name = event_liberation_and_retribution_a23
+	    	duration = -1
+    	}
+		every_owned_province = { 
+            limit = {
+                region = region_tirisfal_glades
+				OR = {
+				    culture = culture_scourge
+                    culture = culture_forsaken
+				}
+                NOT = { culture = culture_lordaeron }
+            }
+            change_culture = culture_lordaeron 
+        }
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Warning for Mana Bomb
+country_event = {
+    id = wwu_mission_theramore.39
+    title = wwu_mission_theramore.39.title
+    desc = wwu_mission_theramore.39.desc
+    picture = TIME_REWINDER_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.39.option.a
+
+		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Warning for Kultiras
+country_event = {
+    id = wwu_mission_theramore.40
+    title = wwu_mission_theramore.40.title
+    desc = wwu_mission_theramore.40.desc
+    picture = TIME_REWINDER_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.40.option.a
+
+		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Warning for Deserters
+country_event = {
+    id = wwu_mission_theramore.41
+    title = wwu_mission_theramore.41.title
+    desc = wwu_mission_theramore.41.desc
+    picture = TIME_REWINDER_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.41.option.a
+
+		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Warning for Thunderbluff
+country_event = {
+    id = wwu_mission_theramore.42
+    title = wwu_mission_theramore.42.title
+    desc = wwu_mission_theramore.42.desc
+    picture = TIME_REWINDER_eventPicture
+
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_theramore.42.option.a
+
+		
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

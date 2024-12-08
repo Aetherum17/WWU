@@ -154,7 +154,7 @@ on_yearly_pulse__invasion = {
                     }
                 }
             }
-            
+            # Audax Validator "." Ignore_NEXT
             save_event_target_as = hostile_country
         }
         

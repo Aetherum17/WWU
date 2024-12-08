@@ -34,9 +34,9 @@
  seek_elunes_wisdom_desc: "Let our ruler call upon Elune in search of wisdom."
  
  beckon_the_night_warrior_title: "[DI_crescent_burn] Beckon the Night Warrior"
- beckon_the_night_warrior_desc: "Beckon the warrior aspect of Elune, known as the Night Warrior, to support us in combat for a short period. Such a request will reduce any additional help for quite some time afterwards."
+ beckon_the_night_warrior_desc: "Beckon the warrior aspect of Elune, known as the Night Warrior, to support us in combat for a short period. Such a request will reduce any additional help for quite some time afterwards, and will cost your realm stability, as his power and unbroken discipline faces your enemies."
  
- NIGHT_WARRIOR_TT: "Grants a §Y4§!/§Y4§!/§Y4§!/§Y4§! general called §Y\"The Night Warrior\"§! for five years."
+ NIGHT_WARRIOR_TT: "Grants a §Y6§!/§Y6§!/§Y6§!/§Y6§! general called §Y\"The Night Warrior\"§! for five years."
  
  # Celestials
  seek_council_with_the_august_celestials_title: "[DI_chi_brew] Seek Council with the August Celestials"

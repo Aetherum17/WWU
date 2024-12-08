@@ -37,6 +37,6 @@ trade_goods = unknown
     controller = UNY
 	add_core = UNY
     
-	culture = culture_undead_human
+	culture = culture_ghost
 }
 

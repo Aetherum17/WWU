@@ -1,29 +1,54 @@
 
 is_city = yes
 
-owner = A95
-controller = A95
-add_core = A95
+owner = F47
+controller = F47
+add_core = F47
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_night_elf
-religion = elune
+culture = culture_dark_troll
+religion = druidism
 
 
 hre = no
 trade_goods = resource_rare_wood
 
 
+617.1.1 = {
+    owner = G02
+    controller = G02
+    add_core = G02
+    remove_core = F47
+	
+	culture = culture_doomguard
+    religion = fel
+	
+    trade_goods = resource_fel
+}
 
+618.1.1 = {
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+	culture = culture_night_elf
+    religion = druidism
+}
 
-622.1.1 = {
-  owner = A94
-  controller = A94
-  add_core = A94
-  remove_core = A95
-  culture = culture_night_elf
+631.1.1 = {   
+    owner = A43
+    controller = A43
+    add_core = A43
+	
+	base_tax = 2
+    base_manpower = 3
+    base_production = 3
+	
+	culture = culture_twilight_cultist
+    religion = twilight_cult
+	   
 }
 

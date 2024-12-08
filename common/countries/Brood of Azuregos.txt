@@ -1,0 +1,133 @@
+graphical_culture = blue_dragon_gfx
+
+color = { 0 76 109 }
+
+monarch_names = {
+	"Nelmydgos" = 1
+	"Banycgon" = 1
+	"Lyrregos" = 1
+	"Nezigos" = 1
+	"Mascegos" = 1
+	"Vazcygos" = 1
+	"Egdagos" = 1
+	"Arzargos" = 1
+	"Alvagos" = 1
+	"Kulgrugos" = 1
+	"Vyngugos" = 1
+	"Asciros" = 1
+	"Sunrengos" = 1
+	"Buzgudgos" = 1
+	"Tidcylgos" = 1
+	"Sezagon" = 1
+	"Nedrugos" = 1
+	"Renregos" = 1
+	"Algrigos" = 1
+	"Iralgos" = 1
+	"Judrilgos" = 1
+	"Cercugos" = 1
+	"Cuzegos" = 1
+	"Algrecgos" = 1
+	"Maldrigos" = 1
+	"Jirzacgos" = 1
+	"Rynvagos" = 1
+	"Valgrecgos" = 1
+	"Egacgos" = 1
+	"Saldygos" = 1
+	"Vagdegos" = 1
+	"Lyndugos" = 1
+	"Vazgugos" = 1
+	"Ugragos" = 1
+	"Ulgygon" = 1
+	"Suvacgos" = 1
+	"Aligos" = 1
+	"Zalmingos" = 1
+	"Kedegos" = 1
+	"Kusliegosa" = -1
+	"Kyzlegosa" = -1
+	"Usmygosa" = -1
+	"Reznecgosa" = -1
+	"Kulnygosa" = -1
+	"Rydygosa" = -1
+	"Relrigosa" = -1
+	"Ceslisgosa" = -1
+	"Ullegosa" = -1
+	"Elvegosa" = -1
+	"Curgryngosa" = -1
+	"Relvigosa" = -1
+	"Ergrielga" = -1
+	"Rilneelgosa" = -1
+	"Lisnegosa" = -1
+	"Mengagosa" = -1
+	"Rusnegosa" = -1
+	"Kernagosa" = -1
+	"Pyaglagosa" = -1
+	"Ruvnegosa" = -1
+	"Penvegosa" = -1
+	"Cunvagosa" = -1
+	"Kirlegosa" = -1
+	"Khyvnecgosa" = -1
+	"Kirnacgosa" = -1
+	"Sidecga" = -1
+	"Sevnegosa" = -1
+	"Lyzlegosa" = -1
+	"Khurdriecgosa" = -1
+	"Saldrelgosa" = -1
+
+}
+
+leader_names = {
+	"Tornwing" "Scarwing" "Ripwing" "Bluewing" "Azurewing" "Arcanewing"
+	"Tornwing" "Scarwing" "Ripwing" "Bluewing" "Azurewing" "Arcanewing"
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	blue_dragonflight_inf_a_1
+	blue_dragonflight_cav_a_1
+	blue_dragonflight_inf_a_2
+	blue_dragonflight_cav_a_2
+	blue_dragonflight_inf_a_3
+	blue_dragonflight_cav_a_3
+	blue_dragonflight_inf_a_4
+	blue_dragonflight_cav_a_4
+	blue_dragonflight_inf_a_5
+	blue_dragonflight_cav_a_5
+}

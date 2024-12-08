@@ -22,7 +22,7 @@ center_of_trade = 1
 	add_core = A99
 	add_core = P27
 
-	culture = culture_black_dragon
+	culture = culture_black_dragonflight
 	religion = corrupt_dragon_aspect
 
 
@@ -35,7 +35,7 @@ center_of_trade = 1
 	add_core = F85
 	remove_core = P27
 
-	culture = culture_twilight_hammer
+	culture = culture_wildhammer
 	religion = twilight_cult
 	
 	add_province_triggered_modifier = broken_world_pillar

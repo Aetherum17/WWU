@@ -9,16 +9,16 @@ country_decisions = {
             # Exclusions
 			NOT = { exists = FNA }
             
-            # Requisites
+            # Requisites			
 			OR = {
-			    tag = A08
-				tag = A12
-				tag = A14
-				tag = A16
-				tag = A17
-				tag = A18
-				tag = STW
+			    owns = 543
+				owns = 927
+				owns = 773
+				owns = 863
+				owns = 981
+				owns = 570
 			}
+			culture_group = culture_group_human
 		}
         
         provinces_to_highlight = {
@@ -67,6 +67,7 @@ country_decisions = {
                     OR = {
 						superregion = eastern_kingdom_superregion
 						superregion = kul_tiras_superregion
+						superregion = kalimdor_superregion
 						}
 					culture_group = culture_group_human
                     NOT = { culture = culture_arathorian }

@@ -1,0 +1,34 @@
+
+# The Scourge of Kalimdor
+
+government 			= monarchy
+add_government_reform = scourge_domain_reform
+mercantilism 		= 10 
+technology_group 	= tech_scourge
+religion			= cult_of_the_damned
+primary_culture = culture_scourge
+add_accepted_culture = culture_death_knight
+capital = 1431
+
+617.1.1 = { 
+	monarch = {
+		name = "Arthas" 
+		dynasty = "Menethil" 	
+		adm = 4
+		dip = 3
+		mil = 5	
+		culture = culture_death_knight
+	}
+    
+    setup_spellcaster_history = {
+        APTITUDE = 3
+        FINESSE = 3
+        CONCENTRATION = 2
+        MANA = 3
+        necromancy = yes
+    }
+	set_ruler_flag = is_immortal
+	set_ruler_flag = death_knight_personality
+	add_ruler_personality = ruthless_personality
+    set_country_flag = ruler_is_arthas
+}

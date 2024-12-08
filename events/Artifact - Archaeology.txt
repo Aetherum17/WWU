@@ -1615,6 +1615,8 @@ country_event = {
         unlock_artifact = {
             artifact = apocalypse
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1633,6 +1635,8 @@ country_event = {
         unlock_artifact = {
             artifact = twinblades_of_the_deceiver
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1651,6 +1655,8 @@ country_event = {
         unlock_artifact = {
             artifact = thasdorah
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -1669,6 +1675,8 @@ country_event = {
         unlock_artifact = {
             artifact = aluneth
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -1687,6 +1695,8 @@ country_event = {
         unlock_artifact = {
             artifact = sheilun
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -1705,6 +1715,8 @@ country_event = {
         unlock_artifact = {
             artifact = ashbringer
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1723,6 +1735,8 @@ country_event = {
         unlock_artifact = {
             artifact = xalatath
         }
+		
+		play_sound = pick_up_ores
 	}
 }
 
@@ -1741,6 +1755,8 @@ country_event = {
         unlock_artifact = {
             artifact = doomhammer
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1759,6 +1775,8 @@ country_event = {
         unlock_artifact = {
             artifact = dreadblades
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1777,6 +1795,8 @@ country_event = {
         unlock_artifact = {
             artifact = skull_of_manari
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -1795,6 +1815,8 @@ country_event = {
         unlock_artifact = {
             artifact = warswords_of_valarjar
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1813,6 +1835,8 @@ country_event = {
         unlock_artifact = {
             artifact = scythe_of_elune
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -1831,6 +1855,8 @@ country_event = {
         unlock_artifact = {
             artifact = maw_of_the_damned
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1849,6 +1875,8 @@ country_event = {
         unlock_artifact = {
             artifact = blades_of_the_fallen_prince
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1867,6 +1895,8 @@ country_event = {
         unlock_artifact = {
             artifact = aldrachi_warblades
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1885,6 +1915,8 @@ country_event = {
         unlock_artifact = {
             artifact = fangs_of_ashamane
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1903,6 +1935,8 @@ country_event = {
         unlock_artifact = {
             artifact = claws_of_ursoc
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -1921,6 +1955,8 @@ country_event = {
         unlock_artifact = {
             artifact = ghanir
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -1939,6 +1975,8 @@ country_event = {
         unlock_artifact = {
             artifact = titanstrike
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -1957,6 +1995,8 @@ country_event = {
         unlock_artifact = {
             artifact = talonclaw
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -1975,6 +2015,8 @@ country_event = {
         unlock_artifact = {
             artifact = felomelorn
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -1993,6 +2035,8 @@ country_event = {
         unlock_artifact = {
             artifact = ebonchill
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2011,6 +2055,8 @@ country_event = {
         unlock_artifact = {
             artifact = fu_zan
         }
+		
+		play_sound = pick_up_cloth
 	}
 }
 
@@ -2029,6 +2075,8 @@ country_event = {
         unlock_artifact = {
             artifact = fists_of_the_heavens
         }
+		
+		play_sound = pick_up_ores
 	}
 }
 
@@ -2047,6 +2095,8 @@ country_event = {
         unlock_artifact = {
             artifact = silver_hand
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2065,6 +2115,8 @@ country_event = {
         unlock_artifact = {
             artifact = truthguard
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2083,6 +2135,8 @@ country_event = {
         unlock_artifact = {
             artifact = lights_wrath
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2101,6 +2155,8 @@ country_event = {
         unlock_artifact = {
             artifact = tuure
         }
+		
+		play_sound = pick_up_ores
 	}
 }
 
@@ -2119,6 +2175,8 @@ country_event = {
         unlock_artifact = {
             artifact = kingslayers
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -2137,6 +2195,8 @@ country_event = {
         unlock_artifact = {
             artifact = fangs_of_the_devourer
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -2155,6 +2215,8 @@ country_event = {
         unlock_artifact = {
             artifact = fist_of_raden
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2173,6 +2235,8 @@ country_event = {
         unlock_artifact = {
             artifact = sharasdal
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2191,6 +2255,8 @@ country_event = {
         unlock_artifact = {
             artifact = ulthalesh
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2209,6 +2275,8 @@ country_event = {
         unlock_artifact = {
             artifact = scepter_of_sargeras
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2227,6 +2295,8 @@ country_event = {
         unlock_artifact = {
             artifact = stromkar
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2245,6 +2315,8 @@ country_event = {
         unlock_artifact = {
             artifact = scale_of_the_earthwarder
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -2263,6 +2335,8 @@ country_event = {
         unlock_artifact = {
             artifact = underlight_angler
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2281,6 +2355,8 @@ country_event = {
         unlock_artifact = {
             artifact = glaive_of_the_aspects
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -2299,6 +2375,8 @@ country_event = {
         unlock_artifact = {
             artifact = scimitar_of_sirocco
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2317,6 +2395,8 @@ country_event = {
         unlock_artifact = {
             artifact = staff_of_ammunae
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2335,6 +2415,8 @@ country_event = {
         unlock_artifact = {
             artifact = dustbringer
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2353,6 +2435,8 @@ country_event = {
         unlock_artifact = {
             artifact = valanyr
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2371,6 +2455,8 @@ country_event = {
         unlock_artifact = {
             artifact = puzzle_box_of_yogg_saron
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2389,6 +2475,8 @@ country_event = {
         unlock_artifact = {
             artifact = twirling_longbow
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2407,6 +2495,8 @@ country_event = {
         unlock_artifact = {
             artifact = spear_of_xuen
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2425,6 +2515,8 @@ country_event = {
         unlock_artifact = {
             artifact = umbrella_of_chiji
         }
+		
+		play_sound = pick_up_paper
 	}
 }
 
@@ -2443,6 +2535,8 @@ country_event = {
         unlock_artifact = {
             artifact = amulet_of_rukhmar
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2461,6 +2555,8 @@ country_event = {
         unlock_artifact = {
             artifact = dream_of_argus
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2479,6 +2575,8 @@ country_event = {
         unlock_artifact = {
             artifact = grimoire_of_the_nameless_void
         }
+		
+		play_sound = pick_up_paper
 	}
 }
 
@@ -2497,6 +2595,8 @@ country_event = {
         unlock_artifact = {
             artifact = gronnsbane
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -2515,6 +2615,8 @@ country_event = {
         unlock_artifact = {
             artifact = gutreks_cleaver
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2533,6 +2635,8 @@ country_event = {
         unlock_artifact = {
             artifact = headdress_of_the_first_shaman
         }
+		
+		play_sound = pick_up_cloth
 	}
 }
 
@@ -2551,6 +2655,8 @@ country_event = {
         unlock_artifact = {
             artifact = warmaul_of_the_warmaul_chieftain
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2569,6 +2675,8 @@ country_event = {
         unlock_artifact = {
             artifact = beakbreaker_of_terokk
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2587,6 +2695,8 @@ country_event = {
         unlock_artifact = {
             artifact = zinrokh
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2605,6 +2715,8 @@ country_event = {
         unlock_artifact = {
             artifact = fetish_of_hireek
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2623,6 +2735,8 @@ country_event = {
         unlock_artifact = {
             artifact = bwonsamdi_voodoo_mask
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2641,6 +2755,8 @@ country_event = {
         unlock_artifact = {
             artifact = rezan_idol
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2659,6 +2775,8 @@ country_event = {
         unlock_artifact = {
             artifact = jagged_blade_of_the_drust
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2677,6 +2795,8 @@ country_event = {
         unlock_artifact = {
             artifact = soul_coffer
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2695,6 +2815,8 @@ country_event = {
         unlock_artifact = {
             artifact = fetish_of_the_tormented_mind
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2713,6 +2835,8 @@ country_event = {
         unlock_artifact = {
             artifact = ritual_fetish
         }
+		
+		play_sound = pick_up_paper
 	}
 }
 
@@ -2731,6 +2855,8 @@ country_event = {
         unlock_artifact = {
             artifact = blade_of_northern_kings
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -2749,6 +2875,8 @@ country_event = {
         unlock_artifact = {
             artifact = brinebeards_shanker
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2767,6 +2895,8 @@ country_event = {
         unlock_artifact = {
             artifact = crimson_captains_hat
         }
+		
+		play_sound = pick_up_cloth
 	}
 }
 
@@ -2785,6 +2915,8 @@ country_event = {
         unlock_artifact = {
             artifact = elemental_lairat
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2803,6 +2935,8 @@ country_event = {
         unlock_artifact = {
             artifact = onyx_annulet
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2821,6 +2955,8 @@ country_event = {
         unlock_artifact = {
             artifact = spark_of_ingenuity
         }
+		
+		play_sound = pick_up_ores
 	}
 }
 
@@ -2839,6 +2975,8 @@ country_event = {
         unlock_artifact = {
             artifact = awakmani
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -2857,6 +2995,8 @@ country_event = {
         unlock_artifact = {
             artifact = kharnalex
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2875,6 +3015,8 @@ country_event = {
         unlock_artifact = {
             artifact = pashmars_finial
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -2893,6 +3035,8 @@ country_event = {
         unlock_artifact = {
             artifact = anu_azshara
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2911,6 +3055,8 @@ country_event = {
         unlock_artifact = {
             artifact = scepter_of_the_azshari
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -2929,6 +3075,8 @@ country_event = {
         unlock_artifact = {
             artifact = arcane_phial
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2947,6 +3095,8 @@ country_event = {
         unlock_artifact = {
             artifact = vision_of_demise
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2965,6 +3115,8 @@ country_event = {
         unlock_artifact = {
             artifact = pearl_of_pandaria
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -2983,6 +3135,8 @@ country_event = {
         unlock_artifact = {
             artifact = sulfuras
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -3001,6 +3155,8 @@ country_event = {
         unlock_artifact = {
             artifact = shalamane
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3019,6 +3175,8 @@ country_event = {
         unlock_artifact = {
             artifact = thunderfury
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3037,6 +3195,8 @@ country_event = {
         unlock_artifact = {
             artifact = hammer_of_twilight
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3055,6 +3215,8 @@ country_event = {
         unlock_artifact = {
             artifact = skull_of_guldan
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -3073,6 +3235,8 @@ country_event = {
         unlock_artifact = {
             artifact = eye_of_dalaran
         }
+		
+		play_sound = pick_up_ores
 	}
 }
 
@@ -3091,6 +3255,8 @@ country_event = {
         unlock_artifact = {
             artifact = atiesh
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -3109,6 +3275,8 @@ country_event = {
         unlock_artifact = {
             artifact = warglave_of_azzinoth
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3127,6 +3295,8 @@ country_event = {
         unlock_artifact = {
             artifact = killmaim
         }
+		
+		play_sound = pick_up_small_chains
 	}
 }
 
@@ -3145,6 +3315,8 @@ country_event = {
         unlock_artifact = {
             artifact = horn_of_cenarius
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -3163,6 +3335,8 @@ country_event = {
         unlock_artifact = {
             artifact = ancestral_staff
         }
+		
+		play_sound = pick_up_wand
 	}
 }
 
@@ -3181,6 +3355,8 @@ country_event = {
         unlock_artifact = {
             artifact = necklace_of_burning_souls
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -3199,6 +3375,8 @@ country_event = {
         unlock_artifact = {
             artifact = soulfeast
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3217,6 +3395,8 @@ country_event = {
         unlock_artifact = {
             artifact = shield_of_the_deathlord
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3244,6 +3424,8 @@ country_event = {
                 value = 1
             }
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3267,6 +3449,8 @@ country_event = {
                 value = 1
             }
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -3290,6 +3474,8 @@ country_event = {
                 value = 1
             }
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -3313,6 +3499,8 @@ country_event = {
                 value = 1
             }
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -3336,6 +3524,8 @@ country_event = {
                 value = 1
             }
         }
+		
+		play_sound = pick_up_wood_large
 	}
 }
 
@@ -3359,6 +3549,8 @@ country_event = {
                 value = 1
             }
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -3422,6 +3614,7 @@ country_event = {
 	option = {
 		name = wwu_archaeology.501.option.a
         
+		play_sound = quest_failed
 	}
 }
 

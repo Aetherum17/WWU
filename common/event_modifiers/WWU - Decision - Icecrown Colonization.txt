@@ -1,0 +1,11 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+# Decision: Establish Glaciar Settlements
+establish_settlement_icecrown = {
+    may_establish_frontier = yes
+    global_colonial_growth = 20
+}
+recently_send_icecrown = {
+    global_tax_modifier = -0.1
+}

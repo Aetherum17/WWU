@@ -395,28 +395,24 @@ add_or_improve_fort = {
     if = {
         limit = {
             has_building = wow_fort_4
-            owner = { mil_tech = 25 }
         }
         add_building = wow_fort_5
     }
     else_if = {
         limit = {
             has_building = wow_fort_3
-            owner = { mil_tech = 17 }
         }
         add_building = wow_fort_4
     }
     else_if = {
         limit = {
             has_building = wow_fort_2
-            owner = { mil_tech = 15 }
         }
         add_building = wow_fort_3
     }
     else_if = {
         limit = {
             has_building = wow_fort_1
-            owner = { mil_tech = 7 }
         }
         add_building = wow_fort_2
     }

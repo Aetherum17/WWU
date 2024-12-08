@@ -4,34 +4,34 @@
  ARL_army_of_the_light_column_5: ""
 
  ARL_deal_with_argussian_reach_title: "Deal with Argussian Reach"
- ARL_deal_with_argussian_reach_desc: "Placeholder Reach"
+ ARL_deal_with_argussian_reach_desc: "Since we have landed in Krokuul, there were only two sides we could move towards. One was the Burning Legion, our eternal enemies. Other was a tribe of survivors, calling themselves the Argussian Reach, who were as much at risk as we were. The Fate had chosen that we must stand united. Either willingly, or by force."
 
  ARL_contact_the_draenei_title: "Contact the Draenei"
  ARL_contact_the_draenei_desc: "We must estabilish contact with the major holdouts of our bretheren, the Draenei."
 
  ARL_purification_of_krokul_title: "Purification of Krokuul"
- ARL_purification_of_krokul_desc: "Placeholder Krokuul"
+ ARL_purification_of_krokul_desc: "Having secured Krokuul, our duty called on us, to purge the land our of the demonic scum, reclaiming it for us and our allies. Thought demonic resistance still lingers, we are broken through the first line of defence."
 
  ARL_joining_the_alliance_title: "Joining the Alliance"
- ARL_joining_the_alliance_desc: "Placeholder Alliance"
+ ARL_joining_the_alliance_desc: "On the distant world of Azeroth, a faction of races had formed, united due to the common belive in valor, honor, and the Light. We have decided they might be worthy allies for the future."
 
- ARL_assult_nathraxas_hold_title: "Assult on Nath'raxas Hold"
- ARL_assult_nathraxas_hold_desc: "Placeholder Assult"
+ ARL_assult_nathraxas_hold_title: "Assault on Nath'raxas Hold"
+ ARL_assult_nathraxas_hold_desc: "To break the Legion grasp on the region, we have assulted their local base of operation, the dreaded fortress of Nath'raxas. Having broken its gates, we unleashed a torrent of light, eradicating all unholy filth from its grounds, claiming it for ourselves."
 
  ARL_securing_krokul_title: "Securing Krokuul"
- ARL_securing_krokul_desc: "Placeholder Securing"
+ ARL_securing_krokul_desc: "We have pushed Burning Legion out of Krokuul, their first defeat shows that the hour of triupmph for the Light is coming."
 
  ARL_incursion_into_eredath_remains_title: "Incursion into Eredath Remains"
- ARL_incursion_into_eredath_remains_desc: "Placeholder Incursion"
+ ARL_incursion_into_eredath_remains_desc: "Wasting no time, we have invaded the realms of Eredath, the former seat of the pure Eredar civilization. Thought broken and corrupted, the lands of Eredath still retain some life in them. They will serve us well, once we establish ourselves in the region."
 
  ARL_fortifing_eredath_title: "Fortifing Eredath"
- ARL_fortifing_eredath_desc: "Placeholder Fortifing"
+ ARL_fortifing_eredath_desc: "Having taken over control of Triumvirate's End, we were able to cut Burning Legion direct control of the region of Eredath. With that, we constructed major outpost, and begun missions to reclaim whatever land is avalable in Eredath."
 
  ARL_invasion_of_antorian_wastes_title: "Invasion of Antorian Wastes"
- ARL_invasion_of_antorian_wastes_desc: "Placeholder Invasion"
+ ARL_invasion_of_antorian_wastes_desc: "The Hour of our victory is close approaching, as we marched into Antorian Wastes, our solders charged, ready for a final battle against the demonic masterminds. The Army of the Light will triumph! Naaru bless us!"
 
  ARL_attack_on_antorus_title: "Attack on Antorus"
- ARL_attack_on_antorus_desc: "Placeholder Antorus"
+ ARL_attack_on_antorus_desc: "The Gates of Antorus had been breached, corpses of demons scattered across all of the dreadful citadel of the Legion. As our siege cannons and battle golems laid siege to the Burning Throne, its base started to crumble, shaking the collosal citadel. Its fate is inevetable."
 
  # --- Event ---
  wwu_army_of_the_light.100.title: "Fall of Antorus, the Burning Throne"
@@ -56,3 +56,9 @@
 
  mission_final_push: "Final Push"
  desc_mission_final_push: ""
+
+ mission_liberation_krokul: "Liberation of Krokul"
+ desc_mission_liberation_krokul: ""
+
+ mission_colonizing_eredath: "Colonizing Eredath"
+ desc_mission_colonizing_eredath: ""

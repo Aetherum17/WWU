@@ -1,0 +1,302 @@
+graphical_culture = sea_giant_gfx
+
+color = { 255 221 86 }
+
+monarch_names = {
+  "Ko'lash" = 1
+  "Kuchar" = 1
+  "Mok'nan" = 1
+  "Thehock" = 1
+  "Ko'lof" = 1
+  "Arkkrri" = 1
+  "Mok'lash" = 1
+  "Sorrun" = 1
+  "Mongun" = 1
+  "Sorzum" = 1
+  "Calhock" = 1
+  "Ko'oroc" = 1
+  "Sorhoff" = 1
+  "Kuvdan" = 1
+  "Kaszum" = 1
+  "Calder" = 1
+  "Snonos" = 1
+  "Snolof" = 1
+  "Halhock" = 1
+  "Lilleder" = 1
+  "Sornos" = 1
+  "Kaslof" = 1
+  "Monlof" = 1
+  "Negolash" = 1
+  "Sorlof" = 1
+  "Dahoff" = 1
+  "Halrun" = 1
+  "Kuhoff" = 1
+  "Gorlash" = 1
+  "Danan" = 1
+  "Callash" = 1
+  "Hallash" = 1
+  "Calnos" = 1
+  "Monhock" = 1
+  "Calrash" = 1
+  "Calgun" = 1
+  "Karri" = 1
+  "Negonan" = 1
+  "Halvdan" = 1
+  "Caloroc" = 1
+  "Thenan" = 1
+  "Monnan" = 1
+  "Halnan" = 1
+  "Mok'lof" = 1
+  "Arkklash" = 1
+  "Kuder" = 1
+  "Gorhoff" = 1
+  "Kulof" = 1
+  "Therun" = 1
+  "Gorder" = 1
+  "Lillenan" = 1
+  "Mok'hoff" = 1
+  "Calrun" = 1
+  "Arkkhoff" = 1
+  "Monzum" = 1
+  "Monder" = 1
+  "Kasoroc" = 1
+  "Halgun" = 1
+  "Arkknos" = 1
+  "Lillerri" = 1
+  "Dachar" = 1
+  "Ko'nan" = 1
+  "Kasnan" = 1
+  "Lillelash" = 1
+  "Darri" = 1
+  "Kasgun" = 1
+  "Arkkvdan" = 1
+  "Therri" = 1
+  "Thenos" = 1
+  "Darun" = 1
+  "Gorrash" = 1
+  "Snochar" = 1
+  "Calnan" = 1
+  "Kaslash" = 1
+  "Mok'char" = 1
+  "Daoroc" = 1
+  "Dagun" = 1
+  "Ko'rash" = 1
+  "Kahock" = 1
+  "Monoroc" = 1
+  "Lillezum" = 1
+  "Ko'vdan" = 1
+  "Lillehoff" = 1
+  "Hallof" = 1
+  "Kagun" = 1
+  "Kalash" = 1
+  "Monchar" = 1
+  "Arkkoroc" = 1
+  "Gorvdan" = 1
+  "Thechar" = 1
+  "Kazum" = 1
+  "Thezum" = 1
+  "Negozum" = 1
+  "Mok'vdan" = 1
+  "Kanos" = 1
+  "Ko'zum" = 1
+  "Kaoroc" = 1
+  "Gorgun" = 1
+  "Ko'char" = 1
+  "Monvdan" = 1
+  "Negohock" = 1
+  "Lillelof" = 1
+  "Gorzum" = 1
+  "Lillechar" = 1
+  "Halrash" = 1
+  "Mok'gun" = 1
+  "Kurri" = 1
+  "Arkkgun" = 1
+  "Snooroc" = 1
+  "Kulash" = 1
+  "Negogun" = 1
+  "Kachar" = 1
+  "Monrri" = 1
+  "Kurun" = 1
+  "Davdan" = 1
+  "Gorlof" = 1
+  "Kashock" = 1
+  "Kuoroc" = 1
+  "Monrash" = 1
+  "Gornos" = 1
+  "Monnos" = 1
+  "Kasder" = 1
+  "Halnos" = 1
+  "Arkkrun" = 1
+  "Snovdan" = 1
+  "Karun" = 1
+  "Kanan" = 1
+  "Negohoff" = 1
+  "Halhoff" = 1
+  "Snozum" = 1
+  "Monlash" = 1
+  "Kurash" = 1
+  "Halrri" = 1
+  "Kader" = 1
+  "Theder" = 1
+  "Thelof" = 1
+  "Gorchar" = 1
+  "Kahoff" = 1
+  "Lillevdan" = 1
+  "Sorvdan" = 1
+  "Kunan" = 1
+  "Ko'hock" = 1
+  "Negonos" = 1
+  "Mok'rri" = 1
+  "Darash" = 1
+  "Arkknan" = 1
+  "Arkkder" = 1
+  "Halder" = 1
+  "Kunos" = 1
+  "Gororoc" = 1
+  "Kashoff" = 1
+  "Lillehock" = 1
+  "Arkkrash" = 1
+  "Sorrash" = 1
+  "Negolof" = 1
+  "Ko'rri" = 1
+  "Calzum" = 1
+  "Calrri" = 1
+  "Monrun" = 1
+  "Negooroc" = 1
+  "Ko'hoff" = 1
+  "Thevdan" = 1
+  "Thegun" = 1
+  "Callof" = 1
+  "Monhoff" = 1
+  "Halzum" = 1
+  "Snoder" = 1
+  "Arkkhock" = 1
+  "Negoder" = 1
+  "Sorhock" = 1
+  "Theoroc" = 1
+  "Kalof" = 1
+  "Arkklof" = 1
+  "Mok'hock" = 1
+  "Kasvdan" = 1
+  "Kasnos" = 1
+  "Kuzum" = 1
+  "Mok'der" = 1
+  "Karash" = 1
+  "Sorgun" = 1
+  "Snolash" = 1
+  "Danos" = 1
+  "Kasrri" = 1
+  "Calvdan" = 1
+  "Negorash" = 1
+  "Thehoff" = 1
+  "Dazum" = 1
+  "Negovdan" = 1
+  "Dalof" = 1
+  "Sorrri" = 1
+  "Ko'gun" = 1
+  "Snorun" = 1
+  "Lillerash" = 1
+  "Lillerun" = 1
+  "Lillegun" = 1
+  "Gorhock" = 1
+  "Sorlash" = 1
+  "Snorash" = 1
+  "Ko'nos" = 1
+  "Gorrri" = 1
+  "Lillenos" = 1
+  "Halchar" = 1
+  "Dader" = 1
+  "Mok'oroc" = 1
+  "Gorrun" = 1
+  "Dalash" = 1
+  "Snonan" = 1
+  "Haloroc" = 1
+  "Snorri" = 1
+  "Kaschar" = 1
+  "Kuhock" = 1
+  "Negorun" = 1
+  "Mok'rash" = 1
+  "Kugun" = 1
+  "Snohock" = 1
+  "Therash" = 1
+  "Arkkchar" = 1
+  "Kavdan" = 1
+  "Mok'run" = 1
+  "Calhoff" = 1
+  "Mok'nos" = 1
+  "Lilleoroc" = 1
+  "Gornan" = 1
+  "Thelash" = 1
+  "Sororoc" = 1
+  "Mok'zum" = 1
+  "Ko'der" = 1
+  "Kasrash" = 1
+  "Sorder" = 1
+  "Negochar" = 1
+  "Snogun" = 1
+  "Snohoff" = 1
+  "Sornan" = 1
+  "Negorri" = 1
+  "Sorchar" = 1
+  "Dahock" = 1
+  "Kasrun" = 1
+  "Arkkzum" = 1
+  "Calchar" = 1
+  "Ko'run" = 1
+}
+
+leader_names = {
+    "Seahold" "Sealash" "Seafury" "Seastrider" "Searunner" "Seachaser" "Seacrush" "Seatouch" "Seafist" "Seasmash" "Seamight" "Seatouch" 
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	sea_giant_inf_a_1
+	sea_giant_cav_a_1
+	sea_giant_inf_a_2
+	sea_giant_cav_a_2
+	sea_giant_inf_a_3
+	sea_giant_cav_a_3
+	sea_giant_inf_a_4
+	sea_giant_cav_a_4
+	sea_giant_inf_a_5
+	sea_giant_cav_a_5
+}

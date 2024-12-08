@@ -15,8 +15,9 @@
  
  wwu_setup_outland.2.title: "Draenor under Siege"
  wwu_setup_outland.2.desc: "As the influence of Fel spreads through Draenor, and the warlocks of the Shadow Council and other malicious organisations taint the land in an attempt to repel the human invaders. Some, such as Ner'zhul wish to escape to other worlds, and seek to open up additional dimensional portals. Such an act will surely destroy Draenor as we know it."
- wwu_setup_outland.2.option.a: "Prevent Ner'zhul from opening the portals"
+ wwu_setup_outland.2.option.a: "Prevent the portals from being opened"
  wwu_setup_outland.2.option.b: "Alas, Draenor is to die..."
+ wwu_setup_outland.2.option.c: "Destroy the portals completely"
  
  delay_draenor_collapse: "Draenor Collapse Delay Cooldown"
  desc_delay_draenor_collapse: ""
@@ -26,6 +27,8 @@
  
  DRAENOR_COLLAPSE_DELAYED_TT: "The collapse of Draenor shall be delayed for §Y10§! years."
  DRAENOR_COLLAPSE_TT: "Draenor will collapse into Outland.\n\nAll countries within Draenor will be placed within a set location upon Outland, and Draenor provinces shall be lost.\n\nCountries in Outland will gain additional bonuses if they have §Y250§! development, §Y500§! development and §Y1000§! development at the moment of collapse."
+ 
+ DRAENOR_COLLAPSE_STOPPED_TT: "The collapse of Draenor shall be prevented entirely."
  
  #-----------------------------------------------
  # Draenei
@@ -160,7 +163,7 @@
  A43_PARTIAL_SETUP_TT: "§YPale Caverns§! and §YStonecrag Gorge§! will be ceded to §Y[spawned_nation.GetName]§!.\n\nOwned provinces that are §YPale Caverns§! and §YStonecrag Gorge§! that are not §Y[Root.Culture.GetName]§! culture will become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!.\n\nOwned provinces that are §YPale Caverns§! and §YStonecrag Gorge§! that are §Y[Root.Culture.GetName]§! will be given a §Y[spawned_nation.GetName]§! core."
  
  wwu_setup_orc.10.title: "Founding of Orgrimmar"
- wwu_setup_orc.10.desc: "Thrall and his ensemble of freed orcs have sailed across the vast ocean of Azeroth, landing in Kalimdor. No longer burdened by the Old Horde and its bloodthirsty and warlike traditions, Orgrimmar represents a new Horde, dedicated to survival and prosperity rather than conquest."
+ wwu_setup_orc.10.desc: "Thrall and his ensemble of freed orcs have sailed across the vast ocean of Azeroth, landing in Kalimdor. No longer burdened by the Horde and its bloodthirsty and warlike traditions, Orgrimmar represents a new Horde, dedicated to survival and prosperity rather than conquest."
  wwu_setup_orc.10.option.a: "Arise!"
  wwu_setup_orc.10.option.b: "Make them fight for it!"
  wwu_setup_orc.10.option.c: "We will not tolerate them!"
@@ -471,3 +474,16 @@
  B07_FULL_SETUP_TT: "§YCaverns of Time§! will be ceded to §Y[spawned_nation.GetName]§!, become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!."
  
  B07_PARTIAL_SETUP_TT: "If §YCaverns of Time§! is empty it will be ceded to §Y[spawned_nation.GetName]§!.\n\nOwned provinces that are §YCaverns of Time§! that are not §Y[Root.Culture.GetName]§! culture will become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!.\n\nOwned provinces that are §YCaverns of Time§! that are §Y[Root.Culture.GetName]§! will be given a §Y[spawned_nation.GetName]§! core."
+
+ #----------------------------------------------
+ # Teldrassil Native
+ #----------------------------------------------
+ wwu_setup_teldrassil.1.title: "Arrival of Bloodfeather Harpies"
+ wwu_setup_teldrassil.1.desc: "The Bloodfeather harpies had arrived within the newly grown world tree of Teldrassil, wishing to estabilsh their nests within its grounds"
+ wwu_setup_teldrassil.1.option.a: "Oh no!"
+ wwu_setup_teldrassil.1.option.b: "Tolerate them in our lands for now..."
+ wwu_setup_teldrassil.1.option.c: "We will not tolerate them!"
+
+ BLD_FULL_SETUP_TT: "Owned provinces in the §YNorth Teldrassiln§! area will be ceded to §Y[spawned_nation.GetName]§!, become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!."
+
+ BLD_PARTIAL_SETUP_TT: "Empty provinces in the §YNorth Teldrassil§! area will be ceded to §Y[spawned_nation.GetName]§!.\n\nOwned provinces in the §YGadgetzan§! area that are not §Y[Root.Culture.GetName]§! culture will become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!.\n\nOwned provinces in the §YNorth Teldrassil§! area that are §Y[Root.Culture.GetName]§! will be given a §Y[spawned_nation.GetName]§! core."

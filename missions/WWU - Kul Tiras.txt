@@ -296,10 +296,11 @@ A14_kul_tiras_column_2 = {
         
 		trigger = {
             army_size_percentage = 0.9
+            manpower_percentage = 0.75
 		}
         
 		effect = {
-			add_mil_power = 100
+			add_mil_power = 125
             
             area_brennadam   = {
                 add_permanent_claim = ROOT
@@ -309,6 +310,43 @@ A14_kul_tiras_column_2 = {
             }
             area_clearcut = {
                 add_permanent_claim = ROOT
+            }
+
+            hidden_effect = {
+                if = {
+                    limit = {
+                        A14 = {
+                            ai = yes
+                        }
+                    }
+
+                    add_manpower = 25
+                    add_treasury = 500
+
+                    define_general = {
+                        shock = 4
+                        fire = 4
+                        manuever = 4
+                        siege = 4
+                        name = "Tirsaian Legend"
+                    }
+
+                    add_country_modifier = {
+                        name = kultiras_boost_early
+                        duration = 3650
+                    }
+                    
+                    # Briarback
+                    declare_war_with_cb = {
+                        who = BRB
+                        casus_belli = cb_annex
+                    }
+                    # Stormshell
+                    declare_war_with_cb = {
+                        who = SHL
+                        casus_belli = cb_annex
+                    }
+                }
             }
         }
 	}
@@ -364,6 +402,31 @@ A14_kul_tiras_column_2 = {
                     }
                 }
             }
+
+            hidden_effect = {
+                if = {
+                    limit = {
+                        A14 = {
+                            ai = yes
+                        }
+                    }
+
+                    add_manpower = 15
+                    add_treasury = 500
+
+                    # Freehold
+                    declare_war_with_cb = {
+                        who = FRE
+                        casus_belli = cb_vassalize_mission
+                    }
+                    # The Castaways
+                    declare_war_with_cb = {
+                        who = CTW
+                        casus_belli = cb_annex
+                    }
+
+                }
+            }
         }
 	}
     
@@ -374,20 +437,25 @@ A14_kul_tiras_column_2 = {
 		required_missions = { A14_problems_of_stormsong_valley }
         
 		trigger = {
-            if = {
-                limit = {
-                    exists = FRE
-                }
-                FRE = {
+            OR = {
+                NOT = { exists = CTW }
+                CTW = {
                     is_subject_of = ROOT
                 }
             }
-            else = {
-                always = yes
+            OR = {
+                FRE = {
+                    is_subject_of = ROOT
+                }
+                NOT = { exists = FRE }
             }
 		}
+
 		provinces_to_highlight = {
-            owned_by = FRE
+			OR = {
+				owned_by = CTW
+				owned_by = FRE
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
         
@@ -662,10 +730,10 @@ A14_kul_tiras_column_2 = {
                     }
                 }
                 
-                custom_tooltip = JAINA_MAGE_TT
-                hidden_effect = {
-                    set_global_flag = jaina_in_dalaran
-                }
+                #custom_tooltip = JAINA_MAGE_TT
+                #hidden_effect = {
+                #    set_global_flag = jaina_in_dalaran
+                #}
             }
             else = {
                 add_prestige = 5
@@ -961,9 +1029,12 @@ A14_kul_tiras_column_5 = {
 
         trigger = {
             navy_size = 30
-            num_of_explorers = 1
-            num_of_admirals = 2
+            has_flagship = yes
             sailors = 2500
+            OR = {
+                num_of_explorers = 1
+                num_of_admirals = 1
+            }
         }
 
         effect = {
@@ -1013,6 +1084,26 @@ A14_kul_tiras_column_5 = {
             add_country_modifier = {
                 name = "tirasian_colonial_ambitions"
                 duration = -1
+            }
+
+            hidden_effect = {
+                if = {
+                    limit = {
+                        A14 = {
+                            ai = yes
+                        }
+                    }
+
+                    3125 = {
+                        create_colony = 900
+                    }
+                    4112 = {
+                        create_colony = 900
+                    }
+                    3124 = {
+                        create_colony = 900
+                    }
+                }
             }
         }
     }

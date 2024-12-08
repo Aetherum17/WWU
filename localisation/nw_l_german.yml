@@ -31,7 +31,7 @@
  PROTECTORATE_LEAD:0 "Has $LIST$ as protectorates"
  PROTECTORATE_WEAK:0 "Protectorate of $LIST$"
  HEADER_SUBJECTS:0 "Subjects"
- HEADER_ESTATES:0 "Realm Management"
+ HEADER_ESTATES:0 "Estates"
  HEADER_STATES:0 "States"
  HEADER_NATIVES:0 "Natives"
  HEADER_RELIGIOUS_REFORMS:0 "Religious Reforms"

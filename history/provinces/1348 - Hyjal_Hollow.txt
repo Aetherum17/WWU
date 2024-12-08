@@ -16,7 +16,7 @@ hre = no
 trade_goods = resource_rare_wood
 
 
-618.1.1 = {
+617.1.1 = {
     culture = culture_doomguard
     religion = fel
     owner = G02
@@ -26,10 +26,21 @@ trade_goods = resource_rare_wood
 }
 
 631.1.1 = {
-    culture = culture_twilight_cultist
-    religion = twilight_cult
-    owner = A43
-    controller = A43
-    add_core = A43
+    owner = P26
+    controller = P26
+    add_core = P26
+	
+	culture = culture_fire
+    religion = flame
+		
     trade_goods = resource_rare_ores
+}
+
+632.1.1 = {    
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+	religion = druidism
+	culture = culture_forest_nymph
 }

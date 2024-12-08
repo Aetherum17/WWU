@@ -1,0 +1,231 @@
+namespace = wwu_mission_lordeast
+
+#X02_support_of_north_villager
+country_event = {
+	id = wwu_mission_lordeast.1
+	title = wwu_mission_lordeast.1.title
+	desc = wwu_mission_lordeast.1.desc
+	picture = IVORY_KNIGHT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.1.option.a
+		3017 = { #Emberstone Village
+			cede_province = X02
+			add_core = X02
+			
+			infantry = X02
+		}
+		
+		848 = { #Emberstone Mine
+			cede_province = X02
+			add_core = X02
+		}
+		
+		A12 = {
+			country_event = { id = wwu_mission_lordeast.7 }
+		}
+	}
+}
+
+#X02_support_of_south_villager
+country_event = {
+	id = wwu_mission_lordeast.2
+	title = wwu_mission_lordeast.2.title
+	desc = wwu_mission_lordeast.2.desc
+	picture = WHITE_KNIGHT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.2.option.a
+		842 = { #Stormglen Village
+			cede_province = X02
+			add_core = X02
+			
+			infantry = X02
+			infantry = X02
+		}
+		890 = { #Tempest's Reach
+			add_unit_construction = {
+				type = infantry
+				amount = 3
+				speed = 0.35
+				cost = 0
+			}
+		}
+	}
+}
+
+#X02_support_of_gilnean_nobles
+country_event = {
+	id = wwu_mission_lordeast.3
+	title = wwu_mission_lordeast.3.title
+	desc = wwu_mission_lordeast.3.desc
+	picture = BLACK_KNIGHT_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.3.option.a
+		505 = { #Northen Headlands
+			cede_province = X02
+			add_core = X02
+		}
+		809 = { #The Headlands
+			cede_province = X02
+			add_core = X02
+			
+			infantry = X02
+			cavalry = X02
+		}
+	}
+}
+
+#X02_support_of_the_merchants
+country_event = {
+	id = wwu_mission_lordeast.4
+	title = wwu_mission_lordeast.4.title
+	desc = wwu_mission_lordeast.4.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.4.option.a
+		774 = { #Keel Harbour
+			cede_province = X02
+			add_core = X02
+			
+			artillery = X02
+		}
+		
+		if = {
+			limit = {
+				3016 = { #Duskhaven
+					owned_by = A12
+				}
+			}
+			3016 = { #Duskhaven
+				cede_province = X02
+				add_core = X02
+			}
+		}
+	}
+}
+
+#X02_base_at_purgation_isle
+country_event = {
+	id = wwu_mission_lordeast.5
+	title = wwu_mission_lordeast.5.title
+	desc = wwu_mission_lordeast.5.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.5.option.a
+		962 = { #Purgation Isle
+			cede_province = X02
+			add_core = X02
+			
+			owner = { country_event = { id = wwu_mission_lordeast.8 } }
+		}
+		add_country_modifier = {
+			name = X02_base_at_purgation_isle_modifier
+			duration = 3650
+		}
+		A12 = {
+			country_event = { id = wwu_mission_lordeast.8 }
+		}
+	}
+}
+
+#The End
+country_event = {
+	id = wwu_mission_lordeast.6
+	title = wwu_mission_lordeast.6.title
+	desc = wwu_mission_lordeast.6.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.6.option.a
+		inherit = A12
+		
+		#custom_tooltip = " "
+		add_adm_power = 500
+		add_dip_power = 500
+		add_mil_power = 500
+		set_ruler_flag = is_immunize_to_the_worgen_curse
+		
+		#custom_tooltip = " "
+		
+		change_tag = A12
+		swap_free_idea_group = yes
+		swap_non_generic_missions = yes
+		override_country_name = A12
+		set_capital = 927
+		
+		#custom_tooltip = " "
+		add_government_reform = gilneas_kingdom_reform
+		
+		every_country = {
+			limit = { ai = no }
+			country_event = { id = wwu_mission_lordeast.9 }
+		}
+	}
+}
+
+#Godfrey took the Emberstone Area
+country_event = {
+	id = wwu_mission_lordeast.7
+	title = wwu_mission_lordeast.7.title
+	desc = wwu_mission_lordeast.7.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.7.option.a
+	}
+}
+
+#Godfrey took the Purgation Isle
+country_event = {
+	id = wwu_mission_lordeast.8
+	title = wwu_mission_lordeast.8.title
+	desc = wwu_mission_lordeast.8.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.8.option.a
+	}
+}
+
+#Victory of Godfrey
+country_event = {
+	id = wwu_mission_lordeast.9
+	title = wwu_mission_lordeast.9.title
+	desc = wwu_mission_lordeast.9.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_lordeast.9.option.a
+	}
+}

@@ -31,7 +31,7 @@ G15_oogah_column_3 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_invade_the_oasis_g15
-                duration = -1
+                duration = 9125
             }
 			add_mil_power = 150
 		}
@@ -96,7 +96,7 @@ G15_oogah_column_3 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_desert_homeland_g15
-                duration = -1
+                duration = 9125
             }
 			seize_empty_province_effect = { province = 4593 }
 			seize_empty_province_effect = { province = 4594 }
@@ -123,7 +123,7 @@ G15_oogah_column_3 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_raiding_the_temples_of_orsis_g15
-                duration = -1
+                duration = 9125
             }
 			add_mil_power = 150
 		}
@@ -218,7 +218,7 @@ G15_oogah_column_3 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_calling_of_the_desert_g15
-                duration = -1
+                duration = 9125
             }
 			seize_empty_province_effect = { province = 4608 }
 			seize_empty_province_effect = { province = 4609 }
@@ -284,7 +284,7 @@ G15_oogah_column_4 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_raiding_the_obelisks_g15
-                duration = -1
+                duration = 9125
             }
 			add_mil_power = 150
 		}
@@ -316,7 +316,7 @@ G15_oogah_column_4 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_trading_routes_g15
-                duration = -1
+                duration = 9125
             }
 			if = {
                 limit = {
@@ -582,7 +582,7 @@ G15_oogah_column_5 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_loot_the_titan_facilities_g15
-                duration = -1
+                duration = 9125
             }
 			add_mil_power = 150
 		}
@@ -599,7 +599,6 @@ G15_oogah_column_5 = {
                 province_id = 1239
 				province_id = 4566
 				province_id = 1549
-				province_id = 1234
 			}
 		}
 		
@@ -674,25 +673,11 @@ G15_oogah_column_5 = {
                     NOT = { native_size = 1 }
                 }
             }
-			if = {
-                limit = {
-                    1234 = { 
-                        is_empty = yes
-                    }
-                }
-                1234 = { 
-                    num_of_units_in_province = {
-                        who = ROOT
-                        amount = 2
-                    }
-                    NOT = { native_size = 1 }
-                }
-            }
 		}
 		effect = {			
 			add_country_modifier = {
                 name = mission_sand_oh_lovely_sand_g15
-                duration = -1
+                duration = 9125
             }
 			area_the_noxious_lair = {
                 add_permanent_claim = ROOT

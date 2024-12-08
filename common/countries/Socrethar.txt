@@ -1,0 +1,183 @@
+graphical_culture = draenei_gfx
+
+color = { 109 255 85 }
+
+monarch_names = {
+	"Hammor" = 1
+	"Baal'or" = 1
+	"Jaebad" = 1
+	"Thahechet" = 1
+	"Ridged" = 1
+	"Stannird" = 1
+	"Ekot" = 1
+	"Yugid" = 1
+	"Cuachad" = 1
+	"Hegem" = 1
+	"Uagal'ar" = 1
+	"Enirat" = 1
+	"Igid" = 1
+	"Begnan" = 1
+	"Bugmis" = 1
+	"Eliuth" = 1
+	"Gefiun" = 1
+	"Laphaarurd" = 1
+	"Fondehdu" = 1
+	"Thobhol" = 1
+	"Rubdet" = 1
+	"Khacu" = 1
+	"Dendosen" = 1
+	"Lihres" = 1
+	"Barneg" = 1
+	"Yumi" = 1
+	"Drol'mig" = 1
+	"Nodoro" = 1
+	"Nackiin" = 1
+	"Khertes" = 1
+	"Judot" = 1
+	"Garhiid" = 1
+	"Stadus" = 1
+	"Dresom" = 1
+	"Stuggi" = 1
+	"Tikdoc" = 1
+	"Aasmal" = 1
+	"Jizruk" = 1
+	"Lozord" = 1
+	"Osmen" = 1
+	"Ducibgor" = 1
+	"Thickor" = 1
+	"Tarre" = 1
+	"Tabraa" = 1
+	"Khulna" = 1
+	"Hardog" = 1
+	"Tullon'el" = 1
+	"Kecmir" = 1
+	"Yikna" = 1
+	"Mucot" = 1
+	"Haeggos" = 1
+	"Jal'golliil" = 1
+	"Rurtadac" = 1
+	"Valurd" = 1
+	"Vondibis" = 1
+	"Yuakem" = 1
+	"Vebiuk" = 1
+	"Kolnen" = 1
+	"Jartuadel" = 1
+	"Holga" = 1
+	"Jomec" = 1
+	"Stimaga" = 1
+	"Riknis" = 1
+	"Tezaat" = 1
+	"Jebi" = -1
+	"Gida" = -1
+	"Avre" = -1
+	"Enlett" = -1
+	"Ruresu" = -1
+	"Erhi" = -1
+	"Isinih" = -1
+	"Irgagett" = -1
+	"Ramohaa" = -1
+	"Thirrel" = -1
+	"Ifae" = -1
+	"Gelett" = -1
+	"Themosu" = -1
+	"Ufbe" = -1
+	"Vezritt" = -1
+	"Imullatt" = -1
+	"Gaedore" = -1
+	"Huhsit" = -1
+	"Bikide" = -1
+	"Cenradus" = -1
+	"Finrodis" = -1
+	"Phibah" = -1
+	"Ruruna" = -1
+	"Filott" = -1
+	"Vordu" = -1
+	"Honos" = -1
+	"Niahlall" = -1
+	"Vaba" = -1
+	"Thorhi" = -1
+	"Meron" = -1
+	"Siabot" = -1
+	"Folral" = -1
+	"Seva" = -1
+	"Sarhel" = -1
+	"Fuzseten" = -1
+	"Bahett" = -1
+	"Burleh" = -1
+	"Lubetreh" = -1
+	"Sarrii" = -1
+	"Sevhonel" = -1
+	"Lefal" = -1
+	"Fotretun" = -1
+	"Ansanatt" = -1
+	"Khonra" = -1
+	"Khuhil" = -1
+	"Gihlett" = -1
+	"Ura" = -1
+	"Nizaan" = -1
+	"Bedes" = -1
+
+}
+
+leader_names = {
+	"Lighttouched" "Lightveil" "Lightfury" "Lightfall" "Lightfist" "Lightwalker" "Lightwhisper" "Lightspeaker" 
+    "Spirittouched" "Spiritveil" "Spiritfury" "Spiritfall" "Spiritfist" "Spiritwalker" "Spiritwhisper" "Spiritspeaker" 
+    "Suntouched" "Sunveil" "Sunfury" "Sunfall" "Sunfist" "Sunwalker" "Sunwhisper" "Sunspeaker" 
+    "Arcanetouched" "Arcaneveil" "Arcanefury" "Arcanefall" "Arcanefist" "Arcanewalker" "Arcanewhisper" "Arcanespeaker" 
+    "Brighttouched" "Brightveil" "Brightfury" "Brightfall" "Brightfist" "Brightwalker" "Brightwhisper" "Brightspeaker" 
+    "Lumitouched" "Lumifury" "Lumifall" "Lumifist" "Lumiwalker" "Lumiwhisper" "Lumispeaker" 
+    "Luxtouched" "Luxveil" "Luxfury" "Luxfall" "Luxfist" "Luxwalker" "Luxwhisper" "Luxspeaker"
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	draenei_inf_a_1
+	draenei_cav_a_1
+	draenei_inf_a_2
+	draenei_cav_a_2
+	draenei_inf_a_3
+	draenei_cav_a_3
+	draenei_inf_a_4
+	draenei_cav_a_4
+	draenei_inf_a_5
+	draenei_cav_a_5
+}
+

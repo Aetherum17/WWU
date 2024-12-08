@@ -290,27 +290,60 @@ STW_stormwind_column_1 = {
 				full_idea_group = wwu_development_ideas
 			}
 
-			area_stormwind = {
-				type = all
-				OR = {
-					has_state_edict = edict_encourage_construction
-					has_state_edict = edict_encourage_development
+			if = {
+				limit = {
+					NOT = { has_dlc = "Mandate of Heaven" }
+				}
+				area_stormwind = {
+					type = all
+					devastation = 0
+				}
+			}
+			else = {
+				area_stormwind = {
+					type = all
+					OR = {
+						has_state_edict = edict_encourage_construction
+						has_state_edict = edict_encourage_development
+					}
 				}
 			}
 
-			area_stormwind_coast = {
-				type = all
-				OR = {
-					has_state_edict = edict_encourage_construction
-					has_state_edict = edict_encourage_development
+			if = {
+				limit = {
+					NOT = { has_dlc = "Mandate of Heaven" }
+				}
+				area_stormwind_coast = {
+					type = all
+					devastation = 0
+				}
+			}
+			else = {
+				area_stormwind_coast = {
+					type = all
+					OR = {
+						has_state_edict = edict_encourage_construction
+						has_state_edict = edict_encourage_development
+					}
 				}
 			}
 
-			area_lower_stormwind = {
-				type = all
-				OR = {
-					has_state_edict = edict_encourage_construction
-					has_state_edict = edict_encourage_development
+			if = {
+				limit = {
+					NOT = { has_dlc = "Mandate of Heaven" }
+				}
+				area_lower_stormwind = {
+					type = all
+					devastation = 0
+				}
+			}
+			else = {
+				area_lower_stormwind = {
+					type = all
+					OR = {
+						has_state_edict = edict_encourage_construction
+						has_state_edict = edict_encourage_development
+					}
 				}
 			}
 		}

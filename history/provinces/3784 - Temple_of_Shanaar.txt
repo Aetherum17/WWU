@@ -18,10 +18,24 @@ trade_goods = resource_artifacts
     religion = fel
 }
 
+598.1.1 = {
+    owner = VOL
+    controller = VOL
+    add_core = VOL
+    remove_core = A40
+	
+    base_tax = 3
+    base_production = 2
+    base_manpower = 3
+
+    culture = culture_black_dragonflight
+    religion = dragon_aspects
+}
+
 # Outlandification
 600.1.1 = {
     
     owner = ---
     controller = ---
-    remove_core = A40
+    remove_core = VOL
 }

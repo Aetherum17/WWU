@@ -347,7 +347,7 @@ giant_tribe_reform = {
     modifiers = {
         build_cost = -0.1
 		defensiveness = 0.15
-        hostile_attrition = 2
+        hostile_attrition = 1
         
         land_forcelimit_modifier = 0.1
         land_forcelimit = 3
@@ -439,44 +439,6 @@ ancient_clan_reform = {
     ai = { factor = 0 }
 }
 
-# Used for splinter groups of important nations
-expeditionary_force_reform = {
-	icon                        = "return_to_camp"
-    legacy_equivalent           = expeditionary_force_legacy
-    valid_for_new_country       = no 
-    allow_normal_conversion     = no 
-	allow_convert               = no 
-    valid_for_nation_designer   = yes
-	nation_designer_cost        = 0
-    lock_level_when_selected    = yes
-    
-	heir = no
-    generals_become_rulers  = yes
-    
-	modifiers = {
-        colonists = 1
-		global_regiment_cost = -0.1
-        global_regiment_recruit_speed = -0.2
-        
-        land_forcelimit_modifier = 0.1
-        land_forcelimit = 3
-        naval_forcelimit_modifier = 0.1
-        naval_forcelimit = 3
-        
-        governing_capacity = -50
-	}
-	
-    custom_attributes = {
-		locked_government_type = yes
-	}
-    
-    potential = {
-		has_reform = expeditionary_force_reform
-	}
-    
-	ai = { factor = 0 }
-}
-
 # Used for Criminal nations
 criminal_organization_reform = {
 	icon                        = "shadow_reflection"
@@ -489,9 +451,9 @@ criminal_organization_reform = {
     lock_level_when_selected    = yes
     
     modifiers = {
-        spy_offence = 0.33
+        spy_offence = 0.2
         rebel_support_efficiency = 1.0
-		loot_amount = 0.25
+		loot_amount = 0.2
         
         governing_capacity = -50
         
@@ -533,7 +495,7 @@ dwarven_clan_reform = {
 	queen = yes
     
     modifiers = {
-        global_prosperity_growth = 0.25
+        global_prosperity_growth = 0.15
 		defensiveness = 0.2
 		siege_ability = 0.1
         
@@ -574,8 +536,8 @@ satyr_sect_reform = {
     
     modifiers = {
 		papal_influence = 1
-        culture_conversion_cost = -0.2
-        global_attacker_dice_roll_bonus = 1
+        culture_conversion_cost = -0.15
+        own_territory_dice_roll_bonus = 1 
         
         land_forcelimit_modifier = 0.1
         land_forcelimit = 3
@@ -615,8 +577,8 @@ centaur_khanate_reform = {
     
     modifiers = {
         harsh_treatment_cost = -0.2
-		cavalry_power = 0.25
-        raze_power_gain = 0.33
+		cavalry_power = 0.1
+        raze_power_gain = 0.2
         
         land_forcelimit_modifier = 0.1
         land_forcelimit = 3
@@ -658,10 +620,9 @@ migratory_centaur_reform = {
     
     modifiers = {
         migration_cost = -0.5
-		cavalry_power = 0.25
-        raze_power_gain = 0.33
+		cavalry_power = 0.1
+        raze_power_gain = 0.2
         
-        land_forcelimit_modifier = 0.1
         land_forcelimit = 3
         
         governing_capacity = -50
@@ -701,10 +662,10 @@ mantid_swarm_reform = {
     modifiers = {
         free_mil_policy = 1
         province_warscore_cost = -0.1
-		manpower_recovery_speed = 0.33
+		manpower_recovery_speed = 0.15
         
         land_forcelimit_modifier = 0.1
-        land_forcelimit = 3
+        land_forcelimit = 2
         
         max_absolutism = 20
 	}
@@ -805,11 +766,10 @@ worgen_pack_reform = {
     generals_become_rulers  = yes
     
     modifiers = {
-        years_of_nationalism = -5
+        years_of_nationalism = -3
         culture_conversion_cost = -0.15
-		shock_damage = 0.15
+		shock_damage = 0.1
         
-        land_forcelimit_modifier = 0.1
         land_forcelimit = 3
         
         governing_capacity = -50
@@ -913,7 +873,7 @@ kraul_reform = {
     modifiers = {
         global_monthly_devastation = -0.03
         province_warscore_cost = -0.1
-        hostile_attrition = 3
+        hostile_attrition = 1
         
         land_forcelimit_modifier = 0.1
         land_forcelimit = 3
@@ -946,14 +906,13 @@ vrykul_clan_reform = {
     maintain_dynasty    = yes
     
     modifiers = {
+        may_perform_slave_raid = yes
         global_autonomy = -0.03
         unjustified_demands = -0.05
         infantry_power = 0.05
 
         land_forcelimit_modifier = 0.1
-        land_forcelimit = 3
         naval_forcelimit_modifier = 0.1
-        naval_forcelimit = 3
 
         max_absolutism = 10
 	}
@@ -992,7 +951,7 @@ murloc_tribe_reform = {
     raze_province   = yes
     
     modifiers = {
-        global_spy_defence = 0.33
+        reinforce_speed = 0.1
         global_sailors_modifier = 0.25
 		reinforce_cost_modifier = -0.2
         
@@ -1013,4 +972,43 @@ murloc_tribe_reform = {
 	}
     
 	ai = { factor = 0 }
+}
+
+# Gronn Tribe
+gronn_tribe_reform = {
+    icon                        = "challenge"
+    legacy_equivalent           = gronn_tribe_legacy
+    valid_for_new_country       = no
+    allow_normal_conversion     = no
+    allow_convert               = no
+    valid_for_nation_designer   = yes
+    nation_designer_cost        = 0
+    lock_level_when_selected    = yes
+
+    allow_force_tributary = yes
+    raze_province = yes
+    generals_become_rulers  = yes
+
+    modifiers = {
+        army_tradition_from_battle = 0.1
+        general_cost = -0.25
+        loot_amount = 0.2
+        military_tactics = -0.15
+        global_regiment_recruit_speed = -0.2
+
+        land_forcelimit_modifier = 0.1
+        land_forcelimit = 5
+
+        max_absolutism = 10
+    }
+
+    custom_attributes = {
+        locked_government_type = yes
+    }
+
+    potential = {
+        primary_culture = culture_gronn
+    }
+
+    ai = { factor = 0 }
 }

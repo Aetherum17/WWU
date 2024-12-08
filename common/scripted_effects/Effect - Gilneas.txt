@@ -1,0 +1,930 @@
+#-----------------------------------
+# On Actions
+#-----------------------------------
+on_startup__gilneas = {
+        country_event = { id = wwu_gilneas.15 }
+		country_event = { id = wwu_gilneas.29 }
+		country_event = { id = wwu_gilneas.30 }
+}
+
+#-----------------------------------
+# Scripted Effect for Gilneas
+#-----------------------------------
+A12_unlock_decision_reborn_lordaeron = {
+
+	set_country_flag = A12_unlock_decision_reborn_lordaeron_cf #Trigger : A12_liberate_lordaeron_making_them_vassal
+}
+
+A12_unlock_decision_give_andoorhal_to_x04 = {
+
+	set_country_flag = A12_unlock_decision_reborn_lordaeron_for_andorhal_cf #Trigger : A12_give_andorhal_to_new_lordaeron
+}
+
+A12_unlock_decision_give_stratholme_to_x04 = {
+	set_country_flag = A12_unlock_decision_reborn_lordaeron_for_stratholme_cf #Trigger : A12_give_stratholme_to_new_lordaeron
+}	
+
+
+
+
+A12_liberate_lordaeron_making_them_vassal = { #Scripted Effect : cede all Andorhal province to X04 as Gilneas and libere New Lordaeron/Kingdom of Tirisfal
+    if = {
+        limit = {
+            area_lordaeron_capital = {
+                OR = {
+                    controlled_by = ROOT
+                    owned_by = ROOT
+                }
+            }
+            area_tirisfal_bulwark = {
+                OR = {
+                    controlled_by = ROOT
+                    owned_by = ROOT
+                }
+            }
+            has_country_flag = A12_unlock_decision_reborn_lordaeron_cf
+        }
+        # Handling provinces and cores
+        if = {
+            limit = { 543 = { controlled_by = ROOT } } # Lordaeron Capital
+            543 = {
+				rename_capital = "New Lordaeron City"
+				change_province_name = "New Lordaeron City"
+                cede_province = X04
+                add_core = X04
+				change_religion = ROOT
+            }
+			X04 = { set_capital = 543 }
+        }
+        if = {
+            limit = { 648 = { controlled_by = ROOT } }
+            648 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 1927 = { controlled_by = ROOT } }
+            1927 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 1928 = { controlled_by = ROOT } }
+            1928 = {
+                cede_province = X04
+                add_core = X04
+				
+				add_building_construction = {
+					building = wow_fort_1
+					speed = 0.5
+					cost = 0
+				}
+            }
+        }
+        if = {
+            limit = { 528 = { controlled_by = ROOT } }
+            528 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 1926 = { controlled_by = ROOT } }
+            1926 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 2958 = { controlled_by = ROOT } }
+            2958 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 2957 = { controlled_by = ROOT } }
+            2957 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 740 = { controlled_by = ROOT } }
+            740 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 2016 = { controlled_by = ROOT } }
+            2016 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 2024 = { controlled_by = ROOT } }
+            2024 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 931 = { controlled_by = ROOT } }
+            931 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 3068 = { controlled_by = ROOT } }
+            3068 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 1015 = { controlled_by = ROOT } }
+            1015 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 2956 = { controlled_by = ROOT } }
+            2956 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+    }
+    
+    # Define X04 characteristics
+    X04 = {
+        add_country_modifier = {
+            name = X04_the_crusade_colonisation
+            duration = 18250
+        }
+        add_country_modifier = {
+            name = X04_the_crusade_army
+            duration = 7300
+        }
+        if = {
+            limit = {
+                A12 = {
+                    NOT = { has_country_flag = A12_darius_crowley_killed }
+                }
+            }
+            if = {
+                limit = { has_global_flag = enable_worgen }
+                define_ruler = {
+                    name = "Darius"
+                    dynasty = "Crowley"
+                    adm = 5
+                    dip = 3
+                    mil = 6
+                    age = 50
+                    claim = 100
+                    culture = culture_gilnean
+                }
+            }
+            else = {
+                define_ruler = {
+                    name = "Darius"
+                    dynasty = "Crowley"
+                    adm = 5
+                    dip = 3
+                    mil = 6
+                    age = 50
+                    claim = 100
+                    culture = culture_gilnean_worgen
+                }
+            }
+            set_ruler_flag = warrior_personality
+            #custom_tooltip = " "
+            define_heir = {
+                name = "Lorna"
+                dynasty = "Crowley"
+                female = yes
+                adm = 4
+                dip = 4
+                mil = 4
+                age = 20
+                claim = 100
+                culture = culture_gilnean
+            }
+            #custom_tooltip = " "
+            define_ruler_to_general = {
+                shock = 4
+                fire = 5
+                manuever = 4
+                siege = 3
+            }
+            hidden_effect = {
+                add_ruler_personality = strict_personality
+                add_ruler_personality = inspiring_leader_personality
+                add_heir_personality = inspiring_leader_personality
+            }
+        }
+        else = {
+            define_ruler = {
+                name = "Lord Thomas"
+                dynasty = "Hewell"
+                adm = 4
+                dip = 2
+                mil = 3
+                age = 50
+                claim = 90
+                culture = culture_gilnean
+            }
+        }
+    }
+    
+    #custom_tooltip = " "
+    
+    hidden_effect = {
+        543 = {
+            if = {
+                limit = {
+                    A12 = {
+						primary_culture = culture_gilnean_worgen
+                    }
+                }
+                random_list = {
+                    50 = { change_culture = culture_gilnean_worgen }
+                    50 = { change_culture = culture_gilnean }
+                }
+			}
+			else = {
+                change_culture = culture_gilnean
+            }
+		}
+        X04 = {
+            add_government_reform = lordaeron_kingdom_reform
+            
+            country_event = { id = wwu_discovery.2 days = 2 }
+			
+			add_army_tradition = 20
+			add_navy_tradition = 20
+			add_yearly_manpower = 2.5
+			add_yearly_sailors = 0.5
+			add_years_of_income = 1.5
+			add_mercantilism = 10
+			
+			if = {
+				limit = {
+					A12 = {
+						primary_culture = culture_gilnean_worgen
+					}
+				}
+				change_primary_culture = culture_gilnean_worgen
+			}
+			if = {
+				limit = {
+					NOT = { technology_group = tech_worgen }
+					primary_culture = culture_gilnean_worgen
+				}				
+				change_technology_group = tech_worgen
+			}
+        }
+        region_tirisfal_glades = {
+            add_permanent_claim = X04
+        }
+        region_western_plaguelands = {
+            add_permanent_claim = X04
+        }
+		
+		A12 = {
+			if = {
+				limit = {
+					NOT = { has_country_flag = A12_darius_crowley_killed }
+				}
+				kill_leader = {
+					type = "Darius Crowley"
+				}
+				kill_leader = {
+					type = "Lorna Crowley"
+				}
+			}
+		}
+    }
+    
+    custom_tooltip = X04_gain_permanant_claim_in_tg_wg_eg
+    set_global_flag = is_X04_name_changing_flag
+	set_country_flag = A12_X04_spawned
+}
+
+A12_give_andorhal_to_new_lordaeron = { #Scripted Effect : cede all Andorhal province to X04 as Gilneas
+	if = {
+		limit = {
+            area_andorhal = {
+                OR = {
+                    controlled_by = ROOT
+                    owned_by = ROOT
+                }
+            }
+			
+            has_country_flag = A12_unlock_decision_reborn_lordaeron_for_andorhal_cf
+        }
+		if = {
+            limit = { 1923 = { controlled_by = ROOT } }
+            1923 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 703 = { controlled_by = ROOT } }
+            703 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+		if = {
+            limit = { 688 = { controlled_by = ROOT } }
+            688 = { #Andorhal
+                cede_province = X04
+                add_core = X04
+				rename_capital = "New Andorhal"
+				change_province_name = "New Andorhal"
+				
+				add_base_tax = 2
+				add_base_manpower = 3
+				
+				if = {
+					limit = {
+						A12 = {
+							primary_culture = culture_gilnean_worgen
+						}
+					}
+					random_list = {
+						50 = { change_culture = culture_gilnean_worgen }
+						50 = { change_culture = culture_gilnean }
+					}
+				}
+				else = {
+					change_culture = culture_gilnean
+				}
+            }
+        }
+	}
+}
+
+A12_give_stratholme_to_new_lordaeron = { #Scripted Effect : cede all Stratholme province to X04 as Gilneas
+	if = {
+		limit = {
+            area_stratholme = {
+                OR = {
+                    controlled_by = ROOT
+                    owned_by = ROOT
+                }
+            }
+			
+            has_country_flag = A12_unlock_decision_reborn_lordaeron_for_stratholme_cf
+			has_country_flag = A12_X04_spawned
+        }
+		if = {
+            limit = { 642 = { controlled_by = ROOT } }
+            642 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+        if = {
+            limit = { 4748 = { controlled_by = ROOT } }
+            4748 = {
+                cede_province = X04
+                add_core = X04
+            }
+        }
+		if = {
+            limit = { 4749 = { controlled_by = ROOT } }
+            4749 = {
+                cede_province = X04
+                add_core = X04
+            }
+		}
+		if = {
+			limit = { 4750 = { controlled_by = ROOT } }
+			4750 = {
+				cede_province = X04
+                add_core = X04
+			}
+		}
+		if = {
+			limit = { 4751 = { controlled_by = ROOT } }
+			4751 = {
+				cede_province = X04
+                add_core = X04
+			}
+		}
+		if = {
+			limit = { 4752 = { controlled_by = ROOT } }
+			4752 = {
+				cede_province = X04
+                add_core = X04
+			}
+		}
+		if = {
+			limit = { 4753 = { controlled_by = ROOT } }
+			4753 = {
+				cede_province = X04
+                add_core = X04
+			}
+        }
+	}
+}
+
+A12_random_owned_province_gain_bonus_fyp = { #Four Year Plan Mission bonus
+	if = {
+		limit = { NOT = { any_owned_province = { has_province_modifier = A12_four_year_plan_province_modifier } } }
+		random_owned_province = {
+			add_province_modifier = {
+				name = A12_four_year_plan_province_modifier
+				duration = 1460
+			}
+		}
+	}
+	if = {
+		limit = { NOT = { any_owned_province = { has_province_modifier = A12_four_year_plan_province_modifier } } }
+		random_owned_province = {
+			add_province_modifier = {
+				name = A12_four_year_plan_province_modifier
+				duration = 1460
+			}
+		}
+	}
+	if = {
+		limit = { NOT = { any_owned_province = { has_province_modifier = A12_four_year_plan_province_modifier } } }
+		random_owned_province = {
+			add_province_modifier = {
+				name = A12_four_year_plan_province_modifier
+				duration = 1460
+			}
+		}
+	}
+	if = {
+		limit = { NOT = { any_owned_province = { has_province_modifier = A12_four_year_plan_province_modifier } } }
+		random_owned_province = {
+			add_province_modifier = {
+				name = A12_four_year_plan_province_modifier
+				duration = 1460
+			}
+		}
+	}
+	if = {
+		limit = { NOT = { any_owned_province = { has_province_modifier = A12_four_year_plan_province_modifier } } }
+		random_owned_province = {
+			add_province_modifier = {
+				name = A12_four_year_plan_province_modifier
+				duration = 1460
+			}
+		}
+	}
+}
+
+A12_destroy_every_great_project = {
+	custom_tooltip = A12_destroy_every_great_project_tt
+	
+	hidden_effect = {
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = gp_stormwind_keep
+				}
+			}
+			destroy_great_project = {
+				type = gp_stormwind_keep
+			}
+			A12 = {
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+			}
+		}
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = gp_stormwind_mage_tower
+				}
+			}
+			destroy_great_project = {
+				type = gp_stormwind_mage_tower
+			}
+			A12 = {
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+			}
+		}
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = gp_cathedral_of_light
+				}
+			}
+			destroy_great_project = {
+				type = gp_cathedral_of_light
+			}
+			A12 = {
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+			}
+		}
+		random_province = {
+			limit = {
+				has_great_project = {
+					type = deeprun_tram
+				}
+			}
+			destroy_great_project = {
+				type = deeprun_tram
+			}
+			A12 = {
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+			}
+		}
+	}
+}
+
+A12_the_scourge_in_gilneas = { #contamine province with the Scourge
+	every_owned_province = {
+		limit = {
+			culture = culture_gilnean_worgen
+		}
+		set_province_flag = A12_the_scourge_in_gilneas_worgen
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	random_owned_province = {
+		limit = {
+			NOT = { culture = culture_gilnean_worgen }
+		}
+		random_list = {
+			33 = { change_culture = culture_scourge }
+			33 = { change_culture = culture_undead_human }
+			33 = { } #Nothing
+		}
+	}
+	
+	A12_the_scourge_in_gilneas_b = yes # -> change religion of contamined province
+}
+
+A12_the_scourge_in_gilneas_b = { #change religion
+	every_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = cult_of_the_damned
+	}
+}
+
+A12_the_scourge_in_gilneas_c = { #find the peace - shifting culture and religion for being like forsaken
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		change_culture = culture_forsaken
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+	random_owned_province = {
+		limit = {
+			OR = {
+				culture = culture_scourge
+				culture = culture_undead_human
+			}
+		}
+		change_religion = forgotten_shadow
+		
+		random_list = {
+			50 = { } #Nothing
+			50 = { change_culture = culture_forsaken }
+		}
+	}
+}

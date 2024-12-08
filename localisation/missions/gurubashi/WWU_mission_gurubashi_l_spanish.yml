@@ -106,6 +106,9 @@
  
  mission_hakkari_assimilation: "Hakkari Assimilation"
  desc_mission_hakkari_assimilation: ""
+
+ gurubashi_instability: "Gurubashi Instability"
+ desc_gurubashi_instability: ""
  
  #------------------------------
  # Flags

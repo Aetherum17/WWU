@@ -29,6 +29,8 @@
  music_sacred: "Sacred"
  music_graveyard: "Graveyard"
  music_war: "War"
+ music_blackrock_mountain: "Blackrock Mountain"
+ music_searing_gorge: "Searing Gorge"
  
  music_the_burning_legion: "The Burning Legion"
  music_shards_of_the_exodar: "Shards of the Exodar"
@@ -132,4 +134,16 @@
  music_lifeblood: "Lifeblood"
  music_tides_of_war: "Tides of War"
  
- 
+ music_gilneas_intro: "Gilneas"
+ music_neal_acree_demon_hunter: "Demon Hunter"
+ music_neal_acree_anduin: "A World Divided"
+ music_classic_battle_e: "Classic - Battle"
+ music_jaina_homeland: "Jaina Homeland"
+ music_pride_of_the_seas: "Pride of the Seas"
+ music_secrets_long_forgotten: "Secrets long forgotten"
+ music_invincible_an_karanir_thanagor: "Invincible - An Karanir Thanagor"
+ music_acherus: "Acherus Theme"
+ music_culling_of_stratholme: "Culling of Stratholme"
+ music_battle_of_dazaralor: "Battle of Dazar'Alor"
+ music_cata_shadow: "Shadow"
+ music_fungal_fields_hallowfall: "Fungal Fields"

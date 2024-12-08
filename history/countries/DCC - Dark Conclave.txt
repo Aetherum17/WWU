@@ -3,7 +3,7 @@ government = theocracy
 add_government_reform = monastic_order_reform
 primary_culture = culture_fallen_arrakoa
 religion = shadow
-capital = 3811
+capital = 3810
 
 540.1.1 = {
 	monarch = {

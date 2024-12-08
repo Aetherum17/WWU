@@ -51,7 +51,7 @@ trade_goods = unknown
     owner = B38
     controller = B38
     add_core = B38
-    remove_core = B89
+    remove_core = F67
     culture = culture_bogstrok
     religion = water
 

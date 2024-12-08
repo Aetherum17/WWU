@@ -48,3 +48,128 @@ union = {
     start_date = 626.1.1
     end_date = 631.1.1
 }
+
+
+#####################################
+### Dragonflights of Draenor ###
+#####################################
+
+# Sabellian - Dreadwing
+alliance = {
+    first = BD6
+    second = BD7
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Sabellian - Naltheraku
+alliance = {
+    first = BD6
+    second = BD8
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Sabellian - Veraku
+alliance = {
+    first = BD6
+    second = BD9
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Sabellian - Toranaku
+alliance = {
+    first = BD6
+    second = TON
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Sabellian - Valoku
+alliance = {
+    first = BD6
+    second = VOL
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Dreadwing - Naltheraku
+alliance = {
+    first = BD7
+    second = BD8
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Dreadwing - Veraku
+alliance = {
+    first = BD7
+    second = BD9
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Dreadwing - Toranaku
+alliance = {
+    first = BD7
+    second = TON
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Dreadwing - Valoku
+alliance = {
+    first = BD7
+    second = VOL
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Naltheraku - Veraku
+alliance = {
+    first = BD8
+    second = BD9
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Naltheraku - Toranaku
+alliance = {
+    first = BD8
+    second = TON
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Naltheraku - Valoku
+alliance = {
+    first = BD8
+    second = VOL
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Veraku - Toranaku
+alliance = {
+    first = BD9
+    second = TON
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Veraku - Valoku
+alliance = {
+    first = BD9
+    second = VOL
+    start_date = 598.1.1
+    end_date = 600.1.1
+}
+
+# Toranaku - Valoku
+alliance = {
+    first = TON
+    second = VOL
+    start_date = 598.1.1
+    end_date = 600.1.1
+}

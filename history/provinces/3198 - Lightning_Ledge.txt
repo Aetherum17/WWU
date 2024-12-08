@@ -15,3 +15,22 @@ religion = druidism
 hre = no
 trade_goods = resource_common_skins
 
+
+631.1.1 = {
+    owner = LYC
+    controller = LYC
+    add_core = LYC
+	add_core = A95
+	
+	culture = culture_wolfcult
+    religion = twilight_cult
+}
+
+632.1.1 = {
+    owner = A95
+    controller = A95
+	add_core = A95
+	
+	culture = culture_forest_nymph
+    religion = druidism
+}

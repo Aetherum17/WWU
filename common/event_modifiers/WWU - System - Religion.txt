@@ -26,6 +26,25 @@ kobold_rat_friends = {
     development_cost = -0.05
 }
 
+# Corrupted Titanic
+corrupt_titan_sanguinare_bloodlust = {
+    land_morale = 0.1
+}
+
+corrupt_titanic_visionare_aura = {
+    build_cost = -0.1
+    build_time = -0.15
+}
+
+corrupt_titanic_makers_touch = {
+    development_cost = -0.1
+}
+
+corrupt_titan_wisdom_of_creators = {
+    yearly_innovativeness = 0.25
+    all_power_cost = -0.02
+}
+
 # Chaos
 chaos_demonic_annihilation = {
     land_morale = 0.05

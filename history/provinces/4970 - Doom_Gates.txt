@@ -16,9 +16,7 @@ hre = no
 trade_goods = resource_rare_wood
 
 
-618.1.1 = {
-    culture = culture_pit_lord
-    religion = fel
+617.1.1 = {
     owner = G02
     controller = G02
     add_core = G02
@@ -28,16 +26,22 @@ trade_goods = resource_rare_wood
     base_production = 2
     base_manpower = 2
 
+	culture = culture_pit_lord
+    religion = fel
+	
     trade_goods = resource_fel
 }
 
 631.1.1 = {
-    culture = culture_twilight_cultist
-    religion = twilight_cult
     owner = A43
     controller = A43
     add_core = A43
-    trade_goods = resource_common_fish
+	
+	culture = culture_twilight_cultist
+    religion = twilight_cult
+	
+	trade_goods = resource_rare_wood
 }
+
 
 

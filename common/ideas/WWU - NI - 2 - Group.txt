@@ -465,39 +465,47 @@ gilnean_ideas = {
 			primary_culture = culture_gilnean
 			primary_culture = culture_gilnean_worgen
 		}
+		
+		NOT = { tag = A12 }
 	}
 	free = yes		
-	
-    # Independent Realm
+
+	# Independent Realm
 	gilnean_ideas_1 = {
 		prestige = 1.0
         state_maintenance_modifier = -0.2
 	}
-    # Keel Harbour
+
+	# Keel Harbour
 	gilnean_ideas_2 = {
 		heavy_ship_power = 0.1
         global_sailors_modifier = 0.2
 	}
-    # Self-Sufficient People
+
+	# Self-Sufficient People
 	gilnean_ideas_3 = {
 		development_cost = -0.1
 		build_cost = -0.1
 	}
-    # Walled Off
+
+	# Walled Off
 	gilnean_ideas_4 = {
 		defensiveness = 0.25
         hostile_attrition = 1
 	}
-    # Harvest Witches
+
+	# Harvest Witches
 	gilnean_ideas_5 = {
 		global_trade_goods_size_modifier = 0.1
 	}
-    # Guard Duty
+
+	# Guard Duty
 	gilnean_ideas_6 = {
 		fort_maintenance_modifier = -0.2
         global_garrison_growth = 0.33
 	}
-    # Industrialization
+
+	# Industrialization
 	gilnean_ideas_7 = {
 		production_efficiency = 0.25
 	}
@@ -559,7 +567,7 @@ arathi_ideas = {
 
 lordaeron_ideas = {
 	start = {
-		legitimacy = 1.0
+		liberty_desire_from_subject_development = -0.1
         stability_cost_modifier = -0.2
 	}
 
@@ -588,7 +596,7 @@ lordaeron_ideas = {
 	# Protectors of the Land
 	lordaeron_ideas_3 = {
 		land_forcelimit_modifier = 0.1
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.1
 	}
 	# Nation of the Light
 	lordaeron_ideas_4 = {
@@ -598,7 +606,7 @@ lordaeron_ideas = {
 	# The Knights of Lordaeron
 	lordaeron_ideas_5 = {
 		discipline = 0.05
-		cavalry_power = 0.1
+		cavalry_power = 0.05
 	}
 	# Realm of Many Lords
 	lordaeron_ideas_6 = {
@@ -841,7 +849,7 @@ theramore_ideas = {
     # Dustwallow Marsh
 	theramore_ideas_1 = {
         native_uprising_chance = -0.25
-		may_establish_frontier = yes
+		colonists = 1
 	}
     # Lady Proudmoore
 	theramore_ideas_2 = {
@@ -851,7 +859,8 @@ theramore_ideas = {
     # Theramorean Marines
 	theramore_ideas_3 = {
 		global_sailors_modifier = 0.2
-		allowed_marine_fraction = 0.1
+		infantry_power = 0.20
+		regiment_disembark_speed = 0.15 
 	}
     # Pride of Theramore
 	theramore_ideas_4 = {
@@ -872,6 +881,7 @@ theramore_ideas = {
 	theramore_ideas_7 = {
 		yearly_absolutism = 1.0
 		diplomatic_reputation = 1
+		discipline = 0.02 
 	}
 }
 
@@ -1039,15 +1049,15 @@ orc_ideas = {
 	
     # Horde of Volunteers
 	orc_ideas_1 = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.1
 	}
     # Veteran Smiths
 	orc_ideas_2 = {
-		infantry_cost = -0.25
+		infantry_cost = -0.2
 	}
     # Aggressive Warriors
 	orc_ideas_3 = {
-		global_regiment_recruit_speed = -0.25
+		global_regiment_recruit_speed = -0.2
 	}
     # Frontier Expansion
 	orc_ideas_4 = {
@@ -1087,16 +1097,17 @@ ogre_ideas = {
 	
 	# Two Heads, Better than One
 	ogre_ideas_1 = {
-		idea_cost = -0.1
+		idea_cost = -0.05
+		technology_cost = -0.05
 	}
 	# Brutal Warriors
 	ogre_ideas_2 = {
 		army_tradition = 1.0
-        leader_cost = -0.1
+		army_tradition_from_battle = 0.15
 	}
 	# Adaptability
 	ogre_ideas_3 = {
-		land_attrition = -0.2
+		land_attrition = -0.15
 	}
 	# Fearless Warriors
 	ogre_ideas_4 = {
@@ -1105,17 +1116,17 @@ ogre_ideas = {
 	# Descendents of the Gronn
 	ogre_ideas_5 = {
 		prestige = 1.0
-        shock_damage = 0.1
+        shock_damage_received = -0.1
 	}
 	# Hunting Parties
 	ogre_ideas_6 = {
 		land_maintenance_modifier = -0.1
-        infantry_shock = 0.5
+        recover_army_morale_speed = 0.1
 	}
 	# Ogre Magi
 	ogre_ideas_7 = {
 		leader_land_fire = 1
-        infantry_fire = 0.5
+        fire_damage = 0.1
 	}
 }
 
@@ -1265,7 +1276,7 @@ jungle_troll_ideas = {
 ice_troll_ideas = {
 	start = {
 		infantry_cost = -0.15
-        infantry_shock = 0.5
+        assault_fort_ability = 0.25
 	}
 
 	bonus = {
@@ -1283,10 +1294,11 @@ ice_troll_ideas = {
     # Frozen Memories
 	ice_troll_ideas_1 = {
         core_creation = -0.05
+		shock_damage_received = -0.05
 	}
     # Cold Adaptation
 	ice_troll_ideas_2 = {
-        hostile_attrition = 2
+        hostile_attrition = 1
 	}
     # Raise the Dead
 	ice_troll_ideas_3 = {
@@ -1294,12 +1306,12 @@ ice_troll_ideas = {
 	}
     # Ice Tunnels
 	ice_troll_ideas_4 = {
-        reinforce_speed = 0.2
+        reinforce_speed = 0.15
 	}
     # Silent as Snow
 	ice_troll_ideas_5 = {
         leader_land_manuever = 1
-        shock_damage = 0.1
+		infantry_shock = 0.5
 	}
     # Scrapping the Barrel
 	ice_troll_ideas_6 = {
@@ -1308,7 +1320,7 @@ ice_troll_ideas = {
     # Cannibalism
 	ice_troll_ideas_7 = {
         land_morale = 0.1
-		land_attrition = -0.2
+		land_attrition = -0.1
 	}
 }
 
@@ -1368,11 +1380,11 @@ sand_troll_ideas = {
 blood_troll_ideas = {
 	start = {
 		infantry_shock = 0.5
-        culture_conversion_cost = -0.1
+        reinforce_speed = 0.1
 	}
 
 	bonus = {
-        reinforce_speed = 0.2
+        church_power_modifier = 0.25
 	}
 	
 	trigger = {
@@ -1387,14 +1399,16 @@ blood_troll_ideas = {
     # Cannibalistic Trolls
 	blood_troll_ideas_2 = {
 		war_exhaustion = -0.05
+		recover_army_morale_speed = 0.1
 	}
     # Primitive Unity
 	blood_troll_ideas_3 = {
-		province_warscore_cost = -0.15
+		tolerance_own = 1
+		religious_unity = 0.1
 	}
     # Bloodsingers
 	blood_troll_ideas_4 = {
-		stability_cost_modifier = -0.25
+		stability_cost_modifier = -0.2
 	}
     # Matriarchs of Blood
 	blood_troll_ideas_5 = {
@@ -1407,7 +1421,7 @@ blood_troll_ideas = {
 	}
     # Blood Frenzy
 	blood_troll_ideas_7 = {
-        land_morale = 0.2
+        land_morale = 0.15
 	}
 }
 
@@ -1492,13 +1506,13 @@ tauren_ideas = {
 	}
     # Tauren Totems
 	tauren_ideas_5 = {
-        fire_damage_received = -0.1
-        shock_damage_received = -0.1
+        fire_damage_received = -0.15
+        shock_damage_received = -0.15
 	}
     # The Great Hunt
 	tauren_ideas_6 = {
         movement_speed = 0.1
-        land_morale = 0.1
+        land_morale = 0.15
 	}
     # Rites of the Earthmother
 	tauren_ideas_7 = {
@@ -1704,7 +1718,7 @@ gnoll_ideas = {
 centaur_ideas = {
 	start = {
 		cavalry_cost = -0.25
-		cav_to_inf_ratio = 1.0
+		cav_to_inf_ratio = 0.25
 	}
 
 	bonus = {
@@ -1718,7 +1732,7 @@ centaur_ideas = {
 	
     # Riders of Steppes
 	centaur_ideas_1 = {
-		movement_speed = 0.25
+		movement_speed = 0.15
 	}
     # Leadership By Combat
 	centaur_ideas_2 = {
@@ -1726,7 +1740,7 @@ centaur_ideas = {
 	}
     # Blood of Cenarius
 	centaur_ideas_3 = {
-		cavalry_power = 0.25
+		cavalry_power = 0.15
 	}
     # Iron Rule
 	centaur_ideas_4 = {
@@ -1735,12 +1749,12 @@ centaur_ideas = {
 	}
     # Born to Command
 	centaur_ideas_5 = {
-		general_cost = -0.5
+		general_cost = -0.1
         leader_land_manuever = 1
 	}
     # Rightful Conquerors
 	centaur_ideas_6 = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.1
 	}
     # Trust No One
 	centaur_ideas_7 = {
@@ -3770,11 +3784,11 @@ arakkoa_ideas = {
 # Fire
 fire_ideas = {
 	start = {
-		free_mil_policy = 1
+		siege_ability = 0.1
         years_of_nationalism = -5
 	}
 	bonus = {
-		governing_capacity_modifier = 0.1
+		free_mil_policy = 1
 	}
     
 	trigger = {
@@ -3782,35 +3796,33 @@ fire_ideas = {
 	}
 	free = yes		
     
-    # Subjugation of Thaurissan
+    # Burning Bodies
 	fire_ideas_1 = {
-		liberty_desire_from_subject_development = -0.15
-		vassal_income = 0.2
+		shock_damage_received = -0.05
+		fire_damage_received = -0.1
 	}
-    # Volcanic Ash
+    # Creations of Ash
 	fire_ideas_5 = {
-		global_trade_goods_size_modifier = 0.15
+		build_cost = -0.1
 	}
-    # Dark Iron Connections
+    # Hot-Headed
 	fire_ideas_3 = {
-		diplomatic_annexation_cost = -0.2
-        spy_offence = 0.15
+		ae_impact = -0.1
 	}
-    # Roar of Flame
+    # Burning Touch
 	fire_ideas_4 = {
 		infantry_power = 0.1
-        fire_damage = 0.1
 	}
-    # Sulfuron Hammers
+    # Sulfuron Forges
 	fire_ideas_2 = {
-		infantry_fire = 1.0
+		production_efficiency = 0.15
 	}
-    # The Molten Core
+    # Faithful of Flames
 	fire_ideas_6 = {
-        artillery_barrage_cost = -0.33
-        artillery_power = 0.125
+        global_missionary_strength = 0.02
+        tolerance_own = 1
 	}
-    # Flames of Ragnaros
+    # Legacy of Firelands
 	fire_ideas_7 = {
 		max_absolutism = 20
 		harsh_treatment_cost = -0.1
@@ -4168,15 +4180,16 @@ saberon_ideas = {
 	
     # Savagery of the Saberon
 	saberon_ideas_1 = {
-		shock_damage = 0.2
+		shock_damage = 0.1
 	}
     # Rending Claws
 	saberon_ideas_2 = {
-		siege_ability = 0.1
+		morale_damage = 0.1
 	}
     # Intelligent Felines
 	saberon_ideas_3 = {
-		idea_cost = -0.1
+		idea_cost = -0.05
+		technology_cost = -0.05
 	}
     # Shadowshapers
 	saberon_ideas_4 = {
@@ -4184,7 +4197,7 @@ saberon_ideas = {
 	}
     # Hills of Arak
 	saberon_ideas_5 = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.1
 	}
     # Strong Hearts
 	saberon_ideas_6 = {
@@ -4192,7 +4205,7 @@ saberon_ideas = {
 	}
     # Might of the Pridelords
 	saberon_ideas_7 = {
-		mil_tech_cost_modifier = -0.2
+		mil_tech_cost_modifier = -0.15
 	}
 }
 

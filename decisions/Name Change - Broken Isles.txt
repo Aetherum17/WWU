@@ -1,0 +1,79 @@
+country_decisions = {
+    # Form Broken Isles
+	form_broken_isles_nation = {
+		major = yes
+        ai_importance = 0
+        
+		potential = {
+            # NOT = { has_country_flag = enacted_final_tag_formation }
+            
+			NOT = { has_country_flag = is_broken_isles_flag }
+            
+			capital_scope = {
+                superregion = broken_isles_superregion
+            }           
+		}
+        
+        provinces_to_highlight = {
+			OR = {			
+                region = region_highmountain
+                region = region_valsharah
+                region = region_azsuna
+                region = region_suramar
+                region = region_stormheim
+				region = region_broken_shore
+			}
+			NOT = { owned_by = ROOT }
+		}
+        
+		allow = {
+			is_free_or_tributary_trigger = yes
+
+            region_highmountain = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_valsharah = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_azsuna = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_suramar = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_stormheim = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			region_broken_shore = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            
+			is_at_war = no
+			stability = 1           
+            prestige = 60
+			
+		}
+		effect = {
+            hidden_effect = {
+                set_country_flag = is_broken_isles_flag
+            }
+            
+			country_event = {
+				id = wwu_flavour_broken_isles.1
+			}
+            
+            add_formable_bonus = yes
+            #trigger_ni_switch = yes
+            #trigger_mission_switch = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -764,3 +764,44 @@ estate_nobility_guild_of_heroes = {
 		}
 	}
 }
+
+estate_nobility_greymane_greyguard = {
+	icon = privilege_greymane_greygard
+
+	#Costs
+	max_absolutism = -5
+	land_share = 0
+	loyalty = 0.05
+	influence = 0.05
+
+	is_valid = {
+		exists = A12
+		has_country_flag = gilneas_enable_privilige_greymane_greygard
+	}
+	can_select = {
+		if = {
+			limit = { has_estate = estate_nobility }
+			NOT = { has_estate_privilege = estate_nobility_greymane_greyguard }
+		}
+	}
+	on_granted = {
+	}
+	penalties = {
+	}
+	benefits = {
+		discipline = 0.05
+		military_tactics = 0.10
+		leader_land_fire = 1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 1.25
+			NOT = { mil = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			mil = 5
+		}
+	}
+}

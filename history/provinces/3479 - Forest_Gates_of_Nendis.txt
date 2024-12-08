@@ -1,0 +1,26 @@
+is_city = yes
+
+owner = NEN
+controller = NEN
+add_core = NEN
+
+base_tax = 1
+base_production = 2
+base_manpower = 3
+
+culture = culture_night_elf
+religion = elune
+
+hre = no
+trade_goods = resource_mail_armor
+
+
+619.1.1 = {  
+    owner = ---
+    controller = ---
+    remove_core = NEN
+	
+	base_tax = 1
+    base_production = 1
+    base_manpower = 1
+}

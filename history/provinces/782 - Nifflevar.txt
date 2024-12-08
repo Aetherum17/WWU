@@ -9,7 +9,7 @@ base_production = 3
 base_manpower = 4
 
 culture = culture_vrykul
-religion = titan_worship
+religion = corrupt_titan_worship
 
 hre = no
 trade_goods = resource_food

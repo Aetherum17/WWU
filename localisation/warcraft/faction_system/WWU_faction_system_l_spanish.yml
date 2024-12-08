@@ -19,14 +19,16 @@
  view_horde_roster_title: "[DI_horde] View Horde Roster"
  view_horde_roster_desc: "Look at which countries belong to the Horde."
  
- view_old_horde_roster_title: "[DI_horde] View Old Horde Roster"
- view_old_horde_roster_desc: "Look at which countries belong to the Old Horde."
- 
  view_trade_coalition_roster_title: "[DI_gold_purse] View Trade Coalition Roster"
  view_trade_coalition_roster_desc: "Look at which countries belong to the Trade Coalition."
  
  view_dragon_aspects_roster_title: "[DI_dragon_charge] View Dragon Aspects Roster"
  view_dragon_aspects_roster_desc: "Look at which countries belong to the Dragon Aspects."
+ 
+ #-----------------------------------------------
+ # Variables
+ #-----------------------------------------------
+ faction_renown: "Faction Renown"
  
  #-----------------------------------------------
  # Diplomatic Actions
@@ -41,11 +43,6 @@
  invite_to_horde_desc: "Invite to the Horde will have the following effect:\n\nInvite §Y[From.GetName]§! to join the Horde."
  invite_to_horde_tooltip: "Invite to join the Horde"
  invite_to_horde_dialog: "Invite this nation into the Horde."
- 
- invite_to_old_horde_title: "Invite to the Horde"
- invite_to_old_horde_desc: "Invite to the Horde will have the following effect:\n\nInvite §Y[From.GetName]§! to join the Horde."
- invite_to_old_horde_tooltip: "Invite to join the Old Horde"
- invite_to_old_horde_dialog: "Invite this nation into the Horde."
  
  invite_to_trade_coalition_title: "Invite to the Trade Coalition"
  invite_to_trade_coalition_desc: "Invite to the Trade Coalition will have the following effect:\n\nInvite §Y[From.GetName]§! to join the Trade Coalition."
@@ -68,11 +65,6 @@
  join_the_horde_tooltip: "Request to join the Horde"
  join_the_horde_dialog: "They ask if they can join the Horde."
  
- join_the_old_horde_title: "Join the Old Horde"
- join_the_old_horde_desc: "Join the Old Horde will have the following effect:\n\nAsk §Y[From.GetName]§! if we can join the Horde."
- join_the_old_horde_tooltip: "Request to join the old Horde"
- join_the_old_horde_dialog: "They ask if they can join the Horde."
- 
  join_the_trade_coalition_title: "Join the Trade Coalition"
  join_the_trade_coalition_desc: "Join the Trade Coalition will have the following effect:\n\nAsk §Y[From.GetName]§! if we can join the Trade Coalition."
  join_the_trade_coalition_tooltip: "Request to join the Trade Coalition"
@@ -92,10 +84,6 @@
  kick_from_horde_desc: "Kick out of the Horde will have the following effect:\n\nExpel §Y[From.GetName]§! from the Horde."
  kick_from_horde_tooltip: "Expel this nation from the Horde."
  
- kick_from_old_horde_title: "Kick out of the Horde"
- kick_from_old_horde_desc: "Kick out of the Horde will have the following effect:\n\nExpel §Y[From.GetName]§! from the Horde."
- kick_from_old_horde_tooltip: "Expel this nation from the Horde."
- 
  kick_from_trade_coalition_title: "Kick out of the Trade Coalition"
  kick_from_trade_coalition_desc: "Kick out of the Trade Coalition will have the following effect:\n\nExpel §Y[From.GetName]§! from the Trade Coalition."
  kick_from_trade_coalition_tooltip: "Expel this nation from the Trade Coalition."
@@ -112,10 +100,6 @@
  leave_the_horde_title: "Leave the Horde"
  leave_the_horde_tooltip: "Leave the Horde."
  leave_the_horde_desc: "Leave the Horde will have the following effect:\n\nLeave the Horde."
- 
- leave_the_old_horde_title: "Leave the Horde"
- leave_the_old_horde_tooltip: "Leave the Horde."
- leave_the_old_horde_desc: "Leave the Horde will have the following effect:\n\nLeave the Horde."
  
  leave_the_trade_coalition_title: "Leave the Trade Coalition"
  leave_the_trade_coalition_tooltip: "Leave the Trade Coalition."
@@ -146,10 +130,6 @@
  request_the_horde_leadership_title: "Request Leadership"
  request_the_horde_leadership_tooltip: "Request control over the Horde."
  request_the_horde_leadership_desc: "Request Leadership will consume §R400§! Diplomatic Power and will have the following effect:\n\nLeadership of the Horde will be transferred from §Y[From.GetName]§! to us."
- 
- request_the_old_horde_leadership_title: "Request Leadership"
- request_the_old_horde_leadership_tooltip: "Request control over the Old Horde."
- request_the_old_horde_leadership_desc: "Request Leadership consume §R400§! Diplomatic Power and will have the following effect:\n\nLeadership of the Old Horde will be transferred from §Y[From.GetName]§! to us."
  
  request_the_trade_coalition_leadership_title: "Request Leadership"
  request_the_trade_coalition_leadership_tooltip: "Request control over the Trade Coalition."
@@ -201,12 +181,6 @@
  member_of_horde: "Member of the Horde"
  desc_member_of_horde: ""
  
- head_of_old_horde: "Head of the Old Horde"
- desc_head_of_old_horde: ""
- 
- member_of_old_horde: "Member of the Old Horde"
- desc_member_of_old_horde: ""
- 
  head_of_trade_coalition: "Head of the Trade Coalition"
  desc_head_of_trade_coalition: ""
  
@@ -224,7 +198,6 @@
  #------------------------------------------------
  omod_member_of_alliance: "Member of the Alliance"
  omod_member_of_horde: "Member of the Horde"
- omod_member_of_old_horde: "Member of the Old Horde"
  omod_member_of_trade_coalition: "Member of the Trade Coalition"
  omod_member_of_dragon_aspects: "Member of the Dragon Aspects"
  omod_faction_demands: "Faction Demands"
@@ -299,7 +272,6 @@
  #------------------------------------------------
  alliance_exists: "Alliance faction exists."
  horde_exists: "Horde faction exists."
- old_horde_exists: "Old Horde faction exists."
  trade_coalition_exists: "Trade Coalition faction exists."
  
  #------------------------------------------------
@@ -314,11 +286,6 @@
  PEACE_po_dismantle_horde: "Dismantle the Horde"
  CB_ALLOWED_po_dismantle_horde: "Dismantle the Horde"
  po_dismantle_horde_desc: "The Horde faction will be dismantled."
- 
- po_dismantle_old_horde: "Dismantle the Horde"
- PEACE_po_dismantle_old_horde: "Dismantle the Horde"
- CB_ALLOWED_po_dismantle_old_horde: "Dismantle the Horde"
- po_dismantle_old_horde_desc: "The Horde faction will be dismantled."
  
  po_dismantle_trade_coalition: "Dismantle the Trade Coalition"
  PEACE_po_dismantle_trade_coalition: "Dismantle the Trade Coalition"
@@ -413,156 +380,6 @@
  wwu_faction_system.54.title: "[From.GetName] left the Dragon Aspects"
  wwu_faction_system.54.desc: "A member of the Dragon Aspects, [From.GetName] has decided to abandon our faction."
  wwu_faction_system.54.option.a: "Curses..."
- 
- # Alliance
- wwu_faction_roster.100.title: "Compendium: Alliance"
- wwu_faction_roster.100.desc: "£compendium_banner£\nHigh King:\n@[faction_leader.GetTag] [faction_leader.GetName]\nMembers of the Alliance:\n[GetFactionMember_1][GetFactionMember_2][GetFactionMember_3][GetFactionMember_4][GetFactionMember_5][GetFactionMember_6][GetFactionMember_7][GetFactionMember_8][GetFactionMember_9][GetFactionMember_10][GetFactionMember_11][GetFactionMember_12][GetFactionMember_13][GetFactionMember_14][GetFactionMember_15][GetFactionMember_16][GetFactionMember_17][GetFactionMember_18][GetFactionMember_19][GetFactionMember_20][GetFactionMember_Max]\nSelect from the options below to act upon the members of the Alliance:"
- wwu_faction_roster.100.option.a: "Demand Gold"
- wwu_faction_roster.100.option.b: "Demand Manpower"
- wwu_faction_roster.100.option.c: "Demand Sailors"
- wwu_faction_roster.100.option.d: "Demand Army Officers"
- wwu_faction_roster.100.option.e: "Demand Navy Officers"
- wwu_faction_roster.100.option.f: "Demand Administrative Assistance"
- wwu_faction_roster.100.option.g: "Demand Diplomatic Assistance"
- wwu_faction_roster.100.option.h: "Demand Military Assistance"
- wwu_faction_roster.100.option.x: "Close"
- 
- # Old Horde
- wwu_faction_roster.101.title: "Compendium: Old Horde"
- wwu_faction_roster.101.desc: "£compendium_banner£\nWarchief:\n@[faction_leader.GetTag] [faction_leader.GetName]\nMembers of the Horde:\n[GetFactionMember_1][GetFactionMember_2][GetFactionMember_3][GetFactionMember_4][GetFactionMember_5][GetFactionMember_6][GetFactionMember_7][GetFactionMember_8][GetFactionMember_9][GetFactionMember_10][GetFactionMember_11][GetFactionMember_12][GetFactionMember_13][GetFactionMember_14][GetFactionMember_15][GetFactionMember_16][GetFactionMember_17][GetFactionMember_18][GetFactionMember_19][GetFactionMember_20][GetFactionMember_Max]\nSelect from the options below to act upon the members of the Horde:"
- wwu_faction_roster.101.option.a: "Demand Gold"
- wwu_faction_roster.101.option.b: "Demand Manpower"
- wwu_faction_roster.101.option.c: "Demand Sailors"
- wwu_faction_roster.101.option.d: "Demand Army Officers"
- wwu_faction_roster.101.option.e: "Demand Navy Officers"
- wwu_faction_roster.101.option.f: "Demand Administrative Assistance"
- wwu_faction_roster.101.option.g: "Demand Diplomatic Assistance"
- wwu_faction_roster.101.option.h: "Demand Military Assistance"
- wwu_faction_roster.101.option.x: "Close"
- 
- # New Horde
- wwu_faction_roster.102.title: "Compendium: Horde"
- wwu_faction_roster.102.desc: "£compendium_banner£\nWarchief:\n@[faction_leader.GetTag] [faction_leader.GetName]\nMembers of the Horde:\n[GetFactionMember_1][GetFactionMember_2][GetFactionMember_3][GetFactionMember_4][GetFactionMember_5][GetFactionMember_6][GetFactionMember_7][GetFactionMember_8][GetFactionMember_9][GetFactionMember_10][GetFactionMember_11][GetFactionMember_12][GetFactionMember_13][GetFactionMember_14][GetFactionMember_15][GetFactionMember_16][GetFactionMember_17][GetFactionMember_18][GetFactionMember_19][GetFactionMember_20][GetFactionMember_Max]\nSelect from the options below to act upon the members of the Horde:"
- wwu_faction_roster.102.option.a: "Demand Gold"
- wwu_faction_roster.102.option.b: "Demand Manpower"
- wwu_faction_roster.102.option.c: "Demand Sailors"
- wwu_faction_roster.102.option.d: "Demand Army Officers"
- wwu_faction_roster.102.option.e: "Demand Navy Officers"
- wwu_faction_roster.102.option.f: "Demand Administrative Assistance"
- wwu_faction_roster.102.option.g: "Demand Diplomatic Assistance"
- wwu_faction_roster.102.option.h: "Demand Military Assistance"
- wwu_faction_roster.102.option.x: "Close"
- 
- # Trade Coalition
- wwu_faction_roster.103.title: "Compendium: Trade Coalition"
- wwu_faction_roster.103.desc: "£compendium_banner£\nTrade Prince:\n@[faction_leader.GetTag] [faction_leader.GetName]\nMembers of the Trade Coalition:\n[GetFactionMember_1][GetFactionMember_2][GetFactionMember_3][GetFactionMember_4][GetFactionMember_5][GetFactionMember_6][GetFactionMember_7][GetFactionMember_8][GetFactionMember_9][GetFactionMember_10][GetFactionMember_11][GetFactionMember_12][GetFactionMember_13][GetFactionMember_14][GetFactionMember_15][GetFactionMember_16][GetFactionMember_17][GetFactionMember_18][GetFactionMember_19][GetFactionMember_20][GetFactionMember_Max]\nSelect from the options below to act upon the members of the Trade Coalition:"
- wwu_faction_roster.103.option.a: "Demand Gold"
- wwu_faction_roster.103.option.b: "Demand Manpower"
- wwu_faction_roster.103.option.c: "Demand Sailors"
- wwu_faction_roster.103.option.d: "Demand Army Officers"
- wwu_faction_roster.103.option.e: "Demand Navy Officers"
- wwu_faction_roster.103.option.f: "Demand Administrative Assistance"
- wwu_faction_roster.103.option.g: "Demand Diplomatic Assistance"
- wwu_faction_roster.103.option.h: "Demand Military Assistance"
- wwu_faction_roster.103.option.i: "Demand Loan"
- wwu_faction_roster.103.option.x: "Close"
- 
- # Dragon Aspects
- wwu_faction_roster.104.title: "Compendium: Dragon Aspects"
- wwu_faction_roster.104.desc: "£compendium_banner£\nLeader:\n@[faction_leader.GetTag] [faction_leader.GetName]\nMembers of the Dragon Aspects:\n[GetFactionMember_1][GetFactionMember_2][GetFactionMember_3][GetFactionMember_4][GetFactionMember_5][GetFactionMember_6][GetFactionMember_7][GetFactionMember_8][GetFactionMember_9][GetFactionMember_10][GetFactionMember_11][GetFactionMember_12][GetFactionMember_13][GetFactionMember_14][GetFactionMember_15][GetFactionMember_16][GetFactionMember_17][GetFactionMember_18][GetFactionMember_19][GetFactionMember_20][GetFactionMember_Max]\nSelect from the options below to act upon the members of the Dragon Aspects:"
- wwu_faction_roster.104.option.a: "Demand Gold"
- wwu_faction_roster.104.option.b: "Demand Manpower"
- wwu_faction_roster.104.option.c: "Demand Sailors"
- wwu_faction_roster.104.option.d: "Demand Army Officers"
- wwu_faction_roster.104.option.e: "Demand Navy Officers"
- wwu_faction_roster.104.option.f: "Demand Administrative Assistance"
- wwu_faction_roster.104.option.g: "Demand Diplomatic Assistance"
- wwu_faction_roster.104.option.h: "Demand Military Assistance"
- wwu_faction_roster.104.option.x: "Close"
- 
- FACTION_MEMBER_1: "@[faction_member_1.GetTag] [faction_member_1.GetName]\n"
- FACTION_MEMBER_2: "@[faction_member_2.GetTag] [faction_member_2.GetName]\n"
- FACTION_MEMBER_3: "@[faction_member_3.GetTag] [faction_member_3.GetName]\n"
- FACTION_MEMBER_4: "@[faction_member_4.GetTag] [faction_member_4.GetName]\n"
- FACTION_MEMBER_5: "@[faction_member_5.GetTag] [faction_member_5.GetName]\n"
- FACTION_MEMBER_6: "@[faction_member_6.GetTag] [faction_member_6.GetName]\n"
- FACTION_MEMBER_7: "@[faction_member_7.GetTag] [faction_member_7.GetName]\n"
- FACTION_MEMBER_8: "@[faction_member_8.GetTag] [faction_member_8.GetName]\n"
- FACTION_MEMBER_9: "@[faction_member_9.GetTag] [faction_member_9.GetName]\n"
- FACTION_MEMBER_10: "@[faction_member_10.GetTag] [faction_member_10.GetName]\n"
- FACTION_MEMBER_11: "@[faction_member_11.GetTag] [faction_member_11.GetName]\n"
- FACTION_MEMBER_12: "@[faction_member_12.GetTag] [faction_member_12.GetName]\n"
- FACTION_MEMBER_13: "@[faction_member_13.GetTag] [faction_member_13.GetName]\n"
- FACTION_MEMBER_14: "@[faction_member_14.GetTag] [faction_member_14.GetName]\n"
- FACTION_MEMBER_15: "@[faction_member_15.GetTag] [faction_member_15.GetName]\n"
- FACTION_MEMBER_16: "@[faction_member_16.GetTag] [faction_member_16.GetName]\n"
- FACTION_MEMBER_17: "@[faction_member_17.GetTag] [faction_member_17.GetName]\n"
- FACTION_MEMBER_18: "@[faction_member_18.GetTag] [faction_member_18.GetName]\n"
- FACTION_MEMBER_19: "@[faction_member_19.GetTag] [faction_member_19.GetName]\n"
- FACTION_MEMBER_20: "@[faction_member_20.GetTag] [faction_member_20.GetName]\n"
- FACTION_MEMBER_EXCEEDS_LIMIT: "and more..."
- FACTION_MEMBER_BLANK: ""
- 
- wwu_faction_roster.110.title: "Demand for Gold"
- wwu_faction_roster.110.desc: "[faction_leader.GetName] demands that we send them gold in order to fund factional efforts. It is up to us to decide how much we send, if any."
- wwu_faction_roster.110.option.a: "Send Nothing"
- wwu_faction_roster.110.option.b: "Send a Small Sum"
- wwu_faction_roster.110.option.c: "Send a Considerable Sum"
- wwu_faction_roster.110.option.d: "Send a Large Sum"
- 
- wwu_faction_roster.111.title: "Demand for Manpower"
- wwu_faction_roster.111.desc: "[faction_leader.GetName] demands that we send them manpower, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.111.option.a: "Send Nobody"
- wwu_faction_roster.111.option.b: "Send a Small Contingent"
- wwu_faction_roster.111.option.c: "Send a Considerable Contingent"
- wwu_faction_roster.111.option.d: "Send a Large Contingent"
- 
- wwu_faction_roster.112.title: "Demand for Sailors"
- wwu_faction_roster.112.desc: "[faction_leader.GetName] demands that we send them sailors, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.112.option.a: "Send Nobody"
- wwu_faction_roster.112.option.b: "Send a Small Contingent"
- wwu_faction_roster.112.option.c: "Send a Considerable Contingent"
- wwu_faction_roster.112.option.d: "Send a Large Contingent"
- 
- wwu_faction_roster.113.title: "Demand for Army Officers"
- wwu_faction_roster.113.desc: "[faction_leader.GetName] demands that we send them army officers, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.113.option.a: "Send Nobody"
- wwu_faction_roster.113.option.b: "Send a Small Contingent"
- wwu_faction_roster.113.option.c: "Send a Considerable Contingent"
- wwu_faction_roster.113.option.d: "Send a Large Contingent"
- 
- wwu_faction_roster.114.title: "Demand for Navy Officers"
- wwu_faction_roster.114.desc: "[faction_leader.GetName] demands that we send them navy officers, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.114.option.a: "Send Nobody"
- wwu_faction_roster.114.option.b: "Send a Small Contingent"
- wwu_faction_roster.114.option.c: "Send a Considerable Contingent"
- wwu_faction_roster.114.option.d: "Send a Large Contingent"
- 
- wwu_faction_roster.115.title: "Demand for Administrative Assistance"
- wwu_faction_roster.115.desc: "[faction_leader.GetName] demands that we send them administrators, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.115.option.a: "Send Nobody"
- wwu_faction_roster.115.option.b: "Send a Small Contingent"
- wwu_faction_roster.115.option.c: "Send a Considerable Contingent"
- wwu_faction_roster.115.option.d: "Send a Large Contingent"
- 
- wwu_faction_roster.116.title: "Demand for Diplomatic Assistance"
- wwu_faction_roster.116.desc: "[faction_leader.GetName] demands that we send them diplomats, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.116.option.a: "Send Nobody"
- wwu_faction_roster.116.option.b: "Send a Small Contingent"
- wwu_faction_roster.116.option.c: "Send a Considerable Contingent"
- wwu_faction_roster.116.option.d: "Send a Large Contingent"
- 
- wwu_faction_roster.117.title: "Demand for Military Assistance"
- wwu_faction_roster.117.desc: "[faction_leader.GetName] demands that we send them generals, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.117.option.a: "Send Nobody"
- wwu_faction_roster.117.option.b: "Send a Small Contingent"
- wwu_faction_roster.117.option.c: "Send a Considerable Contingent"
- wwu_faction_roster.117.option.d: "Send a Large Contingent"
- 
- wwu_faction_roster.118.title: "Demand for Loan"
- wwu_faction_roster.118.desc: "[faction_leader.GetName] demands that we send them a loan, citing the need to support the faction. It is up to us to decide how many we send, if any."
- wwu_faction_roster.118.option.a: "Refuse to Loan"
- wwu_faction_roster.118.option.b: "Agree to Loan"
  
  wwu_faction_roster.120.title: "Support from [From.GetName]"
  wwu_faction_roster.120.desc: "Our recent demand for support from our faction members has been accepted by [From.GetName]."

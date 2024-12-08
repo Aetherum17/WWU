@@ -1,1 +1,278 @@
-﻿
+﻿l_french:
+ # --- Missions ---
+ H04_cen_mar_column_1: ""
+ H04_cen_mar_column_2: ""
+ H04_cen_mar_column_3: ""
+ H04_cen_mar_column_4: ""
+ H04_cen_mar_column_5: ""
+ 
+
+ # Column 1
+ H04_chosen_khan_title: "The Chosen Khan"
+ H04_chosen_khan_desc: "There are tales among the centaur elders among the legend. That one day, when the two moons of Azeroth will eclipse, a new Khan will be born, a valorous champion, ready to unite the tribes of centaurs are bring their race to glory."
+
+ H04_speaker_of_spirits_title: "The Speaker of the Spirits"
+ H04_speaker_of_spirits_desc: "While magic is not the most defining trait among the centaur people, that being pure, physical might, it is belived that a ruler who listen to the spirits and have deeper connections with them shall be respected, as he extends past the limitations of simpleminded individuals."
+
+ H04_weaver_of_magic_title: "The Weaver of Magic"
+ H04_weaver_of_magic_desc: "To rule with magic is to rule with power beyond common people. Centaur people have learned long the ways of the earth, wind, water and flame, as well as those who remember the teachings of the forefather, who told tales of druidic restorations and acts of bravery in their feral forms. Whatever it is, even a centaur knows magic equals power."
+
+ HO4_the_conqueror_title: "The Conqueror"
+ HO4_the_conqueror_desc: "To be the Champion, a true Khan, is to embark on the journey of struggles. To be true leader, is to withstand many trials. True Khan does not die in battle, does not wither of old age. He becomes a legend, for the future generation to adore."
+
+ H04_show_of_might_title: "The Show of Might"
+ H04_show_of_might_desc: "Our clan, our warband, was formed out of clear goal. To pillage, to terrorize. However, we have proven that we are more than mere pillagers. We are our own people, a khanate as much as other khanates. However, we are the pillagers. We are the marauders. And among tribes of centaurs, there are only two who shall claim that title. We, and the tribe of Galak. Now, it is time we become the ones who rule."
+
+ H04_khans_of_galak_title: "The Khan of Galak"
+ H04_khans_of_galak_desc: "The Khan of Galak has bowed his head to us, accepting his fate as subject of ours. His warbands bow to our commanders, their people to our lords. The strong rule the weak, that is the rule of nature."
+
+ H04_union_of_khans_title: "The Union of Khans"
+ H04_union_of_khans_desc: "As Khanates of Galak and our had grew closer, we have decided it does not matter if one belogns to one or the other tribe. We both are alike, marauders and pillagers. And as such, we shall become one."
+ 
+ # Column 2
+
+ H04_the_relentless_horde_title: "The Relentless Horde"
+ H04_the_relentless_horde_desc: "Our army on the run, on the hunt, ready to pillage and slaughter, for both gain and fun. The restless horde, unleashed upon the plain of the world, ruthless and unbreakable, ready for war."
+
+ H04_the_thundering_hooves_title: "The Thundering Hooves"
+ H04_the_thundering_hooves_desc: "The very ground thunders, as the army of centaurs arive. Their warcries strike fear into hearts of their enemies, as they understand their last moments come to take their lives, making space for the masters of hunt to take over."
+
+ H04_the_horsemen_of_apocalypse_title: "The Horsemen of the Apocalypse"
+ H04_the_horsemen_of_apocalypse_desc: "One day, our khan had a vision. A vison of a world unknown to him, of champion of race he did not know and dared not to know. In his hand, a blade of thousand battle, sword sheding blood of countless civilizations, weapon that made warriors. The moment he awoke, he knew that the weapon in question was on Azeroth, ready to be claimed by him, ready to serve him as he set the fire to the world, and becomes its khan."
+
+ H04_trial_by_blood_title: "Trial by Blood"
+ H04_trial_by_blood_desc: "We have proven, that we are unmateched. The master of war, if you willing to call us anything else. Do you dare?"
+
+ # Column 3
+
+ H04_quillboar_agression_title: "Quillboar Agression"
+ H04_quillboar_agression_desc: "Razormane tribe had long been our rival, daring to resist our glorious conquest. No more, today, our mercy shall vanish, and we shall wage war against the hog-people until the last of their kin is eradicated."
+
+ H04_dealing_with_razormane_title: "Dealing with Razormane"
+ H04_dealing_with_razormane_desc: "We have broken through the borders of enemy. All of the bordering land controlled by us, we shall cease it, opening our path to their end."
+
+ H04_control_of_durotar_title: "Control of Durotar"
+ H04_control_of_durotar_desc: "The red deserts stand open, settled by the lesser races, ready for conquest. Now, they belong to us, as it should be."
+
+ H04_invasion_of_mulgore_title: "Invasion of Mulgore"
+ H04_invasion_of_mulgore_desc: "The plans of Mulgore are the sacred lands of the Tauren, their natural habitate. We shall paint those grassy landscapes red with the blood of the Tauren."
+
+ H04_culling_of_mulgore_title: "The Culling of Mulgore"
+ H04_culling_of_mulgore_desc: "To hunt a tauren is to prove oneself to the centaur tribe. Its hooves or horns, wearing it is to prove succesful hunt. Now, many centaurs had proven themselves, as bodies of the bulls are scattered all across the plains of mulgore."
+
+ H04_rule_mulgore_title: "Rule Mulgore"
+ H04_rule_mulgore_desc: "The Sacred land of the Tauren, Mulgore, belongs to the centaurs. While the tauren still remain, their holy lands now lay in centaur hands."
+
+ H04_great_tauren_hunt_title: "The Great Tauren Hunt"
+ H04_great_tauren_hunt_desc: "The Great Hunt is no more. The great plains of Kalimdor had been purged of Tauren, last of their kin slaughtered and eaten, as their should be. While its an end of a tradition, is is also an achivement for our kind. We are the butchers of the Tauren. All the tales about the Tauren people, will hail of our great war, and victory against them."
+
+ # Column 4
+
+ H04_organize_raiding_parties_title: "Organize the Raiding Parties"
+ H04_organize_raiding_parties_desc: "Before we can begin our hunt, we must gather the marauders."
+
+ H04_war_against_the_tauren_title: "War against the Tauren"
+ H04_war_against_the_tauren_desc: "Our great hunt begins with the Tauren, the race of bulls, that had long been our most desired target. It is in centaur tradition to hunt them, to prove ones worth."
+
+ H04_cull_northren_barrens_title: "Culling of Northern Barrens"
+ H04_cull_northren_barrens_desc: "The Northern part of the great Barrens is in our hand, subjegated under our rule."
+
+ H04_southern_invasion_title: "Invasion of Southern Barrens"
+ H04_southern_invasion_desc: "The lands of southern Barrens stand open, unprotected. We shall swarm them, conquer and subjegate them for our Khan."
+
+ H04_bull_blood_of_barrens_title: "The Bull Blood of Barrens"
+ H04_bull_blood_of_barrens_desc: "To purify the lands, we organized the great hunt. Our target were the local taurens, whose warrior's spirit proven to be act as marvelous spectacle for our hunters, as they culled them one after another, until none remained."
+
+ H04_fortify_the_barrens_borders_title: "Fortifing the Barrens"
+ H04_fortify_the_barrens_borders_desc: "While Centaurs are not known for their structures, even this race understands that fortifications are key to securing the land from enemy. As such, all of barrens shall be secured from external threats."
+
+ H04_heirs_of_centaur_race_title: "Heirs of the Centaur Race"
+ H04_heirs_of_centaur_race_desc: "Our actions had proven day after day, that we, the Marauders of the Barrens, were born to rule this place. As such, we gathered to celebrate our success with a great pyre, to show respect to our creators. That pyre sparked a question. What do we value the most?"
+
+ H04_reclaim_desolace_title: "Reclaiming Desolace"
+ H04_reclaim_desolace_desc: "Desolace is the birthplace of the Centaurs, for here stands a great Maraudon, a heart of our civilization. As the heirs of the centaur race, we shall reclaim our homelands, and defeat those who dared to rule it before. They will serve us, or die."
+
+ H04_unite_the_khanates_title: "Uniting the Khanates"
+ H04_unite_the_khanates_desc: "For too long, centaurs had been disunited. For too long, division among our race and petty conflicts divided our people. Now, we have one, common goal. To bring glory to centaur race. And to do so, we shall unite the Khans, and become the Khanate."
+
+ H04_mysteries_of_maruadon_title: "Mysteries of Maraudon"
+ H04_mysteries_of_maruadon_desc: "Having invested years of work and resources, we have rebuild Maraudon to the state it should be. A grand temple, a monument that proves might of the Centaur race. However, as we reached the deeperst reaches of our homeland, we have meet a being that we have ignored for far too long. Our khan bowed, as before him stood one he respected the most. The Mother of all Centaurs."
+
+ H04_awakening_the_earth_mother_title: "Awakening of the Earth Mother"
+ H04_awakening_the_earth_mother_desc: "Having our mother awoken, she called upon the very earth itself, or rather, the depths of earth, where the Stone Mother, the one who created the lands we call home, resided. The Earth Princess, as the earth mother was titled, called upon the Stone Mother, showing prove of her creation. It is time for the Stone Mother to anwser to her call."
+
+ # Column 5
+
+ H04_subjegate_krenka_title: "Subjegation of Krenka Khanate"
+ H04_subjegate_krenka_desc: "The Krenka khanate were always rival to us, having settled near our hunting lands. It is time we show them how wrong they were to do so."
+
+ H04_cull_witchwing_title: "Culling the Witchwing Harpies"
+ H04_cull_witchwing_desc: "The harpies of Witchwing are a threat that if left untouched, could cause us troubles in the future. We should exterminate them before any issue arrive."
+
+ H04_into_stonetalon_title: "Into the Stonetalon Mountains"
+ H04_into_stonetalon_desc: "We have secured a path to Stonetalon Mountains, to further expand our hunting lands. Soon, the invasion will begin, and our spirit of war will burn again."
+
+ H04_subjegation_of_stonetalon_title: "Subjegation of Stonetalon Khanate"
+ H04_subjegation_of_stonetalon_desc: "The lands of Stonetalon Khanate stood in our way to conquest of the region. As such, we have decided that Stonetalon should bow to us, or the land they call home would become ours."
+
+ H04_rule_stonetalon_title: "Rule Stonetalon"
+ H04_rule_stonetalon_desc: "We have succesfully conquered all of Stonetalon Mountains, having defeated all threats and locals that called it home. Glory to the Centaur Race."
+
+ H04_fortify_stonetalon_title: "Fortifing Stonetalon Mountains"
+ H04_fortify_stonetalon_desc: "The lands of Ashenvale are home to many races, among them powerful hunters and warriros, able to rival ours. We should not ignore the threat they pose, and fortify the passes, ready for conflict in the future."
+
+ H04_domination_of_central_kalimdor_title: "Domination of Central Kalimdor"
+ H04_domination_of_central_kalimdor_desc: "Today, all of the great plain had been conquered. All of the great hunting lands overtaken by us. We are the masters of Kalimdor, we are the lords of those lands!"
+
+ H04_scourge_on_horseback_title: "The Scourge on Horseback"
+ H04_scourge_on_horseback_desc: "As our army grew, we have defeated many foes. Trolls, Elves, Dragons. All of them fell to our might. As the grand army stood, ready to flood Kalimdor with its wrath, a warlord had appeared before them, a beast of a centaur, both physically and with his dreadful aura. Wearing a armor of bones and iron, he pointed his spear against our leader and declared. Show me you can call yourself a warlord, or step aside."
+
+ # Modifiers
+
+ mission_chosen_khan: "The Chosen Khan"
+ desc_mission_chosen_khan: ""
+
+ mission_spirit_speaker: "The Spirit Speaker"
+ desc_mission_spirit_speaker: ""
+
+ mission_the_conqueror: "The Conqueror"
+ desc_mission_the_conqueror: ""
+
+ mission_khans_of_galak: "The Khan of Galak"
+ desc_mission_khans_of_galak: ""
+
+ mission_relentless_horde: "The Relentless Horde"
+ desc_mission_relentless_horde: ""
+
+ mission_thundering_hooves: "The Thundering Hooves"
+ desc_mission_thundering_hooves: ""
+
+ mission_apocalypse: "Riders of Apocalypse"
+ desc_mission_apocalypse: ""
+
+ mission_war_on_tauren: "War on the Tauren"
+ desc_mission_war_on_tauren: ""
+
+ mission_blood_of_barrens: "The Blood of Barrens"
+ desc_mission_blood_of_barrens: ""
+
+ mission_centaur_forts: "Centaur Fortifications"
+ desc_mission_centaur_forts: ""
+
+ mission_trial_by_blood: "Trial by Blood"
+ desc_mission_trial_by_blood: ""
+
+ mission_quillboar_war: "Quillboar War"
+ desc_mission_quillboar_war: ""
+
+ mission_durotar_conquest: "Conquest of Durotar"
+ desc_mission_durotar_conquest: ""
+
+ mission_cull_witchwing: "Cull of Witchwing"
+ desc_mission_cull_witchwing: ""
+
+ mission_rule_stonetalon: "Rule Stonetalon"
+ desc_mission_rule_stonetalon: ""
+
+ master_of_stonetalon: "Masters of Stonetalon"
+ desc_master_of_stonetalon: ""
+
+ fortification_stonetalon: "Stonetalon Fortifications"
+ desc_fortification_stonetalon: ""
+
+ mission_stonetalon_fortifications: "Stonetalon Fortified"
+ desc_mission_stonetalon_fortifications: ""
+
+ mission_rule_mulgore: "Ruler of Mulgore"
+ desc_mission_rule_mulgore: ""
+
+ event_centaur_heirs_druidism: "Heirs of the Centaur Race: Druidism"
+ desc_event_centaur_heirs_druidism: ""
+
+ event_centaur_heirs_shamanism: "Heirs of the Centaur Race: Shamanism"
+ desc_event_centaur_heirs_shamanism: ""
+
+ event_centaur_heirs_earth: "Heirs of the Centaur Race: Earth"
+ desc_event_centaur_heirs_earth: ""
+
+ allow_siberian_frontier_20Y: "Allow Siberian Frontier 20Y"
+ desc_allow_siberian_frontier_20Y: ""
+
+ event_centaur_marauders_razormane_defences: "Razormane Resistance"
+ desc_event_centaur_marauders_razormane_defences: ""
+
+ mission_great_tauren_hunt: "The Butcher of Tauren Race"
+ desc_mission_great_tauren_hunt: ""
+
+ event_return_desolace: "Return to Desolace"
+ desc_event_return_desolace: ""
+
+ event_khanate_united: "Khanates United"
+ desc_event_khanate_united: ""
+
+ mission_mysteries_maraudon: "Mysteries of Maraudon"
+ desc_mission_mysteries_maraudon: ""
+
+ beauty_of_stone_princess: "Beauty of the Stone Princess"
+ desc_beauty_of_stone_princess: ""
+
+ event_seat_of_stone_princes: "Seat of the Stone Princess"
+ desc_event_seat_of_stone_princes: ""
+
+ arathas_ruler: "Aratas, Lord of War"
+ desc_arathas_ruler: ""
+
+
+
+ # Tooltips
+ CENTAUR_CB_TT: "The Following Mission Unlocks special CB against all Tauren nations"
+
+ primary_artifact_apocalypse: "Primary Artifact is: Apocalypse"
+
+ IMMORTAL_RULER_TT: "Following Mission will make your current ruler Immortal. Remember to not make him a general!"
+
+ IMMORTAL_RULER_EVENT_TT: "Following Event will make your current ruler Immortal. Remember to not make him a general!"
+
+ AWAKENING_EARTH_MOTHER_MISSIONS_TT: "Deepholm will receive the event, that will decide if they want to become your personal union, your ally, or to deny any and turn against you"
+
+ H04_hero_mercenary_company_TT: "Unlocks the §YAratas§! §THero Mercenary Company§!. Company bonuses are:\n§G+10%§! Discipline\n§G+25%§! Cavalry Combat Ability\n§G+1§! Cavalry Shock\n"
+
+ # Events
+
+ wwu_centaur_marauders.1.title: "The Heirs of the Centaur Race"
+ wwu_centaur_marauders.1.desc: "As tales of our conquest reach the most further corners of Kalimdor and even beyond, and ballades of doom are sang by the wary travelers, we have proven once for one that we can be seen as legitimate heirs to the Centaur civilization. The Question of our belives comes to the question, for we know that we are the children of Earth and Nature, born and created by it. What faith should we follow, to honor our heretige?"
+ wwu_centaur_marauders.1.option.a: "The Nature is our call. We shall honor our father, Zaetar."
+ wwu_centaur_marauders.1.option.b: "The Spirits of our Ancestors are our only heretige. The Path of Shamanism stands before us."
+ wwu_centaur_marauders.1.option.c: "Our one, true creator. The Earth."
+
+ wwu_centaur_marauders.2.title: "The Centaur - Razormane War"
+ wwu_centaur_marauders.2.desc: "Our lands had been invaded by the army of the Centaur Marauders, a local threat on the rise to become dangerous enemy in the future. We should be cautious of their actions, as they had claimed some of our lands, and if they manage to get control of them, they may take them by force!"
+ wwu_centaur_marauders.2.option.a: "We won't let them take them so easily!"
+
+ wwu_centaur_marauders.3.title: "Return to Desolace"
+ wwu_centaur_marauders.3.desc: "Having reclaim the lands of Desolace, our homelands, we have arrived in the lands of Maraudon, the complex of caves from which first of centaurs stepped out to the world. The entrance to it was called the valley of bones, were we have defeated the protectors of the place. As they fell, we have declared, that their duty is over, for we shall take it for ourselves."
+ wwu_centaur_marauders.3.option.a: "At last, we have returned to sacret home"
+
+ wwu_centaur_marauders.4.title: "The Khanate"
+ wwu_centaur_marauders.4.desc: "The tribes of centaurs had been united. The petty wars among the clans are no more, as they all anwser to one, true Khan"
+ wwu_centaur_marauders.4.option.a: "Might of the Centaurs shall be known across all lands"
+
+ wwu_centaur_marauders.5.title: "Princess Theradras"
+ wwu_centaur_marauders.5.desc: "The Stone Mother awoke, and stepped up, welcoming our Khan in her lair. She greeted him with warmth, allowing him to feel the essence of earth. Then, she asked him. Do my people need me to guide them, or should they rule themselves?"
+ wwu_centaur_marauders.5.option.a: "The Throne of the Centaurs is yours, dear mother."
+ wwu_centaur_marauders.5.option.b: "Rest assured, mother, we shall conquer the world in your name."
+
+ wwu_centaur_marauders.6.title: "Power of the Stone Princess"
+ wwu_centaur_marauders.6.desc: "Having stepped up as leader of the Centaurs, Theradras had tapped into the earth, harnessing its essence to empower herself."
+ wwu_centaur_marauders.6.option.a: "Earth, hear my call!"
+
+ wwu_centaur_marauders.7.title: "The Call to Earth Mother"
+ wwu_centaur_marauders.7.desc: "The Throne of Earth had trembled, as the voice of the earth had reached it from Azeroth. The lost child of Therazen, Stone Princess Theradras, had called upon Deepholm, declaring herself ready to rule the domani of Earth. While her deeds were respectable, and her claim legitimate, we have to decide the outcome."
+ wwu_centaur_marauders.7.option.a: "The Children of Theradras had proven themselves, the realm of Earth is hers to rule."
+ wwu_centaur_marauders.7.option.b: "It is impressive what Theradras had achived. I shall support her creations."
+ wwu_centaur_marauders.7.option.c: "Ugly monstrocities they are, but the children of Earth. They shall belong to Deepholm."
+
+ wwu_centaur_marauders.8.title: "Rise of Aratas and the Perfect Ones"
+ wwu_centaur_marauders.8.desc: "As army of centaurs stood still, the one called Aratas, an elemental made into centaur, had arrived before the great Khan, and had challenged his rule. Aratas was unlike many centaurs, his will unbroken and body unmatched. He called himself and his warband a Perfect Ones, for he seen himself a perfect warrior, ready to take over the world. What should our Khan do in this situation?"
+ wwu_centaur_marauders.8.option.a: "The True King of Centaurs had arrived. He shall conquer this world!" 
+ wwu_centaur_marauders.8.option.b: "Welcome among our ranks, Champion Aratas"

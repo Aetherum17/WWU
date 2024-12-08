@@ -1,0 +1,193 @@
+graphical_culture = goblin_gfx
+
+color = { 27 152 210 }
+
+monarch_names = {
+	"Jees" = 1
+	"Vat" = 1
+	"Exinkle" = 1
+	"Zeeshneekle" = 1
+	"Revix" = 1
+	"Meta" = 1
+	"Valameeld" = 1
+	"Zizmos" = 1
+	"Eenmeti" = 1
+	"Grigzoshi" = 1
+	"Fonk" = 1
+	"Qin" = 1
+	"Enbe" = 1
+	"Kleenqe" = 1
+	"Nizbeenzart" = 1
+	"Axik" = 1
+	"Qivogteek" = 1
+	"Byqa" = 1
+	"Eshzie" = 1
+	"Vomiert" = 1
+	"Qeexle" = 1
+	"Klokle" = 1
+	"Ditez" = 1
+	"Walmat" = 1
+	"Kashqild" = 1
+	"Deshet" = 1
+	"Nilni" = 1
+	"Kyshanxik" = 1
+	"Dilnixle" = 1
+	"Jexien" = 1
+	"Grald" = 1
+	"Min" = 1
+	"Nazga" = 1
+	"Releex" = 1
+	"Bazen" = 1
+	"Gregi" = 1
+	"Jibi" = 1
+	"Oqa" = 1
+	"Baxabiz" = 1
+	"Amongink" = 1
+	"Qyt" = 1
+	"Kal" = 1
+	"Qyzeedrenk" = 1
+	"Detzert" = 1
+	"Bevyxvert" = 1
+	"Jenben" = 1
+	"Bema" = 1
+	"Dolqik" = 1
+	"Jitqoti" = 1
+	"Sybenienkle" = 1
+	"Twez" = -1
+	"Slank" = -1
+	"Kluma" = -1
+	"Revely" = -1
+	"Glinkel" = -1
+	"Sizvo" = -1
+	"Graskozz" = -1
+	"Uzvox" = -1
+	"Slizguqti" = -1
+	"Isgils" = -1
+	"Gez" = -1
+	"Flenkle" = -1
+	"Kluxekle" = -1
+	"Aznelbitte" = -1
+	"Klisveebee" = -1
+	"Texzez" = -1
+	"Caba" = -1
+	"Teva" = -1
+	"Pakkumqankle" = -1
+	"Eenizvatte" = -1
+	"Gankle" = -1
+	"Fette" = -1
+	"Pumgi" = -1
+	"Nequitez" = -1
+	"Blapge" = -1
+	"Gunazz" = -1
+	"Pese" = -1
+	"Sudlyqyx" = -1
+	"Fladil" = -1
+	"Glazeblix" = -1
+
+}
+
+leader_names = {
+	"Cheapbead"
+	"Blandmine"
+	"Aridburst"
+	"Madband"
+	"Shortbit"
+	"Greasypost"
+	"Vividlock"
+	"Aridpinch"
+	"Pickflow"
+	"Deaddrive"
+	"Cogclamp"
+	"Boomburst"
+	"Cheapgrinder"
+	"Silvercharge"
+	"Fizzleguard"
+	"Botwrench"
+	"Pickslice"
+	"Madtwister"
+	"Hardbottom"
+	"Hagglebeast"
+	"Grapplekettle"
+	"Scrollgrin"
+	"Madtwist"
+	"Fizbead"
+	"Wildspark"
+	"Nifttale"
+	"Copperdigger"
+	"Shadowbulb"
+	"Keenhead"
+	"Cheapracket"
+	"Vividhead"
+	"Moneymine"
+	"Sandcoil"
+	"Goldtale"
+	"Greasesteam"
+	"Grimgob"
+	"Barrendust"
+	"Barrenhallow"
+	"Brisktwister"
+	"Starkflow"
+	"Cuthammer"
+	"Grimmask"
+	"Wrenchbomb"
+	"Keenfuse"
+	"Blindhook"
+	"Powersteam"
+	"Brokendigger"
+	"Craftpatch"
+	"Topboot"
+	"Barrendoc"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	goblin_inf_a_1
+	goblin_cav_a_1
+	goblin_inf_a_2
+	goblin_cav_a_2
+	goblin_inf_a_3
+	goblin_cav_a_3
+	goblin_inf_a_4
+	goblin_cav_a_4
+	goblin_inf_a_5
+	goblin_cav_a_5
+}

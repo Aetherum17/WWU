@@ -136,6 +136,7 @@ on_five_year_pulse__game_configuration = {
         
         if = {
             limit = {
+				# Audax Validator "." Ignore_NEXT
                 has_saved_event_target = event_target:victim
             }
             declare_war_with_cb = {

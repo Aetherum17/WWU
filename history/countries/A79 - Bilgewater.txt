@@ -58,5 +58,7 @@ religious_school = trade_philosophy
         name = member_of_horde
         duration = -1
     }
+	
+	capital = 4090
 }
 

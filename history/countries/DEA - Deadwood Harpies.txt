@@ -1,0 +1,21 @@
+government = tribal
+add_government_reform = tribal_despotism_reform
+add_government_reform = wwu_tribal_established_warband_reform
+
+mercantilism 		= 10
+technology_group 	= tech_harpy
+religion			= wind
+primary_culture 	= culture_harpy
+capital 			= 4249
+
+550.1.1 = {
+	monarch = {
+		name = "Shelda"
+		dynasty = "The Fury"
+		birth_date = 540.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+		female = yes
+	}
+}

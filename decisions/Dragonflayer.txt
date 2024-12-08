@@ -1,0 +1,194 @@
+# Colonize Vengance Landing
+country_decisions = {
+    colonize_vengance = {
+        potential = {
+            tag = B08
+            has_country_flag = unlock_colonize_vengance
+            NOT = { has_country_flag = colonized_vengance }
+            714 = {
+                is_empty = yes
+            }
+            867 = {
+                is_empty = yes
+            }
+            2468 = {
+                is_empty = yes
+            }
+        }
+        allow = {
+            treasury = 300
+        }
+        effect = {
+            add_treasury = -300
+
+            714 = {
+                add_siberian_construction = 250
+                change_culture = culture_vrykul
+            }
+            867 = {
+                add_siberian_construction = 250
+                change_culture = culture_vrykul
+            }
+            2468 = {
+                add_siberian_construction = 250
+                change_culture = culture_vrykul
+            }
+
+            hidden_effect = {
+                set_country_flag = colonized_vengance
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+	# Restore Gjalerbron
+    restore_gjalerborn_citadel = {
+        potential = {
+            tag = B08
+            has_country_flag = unlock_restore_gjalerborn
+            NOT = { has_country_flag = restored_gjalerborn }
+        }
+        allow = {
+            owns_core_province = 680
+            treasury = 500
+            adm_power = 100
+            mil_power = 100
+        }
+        effect = {
+            add_treasury = -500
+            add_adm_power = -100
+            add_mil_power = -100
+
+            add_prestige = 15
+
+            680 = {
+                add_base_manpower = 4
+                add_base_tax = 4
+
+                center_of_trade = 1
+                add_building = wow_fort_3
+
+                change_culture = ROOT
+                change_religion = ROOT
+
+                add_province_modifier = {
+                    name = decision_B08_gjalerborn_citadel
+                    duration = -1
+                }
+            }
+
+            hidden_effect = {
+                set_country_flag = restored_gjalerborn
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+	# Restore Vrykul Cities
+    restore_vrykul_cities = {
+        potential = {
+            tag = B08
+            primary_culture = culture_vrykul
+            has_country_flag = unlock_restore_vrykul_cities
+            882 = {
+                owned_by = ROOT
+                NOT = { culture_group = culture_group_vrykul }
+            }
+            769 = {
+                owned_by = ROOT
+                NOT = { culture_group = culture_group_vrykul }
+            } 
+        }
+        allow = {
+            882 = {
+                owned_by = ROOT
+                NOT = { culture_group = culture_group_vrykul }
+            }
+            769 = {
+                owned_by = ROOT
+                NOT = { culture_group = culture_group_vrykul }
+            }
+            adm_power = 100
+            mil_power = 100
+        }
+        effect = {
+            add_adm_power = -100
+            add_mil_power = -100
+
+            add_prestige = 5
+            add_legitimacy = 10
+
+            882 = {
+                add_core = ROOT
+                change_culture = ROOT
+                change_religion = ROOT
+                add_base_manpower = 1
+            }
+            769 = {
+                add_core = ROOT
+                change_culture = ROOT
+                change_religion = ROOT
+                add_base_manpower = 1
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+	# Settle Strand of the Ancients
+    settle_strand_of_the_ancients = {
+        potential = {
+            tag = B08
+            has_country_flag = unlock_colonize_sota
+            NOT = { has_country_flag = colonized_sota }
+            4102 = {
+                is_empty = yes
+            }
+            4101 = {
+                is_empty = yes
+            }
+            4103 = {
+                is_empty = yes
+            }
+        }
+        allow = {
+            treasury = 300
+            dip_power = 50
+            adm_power = 50
+            mil_power = 50
+        }
+        effect = {
+            add_treasury = -300
+            add_adm_power = -50
+            add_dip_power = -50
+            add_mil_power = -50
+
+            4102 = {
+                add_siberian_construction = 100
+                change_culture = culture_vrykul
+            }
+            4101 = {
+                add_siberian_construction = 100
+                change_culture = culture_vrykul
+            }
+            4103 = {
+                add_siberian_construction = 100
+                change_culture = culture_vrykul
+            }
+
+            hidden_effect = {
+                set_country_flag = colonized_sota
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
+
+# Harpoon Research 1

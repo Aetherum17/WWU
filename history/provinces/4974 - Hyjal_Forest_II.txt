@@ -1,0 +1,44 @@
+
+is_city = yes
+
+owner = A95
+controller = A95
+add_core = A95
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = culture_harpy
+religion = druidism
+
+hre = no
+trade_goods = resource_rare_wood
+
+
+617.1.1 = {
+    culture = culture_doomguard
+    religion = fel
+    owner = G02
+    controller = G02
+    add_core = G02
+    trade_goods = resource_fel
+}
+
+631.1.1 = {
+    owner = P26
+    controller = P26
+    add_core = P26
+	
+	culture = culture_fire
+    religion = flame
+}
+
+632.1.1 = {    
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+	religion = druidism
+	culture = culture_night_elf
+}

@@ -101,3 +101,18 @@ event_flames_of_stormwind = {
     local_friendly_movement_speed = 0.2
     local_defender_dice_roll_bonus = 1
 }
+
+event_blazerunner_empowerment_minor = {
+    fire_damage = 0.05
+    fire_damage_received = -0.05
+}
+
+event_blazerunner_empowerment_major = {
+    fire_damage = 0.1
+    fire_damage_received = -0.1
+    production_efficiency = 0.1
+}
+
+event_BLA_frontier_ten = {
+    may_establish_frontier = yes
+}

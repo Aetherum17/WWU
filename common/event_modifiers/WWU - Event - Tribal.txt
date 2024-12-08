@@ -1,0 +1,7 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+# Event: 
+ransom_event_cooldown = { }
+enslave_event_cooldown = { }
+integrate_event_cooldown = {}

@@ -13,5 +13,16 @@ religion = titan_worship
 hre = no
 trade_goods = unknown
 
+626.1.1 = {
+    owner = H07
+    controller = H07
+    add_core = H07
 
+    base_tax = 2
+    base_production = 3
+    base_manpower = 1
+
+    culture = culture_orc
+    religion = shamanism
+}
 

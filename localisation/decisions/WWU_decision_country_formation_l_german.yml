@@ -81,7 +81,7 @@
  # Form Council of Three Hammers
  #-----------------------------------------------
  form_council_three_hammers_title: "[DI_golden_crown] Form the Council of Three Hammers"
- form_council_three_hammers_desc: "After the great civil war of the dwarves, Ironforge and Wildhammer kept good relations but Dark Iron continued to scheme against them. After the death of Thaurisian and the fall of Ragnaros in the hands of adventurers, the dark iron declared Moira of the bronzebeards and wife of Thaurisian as their leader. After the events of Cataclysm and certain events Moira came into communion with the other tribes and formed the Council of the Three Hammers, with the help of the king of the Alliance, Varian Wrynn. Will the Council be able to face its new challenges?"
+ form_council_three_hammers_desc: "After the great civil war of the dwarves, Ironforge and Wildhammer kept good relations but Dark Iron continued to scheme against them. After the death of Thaurissan and the fall of Ragnaros in the hands of adventurers, the dark iron declared Moira of the Bronzebeards and wife of Thaurisian as their leader. After the events of Cataclysm and certain events Moira came into communion with the other tribes and formed the Council of the Three Hammers, with the help of the king of the Alliance, Varian Wrynn. Will the Council be able to face its new challenges?"
  
  #-----------------------------------------------
  # Silvermoon
@@ -106,8 +106,6 @@
  #-----------------------------------------------
  form_scarlet_lordaeron_title: "[DI_golden_crown] Form Scarlet Lordaeron"
  form_scarlet_lordaeron_desc: "We restored Lordaeron in our image"
- SCARLET_LORDAERON: "Scarlet Lordaeron"
- SCARLET_LORDAERON_ADJ: "Scarlet"
  
  #-----------------------------------------------
  # Formable - Flayer Point
@@ -378,8 +376,6 @@
  restore_kingdom_of_lordaeron_desc: "After the fall of the kingdom, the successor states of Lordaeron fight for the revival of Lordaeron but only one of them can succeed."
  form_lordaeron_title: "[DI_golden_crown] Form Lordaeron"
  form_lordaeron_desc: "WARNING! This is a name change decision, not the actual tag! This is for those who prefer the current tags color and government"
- LORDAERON: "Lordaeron"
- LORDAERON_ADJ: "Lordaeron"
  
  #-----------------------------------------------
  # Restore Gilneas
@@ -527,8 +523,9 @@
  #-----------------------------------------------
  # Form Demonic Formables
  #-----------------------------------------------
- decision_diff_menu_open_title: "[DI_golden_crown] Demon Invasion Force Formation Menu"
- decision_diff_menu_open_desc: "Use it to open and close the formable menu"
+ demonic_invasion_force_formation_menu_title: "[DI_golden_crown] Demon Invasion Force Formation Menu"
+ demonic_invasion_force_formation_menu_desc: "Use it to open and close the formable menu"
+ 
  dem_inv_force_menu_open: "Demonic Invasion Force Menu Open"
  summoned_demonic_invasion_force: "Summoned Demonic Invasion Force"
  
@@ -822,3 +819,43 @@
  form_fel_vindicaar_desc: "This is an §YFlavour§! decision.\n. Renaming our structure to Fel Vindicaar would reflect on our new faith."
  FEL_VINDICAAR: "Fel Vindicaar"
  FEL_VINDICAAR_ADJ: "Fel Vindicaar"
+
+ #-----------------------------------------------
+ # Form the Fel Horde
+ #-----------------------------------------------
+ form_the_fel_horde_title: "[DI_golden_crown] Form the Fel Horde"
+ form_the_fel_horde_desc: "This is an §YFlavour§! decision.\n"
+
+ #-----------------------------------------------
+ # Reform Ahn'Qiraj
+ #-----------------------------------------------
+ restore_ahnnqiraj_title: "[DI_golden_crown] Reform Kingdom of Ahn'Qiraj"
+ restore_ahnnqiraj_desc: "This is an §YFlavour§! decision.\n"
+
+ #-----------------------------------------------
+ # Name Change - Deathknell
+ #-----------------------------------------------
+ form_deathknell_title: "[DI_golden_crown] Declare Deathknell"
+ form_deathknell_desc: "This is an §YFlavour§! decision.\n As the ashes of death fall over Vandelmar, our legacy can no longer be associated with human state that once was. Now, a more fitting name shall accompany us."
+ DEATHKNELL: "Deathknell"
+ DEATHKNELL_ADJ: "Deathknell"
+ 
+ #-----------------------------------------------
+ # Name Change - Ironforge
+ #-----------------------------------------------
+ form_ironforge_title: "[DI_golden_crown] Embrace Name: Ironforge"
+ form_ironforge_desc: "This is an §YFlavour§! decision.\n While all dwarves have ties to region of Khaz Modan, it was Ironforge, when main three dwarven clans ruled from, before the War of the Three Hammers. Renaming to Ironforge would allow us to seperate from our previous legacy."
+ IRONFORGE: "Ironforge"
+ IRONFORGE_ADJ: "Ironforge"
+ 
+ #-----------------------------------------------
+ # Form Northrend
+ #-----------------------------------------------
+ form_northrend_nation_title: "[DI_golden_crown] Form Northrend"
+ form_northrend_nation_desc: "This is an §YFlavour§! decision.\n"
+ 
+ #-----------------------------------------------
+ # Form Broken Isles
+ #-----------------------------------------------
+ form_broken_isles_nation_title: "[DI_golden_crown] Form Broken Isles"
+ form_broken_isles_nation_desc: "This is an §YFlavour§! decision.\n"

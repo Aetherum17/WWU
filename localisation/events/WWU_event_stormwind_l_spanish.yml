@@ -9,9 +9,9 @@
  wwu_stormwind.1.desc.darkshire: "Our annexation of Darkshire has angered our other subjects, who shall attempt to exert authority over their own lands for the forseeable future."
  wwu_stormwind.1.option.a: "Bah!"
 
- #----------------------
- # Stormwind One Events
- #----------------------
+ #-------------------------------
+ # Stormwind Gnoll War Eventsb---
+ #-------------------------------
 
  wwu_mission_stw_one.1.title: "Call of the Guardian"
  wwu_mission_stw_one.1.desc: "In the time as dire as now, Kingdom of Stormwind is facing overwhealming odds, and is in dire need of an all. They refer to us, Guardian of Azeroth, to step up and lead or soldiers to help them in battle. What are we going to do?"
@@ -25,17 +25,17 @@
  wwu_mission_stw_one.2.option.b: "Send out the troops, we shall honor our ties!"
  wwu_mission_stw_one.2.option.c: "Ignore it..."
 
- wwu_mission_stw_one.3.title: "The fate of Westfall"
+ wwu_mission_stw_one.3.title: "The Fate of Westfall"
  wwu_mission_stw_one.3.desc: "Now that we faced the threat of the gnolls, our nobles lords and landowners demand that we settle on how we shall govern the lands of Westfall. They desire full governing rights, but we can offer them limited autonomy. What should we do?"
  wwu_mission_stw_one.3.option.a: "Westfall should be goverend by the local force, alongside administration loyal to or crown."
  wwu_mission_stw_one.3.option.b: "They shall have their autonomy."
 
- wwu_mission_stw_one.4.title: "The fate of Grand Hamlet"
+ wwu_mission_stw_one.4.title: "The Fate of Grand Hamlet"
  wwu_mission_stw_one.4.desc: "Grand Hamled, sometimes called Duskwood due to the often sorrowful weather, was ruled by us since the threat of the gnoll horde rose to face us. But now, the locals demand we either give them freedoms, or let them govern their lands. What should we do?"
  wwu_mission_stw_one.4.option.a: "Grand Hamlet shall govern itself"
  wwu_mission_stw_one.4.option.b: "Autonomy, they say..."
 
- wwu_mission_stw_one.5.title: "The fate of Redridge"
+ wwu_mission_stw_one.5.title: "The Fate of Redridge"
  wwu_mission_stw_one.5.desc: "The communities of redridge send us a delegation, that was asking a simple question. Can we offer them freedom. That question states, they desire higher autonomy, or their own rule. What should we do about them?"
  wwu_mission_stw_one.5.option.a: "There is a future regarding those lands, that shall govern their own lands."
  wwu_mission_stw_one.5.option.b: "Autonomous, but dependent"
@@ -43,3 +43,60 @@
  wwu_mission_stw_one.6.title: "Little Golden Age"
  wwu_mission_stw_one.6.desc: "We have crossed a milestone in building of our future. We have dealt with Gnolls, reclaimed lands that are rightfully ours. We can celebrate our victory, and hail the rise of Stormwind in new era!"
  wwu_mission_stw_one.6.option.a: "A little golden age."
+
+ #--------------------------
+ # Stormwind Main Events ---
+ #--------------------------
+
+ wwu_mission_stw_main.1.title: "Stormwind Army Composition Reform"
+ wwu_mission_stw_main.1.desc: "Having learned from the times we struggled against the gnolls, we must learn from our experiences and adjust our forces by reforming the army."
+ wwu_mission_stw_main.1.option.a: "We should reform structure of our regiments for more efficient ordering."
+ wwu_mission_stw_main.1.option.b: "We should lean more into mercenary powers, gold is not an issue"
+ wwu_mission_stw_main.1.option.c: "We should primarly focus on building up the fighting spirit."
+
+ wwu_mission_stw_main.2.title: "Debate of Light and Flame"
+ wwu_mission_stw_main.2.desc: "There was a notice in our court about a debate that was sparked between members of the Church of the Holy Light and schollars of Arcane teachings. The debate discussed which force would benefit our kingdom better. One of the Inquisitors declared that faith is the defining factor of the society and it shall guide us with every step, where as a philosopher of arcane teachings argued that arcane magic and science could progress our society into new era. As the conflict had grown to a public scale, we were approached with decision to choose one of the sides, which would in return show where our interest lies. Who is right in this debate?"
+ wwu_mission_stw_main.2.option.a: "The Inquisitor speaks the truth, faith is what defies us."
+ wwu_mission_stw_main.2.option.b: "The Philospher is right, we must look into the future, and progress towards it."
+
+ wwu_mission_stw_main.3.title: "The Kurzen Expedition"
+ wwu_mission_stw_main.3.desc: "The Kurzen Expedition had entered into Stranglethorn, establishing a forward base for us."
+ wwu_mission_stw_main.3.option.a: "Fantastic"
+
+ wwu_mission_stw_main.4.title: "The Fate of Kurzen Expedition"
+ wwu_mission_stw_main.4.desc: "Having secured the base within Stranglethorn, commander of the expedition, Conrad Kurzen, send a letter to his kind, asking what we we plan to do with the expedition."
+ wwu_mission_stw_main.4.option.a: "Kurzen and his people will operate in the area in our name, acting as march against the beasts of Stranglethorn"
+ wwu_mission_stw_main.4.option.b: "Good, we will take it from now."
+
+ wwu_mission_stw_main.5.title: "Balor Naval Command"
+ wwu_mission_stw_main.5.desc: "The Duchy of Balor have long been under our influence, being integrated due to the issue of the island. However, our efforts and its strategic importance raise the voice of letting the local ruler take a semi-autonomous power, anwsering to our crown as naval support."
+ wwu_mission_stw_main.5.option.a: "Wonderous Idea. Balor will be a great asset in the future of our nation."
+ wwu_mission_stw_main.5.option.b: "It has been integrated for far too long to matter. We will setup the naval base ourselves."
+
+ wwu_mission_stw_main.6.title: "The Destruction the Tainted Temple"
+ wwu_mission_stw_main.6.desc: "Having battled our way across the city of Zul'gurub, we have reached the central peak of the city, the Tainted Temple, where Gurubashi Troll tried to perform some sort of blood ritual. Having stopped them, we were able to massacre all but few remaining residents, pludering the temple's riches to support the crown. As we were leaving, the city was covered in gunpower and set ablaze, making sure it is ruined beyond habitation"
+ wwu_mission_stw_main.6.option.a: "The Gurubashi had been defeated, there are a threat no more."
+
+ wwu_mission_stw_main.7.title: "Fall of Zul'Gurub"
+ wwu_mission_stw_main.7.desc: "Our mighty city, Zul'Gurub, had fallen to the human Kingdom of Stormwind, and our magnificent temple had been destroyed."
+ wwu_mission_stw_main.7.option.a: "Dark clouds gather over Gurubashi tribe..."
+
+ wwu_mission_stw_main.8.title: "The Establishment of Morgan Camp"
+ wwu_mission_stw_main.8.desc: "After our conquest of Redridge and integration of its lands into the crown of Stormwind, our eyes had reached up north, to the dry, burning desolate landscape of Burning Steppes, a part of Redridge mountains long since lost due to eruption that created Blackrock Mountain. We have selected an area in the east of the region, less inhospitable than other, to settle a camp, named Morgan Camp, after leader of the expedition who selected the area."
+ wwu_mission_stw_main.8.option.a: "Morgan Camp should operate as dependency to the crown, we have no interest of direct control."
+ wwu_mission_stw_main.8.option.b: "We cannot leave this place to those crazy lunatics. We rule in here."
+
+ wwu_mission_stw_main.9.title: "Fate of the Kingdom of Thaurassian"
+ wwu_mission_stw_main.9.desc: "Our counquest of the Burning Steppes continued, making us reach the peaks of Blackrock Mountain and the fortresses within it. As we advanced down the mountain corridors, we were able to liberate a group of dark iron dwarves, among them the daughter of the King Magni Bronzbeard, Moira Bronzbeard, now bearing dynasty of Thaurassian. Her liberation opened an opportunity for us to liberate the Dark Irons, who in return would serve as our subjects."
+ wwu_mission_stw_main.9.option.a: "Years of fighting local resistances are not worth the the trouble. Thaurassians should rule."
+ wwu_mission_stw_main.9.option.b: "Long have we seeked to claim those lands. We will not back to mere pretender."
+
+ wwu_mission_stw_main.10.title: "Fate of the Blackrock Mountain"
+ wwu_mission_stw_main.10.desc: "Our counquest of the Burning Steppes continued, making us reach the peaks of Blackrock Mountain and the fortresses within it. Dealing with Dark Iron dwarves left and right within Shadowforge, we had a moment to decide who will rule the lands. While direct rule was possible, there was opportunity for Morgan Forces to overtake this effort, protecting us from the north."
+ wwu_mission_stw_main.10.option.a: "Direct rule is an only option"
+ wwu_mission_stw_main.10.option.b: "Interesting proposition. Let them do the hard work."
+
+ wwu_mission_stw_main.11.title: "Fall of the Firelord"
+ wwu_mission_stw_main.11.desc: "Long since have Ragnaros and his armies of flame terrorized Azeroth. Today, with our assult, the Sulfuron Keep, the thone of the Firelord was conquered. With the battle against the elements, our soldiers were victorious, reducing the former elemental lord to his weaken form, able for our mages to contain him. While the reasonable option would be to destroy the firelord, we were able to harness enought power, that we could contain him. Are we willing to go that far?"
+ wwu_mission_stw_main.11.option.a: "No. This madness ends, here and now."
+ wwu_mission_stw_main.11.option.b: "To imagine ruling the master of flame is mad, but real. And I am mad."

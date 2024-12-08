@@ -32,11 +32,16 @@ trade_goods = resource_cloth_armor
 
 # The Burning Crusade
 625.1.1 = {
-    owner = B92
-    controller = B92
-    add_core = B92
-    culture = culture_doomguard
-    religion = fel
+    owner = G18
+    controller = G18
+    add_core = G18
+	
+	base_tax = 3
+    base_production = 3
+    base_manpower = 5
+
+    culture = culture_felblood_elf
+	religion = fel
 }
 
 # Wrath of the Lich King

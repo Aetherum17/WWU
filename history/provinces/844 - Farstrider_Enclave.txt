@@ -4,7 +4,6 @@ is_city = yes
 owner = A59
 controller = A59
 add_core = A59
-add_core = A90
 
 base_tax = 1
 base_production = 1
@@ -24,7 +23,6 @@ trade_goods = resource_ranged_weaponry
     add_core = F54
     add_claim = F21
     religion = irreligious
-    remove_core = A90
 }
 
 # The Burning Crusade

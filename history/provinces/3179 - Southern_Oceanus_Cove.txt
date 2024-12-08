@@ -1,13 +1,13 @@
 is_city = yes
-owner = HAT
-controller = HAT
-add_core = HAT
+owner = DEP
+controller = DEP
+add_core = DEP
 
-base_tax = 1
+base_tax = 2
 base_production = 2
 base_manpower = 3
 
-culture = culture_murloc
+culture = culture_sea_giant
 religion = water
 
 hre = no

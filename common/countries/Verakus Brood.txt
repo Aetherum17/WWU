@@ -1,0 +1,143 @@
+graphical_culture = black_dragon_gfx
+
+color = { 0 39 27 }
+
+monarch_names = {
+	"Unsylion" = 1
+	"Sitririan" = 1
+	"Ydririan" = 1
+	"Sozyrrion" = 1
+	"Hibidian" = 1
+	"Hizesion" = 1
+	"Halvadian" = 1
+	"Neltision" = 1
+	"Miganion" = 1
+	"Hylvydion" = 1
+	"Myzellian" = 1
+	"Lyrtazion" = 1
+	"Hiridion" = 1
+	"Mebyrres" = 1
+	"Etrades" = 1
+	"Lidrasian" = 1
+	"Zegission" = 1
+	"Zegterar" = 1
+	"Migtirion" = 1
+	"Nutridion" = 1
+	"Velvines" = 1
+	"Hanserian" = 1
+	"Ahision" = 1
+	"Nyrtession" = 1
+	"Uranian" = 1
+	"Sinserrian" = 1
+	"Efemian" = 1
+	"Adision" = 1
+	"Vilvarian" = 1
+	"Emadian" = 1
+	"Nygemian" = 1
+	"Ydrizian" = 1
+	"Zeltenian" = 1
+	"Mirellion" = 1
+	"Ynsyrrion" = 1
+	"Vigtedian" = 1
+	"Yrtyvion" = 1
+	"Seravion" = 1
+	"Ehasian" = 1
+	"Lafamion" = 1
+	"Mathraxa" = -1
+	"Rysrontra" = -1
+	"Mothirra" = -1
+	"Revsyntria" = -1
+	"Syrtody" = -1
+	"Hertora" = -1
+	"Sivreda" = -1
+	"Serticsy" = -1
+	"Loxedria" = -1
+	"Felyndrya" = -1
+	"Mestidya" = -1
+	"Yrtilra" = -1
+	"Enthontria" = -1
+	"Seldixa" = -1
+	"Hisronria" = -1
+	"Zovsyrry" = -1
+	"Lavsistry" = -1
+	"Hividria" = -1
+	"Fovrirria" = -1
+	"Fonendria" = -1
+	"Ynthagrya" = -1
+	"Molixa" = -1
+	"Zyxrelry" = -1
+	"Ixradia" = -1
+	"Falostra" = -1
+	"Athrilra" = -1
+	"Hosricia" = -1
+	"Fovsastria" = -1
+	"Hysrantra" = -1
+	"Ethakra" = -1
+	"Revsalra" = -1
+	"Ralderre" = -1
+	"Laxosry" = -1
+	"Fovsykria" = -1
+	"Onere" = -1
+	"Zanendria" = -1
+	"Ryvestra" = -1
+	"Ivostia" = -1
+	"Sastradia" = -1
+
+}
+
+leader_names = {
+	"Tornwing" "Scarwing" "Ripwing" "Blackwing" "Deathwing" "Earthwing"
+	"Tornwing" "Scarwing" "Ripwing" "Blackwing" "Deathwing" "Earthwing"
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	black_dragonflight_inf_a_1
+	black_dragonflight_cav_a_1
+	black_dragonflight_inf_a_2
+	black_dragonflight_cav_a_2
+	black_dragonflight_inf_a_3
+	black_dragonflight_cav_a_3
+	black_dragonflight_inf_a_4
+	black_dragonflight_cav_a_4
+	black_dragonflight_inf_a_5
+	black_dragonflight_cav_a_5
+}

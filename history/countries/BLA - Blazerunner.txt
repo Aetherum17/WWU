@@ -1,0 +1,28 @@
+
+government 			= theocracy
+add_government_reform = elemental_cult_reform
+mercantilism 		= 10
+technology_group 	= tech_elemental_fire
+religion			= flame
+primary_culture 	= culture_fire
+capital 			= 1533
+
+546.1.1 = { 
+    monarch = { 
+        name = "Blazerunner" 
+        dynasty = "of Fire Plume Ridge" 
+		adm = 2
+		dip = 1
+		mil = 5
+ 	}
+    setup_spellcaster_history = {
+        APTITUDE = 3
+        FINESSE = 3
+        CONCENTRATION = 3
+        MANA = 5
+        elemental_fire = yes
+    }
+    
+    set_ruler_flag = is_immortal
+}
+

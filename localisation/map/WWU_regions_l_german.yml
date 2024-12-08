@@ -569,6 +569,24 @@
  region_dread_chain: "Dread Chain"
  region_dread_chain_name: "Dread Chain"
  region_dread_chain_adj: "Dread Chain"
+ 
+ # Khaz Algar
+ region_isle_of_dorn: "Isle of Dorn"
+ region_isle_of_dorn_name: "Isle of Dorn"
+ region_isle_of_dorn_adj: "Isle of Dorn"
+ 
+ region_ringing_deeps: "Ringing Deeps"
+ region_ringing_deeps_name: "Ringing Deeps"
+ region_ringing_deeps_adj: "Ringing Deeps"
+ 
+ region_hallowfall: "Hallowfall"
+ region_hallowfall_name: "Hallowfall"
+ region_hallowfall_adj: "Hallowfall"
+ 
+ region_azj_kahet: "Azj-Kahet"
+ region_azj_kahet_name: "Azj-Kahet"
+ region_azj_kahet_adj: "Azj-Kahet"
+ 
 
  # Sea
  region_eastern_kingdom_seas: "Eastern Kingdom Oceans"
@@ -623,4 +641,6 @@
  region_draconic_seas_name: "Draconic Seas"
  region_draconic_seas_adj: "Draconic Seas"
  
- 
+ region_khaz_algar_seas: "Khaz Algar Seas"
+ region_khaz_algar_seas_name: "Khaz Algar Seas"
+ region_khaz_algar_seas_adj: "Khaz Algar Seas"

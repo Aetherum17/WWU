@@ -31,16 +31,9 @@ country_decisions = {
                     owns_core_province = 1902   # Mogu'shan Terrace
                     
                     # General
-                    adm_tech = 10
-                    mil_tech = 10
                     is_at_war = no	
                     stability = 2
-                    total_development = 600
-                    
-                    # Cost
-                    adm_power = 200
-                    dip_power = 200
-                    mil_power = 200
+                    total_development = 600                                      
                 }
             
                 AND = {
@@ -57,12 +50,10 @@ country_decisions = {
                 }
             }
         }
-		effect = {
-            # Cost
-			add_adm_power = -200
-			add_dip_power = -200
-            add_mil_power = -200
-            
+		effect = {    
+            country_event = {
+				id = wwu_flavour_nc_mogu_empire.1
+			}
             # Switch
 			change_tag = MOE
 			change_government = monarchy

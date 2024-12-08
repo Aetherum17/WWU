@@ -1,0 +1,1994 @@
+#--------------------------------------
+# Gilneas
+#--------------------------------------
+A12_1_gilneas_column1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = A12
+		
+		NOT = { has_country_flag = A12_neutrality_path }
+	}
+
+	A12_develop_capital = {
+		icon = mission_town_houses
+		position = 2
+		required_missions = { A12_neutrality_or_alliance }
+		trigger = { 
+			927 = {
+				num_of_times_improved = 4
+				num_of_times_expanded_infrastructure = 1
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					927 = {
+						NOT = {
+							has_great_project = {
+								type = gp_gilneas_city
+								tier = 1
+							}
+						}
+					}
+				}
+				927 = {
+					add_great_project_tier = {
+						type = gp_gilneas_city
+						tier = 3
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					927 = {
+						has_great_project = {
+							type = gp_gilneas_city
+							tier = 1
+						}
+						NOT = {
+							has_great_project = {
+								type = gp_gilneas_city
+								tier = 2
+							}
+						}
+					}
+				}
+				927 = {
+					add_great_project_tier = {
+						type = gp_gilneas_city
+						tier = 2
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					927 = {
+						has_great_project = {
+							type = gp_gilneas_city
+							tier = 2
+						}
+						NOT = {
+							has_great_project = {
+								type = gp_gilneas_city
+								tier = 3
+							}
+						}
+					}
+				}
+				927 = {
+					add_great_project_tier = {
+						type = gp_gilneas_city
+						tier = 1
+					}
+				}
+			}
+			else = {
+				927 = {
+					add_random_development = 5
+				}
+			}
+		}
+	}
+	A12_develop_silverpine = {
+		icon = mission_lumbermill
+		position = 3
+		required_missions = { A12_develop_capital }
+		trigger = {
+			OR = {
+				num_of_owned_provinces_with = {
+					value = 2
+					region = region_silverpine_forest
+					owned_by = ROOT
+					num_of_times_improved = 3
+				}
+				num_of_owned_provinces_with = {
+					value = 5
+					region = region_gilneas
+					owned_by = ROOT
+					num_of_times_improved = 8
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = { 686 = { owned_by = ROOT } }
+				686 = {
+					add_province_modifier = {
+						name = A12_develop_silverpine_arg_keep_modifier
+						duration = 5478
+					}
+					add_random_development = 2
+					
+					custom_tooltip = no_tooltip
+					
+					add_building_construction = {
+						building = wow_fort_3
+						speed = 0.25
+						cost = 0
+					}
+				}
+			}
+			else = {
+				region_gilneas ={
+					add_random_development = 20
+				}
+			}
+		}
+	}
+	A12_exploit_from_emberstone_mine = {
+		icon = mission_mining
+		position = 5
+		required_missions = { A12_develop_silverpine }
+		trigger = {
+			848 = {
+				num_of_times_improved = 5
+				owned_by = ROOT
+			}
+			3017 = {
+				num_of_times_improved = 3
+				owned_by = ROOT
+			}
+			production_efficiency = 0.20
+		}
+		effect = {
+			848 = {
+				add_province_modifier = {
+					name = A12_exploit_from_emberstone_mine_modifier
+					duration = 3650
+				}
+			}
+			3017 = {
+				add_province_modifier = {
+					name = A12_exploit_from_emberstone_village_modifier
+					duration = 3650
+				}
+			}
+		}
+	}
+	A12_the_rebellion = {
+		icon = mission_rebellion
+		position = 6
+		completed_by = 618.1.1
+		required_missions = {  }
+		trigger = {
+			owns = 914
+			mission_completed = A12_neutrality_or_alliance
+			
+			914 = {
+				has_great_project = {
+                    type = gp_greymane_wall
+                }
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_gilneas.4 }
+		}
+	}
+	A12_crowley_fate = {
+		icon = mission_human_male
+		position = 7
+		required_missions = { A12_the_rebellion }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = A12_darius_crowley_jailed_tt
+				
+				has_country_flag = A12_darius_crowley_jailed
+			}
+			
+			OR = {
+				has_disaster = curse_of_the_worgen
+				is_at_war = yes
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_gilneas.5 }
+		}
+	}
+	A12_the_gilneas_liberation_front = {
+		icon = mission_gilneas_flag
+		position = 9
+		required_missions = { A12_crowley_fate A12_reconciliation_with_bloodfang }
+		trigger = {
+			OR = {
+				AND = {
+					is_in_war = {
+						attackers = P14 #Forsaken
+						duration = 1
+					}
+					
+					914 = {
+						controlled_by = P14
+					}
+					525 = {
+						controlled_by = P14
+					}
+				}
+				
+				is_year = 632
+				
+				NOT = {
+					P14 = {
+						OR = {
+							exists = no
+							alliance_with = ROOT
+						}
+					}
+				}
+			}	
+		}
+		effect = {
+			if = {
+				limit = {
+					is_in_war = {
+						attackers = P14
+						duration = 1
+					}
+				}
+				914 = {
+					cede_province = A12
+					infantry = A12
+					infantry = A12
+					infantry = A12
+				}
+					
+				525 = {
+					cede_province = A12
+					infantry = A12
+					infantry = A12
+					infantry = A12
+				}
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = A12_darius_crowley_killed }
+					is_in_war = {
+						attackers = P14
+						duration = 60
+					}
+				}
+				
+				custom_tooltip = no_tooltip
+				
+				914 = {
+					infantry = A12
+				}
+				525 = {
+					infantry = A12
+				}
+				
+				custom_tooltip = no_tooltip_1
+				
+				define_general = {
+					name = "Lorna Crowley"
+					female = yes
+					trait = goal_oriented_personality
+					shock = 4
+					fire = 3
+					manuever = 4
+					siege = 2
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						P14 = {
+							OR = {
+								exists = no
+								alliance_with = ROOT
+							}
+						}
+						is_year = 632
+					}
+				}
+				add_country_modifier = {
+					name = A12_intelligence_service
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						OR = {
+							is_in_war = {
+								attackers = P14 #Forsaken
+							}
+							
+							is_year = 632
+							
+							P14 = {
+								OR = {
+									exists = no
+									alliance_with = ROOT
+								}
+							}
+						}	
+					}
+				}
+				custom_tooltip = A12_the_gilneas_liberation_front_a
+					
+				custom_tooltip = no_tooltip
+					
+				custom_tooltip = A12_the_gilneas_liberation_front_b 
+				tooltip = {
+					define_general = {
+						name = "Lorna Crowley"
+						female = yes
+						trait = goal_oriented_personality
+						shock = 4
+						fire = 3
+						manuever = 4
+						siege = 2
+					}
+				}
+						
+				custom_tooltip = no_tooltip_1
+						
+				custom_tooltip = A12_the_gilneas_liberation_front_c
+				tooltip = {
+					add_country_modifier = {
+						name = A12_intelligence_service
+						duration = -1
+					}
+				}
+			}
+		}
+	}
+	A12_strength_in_unity = { #will vassalize Bloodfang and Hillsbrade
+		icon = mission_worgen_foot
+		position = 10
+		required_missions = { A12_the_gilneas_liberation_front }
+		trigger = {
+			F53 = { #Bloodfang
+				exists = yes
+				OR = {
+					alliance_with = ROOT
+					is_subject_of = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 130
+					}
+				}
+				culture_group = culture_group_worgen
+			}
+			A11 = { #Hillsbrade
+				OR = {
+					AND = {
+						alliance_with = ROOT
+						is_subject_of = ROOT
+						has_opinion = {
+							who = ROOT
+							value = 145
+						}
+					}
+					AND = {
+						alliance_with = F53
+						is_subject_of = F53
+						has_opinion = {
+							who = ROOT
+							value = 100
+						}
+					}
+				}
+				culture_group = culture_group_worgen
+			}
+			TLB = { #Talonbranch
+				exists = yes
+				OR = {
+					alliance_with = ROOT
+					is_subject_of = ROOT
+					has_opinion = {
+						who = ROOT
+						value = 130
+					}
+				}
+				culture_group = culture_group_worgen
+			}
+			primary_culture = culture_gilnean_worgen
+		}
+		effect = {
+			F53 = {
+				country_event = { 
+					id = wwu_mission_gilneas.6
+				}
+			}
+			custom_tooltip = no_tooltip
+			A11 = {
+				country_event = { 
+					id = wwu_mission_gilneas.6
+				}
+			}
+			custom_tooltip = no_tooltip_1
+			TLB = {
+				country_event = { 
+					id = wwu_mission_gilneas.6
+				}
+			}
+			custom_tooltip = no_tooltip_2
+			add_country_modifier = {
+				name = A12_strength_in_unity_modifier
+				duration = 7300
+			}
+		}
+	}
+	A12_destroy_scholomance = {
+		icon = mission_scourge
+		position = 12
+		required_missions = { A12_reconquest_of_andorhal }
+		trigger = {
+			NOT = {
+				790 = {
+					has_great_project = {
+						type = gp_scholomance
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_destroy_scholomance_modifier
+				duration = 9125
+			}
+			
+			add_country_modifier = {
+				name = A12_destroy_scholomance_modifier_b
+				duration = -1
+			}
+			
+			add_splendor = 500
+			add_adm_power = 500
+			add_dip_power = 500
+			add_mil_power = 500
+		}
+	}
+}
+
+A12_1_gilneas_column2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = A12
+		
+		NOT = { has_country_flag = A12_neutrality_path }
+	}
+
+	A12_build_silverlaine_dungeon = {
+		icon = mission_human_building_upgrade_T2_wc3r
+		position = 4
+		required_missions = { A12_develop_silverpine }
+		provinces_to_highlight = {
+			province_id = 686
+		}
+		trigger = {
+			686 = {
+				has_building = wow_fort_3
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			686 = {
+				change_province_name = "Silverlaine Keep"
+				rename_capital = "Silverlaine Keep"
+				
+				custom_tooltip = no_tooltip
+				
+				add_random_development = 5
+			}
+		}
+	}
+#A12_evacuate_the_silverpine = {
+#	icon = mission_salvage
+#	position = 5
+#	required_missions = { A12_build_silverlaine_dungeon A12_prevent_the_fall }
+#	trigger = {
+#		OR = {
+#			AND = {
+#				OR = {
+#					is_in_war = { participants = P52 }
+#					is_in_war = { participants = P11 }
+#				}
+#				OR = {
+#					STW = { owes_favors = { who = A12 value = 15 } }
+#					A29 = { owes_favors = { who = A12 value = 15 } }
+#					A14 = { owes_favors = { who = A12 value = 15 } }
+#					A94 = { owes_favors = { who = A12 value = 15 } }
+#				}
+#			}
+#			NOT = { region_silverpine_forest = { OR = { owned_by = ROOT } controlled_by = ROOT } }
+#		}
+#	}
+#	effect = {
+#		if = {
+#			limit = { NOT = { region_silverpine_forest = { owned_by = ROOT } } }
+#			custom_tooltip = A12_evacuate_the_silverpine_failed
+#			custom_tooltip = no_tooltip
+#		}
+#		
+#		if = { #Stormwind
+#			limit = { STW = { owes_favors = { who = A12 value = 15 } } }
+#			2141 = {
+#				set_province_flag = A12_have_gilnean_refugees
+#				add_base_tax = 1
+#			}
+#			custom_tooltip = no_tooltip
+#			
+#			add_country_modifier = {
+#				name = A12_refugee_to_stormwind
+#				duration = 3650
+#			}
+#			
+#			add_opinion = {
+#				who = STW
+#				modifier = A12_has_accepted_our_refugees
+#			}
+#			STW = {
+#				add_opinion = {
+#					who = A12
+#					modifier = A12_has_accepted_our_refugees_b
+#				}
+#			}
+#			custom_tooltip = no_tooltip
+#		}
+#		else_if = { #Stormwind preview
+#			limit = { NOT = { STW = { owes_favors = { who = A12 value = 15 } } } }
+#			tooltip = {
+#				add_country_modifier = {
+#					name = A12_refugee_to_stormwind
+#					duration = 3650
+#				}
+#			}
+#			tooltip = {
+#				add_opinion = {
+#					who = STW
+#					modifier = A12_has_accepted_our_refugees
+#				}
+#			}
+#			tooltip = {
+#				STW = {
+#					add_opinion = {
+#						who = A12
+#						modifier = A12_has_accepted_our_refugees_b
+#					}
+#				}
+#			}
+#			custom_tooltip = no_tooltip
+#		}
+#		if = { #Khaz Modan
+#			limit = { A29 = { owes_favors = { who = A12 value = 15 } } }
+#			add_country_modifier = {
+#				name = A12_refugee_to_khaz_modan
+#				duration = 3650
+#			}
+#			
+#			add_opinion = {
+#				who = A29
+#				modifier = A12_has_accepted_our_refugees
+#			}
+#			A29 = {
+#				add_opinion = {
+#					who = A12
+#					modifier = A12_has_accepted_our_refugees_b
+#				}
+#			}
+#			custom_tooltip = no_tooltip
+#		}
+#		else_if = { #Khaz Modan preview
+#			limit = { NOT = { A29 = { owes_favors = { who = A12 value = 15 } } } }
+#			tooltip = {
+#				add_country_modifier = {
+#					name = A12_refugee_to_khaz_modan
+#					duration = 3650
+#				}
+#			}
+#			tooltip = {
+#				add_opinion = {
+#					who = A29
+#					modifier = A12_has_accepted_our_refugees
+#				}
+#			}
+#			tooltip = {
+#				A29 = {
+#					add_opinion = {
+#						who = A12
+#						modifier = A12_has_accepted_our_refugees_b
+#					}
+#				}
+#			}
+#			custom_tooltip = no_tooltip
+#		}
+#		if = { #Kul Tiras
+#			limit = { A14 = { owes_favors = { who = A12 value = 15 } } }
+#			add_country_modifier = {
+#				name = A12_refugee_to_kultiras
+#				duration = 3650
+#			}
+#			
+#			add_opinion = {
+#				who = A14
+#				modifier = A12_has_accepted_our_refugees
+#			}
+#			A14 = {
+#				add_opinion = {
+#					who = A12
+#					modifier = A12_has_accepted_our_refugees_b
+#				}
+#			}
+#			custom_tooltip = no_tooltip
+#		}
+#		else_if = { #Kul Tiras preview
+#			limit = { NOT = { A14 = { owes_favors = { who = A12 value = 15 } } } }
+#			tooltip = {
+#				add_country_modifier = {
+#					name = A12_refugee_to_kultiras
+#					duration = 3650
+#				}
+#			}
+#			tooltip = {
+#				add_opinion = {
+#					who = A14
+#					modifier = A12_has_accepted_our_refugees
+#				}
+#			}
+#			tooltip = {
+#				A14 = {
+#					add_opinion = {
+#						who = A12
+#						modifier = A12_has_accepted_our_refugees_b
+#					}
+#				}
+#			}
+#			custom_tooltip = no_tooltip
+#		}
+#
+#		if = { #Darnassus
+#			limit = { A94 { owes_favors = { who = A12 value = 15 } } }
+#			add_country_modifier = {
+#				name = A12_refugee_to_darnassus
+#				duration = 3650
+#			}
+#			add_opinion = {
+#				who = A94
+#				modifier = A12_has_accepted_our_refugees
+#			}
+#			A94 = {
+#				add_opinion = {
+#					who = A12
+#					modifier = A12_has_accepted_our_refugees_b
+#				}
+#			}
+#			custom_tooltip = no_tooltip
+#		}
+#		else_if = { #Darnassus preview
+#			limit = { NOT = { A94 = { owes_favors = { who = A12 value = 15 } } } }
+#			tooltip = {
+#				add_country_modifier = {
+#					name = A12_refugee_to_darnassus
+#					duration = 3650
+#				}
+#			}
+#			tooltip = {
+#				add_opinion = {
+#					who = A94
+#					modifier = A12_has_accepted_our_refugees
+#				}
+#			}
+#			tooltip = {
+#				A94 = {
+#					add_opinion = {
+#						who = A12
+#						modifier = A12_has_accepted_our_refugees_b
+#					}
+#				}
+#			}
+#		}
+#	}
+	A12_reconciliation_with_bloodfang = {
+		icon = mission_hunter_beast_taming
+		position = 8
+		required_missions = { A12_the_third_war }
+		trigger = { 
+			OR = {
+				alliance_with = F53
+				exists = no
+				
+				F53 = {
+					OR = {
+						has_opinion = {
+							who = A12
+							value = 120
+						}
+						is_subject_of = A12
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					F53 = {
+						exists = no
+					}
+				}
+				702 = {
+					cede_province = F53
+					add_core = F53
+				}
+				711 = {
+					cede_province = F53
+					add_core = F53
+				}
+				2963 = {
+					cede_province = F53
+					add_core = F53
+				}
+				
+				A12 = {
+					create_march = F53
+				}
+			}
+			else = {
+				A12 = {
+					create_march = F53
+				}
+			}
+		}
+	}
+	A12_reconquest_of_andorhal = {
+		icon = mission_axe_and_sword
+		position = 11
+		required_missions = { A12_reconquest_of_tirisfal }
+		trigger = {
+			calc_true_if = {
+				amount = 3
+				all_province = {
+					area = area_andorhal
+					controlled_by = ROOT
+				}
+			}
+		}
+		effect = {
+			custom_tooltip = A12_unlock_decision_reborn_lordaeron_for_andorhal_tt
+			A12_unlock_decision_give_andoorhal_to_x04 = yes #Unlock Scripted Effect for cede Andorhal region to X04
+			
+			custom_tooltip = no_tooltip
+			
+			add_prestige = 20
+			add_splendor = 200
+		}
+	}
+	A12_reborn_of_lordaeron = {
+		icon = mission_lordaeron_banner
+		position = 13
+		required_missions = { A12_destroy_scholomance A12_reconquest_of_stratholme }
+		trigger = {
+			NOT = {
+				exists = P14
+				exists = P52
+				exists = P12
+				exists = A22
+			}
+		}
+		effect = {
+			X04 = {
+				add_adm_power = 300
+				add_dip_power = 300
+				add_mil_power = 300
+				
+				custom_tooltip = no_tooltip
+				
+				add_country_modifier = {
+					name = A12_victory_on_the_tragedy_a
+					duration = -1
+				}
+			}
+			add_country_modifier = {
+				name = A12_victory_on_the_tragedy_b
+				duration = -1
+			}
+			add_prestige = 100
+			add_splendor = 800
+		}
+	}
+	A12_darnassus_support = {
+		icon = mission_elune_blessing
+		position = 15
+		required_missions = { A12_forsaken_war }
+		trigger = {
+			A94 = {
+				trust = {
+					who = A12
+					value = 65
+				}
+			}
+			is_in_war = {
+				attacker_leader = P14
+				defender_leader = A12
+			}
+			#mission_completed = 
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_new_supply_modifier_support_b
+				duration = 3650
+			}
+			
+			A94 = {
+				country_event = { id = wwu_mission_gilneas.8 }
+			}
+		}
+	}
+}
+
+A12_1_gilneas_column3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = A12
+
+		NOT = { has_country_flag = A12_neutrality_path }
+	}
+	
+	A12_neutrality_or_alliance = {
+		icon = mission_rearm
+		position = 1
+		required_missions = {  }
+		trigger = {
+			stability = 2
+			adm_power = 150
+		}
+		effect = {
+			country_event = {
+				id = wwu_mission_gilneas.2
+			}
+		}
+	}
+	A12_alliance_of_lordaeron = {
+		icon = mission_lordaeron_crown
+		position = 2
+		required_missions = { A12_neutrality_or_alliance }
+		trigger = {
+			OR = {
+				AND = {
+					alliance_with = A08
+					exists = A08
+				}
+				AND = {
+					alliance_with = A25
+					exists = A25
+				}
+				AND = {
+					alliance_with = F55
+					exists = F55
+				}
+				AND = {
+					alliance_with = STW
+					exists = STW
+					
+					NOT = { exists = A08 }
+				}
+			}
+			has_country_modifier = member_of_alliance
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_alliance_of_lordaeron_modifier
+				duration = 3650
+			}
+		}
+	}
+	A12_the_end_of_the_second_war = {
+		icon = mission_fel_orc
+		position = 3
+		required_missions = { A12_alliance_of_lordaeron }
+		trigger = {
+			NOT = { is_at_war = yes }
+			stability = 3
+			
+		}
+		effect = {
+			927 = { add_random_development = 4 }
+			country_event = { id = wwu_mission_gilneas.24 }
+		}
+	}
+	A12_prevent_the_fall = {
+		icon = mission_undead_male
+		position = 4
+		required_missions = { A12_the_end_of_the_second_war }
+		trigger = {
+			P11 = {
+				exists = yes
+			}
+			OR = {
+				has_spy_network_in = {
+					who = P11
+					value = 30
+				}
+				has_spy_network_in = {
+					who = A08
+					value = 30
+				}
+				has_spy_network_in = {
+					who = A25
+					value = 30
+				}
+				has_spy_network_in = {
+					who = F55
+					value = 30
+				}
+			}
+		}
+		effect = {
+			create_general = { tradition = 80 }
+			
+			custom_tooltip = no_tooltip
+			
+			add_country_modifier = {
+				name = A12_prevent_the_fall_modifier
+				duration = 3650
+			}
+		}
+	}
+	A12_rally_the_army = {
+		icon = mission_ancient_sword
+		position = 5
+		required_missions = { A12_prevent_the_fall }
+		trigger = {
+			num_of_generals = 2
+			monthly_mil = 9
+			army_size_percentage = 0.7
+		}
+		effect = {
+			add_manpower = 5
+			
+			custom_tooltip = no_tooltip
+			
+			add_country_modifier = {
+				name = A12_rally_the_army_modifier
+				duration = 3650
+			}
+		}
+	}
+	A12_the_third_war = {
+		icon = mission_kelthuzad_lich
+		position = 7
+		required_missions = { A12_rally_the_army }
+		trigger = {
+			OR = {
+				is_in_war = {
+					participants = P11
+				}
+				is_in_war = {
+					participants = P52
+				}
+			}
+		}
+		effect = {
+			add_army_tradition = 5
+			add_army_professionalism = 0.05
+		}
+	}
+	A12_reconquest_of_silverpine_forest = {
+		icon = mission_silverpine_forest
+		position = 9
+		required_missions = { A12_the_third_war }
+		trigger = {
+			calc_true_if = {
+				amount = 10
+				all_province = {
+					region = region_silverpine_forest
+					controlled_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_war_exhaustion = -2
+			
+			custom_tooltip = no_tooltip
+			
+			add_legitimacy = 10
+			add_prestige = 10
+			add_splendor = 100
+		}
+	}
+	A12_reconquest_of_tirisfal = {
+		icon = mission_forsaken_flag
+		position = 10
+		required_missions = { A12_reconquest_of_silverpine_forest }
+		trigger = {
+			calc_true_if = {
+				amount = 10
+				all_province = {
+					region = region_tirisfal_glades
+					controlled_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_war_exhaustion = -2
+			
+			custom_tooltip = no_tooltip
+			
+			custom_tooltip = A12_unlock_decision_reborn_lordaeron_tt
+			tooltip = {
+				add_army_tradition = -20
+				add_navy_tradition = -20
+				add_manpower = -5
+				add_sailors = -1000
+				add_years_of_income = -1
+				add_mercantilism = -10
+			}
+			
+			A12_unlock_decision_reborn_lordaeron = yes
+		}
+	}
+	A12_reconquest_of_stratholme = {
+		icon = mission_stratholme_emblem
+		position = 12
+		required_missions = { A12_reconquest_of_andorhal A12_confront_the_scarlet_crusade }
+		trigger = {
+			calc_true_if = {
+				amount = 5
+				all_province = {
+					area = area_stratholme
+					controlled_by = ROOT
+				}
+			}
+		}
+		effect = {
+			add_war_exhaustion = -2
+			
+			custom_tooltip = no_tooltip
+			
+			capital_scope = {
+				add_random_development = 3
+			}
+			custom_tooltip = no_tooltip_1
+			
+			custom_tooltip = A12_unlock_decision_reborn_lordaeron_for_stratholme_tt
+			
+			A12_unlock_decision_give_stratholme_to_x04 = yes #Unlock Scripted Effect for cede Stratholme region to X04
+			
+			custom_tooltip = no_tooltip_2
+			
+			add_prestige = 20
+			add_splendor = 200
+		}
+	}
+	A12_forsaken_war = {
+		icon = mission_forsaken_deathguard
+		position = 14
+		required_missions = {  }
+		trigger = {
+			is_in_war = {
+				attacker_leader = P14
+				defender_leader = A12
+			}
+		}
+		effect = {
+			add_stability = 1
+			
+			custom_tooltip = no_tooltip
+			
+			add_country_modifier = {
+				name = A12_forsaken_war_modifier
+				duration = 7300
+			}
+			
+			add_adm_power = 200
+			add_dip_power = 200
+			add_mil_power = 200
+		}
+	}
+	A12_uses_stagecoach = {
+		icon = mission_ogre_king
+		position = 15
+		required_missions = { A12_forsaken_war }
+		trigger = {
+			is_in_war = {
+				attacker_leader = P14
+				defender_leader = A12
+			}
+			AND = {
+				OR = {
+					F60 = {
+						has_opinion = {
+							who = A12
+							value = 60
+						}
+					}
+					F60 = {
+						has_spy_network_from = {
+							who = ROOT
+							value = 15
+						}
+					}
+				}
+				exists = F60
+			}
+		}
+		effect = {
+			F60 = {
+				country_event = { id = wwu_mission_gilneas.21 days = 1 }
+			}
+		}
+	}
+	A12_end_the_blocus = {
+		icon = mission_admiral
+		position = 16
+		required_missions = { A12_darnassus_support A12_stormwind_support }
+		trigger = {
+			has_spy_network_in = {
+				who = P14
+				value = 15
+			}
+			is_in_war = {
+				attacker_leader = P14
+				defender_leader = A12
+			}
+		}
+		effect = {
+			custom_tooltip = A12_end_the_blocus_tt
+			hidden_effect = {
+				244 = {
+					kill_units = {
+						who = enemy
+					}
+				}
+				243 = {
+					kill_units = {
+						who = enemy 
+					}
+				}
+				255 = {
+					kill_units = {
+						who = enemy
+					}
+				}
+			}
+		}
+	}
+	A12_dwarf_support = {
+		icon = mission_dwarf_male
+		position = 17
+		required_missions = { A12_end_the_blocus }
+		trigger = {
+			A29 = {
+				trust = {
+					who = A12
+					value = 65
+				}
+			}
+			is_in_war = {
+				attacker_leader = P14
+				defender_leader = A12
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_new_supply_modifier_support_c
+				duration = 3650
+			}
+			
+			A29 = {
+				country_event = { id = wwu_mission_gilneas.9 }
+			}
+		}
+	}
+	A12_kultiras_support = {
+		icon = mission_zan_kultiras_2
+		position = 18
+		required_missions = { A12_dwarf_support }
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = A12_dont_match_kultiras_reclaim
+				NOT = { mission_completed = A12_reclaim_kul_tiras }
+			}
+			A14 = {
+				trust = {
+					who = A12
+					value = 65
+				}
+			}
+			is_in_war = {
+				attacker_leader = P14
+				defender_leader = A12
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_new_supply_modifier_support_d
+				duration = 3650
+			}
+			
+			A14 = {
+				country_event = { id = wwu_mission_gilneas.10 }
+			}
+		}
+	}
+}
+
+A12_1_gilneas_column4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = A12
+
+		NOT = { has_country_flag = A12_neutrality_path }
+	}
+	
+	A12_start_the_isolation = {
+		icon = mission_force_shield
+		position = 5
+		required_missions = { A12_prevent_the_fall }
+		trigger = {
+			adm_power = 300
+			dip_power = 300
+			mil_power = 300
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_start_the_isolation_modifier
+				duration = -1
+			}
+		}
+	}
+
+	A12_greyman_wall = {
+		icon = mission_greymane_wall
+		position = 6
+		required_missions = { A12_start_the_isolation }
+		trigger = {
+			914 = {
+				fort_level = 2
+				base_tax = 5
+				base_production = 5
+				base_manpower = 6
+			}
+			army_tradition = 35
+			owns = 914
+		}
+		effect = {
+			if = {
+				limit = {
+					914 = {
+						NOT = {
+							has_great_project = {
+								type = gp_greymane_wall
+							}
+						}
+					}
+				}
+				custom_tooltip = A12_can_build_greymane_wall_by_mission_tt
+				set_country_flag = A12_can_build_greymane_wall_by_mission
+				
+				custom_tooltip = no_tooltip
+				custom_tooltip = A12_can_build_greymane_wall_by_mission_modifier_a_tt
+				tooltip = {
+					914 = {
+						add_province_modifier = {
+							name = A12_greyman_wall_modifier_a
+							duration = -1
+						}
+					}
+				}
+				custom_tooltip = no_tooltip_1
+				custom_tooltip = A12_can_build_greymane_wall_by_mission_modifier_b_tt
+				tooltip = {
+					914 = {
+						add_base_production = 4
+						add_base_tax = 4
+						add_base_manpower = 7
+					}
+				}
+			}
+			if = {
+				limit = {
+					914 = {
+						NOT = {
+							has_great_project = {
+								type = gp_greymane_wall
+								tier = 1
+							}
+						}
+					}
+				}
+				914 = {
+					add_province_modifier = {
+						name = A12_greyman_wall_modifier_d
+						duration = -1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					914 = {
+						has_great_project = {
+							type = gp_greymane_wall
+							tier = 1
+						}
+						NOT = {
+							has_great_project = {
+								type = gp_greymane_wall
+								tier = 2
+							}
+						}
+					}
+				}
+				914 = {
+					add_province_modifier = {
+						name = A12_greyman_wall_modifier_a
+						duration = -1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					914 = {
+						has_great_project = {
+							type = gp_greymane_wall
+							tier = 2
+						}
+						NOT = {
+							has_great_project = {
+								type = gp_greymane_wall
+								tier = 3
+							}
+						}
+					}
+				}
+				914 = {
+					add_province_modifier = {
+						name = A12_greyman_wall_modifier_b
+						duration = -1
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					914 = {
+						has_great_project = {
+							type = gp_greymane_wall
+							tier = 3
+						}
+					}
+				}
+				914 = {
+					add_base_production = 4
+					add_base_tax = 4
+					add_base_manpower = 7
+				}
+				
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+			}
+			
+			hidden_effect = {
+				914 = {
+					rename_capital = "Greymane Wall"
+					change_province_name = "Greymane Wall"
+				}
+			}
+		}
+	}
+	A12_end_the_isolation = {
+		icon = mission_ancestors
+		position = 7
+		required_missions = { A12_greyman_wall }
+		trigger = {
+			num_of_allies = 2
+			calc_true_if = {
+				amount = 2
+				all_country = {
+					has_opinion = {
+						who = A12
+						value = 100
+					}
+				}
+			}
+			dip_power = 500
+			diplomatic_reputation = 3
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_end_the_isolation_modifier
+				duration = -1
+			}
+			remove_country_modifier = A12_start_the_isolation_modifier
+			
+			if = {
+				limit = { has_had_golden_age = yes } 
+				reset_golden_age = yes 
+			}
+			else_if = {
+				limit = { in_golden_age = yes } 
+				extend_golden_age = 360
+			}
+			else = { add_prestige_or_monarch_power = { amount = 100 } }
+			
+			add_splendor = 600
+		}
+	}
+	A12_adopt_the_worgen_culture = {
+		icon = mission_worgen
+		position = 9
+		required_missions = { A12_knowledge_of_the_elf }
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = culture_gilnean_worgen
+			}
+			ruler_culture = culture_gilnean_worgen
+		}
+		effect = {
+			add_dip_power = 100
+			
+			custom_tooltip = no_tooltip
+			
+			add_country_modifier = {
+				name = A12_adopt_the_worgen_culture_modifier_a
+				duration = -1
+			}
+			
+			add_country_modifier = {
+				name = A12_adopt_the_worgen_culture_modifier_b
+				duration = 10950
+			}
+			
+			add_accepted_culture = culture_gilnean_worgen
+		}
+	}
+	A12_confront_the_scarlet_crusade = {
+		icon = mission_scarlet_crusade_shields
+		position = 11
+		required_missions = { A12_reconquest_of_tirisfal }
+		trigger = {
+			OR = {
+				A22 = {
+					exists = no #Z
+				}
+				A22 = {
+					OR = {
+						has_opinion_modifier = { #A
+							who = ROOT
+							modifier = insulted
+						}
+						has_opinion_modifier = { #A
+							who = ROOT
+							modifier = scornfully_insulted
+						}
+						alliance_with = ROOT #B
+					}
+				}
+				OR = {
+					has_spy_network_in = { #A
+						who = A22
+						value = 80
+					}
+					has_won_war_against = { #A
+						who = A22
+						max_years_since = 100
+					}
+					A22 = {
+						has_opinion = { #B
+							who = ROOT
+							value = 120
+						}
+					}
+					ROOT = {
+						has_opinion = { #B
+							who = A22
+							value = 120
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+			
+			custom_tooltip = no_tooltip
+			
+			if = { #B
+				limit = {
+					alliance_with = A22
+				}
+				random_owned_province = {
+					change_religion = scarlet_light
+					add_base_production = 2
+					add_base_tax = 3
+				}
+			}
+			else_if = { #A
+				limit = {
+					A22 = {
+						OR = {
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = insulted
+							}
+							has_opinion_modifier = {
+								who = ROOT
+								modifier = scornfully_insulted
+							}
+						}
+					}
+				}
+				add_country_modifier = {
+					name = A12_confront_scarlet_crusade
+					duration = 5475
+				}
+			}
+			else_if = { #Z
+				limit = {
+					A22 = {
+						exists = no
+					}
+				}
+				add_adm_power = 100
+				add_dip_power = 100
+				add_mil_power = 100
+				
+				if = {
+					limit = {
+						eastern_kingdom_superregion = {
+							OR = {
+								controller = { culture_group = culture_group_scourge }
+								owner = { culture_group = culture_group_scourge }
+							}
+						}
+					}
+					country_event = { id = wwu_mission_gilneas.11 }
+				}
+			}
+		}
+	}
+	A12_reclaim_kul_tiras = {
+		icon = mission_jaina
+		position = 13
+		required_missions = { A12_claim_tol_barad }
+		trigger = {
+			num_of_owned_provinces_with = {
+				value = 13
+				region = region_kul_tiras
+			}
+			
+			custom_trigger_tooltip = {
+				tooltip = A12_dont_match_kultiras_support
+				NOT = { mission_completed = A12_kultiras_support }
+			}
+		}
+		effect = {
+			927 = {
+				add_province_modifier = {
+					name = A12_reclaim_kul_tiras_modifier_a
+					duration = 7300
+				}
+			}
+			774 = {
+				add_province_modifier = {
+					name = A12_reclaim_kul_tiras_modifier_b
+					duration = 7300
+				}
+				man_of_war_heavy = A12
+				man_of_war_light = A12
+				man_of_war_light = A12
+				man_of_war_light = A12
+			}
+		}
+	}
+	A12_stormwind_support = {
+		icon = mission_alliance
+		position = 15
+		required_missions = { A12_forsaken_war }
+		trigger = {
+			STW = {
+				trust = {
+					who = A12
+					value = 65
+				}
+			}
+			is_in_war = {
+				attacker_leader = P14
+				defender_leader = A12
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_new_supply_modifier_support_a
+				duration = 3650
+			}
+			
+			STW = {
+				country_event = { id = wwu_mission_gilneas.7 }
+			}
+		}
+	}
+}
+
+A12_1_gilneas_column5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = A12
+
+		NOT = { has_country_flag = A12_neutrality_path }
+	}
+
+	A12_hire_arugal = {
+		icon = mission_arcane_book
+		position = 2
+		required_missions = { A12_neutrality_or_alliance }
+		trigger = {
+			OR = {
+				employed_advisor = {
+					type = unique_arugal
+				}
+				custom_trigger_tooltip = {
+					tooltip = A12_too_late_for_arugal_tt
+					has_country_flag = A12_too_late_for_arugal
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					owns_or_non_sovereign_subject_of = 686
+				}
+				686 = {
+					add_base_tax = 1
+					add_base_production = 1
+				}
+			}
+			else = {
+				add_adm_power = 50
+				add_dip_power = 50
+			}
+		}
+	}
+	A12_archmage_arugal = {
+		icon = mission_dalaran_rises
+		position = 3
+		required_missions = { A12_hire_arugal }
+		trigger = {
+			A18 = {
+				has_opinion = {
+					who = ROOT
+					value = 60
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_archmage_arugal_modifier
+				duration = 5475
+			}
+		}
+	}
+	A12_study_the_ur_research = {
+		icon = mission_enchanting
+		position = 4
+		required_missions = { A12_archmage_arugal }
+		trigger = {
+			has_spy_network_in = {
+				who = A18
+				value = 25
+			}
+		}
+		effect = {
+			add_splendor = 30
+			
+			custom_tooltip = no_tooltip
+			
+			add_country_modifier = {
+				name = A12_ur_research
+				duration = 3650
+			}
+			A18 = {
+				add_country_modifier = {
+					name = A12_arugal_forbidden_study
+					duration = 3650
+				}
+			}
+		}
+	}
+	A12_release_worgen = {
+		icon = mission_emerald_dream
+		position = 5
+		required_missions = { A12_study_the_ur_research }
+		trigger = {
+			OR = {
+				region_silverpine_forest = {
+					OR = {
+						owned_by = P52
+						controlled_by = P52
+					}
+				}
+				region_silverpine_forest = {
+					OR = {
+						owned_by = P12
+						controlled_by = P12
+					}
+				}
+				region_silverpine_forest = {
+					OR = {
+						owned_by = P11
+						controlled_by = P11
+					}
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_release_the_worgens
+				duration = 5475
+			}
+			add_mil_power = 100
+			
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = enable_worgen
+					}
+				}
+				set_global_flag = enable_worgen
+			}
+			
+			686 = {
+				change_culture = culture_gilnean_worgen
+			}
+			2962 = {
+				change_culture = culture_gilnean_worgen
+			}
+			1924 = {
+				change_culture = culture_gilnean_worgen
+			}
+		}
+	}
+	A12_the_curse_of_worgen = {
+		icon = mission_greymane_manor
+		position = 6
+		required_missions = { A12_release_worgen }
+		trigger = {
+			calc_true_if = {
+				region_silverpine_forest = {
+					culture_group = culture_group_worgen
+				}
+				amount = 1
+			}
+		}
+		effect = {
+			country_event = { id = wwu_mission_gilneas.3 }
+			set_country_flag = A12_we_need_darius_crowley
+		}
+	}
+	A12_aranas_antidote = {
+		icon = mission_alchemy
+		position = 7
+		required_missions = { A12_the_curse_of_worgen }
+		trigger = {
+			employed_advisor = {
+				type = unique_aranas
+			}
+			
+			OR = {
+				has_disaster = curse_of_the_worgen
+				is_year = 632
+			}
+			
+			OR = {
+				927 = { culture = culture_gilnean_worgen }
+				
+				num_of_owned_provinces_with = {
+					value = 5
+					region = region_gilneas
+					culture = culture_gilnean_worgen
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_outdo_our_beast
+				duration = 10950
+			}
+			every_owned_province = {
+				limit = {
+					has_province_modifier = A12_terror_in_gilneas_city
+				}
+				remove_province_modifier = A12_terror_in_gilneas_city
+			}
+			remove_country_modifier = A12_genn_become_worgen_modifier_a
+		}
+	}
+	A12_knowledge_of_the_elf = {
+		icon = mission_night_elf_female
+		position = 8
+		required_missions = { A12_aranas_antidote }
+		trigger = {
+			A94 = {
+				has_opinion = {
+					who = ROOT
+					value = 120
+				}
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = A12_outdo_our_beast_upgraded
+				duration = -1
+			}
+			
+			remove_country_modifier = A12_outdo_our_beast
+			
+			add_historical_friend = A94
+			A94 = {
+				add_historical_friend = ROOT
+			}
+			
+			custom_tooltip = no_tooltip
+			end_disaster = curse_of_the_worgen
+			
+			set_global_flag = curse_of_the_worgen_cured
+		}
+	}
+	A12_the_armed_winged_of_alliance = {
+		icon = mission_orbital_strike
+		position = 9
+		required_missions = { A12_knowledge_of_the_elf }
+		trigger = {
+			has_country_modifier = member_of_alliance
+			
+			military_strength = {
+				who = P14
+				value = 2.0
+			}
+			
+			num_of_infantry = 200
+		}
+		effect = {
+			custom_tooltip = gilneas_enable_privilige_greymane_greygard_tt
+			set_country_flag = gilneas_enable_privilige_greymane_greygard
+		}
+	}
+	A12_claim_tol_barad = {
+		icon = mission_warden
+		position = 12
+		required_missions = {  }
+		trigger = {
+			OR = {
+				A16 = {
+					is_rival = ROOT
+				}
+				A16 = {
+					exists = no
+				}
+			}
+			region_tol_barad = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					region_kul_tiras = {
+						NOT = { owned_by = ROOT }
+					}
+				}
+				region_kul_tiras = {
+					add_permanent_claim = ROOT
+				}
+				
+				custom_tooltip = no_tooltip
+				
+				custom_tooltip = A12_claim_tol_barad_tt_a
+				
+				tooltip = {
+					add_splendor = 120
+				}
+				tooltip = {
+					add_mercantilism = 14
+				}
+			}
+			
+			else = {
+				add_splendor = 120
+				add_mercantilism = 14
+			}
+			
+			custom_tooltip = no_tooltip
+			
+			if = {
+				limit = {
+					A16 = {
+						NOT = { exists = no }
+					}
+				}
+				add_casus_belli = {
+					target = A16
+					type = cb_restore_personal_union
+					months = 60
+				}
+				
+				custom_tooltip = no_tooltip
+				
+				custom_tooltip = A12_claim_tol_barad_tt_b
+				
+				tooltip = {
+					3002 = {
+						add_permanent_claim = ROOT
+					}
+				}
+			}
+			
+			else = {
+				3002 = {
+					add_permanent_claim = ROOT
+				}
+			}
+		}
+	}
+	A12_stromgarde_throne = {
+		icon = mission_city_of_gold
+		position = 13
+		required_missions = { A12_claim_tol_barad }
+		trigger = {
+			OR = {
+				A16 = {
+					junior_union_with = A12
+				}
+				
+				H12 = {
+					is_subject_of = A12
+					NOT = { primary_culture = culture_undead_human }
+				}
+			}	
+		}
+		effect = {
+			add_splendor = 120
+			add_mercantilism = 12
+			
+			custom_tooltip = no_tooltip
+			
+			change_adm = 1
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
+}
+
+
+

@@ -2,6 +2,7 @@ is_city = yes
 owner = B62
 controller = B62
 add_core = B62
+add_core = B08
 
 base_tax = 3
 base_production = 3

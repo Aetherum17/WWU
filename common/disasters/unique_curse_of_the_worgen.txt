@@ -11,6 +11,7 @@ curse_of_the_worgen = {
             primary_culture = culture_night_elf
         }
         NOT = { has_global_flag = curse_of_the_worgen_occurred }
+		NOT = { technology_group = tech_worgen }
 	}
 
 	can_start = {
@@ -457,7 +458,10 @@ curse_of_the_worgen = {
 	
 	can_end = {
         NOT = { num_of_rebel_armies = 1 }
-        has_country_flag = worgen_plan_of_action
+		OR = {
+			has_country_flag = worgen_plan_of_action
+			technology_group = tech_worgen
+		}
 	}
 	
 	modifier = {
@@ -468,12 +472,13 @@ curse_of_the_worgen = {
 	on_end = wwu_curse_of_the_worgen.100
 	
 	on_monthly = {
-        random_events = {
-            1000 = 0
-            200 = wwu_curse_of_the_worgen.10 # Worgen Uprising
-            50 = wwu_curse_of_the_worgen.11 # Plan of Action
-        }
+		random_events = {
+			1000 = 0
+			200 = wwu_curse_of_the_worgen.10 # Worgen Uprising
+			100 = wwu_curse_of_the_worgen.11 # Plan of Action
+		}
 	}
+	
 }
 
 

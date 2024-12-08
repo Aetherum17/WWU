@@ -1,13 +1,14 @@
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+is_city = yes
+owner = BRA
+controller = BRA
+add_core = BRA
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 3
+base_manpower = 3
 
-culture = culture_orc
-religion = shamanism
+culture = culture_podling
+religion = sporemounds
 
 hre = no
 trade_goods = unknown

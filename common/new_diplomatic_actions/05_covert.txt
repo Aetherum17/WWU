@@ -245,9 +245,8 @@ recruit_manpower = {
 	is_allowed = {
 		has_spy_network_in = {
 			who = FROM
-			value = 15
+			value = 25
 		}
-		manpower = 5
         FROM = {
             custom_trigger_tooltip = {
                 tooltip = RECENTLY_TARGET_OF_RECRUIT_MANPOWER
@@ -265,7 +264,7 @@ recruit_manpower = {
         
 		add_spy_network_in = {
 			who = FROM
-			value = -15
+			value = -25
 		}
 		add_manpower = 5
         

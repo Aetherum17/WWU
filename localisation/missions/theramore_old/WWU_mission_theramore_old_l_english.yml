@@ -1,0 +1,157 @@
+﻿l_english:
+ # --- Missions ---
+ A23_theramore_column_old_1: ""
+ A23_theramore_column_old_2: ""
+ A23_theramore_column_old_3: ""
+ A23_theramore_column_old_4: ""
+ A23_theramore_column_old_5: ""
+ 
+ A23_kezan_dominance_title: "Kezan Dominance"
+ A23_kezan_dominance_desc: ""
+ 
+ A23_zandalar_dominance_title: "Zandalar Dominance"
+ A23_zandalar_dominance_desc: ""
+ 
+ A23_kul_tiran_dominance_title: "Kul'Tiran Dominance"
+ A23_kul_tiran_dominance_desc: ""
+ 
+ A23_building_a_fleet_a_title: "Build a Fleet"
+ A23_building_a_fleet_a_desc: ""
+ 
+ A23_building_a_fleet_b_title: "Build a Bigger Fleet"
+ A23_building_a_fleet_b_desc: ""
+ 
+ A23_building_a_fleet_c_title: "Build a Mighty Fleet"
+ A23_building_a_fleet_c_desc: ""
+ 
+ A23_building_a_fleet_d_title: "Build a Legendary Fleet"
+ A23_building_a_fleet_d_desc: ""
+ 
+ A23_riches_of_broken_shore_title: "Riches of Broken Shore"
+ A23_riches_of_broken_shore_desc: ""
+ 
+ A23_dustmarsh_dominance_title: "Dustwallow Marsh Dominance"
+ A23_dustmarsh_dominance_desc: ""
+ 
+ A23_kezan_naval_front_title: "Kezan Naval Front"
+ A23_kezan_naval_front_desc: ""
+ 
+ A23_zandalar_invasion_title: "Zandalar Invasion"
+ A23_zandalar_invasion_desc: ""
+ 
+ A23_pursue_of_global_naval_dominance_title: "Pursue of Global Dominance"
+ A23_pursue_of_global_naval_dominance_desc: ""
+ 
+ A23_returning_home_title: "Returning Home"
+ A23_returning_home_desc: ""
+ 
+ A23_uniting_the_populace_title: "Uniting the Populace"
+ A23_uniting_the_populace_desc: ""
+ 
+ A23_secure_the_marsh_title: "Secure the Marsh"
+ A23_secure_the_marsh_desc: ""
+ 
+ A23_colonize_south_barrens_title: "Colonize South Barrens"
+ A23_colonize_south_barrens_desc: ""
+ 
+ A23_pushing_into_north_barrens_title: "Pushing into North Barrens"
+ A23_pushing_into_north_barrens_desc: ""
+ 
+ A23_isolating_the_horde_title: "Isolating the Horde"
+ A23_isolating_the_horde_desc: ""
+ 
+ A23_dismantle_tauren_federation_title: "Dismantle Tauren Federation"
+ A23_dismantle_tauren_federation_desc: ""
+ 
+ A23_northwatch_title: "Northwatch"
+ A23_northwatch_desc: "This northern entrance to the Duskwallow Marsh must be secured from enemy incursions. We will create a march here to protect this crucial region and further fortify the province."
+  
+ A23_fortify_the_marsh_old_title: "Fortify the Marsh"
+ A23_fortify_the_marsh_old_desc: ""
+  
+ A23_hitting_the_snake_on_the_head_title: "Hitting the Snake on the Head"
+ A23_hitting_the_snake_on_the_head_desc: ""
+  
+ A23_replace_faith_of_federation_title: "Replace Faith of Federation"
+ A23_replace_faith_of_federation_desc: ""
+ 
+ A23_theramore_settlers_title: "Theramore Settlers"
+ A23_theramore_settlers_desc: "We are the survivors of Lordaeron. Those trained in combat are fulfilling their duty in our military. However, many of those who fled with us are merchants, priests, craftsmen, fishermen, and laborers of all kinds; they will need a permanent location to call home. The nearby isle and its surrounding marshes would make a formidable defensive location for our people, as well as serve as a great trading port. Let us quickly dispatch our civilian force to these provinces and begin setup of a proper capital."
+ 
+ A23_theramore_isle_capital_title: "Theramore Isle Capital"
+ A23_theramore_isle_capital_desc: "It is time we formally moved our administration from our initial landing camp at Northwatch down to the Isle of Theramore. We may begin setup of our trading port, fortifications at the capital, and settling those remaining civilians still looking for a home. Here we shall declare our own Kingdom under our new Queen Jaina Proudmoore. Our brief time in Kalimdor is already forging a new cultural identity amongst our diverse people, who are beginning to call themselves 'Theramoreans'."
+ 
+ # --- Modifiers ---
+ mission_kezan_node_dominance: "Dominance over Kezan Node"
+ desc_mission_kezan_node_dominance: ""
+ 
+ mission_zandalar_node_dominance: "Dominance over Zandalar Node"
+ desc_mission_zandalar_node_dominance: ""
+ 
+ mission_kul_tiran_node_dominance: "Dominance over Kul'Tiran Node"
+ desc_mission_kul_tiran_node_dominance: ""
+ 
+ mission_strong_fleet_a: "Fleet Built"
+ desc_mission_strong_fleet_a: ""
+ 
+ mission_strong_fleet_b: "Bigger Fleet Built"
+ desc_mission_strong_fleet_b: ""
+ 
+ mission_strong_fleet_c: "Mighty Fleet Built"
+ desc_mission_strong_fleet_c: ""
+ 
+ mission_strong_fleet_d: "Legendary Fleet Built"
+ desc_mission_strong_fleet_d: ""
+ 
+ mission_dustmarsh_node_dominance: "Dominance over Dustswallow Marsh Node"
+ desc_mission_dustmarsh_node_dominance: ""
+ 
+ mission_control_kezan: "Control Kezan"
+ desc_mission_control_kezan: ""
+ 
+ mission_invade_zandalar: "Invade Zandalar"
+ desc_mission_invade_zandalar: ""
+ 
+ mission_invade_kultiras: "Invade Kul'Tiras"
+ desc_mission_invade_kultiras: ""
+ 
+ mission_invade_north_eastern_kingdoms: "Invade North Eastern Kingdoms"
+ desc_mission_invade_north_eastern_kingdoms: ""
+ 
+ mission_power_of_people: "Power of People"
+ desc_mission_power_of_people: ""
+ 
+ mission_consolidate_marsh: "Consolidate the Marsh"
+ desc_mission_consolidate_marsh: ""
+ 
+ mission_colonizing_barrens: "Colonize South Barrens"
+ desc_mission_colonizing_barrens: ""
+ 
+ mission_control_crossroads: "Control Crossroads"
+ desc_mission_control_crossroads: ""
+ 
+ mission_isolate_horde: "Isolate the Horde"
+ desc_mission_isolate_horde: ""
+ 
+ mission_dismantle_federation: "Dismantle the Federation"
+ desc_mission_dismantle_federation: ""
+ 
+ mission_northwatch: "Northwatch"
+ desc_mission_northwatch: ""
+ 
+ mission_expand_fortifications: "Expand Fortifications"
+ desc_mission_expand_fortifications: ""
+ 
+ mission_destroy_orgrimmar: "Destroy Orgrimmar"
+ desc_mission_destroy_orgrimmar: ""
+ 
+ mission_replace_faith_of_federation: "Replace the Faith of Federation"
+ desc_mission_replace_faith_of_federation: ""
+ 
+ mission_theramore_settlers: "Theramore Settlers"
+ desc_mission_theramore_settlers: "These are the civilian survivors who fled from Lordaeron with Jaina Proudmoore. There are many of them ready to work and build, they need merely be told where to begin. The nearby isle will serve as a perfect capital - we should begin there. Our numbers are too many for the locals to offer any real resistance."
+
+ mission_mythical_continent: " "
+
+ # Flags
+ theramore_missions_old_617: "Theramore Old Mission Tree for 617"

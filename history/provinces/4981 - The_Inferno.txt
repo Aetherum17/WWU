@@ -16,3 +16,20 @@ hre = no
 trade_goods = resource_moonwell
 
 
+631.1.1 = {
+    owner = P26
+    controller = P26
+    add_core = P26
+	
+	culture = culture_fire
+    religion = flame
+}
+
+632.1.1 = {    
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+	religion = druidism
+	culture = culture_forest_nymph
+}

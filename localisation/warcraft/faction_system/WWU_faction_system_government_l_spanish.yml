@@ -8,12 +8,12 @@
  wwu_faction_system_government.2.desc: "We are now considered the Warchief of the Horde. As such, our government must adapt to our new found position."
  wwu_faction_system_government.2.option.a: "For the Horde!"
  
- wwu_faction_system_government.3.title: "Warchief of the Old Horde"
- wwu_faction_system_government.3.desc: "We are now considered the Warchief of the Old Horde. As such, our government must adapt to our new found position."
+ wwu_faction_system_government.3.title: "Warchief of the Horde"
+ wwu_faction_system_government.3.desc: "We are now considered the Warchief of the Horde. As such, our government must adapt to our new found position."
  wwu_faction_system_government.3.option.a: "For the Horde!"
  
- wwu_faction_system_government.4.title: "Warchief of the Old Horde"
- wwu_faction_system_government.4.desc: "We are now considered the Warchief of the Old Horde. As such, our government must adapt to our new found position."
+ wwu_faction_system_government.4.title: "Warchief of the Horde"
+ wwu_faction_system_government.4.desc: "We are now considered the Warchief of the Horde. As such, our government must adapt to our new found position."
  wwu_faction_system_government.4.option.a: "For the Horde!"
  
  wwu_faction_system_government.5.title: "Leader of the Trade Coalition"
@@ -33,7 +33,7 @@
  wwu_faction_system_government.11.option.a: "Alas..."
  
  wwu_faction_system_government.12.title: "Demotion"
- wwu_faction_system_government.12.desc: "We are no longer considered the Warchief of the Old Horde. As such, our government must adapt to our new found position."
+ wwu_faction_system_government.12.desc: "We are no longer considered the Warchief of the Horde. As such, our government must adapt to our new found position."
  wwu_faction_system_government.12.option.a: "Alas..."
  
  wwu_faction_system_government.13.title: "Demotion"

@@ -1,0 +1,103 @@
+country_decisions = {
+    # Form Northrend
+	form_northrend_nation = {
+		major = yes
+        ai_importance = 0
+        
+		potential = {
+            
+			NOT = { has_country_flag = is_northrend_flag }
+            
+			capital_scope = {
+                superregion = northrend_superregion
+            }
+		}
+        
+        provinces_to_highlight = {
+			OR = {			
+                region = region_borean_tundra
+                region = region_wintergrasp
+                region = region_sholazar_basin
+                region = region_dragonblight
+                region = region_azjol_nerub
+				region = region_icecrown
+				region = region_storm_peak
+				region = region_zuldrak
+				region = region_grizzly_hills
+				region = region_crystalsong
+				region = region_howling_fjord
+			}
+			NOT = { owned_by = ROOT }
+		}
+        
+		allow = {
+			is_free_or_tributary_trigger = yes
+
+            region_borean_tundra = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_wintergrasp = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_sholazar_basin = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_dragonblight = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            region_azjol_nerub = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			region_icecrown = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			region_storm_peak = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			region_zuldrak = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			region_grizzly_hills = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			region_crystalsong = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			region_howling_fjord = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            
+			is_at_war = no
+			stability = 1           
+            prestige = 60
+			
+		}
+		effect = {
+            hidden_effect = {
+                set_country_flag = is_northrend_flag
+            }
+            
+			country_event = {
+				id = wwu_flavour_northrend.1
+			}
+            
+            add_formable_bonus = yes
+            #trigger_ni_switch = yes
+            #trigger_mission_switch = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

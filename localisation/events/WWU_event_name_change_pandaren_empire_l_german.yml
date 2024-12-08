@@ -1,0 +1,27 @@
+﻿l_german:
+ #-----------------------------------------------
+ # Pandaren Empire
+ #----------------------------------------------- 
+ wwu_flavour_nc_pandaren_empire.1.title: "Empire's Identity Crisis"
+ wwu_flavour_nc_pandaren_empire.1.desc: "Now that we solidified Pandaria we need to give us a name that represents our view of the world. What name will we give to our empire?"
+ wwu_flavour_nc_pandaren_empire.1.a: "Pandaren Empire"
+ wwu_flavour_nc_pandaren_empire.1.b: "Hozen Empire"
+ wwu_flavour_nc_pandaren_empire.1.c: "Jinyu Empire"
+ wwu_flavour_nc_pandaren_empire.1.d: "Yaungol Empire"
+ wwu_flavour_nc_pandaren_empire.1.e: "Grummle Empire"
+ wwu_flavour_nc_pandaren_empire.1.f: "Empire of Pandaria"
+ 
+
+ # Name Change
+ PANDAREN_EMPIRE: "Pandaren Empire"
+ PANDAREN_EMPIRE_ADJ: "Pandaren"
+ HOZEN_EMPIRE: "Hozen Empire"
+ HOZEN_EMPIRE_ADJ: "Hozen"
+ JINYU_EMPIRE: "Jinyu Empire"
+ JINYU_EMPIRE_ADJ: "Jinyu"
+ YAUNGOL_EMPIRE: "Yaungol Empire"
+ YAUNGOL_EMPIRE_ADJ: "Yaungol"
+ GRUMMLE_EMPIRE: "Grummle Empire"
+ GRUMMLE_EMPIRE_ADJ: "Grummle"
+ EMPIRE_OF_PANDARIA: "Empire of Pandaria"
+ EMPIRE_OF_PANDARIA_ADJ: "Imperial"

@@ -1,0 +1,13 @@
+#----------------------------------------------
+# Missions
+#----------------------------------------------
+# Modifiers
+X02_godfrey_propaganda_modifier = {
+	land_morale = 0.10
+	global_regiment_recruit_speed = -0.25
+}
+
+X02_base_at_purgation_isle_modifier = {
+	global_manpower_modifier = 0.25
+	mercenary_cost = -0.15
+}

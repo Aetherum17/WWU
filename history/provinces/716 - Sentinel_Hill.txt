@@ -15,6 +15,7 @@ hre = no
 trade_goods = resource_food
 
 add_building = wow_fort_1
+add_building = wow_tower_1
 
 center_of_trade = 1
 

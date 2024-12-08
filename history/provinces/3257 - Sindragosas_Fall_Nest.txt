@@ -1,7 +1,7 @@
-is_city = yes
-owner = SNB
-controller = SNB
-add_core = SNB
+# Empty Province
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 4
 base_production = 3
@@ -26,4 +26,12 @@ trade_goods = unknown
 trade_goods = resource_fossils
 }
 
+626.1.1 = {   
+    owner = SNB
+    controller = SNB
+    add_core = SNB
+    remove_core = P11
+
+    culture = culture_blue_dragonflight
+}
 

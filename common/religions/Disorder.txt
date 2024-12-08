@@ -333,6 +333,15 @@ disorder_group = {
 					factor = 1
 				}				
 			}
+			
+			harsh = {
+			}
+			neutral = {
+			}
+			concilatory = {
+			}
+			concessions = {
+			}
 		}
         
         heretic = { HERETIC }

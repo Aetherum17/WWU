@@ -1,0 +1,230 @@
+#Scalet Crusade Immigration and Missionaries
+namespace = wwu_scarlet_light_flavour
+
+# Scarlet Missionary Refugees in kalimdor
+country_event = {
+	id = wwu_scarlet_light_flavour.1
+	title = wwu_scarlet_light_flavour.1.title
+	desc = wwu_scarlet_light_flavour.1.desc
+	picture = SCARLET_CRUSADER_eventPicture
+	
+	#fire_only_once = yes 
+	
+	trigger = {
+	    current_age = age_trouble_in_azeroth
+        NOT = { exists = A22 }
+		capital_scope = { continent = continent_kalimdor }
+		religion = holy_light
+		NOT = { has_country_flag = scarlet_missionaries_adressed_sl }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#Give Entry to Scarlet Missionaries
+	option = { 
+		name = wwu_scarlet_light_flavour.1.option.a
+        
+		ai_chance = { factor = 1 }
+		
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = scarlet_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = scarlet_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = scarlet_light
+        }
+		
+		add_country_modifier = {
+            name = event_scarlet_tolerance_sl
+            duration = 9131
+        }
+		set_country_flag = scarlet_missionaries_adressed_sl
+	}
+	
+	# Accept them and Convert
+	option = { 
+		name = wwu_scarlet_light_flavour.1.option.b
+       
+		ai_chance = { factor = 0 }
+		
+        random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = scarlet_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = scarlet_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = scarlet_light
+        }
+		change_religion = scarlet_light
+		
+		add_country_modifier = {
+            name = event_scarlet_dominance_sl
+            duration = 9131
+        }
+		set_country_flag = scarlet_missionaries_adressed_sl
+	}
+	
+	# Refuce them Entry
+	option = { 
+		name = wwu_scarlet_light_flavour.1.option.c
+       
+	    add_prestige = 20
+		add_power_projection = {
+            type = mission_rewards_power_projection
+            amount = 10
+        }
+		
+	    add_country_modifier = {
+            name = event_trust_in_our_memories_sl
+            duration = -1
+        }
+		ai_chance = { factor = 1 }
+        set_country_flag = scarlet_missionaries_adressed_sl
+	}
+	
+}
+
+
+#Argent Dawn Immigration and Missionaries
+namespace = wwu_argent_light_flavour
+
+# Argent Missionary Refugees in kalimdor
+country_event = {
+	id = wwu_argent_light_flavour.1
+	title = wwu_argent_light_flavour.1.title
+	desc = wwu_argent_light_flavour.1.desc
+	picture = ARGENT_HORSERIDER_eventPicture
+	
+	#fire_only_once = yes 
+	
+	trigger = {
+	    current_age = age_trouble_in_azeroth
+        NOT = { exists = A24 }
+		capital_scope = { continent = continent_kalimdor }
+		religion = holy_light
+		NOT = { has_country_flag = argent_missionaries_adressed_ad }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#Give Entry to Argent Missionaries
+	option = { 
+		name = wwu_argent_light_flavour.1.option.a
+        
+		ai_chance = { factor = 1 }
+		
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = argent_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = argent_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = argent_light
+        }
+		
+		add_country_modifier = {
+            name = event_argent_honor_ad
+            duration = 9131
+        }
+		set_country_flag = argent_missionaries_adressed_ad
+	}
+	
+	# Accept them and Convert
+	option = { 
+		name = wwu_argent_light_flavour.1.option.b
+       
+		ai_chance = { factor = 0 }
+		
+        random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = argent_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = argent_light
+        }
+		random_owned_province = {
+            limit = {
+			    owned_by = ROOT
+                continent = continent_kalimdor
+            }
+			change_religion = argent_light
+        }
+		change_religion = argent_light
+		
+		add_country_modifier = {
+            name = event_argent_glory_ad
+            duration = 9131
+        }
+		set_country_flag = argent_missionaries_adressed_ad
+	}
+	
+	# Refuce them Entry
+	option = { 
+		name = wwu_argent_light_flavour.1.option.c
+       
+	    add_prestige = 20
+		add_power_projection = {
+            type = mission_rewards_power_projection
+            amount = 10
+        }
+		
+	    add_country_modifier = {
+            name = event_tough_decisions_ad
+            duration = -1
+        }
+		ai_chance = { factor = 1 }
+        set_country_flag = argent_missionaries_adressed_ad
+	}
+	
+}

@@ -6,149 +6,648 @@
  A23_theramore_column_4: ""
  A23_theramore_column_5: ""
  
- A23_kezan_dominance_title: "Kezan Dominance"
- A23_kezan_dominance_desc: ""
+ A23_reorganize_the_army_title: "Reorganizing the Army"
+ A23_reorganize_the_army_desc: ""
  
- A23_zandalar_dominance_title: "Zandalar Dominance"
- A23_zandalar_dominance_desc: ""
+ A23_theramorean_marines_title: "Theramorean Marines"
+ A23_theramorean_marines_desc: "Unlocks New Infantry Unit"
  
- A23_kul_tiran_dominance_title: "Kul'Tiran Dominance"
- A23_kul_tiran_dominance_desc: ""
+ A23_northwatch_expedition_title: "Northwatch Expedition"
+ A23_northwatch_expedition_desc: ""
  
- A23_building_a_fleet_a_title: "Build a Fleet"
- A23_building_a_fleet_a_desc: ""
+ A23_when_duty_ends_title: "When Duty Ends"
+ A23_when_duty_ends_desc: ""
  
- A23_building_a_fleet_b_title: "Build a Bigger Fleet"
- A23_building_a_fleet_b_desc: ""
+ A23_the_mudspocket_title: "The Mudspocket"
+ A23_the_mudspocket_desc: ""
  
- A23_building_a_fleet_c_title: "Build a Mighty Fleet"
- A23_building_a_fleet_c_desc: ""
+ A23_theramorean_ideas_title: "Theramorean Ideas"
+ A23_theramorean_ideas_desc: ""
  
- A23_building_a_fleet_d_title: "Build a Legendary Fleet"
- A23_building_a_fleet_d_desc: ""
+ A23_south_barren_digsites_title: "South Barren Digsites"
+ A23_south_barren_digsites_desc: ""
  
- A23_riches_of_broken_shore_title: "Riches of Broken Shore"
- A23_riches_of_broken_shore_desc: ""
+ A23_stonespire_tribe_title: "Stonespire Tribe"
+ A23_stonespire_tribe_desc: ""
  
- A23_dustmarsh_dominance_title: "Dustwallow Marsh Dominance"
- A23_dustmarsh_dominance_desc: ""
+ A23_ratchet_and_fray_island_title: "Rachet and Fray Island"
+ A23_ratchet_and_fray_island_desc: ""
  
- A23_kezan_naval_front_title: "Kezan Naval Front"
- A23_kezan_naval_front_desc: ""
+ A23_immigrants_of_the_old_world_title: "Immigrants of the Old World"
+ A23_immigrants_of_the_old_world_desc: ""
  
- A23_zandalar_invasion_title: "Zandalar Invasion"
- A23_zandalar_invasion_desc: ""
+ A23_barren_caravans_title: "Barren Caravans"
+ A23_barren_caravans_desc: ""
  
- A23_pursue_of_global_naval_dominance_title: "Pursue of Global Dominance"
- A23_pursue_of_global_naval_dominance_desc: ""
+ A23_mulgore_trade_route_title: "Mulgore Trade Route"
+ A23_mulgore_trade_route_desc: ""
  
- A23_returning_home_title: "Returning Home"
- A23_returning_home_desc: ""
+ A23_gadgetan_title: "Gadgetan"
+ A23_gadgetan_desc: ""
  
- A23_uniting_the_populace_title: "Uniting the Populace"
- A23_uniting_the_populace_desc: ""
+ A23_landing_in_voldun_title: "Landing in Voldun"
+ A23_landing_in_voldun_desc: ""
  
- A23_secure_the_marsh_title: "Secure the Marsh"
- A23_secure_the_marsh_desc: ""
+ A23_nazmir_opportunities_title: "Nazmir Opportunities"
+ A23_nazmir_opportunities_desc: ""
  
- A23_colonize_south_barrens_title: "Colonize South Barrens"
- A23_colonize_south_barrens_desc: ""
+ A23_one_race_one_empire_title: "One Race, One Empire!"
+ A23_one_race_one_empire_desc: ""
  
- A23_pushing_into_north_barrens_title: "Pushing into North Barrens"
- A23_pushing_into_north_barrens_desc: ""
+ A23_suspicious_flyers_title: "Suspicious Flyers"
+ A23_suspicious_flyers_desc: ""
  
- A23_isolating_the_horde_title: "Isolating the Horde"
- A23_isolating_the_horde_desc: ""
+ A23_theramorean_deserters_title: "Theramorean Deserters"
+ A23_theramorean_deserters_desc: ""
  
- A23_dismantle_tauren_federation_title: "Dismantle Tauren Federation"
- A23_dismantle_tauren_federation_desc: ""
+ A23_reclaim_lost_point_title: "Reclaim Lost Point"
+ A23_reclaim_lost_point_desc: ""
  
- A23_northwatch_title: "Northwatch"
- A23_northwatch_desc: "This northern entrance to the Duskwallow Marsh must be secured from enemy incursions. We will create a march here to protect this crucial region and further fortify the province."
-  
+ A23_the_firemane_brood_title: "The Firemane Brood"
+ A23_the_firemane_brood_desc: ""
+ 
  A23_fortify_the_marsh_title: "Fortify the Marsh"
  A23_fortify_the_marsh_desc: ""
-  
- A23_hitting_the_snake_on_the_head_title: "Hitting the Snake on the Head"
- A23_hitting_the_snake_on_the_head_desc: ""
-  
- A23_replace_faith_of_federation_title: "Replace Faith of Federation"
- A23_replace_faith_of_federation_desc: ""
  
- A23_theramore_settlers_title: "Theramore Settlers"
- A23_theramore_settlers_desc: "We are the survivors of Lordaeron. Those trained in combat are fulfilling their duty in our military. However, many of those who fled with us are merchants, priests, craftsmen, fishermen, and laborers of all kinds; they will need a permanent location to call home. The nearby isle and its surrounding marshes would make a formidable defensive location for our people, as well as serve as a great trading port. Let us quickly dispatch our civilian force to these provinces and begin setup of a proper capital."
+ A23_unify_the_populace_title: "Unify the Populace"
+ A23_unify_the_populace_desc: ""
  
- A23_theramore_isle_capital_title: "Theramore Isle Capital"
- A23_theramore_isle_capital_desc: "It is time we formally moved our administration from our initial landing camp at Northwatch down to the Isle of Theramore. We may begin setup of our trading port, fortifications at the capital, and settling those remaining civilians still looking for a home. Here we shall declare our own Kingdom under our new Queen Jaina Proudmoore. Our brief time in Kalimdor is already forging a new cultural identity amongst our diverse people, who are beginning to call themselves 'Theramoreans'."
+ A23_bael_modan_title: "Bael Modan"
+ A23_bael_modan_desc: ""
+ 
+ A23_the_echo_isles_title: "The Echo Isles"
+ A23_the_echo_isles_desc: ""
+ 
+ A23_gates_of_orgrimmar_title: "Gates of Orgrimmar"
+ A23_gates_of_orgrimmar_desc: ""
+ 
+ A23_fate_of_the_horde_title: "Fate of the Horde"
+ A23_fate_of_the_horde_desc: ""
+ 
+ A23_marsh_trade_title: "Marsh Trade"
+ A23_marsh_trade_desc: ""
+ 
+ A23_upgrade_the_trade_centers_title: "Upgrade the Centers of Trade"
+ A23_upgrade_the_trade_centers_desc: ""
+ 
+ A23_south_seas_trade_title: "South Seas Trade"
+ A23_south_seas_trade_desc: ""
+ 
+ A23_thousand_needles_caravans_title: "Thousand Needle Caravans"
+ A23_thousand_needles_caravans_desc: ""
+ 
+ A23_overseas_development_title: "Overseas Development"
+ A23_overseas_development_desc: ""
+ 
+ A23_rivaling_fleets_title: "Rivaling Fleets"
+ A23_rivaling_fleets_desc: ""
+ 
+ A23_siege_of_zuldazar_title: "Siege of Zuldazar"
+ A23_siege_of_zuldazar_desc: ""
+ 
+ A23_trade_node_of_zandalar_title: "Trade Node of Zandalar"
+ A23_trade_node_of_zandalar_desc: ""
+ 
+ A23_jungle_opportunities_title: "Jungle Opportunities"
+ A23_jungle_opportunities_desc: ""
+ 
+ A23_proclaim_the_title_of_thalassokrator_title: "Proclaim the Title of Thalassokrator"
+ A23_proclaim_the_title_of_thalassokrator_desc: ""
+ 
+ A23_form_admiralty_of_great_sea_title: "Form Admiralty of Great Sea"
+ A23_form_admiralty_of_great_sea_desc: ""
+ 
+ A23_aftermath_of_dealins_death_title: "Aftermath of Daelin's Death"
+ A23_aftermath_of_dealins_death_desc: ""
+ 
+ A23_theramore_isle_title: "Theramore Isle"
+ A23_theramore_isle_desc: ""
+ 
+ A23_preparing_for_war_title: "Preparing for War"
+ A23_preparing_for_war_desc: ""
+ 
+ A23_tabethas_farm_title: "Tabetha's Farm"
+ A23_tabethas_farm_desc: ""
+ 
+ A23_shady_rest_inn_title: "Shady Rest Inn"
+ A23_shady_rest_inn_desc: ""
+ 
+ A23_safe_coasts_title: "Safe Coasts"
+ A23_safe_coasts_desc: ""
+ 
+ A23_northwatch_frontiers_title: "Northwatch Frontiers"
+ A23_northwatch_frontiers_desc: ""
+ 
+ A23_durotar_landind_title: "Durotar Landing"
+ A23_durotar_landind_desc: ""
+ 
+ A23_fate_of_tiragarde_keep_title: "Fate of Tiragarde Keep"
+ A23_fate_of_tiragarde_keep_desc: ""
+ 
+ A23_hunter_hill_title: "Hunter Hill"
+ A23_hunter_hill_desc: ""
+ 
+ A23_strike_at_crossroads_title: "Strike at Crossroads"
+ A23_strike_at_crossroads_desc: ""
+ 
+ A23_the_morshan_ramparts_title: "The Mor'shan Ramparts"
+ A23_the_morshan_ramparts_desc: ""
+ 
+ A23_far_watch_post_title: "Far Watch Post"
+ A23_far_watch_post_desc: ""
+ 
+ A23_a_new_empire_title: "A New Empire"
+ A23_a_new_empire_desc: ""
+ 
+ A23_a_trading_power_title: "A Trading Power"
+ A23_a_trading_power_desc: ""
+ 
+ A23_a_restored_fleet_title: "A Restored Fleet"
+ A23_a_restored_fleet_desc: ""
+ 
+ A23_explore_the_great_seas_lost_isles_title: "Explore the Great Seas: Lost Isles"
+ A23_explore_the_great_seas_lost_isles_desc: ""
+ 
+ A23_fall_of_lost_isles_title: "Fall of the Lost Isles"
+ A23_fall_of_lost_isles_desc: ""
+ 
+ A23_kezan_title: "Kezan"
+ A23_kezan_desc: ""
+ 
+ A23_explore_the_great_seas_south_sea_isles_title: "Explore the Great Seas: South Sea Isles"
+ A23_explore_the_great_seas_south_sea_isles_desc: ""
+ 
+ A23_tel_abim_title: "Tel Abim"
+ A23_tel_abim_desc: ""
+ 
+ A23_the_naga_threat_title: "The Naga Threat"
+ A23_the_naga_threat_desc: ""
+ 
+ A23_paradise_isle_outposts_title: "Paradise Isle Outposts"
+ A23_paradise_isle_outposts_desc: ""
+ 
+ A23_old_wounds_title: "Old Wounds"
+ A23_old_wounds_desc: ""
+ 
+ A23_fate_of_the_admiralty_title: "Fate of the Admiralty"
+ A23_fate_of_the_admiralty_desc: ""
+ 
+ A23_develope_boralus_title: "Develope Boralus"
+ A23_develope_boralus_desc: ""
+ 
+ A23_theramorean_grand_armada_title: "Theramorean Grand Armada"
+ A23_theramorean_grand_armada_desc: ""
+ 
+ A23_returning_home_reclaim_lordaeron_title: "Returning Home: Reclaim Lordaeron"
+ A23_returning_home_reclaim_lordaeron_desc: ""
+ 
+ A23_fate_of_lordaeron_title: "Fate of Lordaeron"
+ A23_fate_of_lordaeron_desc: ""
+ 
+ A23_form_empire_of_arathor_title: "Form Empire of Arathor"
+ A23_form_empire_of_arathor_desc: ""
+ 
+ A23_horde_relations_title: "Horde Relations"
+ A23_horde_relations_desc: ""
+ 
+ A23_direhorn_post_title: "Direhorn Post"
+ A23_direhorn_post_desc: ""
+ 
+ A23_blackhoof_village_title: "Blackhoof Outpost"
+ A23_blackhoof_village_desc: ""
+ 
+ A23_the_stonemaul_clan_title: "The Stonemaul Clan"
+ A23_the_stonemaul_clan_desc: ""
+ 
+ A23_horde_aggression_title: "Horde Aggression"
+ A23_horde_aggression_desc: ""
+ 
+ A23_forward_command_title: "Forward Command"
+ A23_forward_command_desc: ""
+ 
+ A23_fort_triumph_title: "Fort Triumph"
+ A23_fort_triumph_desc: ""
+ 
+ A23_into_camp_taurajo_title: "Into Camp Taurajo"
+ A23_into_camp_taurajo_desc: ""
+ 
+ A23_the_great_gate_of_mulgore_title: "The Great Gate of Mulgore"
+ A23_the_great_gate_of_mulgore_desc: ""
+ 
+ A23_the_fate_of_thunderbluff_title: "The Fate of Thunderbluff"
+ A23_the_fate_of_thunderbluff_desc: ""
+ 
+ A23_alcaz_isle_title: "Alcaz Isle"
+ A23_alcaz_isle_desc: ""
+ 
+ A23_upgrading_the_fleet_title: "Upgrading the Fleet"
+ A23_upgrading_the_fleet_desc: ""
+ 
+ A23_taurajo_markets_title: "Taurajo Markets"
+ A23_taurajo_markets_desc: ""
+ 
+ A23_markets_of_the_crossroads_title: "Markets of the Crossroads"
+ A23_markets_of_the_crossroads_desc: ""
+ 
+ A23_uncharted_lands_broken_isles_title: "Uncharted Lands: Broken Isles"
+ A23_uncharted_lands_broken_isles_desc: ""
+ 
+ A23_to_the_shores_of_northrend_title: "To the Shores of Northrend"
+ A23_to_the_shores_of_northrend_desc: ""
+ 
+ A23_broken_isle_trade_nodes_title: "Broken Isle Trade Nodes"
+ A23_broken_isle_trade_nodes_desc: ""
+ 
+ A23_developing_broken_isles_title: "Developing the Broken Isles"
+ A23_developing_broken_isles_desc: ""
+ 
+ A23_fate_of_the_crusades_title: "Fate of the Crusades"
+ A23_fate_of_the_crusades_desc: ""
+ 
+ A23_alliance_network_title: "Alliance Network"
+ A23_alliance_network_desc: ""
+ 
+ A23_darnassus_relations_title: "Darnassus Relations"
+ A23_darnassus_relations_desc: ""
+ 
+ A23_alliance_of_kalimdor_title: "Alliance of Kalimdor"
+ A23_alliance_of_kalimdor_desc: ""
+ 
+ A23_orgrimmar_radical_voices_title: "Orgrimmar Radical Voices"
+ A23_orgrimmar_radical_voices_desc: ""
+ 
+ A23_the_focusing_iris_title: "The Focusing Iris"
+ A23_the_focusing_iris_desc: ""
+ 
+ A23_blue_dragonflight_assistance_title: "Blue Dragonflight Assistance"
+ A23_blue_dragonflight_assistance_desc: ""
+ 
+ A23_stolen_iris_invetigation_title: "Stolen Iris Investigation"
+ A23_stolen_iris_invetigation_desc: ""
+ 
+ A23_siege_of_theramore_title: "Siege of Theramore"
+ A23_siege_of_theramore_desc: ""
+ 
+ A23_the_mana_bomb_title: "The Mana Bomb"
+ A23_the_mana_bomb_desc: ""
+ 
+ A23_fate_of_theramore_title: "Fate of Theramore"
+ A23_fate_of_theramore_desc: ""
+ 
+ A23_a_new_grant_capital_title: "A Grand New Capital"
+ A23_a_new_grant_capital_desc: ""
+ 
+ A23_a_seafairy_power_title: "A Seafairy Power"
+ A23_a_seafairy_power_desc: ""
+ 
+ A23_production_in_the_marsh_title: "Production in the Marsh"
+ A23_production_in_the_marsh_desc: ""
+ 
+ A23_easy_transportation_title: "Easy Transportation"
+ A23_easy_transportation_desc: ""
+ 
+ A23_barrens_exploitation_title: "Barrens Exploitation"
+ A23_barrens_exploitation_desc: ""
+ 
+ A23_barrens_fortifications_title: "Barrens Fortifications"
+ A23_barrens_fortifications_desc: ""
+ 
+ A23_south_barrens_royal_road_title: "South Barrens Royal Road"
+ A23_south_barrens_royal_road_desc: ""
+ 
+ A23_north_barrens_royal_road_title: "North Barrens Royal Road"
+ A23_north_barrens_royal_road_desc: ""
+ 
+ A23_kalimdor_royal_road_title: "Kalimdor Royal Road"
+ A23_kalimdor_royal_road_desc: ""
+ 
+ A23_fate_of_quelthalas_title: "Fate of Quelthalas"
+ A23_fate_of_quelthalas_desc: ""
  
  # --- Modifiers ---
- mission_kezan_node_dominance: "Dominance over Kezan Node"
- desc_mission_kezan_node_dominance: ""
+ mission_adjast_to_the_marshes_a23: "Adjast to the Marshes"
+ desc_mission_adjast_to_the_marshes_a23: ""
  
- mission_zandalar_node_dominance: "Dominance over Zandalar Node"
- desc_mission_zandalar_node_dominance: ""
+ mission_professional_marines_a23: "Professional Marines"
+ desc_mission_professional_marines_a23: ""
  
- mission_kul_tiran_node_dominance: "Dominance over Kul'Tiran Node"
- desc_mission_kul_tiran_node_dominance: ""
+ mission_army_on_the_move_a23: "Army on the Move"
+ desc_mission_army_on_the_move_a23: ""
  
- mission_strong_fleet_a: "Fleet Built"
- desc_mission_strong_fleet_a: ""
+ mission_a_stable_life_a23: "A Stable Life"
+ desc_mission_a_stable_life_a23: ""
  
- mission_strong_fleet_b: "Bigger Fleet Built"
- desc_mission_strong_fleet_b: ""
+ mission_to_the_edges_of_the_marsh_a23: "To the Edges of the Marsh"
+ desc_mission_to_the_edges_of_the_marsh_a23: ""
  
- mission_strong_fleet_c: "Mighty Fleet Built"
- desc_mission_strong_fleet_c: ""
+ mission_a_new_mindset_a23: "A New Mindset"
+ desc_mission_a_new_mindset_a23: ""
  
- mission_strong_fleet_d: "Legendary Fleet Built"
- desc_mission_strong_fleet_d: ""
+ mission_titanic_relics_a23: "Titanic Relics"
+ desc_mission_titanic_relics_a23: ""
  
- mission_dustmarsh_node_dominance: "Dominance over Dustswallow Marsh Node"
- desc_mission_dustmarsh_node_dominance: ""
+ mission_tauren_claims_a23: "Tauren Claims"
+ desc_mission_tauren_claims_a23: ""
  
- mission_control_kezan: "Control Kezan"
- desc_mission_control_kezan: ""
+ mission_the_gate_to_north_barrens_a23: "The Gate to North Barrens"
+ desc_mission_the_gate_to_north_barrens_a23: ""
  
- mission_invade_zandalar: "Invade Zandalar"
- desc_mission_invade_zandalar: ""
+ mission_failure_of_the_crusades_a23: "Failure of the Crusades"
+ desc_mission_failure_of_the_crusades_a23: ""
  
- mission_invade_kultiras: "Invade Kul'Tiras"
- desc_mission_invade_kultiras: ""
+ mission_northern_routes_a23: "Northern Routes"
+ desc_mission_northern_routes_a23: ""
  
- mission_invade_north_eastern_kingdoms: "Invade North Eastern Kingdoms"
- desc_mission_invade_north_eastern_kingdoms: ""
+ mission_the_great_plains_a23: "The Great Plains"
+ desc_mission_the_great_plains_a23: ""
  
- mission_power_of_people: "Power of People"
- desc_mission_power_of_people: ""
+ mission_tanaris_safe_heaven_a23: "Tanaris Safe Heaven"
+ desc_mission_tanaris_safe_heaven_a23: ""
  
- mission_consolidate_marsh: "Consolidate the Marsh"
- desc_mission_consolidate_marsh: ""
+ mission_voldun_offensive_a23: "Voldun Offensive"
+ desc_mission_voldun_offensive_a23: ""
  
- mission_colonizing_barrens: "Colonize South Barrens"
- desc_mission_colonizing_barrens: ""
+ mission_nazmir_goods_a23: "Nazmir Goods"
+ desc_mission_nazmir_goods_a23: ""
  
- mission_control_crossroads: "Control Crossroads"
- desc_mission_control_crossroads: ""
+ mission_united_mankind_a23: "United Mankind"
+ desc_mission_united_mankind_a23: ""
  
- mission_isolate_horde: "Isolate the Horde"
- desc_mission_isolate_horde: ""
+ mission_investigating_the_source_of_propaganda_a23: "Investigating the Source of Propaganda"
+ desc_mission_investigating_the_source_of_propaganda_a23: ""
  
- mission_dismantle_federation: "Dismantle the Federation"
- desc_mission_dismantle_federation: ""
+ mission_deserters_a23: "Deserters"
+ desc_mission_deserters_a23: ""
  
- mission_northwatch: "Northwatch"
- desc_mission_northwatch: ""
+ mission_deserter_extermination_a23: "Deserter Extermination"
+ desc_mission_deserter_extermination_a23: ""
  
- mission_expand_fortifications: "Expand Fortifications"
- desc_mission_expand_fortifications: ""
+ mission_dragon_infestation_a23: "Dragon Infestation"
+ desc_mission_dragon_infestation_a23: ""
  
- mission_destroy_orgrimmar: "Destroy Orgrimmar"
- desc_mission_destroy_orgrimmar: ""
+ mission_safe_homeland_a23: "Safe Homeland"
+ desc_mission_safe_homeland_a23: ""
  
- mission_replace_faith_of_federation: "Replace the Faith of Federation"
- desc_mission_replace_faith_of_federation: ""
+ mission_power_of_people_a23: "Power of the People"
+ desc_mission_power_of_people_a23: ""
  
- mission_theramore_settlers: "Theramore Settlers"
- desc_mission_theramore_settlers: "These are the civilian survivors who fled from Lordaeron with Jaina Proudmoore. There are many of them ready to work and build, they need merely be told where to begin. The nearby isle will serve as a perfect capital - we should begin there. Our numbers are too many for the locals to offer any real resistance."
-
- mission_mythical_continent: " "
+ mission_dwarven_expedition_a23: "Dwarven Expedition"
+ desc_mission_dwarven_expedition_a23: ""
+ 
+ mission_troll_capital_a23: "Troll Capital"
+ desc_mission_troll_capital_a23: ""
+ 
+ mission_surrounding_orgrimmar_a23: "Surrounding Orgrimmar"
+ desc_mission_surrounding_orgrimmar_a23: ""
+ 
+ mission_dismantling_horde_a23: "Dismantling the Horde"
+ desc_mission_dismantling_horde_a23: ""
+ 
+ mission_home_trade_a23: "Home Trade"
+ desc_mission_home_trade_a23: ""
+ 
+ mission_better_market_opportunities_a23: "Better Market Opportunities"
+ desc_mission_better_market_opportunities_a23: ""
+ 
+ mission_expanding_eastwards_a23: "Expanding Eastwards"
+ desc_mission_expanding_eastwards_a23: ""
+ 
+ mission_rough_terrain_a23: "Rough Terrain"
+ desc_mission_rough_terrain_a23: ""
+ 
+ mission_stable_holdings_a23: "Stable Holdings"
+ desc_mission_stable_holdings_a23: ""
+ 
+ mission_zandalari_fleets_a23: "Zandalari Fleets"
+ desc_mission_zandalari_fleets_a23: ""
+ 
+ mission_fall_of_the_zandalari_a23: "Fall of the Zandalari"
+ desc_mission_fall_of_the_zandalari_a23: ""
+ 
+ mission_zandalari_markets_a23: "Zandalari Markets"
+ desc_mission_zandalari_markets_a23: ""
+ 
+ mission_zandalari_goods_a23: "Zandalari Goods"
+ desc_mission_zandalari_goods_a23: ""
+ 
+ mission_emperor_of_the_sea_a23: "Emperor of the Sea"
+ desc_mission_emperor_of_the_sea_a23: ""
+ 
+ mission_great_sea_empire_a23: "Great Sea Empire"
+ desc_mission_great_sea_empire_a23: ""
+ 
+ mission_a_fathers_death_a23: "A Father's Death"
+ desc_mission_a_fathers_death_a23: ""
+ 
+ mission_a_great_new_home_a23: "A Great New Home"
+ desc_mission_a_great_new_home_a23: ""
+ 
+ mission_war_preparations_a23: "War Preparations"
+ desc_mission_war_preparations_a23: ""
+ 
+ mission_magic_trainees_a23: "Magic Trainees"
+ desc_mission_magic_trainees_a23: ""
+ 
+ mission_a_mysterious_fire_a23: "A Mysterious Fire"
+ desc_mission_a_mysterious_fire_a23: ""
+ 
+ mission_makrura_extremination_a23: "Makrura Extermination"
+ desc_mission_makrura_extremination_a23: ""
+ 
+ mission_border_control_a23: "Border Control"
+ desc_mission_border_control_a23: ""
+ 
+ mission_durotar_offensive_a23: "Durotar Offensive"
+ desc_mission_durotar_offensive_a23: ""
+ 
+ mission_tiragarde_fort_a23: "Tiragarde Fort"
+ desc_mission_tiragarde_fort_a23: ""
+ 
+ mission_checkpoint_a23: "Checkpoint"
+ desc_mission_checkpoint_a23: ""
+ 
+ mission_center_of_north_barrens_a23: "Center of North Barrens"
+ desc_mission_center_of_north_barrens_a23: ""
+ 
+ mission_the_gates_of_barrens_a23: "The Gates of Barrens"
+ desc_mission_the_gates_of_barrens_a23: ""
+ 
+ mission_capture_the_bridge_a23: "Capture the Bridge"
+ desc_mission_capture_the_bridge_a23: ""
+ 
+ mission_a_succesful_exodus_a23: "A Succesful Exodus"
+ desc_mission_a_succesful_exodus_a23: ""
+ 
+ mission_a_rising_admiralty_a23: "A Rising Admiralty"
+ desc_mission_a_rising_admiralty_a23: ""
+ 
+ mission_trading_fleets_a23: "Trading Fleets"
+ desc_mission_trading_fleets_a23: ""
+ 
+ mission_lost_isles_a23: "Lost Isles"
+ desc_mission_lost_isles_a23: ""
+ 
+ mission_lost_isles_controlled_a23: "Lost Isles Controlled"
+ desc_mission_lost_isles_controlled_a23: ""
+ 
+ mission_mount_kezan_a23: "Mount Kezan"
+ desc_mission_mount_kezan_a23: ""
+ 
+ mission_hunting_for_bananas_a23: "Hunting for Bananas"
+ desc_mission_hunting_for_bananas_a23: ""
+ 
+ mission_bananas_is_the_new_gold_a23: "Banana is the New Gold"
+ desc_mission_bananas_is_the_new_gold_a23: ""
+ 
+ mission_nazjatar_a23: "Nazjatar"
+ desc_mission_nazjatar_a23: ""
+ 
+ mission_isle_jumps_a23: "Isle Jumps"
+ desc_mission_isle_jumps_a23: ""
+ 
+ mission_relations_with_fatherland_a23: "Relations with Fatherland"
+ desc_mission_relations_with_fatherland_a23: ""
+ 
+ mission_reunification_a23: "Re-unification"
+ desc_mission_reunification_a23: ""
+ 
+ mission_a_second_capital_a23: "A Second Capital"
+ desc_mission_a_second_capital_a23: ""
+ 
+ mission_a_grand_fleet_a23: "A Grand Fleet"
+ desc_mission_a_grand_fleet_a23: ""
+ 
+ mission_landing_in_lordaeron_a23: "Landing in Lordaeron"
+ desc_mission_landing_in_lordaeron_a23: ""
+ 
+ mission_cleansing_lordaeron_a23: "Cleansing Lordaeron"
+ desc_mission_cleansing_lordaeron_a23: ""
+ 
+ mission_ancient_empire_a23: "Ancient Empire"
+ desc_mission_ancient_empire_a23: ""
+ 
+ mission_hyjal_aftermath_a23: "Hyjal Aftermath"
+ desc_mission_hyjal_aftermath_a23: ""
+ 
+ mission_grimtotem_agression_a23: "Grimtotem Agression"
+ desc_mission_grimtotem_agression_a23: ""
+ 
+ mission_neutralize_the_grimtotem_a23: "Neutralize the Grimtotem"
+ desc_mission_neutralize_the_grimtotem_a23: ""
+ 
+ mission_ogres_and_the_horde_a23: "Ogres and the Horde"
+ desc_mission_ogres_and_the_horde_a23: ""
+ 
+ mission_old_habbits_a23: "Old Habbits"
+ desc_mission_old_habbits_a23: ""
+ 
+ mission_pushing_on_south_barrens_a23: "Pushing on South Barrens"
+ desc_mission_pushing_on_south_barrens_a23: ""
+ 
+ mission_secure_a_holding_a23: "Secure a Holding"
+ desc_mission_secure_a_holding_a23: ""
+ 
+ mission_taurajo_assault_a23: "Taurajo Assault"
+ desc_mission_taurajo_assault_a23: ""
+ 
+ mission_great_gates_a23: "Great Gates"
+ desc_mission_great_gates_a23: ""
+ 
+ mission_city_of_the_skies_a23: "City of the Skies"
+ desc_mission_city_of_the_skies_a23: ""
+ 
+ mission_alcaz_mines_a23: "Alcaz Mines"
+ desc_mission_alcaz_mines_a23: ""
+ 
+ mission_oceanic_fleet_a23: "Oceanic Fleet"
+ desc_mission_oceanic_fleet_a23: ""
+ 
+ mission_south_barrens_trade_a23: "South Barrens Trade"
+ desc_mission_south_barrens_trade_a23: ""
+ 
+ mission_north_barrens_trade_a23: "North Barrens Trade"
+ desc_mission_north_barrens_trade_a23: ""
+ 
+ mission_broken_isles_a23: "Broken Isles"
+ desc_mission_broken_isles_a23: ""
+ 
+ mission_jorundal_invasion_point_a23: "Jorundal Invasion"
+ desc_mission_jorundal_invasion_point_a23: ""
+ 
+ mission_broken_isle_rareties_a23: "Broken Isle Rareties"
+ desc_mission_broken_isle_rareties_a23: ""
+ 
+ mission_lasting_impact_a23: "Lasting Impact"
+ desc_mission_lasting_impact_a23: ""
+ 
+ mission_seasoned_warriors_a23: "Seasoned Warriors"
+ desc_mission_seasoned_warriors_a23: ""
+ 
+ mission_new_allies_a23: "New Allies"
+ desc_mission_new_allies_a23: ""
+ 
+ mission_night_elven_allies_a23: "Night Elven Allies"
+ desc_mission_night_elven_allies_a23: ""
+ 
+ mission_a_fragile_alliance_a23: "A Fragile Alliance"
+ desc_mission_a_fragile_alliance_a23: ""
+ 
+ mission_radicals_a23: "Radicals"
+ desc_mission_radicals_a23: ""
+ 
+ mission_draconic_artifact_a23: "Draconic Artifact"
+ desc_mission_draconic_artifact_a23: ""
+ 
+ mission_dragon_forces_a23: "Dragon Forces"
+ desc_mission_dragon_forces_a23: ""
+ 
+ mission_a_dangerous_situation_a23: "A Dangerous Situation"
+ desc_mission_a_dangerous_situation_a23: ""
+ 
+ mission_horde_marsh_invasion_a23: "Horde Marsh Invasion"
+ desc_mission_horde_marsh_invasion_a23: ""
+ 
+ mission_weapon_of_mass_destruction_a23: "Weapon of Mass Destruction"
+ desc_mission_weapon_of_mass_destruction_a23: ""
+ 
+ mission_the_end_of_a_siege_a23: "The End on a Siege"
+ desc_mission_the_end_of_a_siege_a23: ""
+ 
+ mission_prestigious_capital_a23: "Prestigious Capital"
+ desc_mission_prestigious_capital_a23: ""
+ 
+ mission_naval_infrastructure_a23: "Naval Infrastructure"
+ desc_mission_naval_infrastructure_a23: ""
+ 
+ mission_production_infrastructure_a23: "Production Infrastructure"
+ desc_mission_production_infrastructure_a23: ""
+ 
+ mission_early_road_system_a23: "Early Road System"
+ desc_mission_early_road_system_a23: ""
+ 
+ mission_fertile_lands_a23: "Fertile Lands"
+ desc_mission_fertile_lands_a23: ""
+ 
+ mission_safe_barrens_a23: "Safe Barrens"
+ desc_mission_safe_barrens_a23: ""
+ 
+ mission_better_roads_a23: "Better Roads"
+ desc_mission_better_roads_a23: ""
+ 
+ mission_the_best_roads_a23: "The Best Roads"
+ desc_mission_the_best_roads_a23: ""
+ 
+ mission_the_grand_road_a23: "The Gold Road"
+ desc_mission_the_grand_road_a23: ""
+ 
+ mission_save_old_allies_a23: "Save Old Allies"
+ desc_mission_save_old_allies_a23: ""
+ 
+ 
+ #------------------------------
+ # Override Names
+ #------------------------------
+ EMPIRE_OF_THERAMORE: "Empire of Theramore"
+ EMPIRE_OF_THERAMORE_ADJ: "Theramorean"
+ KINDGDOM_OF_THE_BARRENS: "Kingdom of the Barrens"
+ KINDGDOM_OF_THE_BARRENS_ADJ: "Kingdom's"

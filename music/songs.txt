@@ -28,6 +28,19 @@ song = { name = "music_ruins" chance = { modifier = { factor = 1 } } }
 song = { name = "music_temple" chance = { modifier = { factor = 1 } } }
 song = { name = "music_lurking" chance = { modifier = { factor = 1 } } }
 song = { name = "music_sacred" chance = { modifier = { factor = 1 } } }
+song = { name = "music_blackrock_mountain" chance = { modifier = { factor = 1 } } }
+song = { 
+	name = "music_searing_gorge" 
+	chance = {
+		modifier = { 
+			factor = 1
+		}
+		modifier = { 
+			factor = 2
+			religion = flame
+		}
+	} 
+}
 song = { 
 	name = "music_graveyard" 
 	chance = {

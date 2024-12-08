@@ -110,6 +110,14 @@
  desc_elite_enforcer_personality: "This General is an Enforcer."
  elite_enforcer_personality_die_desc: "all that served under them mourn their passing."
  
+ enforcer_personality_die_desc: " "
+ elite_leader_ruthless_personality_die_desc: " "
+ leader_ruthless_personality_die_desc: " "
+ kinslayer_personality_die_desc: " "
+ ethnocentric_personality_die_desc: " "
+ prodigy_personality_die_desc: " "
+ spiritual_personality_die_desc: " "
+ 
  #---------------------------------
  # Naval Leader
  #---------------------------------

@@ -11,7 +11,7 @@ culture = culture_furbolg
 religion = shamanism
 
 hre = no
-trade_goods = unknown
+trade_goods = resource_treasure
 
 
 625.1.1 = { 
@@ -26,7 +26,4 @@ trade_goods = unknown
     base_tax = 4
     base_production = 4
     base_manpower = 3
-    
-
-trade_goods = resource_alcohol
 }

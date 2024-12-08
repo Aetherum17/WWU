@@ -107,3 +107,13 @@ music = {
 	name = "music_war"
 	file = "war.ogg"
 }
+
+music = {
+	name = "music_blackrock_mountain"
+	file = "blackrock_mountain.ogg"
+}
+
+music = {
+	name = "music_searing_gorge"
+	file = "searing_gorge.ogg"
+}

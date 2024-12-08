@@ -1,0 +1,10 @@
+
+# Death's Hand
+government 				= monarchy
+add_government_reform   = scourge_domain_reform
+mercantilism 			= 10
+technology_group 		= tech_scourge
+religion				= cult_of_the_damned
+primary_culture 		= culture_cultist
+add_accepted_culture	= culture_scourge
+capital					= 4524

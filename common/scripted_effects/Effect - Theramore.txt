@@ -1,0 +1,42 @@
+#-------------------------------
+# Lordaeron
+#-------------------------------
+spawn_lordaeron = {
+    custom_tooltip = lordaeron_provinces_tt
+        
+    hidden_effect = {
+        lordaeron_provinces = {
+            limit = {
+                owned_by = ROOT
+            }           
+            cede_province = A08
+            add_core = A08
+        }
+        
+        # Discovery
+        A08 = {
+            country_event = { id = wwu_discovery.2 days = 7 }
+        }
+    }
+}
+
+#-------------------------------
+# Scarlet Lordaeron
+#-------------------------------
+spawn_scarlet_lordaeron = {
+    custom_tooltip = scarlet_lordaeron_provinces_tt
+        
+    hidden_effect = {
+        scarlet_lordaeron_provinces = {
+            limit = {
+                owned_by = ROOT
+            }           
+            cede_province = A22
+            add_core = A22
+        }
+		
+		A22 = {
+            country_event = { id = wwu_discovery.2 days = 7 }
+        }
+    }
+}

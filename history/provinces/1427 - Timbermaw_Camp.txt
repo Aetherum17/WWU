@@ -1,11 +1,11 @@
-
 # Winterfall
 is_city = yes
-owner = B44
-controller = B44
-add_core = B44
 
-base_tax = 1
+owner = B42
+controller = B42
+add_core = B42
+
+base_tax = 2
 base_production = 1
 base_manpower = 2
 
@@ -17,7 +17,10 @@ trade_goods = resource_common_wood
 
 
 618.1.1 = {
-    religion = fel
-	culture = culture_corrupted_furbolg
-}
+    owner = B44
+    controller = B44
+    add_core = B44
 
+    religion = fel
+    culture = culture_corrupted_furbolg
+}

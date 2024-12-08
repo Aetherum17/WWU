@@ -1,0 +1,30 @@
+
+government 			    = monarchy
+add_government_reform   = dragonflight_brood_reform
+
+mercantilism 		= 10
+technology_group 	= tech_black_dragonflight
+religion			= corrupt_dragon_aspect
+primary_culture 	= culture_black_dragonflight
+capital 			= 5042
+
+540.1.1 = {
+    monarch = {
+        name = "Malicion"
+        dynasty = "the Executioner"
+		adm = 4
+		dip = 6
+		mil = 6
+        birth_date = 100.1.1
+ 	}
+    
+    setup_spellcaster_history = {
+        APTITUDE = 5
+        FINESSE = 5
+        CONCENTRATION = 5
+        MANA = 5
+        draconic = yes
+    }
+    
+    set_ruler_flag = is_immortal
+}

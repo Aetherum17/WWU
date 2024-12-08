@@ -1,0 +1,298 @@
+﻿l_german:
+ #-----------------------------------
+ # Cliques GUI
+ #-----------------------------------
+ clique_title: "Cliques"
+ 
+ #----------------------------------------
+ # Cliques - Merchant Republic
+ #----------------------------------------
+ # Aristocrats
+ clique_banner_aristocrats_title: "Aristocrats"
+ clique_influence_text_aristocrats: "[Root.current_clique_influence__aristocrats.GetValue]%"
+ clique_description_aristocrats: "Representing the aristocratic families that dominate the political life in the capital. Their main concern is ensuring that the republic is victorious in war and achieves the glory that they view as their own."
+ CLIQUE_ICON_HOVER_TOOLTIP_aristocrats: "§YName:§!\nAristocrats\n\n§YBenefits when in Power:§!\n§G+10%§! Land Morale\n§G+10%§! Global Sailors Modifier\n§G-2§! Global Unrest"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_aristocrats: "§YMonthly Influence Gain:§!\n§G0.05%§! per Positive Stability\nUp to §G0.1%§! at §Y100§! Army Tradition\n\n§YMonthly Influence Loss:§!\n§R0.05%§! per Negative Stability\n§R0.01%§! per War Exhaustion"
+ 
+ # Traders
+ clique_banner_traders_title: "Traders"
+ clique_influence_text_traders: "[Root.current_clique_influence__traders.GetValue]%"
+ clique_description_traders: "Representing the merchants and ship captains that are the lifeblood of the republic's trade. Their main concern is the control of lucrative maritime trade routes."
+ CLIQUE_ICON_HOVER_TOOLTIP_traders: "§YName:§!\nTraders\n\n§YBenefits when in Power:§!\n§G+10%§! Global Trade Power\n§G-10%§! Naval Maintenance Cost\n§G+10%§! Ship Power Propagation"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_traders: "§YMonthly Influence Gain:§!\nUp to §G0.1%§! at §Y100§! Navy Tradition\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_traders: ""
+ 
+ # Guilds
+ clique_banner_guilds_title: "Guilds"
+ clique_influence_text_guilds: "[Root.current_clique_influence__guilds.GetValue]%"
+ clique_description_guilds: "Representing the artisans and master craftsmen inhabiting our cities that have banded together in guilds for mutual economic gain and assistance. Their main concern is the economic well-being of the cities."
+ CLIQUE_ICON_HOVER_TOOLTIP_guilds: "§YName:§!\nGuilds\n\n§YBenefits when in Power:§!\n§G+10%§! Global Trade Goods Size Modifier\n§G-10%§! Build Cost\n§G+10%§! Production Efficiency"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_guilds: "§YMonthly Influence Gain:§!\nUp to §R0.5%§! at §Y100%§! Overextension\n§R0.25%§! during Bankruptcy\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_guilds: ""
+ 
+ #----------------------------------------
+ # Cliques - Pirate Republic
+ #----------------------------------------
+ # Buccaneers
+ clique_banner_buccaneers_title: "Buccaneers"
+ clique_influence_text_buccaneers: "[Root.current_clique_influence__buccaneers.GetValue]%"
+ clique_description_buccaneers: "The Buccaneers are the desperate and disenfranchised. Ex-slaves, mutineers, and impressed sailors all find sanctuary from the law in the Republic of Pirates."
+ CLIQUE_ICON_HOVER_TOOLTIP_buccaneers: "§YName:§!\nBuccaneers\n\n§YBenefits when in Power:§!\n§G+0.5§! Republican Tradition\n§G+25%§! Sailor Recovery Speed\n§G+33%§! Privateer Efficiency"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_buccaneers: "§YMonthly Influence Gain:§!\nThrough Coastal Raiding\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_buccaneers: ""
+ 
+ # Smugglers
+ clique_banner_smugglers_title: "Smugglers"
+ clique_influence_text_smugglers: "[Root.current_clique_influence__smugglers.GetValue]%"
+ clique_description_smugglers: "The Smugglers are clandestine merchants willing to risk capture to sell their illegitimate wares. They provide a semi-legitimate front for the fencing of plundered goods."
+ CLIQUE_ICON_HOVER_TOOLTIP_smugglers: "§YName:§!\nSmugglers\n\n§YBenefits when in Power:§!\n§G+10%§! Global Trade Power\n§G+10%§! Trade Efficiency\n§G+33%§! Embargo Efficiency"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_smugglers: "§YMonthly Influence Gain:§!\n§G0.1%§! whilst at Peace\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_smugglers: ""
+ 
+ # Captains
+ clique_banner_captains_title: "Captains"
+ clique_influence_text_captains: "[Root.current_clique_influence__captains.GetValue]%"
+ clique_description_captains: "Pirate Captains are often former privateers gone rogue, either out of greed or with a political motive. They have the experience, education and charisma to lead the pirates."
+ CLIQUE_ICON_HOVER_TOOLTIP_captains: "§YName:§!\nCaptains\n\n§YBenefits when in Power:§!\n§G+1§! Naval Leader Fire\n§G+10%§! Naval Morale\n§G-2%§! Navy Tradition Decay"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_captains: "§YMonthly Influence Gain:§!\nUp to §G0.1%§! whilst Privateering\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_captains: ""
+ 
+ #----------------------------------------
+ # Cliques - Scourge
+ #----------------------------------------
+ # Death Knights
+ clique_banner_death_knights_title: "Death Knights"
+ clique_influence_text_death_knights: "[Root.current_clique_influence__death_knights.GetValue]%"
+ clique_description_death_knights: "Fighters in thrall to the Lich King. They wield dark magic and runeforged weapons."
+ CLIQUE_ICON_HOVER_TOOLTIP_death_knights: "§YName:§!\nDeath Knights\n\n§YBenefits when in Power:§!\n§G+25%§! Global Manpower Modifier\n§G+10%§! Infantry Power\n§G+10%§! Manpower Recovery Speed"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_death_knights: "§YMonthly Influence Gain:§!\n§G0.1%§! whilst at War\n\n§YMonthly Influence Loss:§!\n§R0.1%§! whilst at Peace"
+ CLIQUE_DESC_HOVER_TOOLTIP_death_knights: ""
+ 
+ # Lichs
+ clique_banner_lichs_title: "Liches"
+ clique_influence_text_lichs: "[Root.current_clique_influence__lichs.GetValue]%"
+ clique_description_lichs: "Powerful undead beings bound to the iron will of the Lich King."
+ CLIQUE_ICON_HOVER_TOOLTIP_lichs: "§YName:§!\nLiches\n\n§YBenefits when in Power:§!\n§G-10%§! Core Creation Cost\n§G-10%§! Idea Cost\n§G+10%§! Governing Capacity Modifier"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_lichs: "§YMonthly Influence Gain:§!\nUp to §G0.1%§! at §Y100§! Religious Unity\n\n§YMonthly Influence Loss:§!\n§R0.1%§! per Negative Religious Unity"
+ CLIQUE_DESC_HOVER_TOOLTIP_lichs: ""
+ 
+ # Darkfallen
+ clique_banner_darkfallen_title: "Darkfallen"
+ clique_influence_text_darkfallen: "[Root.current_clique_influence__darkfallen.GetValue]%"
+ clique_description_darkfallen: "Also known as the San'layn, they are vampyr blood elves in service to the Scourge."
+ CLIQUE_ICON_HOVER_TOOLTIP_darkfallen: "§YName:§!\nDarkfallen\n\n§YBenefits when in Power:§!\n§G-10%§! Aggressive Expansion Impact\n§G-10%§! Unjustified Demands\n§G-20%§! Advisor Cost"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_darkfallen: "§YMonthly Influence Gain:§!\n§G0.05%§! per Positive Stability\n\n§YMonthly Influence Loss:§!\n§R0.05%§! per Negative Stability"
+ CLIQUE_DESC_HOVER_TOOLTIP_darkfallen: ""
+ 
+ #----------------------------------------
+ # Cliques - Quel'thalas
+ #----------------------------------------
+ # Magisters
+ clique_banner_magisters_title: "Magisters"
+ clique_influence_text_magisters: "[Root.current_clique_influence__magisters.GetValue]%"
+ clique_description_magisters: "A prominent group of blood elf mages. They are politically connected, and have historic ties to the upper echelons of Silvermoon."
+ CLIQUE_ICON_HOVER_TOOLTIP_magisters: "§YName:§!\nMagisters\n\n§YBenefits when in Power:§!\n§G+33%§! Reform Progress Growth\n§G+10§! Max Absolutism\n§G+0.5§! Yearly Absolutism"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_magisters: "§YMonthly Influence Gain:§!\n§G0.05%§! per Positive Stability\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_magisters: ""
+ 
+ # Farstriders
+ clique_banner_farstriders_title: "Farstriders"
+ clique_influence_text_farstriders: "[Root.current_clique_influence__farstriders.GetValue]%"
+ clique_description_farstriders: "An elite group of blood elf rangers loyal to Quel'Thalas. Traditionally they oversee the wildlands and hold a deep respect for the law."
+ CLIQUE_ICON_HOVER_TOOLTIP_farstriders: "§YName:§!\nFarstriders\n\n§YBenefits when in Power:§!\n§G-2§! Global Unrest\n§G-10%§! Development Cost\n§G+3§! Diplomatic Reputation"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_farstriders: "§YMonthly Influence Gain:§!\n§G0.1%§! whilst at War\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_farstriders: ""
+ 
+ # Blood Knights
+ clique_banner_blood_knights_title: "Blood Knights"
+ clique_influence_text_blood_knights: "[Root.current_clique_influence__blood_knights.GetValue]%"
+ clique_description_blood_knights: "An order of blood elf paladins formed after the capture of the naaru M'uru in order to exploit its power."
+ CLIQUE_ICON_HOVER_TOOLTIP_blood_knights: "§YName:§!\nBlood Knights\n\n§YBenefits when in Power:§!\n§G+1.0§! Army Tradition\n§G+10%§! Land Morale\n§G-0.02§! War Exhaustion"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_blood_knights: "§YMonthly Influence Gain:§!\nUp to §G0.1%§! at §Y100§! Army Tradition\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_blood_knights: ""
+ 
+ #----------------------------------------
+ # Cliques - Naga
+ #----------------------------------------
+ # Warlords
+ clique_banner_warlords_title: "Warlords"
+ clique_influence_text_warlords: "[Root.current_clique_influence__warlords.GetValue]%"
+ clique_description_warlords: "In the service of Queen Azshara, the naga warlords often act as commanders of naga forces."
+ CLIQUE_ICON_HOVER_TOOLTIP_warlords: "§YName:§!\nWarlords\n\n§YBenefits when in Power:§!\n§G-2%§! Army Tradition Decay\n§G+10%§! Infantry Power\n§G+10%§! Siege Ability"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_warlords: "§YMonthly Influence Gain:§!\nUp to §G0.1%§! at §Y100§! Army Tradition\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_warlords: ""
+ 
+ # Mistresses
+ clique_banner_mistresses_title: "Mistresses"
+ clique_influence_text_mistresses: "[Root.current_clique_influence__mistresses.GetValue]%"
+ clique_description_mistresses: "Bestowed with an affinity for the arcane, naga mistresses utilise their spellcasting ability in numerous ways."
+ CLIQUE_ICON_HOVER_TOOLTIP_mistresses: "§YName:§!\nMistresses\n\n§YBenefits when in Power:§!\n§G-15%§! Advisor Cost\n§G-15%§! Province Warscore Cost\n§G-5%§! Aggressive Expansion Impact"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_mistresses: "§YMonthly Influence Gain:§!\n§G0.1%§! whilst at Peace\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_mistresses: ""
+ 
+ # Harbingers
+ clique_banner_harbingers_title: "Harbingers"
+ clique_influence_text_harbingers: "[Root.current_clique_influence__harbingers.GetValue]%"
+ clique_description_harbingers: "Although Queen Azshara has nominal freedom, her true master N'Zoth is always present, and when it suits, will assist in a manner of his choosing."
+ CLIQUE_ICON_HOVER_TOOLTIP_harbingers: "§YName:§!\nHarbingers\n\n§YBenefits when in Power:§!\n§G-10%§! All Power Cost\n§G-25%§! Expand Administration Cost\n§R+0.05§! Corruption"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_harbingers: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_harbingers: ""
+ 
+ #----------------------------------------
+ # Cliques - Gorian Empire
+ #----------------------------------------
+ # Sorcerers
+ clique_banner_sorcerers_title: "High Sorcerers"
+ clique_influence_text_sorcerers: "[Root.current_clique_influence__sorcerers.GetValue]%"
+ clique_description_sorcerers: "A council comprising of the brightest minds in the empire shall be tasked with enlightening our dim-witted peers."
+ CLIQUE_ICON_HOVER_TOOLTIP_sorcerers: "§YName:§!\nHigh Sorcerers\n\n§YBenefits when in Power:§!\n§G-20%§! Administrative Advisor Cost\n§G-20%§! Leader Cost\n§G-5%§! All Power Cost"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_sorcerers: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_sorcerers: ""
+ 
+ # Stone Magi
+ clique_banner_stone_magi_title: "Stone Magi"
+ clique_influence_text_stone_magi: "[Root.current_clique_influence__stone_magi.GetValue]%"
+ clique_description_stone_magi: "These Magi specialize in harnessing the power of Stone, attuning us to our Forger creators."
+ CLIQUE_ICON_HOVER_TOOLTIP_stone_magi: "§YName:§!\nStone Magi\n\n§YBenefits when in Power:§!\n§G-20%§! Build Cost\n§G-20%§! Build Time\n§G+20%§! Production Efficiency"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_stone_magi: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_stone_magi: ""
+ 
+ # Magic Breakers
+ clique_banner_magic_breakers_title: "Magic Breakers"
+ clique_influence_text_magic_breakers: "[Root.current_clique_influence__magic_breakers.GetValue]%"
+ clique_description_magic_breakers: "Magic breakers are molded through an extremely dangerous process, making them almost immune to magic. They shall serve as our frontline in war, and as enforcers of our leader's absolute power."
+ CLIQUE_ICON_HOVER_TOOLTIP_magic_breakers: "§YName:§!\nMagic Breakers\n\n§YBenefits when in Power:§!\n§G+20§! Max Absolutism\n§G+1§! Land Leader Siege\n§G-15%§! Fire Damage Received"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_magic_breakers: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_magic_breakers: ""
+ 
+ #----------------------------------------
+ # Cliques - Criminal Organisation
+ #----------------------------------------
+ # Bandits
+ clique_banner_bandits_title: "Bandits"
+ clique_influence_text_bandits: "[Root.current_clique_influence__bandits.GetValue]%"
+ clique_description_bandits: "Bandits can mean a lot of things, being raiders from foreign lands or highwaymen who rob and steal on less protected roads. Bandits usually are violent, and have no qualms going toe to toe with our own soldiers, and hiring them out could provide us with a lot of mutual benefits."
+ CLIQUE_ICON_HOVER_TOOLTIP_bandits: "§YName:§!\nBandits\n\n§YBenefits when in Power:§!\n§G-20%§! Mercenary Maintenance Cost\n§G-25%§! Global Regiment Recruitment Speed\n§G-10%§! Land Maintenance Cost"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_bandits: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_bandits: ""
+ 
+ # Thieves
+ clique_banner_thieves_title: "Thieves"
+ clique_influence_text_thieves: "[Root.current_clique_influence__thieves.GetValue]%"
+ clique_description_thieves: "Thieves guilds and rogue organizations usually are subtle cancers on larger cities and communities, organizing their efforts to rob or even assassinate people. Giving them some tolerance will personally enrich us, at the cost of our citizenry."
+ CLIQUE_ICON_HOVER_TOOLTIP_thieves: "§YName:§!\nThieves\n\n§YBenefits when in Power:§!\n§G+20%§! Global Tax Modifier\n§G+100%§! Rebel Support Efficiency\n§G-50%§! Discovered Relations Impact"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_thieves: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_thieves: ""
+ 
+ # Cartels
+ clique_banner_cartels_title: "Cartels"
+ clique_influence_text_cartels: "[Root.current_clique_influence__cartels.GetValue]%"
+ clique_description_cartels: "Cartels are large and vague criminal organizations associated with goblins whose main focus mostly profit from corruption. Whether it be drug production, illegal resource harvesting, or even slave trading, the Cartels promise big rewards for our loyalty."
+ CLIQUE_ICON_HOVER_TOOLTIP_cartels: "§YName:§!\nCartels\n\n§YBenefits when in Power:§!\n§G-15%§! Advisor Cost\n§G+10%§! Global Trade Goods Size Modifier\n§G+10%§! Global Trade Power"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_cartels: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_cartels: ""
+ 
+ #----------------------------------------
+ # Cliques - Kul Tiras
+ #----------------------------------------
+ # House Proudmoore
+ clique_banner_proudmoore_title: "House Proudmoore"
+ clique_influence_text_proudmoore: "[Root.current_clique_influence__proudmoore.GetValue]%"
+ clique_description_proudmoore: "House Proudmoore is one of four noble houses that rule Kul Tiras. Masters of the sea and commanders of Azeroth's finest navy, the distinguished Proudmoore family has led Kul Tiras for decades from their seat of power in Boralus. Their seat is Proudmoore Keep, located in the city of Boralus."
+ CLIQUE_ICON_HOVER_TOOLTIP_proudmoore: "§YName:§!\nHouse Proudmoore\n\n§YBenefits when in Power:§!\nCan construct Tirasian Heavy Ships\n§G+25%§! Allowed Tirasian Heavy Ship Fraction\n§G+25%§! Naval Forcelimit Modifier\n§G-10%§! Naval Maintenance Cost"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_proudmoore: "§YMonthly Influence Gain:§!\n§G0.05%§! per Positive Stability\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_proudmoore: ""
+ 
+ # House Stormsong
+ clique_banner_stormsong_title: "House Stormsong"
+ clique_influence_text_stormsong: "[Root.current_clique_influence__stormsong.GetValue]%"
+ clique_description_stormsong: "House Stormsong is one of the four noble houses that rule Kul Tiras. Their seat is the Shrine of the Storm, in the region of Stormsong Valley. The Tidesages serve House Stormsong, who in turn look to the Tidemother for guidance, as do all inhabitants of Kul Tiras."
+ CLIQUE_ICON_HOVER_TOOLTIP_stormsong: "§YName:§!\nHouse Stormsong\n\n§YBenefits when in Power:§!\n§G+2§! Missionaries\n§G-25%§! Naval Attrition\n§G+2§! Naval Leader Maneuver"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_stormsong: "§YMonthly Influence Gain:§!\nUp to §G0.1%§! at §Y100§! Navy Tradition\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_stormsong: ""
+ 
+ # House Ashvane
+ clique_banner_ashvane_title: "House Ashvane"
+ clique_influence_text_ashvane: "[Root.current_clique_influence__ashvane.GetValue]%"
+ clique_description_ashvane: "House Ashvane is one of the four ruling houses of Kul Tiras. They also control the Ashvane Trading Company. They are known for resource extraction and industrial capacity. They are apt to support the other Houses, but only as long as they profit in some way."
+ CLIQUE_ICON_HOVER_TOOLTIP_ashvane: "§YName:§!\nHouse Ashvane\n\n§YBenefits when in Power:§!\n§G+15%§! Production Efficiency\n§G-15%§! Build Cost\n§G-15%§! Build Time"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_ashvane: "§YMonthly Influence Gain:§!\n§G0.05%§! per Negative Stability\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_ashvane: ""
+ 
+ # House Waycrest
+ clique_banner_waycrest_title: "House Waycrest"
+ clique_influence_text_waycrest: "[Root.current_clique_influence__waycrest.GetValue]%"
+ clique_description_waycrest: "House Waycrest is one of four noble houses that rule Kul Tiras. Their seat is the Waycrest Manor, in the region of Drustvar. Before their establishment as a House, the Waycrest family led the war against the Drust when humans first settled Kul Tiras thousands of years ago."
+ CLIQUE_ICON_HOVER_TOOLTIP_waycrest: "§YName:§!\nHouse Waycrest\n\n§YBenefits when in Power:§!\n§G+10%§! Infantry Power\n§G-20%§! Global Regiment Cost\n§G-10%§! Land Maintenance Cost"
+ CLIQUE_INFLUENCE_HOVER_TOOLTIP_waycrest: "§YMonthly Influence Gain:§!\nNone\n\n§YMonthly Influence Loss:§!\nNone"
+ CLIQUE_DESC_HOVER_TOOLTIP_waycrest: ""
+ 
+ #----------------------------------------
+ # Clique Boost
+ #----------------------------------------
+ NOT_USED_CLIQUE_BOOST__merchant_republic: "Has not influenced the §YAristocrats§!, §YTraders§! or §YGuilds§! recently."
+ NOT_USED_CLIQUE_BOOST__pirate_republic: "Has not influenced the §YBuccaneers§!, §YSmugglers§! or §YCaptains§! recently."
+ NOT_USED_CLIQUE_BOOST__scourge: "Has not influenced the §YDeath Knights§!, §YLiches§! or §YDarkfallen§! recently."
+ NOT_USED_CLIQUE_BOOST__quelthalas: "Has not influenced the §YMagisters§!, §YFarstriders§! or §YBlood Knights§! recently."
+ NOT_USED_CLIQUE_BOOST__naga: "Has not influenced the §YWarlords§!, §YMistresses§! or §YHarbingers§! recently."
+ NOT_USED_CLIQUE_BOOST__gorian_empire: "Has not influenced the §YHigh Sorcerers§!, §YStone Magi§! or §YMagic Breakers§! recently."
+ NOT_USED_CLIQUE_BOOST__criminal_organisation: "Has not influenced the §YBandits§!, §YThieves§! or §YCartels§! recently."
+ NOT_USED_CLIQUE_BOOST__kul_tiras: "Has not influenced §YHouse Proudmoore§!, §YHouse Stormsong§!, §YHouse Ashvane§! or §YHouse Waycrest§! recently."
+ 
+ clique_boost_aristocrats: "Aristocrat Influence"
+ desc_clique_boost_aristocrats: ""
+ clique_boost_traders: "Trader Influence"
+ desc_clique_boost_traders: ""
+ clique_boost_guilds: "Guild Influence"
+ desc_clique_boost_guilds: ""
+ 
+ clique_boost_buccaneers: "Buccaneer Influence"
+ desc_clique_boost_buccaneers: ""
+ clique_boost_smugglers: "Smuggler Influence"
+ desc_clique_boost_smugglers: ""
+ clique_boost_captains: "Captain Influence"
+ desc_clique_boost_captains: ""
+ 
+ clique_boost_death_knights: "Death Knight Influence"
+ desc_clique_boost_death_knights: ""
+ clique_boost_lichs: "Lich Influence"
+ desc_clique_boost_lichs: ""
+ clique_boost_darkfallen: "Darkfallen Influence"
+ desc_clique_boost_darkfallen: ""
+ 
+ clique_boost_magisters: "Magister Influence"
+ desc_clique_boost_magisters: ""
+ clique_boost_farstriders: "Farstrider Influence"
+ desc_clique_boost_farstriders: ""
+ clique_boost_blood_knights: "Blood Knight Influence"
+ desc_clique_boost_blood_knights: ""
+ 
+ clique_boost_warlords: "Warlord Influence"
+ desc_clique_boost_warlords: ""
+ clique_boost_mistresses: "Mistress Influence"
+ desc_clique_boost_mistresses: ""
+ clique_boost_harbingers: "Harbinger Influence"
+ desc_clique_boost_harbingers: ""
+ 
+ clique_boost_sorcerers: "Sorcerer Influence"
+ desc_clique_boost_sorcerers: ""
+ clique_boost_stone_magi: "Stone Magi Influence"
+ desc_clique_boost_stone_magi: ""
+ clique_boost_magic_breakers: "Magic-Breaker Influence"
+ desc_clique_boost_magic_breakers: ""
+ 
+ clique_boost_bandits: "Bandit Influence"
+ desc_clique_boost_bandits: ""
+ clique_boost_thieves: "Thief Influence"
+ desc_clique_boost_thieves: ""
+ clique_boost_cartels: "Cartel Influence"
+ desc_clique_boost_cartels: ""
+ 
+ clique_boost_proudmoore: "House Proudmoore Influence"
+ desc_clique_boost_proudmoore: ""
+ clique_boost_stormsong: "House Stormsong Influence"
+ desc_clique_boost_stormsong: ""
+ clique_boost_ashvane: "House Ashvane Influence"
+ desc_clique_boost_ashvane: ""
+ clique_boost_waycrest: "House Waycrest Influence"
+ desc_clique_boost_waycrest: ""

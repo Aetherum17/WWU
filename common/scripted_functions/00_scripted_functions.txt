@@ -238,18 +238,18 @@ can_colonize_province = {
 	# }
     
     # Block AI Scourge from colonisation
-	condition = {
-		tooltip = "WOW_UNCIVILIZED"
-		potential = {
-			FROM = {
-                ai = yes
-                technology_group = tech_scourge
-            }
-		}
-		allow = {
-			always = no
-		}
-	}
+	# condition = {
+		#tooltip = "WOW_UNCIVILIZED"
+		#potential = {
+			#FROM = {
+                #ai = yes
+                #technology_group = tech_scourge
+            #}
+		#}
+		#allow = {
+			#always = no
+		#}
+	#}
     
     # Block Argus nations colonising through the rift
     condition = {
@@ -277,6 +277,65 @@ can_colonize_province = {
 			FROM = {
                 has_global_flag = setup_outland
             }
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block nations from colonizing Frozen Throne area
+	condition = {
+		tooltip = "WOW_UNCOLONIZABLE"
+
+		potential = {
+			region = region_icecrown
+			NOT = { culture = culture_scourge }
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block nation from colonizing Dark Portal: Azeroth before Draenor events
+	condition = {
+		tooltip = "WOW_UNCOLONIZABLE"
+
+		potential = {
+			province_id = 1035
+			FROM = {
+				capital_scope = {
+					NOT = { superregion = superregion_draenor }
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block Nazjatar from colonizing before Frozen Throne
+	condition = {
+		tooltip = "WOW_COLONIZATION_BLOCK_NAZJATAR"
+
+		potential = {
+			culture = culture_nazja
+			ai = yes
+			OR = {
+				current_age = age_rise_of_the_horde
+				current_age = age_frozen_throne
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block nation from colonizing Dalaran:Crystalsong before Wrath
+	condition = {
+		tooltip = "WOW_UNCOLONIZABLE"
+
+		potential = {
+			area = area_dalaran_cs
 		}
 		allow = {
 			always = no
@@ -372,6 +431,65 @@ can_colonize_province_siberian_frontier = {
 			FROM = {
                 has_global_flag = setup_outland
             }
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block nations from colonizing Frozen Throne area
+	condition = {
+		tooltip = "WOW_UNCOLONIZABLE"
+
+		potential = {
+			area = area_icecrown_interior
+			NOT = { culture = culture_scourge }
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block nation from colonizing Dark Portal: Azeroth before Draenor events
+	condition = {
+		tooltip = "WOW_UNCOLONIZABLE"
+
+		potential = {
+			province_id = 1035
+			FROM = {
+				capital_scope = {
+					NOT = { superregion = superregion_draenor }
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block Nazjatar from colonizing before Frozen Throne
+	condition = {
+		tooltip = "WOW_COLONIZATION_BLOCK_NAZJATAR"
+
+		potential = {
+			culture = culture_nazja
+			ai = yes
+			OR = {
+				current_age = age_rise_of_the_horde
+				current_age = age_frozen_throne
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+
+	# Block nation from colonizing Dalaran:Crystalsong before Wrath
+	condition = {
+		tooltip = "WOW_UNCOLONIZABLE"
+
+		potential = {
+			area = area_dalaran_cs
 		}
 		allow = {
 			always = no

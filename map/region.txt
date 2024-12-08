@@ -7,6 +7,8 @@ region_isle_of_quel_danas = {
     areas = {
         area_upper_quel_danas
         area_lower_quel_danas
+		area_dawnstar
+		area_sunwell_plateau
     }
 }
 
@@ -19,6 +21,11 @@ region_eversong_woods = {
         area_fairbreeze_village
         area_east_sanctum
         area_zeb_watha
+		area_west_silvermoon
+		area_north_sanctum
+		area_goldenbough
+		area_blossoming_grove
+        area_farstrider_retreat		
     }
 }
 
@@ -31,6 +38,10 @@ region_ghostlands = {
         area_amani_catacombs
         area_thalassian_pass
         area_sanctum_of_the_moon
+		area_goldenmist
+		area_thasalah
+		area_dead_scar
+		area_zebnova
     }
 }
 
@@ -41,6 +52,7 @@ region_zulaman = {
         area_tuskcross
         area_ula_tek
         area_zultila
+		area_torwatha
     }
 }
 
@@ -136,7 +148,6 @@ region_tol_barad = {
         area_farson_hold
         area_the_restless_front
         area_baradin_hold
-		area_zul_dare
     }
 }
 
@@ -162,6 +173,7 @@ region_kul_tiras = {
 		area_marine_stand
 		area_clearcut
 		area_shrine_of_the_storm
+        area_zul_dare
     }
 }
 
@@ -517,6 +529,8 @@ region_azshara = {
 		area_bay_of_storms
 		area_azshara_crater
 		area_southridge
+		area_nendis
+		area_nendis_woods
     }
 }
 
@@ -612,9 +626,11 @@ region_dustwallow_marsh = {
         area_theramore_isle
         area_dreadmurk_coast
         area_blackhoof_marshes
+		area_stonemaul_camp
         area_alcaz_isle
         area_wrymbog_coast
         area_mudsprocket
+		area_dustwallow_marshes
     }
 }
 
@@ -1799,6 +1815,81 @@ region_maw = {
 }
 
 #-------------------
+# Khaz Algar
+#-------------------
+region_isle_of_dorn = {
+    areas = {
+        area_dornogal
+        area_storms_watch
+        area_dhar_oztan
+        area_coursing_strand
+        area_freywold
+        area_opalcreg
+        area_boskroot_basin
+        area_boulder_springs
+        area_proscenium
+        area_ironwold
+        area_cinderwold
+        area_kriegvals_rest
+        area_rambleshire
+        area_the_three_shields
+        area_thul_medran
+    }
+}
+region_ringing_deeps = {
+    areas = {
+        area_gundargaz
+        area_stone_vault
+        area_waterworks
+        area_darkflame_cleft
+        area_the_warrens
+        area_shadowvein_point
+        area_dread_pit
+        area_taelloch
+        area_deepforge_golemworks
+        area_living_grotto
+        area_verdant_flow
+    }
+}
+region_hallowfall = {
+    areas = {
+        area_dunelles_kindness
+        area_the_fangs
+        area_aegis_wall
+        area_stagnant_mire
+        area_lightspark
+        area_mereldar
+        area_veneration_grounds
+        area_the_sinkhole
+        area_lights_redoubt
+        area_priory_of_the_sacred_flame
+        area_lorels_crossing
+        area_east_blooming
+        area_west_blooming
+        area_mycomancer_hollow
+        area_sunless_strand
+        area_velhans_claim
+    }
+}
+region_azj_kahet = {
+    areas = {
+        area_the_harrowing_depths
+        area_wildcamp_orlay
+        area_weavers_lair
+        area_wildcamp_ular
+        area_maddening_deep
+        area_the_wormlands
+        area_siegehold
+        area_faerins_advance
+        area_rak_zakaz
+        area_rak_ahat
+        area_rak_ush
+        area_city_of_threads
+        area_nerub_ar_palace
+    }
+}
+
+#-------------------
 # Sea
 #-------------------
 region_eastern_kingdom_seas = {
@@ -1880,6 +1971,13 @@ region_draenor_seas = {
 region_draconic_seas = {
 	areas = {
 		area_draconic_seas
+	}
+}
+
+
+region_khaz_algar_seas = {
+	areas = {
+		area_khaz_algar_seas
 	}
 }
 

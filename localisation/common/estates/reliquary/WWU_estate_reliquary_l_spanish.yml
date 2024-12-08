@@ -24,7 +24,7 @@
  estate_reliquary_support_local_digsites: "Support Local Digsites"
  estate_reliquary_support_local_digsites_desc: "A local digsite could benefit from our support. Let us lend it and speed up their progress."
  
- BOOST_EXCAVATION_DIG_PROGRESS_EFFECTS: "Reduces the required Dig Progress for a successful Archaeological Expedition by §Y2§!."
+ BOOST_EXCAVATION_DIG_PROGRESS_EFFECTS: "Increases the speed of progress during an Archaeological Dig."
  
  estate_reliquary_exception: "Exempt the Reliquary"
  estate_reliquary_exception_desc: "We will exempt this estate during our land seizes."

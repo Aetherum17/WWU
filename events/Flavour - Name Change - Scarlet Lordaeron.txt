@@ -1,0 +1,27 @@
+namespace = wwu_flavour_scarlet_lordaeron
+
+# Pick a name for Scarlet Lordaeron
+country_event = {
+	id = wwu_flavour_scarlet_lordaeron.1
+	title = wwu_flavour_scarlet_lordaeron.1.title
+	desc = wwu_flavour_scarlet_lordaeron.1.desc
+	picture = ABBENDIS_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_scarlet_lordaeron.1.a
+		override_country_name = SCARLET_LORDAERON
+		ai_chance = {		
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_scarlet_lordaeron.1.b
+		override_country_name = SCARLET_NORTHLANDS
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

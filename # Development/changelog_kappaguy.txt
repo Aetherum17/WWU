@@ -1,25 +1,18 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
-# History
-- Rastakhan Zandalar received the Greatest Blessing which extends his life to 250 years. It's just over 100 years since the first bookmark.
 
-- Added a warning to the provinces about the appearance of countries wanting to declare war on the colonizer on Zandalar.
 
-# Events
-- Once a new ruler of Zandalar is chosen, loa blessings are available to choose from, extending lives to 150, 200, or 250 years.
 
-- After selecting the option to take away the Thunderking's power in the "Lei Shen's Body" event, the ruler of Zandalar becomes truly immortal, thus removing the lifespan limit set by the blessing.
 
-# Missions
-- The Zandalar mission, Empire of the gold, now gives +1 local goods size and gold depletion chance -15% for each use of expand infrastructure up to a maximum of level 3. Additionally, there is an optional option to spawn a third gold mine in Zandalar
 
-# Balance
-- Disaster Cataclysm now gives 75 devastation instead of 90 and 25 autonomy instead of 75.
 
-- The Power of Gold idea now gives -25% gold depletion chance instead of -50%
 
-# Bugfixes
-- After the naga and pirate invasion of Zandalar, the province that was initially colonized ceases to be a colony and becomes a full province
 
-- Events in Rise of Zandalar can be completed, which unlocks the rest of the story.
+
+
+
+
+#----------------------------------------------------------------------------
+# TODO
+#----------------------------------------------------------------------------

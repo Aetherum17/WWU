@@ -136,9 +136,8 @@ H04_cen_mar_column_1 = {
 
         trigger = {
             B20 = {
-                is_subject = yes
                 is_subject_of = ROOT
-                NOT = { liberty_desire = 30 }
+                NOT = { liberty_desire = 25 }
             }
         }
 
@@ -158,10 +157,19 @@ H04_cen_mar_column_1 = {
 
         trigger = {
             B20 = {
-                NOT = { liberty_desire = 5 }
-                has_opinion = {
-                    who = ROOT
-                    value = 175
+                OR = {
+                    AND = {
+                        NOT = { liberty_desire = 5 }
+                        has_opinion = {
+                            who = ROOT
+                            value = 200
+                        }
+                        trust = {
+                            who = B20
+                            value = 75
+                        }
+                    }
+                    NOT = { exists = B20 }
                 }
             }
         }
@@ -171,11 +179,12 @@ H04_cen_mar_column_1 = {
 
             add_dip_power = 100
             add_prestige = 10
+
             define_general = {
                 shock = 4
-                fire = 4
-                manuever = 6
-                siege = 2
+                fire = 3
+                manuever = 5
+                siege = 1
                 name = "Skycaller Vrakthris"
                 trait = enforcer_personality
             }
@@ -212,7 +221,7 @@ H04_cen_mar_column_2 = {
         effect = {
             add_country_modifier = {
                 name = mission_trial_by_blood
-                duration = 10950
+                duration = 5475
             }
         }
     }
@@ -231,7 +240,7 @@ H04_cen_mar_column_2 = {
             add_mil_power = 50
             add_country_modifier = {
                 name = mission_relentless_horde
-                duration = 7300
+                duration = 3650
             }
         }
     }
@@ -243,10 +252,7 @@ H04_cen_mar_column_2 = {
         required_missions = { H04_the_relentless_horde }
 
         trigger = {
-            has_global_modifier_value = {
-                which = cavalry_power
-                value = 0.75
-            }
+            grown_by_states = 25
         }
 
         effect = {
@@ -266,6 +272,7 @@ H04_cen_mar_column_2 = {
 
         trigger = {
             has_country_flag = primary_artifact_apocalypse
+
             army_size = 40
             cavalry_fraction = 0.5
         }
@@ -323,7 +330,7 @@ H04_cen_mar_column_3 = {
                 add_claim = ROOT
             }
 
-            area_southfury_river = {
+            area_the_sludge_fen = {
                 add_claim = ROOT
             }
 
@@ -351,12 +358,21 @@ H04_cen_mar_column_3 = {
         required_missions = { H04_quillboar_agression }
 
         trigger = {
-            war_with = B69
-            area_the_sludge_fen = {
+            OR = {
+                AND = {
+                    war_score_against = {
+                        who = B69
+                        value = 80
+                    }
+                    war_with = B69
+                }
+                NOT = { exists = B69 }
+            }
+            area_southfury_river = {
                 type = all
                 controlled_by = ROOT
             }
-            area_southfury_river = {
+            area_the_sludge_fen = {
                 type = all
                 controlled_by = ROOT
             }
@@ -373,8 +389,8 @@ H04_cen_mar_column_3 = {
 
         provinces_to_highlight = {
             OR = {
-                area = area_the_sludge_fen
                 area = area_southfury_river
+                area = area_the_sludge_fen
                 province_id = 2288
                 province_id = 3469
                 province_id = 1379
@@ -383,29 +399,9 @@ H04_cen_mar_column_3 = {
 
         effect = {
             add_prestige = 20
-            area_the_sludge_fen = {
-                add_core = ROOT
-                cede_province = ROOT
-            }
-            area_southfury_river = {
-                add_core = ROOT
-                cede_province = ROOT
-            }
-            2288 = {
-                add_core = ROOT
-                cede_province = ROOT
-            }
-            3469 = {
-                add_core = ROOT
-                cede_province = ROOT
-            }
-            1379 = {
-                add_core = ROOT
-                cede_province = ROOT
-            }
 
             region_durotar = {
-                add_claim = ROOT
+                add_permanent_claim = ROOT
             }
         }
     }
@@ -467,6 +463,12 @@ H04_cen_mar_column_3 = {
                 1377 = {
                     owned_by = ROOT
                 }
+                3412 = {
+                    owned_by = ROOT
+                }
+                1474 = {
+                    owned_by = ROOT
+                }
             }
         }
 
@@ -474,12 +476,14 @@ H04_cen_mar_column_3 = {
             OR = {
                 province_id = 1445
                 province_id = 1377
+                province_id = 3412
+                province_id = 1474
             }
         }
 
         effect = {
             region_mulgore = {
-                add_permanent_claim = ROOT
+                add_claim = ROOT
             }
         }
     }
@@ -493,8 +497,7 @@ H04_cen_mar_column_3 = {
         trigger = {
             region_mulgore = {
                 type = all
-                religion = ROOT
-                NOT = { culture = culture_tauren }
+                owned_by = ROOT
             }
         }
 
@@ -503,8 +506,10 @@ H04_cen_mar_column_3 = {
         }
 
         effect = {
-            add_mil_power = 200
-            add_prestige = 10
+            add_prestige_or_monarch_power = {
+                amount = 25
+            }
+            add_army_tradition = 10
             add_splendor = 800
         }
     }
@@ -552,7 +557,6 @@ H04_cen_mar_column_3 = {
             add_prestige_or_monarch_power = {
                 amount = 50
             }
-            add_adm_power = 200
 
             add_country_modifier = {
                 name = mission_great_tauren_hunt
@@ -595,11 +599,6 @@ H04_cen_mar_column_4 = {
             add_mil_power = 100
 
             add_country_modifier = {
-                name = mission_raiding_parties
-                duration = -1
-            }
-
-            add_country_modifier = {
                 name = allow_siberian_frontier_20Y
                 duration = 7300
             }
@@ -616,14 +615,6 @@ H04_cen_mar_column_4 = {
             any_country = {
                 defensive_war_with = ROOT
                 primary_culture = culture_tauren
-            }
-        }
-
-        provinces_to_highlight = {
-            OR = {
-                region = region_north_barrens
-                region = region_south_barrens
-                region = region_stonetalon_mountains
             }
         }
 
@@ -776,6 +767,10 @@ H04_cen_mar_column_4 = {
                 has_fort_building_trigger = yes
                 base_manpower = 3
             }
+            1372 = {
+                has_fort_building_trigger = yes
+                base_manpower = 3
+            }
         }
 
         provinces_to_highlight = {
@@ -787,6 +782,7 @@ H04_cen_mar_column_4 = {
                 province_id = 3475
                 province_id = 1439
                 province_id = 2282
+                province_id = 1372
             }
         }
 
@@ -806,7 +802,7 @@ H04_cen_mar_column_4 = {
 
         trigger = {
             prestige = 90
-            horde_unity = 100
+            horde_unity = 90
         }
 
         effect = {
@@ -855,45 +851,66 @@ H04_cen_mar_column_4 = {
         required_missions = { H04_reclaim_desolace }
 
         trigger = {
-            KRK = {
+            KRK = { 
                 OR = {
-                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { liberty_desire = 10 }
+                        is_subject_of = ROOT
+                    }
                     NOT = { exists = KRK }
                 }
             }
-            SET = {
+            SET = { 
                 OR = {
-                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { liberty_desire = 10 }
+                        is_subject_of = ROOT
+                    }
                     NOT = { exists = SET }
                 }
             }
-            B20 = {
+            B20 = { 
                 OR = {
-                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { liberty_desire = 10 }
+                        is_subject_of = ROOT
+                    }
                     NOT = { exists = B20 }
                 }
             }
-            B24 = {
+            B24 = { 
                 OR = {
-                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { liberty_desire = 10 }
+                        is_subject_of = ROOT
+                    }
                     NOT = { exists = B24 }
                 }
             }
-            B22 = {
+            B22 = { 
                 OR = {
-                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { liberty_desire = 10 }
+                        is_subject_of = ROOT
+                    }
                     NOT = { exists = B22 }
                 }
             }
-            B21 = {
+            B21 = { 
                 OR = {
-                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { liberty_desire = 10 }
+                        is_subject_of = ROOT
+                    }
                     NOT = { exists = B21 }
                 }
             }
-            B23 = {
+            B23 = { 
                 OR = {
-                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { liberty_desire = 10 }
+                        is_subject_of = ROOT
+                    }
                     NOT = { exists = B23 }
                 }
             }
@@ -1103,8 +1120,11 @@ H04_cen_mar_column_5 = {
         }
 
         effect = {
-            region_stonetalon_mountains = {
-                add_permanent_claim = ROOT
+            area_malaka_jin = {
+                add_claim = ROOT
+            }
+            area_webwinder_path = {
+                add_claim = ROOT
             }
 
             if = {
@@ -1149,10 +1169,10 @@ H04_cen_mar_column_5 = {
 
         effect = {
             area_windshear_crag = {
-                add_core = ROOT
+                add_claim = ROOT
             }
             area_mirkfallon_lake = {
-                add_core = ROOT
+                add_claim = ROOT
             }
 
             add_manpower = 10
@@ -1181,7 +1201,7 @@ H04_cen_mar_column_5 = {
 
             add_country_modifier = {
                 name = mission_rule_stonetalon
-                duration = 10950
+                duration = 9125
             }
 
             add_country_modifier = {
@@ -1217,6 +1237,10 @@ H04_cen_mar_column_5 = {
                 has_fort_building_trigger = yes
                 base_manpower = 5
             }
+            1386 = {
+                has_fort_building_trigger = yes
+                base_manpower = 5
+            }
         }
 
         provinces_to_highlight = {
@@ -1224,6 +1248,7 @@ H04_cen_mar_column_5 = {
                 province_id = 2277
                 province_id = 3635
                 province_id = 3644
+                province_id = 1386
             }
         }
 
@@ -1241,6 +1266,12 @@ H04_cen_mar_column_5 = {
                 }
             }
             3644 = {
+                add_province_modifier = {
+                    name = fortification_stonetalon
+                    duration = -1
+                }
+            }
+            1386 = {
                 add_province_modifier = {
                     name = fortification_stonetalon
                     duration = -1
@@ -1316,7 +1347,7 @@ H04_cen_mar_column_5 = {
             add_mil_power = 250
 
             kalimdor_superregion = {
-                add_permanent_claim = ROOT
+                add_claim = ROOT
             }
         }
     }

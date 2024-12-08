@@ -6,33 +6,46 @@
  A41_blackrock_column_4: ""
  A41_blackrock_column_5: ""
  
- A41_blackrock_messenger_from_nerzhul_title: "Messenger from Ner'zhul"
- A41_blackrock_messenger_from_nerzhul_desc: ""
- 
- A41_blackrock_acceptance_of_warlocks_title: "Acceptance of Warlocks"
- A41_blackrock_acceptance_of_warlocks_desc: ""
- 
- A41_blackrock_consume_blood_of_mannoroth_title: "Blood of Mannoroth"
- A41_blackrock_consume_blood_of_mannoroth_desc: ""
- 
- A41_blackrock_oust_the_warlocks_title: "Oust the Warlocks"
- A41_blackrock_oust_the_warlocks_desc: ""
- 
- A41_blackrock_crush_the_draenei_title: "Crush the Draenei"
- A41_blackrock_crush_the_draenei_desc: ""
- 
- A41_blackrock_secure_the_foundry_title: "Secure the Foundry"
- A41_blackrock_secure_the_foundry_desc: ""
- 
- A41_blackrock_expand_foundry_output_title: "Expand Foundry Output"
- A41_blackrock_expand_foundry_output_desc: ""
- 
+ # Column 1
+
+ # Column 2
+
+ # Column 3
+
  A41_blackrock_claim_mantle_of_warchief_title: "Claim the Mantle of Warchief"
  A41_blackrock_claim_mantle_of_warchief_desc: ""
+
+ # Column 4
+
+ # Column 5
+
+ A41_blackrock_set_foundry_fires_title: "The Fires of the Foundry"
+ A41_blackrock_set_foundry_fires_desc: ""
+ 
+ A41_blackrock_flames_of_the_foundry_title: "Flame of the Foundry"
+ A41_blackrock_flames_of_the_foundry_desc: ""
+
+ A41_expand_the_blackrock_forges_title: "Expansion of Blackrock Forges"
+ A41_expand_the_blackrock_forges_desc: ""
+
+ A41_perfect_the_foundry_title: "Perfecting the Foundry"
+ A41_perfect_the_foundry_desc: ""
+
+ A41_unleash_flames_of_industry_title: "Unleashed Flames of Industry"
+ A41_unleash_flames_of_industry_desc: ""
  
  # --- Modifiers ---
- mission_blackrock_munitions: "Blackrock Munitions"
- desc_mission_blackrock_munitions: ""
- 
- mission_efficient_foundry: "Efficient Foundry"
- desc_mission_efficient_foundry: ""
+ mission_blackrock_flames: "Blackrock Flames"
+ desc_mission_blackrock_flames: ""
+
+ mission_foundry_fortified: "Foundry Fortified"
+ desc_mission_foundry_fortified: ""
+
+ mission_blackrock_foundry_power: "Power of the Foundry"
+ desc_mission_blackrock_foundry_power: ""
+
+ mission_blackrock_influence: "Foundry Influence"
+ desc_mission_blackrock_influence: ""
+
+ mission_flames_of_industry: "Flames of Industry"
+ desc_mission_flames_of_industry: ""

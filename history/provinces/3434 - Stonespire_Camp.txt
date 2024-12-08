@@ -20,7 +20,7 @@ trade_goods = unknown
 	controller = F59
 	add_core = F59
     
-	culture = culture_ironforge
-	religion = holy_light
+	culture = culture_tauren
+    religion = tauren_shamanism
 }
 

@@ -1,0 +1,180 @@
+namespace = wwu_dragonflayer
+
+#Great Pillage of Gundrak
+country_event = {
+    id = wwu_dragonflayer.1
+    title = wwu_dragonflayer.1.title
+    desc = wwu_dragonflayer.1.desc
+    picture = ZULDRAK_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_dragonflayer.1.option.a
+
+        area_gundrak = {
+            add_base_tax = -1
+            add_base_production = -1
+            add_base_manpower = -1
+            add_devastation = 100
+        }
+        area_gundrak_raid = {
+            add_base_tax = -1
+            add_base_production = -1
+            add_base_manpower = -1
+            add_devastation = 100
+        }
+
+        add_treasury = 1000
+        add_adm_power = 200
+        add_dip_power = 200
+        add_mil_power = 200
+
+        area_utgarde_keep = {
+            add_base_tax = 2
+            add_base_production = 2
+            add_base_manpower = 2
+
+            add_province_modifier = {
+                name = event_B08_utgarde_prosperity
+                duration = 7300
+            }
+        }
+    }
+}
+
+#Secrets of Ulduar
+country_event = {
+    id = wwu_dragonflayer.2
+    title = wwu_dragonflayer.2.title
+    desc = wwu_dragonflayer.2.desc
+    picture = ULDUAR_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_dragonflayer.2.option.a
+
+        add_adm_power = -500
+        add_dip_power = -500
+        add_mil_power = -500
+        add_stability = -1
+
+        add_country_modifier = {
+            name = event_B08_ulduar_secreats_penalty
+            duration = 3650
+        }
+
+        add_country_modifier = {
+            name = event_B08_ulduar_secreats_titan
+            duration = -1
+        }
+
+        create_subject = {
+            subject_type = subjugated_vassal
+            subject = B73
+        }
+
+        B73 = {
+            change_religion = titan_worship
+            
+            define_ruler = {
+                name = "Hodir"
+                dynasty = "Frosthold"
+                age = 450
+                claim = 100
+                male = yes
+                culture = culture_ulduar
+                religion = titan_worship
+            }
+			change_adm = 3
+			change_dip = 2
+			change_mil = 2
+        }
+    }
+
+    option = {
+        name = wwu_dragonflayer.2.option.b
+
+        white_peace = B73
+        create_alliance = B73
+
+        add_historical_friend = B73
+
+        B73 = {
+            add_historical_friend = B08
+        }
+
+        change_religion = yogg_saron
+        change_primary_culture = culture_ulduar
+
+        if = {
+                limit = {
+                    NOT = { has_country_modifier = is_evil }
+                }
+                add_country_modifier = {
+                    name = is_evil
+                    duration = -1
+                }
+            }
+
+        add_country_modifier = {
+            name = event_B08_ulduar_secreats_conversion
+            duration = 7300
+        }
+
+        add_country_modifier = {
+            name = event_B08_ulduar_secreats_yogg
+            duration = -1
+        }
+    }
+}
+
+#Dragonflayer Submission
+country_event = {
+    id = wwu_dragonflayer.3
+    title = wwu_dragonflayer.3.title
+    desc = wwu_dragonflayer.3.desc
+    picture = ULDUAR_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_dragonflayer.3.option.a 
+
+        B08 = {
+            create_subject = {
+                subject_type = subjugated_vassal
+                subject = BLW
+            }
+        }
+
+        add_stability = 1
+        4104 = {
+            add_base_tax = 1
+            add_base_production = 1
+            add_base_manpower = 1
+        }
+    }
+
+    option = {
+        name = wwu_dragonflayer.3.option.b
+
+        add_prestige = 20
+        add_manpower = 5
+
+        B08 = {
+            add_prestige = -10
+
+            add_casus_belli = {
+                target = BLW
+                type = cb_vassalize_mission
+                months = 120
+            }
+
+            4104 = {
+                add_permanent_claim = B08
+            }
+        }
+    }
+}

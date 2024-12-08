@@ -496,9 +496,13 @@ allianceaction = {
 						}
 					}
 				}
-				# Elves - Trolls
+				# Alliance Core Races - Trolls
 				AND = {
 					OR = {
+						culture_group = culture_group_mecha_gnomish
+						culture_group = culture_group_gnomish
+						culture_group = culture_group_human
+						culture_group = culture_group_dwarven
 						culture_group = culture_group_thalassian
 						culture_group = culture_group_darnassian
 					}
@@ -532,6 +536,10 @@ allianceaction = {
 						OR = {
 							culture_group = culture_group_thalassian
 							culture_group = culture_group_darnassian
+							culture_group = culture_group_human
+							culture_group = culture_group_dwarven
+							culture_group = culture_group_gnomish
+							culture_group = culture_group_mecha_gnomish
 						}
 					}
 					NOT = {

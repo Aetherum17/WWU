@@ -1,0 +1,86 @@
+X04_new_lordaeron_column_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		tag = X04
+	}
+	X04_reconquest_of_andorhal = { 
+		icon = mission_camp_flag
+		position = 1
+		required_missions = {  } 
+		trigger = {
+			area_andorhal = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = X04_reconquest_of_andorhal_modifer
+				duration = 5475
+			}
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
+	X04_reconquest_of_stratholme = { 
+		icon = mission_stratholme_emblem
+		position = 2
+		required_missions = { X04_reconquest_of_andorhal } 
+		trigger = {
+			area_stratholme = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = X04_reconquest_of_stratholme_modifier
+				duration = 5475
+			}
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
+}
+
+X04_new_lordaeron_column_5 = {
+	slot = 5
+	generic = no
+	ai = no
+	has_country_shield = yes
+	potential = {
+		tag = X04
+	}
+	X04_new_lordaeron = { 
+		icon = mission_lordaeron_crown
+		position = 1
+		required_missions = { } 
+		trigger = {
+			NOT = {
+				exists = A08
+				exists = P14
+				exists = P52 
+				exists = P12
+				exists = A22
+			}
+			
+			is_subject = no
+		}
+		effect = {
+			add_prestige = 50
+			add_splendor = 800
+			
+			custom_tooltip = no_tooltip
+			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
+}
+

@@ -377,6 +377,9 @@
  
  cooldown_draconic_ties: ""
  desc_cooldown_draconic_ties: ""
+
+ seat_of_heresy: "Seat of Heresy"
+ desc_seat_of_heresy: ""
  
  #---------------------------------------
  # Opinion Modifiers

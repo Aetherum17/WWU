@@ -76,7 +76,15 @@ monarchy = {
                 wwu_military_mercenary_camps
                 wwu_military_professionalism
                 wwu_military_elitism
+
+                # Unique
                 wwu_military_knighthood
+                wwu_military_hyldanir_sisters
+                wwu_military_ymirheim_frostbreakers
+                wwu_military_jotunheim_raiders
+                wwu_military_utgarde_defensive_strategy
+                wwu_military_dragonflayer_dragon_riders
+                wwu_military_vrykul_hemomancers
 			}
 		}
         tier_monarchy_noble_rights = {
@@ -112,6 +120,7 @@ monarchy = {
                 wwu_naval_coastal_dominance
                 wwu_naval_invasion_deterrence
                 wwu_naval_elitism
+				wwu_thalassocracy
 			}
 		}
         tier_monarchy_time_for_change = {
@@ -349,6 +358,7 @@ republic = {
                 royal_cartel_reform
                 shadow_cartel_reform
                 trade_coalition_reform
+                expeditionary_force_reform
 			}
 		}
         tier_republic_labor_organisation = {
@@ -368,7 +378,15 @@ republic = {
                 wwu_military_mercenary_camps
                 wwu_military_professionalism
                 wwu_military_elitism
+
+                # Unique
                 wwu_military_knighthood
+                wwu_military_hyldanir_sisters
+                wwu_military_ymirheim_frostbreakers
+                wwu_military_jotunheim_raiders
+                wwu_military_utgarde_defensive_strategy
+                wwu_military_dragonflayer_dragon_riders
+                wwu_military_vrykul_hemomancers
 			}
 		}
         tier_republic_citizenship = {
@@ -408,6 +426,7 @@ republic = {
                 wwu_naval_coastal_dominance
                 wwu_naval_invasion_deterrence
                 wwu_naval_elitism
+				wwu_thalassocracy
 			}
 		}
         tier_republic_time_for_change = {
@@ -635,7 +654,7 @@ theocracy = {
                 shadow_cult_reform
                 cult_of_hakkar_reform
                 titan_facility_reform
-		blood_tribe_matriarchy_reform
+		        blood_tribe_matriarchy_reform
                 blood_matriarchy_reform
                 burning_legion_reform
                 soul_covenant_reform
@@ -649,6 +668,7 @@ theocracy = {
                 fallen_exarchate_reform
                 celestial_order_reform
                 the_perfect_ones_reform
+                ymirjar_order_reform
 			}
 		}
         tier_theocracy_labor_organisation = {
@@ -668,7 +688,15 @@ theocracy = {
                 wwu_military_mercenary_camps
                 wwu_military_professionalism
                 wwu_military_elitism
+
+                # Unique
                 wwu_military_knighthood
+                wwu_military_hyldanir_sisters
+                wwu_military_ymirheim_frostbreakers
+                wwu_military_jotunheim_raiders
+                wwu_military_utgarde_defensive_strategy
+                wwu_military_dragonflayer_dragon_riders
+                wwu_military_vrykul_hemomancers
 			}
 		}
         tier_theocracy_proselytism = {
@@ -703,6 +731,7 @@ theocracy = {
                 wwu_naval_coastal_dominance
                 wwu_naval_invasion_deterrence
                 wwu_naval_elitism
+				wwu_thalassocracy
 			}
 		}
         tier_theocracy_time_for_change = {
@@ -914,7 +943,6 @@ tribal = {
                 giant_tribe_reform
                 draenei_clan_reform
                 ancient_clan_reform
-                expeditionary_force_reform
                 criminal_organization_reform
                 dwarven_clan_reform
                 satyr_sect_reform
@@ -940,9 +968,9 @@ tribal = {
                 wwu_tribal_established_warband_reform
                 wwu_tribal_tribal_council_reform
                 
-                # Expeditionary
-                wwu_tribal_chain_of_command_reform
-                wwu_tribal_delegated_command_reform
+                ## Expeditionary
+                #wwu_tribal_chain_of_command_reform
+                #wwu_tribal_delegated_command_reform
                 
                 # Unique
                 wwu_tribal_old_horde_warband_reform

@@ -13,9 +13,21 @@ religion = sporemounds
 hre = no
 trade_goods = resource_artifacts
 
+
+598.1.1 = {
+    owner = BD9
+    controller = BD9
+    add_core = BD9
+    remove_core = EVB
+
+    culture = culture_black_dragonflight
+    religion = corrupt_dragon_aspect
+}
+
 # Outlandification
 600.1.1 = {
+    
     owner = ---
     controller = ---
-    remove_core = EVB
+    remove_core = BD9
 }

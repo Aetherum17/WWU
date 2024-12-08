@@ -1,17 +1,33 @@
-# Empty Province
-native_size = 50
-native_ferocity = 5
-native_hostileness = 5
+is_city = yes
+
+owner = F44
+controller = F44
+add_core = F44
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_night_elf
-religion = elune
+culture = culture_makrura
+religion = arkkorok
 
 hre = no
 trade_goods = unknown
 
 center_of_trade = 1
 
+630.1.1 = {
+    owner = A79
+    controller = A79
+    add_core = A79
+	remove_core = F44
+
+    base_tax = 6
+    base_production = 3
+    base_manpower = 7
+
+    culture = culture_goblin
+    religion = avarice
+	
+	add_center_of_trade_level = 2
+}

@@ -1,0 +1,19 @@
+﻿l_spanish:
+ #-----------------------------------------------
+ # Horde Agression, Rise of Garrosh
+ #-----------------------------------------------
+ wwu_mission_orgrimmar.1.title: "Rise of Garrosh"
+ wwu_mission_orgrimmar.1.desc: "After settling in Durotar, Thrall gave us a reason to hope, a dream to live in peace. Although the great shaman succeeded in so much, he failed to see the ambition of his young puppil Garrosh Hellscream, the son of his dear friend and hero Grommash. Thrall passed the position of warchief to the young warrior but to what end? Garrosh now raises the arms for war, spitting on everything Thrall's leadership stood for!"
+ wwu_mission_orgrimmar.1.option.a: "All hail the new warchief!"
+ 
+ #-----------------------------------------------
+ # Modifiers
+ #-----------------------------------------------
+ event_garrosh_rally_a48: "Garrosh Rally"
+ desc_event_garrosh_rally_a48: ""
+ 
+ 
+ #------------------------------
+ # Flags
+ #------------------------------
+ garrosh_in_charge_a48: "Garrosh in Charge!"

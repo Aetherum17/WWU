@@ -18,3 +18,48 @@ dependency = {
     start_date = 617.1.1
     end_date = 630.1.1
 }
+
+# Burning Legion - Darkwhisper
+dependency = {
+    subject_type = "tributary_vassal"
+    first = B92
+    second = G02
+    start_date = 617.1.1
+    end_date = 630.1.1
+}
+
+# Burning Legion - Scourge of Kalimdor
+dependency = {
+    subject_type = "tributary_vassal"
+    first = B92
+    second = SCK
+    start_date = 617.1.1
+    end_date = 630.1.1
+}
+
+# Burning Legion - Mannoroc
+dependency = {
+    subject_type = "tributary_vassal"
+    first = B92
+    second = MAN
+    start_date = 617.1.1
+    end_date = 632.1.1
+}
+
+# Burning Legion - Disciples of Hate
+dependency = {
+    subject_type = "tributary_vassal"
+    first = B92
+    second = F37
+    start_date = 631.1.1
+    end_date = 632.1.1
+}
+
+# Burning Legion - Felsworn
+dependency = {
+    subject_type = "tributary_vassal"
+    first = B92
+    second = B95
+    start_date = 618.1.1
+    end_date = 632.1.1
+}

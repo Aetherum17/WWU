@@ -1,0 +1,18 @@
+#--------------------------------------
+# Changelog - Cryo
+#--------------------------------------
+- Added the Blackrock Mountain raid and Searing Gorge soundtracks.
+- Introduced a new mission for the Scarlet Crusade: hunt_the_damned.
+- AI-controlled countries with Scarlet Light or Cult of the Damned as their religion now automatically gain the estate privilege eternal_damnation.
+- Buffing the eternal_damnation estate privilege by increasing the warscore_cost_vs_other_religion reduction from -0.10 to -0.15.
+- Fixing Scarlet Crusade generals and monarch name (Taelan, Saidan, Herod)
+- Adjustement of the Worgen Curse
+- Removing Genn Greymane as the general at the start of the game
+#----------------------------------------------------------------------------
+# TODO
+#----------------------------------------------------------------------------
+-Silverpine (Tag: @X03): Currently unused but planned as a new formable for Bloodfang or other Worgen factions.)
+-Mission tree for :
+	- Bloodfang
+	- New Lordaeron
+	- Darnassus

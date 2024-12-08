@@ -139,4 +139,8 @@ religious_school = brotherhood_of_northshire
  	}
 } 
  
+632.1.1 = { 
+historical_friend = A12
+
+}
 

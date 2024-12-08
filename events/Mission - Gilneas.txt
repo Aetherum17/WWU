@@ -1,0 +1,938 @@
+namespace = wwu_mission_gilneas
+
+# Neutrality or Alliance
+country_event = {
+	id = wwu_mission_gilneas.2
+	title = wwu_mission_gilneas.2.title
+	desc = wwu_mission_gilneas.2.desc
+	picture = INTERROGATION_eventPicture
+    
+    is_triggered_only = yes
+	mean_time_to_happen = {
+        days = 1
+    }
+	
+	option = { #Neutrality and Corruption
+		name = wwu_mission_gilneas.2.option.a
+	
+		set_country_flag = A12_neutrality_path
+		
+		#custom_tooltip = " "
+		
+		swap_non_generic_missions = yes
+		
+		play_sound = level_up
+        
+		ai_chance = { factor = 10 }
+	}
+	
+	option = { #Join the Alliance
+		name = wwu_mission_gilneas.2.option.b
+		
+		set_country_flag = A12_alliance_of_lordaeron_path
+        
+		custom_tooltip = A12_join_the_alliance_of_lordaeron_tt
+		hidden_effect = {
+				add_yearly_manpower = -0.15
+				
+				A08 = {
+					add_yearly_manpower = -0.1
+				}
+				
+				add_country_modifier = {
+					name = member_of_alliance
+					duration = -1
+				}
+		}
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+# Worgen Invasion of Gilneas
+country_event = {
+	id = wwu_mission_gilneas.3
+	title = wwu_mission_gilneas.3.title
+	desc = wwu_mission_gilneas.3.desc
+	picture = IVAR_BLOODFANG_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = {
+		name = wwu_mission_gilneas.3.option.a
+		
+		if = {
+			limit = {
+				927 = {
+					NOT = {
+						culture_group = culture_group_worgen
+					}
+				}
+			}
+			927 = { # Gilneas City
+				add_province_modifier = {
+					name = A12_terror_in_gilneas_city
+					duration = -1
+				}
+				
+				spawn_rebels = {
+					type = worgen_rebels
+					size = 0.5
+					culture = culture_gilnean_worgen
+				}
+			}
+		}
+		if = {
+			limit = {
+				2962 = {
+					NOT = {
+						culture_group = culture_group_worgen
+					}
+				}
+			}
+			2962 = { # Pyrewood
+				change_culture = culture_gilnean_worgen
+				
+				spawn_rebels = {
+					type = worgen_rebels
+					size = 1.5
+					culture = culture_gilnean_worgen
+				}
+			}
+		}
+		if = {
+			limit = {
+				686 = {
+					NOT = {
+						culture_group = culture_group_worgen
+					}
+				}
+			}
+			686 = { # Shadowfang Keep
+				change_culture = culture_gilnean_worgen
+				
+				spawn_rebels = {
+					type = worgen_rebels
+					size = 2.5					
+					culture = culture_gilnean_worgen
+				}
+			}
+		}
+		if = {
+			limit = {
+				3021 = {
+					NOT = {
+						culture_group = culture_group_worgen
+					}
+				}
+			}
+			3021 = { # Tal'doren
+				change_culture = culture_gilnean_worgen
+				
+				spawn_rebels = {
+					type = worgen_rebels
+					size = 0.5
+					culture = culture_gilnean_worgen
+				}
+			}
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Northgate Rebellion
+country_event = {
+	id = wwu_mission_gilneas.4
+	title = wwu_mission_gilneas.4.title
+	desc = wwu_mission_gilneas.4.desc
+	picture = GRAYMANE_WALL_eventPicture
+    
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			505 = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 2.5
+					leader = "Darius Crowley"
+					win = yes
+				}
+			}
+			
+			914 = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 0.1
+					win = yes
+				}
+				
+				set_province_flag = A12_northgate_rebellion_remove_rebel
+			}
+			
+			525 = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 0.1
+					win = yes
+				}
+				
+				set_province_flag = A12_northgate_rebellion_remove_rebel
+			}
+			
+			3017 = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 0.1
+					win = yes
+				}
+				
+				set_province_flag = A12_northgate_rebellion_remove_rebel
+			}
+			
+			848 = {
+				spawn_rebels = {
+					type = pretender_rebels
+					size = 0.1
+					win = yes
+				}
+				
+				set_province_flag = A12_northgate_rebellion_remove_rebel
+			}	
+			
+			set_country_flag = A12_northgate_rebellion
+		}
+		
+		every_owned_province = {
+			limit = {
+				has_province_flag = A12_northgate_rebellion_remove_rebel
+			}
+				
+			kill_units = {
+				who = enemy
+			}
+		}
+		
+	}
+	
+	option = {
+		name = wwu_mission_gilneas.4.option.a
+		if = {
+            limit = {
+                has_country_modifier = member_of_alliance
+            }
+            remove_country_modifier = member_of_alliance
+        }
+        
+		every_owned_province = {
+			clr_province_flag = A12_northgate_rebellion_remove_rebel
+		}
+	}
+}
+
+# Darius Crowley Fate
+country_event = {
+	id = wwu_mission_gilneas.5
+	title = wwu_mission_gilneas.5.title
+	desc = wwu_mission_gilneas.5.desc
+	picture = DARIUS_CROWLEY_eventPicture
+    
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = A12_darius_crowley_died_or_not
+	}
+	
+	option = { #kill him
+		name = wwu_mission_gilneas.5.option.a
+		set_country_flag = A12_darius_crowley_killed
+		
+		add_ruler_modifier = {
+			name = A12_darius_crowley_killed_modifier
+			duration = -1 
+		}
+		
+		add_adm_power = 200
+		add_mil_power = 200
+		
+		#custom_tooltip = " "
+		
+		add_stability = -1
+		add_legitimacy = -20
+		
+		ai_chance = { factor = 10 }
+	}
+	
+	option = { #pardon him
+		name = wwu_mission_gilneas.5.option.b
+		
+		define_general = {
+			name = "Darius Crowley"
+			trait = elite_master_of_arms_personality
+			shock = 3
+			fire = 4
+			manuever = 4
+			siege = 2
+		}
+		
+		ai_chance = { factor = 90 }
+	}
+}
+
+
+# Strenght in unity - Gilneas
+country_event = {
+	id = wwu_mission_gilneas.6
+	title = wwu_mission_gilneas.6.title
+	desc = wwu_mission_gilneas.6.desc
+	picture = DARIUS_CROWLEY_WORGEN_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.6.option.a
+		if = {
+			limit = {
+				OR = {
+					tag = A11
+					tag = F53
+					tag = TLB
+				}
+			}
+			A12 = {
+				create_march = ROOT
+			}
+			add_truce_with = A12
+			
+			add_country_modifier = {
+				name = A12_strenght_in_unity_vassalisation_modifier
+				duration = 18250
+			}
+		}
+		else = {
+			A12 = {
+				create_union = ROOT
+			}
+		}
+		
+		ai_chance = { factor = 95 }
+	}
+	
+	option = { #Refuse
+		name = wwu_mission_gilneas.6.option.b
+		A12 = {
+			add_opinion = {
+				who = ROOT
+				modifier = A12_strenght_in_unity_vassalisation_denied
+			}
+		}
+		
+		ai_chance = { factor = 5 }
+	}
+}
+
+# Gilneas ask for support - Stormwind
+country_event = {
+	id = wwu_mission_gilneas.7
+	title = wwu_mission_gilneas.7.title
+	desc = wwu_mission_gilneas.7.desc
+	picture = GILNEAS_CITY_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.7.option.a
+		set_global_flag = A12_stormwind_joined_war
+			
+		A12 = {
+			country_event = { 
+				id = wwu_gilneas.18
+				days = 6
+			}
+		}
+
+		ai_chance = { factor = 80 }
+	}
+	
+	option = { #Refuse
+		name = wwu_mission_gilneas.7.option.b
+		A12 = {
+			add_opinion = {
+				who = STW
+				modifier = A12_refuse_to_help_us
+			}
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+}
+
+# Gilneas ask for support - Darnassus
+country_event = {
+	id = wwu_mission_gilneas.8
+	title = wwu_mission_gilneas.8.title
+	desc = wwu_mission_gilneas.8.desc
+	picture = GILNEAS_CITY_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.8.option.a
+		set_global_flag = A12_darnassus_joined_war
+		
+		#custom_tooltip = " "
+		
+		custom_tooltip = A12_A94_agreement_with_gilneas
+		
+		#custom_tooltip = " "
+		A12 = {
+			country_event = { 
+				id = wwu_gilneas.19
+				days = 8
+			}
+		}
+		ai_chance = { factor = 80 }
+	}
+	
+	option = { #Refuse
+		name = wwu_mission_gilneas.8.option.b
+		A12 = {
+			add_opinion = {
+				who = A94
+				modifier = A12_refuse_to_help_us
+			}
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+}
+
+# Gilneas ask for support - Khaz Modan
+country_event = {
+	id = wwu_mission_gilneas.9
+	title = wwu_mission_gilneas.9.title
+	desc = wwu_mission_gilneas.9.desc
+	picture = GILNEAS_CITY_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.9.option.a
+		A12 = {
+			country_event = { 
+				id = wwu_gilneas.22
+				days = 4
+			}
+		}
+		ai_chance = { factor = 40 }
+	}
+	
+	option = { #Refuse
+		name = wwu_mission_gilneas.9.option.b
+		A12 = {
+			add_opinion = {
+				who = A29
+				modifier = A12_refuse_to_help_us
+			}
+		}
+		
+		ai_chance = { factor = 60 }
+	}
+}
+
+# Gilneas ask for support - Kul'Tiras
+country_event = {
+	id = wwu_mission_gilneas.10
+	title = wwu_mission_gilneas.10.title
+	desc = wwu_mission_gilneas.10.desc
+	picture = GILNEAS_CITY_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.10.option.a
+		A12 = {
+			country_event = { 
+				id = wwu_gilneas.23
+				days = 5
+			}
+		}
+		ai_chance = { factor = 65 }
+	}
+	
+	option = { #Refuse
+		name = wwu_mission_gilneas.10.option.b
+		A12 = {
+			add_opinion = {
+				who = A14
+				modifier = A12_refuse_to_help_us
+			}
+		}
+		
+		ai_chance = { factor = 35 }
+	}
+}
+
+# The Scarlet Light in Gilneas
+country_event = {
+	id = wwu_mission_gilneas.11
+	title = wwu_mission_gilneas.11.title
+	desc = wwu_mission_gilneas.11.desc
+	picture = SCARLET_MONASTERY_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.11.option.a
+		random_owned_province = {
+			change_religion = scarlet_light
+		}
+		random_owned_province = {
+			change_religion = scarlet_light
+		}
+		random_owned_province = {
+			change_religion = scarlet_light
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+	
+	option = { #Refuse
+		name = wwu_mission_gilneas.11.option.b
+		
+		
+		ai_chance = { factor = 80 }
+	}
+}
+
+# Gilneas and The Scourge - Corrupted Path
+country_event = {
+	id = wwu_mission_gilneas.12
+	title = wwu_mission_gilneas.12.title
+	desc = wwu_mission_gilneas.12.desc
+	picture = ICECROWN_CITADEL_eventPicture
+    
+	is_triggered_only = yes
+	
+	immediate = {
+		change_technology_group = tech_scourge
+		add_corruption = -4
+	}
+	
+	option = { #Become scourge domain
+		name = wwu_mission_gilneas.12.option.a
+		P11 = {
+			create_subject = {
+				subject_type = prime_scourge_vassal
+				subject = A12
+			}
+		}
+		A12 = {
+			add_country_modifier = {
+				name = A12_being_scourge_vassal
+				duration = 10950
+			}
+			
+			#Setup new caracteristics
+			if = {
+				limit = { NOT = { government = monarchy } }
+				change_government = monarchy
+				add_government_reform = scourge_domain_reform
+			}
+			else = {
+				add_government_reform = scourge_domain_reform
+			}
+			
+				
+		}
+		
+		hidden_effect = {
+			A12_the_scourge_in_gilneas = yes
+		}
+		
+		ai_chance = { factor = 95 }
+	}
+	
+	option = { #Keep freedom
+		name = wwu_mission_gilneas.12.option.b
+		A12 = {
+			create_alliance = P11
+		}
+		
+		set_country_flag = A12_freedom_keep_from_lich_king
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					primary_culture = culture_gilnean_worgen
+				}
+				change_technology_group = tech_worgen
+			}
+			else = {
+				change_technology_group = tech_human
+			}
+		}
+		
+		ai_chance = { factor = 5 }
+	}
+}
+
+# Destruction of Stormwind - Corrupted Path
+country_event = {
+	id = wwu_mission_gilneas.13
+	title = wwu_mission_gilneas.13.title
+	desc = wwu_mission_gilneas.13.desc
+	picture = STORMWIND_DOCK_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Destroy all GP
+		name = wwu_mission_gilneas.13.option.a
+		
+		A12_destroy_every_great_project = yes
+		
+		ai_chance = { factor = 95 }
+	}
+	option = { #Use them
+		name = wwu_mission_gilneas.13.option.b
+		custom_tooltip = A12_shall_not_destroy_any_gp_tt
+		hidden_effect = {
+			1022 = { #Stormwind Keep
+				cede_province = A12
+				add_core = A12
+			}
+			2505 = { #Deeprun Tram
+				cede_province = A12
+				add_core = A12
+			}
+			2204 = { #Cathedral of the light
+				cede_province = A12
+				add_core = A12
+			}
+			2205 = { #The Mage Quarter
+				cede_province = A12
+				add_core = A12
+			}
+		}
+		ai_chance = { factor = 5 }
+	}
+}
+
+# Rise of the New Stromgarde - Corrupted Path
+country_event = {
+	id = wwu_mission_gilneas.14
+	title = wwu_mission_gilneas.14.title
+	desc = wwu_mission_gilneas.14.desc
+	picture = PLAGUE_eventPicture
+    
+	is_triggered_only = yes
+	
+	immediate = {
+		area_stromgarde = {
+			cede_province = H12
+			add_core = H12
+		}
+	}
+	
+	option = { 
+		name = wwu_mission_gilneas.14.option.a
+		A12 = {
+			create_march = H12
+		}
+		
+		H12 = {
+			define_ruler = {
+				culture = ROOT
+				religion = ROOT
+				claim = 100
+			}
+			
+			add_truce_with = A12
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Let's break the chain - Corrupted path
+country_event = {
+	id = wwu_mission_gilneas.15
+	title = wwu_mission_gilneas.15.title
+	desc = wwu_mission_gilneas.15.desc
+	picture = DEADLY_SHOT_eventPicture
+    
+	is_triggered_only = yes
+	
+	immediate = {
+		set_country_flag = A12_can_take_freedom_the_scourge
+	}
+	
+	option = { 
+		name = wwu_mission_gilneas.15.option.a
+		swap_non_generic_missions = yes
+		play_sound = level_up
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Alliance with Forsaken ? - Corrupted path
+country_event = {
+	id = wwu_mission_gilneas.16
+	title = wwu_mission_gilneas.16.title
+	desc = wwu_mission_gilneas.16.desc
+	picture = STORMWIND_DOCK_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.16.option.a
+		create_alliance = A12
+		
+		A12 = {
+			country_event = { id = wwu_mission_gilneas.17 days = 3 }
+		}
+		
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = { #Refuse
+		name = wwu_mission_gilneas.16.option.b
+		add_adm_power = 50
+		add_dip_power = 50
+		
+		A12 = {
+			country_event = { id = wwu_mission_gilneas.18 days = 3 }
+		}
+		
+		ai_chance = { factor = 10 }
+	}
+}
+
+# Alliance with Forsaken ACCEPTED - Corrupted path
+country_event = {
+	id = wwu_mission_gilneas.17
+	title = wwu_mission_gilneas.17.title
+	desc = wwu_mission_gilneas.17.desc
+	picture = SYLVANAS_WINDRUNNER_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.17.option.a
+		create_alliance = P14
+		
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Alliance with Forsaken DENIED - Corrupted path
+country_event = {
+	id = wwu_mission_gilneas.18
+	title = wwu_mission_gilneas.18.title
+	desc = wwu_mission_gilneas.18.desc
+	picture = SYLVANAS_WINDRUNNER_eventPicture
+    
+	is_triggered_only = yes
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.18.option.a
+		add_truce_with = P14
+		
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Lich King forces vassalisation
+country_event = {
+	id = wwu_mission_gilneas.19
+	title = wwu_mission_gilneas.19.title
+	desc = wwu_mission_gilneas.19.desc
+	picture = ICECROWN_CITADEL_eventPicture
+    
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	trigger = {
+		NOT = { A12 = { is_subject_of = P11 } }
+		has_country_flag = A12_freedom_keep_from_lich_king
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { NOT = { government = monarchy } }
+				change_government = monarchy
+				add_government_reform = scourge_domain_reform
+			}
+			else = {
+				add_government_reform = scourge_domain_reform
+			}
+					
+			kill_ruler = yes
+					
+						
+			add_accepted_culture = culture_scourge
+			add_accepted_culture = culture_undead_human
+			change_religion = cult_of_the_damned
+			change_technology_group = tech_scourge
+					
+			A12_the_scourge_in_gilneas = yes
+		}	
+	}
+	
+	option = { #Accept
+		name = wwu_mission_gilneas.18.option.a
+		
+		custom_tooltip = A12_become_scourge_dominion_tt
+			
+		# Create the subject
+		P11 = {
+			create_subject = {
+				subject_type = prime_scourge_vassal
+				subject = A12
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Koroth Hillbreaker defend his territoires
+country_event = {
+	id = wwu_mission_gilneas.21
+	title = wwu_mission_gilneas.21.title
+	desc = wwu_mission_gilneas.21.desc
+	picture = CLIFF_AND_AGITATED_SEA_eventPicture
+    
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	major = yes
+	
+	option = { #Bones men mad ! Bones men must be dead !
+		name = wwu_mission_gilneas.21.option.a
+		hidden_effect = {
+			random_list = {
+				60 = { 
+					A12 = { #Gilneas
+						country_event = { id = wwu_mission_gilneas.22 } #Join war against Forsaken with Gilneas
+						
+						create_alliance = F60
+						join_all_defensive_wars_of = A12
+					}
+					F60 = { #Stagecoach (Koroth Hillbreaker)
+						join_all_defensive_wars_of = A12
+					}
+				} 
+				40 = {
+					A12 = { #Gilneas
+						create_subject = {
+							subject_type = march
+							subject = F60 #Stagecoach (Koroth Hillbreaker)
+						}
+						
+						country_event = { id = wwu_mission_gilneas.23 } #Join war against Forsaken with Gilneas and become a march for Gilneas
+					}
+				}
+			}
+		}
+		ai_chance = { factor = 95 }
+	}
+	
+	option = { #Bones men mad ! Bones men and wolf men must be dead !
+		name = wwu_mission_gilneas.21.option.b
+		F60 = { #Stagecoach (Koroth Hillbreaker)
+			declare_war = A12 #Gilneas
+			declare_war = P14 #Forsaken
+		}
+		
+		ai_chance = { factor = 5 }
+	}
+}
+
+#Koroth Hillbreaker defend his territoires - Notify Gilneas
+country_event = {
+	id = wwu_mission_gilneas.22
+	title = wwu_mission_gilneas.22.title
+	desc = wwu_mission_gilneas.22.desc
+	picture = CLIFF_AND_AGITATED_SEA_eventPicture
+    
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = wwu_mission_gilneas.22.option.a
+		tooltip = {
+			create_alliance = F60
+			
+			F60 = { join_all_defensive_wars_of = A12 }
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Koroth Hillbreaker defend his territoires - Notify Gilneas for becoming a march too
+country_event = {
+	id = wwu_mission_gilneas.23
+	title = wwu_mission_gilneas.23.title
+	desc = wwu_mission_gilneas.23.desc
+	picture = CLIFF_AND_AGITATED_SEA_eventPicture
+    
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = wwu_mission_gilneas.23.option.a
+		tooltip = {
+			A12 = { #Gilneas
+				create_subject = {
+					subject_type = march
+					subject = F60 #Stagecoach (Koroth Hillbreaker)
+				}
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Decision about the Alliance
+country_event = {
+	id = wwu_mission_gilneas.24
+	title = wwu_mission_gilneas.24.title
+	desc = wwu_mission_gilneas.24.desc
+	picture = STORMSONG_eventPicture
+    
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { #Leave the Alliance
+		name = wwu_mission_gilneas.24.option.a
+		add_legitimacy = 5
+		
+		#custom_tooltip = " "
+		add_adm_power = 50
+		add_dip_power = 50
+		add_mil_power = 50
+		
+		#custom_tooltip = " "
+		remove_country_modifier = member_of_alliance
+		
+		ai_chance = { factor = 80 }
+	}
+	
+	option = { #Stay in it
+		name = wwu_mission_gilneas.24.option.b
+		add_legitimacy = -5
+		
+		#custom_tooltip = " "
+		add_adm_power = -50
+		add_dip_power = -50
+		add_mil_power = -50
+		
+		ai_chance = { factor = 20 }
+	}
+}

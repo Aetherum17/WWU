@@ -1,0 +1,27 @@
+government = tribal
+add_government_reform = giant_tribe_reform
+add_government_reform = wwu_tribal_established_hierarchy_reform
+
+mercantilism 		= 10
+technology_group 	= tech_sea_giant
+religion			= water
+primary_culture 	= culture_sea_giant
+capital             = 2658
+
+546.1.1 = { 
+    monarch = { 
+        name = "Mok'rash" 
+        dynasty = "the Cleaver" 
+		adm = 3
+		dip = 2
+		mil = 5
+        birth_date = 200.1.1
+ 	} 
+    
+    set_ruler_flag = is_immortal
+} 
+
+
+
+ 
+

@@ -1,0 +1,964 @@
+graphical_culture = demon_gfx
+
+color = { 39 29 57 }
+
+monarch_names = {
+	"Kilthe" = 1
+	"Ruinman" = 1
+	"Zak'varekaz" = 1
+	"Var'ondeus" = 1
+	"Donkaz" = 1
+	"Usfel'anni" = 1
+	"Arinomo" = 1
+	"Manarikaz" = 1
+	"Diethe" = 1
+	"The'on" = 1
+	"Kaz'an" = 1
+	"Usthedie" = 1
+	"Varefelis" = 1
+	"Donrigan" = 1
+	"Iusroth" = 1
+	"Varre" = 1
+	"Felhim" = 1
+	"Ondeanman" = 1
+	"Xavnath" = 1
+	"Den'on" = 1
+	"Iusanni" = 1
+	"Roth'ius" = 1
+	"Anniondetich" = 1
+	"Dis'mag'arc" = 1
+	"Annohim" = 1
+	"Mothearc" = 1
+	"Don'denthe" = 1
+	"Varenath'hil" = 1
+	"Manered" = 1
+	"Arcmankil" = 1
+	"Ondeari" = 1
+	"Diekilman" = 1
+	"Fel'magered" = 1
+	"Eredfelroth" = 1
+	"Ari'dis" = 1
+	"Tothdri" = 1
+	"Jaegan" = 1
+	"Zakden'toth" = 1
+	"Ganthe" = 1
+	"Onde'onde'roth" = 1
+	"Arg'fel" = 1
+	"Ruiniusan" = 1
+	"Moarg" = 1
+	"Varerothzak" = 1
+	"Jaefel" = 1
+	"Thezimius" = 1
+	"Iszak'roth" = 1
+	"Jaeondehim" = 1
+	"Theargjae" = 1
+	"Nathered'is" = 1
+	"Kazre" = 1
+	"Arc'rian" = 1
+	"Fel're" = 1
+	"Annivarered" = 1
+	"Norothhil" = 1
+	"Anniri" = 1
+	"Us'roth" = 1
+	"Magtoth'ius" = 1
+	"Arckaz" = 1
+	"Vardie" = 1
+	"Isered" = 1
+	"Arckazon" = 1
+	"Thedie" = 1
+	"Diskazdri" = 1
+	"Thejae" = 1
+	"Ruinkil" = 1
+	"Ondeonde" = 1
+	"Xav'vare" = 1
+	"Denvar" = 1
+	"Ticharg'dis" = 1
+	"Magonde" = 1
+	"Eredzakzak" = 1
+	"Disis" = 1
+	"Ondearc" = 1
+	"Eredrothdie" = 1
+	"Onvareman" = 1
+	"Redis" = 1
+	"Die'ondezim" = 1
+	"Nohimman" = 1
+	"Himmag" = 1
+	"Arg'the" = 1
+	"Eredmanroth" = 1
+	"Kilari" = 1
+	"Isanni" = 1
+	"Kazhildon" = 1
+	"Ruinvar" = 1
+	"Xavonde" = 1
+	"Argisis" = 1
+	"Nathno" = 1
+	"Die'thegan" = 1
+	"Tichtothzak" = 1
+	"Ondeisarg" = 1
+	"Gan'zim" = 1
+	"Riden" = 1
+	"No'argthe" = 1
+	"Usden" = 1
+	"Manre" = 1
+	"Arg'ruin" = 1
+	"Anni'den" = 1
+	"Ganre'man" = 1
+	"Isisered" = 1
+	"Iseredonde" = 1
+	"Nathgandis" = 1
+	"Manarg" = 1
+	"Rikiltich" = 1
+	"Ganmagonde" = 1
+	"Usnokaz" = 1
+	"Disri" = 1
+	"Drimo" = 1
+	"Onganden" = 1
+	"Himjae'gan" = 1
+	"Ruin'roth'kaz" = 1
+	"Anroth" = 1
+	"Thehil'dis" = 1
+	"Dri'zak" = 1
+	"Iusnathus" = 1
+	"Xavzak" = 1
+	"Kilarg" = 1
+	"Vardritoth" = 1
+	"Anni're" = 1
+	"Manman'roth" = 1
+	"Zimius'zak" = 1
+	"Zimarg" = 1
+	"Novar" = 1
+	"Hilan" = 1
+	"Anniden'vare" = 1
+	"Mankil" = 1
+	"Anniden" = 1
+	"Zimden'ered" = 1
+	"Drimangan" = 1
+	"Arc'rixav" = 1
+	"Vardisis" = 1
+	"Aritoth" = 1
+	"Onjaeis" = 1
+	"Rothonde" = 1
+	"Jaenathfel" = 1
+	"Donden" = 1
+	"Ridri'man" = 1
+	"Onde'anni'ari" = 1
+	"Gandie" = 1
+	"Zakmag" = 1
+	"Rothus'anni" = 1
+	"Onhilered" = 1
+	"Xavondie" = 1
+	"Felnathkaz" = 1
+	"Anniruin" = 1
+	"Zim'anni'gan" = 1
+	"Theered" = 1
+	"Noeredius" = 1
+	"Jaenoruin" = 1
+	"Usankil" = 1
+	"Donarg" = 1
+	"Moanni" = 1
+	"Roth'ondejae" = 1
+	"Nomagmag" = 1
+	"Him'fel'jae" = 1
+	"Novararc" = 1
+	"Rejae" = 1
+	"Himtheis" = 1
+	"Zakdrizak" = 1
+	"Hilvarkil" = 1
+	"Ongan" = 1
+	"Tothno" = 1
+	"An'ruin" = 1
+	"Tichden" = 1
+	"Annidisis" = 1
+	"Zakgan" = 1
+	"Him'jaeruin" = 1
+	"Annivar'xav" = 1
+	"Onde'anan" = 1
+	"Kilnath'anni" = 1
+	"Jaetheius" = 1
+	"Arg'jae" = 1
+	"Thean'us" = 1
+	"Dieari'xav" = 1
+	"An'annimag" = 1
+	"Mag'hil'xav" = 1
+	"Diehimri" = 1
+	"Fel'arinath" = 1
+	"Iusdendon" = 1
+	"Onde're" = 1
+	"Dontoth" = 1
+	"Magjae" = 1
+	"Hiliusus" = 1
+	"Denkaz" = 1
+	"Kildonhil" = 1
+	"Vareisius" = 1
+	"Maghiljae" = 1
+	"Var'den" = 1
+	"Argnath" = 1
+	"Toth'nathman" = 1
+	"Rekil" = 1
+	"Ruinus" = 1
+	"Mag'xav" = 1
+	"Zimvaron" = 1
+	"Feldriis" = 1
+	"Arczim" = 1
+	"Zimzak" = 1
+	"Arc'arg" = 1
+	"Mohilhil" = 1
+	"Ganmanruin" = 1
+	"Usvaretoth" = 1
+	"Xavruin" = 1
+	"Is'varekaz" = 1
+	"Manhim" = 1
+	"Regan" = 1
+	"Nathonde'hil" = 1
+	"Re'erednath" = 1
+	"Himrius" = 1
+	"Felari'the" = 1
+	"Ruintothfel" = 1
+	"Himus" = 1
+	"Anniman" = 1
+	"Arganni" = 1
+	"Xav'fel" = 1
+	"Man'nath" = 1
+	"Felonnath" = 1
+	"Mananni" = 1
+	"No'on" = 1
+	"Iusonde" = 1
+	"Riman" = 1
+	"Us'iusdon" = 1
+	"Istothdie" = 1
+	"Onderothkil" = 1
+	"Mag'kilhim" = 1
+	"Disdri" = 1
+	"The'manman" = 1
+	"Donius'dis" = 1
+	"Onvare" = 1
+	"Rothriden" = 1
+	"Kaz'tich" = 1
+	"Moustoth" = 1
+	"Is'usruin" = 1
+	"Feltothtoth" = 1
+	"Tichdisius" = 1
+	"Varvarman" = 1
+	"An'ius" = 1
+	"Anmo'gan" = 1
+	"Kazrothruin" = 1
+	"Zak'ruinius" = 1
+	"Disriarc" = 1
+	"Zak'him'ari" = 1
+	"Man'gan" = 1
+	"Rothis" = 1
+	"On'tothus" = 1
+	"Mo'dri'jae" = 1
+	"Jaemoman" = 1
+	"Jaeonkaz" = 1
+	"Don'iusanni" = 1
+	"Naththezim" = 1
+	"Anius" = 1
+	"Nath'on'anni" = 1
+	"Iszak" = 1
+	"Arc'denered" = 1
+	"On'anni" = 1
+	"Thenathri" = 1
+	"Felhil'toth" = 1
+	"Disnath" = 1
+	"Mag'is'zak" = 1
+	"Tichvar'vare" = 1
+	"Ongan'dri" = 1
+	"Nathden" = 1
+	"Moman" = 1
+	"Ius'kil" = 1
+	"Nousered" = 1
+	"Toth'vareroth" = 1
+	"Tich'him'hil" = 1
+	"Dieticharc" = 1
+	"Anmo" = 1
+	"Maganmo" = 1
+	"Nohim" = 1
+	"Thevarri" = 1
+	"Ganhil" = 1
+	"Nodon'arg" = 1
+	"Arcmag" = 1
+	"Varthe" = 1
+	"Felus" = 1
+	"Fel'kazkil" = 1
+	"Ri'arc" = 1
+	"Nath'ariden" = 1
+	"Varmanthe" = 1
+	"Iuszim" = 1
+	"Kilxav" = 1
+	"Jae'isman" = 1
+	"Xavgan" = 1
+	"Manjae'us" = 1
+	"Kil'man'arg" = 1
+	"Himjae" = 1
+	"Thetoth" = 1
+	"Kilre'anni" = 1
+	"Feldis'kaz" = 1
+	"Hileredan" = 1
+	"Zim'denis" = 1
+	"Roth'ari'ri" = 1
+	"Diedon" = 1
+	"Arcxav" = 1
+	"Gan'varxav" = 1
+	"Driden" = 1
+	"Varetoth'on" = 1
+	"Gan'onde" = 1
+	"Moarcarc" = 1
+	"Denus" = 1
+	"Eredus'zak" = 1
+	"Andiekaz" = 1
+	"Zim'zim" = 1
+	"Onarc" = 1
+	"Gangan'no" = 1
+	"Jae'movar" = 1
+	"The'tichmag" = 1
+	"Roth'annikil" = 1
+	"Roth'no" = 1
+	"Totharctich" = 1
+	"Arcman" = 1
+	"Hilis" = 1
+	"Hilmovar" = 1
+	"Anan" = 1
+	"Onannidis" = 1
+	"Dismandis" = 1
+	"Ruindonnath" = 1
+	"Jaemag" = 1
+	"Jae're" = 1
+	"Arconde" = 1
+	"Kilxav'us" = 1
+	"Drivarearg" = 1
+	"Mo'hilvare" = 1
+	"Arganni'ered" = 1
+	"Kazfel" = 1
+	"Drimanri" = 1
+	"Ruin'die" = 1
+	"Kilmo'nath" = 1
+	"Dishimvar" = 1
+	"Ered'tich'kaz" = 1
+	"Onkil" = 1
+	"Tothmandie" = 1
+	"Nodon" = 1
+	"Gananni" = 1
+	"Ariman" = 1
+	"Himzim" = 1
+	"Tichius'ri" = 1
+	"Himari" = 1
+	"Himarg" = 1
+	"Kazri" = 1
+	"Anden" = 1
+	"Ariisruin" = 1
+	"Donarc'the" = 1
+	"Renototh" = 1
+	"Us'vare" = 1
+	"Varefel" = 1
+	"Argden" = 1
+	"Hildisri" = 1
+	"Die'gan" = 1
+	"Magtich" = 1
+	"Arcfel" = 1
+	"Anondezak" = 1
+	"Gan'dis" = 1
+	"Man'arionde" = 1
+	"Felon" = 1
+	"Rothdenruin" = 1
+	"Aniusden" = 1
+	"Riruinvare" = 1
+	"Tichonde" = 1
+	"Jae'argius" = 1
+	"Ered'zak'don" = 1
+	"Ered'onde" = 1
+	"Zim'man" = 1
+	"Gan'roth'ari" = 1
+	"Zakkaz" = 1
+	"Anmag" = 1
+	"Nath'varan" = 1
+	"Dri'tich" = 1
+	"Riari'him" = 1
+	"Anni'arc" = 1
+	"Toth'annizim" = 1
+	"Tothvare" = 1
+	"Rinoonde" = 1
+	"Isritich" = 1
+	"Andievare" = 1
+	"Ondeden" = 1
+	"Arc'zak" = 1
+	"Denhim" = 1
+	"Roth'argno" = 1
+	"Diedonkaz" = 1
+	"Dondri'gan" = 1
+	"Dri'don" = 1
+	"Vareon" = 1
+	"Theeredmo" = 1
+	"Jaeri" = 1
+	"An'fel" = 1
+	"Ereddiedon" = 1
+	"Denered" = 1
+	"Var'argdon" = 1
+	"Thekil" = 1
+	"Man'no" = 1
+	"Jaeden" = 1
+	"Man'don" = 1
+	"Ruinzim" = 1
+	"Tich'jae" = 1
+	"Vare'manre" = 1
+	"Kilzimfel" = 1
+	"Den'man" = 1
+	"Argargfel" = 1
+	"Roth'die" = 1
+	"Onde'us'ered" = 1
+	"Ganmo'mo" = 1
+	"Vararg" = 1
+	"Him'dis'var" = 1
+	"Ondon" = 1
+	"Iushim" = 1
+	"Nath'zakxav" = 1
+	"Thezak" = 1
+	"Himdie" = 1
+	"Zakis" = 1
+	"Anvare" = 1
+	"Man'ered" = 1
+	"Driarg" = 1
+	"Vartoth" = 1
+	"Anno" = 1
+	"Varkil" = 1
+	"Jaedon" = 1
+	"Manhil" = 1
+	"Varzakus" = 1
+	"Him'varean" = 1
+	"Kilkazhim" = 1
+	"Felargre" = 1
+	"Denis" = 1
+	"Disus" = 1
+	"Dienathtich" = 1
+	"Isno" = 1
+	"Varnathdri" = 1
+	"Arg'nathruin" = 1
+	"Mag'roth" = 1
+	"Kazzak" = 1
+	"Argiusius" = 1
+	"Rothruinre" = 1
+	"Donrino" = 1
+	"Ruin'var" = 1
+	"Annitothzim" = 1
+	"Kazdon" = 1
+	"Diszimari" = 1
+	"Ondeanruin" = 1
+	"Kazvar'no" = 1
+	"Die'fel" = 1
+	"Varemo" = 1
+	"Tothrothxav" = 1
+	"Ganman'zim" = 1
+	"Kildiedis" = 1
+	"No'zim" = 1
+	"Dri'ius'the" = 1
+	"Toth'arg" = 1
+	"Zakdenno" = 1
+	"Xavzimarc" = 1
+	"Isre'us" = 1
+	"Rothre" = 1
+	"Ari'fel" = 1
+	"Nototharg" = 1
+	"Rizak" = 1
+	"Diefeljae" = 1
+	"Riruindie" = 1
+	"Kazzak'xav" = 1
+	"Mokil" = 1
+	"Iusre'us" = 1
+	"Argarcden" = 1
+	"Drius" = 1
+	"Kazdis'xav" = 1
+	"Kilonde" = 1
+	"Zim'die" = 1
+	"Ruinmanhim" = 1
+	"Zimjae" = 1
+	"Eredgan" = 1
+	"Magmori" = 1
+	"Vareruin'ius" = 1
+	"Moisruin" = 1
+	"Fel'rothkil" = 1
+	"Xav'roth" = 1
+	"Himarcnath" = 1
+	"Dri'zim'hil" = 1
+	"Iusdisdis" = 1
+	"Disthenath" = 1
+	"Tothannidon" = 1
+	"Donthe'anni" = 1
+	"Varedrijae" = 1
+	"On'arg" = 1
+	"Tich'tichanni" = 1
+	"Driman" = 1
+	"Erederedhim" = 1
+	"Den'anni" = 1
+	"Jaehim" = 1
+	"Disjaeonde" = 1
+	"Kazdendie" = 1
+	"Arg'tich" = 1
+	"Kaz're" = 1
+	"Xavan'ius" = 1
+	"Moonno" = 1
+	"Ri'gan'toth" = 1
+	"Nathnath" = 1
+	"Drithe" = 1
+	"Fel'iusman" = 1
+	"Hilfel" = 1
+	"Anni'nathno" = 1
+	"Jaearinath" = 1
+	"Gandis" = 1
+	"Argzimanni" = 1
+	"Man'an'ari" = 1
+	"No'mo" = 1
+	"Zak'die'on" = 1
+	"Kaz'anvare" = 1
+	"Himdon" = 1
+	"Ri'us" = 1
+	"Ganarchil" = 1
+	"Anhim" = 1
+	"Novarered" = 1
+	"Remagzak" = 1
+	"Tichzim" = 1
+	"Mangan" = 1
+	"Ruinrothanni" = 1
+	"Varmanfel" = 1
+	"Ered'vare" = 1
+	"Nomag'don" = 1
+	"Disdis" = 1
+	"Iusiuson" = 1
+	"Magdon" = 1
+	"Anvardon" = 1
+	"Tothan" = 1
+	"Donzimius" = 1
+	"Ondeman'kaz" = 1
+	"Varfelzak" = 1
+	"Reonno" = 1
+	"Nohil" = 1
+	"Ius'donvar" = 1
+	"Aridrikil" = 1
+	"Usganmo" = 1
+	"Varearg" = 1
+	"Himtichon" = 1
+	"Moius" = 1
+	"Toth'tichzak" = 1
+	"Momanzim" = 1
+	"Zimzak'ius" = 1
+	"Varhim" = 1
+	"Ondezim'an" = 1
+	"Manhimari" = 1
+	"The'xavzim" = 1
+	"Mandishil" = 1
+	"Vardonnath" = 1
+	"Diearg" = 1
+	"Kazhim'don" = 1
+	"Ganmanarg" = 1
+	"Man'ruinanni" = 1
+	"Is'jae" = 1
+	"Denkil" = 1
+	"Magre" = 1
+	"Isfelman" = 1
+	"Eredhil" = 1
+	"Iuszakruin" = 1
+	"Onde'arcdon" = 1
+	"Ered'himan" = 1
+	"Kilvare" = 1
+	"Fel'felan" = 1
+	"Xav'is" = 1
+	"Mojaeis" = 1
+	"Nofelvar" = 1
+	"Xavdisered" = 1
+	"Jaemagis" = 1
+	"Iskil'onde" = 1
+	"Argzim'fel" = 1
+	"Jaekildri" = 1
+	"Rothzimmo" = 1
+	"Antoth" = 1
+	"Ishim" = 1
+	"Himzim'hil" = 1
+	"Dri'man" = 1
+	"Xav'die'xav" = 1
+	"Iusman" = 1
+	"Mozak" = 1
+	"Gan'argruin" = 1
+	"Zimthethe" = 1
+	"Gan'eredhim" = 1
+	"Drianni" = 1
+	"Noarcman" = 1
+	"On'mag" = 1
+	"Zakan" = 1
+	"Tich'ius" = 1
+	"Ruinari" = 1
+	"Eredmanxav" = 1
+	"Kilanni" = 1
+	"Nath'ruin" = 1
+	"Eredman" = 1
+	"Zimzim" = 1
+	"Kil'roth'jae" = 1
+	"Dri'jae" = 1
+	"Andri'gan" = 1
+	"Var'anari" = 1
+	"Roth'dis" = 1
+	"Maniusroth" = 1
+	"Mo'jae'den" = 1
+	"Eredroth" = 1
+	"Argered'him" = 1
+	"Xav'nath" = 1
+	"Tichhim'vare" = 1
+	"Hilkil" = 1
+	"Xavjae'toth" = 1
+	"Var'dis'var" = 1
+	"Ari'denari" = 1
+	"Rothnath" = 1
+	"Gan'ered'anni" = 1
+	"Gantichon" = 1
+	"Zimthe" = 1
+	"Var'mojae" = 1
+	"Zakdonvar" = 1
+	"Mandon" = 1
+	"Dieanni'vare" = 1
+	"Tichnoan" = 1
+	"Eredtich'tich" = 1
+	"Ius'kazarg" = 1
+	"Man'kilman" = 1
+	"Arcuszak" = 1
+	"Varfelnath" = 1
+	"Iusnath" = 1
+	"Man'mangan" = 1
+	"Theman'ari" = 1
+	"Noius" = 1
+	"Zimanxav" = 1
+	"Varre'jae" = 1
+	"Arcjae" = 1
+	"Ius'is'vare" = 1
+	"Isis" = 1
+	"Zakman'ruin" = 1
+	"Dri'nath" = 1
+	"Tichvardie" = 1
+	"Arcjae'kaz" = 1
+	"Re'magvar" = 1
+	"Anrikaz" = 1
+	"Us'arc'anni" = 1
+	"Him'vare" = 1
+	"Xav'uszim" = 1
+	"Fel'is'is" = 1
+	"Him'zimvar" = 1
+	"Nomo" = 1
+	"Magondere" = 1
+	"Zimvar" = 1
+	"Tichtoth" = 1
+	"Him'zakdri" = 1
+	"Rizakgan" = 1
+	"Thefel'ri" = 1
+	"Ari'xav" = 1
+	"Isxavtoth" = 1
+	"Ruindon" = 1
+	"Diedisari" = 1
+	"Diethefel" = 1
+	"Uskil'kaz" = 1
+	"Zaktheered" = 1
+	"Diearcri" = 1
+	"Man'tich" = 1
+	"Arc'an" = 1
+	"Ononde" = 1
+	"Hil'arigan" = 1
+	"Moruin'zim" = 1
+	"Ganrothre" = 1
+	"Ariius" = 1
+	"Istothnath" = 1
+	"Gan'don'is" = 1
+	"Zakari" = 1
+	"Donmanden" = 1
+	"Annidieari" = 1
+	"Xavzimus" = 1
+	"Nathdieis" = 1
+	"Him'die" = 1
+	"Drixav" = 1
+	"Gan'den" = 1
+	"Ganari'don" = 1
+	"Manjae" = 1
+	"Kaz'manvare" = 1
+	"Nathreroth" = 1
+	"Hilkaz" = 1
+	"Vare'don" = 1
+	"Donzimtich" = 1
+	"Onde'ondevare" = 1
+	"Tothtoth'man" = 1
+	"Usari" = 1
+	"Nathgananni" = 1
+	"Tichered" = 1
+	"Hilisxav" = 1
+	"Gan'arikil" = 1
+	"Nathanari" = 1
+	"Riius" = 1
+	"Manmagered" = 1
+	"Totheredman" = 1
+	"Onman" = 1
+	"Argzimvar" = 1
+	"Jaeman" = 1
+	"Thearc" = 1
+	"Mannoan" = 1
+	"An'moered" = 1
+	"Himered" = 1
+	"Mag'mananni" = 1
+	"Zimusmag" = 1
+	"Zakthe'gan" = 1
+	"Re'kazarg" = 1
+	"Rithe" = 1
+	"Disman" = 1
+	"Don'roth" = 1
+	"Jaeariroth" = 1
+	"Himdonroth" = 1
+	"Drifel" = 1
+	"Ariri" = 1
+	"Riari'the" = 1
+	"Onde'thedie" = 1
+	"Is'kil" = 1
+	"Mo'drithe" = 1
+	"Zimargis" = 1
+	"Tothtichvar" = 1
+	"Himman" = 1
+	"Roth'roth'ius" = 1
+	"Kaz'donri" = 1
+	"Arc'kaz'ruin" = 1
+	"Isden'vare" = 1
+	"Kazzakis" = 1
+	"Hilnathman" = 1
+	"Drimanus" = 1
+	"Eredzimnath" = 1
+	"Monoman" = 1
+	"Ankaz" = 1
+	"Iusonon" = 1
+	"Arcxavmo" = 1
+	"Arczimfel" = 1
+	"Thenath" = 1
+	"Ganruin" = 1
+	"Zimre" = 1
+	"Magzak" = 1
+	"Tothdonxav" = 1
+	"Arius'ari" = 1
+	"Rothden" = 1
+	"No'kilthe" = 1
+	"Gan'diere" = 1
+	"Ananni" = 1
+	"Ruin'anni'ered" = 1
+	"Zimxav'jae" = 1
+	"Don'zimered" = 1
+	"Driariis" = 1
+	"Kaztothus" = 1
+	"Rothanni" = 1
+	"Kiltheroth" = 1
+	"Ered'on" = 1
+	"Arcvar" = 1
+	"Kazanni" = 1
+	"Mohil'gan" = 1
+	"Tothus" = 1
+	"Arcari" = 1
+	"Vardis'ri" = 1
+	"Ridri" = 1
+	"Zakfel" = 1
+	"Jaehilno" = 1
+	"Kazis" = 1
+	"Kazmanfel" = 1
+	"Var'arc'fel" = 1
+	"Disarcgan" = 1
+	"Zimanni" = 1
+	"Anari" = 1
+	"Arimag" = 1
+	"Is'hilmo" = 1
+	"Man'var" = 1
+	"Re'felgan" = 1
+	"Tothmanzim" = 1
+	"Dis'gan" = 1
+	"Dendiehil" = 1
+	"Ruin'diekaz" = 1
+	"Varnoered" = 1
+	"More" = 1
+	"Jaearitich" = 1
+	"Arc'jaekil" = 1
+	"Arg'nath'jae" = 1
+	"Ismo" = 1
+	"An'gan" = 1
+	"Ari'mo" = 1
+	"Tothdie" = 1
+	"Andridis" = 1
+	"Moered" = 1
+	"Anno'dis" = 1
+	"Zakushil" = 1
+	"On'hil" = 1
+	"Onde'xav" = 1
+	"Iusjaeered" = 1
+	"Ticharg" = 1
+	"An'roth" = 1
+	"Manroth'anni" = 1
+	"Fel'theno" = 1
+	"Ruinhim" = 1
+	"Onxav'dis" = 1
+	"Nathmo" = 1
+	"Dri'ered" = 1
+	"The'an" = 1
+	"Himtothus" = 1
+	"Xav'felzak" = 1
+	"Manriari" = 1
+	"Man'man'an" = 1
+	"Ganman" = 1
+	"On'jae" = 1
+	"Totheredkaz" = 1
+	"Manmo'zak" = 1
+	"Us'dendon" = 1
+	"Gankazdon" = 1
+	"Donkil" = 1
+	"Nathvarered" = 1
+	"Vareandis" = 1
+	"Dontoth'xav" = 1
+	"Hilari'an" = 1
+	"Magfel'ruin" = 1
+	"On'mo" = 1
+	"Driered" = 1
+	"Theusarg" = 1
+	"Don'fel" = 1
+	"Den'kaz" = 1
+	"Vare'xav'jae" = 1
+	"Disno" = 1
+	"Var'gan" = 1
+	"Nathdonvare" = 1
+	"Arceredarc" = 1
+	"Argdenvare" = 1
+	"Driargus" = 1
+	"Mandritoth" = 1
+	"Toth'the" = 1
+	"Tothered'man" = 1
+	"Tothis" = 1
+	"Driarc'jae" = 1
+	"Ruin'ered" = 1
+	"Himno" = 1
+	"Aneredis" = 1
+	"Usthe" = 1
+	"Iusden'kil" = 1
+	"Onganon" = 1
+	"Jaeariered" = 1
+	"Onden" = 1
+	"Nathman" = 1
+	"Kil'tichruin" = 1
+	"Ari'is" = 1
+	"Denius" = 1
+	"Manxav" = 1
+}
+
+leader_names = {
+	"the Bonebreaker"
+	"the Throatslicer"
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Smasher"
+	"the Stabber"
+	"the Gutter"
+	"the Ripper"
+	"the Puncher"
+	"the Kicker"
+	"the Massive"
+	"the Mammoth"
+	"the Monstrous"
+	"the Colossal"
+	"the Gigantic"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+fleet_names = {
+	"Command Ship of $PROVINCE$"
+}
+
+historical_units = {
+	demon_inf_a_1
+	demon_cav_a_1
+	demon_inf_a_2
+	demon_cav_a_2
+	demon_inf_a_3
+	demon_cav_a_3
+	demon_inf_a_4
+	demon_cav_a_4
+	demon_inf_a_5
+	demon_cav_a_5
+}

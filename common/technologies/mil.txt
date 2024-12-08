@@ -31,6 +31,7 @@ technology = {
     
 	may_drill = yes
     
+	enable = theramore_marine_inf_a_1
     enable = human_inf_a_1
     enable = human_inf_b_1
     enable = human_inf_c_1
@@ -885,9 +886,10 @@ technology = {
 	# Tech 6 
 	year = 600
 	
+	enable = theramore_marine_inf_a_2
     enable = human_inf_a_2
     enable = human_inf_b_2
-    enable = human_inf_c_2
+    enable = human_inf_c_2	
     enable = human_cav_a_2
     enable = human_cav_b_2
     enable = human_art_a_2
@@ -1758,6 +1760,7 @@ technology = {
 	# Tech 12 
 	year = 689
 	
+	enable = theramore_marine_inf_a_3
     enable = human_inf_a_3
     enable = human_inf_b_3
     enable = human_inf_c_3
@@ -2644,9 +2647,10 @@ technology = {
 	# Tech 18 
 	year = 767
 	
+	enable = theramore_marine_inf_a_4	
     enable = human_inf_a_4
     enable = human_inf_b_4
-    enable = human_inf_c_4
+    enable = human_inf_c_4	
     enable = human_cav_a_4
     enable = human_cav_b_4
     enable = human_art_a_4
@@ -3531,9 +3535,10 @@ technology = {
 	# Tech 24 
 	year = 845
 	
+	enable = theramore_marine_inf_a_5
     enable = human_inf_a_5
     enable = human_inf_b_5
-    enable = human_inf_c_5
+    enable = human_inf_c_5	
     enable = human_cav_a_5
     enable = human_cav_b_5
     enable = human_art_a_5

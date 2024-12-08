@@ -8120,9 +8120,18 @@
  night_fae_art_b_5: "£unit_5£ Night Fae Trebuchet"
  night_fae_art_b_5DESCR: ""
 
-
-
-
-
-
-
+# Special Units
+ theramore_marine_inf_a_1: "£unit_1£ Theramorean Marines"
+ theramore_marine_inf_a_1DESCR: ""
+ theramore_marine_inf_a_2: "£unit_2£ Theramorean Marines"
+ theramore_marine_inf_a_2DESCR: ""
+ theramore_marine_inf_a_3: "£unit_3£ Theramorean Marines"
+ theramore_marine_inf_a_3DESCR: ""
+ theramore_marine_inf_a_4: "£unit_4£ Theramorean Marines"
+ theramore_marine_inf_a_4DESCR: ""
+ theramore_marine_inf_a_5: "£unit_5£ Theramorean Marines"
+ theramore_marine_inf_a_5DESCR: ""
+ 
+ 
+ 
+ 

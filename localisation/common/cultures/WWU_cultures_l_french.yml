@@ -15,6 +15,7 @@
  culture_dalaran: "Dalaran"
  culture_arathorian: "Arathorian"
  culture_theramorean: "Theramorean"
+ culture_northwatch: "Northwatch"
  culture_alliance: "Alliance" # Represents mixed human culture (Sons of Lothar, Alliance Expeditions)
  
  culture_group_darnassian: "Darnassian"
@@ -144,7 +145,7 @@
  culture_lost_dragonkin: "Lost Dragonkin"
  culture_dracthyr: "Dracthyr"
  culture_primalist_dragonflight: "Primalist Dragonflight"
- culture_drakonid: "Drakonid"
+ culture_drakonid: "Dragonkin"
  
  culture_group_undead: "Undead"
  culture_forsaken: "Undead"
@@ -179,7 +180,7 @@
 
  culture_group_kobold: "Kobold"
  culture_kobold: "Kobold"
- culture_ice_kobold: "Ice Kobold"
+ culture_ice_kobold: "Snobold"
  
  culture_group_magnataur: "Magnataur"
  culture_magnataur: "Magnataur"
@@ -293,7 +294,7 @@
  culture_mountain_giant: "Mountain Giant"
 
  culture_group_dryad: "Dryad"
- culture_forest_nymph: "Forest Nypmh"
+ culture_forest_nymph: "Forest Nymph"
  culture_frost_nymph: "Frost Nymph"
  culture_crystal_nymph: "Crystal Nypmh"
 

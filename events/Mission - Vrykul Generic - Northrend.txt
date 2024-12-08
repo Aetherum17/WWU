@@ -1,0 +1,176 @@
+namespace = wwu_mission_vrykul_shared
+
+# The Great Hunt - Opening
+country_event = {
+    id = wwu_mission_vrykul_shared.1
+    title = wwu_mission_vrykul_shared.1.title
+	desc = wwu_mission_vrykul_shared.1.desc
+	picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_vrykul_shared.1.option.a
+
+        country_event = { id = wwu_mission_vrykul_shared.2 days = 3 }
+
+    }
+
+    option = {
+        name = wwu_mission_vrykul_shared.1.option.b
+
+        country_event = { id = wwu_mission_vrykul_shared.3 days = 3 }
+    }
+
+    option = {
+        name = wwu_mission_vrykul_shared.1.option.c
+
+        country_event = { id = wwu_mission_vrykul_shared.4 days = 3 }
+    }
+}
+
+# The Great Hunt - Novice
+country_event = {
+    id = wwu_mission_vrykul_shared.2
+    title = wwu_mission_vrykul_shared.2.title
+	desc = wwu_mission_vrykul_shared.2.desc
+	picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_vrykul_shared.2.option.a
+
+        random_list = {
+            80 = {
+               custom_tooltip = NOVINCE_HUNT_SUCCESS_TT 
+               hidden_effect = {
+                    add_prestige = 15
+                    add_mil_power = 100
+                    set_country_flag = novince_hunt_success
+
+                    country_event = { id = wwu_mission_vrykul_shared.5 days = 1 }
+               }
+            }
+            10 = {
+                custom_tooltip = NOVINCE_HUNT_NEUTRAL_TT
+                hidden_effect = {
+                    add_prestige = 5
+                }
+            }
+            10 = {
+                kill_ruler = yes
+            }
+        }
+    }  
+}
+
+# The Great Hunt - Advanced
+country_event = {
+    id = wwu_mission_vrykul_shared.3
+    title = wwu_mission_vrykul_shared.3.title
+	desc = wwu_mission_vrykul_shared.3.desc
+	picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_vrykul_shared.3.option.a
+
+        random_list = {
+            60 = {
+               custom_tooltip = ADVANCED_HUNT_SUCCESS_TT 
+               hidden_effect = {
+                    add_prestige = 20
+                    add_mil_power = 150
+                    set_country_flag = advanced_hunt_success
+
+                    country_event = { id = wwu_mission_vrykul_shared.5 days = 1 }
+               }
+            }
+            25 = {
+                custom_tooltip = ADVANCED_HUNT_NEUTRAL_TT
+                hidden_effect = {
+                    add_prestige = 5
+                }
+            }
+            15 = {
+                kill_ruler = yes
+            }
+        }
+    }  
+}
+
+# The Great Hunt - Expert
+country_event = {
+    id = wwu_mission_vrykul_shared.4
+    title = wwu_mission_vrykul_shared.4.title
+	desc = wwu_mission_vrykul_shared.4.desc
+	picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_vrykul_shared.4.option.a
+
+        random_list = {
+            30 = {
+               custom_tooltip = EXPERT_HUNT_SUCCESS_TT 
+               hidden_effect = {
+                    add_prestige = 25
+                    add_mil_power = 200
+                    set_country_flag = expert_hunt_success
+
+                    country_event = { id = wwu_mission_vrykul_shared.5 days = 1 }
+               }
+            }
+            40 = {
+                custom_tooltip = NOVINCE_HUNT_NEUTRAL_TT
+                hidden_effect = {
+                    add_prestige = 10
+                }
+            }
+            30 = {
+                kill_ruler = yes
+            }
+        }
+    }  
+}
+
+# The Great Game - Success Indicator Event
+country_event = {
+    id = wwu_mission_vrykul_shared.5
+    title = wwu_mission_vrykul_shared.5.title
+    desc = wwu_mission_vrykul_shared.5.desc
+    picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_vrykul_shared.5.option.a
+
+        add_country_modifier = {
+            name = mission_vrykul_shared_great_game_reward
+            duration = 1095
+        }
+    }
+}
+
+# The Great Game - Neutral Outcome Indicator
+country_event = {
+    id = wwu_mission_vrykul_shared.6
+    title = wwu_mission_vrykul_shared.6.title
+    desc = wwu_mission_vrykul_shared.6.desc
+    picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_vrykul_shared.6.option.a
+
+        add_country_modifier = {
+            name = mission_vrykul_shared_great_game_neutral_reward
+            duration = 1095
+        }
+    }
+}

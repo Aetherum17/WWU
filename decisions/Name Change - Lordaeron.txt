@@ -4,9 +4,7 @@ country_decisions = {
 		major = yes
         ai_importance = 0
         
-		potential = { 
-            NOT = { has_country_flag = enacted_final_tag_formation }
-            
+		potential = {          
 			NOT = { exists = A08 }
 			NOT = { tag = SVH }
 			NOT = { tag = A24 }
@@ -44,7 +42,9 @@ country_decisions = {
 			owns_core_province = 775    # Hearthglen
 		}
 		effect = {
-			override_country_name = LORDAERON
+			country_event = {
+				id = wwu_flavour_lordaeron.1
+			}
             
 			hidden_effect = {
                 set_country_flag = is_lordaeron_flag

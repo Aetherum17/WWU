@@ -1,0 +1,59 @@
+
+is_city = yes 
+
+owner = A62
+controller = A62
+add_core = A62
+
+base_tax = 2
+base_production = 2
+base_manpower = 3
+
+culture = culture_forest_troll
+religion = voodoo
+
+hre = no
+trade_goods = resource_common_wood
+ 
+# Second War
+598.1.1 = {
+    owner = A08
+    controller = A08
+    add_core = A08
+	add_core = LDH
+    
+    culture = culture_lordaeron
+    religion = holy_light
+}
+
+# Rise of the Lich King
+605.1.1 = { 
+	owner = LDH
+	controller = LDH
+	add_core = LDH
+    
+	culture = culture_lordaeron
+    religion = holy_light
+}
+
+# Rise of the Qiraji
+623.1.1 = { 	
+	owner = SCE
+	controller = SCE
+	add_core = SCE
+	add_core = LDH
+	
+	religion = scarlet_light 
+}
+
+#The Burning Crusade
+625.1.1 = {
+    owner = P13
+    controller = P13
+    add_core = P13
+    remove_core = LDH
+	remove_core = A08
+	
+    culture = culture_scourge
+    religion = cult_of_the_damned 
+}

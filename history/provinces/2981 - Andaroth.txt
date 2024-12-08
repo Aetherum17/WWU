@@ -26,12 +26,12 @@ trade_goods = resource_arcane
 
 #Wrath of the Lich King
 622.1.1 = { 
-    owner = A91
-    controller = A91
-    add_core = A91
-    remove_core = F21
-    
-    culture = culture_blood_elf
-    religion = arcane
+    owner = A94
+    controller = A94
+    add_core = A94
+    culture = culture_night_elf
+    religion = elune
+
+    trade_goods = resource_moonwell
 }
 

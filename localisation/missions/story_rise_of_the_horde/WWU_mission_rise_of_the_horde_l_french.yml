@@ -1,0 +1,42 @@
+﻿l_french:
+ # --- Missions ---
+ wwu_rise_of_the_horde_column_1: ""
+ wwu_rise_of_the_horde_column_2: ""
+ wwu_rise_of_the_horde_column_3: ""
+ wwu_rise_of_the_horde_column_4: ""
+ wwu_rise_of_the_horde_column_5: ""
+ 
+ # Col 1
+ wwu_rise_of_the_horde_succumb_to_fel_title: "Question of Faith"
+ wwu_rise_of_the_horde_succumb_to_fel_desc: ""
+ 
+ wwu_rise_of_the_horde_prepare_for_invasion_title: "Prepare for Invasion"
+ wwu_rise_of_the_horde_prepare_for_invasion_desc: ""
+ 
+ # Col 2
+ wwu_rise_of_the_horde_crush_the_draenei_title: "Crush the Draenei"
+ wwu_rise_of_the_horde_crush_the_draenei_desc: ""
+ 
+ # Col 3
+ wwu_rise_of_the_horde_messenger_from_nerzhul_title: "Messenger from Ner'zhul"
+ wwu_rise_of_the_horde_messenger_from_nerzhul_desc: ""
+ 
+ wwu_rise_of_the_horde_acceptance_of_warlocks_title: "Acceptance of Warlocks"
+ wwu_rise_of_the_horde_acceptance_of_warlocks_desc: ""
+ 
+ wwu_rise_of_the_horde_consume_blood_of_mannoroth_title: "Blood of Mannoroth"
+ wwu_rise_of_the_horde_consume_blood_of_mannoroth_desc: ""
+ 
+ # Col 4
+ wwu_rise_of_the_horde_oust_the_warlocks_title: "Oust the Warlocks"
+ wwu_rise_of_the_horde_oust_the_warlocks_desc: ""
+ 
+ # Col 5
+ wwu_rise_of_the_horde_construct_the_dark_portal_title: "Construct the Dark Portal"
+ wwu_rise_of_the_horde_construct_the_dark_portal_desc: ""
+ 
+ wwu_rise_of_the_horde_establish_foothold_title: "Establish Foothold in Azeroth"
+ wwu_rise_of_the_horde_establish_foothold_desc: ""
+ 
+ # tooltips
+ DID_NOT_BUILD_DARK_PORTAL_TT: "Another nation built the Dark Portal, so they are permitted to establish a foothold before all of the other clans."

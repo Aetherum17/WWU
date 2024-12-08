@@ -51,3 +51,30 @@ dependency = {
 	start_date = 620.1.1
 	end_date = 1000.1.1
 }
+
+# Nendis - Sentinels
+dependency = {
+	subject_type = "tributary_state"
+	first = H01
+	second = NEN
+	start_date = 544.1.1
+	end_date = 619.1.1
+}
+
+# Talrendis - Sentinels
+dependency = {
+	subject_type = "tributary_state"
+	first = H01
+	second = TAL
+	start_date = 544.1.1
+	end_date = 621.1.1
+}
+
+# Starfall - Sentinels
+dependency = {
+	subject_type = "tributary_state"
+	first = H01
+	second = STL
+	start_date = 544.1.1
+	end_date = 622.1.1
+}

@@ -158,30 +158,30 @@ estate_religious_order_mass_conversion = {
 		factor = 10
 	}
 }
-estate_religious_order_conversion_by_the_sword = {
-	icon = privilege_challenge
-
-    # Costs
-    max_absolutism = 0
-	land_share = 0
-	loyalty = 0.05
-	influence = 0.05
-    
-    can_select = {
-	}
-	on_granted = {
-        custom_tooltip = CONVERSION_BY_THE_SWORD_TT
-	}
-	penalties = {
-        
-	}
-	benefits = {
-        
-	}
-	ai_will_do = {
-		factor = 10
-	}
-}
+#estate_religious_order_conversion_by_the_sword = {
+	#icon = privilege_challenge
+	#
+    # # Costs
+    #max_absolutism = 0
+	#land_share = 0
+	#loyalty = 0.05
+	#influence = 0.05
+    #
+    #can_select = {
+	#}
+	#on_granted = {
+        #custom_tooltip = CONVERSION_BY_THE_SWORD_TT
+	#}
+	#penalties = {
+    #    
+	#}
+	#benefits = {
+    #    
+	#}
+	#ai_will_do = {
+	#	factor = 10
+	#}
+#}
 estate_religious_order_priority_of_self = {
 	icon = privilege_blessed_hands
 

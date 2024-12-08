@@ -907,12 +907,12 @@ purification_stratagem = {
                     is_capital = no
                     NOT = { development = 12 }
                     FROM = {
-                        mil_power = 2
+                        mil_power = 4
                     }
                 }
                 
                 FROM = {
-                    add_mil_power = -2
+                    add_mil_power = -4
                 }
             
                 change_culture = FROM
@@ -934,12 +934,12 @@ purification_stratagem = {
                     is_capital = no
                     NOT = { development = 14 }
                     FROM = {
-                        mil_power = 4
+                        mil_power = 5
                     }
                 }
                 
                 FROM = {
-                    add_mil_power = -4
+                    add_mil_power = -5
                 }
             
                 change_culture = FROM
@@ -988,12 +988,12 @@ purification_stratagem = {
                     is_capital = no
                     NOT = { development = 18 }
                     FROM = {
-                        mil_power = 8
+                        mil_power = 7
                     }
                 }
                 
                 FROM = {
-                    add_mil_power = -8
+                    add_mil_power = -7
                 }
             
                 change_culture = FROM
@@ -1015,12 +1015,12 @@ purification_stratagem = {
                     is_capital = no
                     NOT = { development = 20 }
                     FROM = {
-                        mil_power = 10
+                        mil_power = 8
                     }
                 }
                 
                 FROM = {
-                    add_mil_power = -10
+                    add_mil_power = -8
                 }
             
                 change_culture = FROM

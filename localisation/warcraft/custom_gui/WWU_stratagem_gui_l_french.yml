@@ -1,0 +1,272 @@
+﻿l_french:
+ #-----------------------------------
+ # Stratagem GUI
+ #-----------------------------------
+ stratagem_title: "Stratagems"
+ STRATAGEM_WINDOW_TT: "§YStratagems§!\nSelect from a list of stratagems, each affecting an aspect of §Y[Root.GetName]§!'s military strategy."
+ 
+ stratagem_gui_offensive_stratagem_title: "Offensive"
+ stratagem_gui_defensive_stratagem_title: "Defensive"
+ stratagem_gui_insurrection_stratagem_title: "Insurrection"
+ 
+ OFFENSIVE_STRATAGEM_TITLE_HOVER_TT: "Applied when §Your§! troops occupy an §Yenemy§! province."
+ DEFENSIVE_STRATAGEM_TITLE_HOVER_TT: "Applied when §Yenemy§! troops occupy one of §Your§! provinces."
+ INSURRECTION_STRATAGEM_TITLE_HOVER_TT: "Applied when §Yrebel§! troops occupy one of §Your§! provinces."
+ 
+ NOT_MAX_STRATAGEM_LEVEL_TT: "Does not have §YStratagem Level§! set to maximum."
+ NOT_MIN_STRATAGEM_LEVEL_TT: "Does not have §YStratagem Level§! set to minimum."
+ 
+ STRATAGEM_LEVEL_INCREASE_HOVER_TT: "Increase the potency of this Stratagem effect and increase the effect cost."
+ STRATAGEM_LEVEL_DECREASE_HOVER_TT: "Decrease the potency of this Stratagem effect and decrease the effect cost."
+ 
+ STRATAGEM_DIPLO_LABEL: "Stratagems:"
+ 
+ #---------
+ # Offensive Stratagems
+ #---------
+ # Standard
+ OFFENSIVE_STRATAGEM_STANDARD: "Standard Procedure"
+ offensive_stratagem_button_standard: "Standard Procedure"
+ OFFENSIVE_STRATAGEM_STANDARD_ICON_HOVER_TT: "§YSummary:§!\nNone.\n\n§YEffect on Occupation:§!\nNone.\n\n§YEffect Cost:§!\nNone."
+ OFFENSIVE_STRATAGEM_standard_TT: "Set §YOffensive Stratagem§! to §YStandard Procedure§!."
+ HAS_OFFENSIVE_STRATAGEM_STANDARD: "Is current §YOffensive Stratagem§! not set to §YStandard Procedure§!."
+ DIPLO_VIEW_OFFENSIVE_STANDARD_HOVER_TT: "[Root.GetName]'s Offensive Stratagem is §YStandard Procedure§!.\n\n§YSummary:§!\nNone."
+ 
+ # Sow Terror
+ OFFENSIVE_STRATAGEM_SOW_TERROR: "Sow Terror"
+ offensive_stratagem_button_sow_terror: "Sow Terror"
+ OFFENSIVE_STRATAGEM_SOW_TERROR_ICON_HOVER_TT: "§YSummary:§!\nTake control of all neighboring provinces to the occupied province.\n\n§YEffect on Occupation:§!\nAll neighboring provinces that are §Ynot fortified§! will be occupied by [Root.GetName].\n\n§YEffect Cost:§!\n§R5§! Military Power."
+ OFFENSIVE_STRATAGEM_sow_terror_TT: "Set §YOffensive Stratagem§! to §YSow Terror§!."
+ HAS_OFFENSIVE_STRATAGEM_SOW_TERROR: "Is current §YOffensive Stratagem§! not set to §YSow Terror§!."
+ offensive_sow_terror_stratagem_level: "Sow Terror Level"
+ DIPLO_VIEW_OFFENSIVE_SOW_TERROR_HOVER_TT: "[Root.GetName]'s Offensive Stratagem is §YSow Terror§!.\n\n§YSummary:§!\nEnemy occupation of one of our provinces will spread to all neighboring provinces."
+
+ # Slash and Burn
+ OFFENSIVE_STRATAGEM_SLASH_AND_BURN: "Slash and Burn"
+ offensive_stratagem_button_slash_and_burn: "Slash and Burn"
+ OFFENSIVE_STRATAGEM_SLASH_AND_BURN_ICON_HOVER_TT: "§YSummary:§!\nApply additional devastation to the occupied province.\n\n§YEffect on Occupation:§!\nOccupied province will suffer §R[Root.GetLevelEffect_Slash_and_Burn]§! Devastation immediately.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Slash_and_Burn]§! Military Power."
+ OFFENSIVE_STRATAGEM_slash_and_burn_TT: "Set §YOffensive Stratagem§! to §YSlash and Burn§!."
+ HAS_OFFENSIVE_STRATAGEM_SLASH_AND_BURN: "Is current §YOffensive Stratagem§! not set to §YSlash and Burn§!."
+ DIPLO_VIEW_OFFENSIVE_SLASH_AND_BURN_HOVER_TT: "[Root.GetName]'s Offensive Stratagem is §YSlash and Burn§!.\n\n§YSummary:§!\nEnemy occupation of one of our provinces will apply §R[From.GetLevelEffect_Slash_and_Burn]§! devastation to the occupied province."
+
+ offensive_slash_and_burn_stratagem_level: "Slash and Burn Level"
+ 
+ SLASH_AND_BURN_EFFECT_1: "20"
+ SLASH_AND_BURN_EFFECT_2: "40"
+ SLASH_AND_BURN_EFFECT_3: "60"
+ SLASH_AND_BURN_EFFECT_4: "80"
+ SLASH_AND_BURN_EFFECT_5: "100"
+ 
+ SLASH_AND_BURN_COST_1: "1"
+ SLASH_AND_BURN_COST_2: "2"
+ SLASH_AND_BURN_COST_3: "3"
+ SLASH_AND_BURN_COST_4: "4"
+ SLASH_AND_BURN_COST_5: "5"
+ 
+ # Enslavement
+ OFFENSIVE_STRATAGEM_ENSLAVEMENT: "Enslavement"
+ offensive_stratagem_button_enslavement: "Enslavement"
+ 
+ OFFENSIVE_STRATAGEM_ENSLAVEMENT_ICON_HOVER_TT: "§YSummary:§!\nGain additional manpower upon occupying a province.\n\n§YEffect on Occupation:§!\nGain §G[Root.GetLevelEffect_Enslavement]§! Manpower upon occupying a province.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Enslavement]§! Military Power."
+ OFFENSIVE_STRATAGEM_enslavement_TT: "Set §YOffensive Stratagem§! to §YEnslavement§!."
+ HAS_OFFENSIVE_STRATAGEM_ENSLAVEMENT: "Is current §YOffensive Stratagem§! not set to §YEnslavement§!."
+ DIPLO_VIEW_OFFENSIVE_ENSLAVEMENT_HOVER_TT: "[Root.GetName]'s Offensive Stratagem is §YEnslavement§!.\n\n§YSummary:§!\nEnemy occupation of one of our provinces will cause the enemy to gain §G[From.GetLevelEffect_Enslavement]§! manpower."
+ 
+ offensive_enslavement_stratagem_level: "Enslavement Level"
+ 
+ ENSLAVEMENT_EFFECT_1: "200"
+ ENSLAVEMENT_EFFECT_2: "400"
+ ENSLAVEMENT_EFFECT_3: "600"
+ ENSLAVEMENT_EFFECT_4: "800"
+ ENSLAVEMENT_EFFECT_5: "1,000"
+ 
+ ENSLAVEMENT_COST_1: "1"
+ ENSLAVEMENT_COST_2: "2"
+ ENSLAVEMENT_COST_3: "3"
+ ENSLAVEMENT_COST_4: "4"
+ ENSLAVEMENT_COST_5: "5"
+ 
+ # Purification
+ OFFENSIVE_STRATAGEM_PURIFICATION: "Purification"
+ offensive_stratagem_button_purification: "Purification"
+ 
+ OFFENSIVE_STRATAGEM_PURIFICATION_ICON_HOVER_TT: "§YSummary:§!\nAutomatically convert province culture and religion upon occupying a province.\n\n§YEffect on Occupation:§!\nOccupied province culture will become §Y[Root.Culture.GetName]§!.\nOccupied province religion will become §Y[Root.Religion.GetName]§!.\n\nOnly applied if the province's development is below §Y[Root.GetLevelEffect_Purification]§!.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Purification]§! Military Power."
+ OFFENSIVE_STRATAGEM_purification_TT: "Set §YOffensive Stratagem§! to §YPurification§!."
+ HAS_OFFENSIVE_STRATAGEM_PURIFICATION: "Is current §YOffensive Stratagem§! not set to §YPurification§!."
+ DIPLO_VIEW_OFFENSIVE_PURIFICATION_HOVER_TT: "[Root.GetName]'s Offensive Stratagem is §YPurification§!.\n\n§YSummary:§!\nEnemy occupation of one of our provinces will cause the occupied province to follow the [From.Culture.GetName] culture and the [From.Religion.GetName] religion, if the province development is below [From.GetLevelEffect_Purification]."
+ 
+ offensive_purification_stratagem_level: "Purification Level"
+ 
+ PURIFICATION_EFFECT_1: "12"
+ PURIFICATION_EFFECT_2: "14"
+ PURIFICATION_EFFECT_3: "16"
+ PURIFICATION_EFFECT_4: "18"
+ PURIFICATION_EFFECT_5: "20"
+ 
+ PURIFICATION_COST_1: "4"
+ PURIFICATION_COST_2: "5"
+ PURIFICATION_COST_3: "6"
+ PURIFICATION_COST_4: "7"
+ PURIFICATION_COST_5: "8"
+ 
+ #---------
+ # Defensive Stratagems
+ #---------
+ # Standard
+ DEFENSIVE_STRATAGEM_STANDARD: "Standard Procedure"
+ defensive_stratagem_button_standard: "Standard Procedure"
+ 
+ DEFENSIVE_STRATAGEM_STANDARD_ICON_HOVER_TT: "§YSummary:§!\nNone.\n\n§YEffect on Occupation:§!\nNone.\n\n§YEffect Cost:§!\nNone."
+ DEFENSIVE_STRATAGEM_standard_TT: "Set §YDefensive Stratagem§! to §YStandard Procedure§!."
+ HAS_DEFENSIVE_STRATAGEM_STANDARD: "Is current §YDefensive Stratagem§! not set to §YStandard Procedure§!."
+ DIPLO_VIEW_DEFENSIVE_STANDARD_HOVER_TT: "[Root.GetName]'s Defensive Stratagem is §YStandard Procedure§!.\n\n§YSummary:§!\nNone."
+ 
+ # Martyrdom
+ DEFENSIVE_STRATAGEM_MARTYRDOM: "Martyrdom"
+ defensive_stratagem_button_martyrdom: "Martyrdom"
+ 
+ DEFENSIVE_STRATAGEM_MARTYRDOM_ICON_HOVER_TT: "§YSummary:§!\nOccupation of our provinces will drain the occupier's manpower.\n\n§YEffect on Occupation:§!\nEnemy occupier loses §R[Root.GetLevelEffect_Martyrdom]§! Manpower.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Martyrdom]§! Military Power."
+ DEFENSIVE_STRATAGEM_martyrdom_TT: "Set §YDefensive Stratagem§! to §YMartyrdom§!."
+ HAS_DEFENSIVE_STRATAGEM_MARTYRDOM: "Is current §YDefensive Stratagem§! not set to §YMartyrdom§!."
+ DIPLO_VIEW_DEFENSIVE_MARTYRDOM_HOVER_TT: "[Root.GetName]'s Defensive Stratagem is §YMartyrdom§!.\n\n§YSummary:§!\nOur occupation of one of the enemy provinces will cause us to lose §R[From.GetLevelEffect_Martyrdom]§! manpower."
+ 
+ defensive_martyrdom_stratagem_level: "Martyrdom Level"
+ 
+ MARTYRDOM_EFFECT_1: "200"
+ MARTYRDOM_EFFECT_2: "400"
+ MARTYRDOM_EFFECT_3: "600"
+ MARTYRDOM_EFFECT_4: "800"
+ MARTYRDOM_EFFECT_5: "1,000"
+ 
+ MARTYRDOM_COST_1: "1"
+ MARTYRDOM_COST_2: "2"
+ MARTYRDOM_COST_3: "3"
+ MARTYRDOM_COST_4: "4"
+ MARTYRDOM_COST_5: "5"
+ 
+ # Sabotage
+ DEFENSIVE_STRATAGEM_SABOTAGE: "Sabotage"
+ defensive_stratagem_button_sabotage: "Sabotage"
+ 
+ DEFENSIVE_STRATAGEM_SABOTAGE_ICON_HOVER_TT: "§YSummary:§!\nOccupation of our provinces will drain the occupier's ducats.\n\n§YEffect on Occupation:§!\nEnemy occupier loses §R[Root.GetLevelEffect_Sabotage]§! ducats.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Sabotage]§! Military Power."
+ DEFENSIVE_STRATAGEM_sabotage_TT: "Set §YDefensive Stratagem§! to §YSabotage§!."
+ HAS_DEFENSIVE_STRATAGEM_SABOTAGE: "Is current §YDefensive Stratagem§! not set to §YSabotage§!."
+ DIPLO_VIEW_DEFENSIVE_SABOTAGE_HOVER_TT: "[Root.GetName]'s Defensive Stratagem is §YSabotage§!.\n\n§YSummary:§!\nOur occupation of one of the enemy provinces will cause us to lose §R[From.GetLevelEffect_Sabotage]§! ducats."
+ 
+ defensive_sabotage_stratagem_level: "Sabotage Level"
+ 
+ SABOTAGE_EFFECT_1: "10"
+ SABOTAGE_EFFECT_2: "20"
+ SABOTAGE_EFFECT_3: "30"
+ SABOTAGE_EFFECT_4: "40"
+ SABOTAGE_EFFECT_5: "50"
+ 
+ SABOTAGE_COST_1: "1"
+ SABOTAGE_COST_2: "2"
+ SABOTAGE_COST_3: "3"
+ SABOTAGE_COST_4: "4"
+ SABOTAGE_COST_5: "5"
+ 
+ # Slander
+ DEFENSIVE_STRATAGEM_SLANDER: "Slander"
+ defensive_stratagem_button_slander: "Slander"
+ 
+ DEFENSIVE_STRATAGEM_SLANDER_ICON_HOVER_TT: "§YSummary:§!\nOccupation of our provinces will drain the occupier's prestige.\n\n§YEffect on Occupation:§!\nEnemy occupier loses §R[Root.GetLevelEffect_Slander]§! Prestige.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Slander]§! Military Power."
+ DEFENSIVE_STRATAGEM_slander_TT: "Set §YDefensive Stratagem§! to §YSlander§!."
+ HAS_DEFENSIVE_STRATAGEM_SLANDER: "Is current §YDefensive Stratagem§! not set to §YSlander§!."
+ DIPLO_VIEW_DEFENSIVE_SLANDER_HOVER_TT: "[Root.GetName]'s Defensive Stratagem is §YSlander§!.\n\n§YSummary:§!\nOur occupation of one of the enemy provinces will cause us to lose §R[From.GetLevelEffect_Slander]§! prestige."
+ 
+ defensive_slander_stratagem_level: "Slander Level"
+ 
+ SLANDER_EFFECT_1: "1"
+ SLANDER_EFFECT_2: "2"
+ SLANDER_EFFECT_3: "3"
+ SLANDER_EFFECT_4: "4"
+ SLANDER_EFFECT_5: "5"
+ 
+ SLANDER_COST_1: "1"
+ SLANDER_COST_2: "2"
+ SLANDER_COST_3: "3"
+ SLANDER_COST_4: "4"
+ SLANDER_COST_5: "5"
+ 
+ #---------
+ # Insurrection Stratagems
+ #---------
+ # Standard
+ INSURRECTION_STRATAGEM_STANDARD: "Standard Procedure"
+ insurrection_stratagem_button_standard: "Standard Procedure"
+ 
+ INSURRECTION_STRATAGEM_STANDARD_ICON_HOVER_TT: "§YSummary:§!\nNone.\n\n§YEffect on Occupation:§!\nNone.\n\n§YEffect Cost:§!\nNone."
+ INSURRECTION_STRATAGEM_standard_TT: "Set §YInsurrection Doctrine§! to §YStandard Procedure§!."
+ HAS_INSURRECTION_STRATAGEM_STANDARD: "Is current §YInsurrection Stratagem§! not set to §YStandard Procedure§!."
+ DIPLO_VIEW_INSURRECTION_STANDARD_HOVER_TT: "[Root.GetName]'s Insurrection Stratagem is §YStandard Procedure§!.\n\n§YSummary:§!\nNone."
+ 
+ # Bribery
+ INSURRECTION_STRATAGEM_BRIBERY: "Bribery"
+ insurrection_stratagem_button_bribery: "Bribery"
+ 
+ INSURRECTION_STRATAGEM_BRIBERY_ICON_HOVER_TT: "§YSummary:§!\nRebel occupiers of our provinces will lose control and some shall be killed in exchange for ducats.\n\n§YEffect on Occupation:§!\nRebel occupier loses occupation of province.\nRebel occupier loses §R[Root.GetLevelEffect_Bribery]§! units.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Bribery]§! ducats."
+ INSURRECTION_STRATAGEM_bribery_TT: "Set §YInsurrection Doctrine§! to §YBribery§!."
+ HAS_INSURRECTION_STRATAGEM_BRIBERY: "Is current §YInsurrection Stratagem§! not set to §YBribery§!."
+ DIPLO_VIEW_INSURRECTION_BRIBERY_HOVER_TT: "[Root.GetName]'s Insurrection Stratagem is §YBribery§!.\n\n§YSummary:§!\nRebel occupiers will be killed in exchange for ducats."
+ 
+ insurrection_bribery_stratagem_level: "Bribery Level"
+ 
+ BRIBERY_EFFECT_1: "10"
+ BRIBERY_EFFECT_2: "15"
+ BRIBERY_EFFECT_3: "20"
+ BRIBERY_EFFECT_4: "25"
+ BRIBERY_EFFECT_5: "30"
+ 
+ BRIBERY_COST_1: "10"
+ BRIBERY_COST_2: "20"
+ BRIBERY_COST_3: "30"
+ BRIBERY_COST_4: "40"
+ BRIBERY_COST_5: "50"
+ 
+ # Compromise
+ INSURRECTION_STRATAGEM_COMPROMISE: "Compromise"
+ insurrection_stratagem_button_compromise: "Compromise"
+ 
+ INSURRECTION_STRATAGEM_COMPROMISE_ICON_HOVER_TT: "§YSummary:§!\nRebel occupiers of our provinces will lose control and some shall in exchange for corruption.\n\n§YEffect on Occupation:§!\nRebel occupier loses occupation of province.\nRebel occupier loses §R[Root.GetLevelEffect_Compromise]§! units.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Compromise]§! corruption."
+ INSURRECTION_STRATAGEM_compromise_TT:  "Set §YInsurrection Doctrine§! to §YCompromise§!."
+ HAS_INSURRECTION_STRATAGEM_COMPROMISE: "Is current §YInsurrection Stratagem§! not set to §YCompromise§!."
+ DIPLO_VIEW_INSURRECTION_COMPROMISE_HOVER_TT: "[Root.GetName]'s Insurrection Stratagem is §YCompromise§!.\n\n§YSummary:§!\nRebel occupiers will be killed in exchange for corruption."
+ 
+ insurrection_compromise_stratagem_level: "Compromise Level"
+ 
+ COMPROMISE_EFFECT_1: "20"
+ COMPROMISE_EFFECT_2: "25"
+ COMPROMISE_EFFECT_3: "30"
+ COMPROMISE_EFFECT_4: "35"
+ COMPROMISE_EFFECT_5: "40"
+ 
+ COMPROMISE_COST_1: "0.2"
+ COMPROMISE_COST_2: "0.4"
+ COMPROMISE_COST_3: "0.6"
+ COMPROMISE_COST_4: "0.8"
+ COMPROMISE_COST_5: "1.0"
+ 
+ # Garrison
+ INSURRECTION_STRATAGEM_GARRISON: "Garrison"
+ insurrection_stratagem_button_garrison: "Garrison"
+ 
+ INSURRECTION_STRATAGEM_GARRISON_ICON_HOVER_TT: "§YSummary:§!\nRebel occupiers of our provinces will lose control and some shall be killed in exchange for manpower.\n\n§YEffect on Occupation:§!\nRebel occupier loses occupation of province.\nRebel occupier loses §R[Root.GetLevelEffect_Garrison]§! units.\n\n§YEffect Cost:§!\n§R[Root.GetLevelCost_Garrison]§! manpower."
+ INSURRECTION_STRATAGEM_garrison_TT: "Set §YInsurrection Doctrine§! to §YGarrison§!."
+ HAS_INSURRECTION_STRATAGEM_GARRISON: "Is current §YInsurrection Stratagem§! not set to §YGarrison§!."
+ DIPLO_VIEW_INSURRECTION_GARRISON_HOVER_TT: "[Root.GetName]'s Insurrection Stratagem is §YGarrison§!.\n\n§YSummary:§!\nRebel occupiers will be killed in exchange for manpower."
+ 
+ insurrection_garrison_stratagem_level: "Garrison Level"
+ 
+ GARRISON_EFFECT_1: "10"
+ GARRISON_EFFECT_2: "15"
+ GARRISON_EFFECT_3: "20"
+ GARRISON_EFFECT_4: "25"
+ GARRISON_EFFECT_5: "30"
+ 
+ GARRISON_COST_1: "200"
+ GARRISON_COST_2: "400"
+ GARRISON_COST_3: "600"
+ GARRISON_COST_4: "800"
+ GARRISON_COST_5: "1,000"

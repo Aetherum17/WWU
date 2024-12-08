@@ -28,7 +28,7 @@
  wwu_labor_tier_archaeological_society: "Archaeological Society"
  wwu_labor_tier_archaeological_society_desc: "Our society puts a heavy focus on history and the discovery of the past. This means our archaeologists are some of the best in Azeroth."
  
- ENABLE_ARCHAEOLOGY_BOOST_TT: "Reduces the required Dig Progress for a successful Archaeological Expedition by §Y2§!."
+ ENABLE_ARCHAEOLOGY_BOOST_TT: "Increases the speed of progress during an Archaeological Dig."
  
  #---------------------------------------------
  # Universal - Miliary Organisation (Level 2)
@@ -53,6 +53,26 @@
  # Human
  wwu_military_knighthood: "Knighthood"
  wwu_military_knighthood_desc: "Human knights were crucial parts of human militaries, expert horsemen in armor which crashed into enemies with precision and lance. Human knights have their moral codes of conduct, and are placed as higher members of the social elite in human society."
+
+ # Vrykul
+
+ wwu_military_hyldanir_sisters: "Hyldanir Battle Sisters"
+ wwu_military_hyldanir_sisters_desc: "Hyldanir Clan places woman before men, as the perfect warriros. From this ideology, the Battle Sisters of Hyldanir were born. Working as brawlers, enforcers and using their skill as bear riders, those woman show great tenacity and dedication to the art of war."
+
+ wwu_military_ymirheim_frostbreakers: "Ymirjar Frostbreakers"
+ wwu_military_ymirheim_frostbreakers_desc: "Frostbreakers are among the most powerful of Ymirjar warriros. Those giants become one with the surrounding winter, embracign its coldness as part of their body, and utilizing it as their power. With unbroken will, they go to war, and crush all those who stand before them. "
+
+ wwu_military_jotunheim_raiders: "Jotunheim Raiders"
+ wwu_military_jotunheim_raiders_desc: "Born from Vrykul raids, heirs of Jotunheim are relentless in their ways of pillages and destruction. Swift and deadly, they plunder good and reap their foea alike. However, sometimes they lack discipline to follow orders."
+
+ wwu_military_utgarde_defensive_strategy: "Utgarde Defensive Strategy"
+ wwu_military_utgarde_defensive_strategy_desc: "Born from many battles and sieges, warmasters and engineers of Utgarde Keep prepared system of launchers, traps and static defences, with the idea of causing as much devastation to the enemy, before facing them in battle."
+
+ wwu_military_dragonflayer_dragon_riders: "Dragonflayer Proto-Drake Riders"
+ wwu_military_dragonflayer_dragon_riders_desc: "Dragonflayer clan is renowed for their subjegation of proto-drakaes, the precursor race to the dragons. With them, as their deadly mounts, they are able to dominate skies and wreck havoc across their battlefields and sieges with their deadly breath attacks."
+
+ wwu_military_vrykul_hemomancers: "Vrykul Hemomancers"
+ wwu_military_vrykul_hemomancers_desc: "While not popular among Vrykul of today, Hemomancy, or blood magic, was at one point integral part of magical rituals used by the Vrykul. With Hemomancers as generals and battle-clearics, vrykul armies can unleash their inner rage and let the bloodlust consume them."
  
  #---------------------------------------------
  # Universal - Economic Organisation (Level 4)
@@ -114,6 +134,9 @@
  wwu_naval_elitism_desc: "Elitism is a practice in Azeroth of relying very heavily on powerful or generally skilled sailors who can outwit, outmatch, and outskill others. These special sailors, while expensive, can compliment even the smallest of ships."
  
  ENABLE_ADMIRAL_TRAIT_BOOST_TT: "Enables Admirals to gain more powerful traits."
+ 
+ wwu_thalassocracy: "Thalassocracy"
+ wwu_thalassocracy_desc: "A status worthy only to those who trully are masters of the Great Sea!"
  
  #---------------------------------------------
  # Universal - Time for Change? (Level 8)

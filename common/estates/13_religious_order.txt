@@ -86,7 +86,7 @@ estate_religious_order = {
         estate_religious_order_proclaim_divinity
         estate_religious_order_appease_the_masses
         estate_religious_order_mass_conversion
-        estate_religious_order_conversion_by_the_sword
+        #estate_religious_order_conversion_by_the_sword
         estate_religious_order_priority_of_self
         estate_religious_order_religious_zeal
         estate_religious_order_conversion_by_decree

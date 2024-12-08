@@ -32,8 +32,8 @@ music = { name = "music_iron_dawn" file = "iron_dawn.ogg" }
 music = { name = "music_khadgar" file = "khadgar.ogg" }
 music = { name = "music_lament_of_the_highborne" file = "lament_of_the_highborne.ogg" }
 music = { name = "music_lifeblood" file = "lifeblood.ogg" }
-music = { name = "music_Neal Acree - Anduin Pt1 A1" file = "Neal Acree - Anduin Pt1 A1.ogg" }
-music = { name = "music_Neal Acree - Demon Hunter Pt1 C" file = "Neal Acree - Demon Hunter Pt1 C.ogg" }
+music = { name = "music_neal_acree_anduin" file = "neal_acree_anduin.ogg" }
+music = { name = "music_neal_acree_demon_hunter" file = "neal_acree_demon_hunter.ogg" }
 music = { name = "music_netherstorm" file = "netherstorm.ogg" }
 music = { name = "music_nightsong" file = "nightsong.ogg" }
 music = { name = "music_old_growth" file = "old_growth.ogg" }
@@ -91,3 +91,10 @@ music = { name = "music_jaina_homeland" file = "jaina_homeland.ogg" }
 music = { name = "music_classic_battle_e" file = "classic_battle_e.ogg" }
 music = { name = "music_pride_of_the_seas" file = "pride_of_the_seas.ogg" }
 music = { name = "music_xaxas" file = "xaxas.ogg" }
+music = { name = "music_gilneas_intro" file = "gilneas_intro.ogg" }
+music = { name = "music_invincible_an_karanir_thanagor" file = "invincible_an_karanir_thanagor.ogg" }
+music = { name = "music_acherus" file = "acherus.ogg" }
+music = { name = "music_culling_of_stratholme" file = "culling_of_stratholme.ogg" }
+music = { name = "music_battle_of_dazaralor" file = "battle_of_dazaralor.ogg" }
+music = { name = "music_cata_shadow" file = "cata_shadow.ogg" }
+music = { name = "music_fungal_fields_hallowfall" file = "fungal_fields_hallowfall.ogg" }

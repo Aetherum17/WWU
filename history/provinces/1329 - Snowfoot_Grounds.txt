@@ -1,25 +1,25 @@
 
 is_city = yes
 
-owner = B44
-controller = B44
-add_core = B44
+owner = STL
+controller = STL
+add_core = STL
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_furbolg
-religion = shamanism
+culture = culture_night_elf
+religion = elune
 
 
 hre = no
 trade_goods = resource_artifacts
 
 
-
-
-618.1.1 = {
-  religion = fel
-  culture = culture_corrupted_furbolg
+622.1.1 = {
+    owner = A94
+    controller = A94
+    add_core = A94
+	add_core = STL
 }

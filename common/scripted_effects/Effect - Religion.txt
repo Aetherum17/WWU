@@ -339,16 +339,16 @@ on_monarch_death__religion = {
 }
 
 on_siege_lost_province__religion = {
-    if = {
-        limit = {
-            FROM = {
-                has_estate_privilege = estate_religious_order_conversion_by_the_sword
-            }
-        }
+    # if = {
+        # limit = {
+            # FROM = {
+                # has_estate_privilege = estate_religious_order_conversion_by_the_sword
+            # }
+        # }
         
-        change_religion = FROM
-        add_nationalism = 5
-    }
+        # change_religion = FROM
+        # add_nationalism = 5
+    # }
 }
 
 #-----------------------------------
@@ -564,4 +564,18 @@ unlock_battle_inspiration_on_start = {
     unlock_cult = $NAME$_inspiration_3
     unlock_cult = $NAME$_inspiration_4
     unlock_cult = $NAME$_inspiration_5
+}
+
+set_up_of_estate_privileges = {
+	if = {
+		limit = {
+			ai = yes
+			OR = {
+				religion = scarlet_light
+				religion = cult_of_the_damned
+			}
+			has_estate = estate_clergy
+		}
+		set_estate_privilege = estate_clergy_eternal_damnation
+	}
 }

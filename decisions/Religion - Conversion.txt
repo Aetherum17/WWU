@@ -80,4 +80,36 @@ country_decisions = {
             factor = 0
         }
     }
+	
+	corruption_of_the_ruler_to_the_death = {
+        potential = {
+            ruler_religion = cult_of_the_damned
+			has_country_flag = can_corrupt_ruler
+			NOT = { has_country_flag = corruption_of_the_ruler_to_the_death_flag }
+        }
+        allow = {
+            stability = 3
+        }
+        effect = {
+            add_stability = -6
+            change_religion = cult_of_the_damned
+			
+			set_country_flag = corruption_of_the_ruler_to_the_death_flag
+        }		
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                ruler_religion = fel
+            }
+            
+            modifier = {
+                factor = 0
+                
+                NOT = { stability = 3 }
+            }
+        }
+    }
 }

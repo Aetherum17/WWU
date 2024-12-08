@@ -19,8 +19,12 @@ trade_goods = unknown
 	owner = F59
 	controller = F59
 	add_core = F59
-    
+    add_core = SRR
+	
 	culture = culture_ironforge
 	religion = holy_light
 }
 
+632.1.1 = {
+	remove_core = SRR
+}

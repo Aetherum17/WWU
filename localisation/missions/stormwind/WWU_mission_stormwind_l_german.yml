@@ -1,8 +1,8 @@
 ﻿l_german:
  # --- Missions ---
- #---------------------
- #--- Stormwind One ---
- #---------------------
+ #---------------------------
+ #--- Stormwind Gnoll War ---
+ #---------------------------
  STW_1_stormwind_column_1: ""
  STW_1_stormwind_column_2: ""
  STW_1_stormwind_column_3: ""
@@ -100,106 +100,344 @@
  event_stw_one_little_golden_era: "Little Golden Age"
  desc_event_stw_one_little_golden_era: ""
 
- #---------------------
- #--- Stormwind Old ---
- #---------------------
+ #-----------------------------------------------
+ #--- Custom Localization Stormwind Gnoll War ---
+ #-----------------------------------------------
+ STORMWIND_ONE_EVENT_INSIGHT_GUARDIAN_TT: "\nThe following event will allow you to call upon neibouring @P59 Karazhan. However, there is a risk of them turning against you, so be warned."
+ STORMWIND_ONE_EVENT_INSIGHT_IRONFORGE_TT: "\nThe following event will allow you to call upon dwarves of @A29 Ironforge. However, while powerful, they struggle with their own war of survival. Sending diplomats might cause you to join another war."
+ STORMWIND_ONE_EVENT_INSIGHT_LAST_TT: "\nThe following Events will resault in you obtaining the new mission tree. Finish your desired missions before progressing!\n"
+
+ SECURE_WESTFALL_TT: "\nHaving all of Westfall region secured will gurantee different rewards.\n"
+ SECURE_DUSKWOOD_TT: "\nHaving @GD3 Taeran's Brood as subject might benefit you more then outright owning the land.\n"
+
+ #----------------------
+ #--- Stormwind Main ---
+ #----------------------
  STW_stormwind_column_1: ""
  STW_stormwind_column_2: ""
  STW_stormwind_column_3: ""
  STW_stormwind_column_4: ""
  STW_stormwind_column_5: ""
- 
- STW_stormwind_calm_subjects_title: "Calm Subjects"
- STW_stormwind_calm_subjects_desc: "It is time to reign in our subjects and ensure they remain loyal to our cause."
- 
- STW_stormwind_reclaim_stonecairn_title: "Reclaim The Vale"
- STW_stormwind_reclaim_stonecairn_desc: "Our ancestral home is overrun by filthy mongrels. We must reclaim our lands and show those uncivilized races their strength cannot match to ours."
- 
- STW_stormwind_centralize_elwynn_title: "Centralize Elwyn Forest"
- STW_stormwind_centralize_elwynn_desc: "We must secure the future of our people by driving the gnolls back entirely."
- 
- STW_stormwind_secure_duskwood_banks_title: "Secure Darkshire Connection"
- STW_stormwind_secure_duskwood_banks_desc: "Our land connection with Darkshire was cut down by enigmatic sea creatures called Murlocs. We must clear the pathway between two regions by wiping out murlocs in Darkened Bank."
- 
- STW_stormwind_secure_westfall_shore_title: "Eliminate Murloc Threat"
- STW_stormwind_secure_westfall_shore_desc: "More and more murlocs are rising from the tides from eastern coast, giving huge trouble to both Westfall peasants and our navy. It is time to get rid of these troublemakers."
-  
- STW_stormwind_root_out_kobolds_title: "Root Out All Kobolds"
- STW_stormwind_root_out_kobolds_desc: "Kobolds are annoying creatures which pops out all kind of cave or mine, giving huge trouble to our miners. By wiping out entire kobold population near our homeland, we can ensure the safety of our mining production."
-  
- STW_stormwind_crush_the_gnoll_threat_title: "Western Gnoll Threat"
- STW_stormwind_crush_the_gnoll_threat_desc: "Another gnoll threat is rising from the Redridge mountains. We must drive them back from the Lakeshire and make sure they will not posses any threats ever again."
- 
- STW_stormwind_unite_azerothian_lands_title: "Integrate Regions"
- STW_stormwind_unite_azerothian_lands_desc: "Our people deserves greatness, and we will provide it to them. By controlling multiple frontier regions entirely, we can show everyone why they should fear our strength."
- 
- STW_stormwind_prepare_for_invasion_title: "Prepare Orcish Invasion"
- STW_stormwind_prepare_for_invasion_desc: "A dark threat is looming in Black Morass. Armies of green skinned creatures are pouring in from a great portal, threating our very existence. We must prepare!"
- 
- STW_stormwind_cut_down_the_gurubashi_title: "Cut Down Gurubashi Movement"
- STW_stormwind_cut_down_the_gurubashi_desc: "Before clashing with the orcs to protect our home, we must ensure we won't be distracted by our old enemies. By defeating trolls establishing a frontier in Stranglethorn, we can feel certain about the protection of our southern borders."
- 
- STW_stormwind_establish_forward_outpost_title: "Establish Forward Outpost"
- STW_stormwind_establish_forward_outpost_desc: "They say best defense is a good offense. We must move our armies into Black Morass and pin the orcs into the region. We must also attack Swamp of Sorrows nations in process but in this war of survival they're either with us, or against us." 
- 
- STW_stormwind_secure_the_swamp_title: "Secure Rear Guard"
- STW_stormwind_secure_the_swamp_desc: "It is time to push the orcs back to the hell they've poured from. But first, we must conquer the swamp areas, since corrupted trolls and their blood god might cause a problem during our crusade."
- 
- STW_stormwind_push_back_the_orcish_horde_title: "Crush the Orcish Horde"
- STW_stormwind_push_back_the_orcish_horde_desc: "The time has come! We must strike the orcish invaders and their demonic overlords, push them back to the portal. Then we can destroy the portal and end their terrible reign once and for all."
+
+ STW_stormwind_army_reform_title: "Army Reform"
+ STW_stormwind_army_reform_desc: "As our realm continued to grow, our armies expanded alongside it. However, with bigger armies, the issue of a lack of standardized protocols for training and structure turned out to be a thorn in the side of many generals. Without reform, it was inevitable that our army would find an enemy that would crush us under their might."
+
+ STW_stormwind_order_of_knights_title: "Order of Knights"
+ STW_stormwind_order_of_knights_desc: "Stormwind has been home to many promising knights, ever since the city was settled decades before by our forefathers. The tradition of horse riding, tournaments and general culture around knighthood had bred many fine warriors who, upon accepting an oath of honor, were stationed within our realm as soldiers, ready to be called to battle when necessary."
+
+ STW_stormwind_faith_and_magic_title: "Lessons in Faith and Magic"
+ STW_stormwind_faith_and_magic_desc: "Expansion of our realm had allowed many bright minds to join our ranks. Both priests and mages grasped a lot of influence within our society, leading to many innovations and religious prosperity, but also clashes between the two factions. A great debate had started, diving into two factions and asking who was more favored within the administrative ranks of our society. Priests, having been seen as spiritual leaders, argued they should have higher influence on the matter of the crown goals, whereas mages argued their innovative way of thinking was responsible for the progress of our society. As such, it was for the crown to decide which side we would favor in this conflict."
+
+ STW_stormwind_m_reestablish_order_title: "Reestablishing Order"
+ STW_stormwind_m_reestablish_order_desc: "Upon victory against the great Gnoll Horde, we were able to reclaim the lands that the Kingdom of Stormwind held before the great disaster. However, due to that victory, we had to resolve the issue of government between our subjects, who held influence within these lands. By appealing to them, we might get back their favors, strengthening our realms."
+
+ STW_stormwind_m_stormwind_ironforge_pact_title: "Alliance of Sword and Hammer"
+ STW_stormwind_m_stormwind_ironforge_pact_desc: "While diplomacy between the Kingdoms of Stormwind and Ironforge existed before, the official pact between the two of them was never officially acknowledged. As such, our diplomats had arrived in the Great Forge, with the proposition of a historical alliance between two crowns, that could offer a friendship able to last till the end of times."
+
+ STW_stormwind_m_gnomish_allies_title: "Gnomish Allies"
+ STW_stormwind_m_gnomish_allies_desc: "Living to the west of the Great Forge, Gnomeregan and the gnomes were always close to their dwarven brethren, and as such, they had contact with the humans of Stormwind before. Having our ties strengthened with Ironforge, we extended our hand to the gnomes, allowing them to partake as our allies and friends, ready to build a pact between three races."
+
+ STW_stormwind_m_secure_stranghlethorn_title: "Securing Stranghethorn Pass"
+ STW_stormwind_m_secure_stranghlethorn_desc: "Stranglethorn Pass existed as an important passing, dividing the realms of the humans with Stranglethorn jungles, which were declared domains of the Troll, influenced by the Gurubashi Kingdom. However, due to the threat of their constant raids and possible invasion, we decided to take over this land, reinforcing it and establishing our garrisons there, ready for any action from the trolls."
+
+ STW_stormwind_m_kurzen_expedition_title: "The Kurzen Expedition"
+ STW_stormwind_m_kurzen_expedition_desc: "Within our kingdom, there existed a faction that was willing to do a lot for the right price, calling themselves the Kurzen, after their main founder, Conrad Kurzen. We have decided to employ them for the task of establishing a foothold in the lands of the trolls. While we are yet to decide what the fate will be afterward, their assistance will be a great help in clearing out the region."
+
+ STW_stormwind_m_fort_livingston_title: "The Fort Livingston"
+ STW_stormwind_m_fort_livingston_desc: "Our incursion into the jungle offered us the chance to claim off the piece of land that we could fortify, projecting control over one of the main crossings between two parts of the jungle. With the help of Marshall Livingston, we constructed Fort Livingston, a stronghold of human influence in the region."
+
+ STW_stormwind_m_into_the_jungle_title: "Into the Jungle"
+ STW_stormwind_m_into_the_jungle_desc: "As we secured crossings between two parts of the jungle, we declared an invasion into its western part, separated by the river, with the goal of eliminating the troll threat living in there, known for the harassment of our people in Westfall and Brightwood. For this, we shall eliminate them once and for all."
+
+ STW_stormwind_m_securing_southern_stranglethorn_title: "Securing Southern Stranglethorn"
+ STW_stormwind_m_securing_southern_stranglethorn_desc: "Our conquest continues south, as we declared our mission to take over all of Stranglethorn from non-humans and assimilate it into our realm. As such, we pushed into the tip of the vale."
+
+ STW_stormwind_m_control_booty_bay_title: "Control of Boody Bay"
+ STW_stormwind_m_control_booty_bay_desc: "Booty Bay has over the years become one of the most important hubs of trade in this part of the world, rivaling most cities with its strategic position. While in the past we used our treasury to get favor with the goblin-controlled area, it was now time to bring it under our direct influence, allowing us to establish dominance in trade flowing into the region."
+
+ STW_stormwind_m_building_the_fleet_title: "Construction of Stormwind Fleet"
+ STW_stormwind_m_building_the_fleet_desc: "While in the past it did not seem so important to us, as our kingdom expanded, the need for a navy to protect our coastline became absolute. As such, we decided to construct one."
+
+ STW_stormwind_m_mercantile_connections_title: "Stormwind Mercentile Connection"
+ STW_stormwind_m_mercantile_connections_desc: "If we want to dominate the regions, we need to control the flow of trade. That was an obvious truth that every merchant and sailor in the stormwind harbor knew. We decided to challenge all in the war of influence, having our merchants build our positions as major trade powers in all realms we have seen as important for us."
+
+ STW_stormwind_m_stormwind_armada_title: "Stormwind Armada"
+ STW_stormwind_m_stormwind_armada_desc: "Stormwind has proven itself as a kingdom that could dominate both land and sea. While the matter on land remained in the hands of the generals, the fleet had been tasked with the formation of the great armada, one that could show our prowess on all the seas, rivaling Kul'tirans in their legends."
+
+ STW_stormwind_m_balor_naval_command_title: "Balor Naval Command"
+ STW_stormwind_m_balor_naval_command_desc: "Balor was always a vital part of Stormwind's sea influence. Having the Duchy of Balor integrated into our territory for years, the heir to the throne of Balor offered us an opportunity. We would establish a naval command in Balor, a fortified naval base that would project our power into the surrounding waters and develop great means of ship production and repair. However, the part of the discussion mentioned that the Duchy of Balor will become a sovereign state for the Kingdom of Stormwind. And while the idea of a naval base stuck with the visionaries, the decision about its fate remained in the crown's hands."
+
+ STW_stormwind_m_moving_against_zulgurub_title: "Moving against Zul'Gurub"
+ STW_stormwind_m_moving_against_zulgurub_desc: "Advancing on the borders of the Gurubashi capital, our armies cut out the troll access to the ocean, cutting Gurubash access to the sea, preventing them from escape."
+
+ STW_stormwind_m_siege_of_zulgurub_title: "Siege of Zul'Gurub"
+ STW_stormwind_m_siege_of_zulgurub_desc: "As the flame started to consume the city of the trolls, our armies marched forward, culling down all resistance, from raptor riders to her doctors, while remaining forces started the process of destruction. Generals watched as the troll temple crumbled, with the inner canals of Zul'gurub overflowing with blood. The morale of the Gurubashi fell, their leadership scattered, and the stability of their once proud kingdom collapsed; their end time shall soon follow, as the judgment of the light purges their unholy heresies."
+
+ STW_stormwind_m_elwynn_fortification_title: "Fortification of Elwynn Forest"
+ STW_stormwind_m_elwynn_fortification_desc: "Taking lessons from the Gnoll Wars, we were reminded how open to invasion our lands really were. Learning from this mistake meant reinforcing the borders of Elwynn Forest with fortification, ready to at least slow down enemy advances, while also providing means of counterattack and safety of movement for our troops"
+
+ STW_stormwind_m_securing_stonewatch_keep_title: "The Stonewatch Keep"
+ STW_stormwind_m_securing_stonewatch_keep_desc: "The Stonewatch Keep was an old fortress, built by the people of Lakeshire as a means of organizing military forces. While the old keep fell into disrepair, it was still possible to reinforce its base, allowing us to fortify the northeastern part of the Redridge Lake, forcing our adversaries to advance with a different path, or lay siege to the fortress."
+
+ STW_stormwind_m_invasion_of_black_moras_title: "Invasion of Black Moras"
+ STW_stormwind_m_invasion_of_black_moras_desc: "Having control over parts of Redridge, our eyes went south, down to the swampy lands of Black Morass, the region notorious for its muddy water, dangerous fauna and the presence of fanatical trolls."
+
+ STW_stormwind_m_culling_the_hakkari_title: "Culling of the Hakkari"
+ STW_stormwind_m_culling_the_hakkari_desc: "The Hakkari trolls came to be upon the civil war that divided the Gurubashi kingdom, when those who we would now call Hakkari tried to summon a blood god, Hakkar the Soulflayer, to Azeroth, regardless of cost, which included the Gurubashi trolls themselves. Having seen the madness of their ways, the Hakkari were declared too dangerous to be a part of Gurubashi, and banished from their lands. On the swampy terrain of Black Morass, they settled on the Temple of Atal'Hakkar, built to allow them to worship their blood god, waiting for his summoning to Azeroth. That was, until we dealt with them."
+
+ STW_stormwind_m_securing_northern_redridge_title: "Securing Northern Redridge"
+ STW_stormwind_m_securing_northern_redridge_desc: "To call our mission done, we must secure all that is considered part of the Redrige region. Nothing else is allowed."
+
+ STW_stormwind_m_morgan_camp_title: "The Morgan Camp"
+ STW_stormwind_m_morgan_camp_desc: "Expedition to the land of the Burning Steppes was considered insane. By most. Little did we know, there were people mad enough to agree to establish camp in this ashen landscape. The Morgan Camp. And so, having given legitimate reason to establish our control there, we founded the project, preparing us for the journey to come."
+
+ STW_stormwind_m_secure_eastern_steppes_title: "Securing Eastern Steppes"
+ STW_stormwind_m_secure_eastern_steppes_desc: "With our advance into the region, we had to secure the immediate areas first, being able to easily reinforce them from the Camp's supply line. Having ownership of those areas will allow us to clear an advance against the main target of the region, the massive volcano that was Blackrock Mountain."
+
+ STW_stormwind_m_invasion_of_blackrock_title: "Invasion of Blackrock Mountain"
+ STW_stormwind_m_invasion_of_blackrock_desc: "There are tales of the time before this region was known as the Burning Steppes. In the times of the War of the Three Hammers, three of the dwarven clans clashed against each other in this place, then known simply as Redridge, in the battle that could decide the end of the war. At that moment, the leader of the Dark Iron clan, King Thaurassian, called upon the power of the elements, wishing to summon a being that he could control and used to fight against the alliance of two clans. However, in his magical might, he summoned the Firelord himself, Ragnaros, and, in his wake, scorched the lands of redridge, creating the valley of ash and the dreadful Blackrock Mountain, getting his people enslaved by the Firelord in the process. Now, so many years after this tragedy, the rightful rulers of Redridge return to the Blackrock Mountain, wishing it reclaimed as their own."
+
+ STW_stormwind_m_dousing_molten_core_title: "Dousing the Molten Core"
+ STW_stormwind_m_dousing_molten_core_desc: "In our invasion, we were able to gain control over the region, and having pushed this fare, we declared war upon the Fire itself, wishing to banish Ragnaros influence from the Eastern Kingdoms. We stormed the Molten Core, where he resided, and banished the Firelord from the mountain, while also gaining access to one of the rifts that directly connected Azeroth with the lands of fire. As we reinforce our armies and lick our wounds, we prepare for the battle against the master of flame in his own domain, seeing him as a threat to Azeroth as we know it."
+
+ STW_stormwind_m_fall_of_the_firelord_title: "Fall of the Firelord"
+ STW_stormwind_m_fall_of_the_firelord_desc: "We have declared war upon the Firelord, ready to give everything to see his domain fall. Now, as the Sulfuron Keep itself is under our control, we can decide what to do with the defeated Firelord."
+
+ STW_stormwind_m_restoration_faith_duskwood_title: "Restoration of Faith: Brightwood"
+ STW_stormwind_m_restoration_faith_duskwood_desc: "Brightwood was always prone to danger of the unknown, its lands covered by deep forests and caves. Now, the people of Brightwood must fear no more, as the faith unites them in the struggles."
+
+ STW_stormwind_m_human_repopulation_duskwood_title: "Human Repopulation: Brightwood"
+ STW_stormwind_m_human_repopulation_duskwood_desc: "From west to east, signs of new human settlements bloomed, and new people assimilated the lands previously owned by non-humans. Development of such communities allowed us more efficient order, improving efficiency of work."
+
+ STW_stormwind_m_development_duskwood_title: "Development of Brightwood"
+ STW_stormwind_m_development_duskwood_desc: "From the taverns of Darkshire, to the gardens and cemeteries of Raven Hill, the region started to bloom once more with new centers of interest and small villages, happy to be a part of our great kingdom."
+
+ STW_stormwind_m_reducing_the_unrest_title: "Reducing the Frontier Unrest"
+ STW_stormwind_m_reducing_the_unrest_desc: "While we were able to reclaim the lands previously owned by our crown, those lands are not without their own problems. From new cults sprouting within their borders, new creatures settling, and general disorder and destruction, there is a lot of work before us."
+
+ STW_stormwind_m_restoration_faith_westfall_title: "Restoration of Faith: Westfall"
+ STW_stormwind_m_restoration_faith_westfall_desc: "Our faith had resurfaced in the lands of Westfall, uniting the people under a common cause, allowing us to reorganize the local structure as we wanted."
+
+ STW_stormwind_m_human_repopulation_westfall_title: "Human Repopulation: Westfall"
+ STW_stormwind_m_human_repopulation_westfall_desc: "From west to east, signs of new human settlements bloomed, and new people assimilated the lands previously owned by non-humans. Development of such communities allowed us more efficient order, improving efficiency of work."
+
+ STW_stormwind_m_development_westfall_title: "Development of Westfall"
+ STW_stormwind_m_development_westfall_desc: "The farmlands of Westfall started to bloom once more, offering rich gifts of food to the region, as the new settlements proved their use and allowed local farmers to continue their lives without fear of the unknown."
+
+ STW_stormwind_m_new_age_prosperity_title: "The Age of Prosperity"
+ STW_stormwind_m_new_age_prosperity_desc: "With our kingdom's border restored, lands united and prosperous, there shall be nothing that can stop us from reaching our future. The age of prosperity is upon us!"
+
+ STW_stormwind_m_restoration_faith_redridge_title: "Restoration of Faith: Redridge"
+ STW_stormwind_m_restoration_faith_redridge_desc: "Redridge was always a troubled region, spreading far and wide; it was susceptible to invasions, uprisings and many other issues. However, common faith showed the people that there is a path to move forward."
+
+ STW_stormwind_m_human_repopulation_redridge_title: "Human Repopulation: Redridge"
+ STW_stormwind_m_human_repopulation_redridge_desc: "From west to east, signs of new human settlements bloomed, and new people assimilated the lands previously owned by non-humans. Development of such communities allowed us more efficient order, improving efficiency of work."
+
+ STW_stormwind_m_development_redridge_title: "Development of Redridge"
+ STW_stormwind_m_development_redridge_desc: "Wait, its all Lakeshire?"
+
+ STW_stormwind_m_preparation_of_restoration_title: "Preparation for Restoration"
+ STW_stormwind_m_preparation_of_restoration_desc: "Having dealt with enemies in our region, we decided to focus our efforts on restoring and expanding the capital. With right laws, edicts and people in position, we should achive good resaults."
+
+ STW_stormwind_m_expansion_of_trade_district_title: "Expansion of Trade District"
+ STW_stormwind_m_expansion_of_trade_district_desc: "Trade District exists as central hub of trade for Stormwind. With many vital shops, bank and auction houses, it is vital part of the city properity, and by extention, should be taken care off first and foremost."
+
+ STW_stormwind_m_development_of_old_town_title: "Development of Old Town"
+ STW_stormwind_m_development_of_old_town_desc: "Old Town stands as the begining of the city. The first small exclave, from which the city rose to its current status. With Champion's Hall and City Command Center, its influence can be sensed with the city order and fair law treatment."
+
+ STW_stormwind_m_industial_district_title: "The Industrial District"
+ STW_stormwind_m_industial_district_desc: "Commonly refered to as Dwarven Distict, it houses center of city heavy production, metalurgy and engineering. Additionaly, a wonder of engineering, the Deeprun Tram, also connects with it, allowing travel between Stormwind and Ironforge without much issues. We must focus on expanding the district, to make sure people work there can be very efficient, returning us the investment."
+
+ STW_stormwind_m_the_park_district_title: "The Park District"
+ STW_stormwind_m_the_park_district_desc: "After a long day of work, a stressful duty, or argument about whatever with a loved one, one needs a place to rest, calm down, and enjoy a moment of peace. This is what the Park District stands for. To offer those who are overwhelmed by the moment a chance to rest and reflect."
+
+ STW_stormwind_m_the_mage_district_title: "The Mage District Establisment"
+ STW_stormwind_m_the_mage_district_desc: "Stormwind Mage Tower stand as one of the most monumental projects the city have decided to invest into. It offers mages a chance to have their reaserch and practice in peace, as well as offers protection to those who are not mages, when things expode. Luckly, that is a rare occurance, but still, its best to have a dedicated area for the trainers of magic."
+
+ STW_stormwind_m_the_catedral_district_title: "The Cathedral District Expansion"
+ STW_stormwind_m_the_catedral_district_desc: "Cathedral District stands as the central monument to the city, allowing all faithful to gather and devote themselves to the upmost holy faith of the Light, to heal their broken hearts, cleanse their minds of worries and speak with a man who is willing to listen at any moment."
+
+ STW_stormwind_m_gates_of_stormwind_title: "The Gates of Stormwind"
+ STW_stormwind_m_gates_of_stormwind_desc: "The Walls of Stormwind have always stood in purpuse. Gnoll Horde, Troll Kingdoms, and more, have tried to breach the bastion of human influence in the South. Even if we were victorious, and can celebrate, it is important to keep those sturdy constructions maintained."
+
+ STW_stormwind_m_stormwind_harbor_title: "Expansion of Stormwind Harbor"
+ STW_stormwind_m_stormwind_harbor_desc: "On the other end of the city, Stormwind Harbor stands as window to the world, and docking base for our navy. With it, we can have organized shipyards, and make sure we can construct right amount of ships, when the times call for that."
+
+ STW_stormwind_m_stormwind_keep_title: "The Stormwind Keep"
+ STW_stormwind_m_stormwind_keep_desc: "Stormwind Keep stands as symbol of the power of the city, and its most treasured position. Here, the king decides the fate of the whole realm. Here, alliences are forged and broken, pacts sighed, vows taken. The throne room of Stormwind opens for all delagates, but stands closed for the enemies that wish to conquer it."
+
+ STW_stormwind_m_goldshire_expansion_title: "Expansion of Goldshire"
+ STW_stormwind_m_goldshire_expansion_desc: "As expansion of the city continued, the major of Goldshire decided to join the project, calling for decree that will help cities of Elwynn Forest to not stand out compared to rest of the realm."
+
+ STW_stormwind_m_westvale_and_eastvale_title: "The Vales of West and East"
+ STW_stormwind_m_westvale_and_eastvale_desc: "Westvale and Eastvale both bring nessesary resources to the capital, with food, lumber, finished goods and people to work. We should focus on expanding those regions as well, to retain the good grasp on the area, and prevent rise of unnesesary adversaries."
+
+ STW_stormwind_m_kings_road_title: "Construction of King's Road"
+ STW_stormwind_m_kings_road_desc: "King's Road idea came from those who spoke about great Lordaeron, and the system of roads that connected all major cities there. We have decided to copy that idea, and raise infrastructure levels of our realms."
+
+ stw_stormwind_m_northshire_vineyards_title: "Northshire Abbey"
+ stw_stormwind_m_northshire_vineyards_desc: "Northshire is an important center of worship, and home to the Northshire Brotherhood, a devoted sect of priests of the Holy Light, know from their hospitability and compassion. However, from production point, it is important center for production of many regional brews, with vast vineyards in the area. We must make sure they prosper!"
  
  # --- Modifiers ---
- mission_centralized_elwynn: "Centralized Elwynn Forest"
- desc_mission_centralized_elwynn: ""
- 
- mission_darkshire_trade: "Darkshire Trade Connections"
- desc_mission_darkshire_trade: ""
- 
- mission_secured_westfall_shore: "Secured Westfall"
- desc_mission_secured_westfall_shore: ""
- 
- mission_kobold_purge: "Kobold Purge"
- desc_mission_kobold_purge: ""
- 
- mission_gnoll_purge: "Gnoll Purge"
- desc_mission_gnoll_purge: ""
- 
- mission_unity_of_stormwind: "Unity of Stormwind"
- desc_mission_unity_of_stormwind: ""
- 
- mission_prepared_for_invasion: "Invasion Preparation"
- desc_mission_prepared_for_invasion: ""
- 
- mission_gurubashi_neutralized: "Gurubashi Neutralized"
- desc_mission_gurubashi_neutralized: ""
- 
- mission_swamp_base: "Forward Headquarters"
- desc_mission_swamp_base: ""
- 
- mission_secured_the_swamp: "Secured the Swamp"
- desc_mission_secured_the_swamp: ""
- 
- mission_heroes_of_the_first_war: "Heroes of the First War"
- desc_mission_heroes_of_the_first_war: ""
 
- mission_vassal_revolt: "Vassal Revolt"
- desc_mission_vassal_revolt: ""
- 
- mission_subject_support: "Subject Support"
- desc_mission_subject_support: ""
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ mission_cavalry_expansion: "Cavalry Expansion"
+ desc_mission_cavalry_expansion: ""
+
+ mission_satisfied_subjects: "Satisfied Subjects"
+ desc_mission_satisfied_subjects: ""
+
+ mission_gnomish_guests: "Gnomish Guests"
+ desc_mission_gnomish_guests: ""
+
+ mission_stormwindian_engineers: "Stormwindian Engineers"
+ desc_mission_stormwindian_engineers: ""
+
+ mission_stranglethorn_pass: "The Stranglethorn Pass Garrison"
+ desc_mission_stranglethorn_pass: ""
+
+ mission_stranglethorn_trade: "Stormwind Stranglethorn Trade Control"
+ desc_mission_stranglethorn_trade: ""
+
+ mission_kings_fleet: "King's Fleet"
+ desc_mission_kings_fleet: ""
+
+ mission_stormwind_mercentile: "Stormwind Mercentile Power"
+ desc_mission_stormwind_mercentile: ""
+
+ mission_stw_contstruct_fleet: "Stormwind Naval Effort"
+ desc_mission_stw_contstruct_fleet: ""
+
+ mission_elwynn_fortification: "Elwynn Fortification"
+ desc_mission_elwynn_fortification: ""
+
+ mission_redridge_fortification: "Redridge Fortification"
+ desc_mission_redridge_fortification: ""
+
+ mission_swamp_of_sorrows: "Control of Swamp of Sorrows"
+ desc_mission_swamp_of_sorrows: ""
+
+ mission_hakkari_culling: "The Culling of the Hakkari"
+ desc_mission_hakkari_culling: ""
+
+ mission_westfall_developed: "Developed Lands: Westfall"
+ desc_mission_westfall_developed: ""
+
+ mission_duskwood_developed: "Developed Lands: Brightwood"
+ desc_mission_duskwood_developed: ""
+
+ mission_redridge_developed: "Developed Lands: Redridge"
+ desc_mission_redridge_developed: ""
+
+ mission_westfall_production: "Developing Communities: Westfall"
+ desc_mission_westfall_production: ""
+
+ mission_duskwood_production: "Developing Communities: Brightwood"
+ desc_mission_duskwood_production: ""
+
+ mission_redridge_production: "Developing Communities: Redridge"
+ desc_mission_redridge_production: ""
+
+ mission_new_age_prosperity: "Age of Prosperity"
+ desc_mission_new_age_prosperity: ""
+
+ mission_stormwind_development: "Stormwind Development Plan"
+ desc_mission_stormwind_development: ""
+
+ mission_dwarven_district: "Dwarven District Act"
+ desc_mission_dwarven_district: ""
+
+ mission_park_district: "The Peace of Park District"
+ desc_mission_park_district: ""
+
+ mission_stormwind_gates: "Walls of Stormwind"
+ desc_mission_stormwind_gates: ""
+
+ mission_stormwind_harbor: "Stormwind Harbor"
+ desc_mission_stormwind_harbor: ""
+
+ mission_harbor: "Renovated Stormwind Harbor"
+ desc_mission_harbor: ""
+
+ mission_stw_keep_local: "The Grand City of Stormwidn"
+ desc_mission_stw_keep_local: ""
+
+ mission_stormwind_keep: "Might of Stormwind City"
+ desc_mission_stormwind_keep: ""
+
+ mission_kings_road: "Kings's Road"
+ desc_mission_kings_road: ""
+
+ mission_wine: "Wine Boom!"
+ desc_mission_wine: ""
+
+ mission_elwynn_prosperity: "Elwynn Prosperity"
+ desc_mission_elwynn_prosperity: ""
+
+ #Event
+
+ mission_army_reform_one: "Army Reform: General"
+ desc_mission_army_reform_one: ""
+
+ mission_army_reform_two: "Army Reform: Mercenaries"
+ desc_mission_army_reform_two: ""
+
+ mission_army_reform_three: "Army Reform: Combat"
+ desc_mission_army_reform_three: ""
+
+ mission_priest_specialization: "Specialization: Priests"
+ desc_mission_priest_specialization: ""
+
+ mission_mage_specialization: "Specialization: Mages"
+ desc_mission_priest_specialization: ""
+
+ mission_arcane_stormwind: "Arcane Diplomats"
+ desc_mission_arcane_stormwind: ""
+
+ mission_stw_balor_naval_command_combat: "Balor Naval Command: Combat"
+ desc_mission_stw_balor_naval_command_combat: ""
+
+ mission_stw_balor_naval_command_economy: "Balor Naval Command: Economy"
+ desc_mission_stw_balor_naval_command_economy: ""
+
+ mission_balor_command: "Balor Command Center"
+ desc_mission_balor_command: ""
+
+ mission_stormwind_balor_command: "Stormwind's Balor Command Center" 
+ desc_mission_stormwind_balor_command: ""
+
+ mission_ruined_tainted_temple: "Ruined Tainted Temple"
+ desc_mission_ruined_tainted_temple: ""
+
+ mission_master_of_flame: "Masters of Flames"
+ desc_mission_master_of_flame: ""
+
+ # ---Mercenaries---
+ SPECIALIST_BROTHERHOOD_TT: "Unlock the §YStromwind Knights§! Mercenary Company.\nCompany bonuses are:\n§G+10%§! Shock Damage\n§G+25%§! Cavalry to Infantry Ratio\n§G+15%§! Cavalry Combat Ability"
+ SPECIALIST_LIVINGSTON_TT: "Unlock the §YLivingston Company§! Mercenary Company.\nCompany bonuses are:\n§G+10%§! Infantry Combat Ability\n§G+5%§! Discipline"
+ SPECIALIST_STONEWATCH_TT: "Unlock the §YStonewatch Warband§! Mercenary Company.\nCompany bonuses are:\n§G+15%§! Morale of Armies\n§G-5%§! Fire Damage Received"
+ SPECIALIST_FOOTMENT_TT: "Unlock the §YStormwind Footmen§! Mercenary Company.\nCompany bonuses are:\n§G+5%§! Morale of Armies\n§Y+5%§W Shock Damage Received"
+
+ # ---Custom Descriptions ---
+ ENABLE_PRIVILIEGE_LORDS_ON_HORSES_TT: "Unlock the §YLords of Horses Nobility Privilige§!"
+
+ ENABLE_PRIVILIGE_GUILD_OF_HEROES_TT: "\nUnlock the §YGuild of Heroes Nobility Privilige§!"
+
+ ENABLE_PRIVILIGE_STORMWIND_PURCHASE_TRANSPORT_TT: "\nUnlock the §YPurchase Merchant Transport Ships Traders Privilige§!"
+
+ has_enabled_estate_action_GRANT_GENERALSHIP_NOBLES_STW_tt:0 "[Root.HasEstateDecisionText] §Y[Root.GetNobilityName]: Grant Generalship§!"
+ enable_estate_action_GRANT_GENERALSHIP_NOBLES_STW_tt:0 "[Root.EnableEstateDecisionText] §Y[Root.GetNobilityName]: Grant Generalship§!"
+ disable_estate_action_GRANT_GENERALSHIP_NOBLES_STW_tt:0 "[Root.DisableEstateDecisionText] §Y[Root.GetNobilityName]: Grant Generalship§!"
+
+ STORMWIND_UNLOCK_MERCENTILE_FLAGSHIP_TT: "Unlocks the §YStormwind Mercantile Reach§! Flagship Modification"
+ STORMWIND_UNLOCK_ARMADA_FLAGSHIP_TT:  "Unlocks the §YStormwind Grand Armada§! Flagship Modification"
+
+# ---Stormwind History/Other Localization---
+
+ stormwind_crippled: "Crippled Administration"
+ desc_stormwind_crippled: ""
+
+ stormwind_isolationism: "Stormwind Isolationism"
+ desc_stormwind_isolationism: ""
+
+ event_gnoll_war_stormwind_manpower: "Fresh Recruits"
+ desc_event_gnoll_war_stormwind_manpower: ""

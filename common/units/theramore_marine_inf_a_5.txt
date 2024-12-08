@@ -1,0 +1,15 @@
+type = infantry
+
+maneuver = 2
+offensive_morale = 5
+defensive_morale = 7
+offensive_fire = 5
+defensive_fire = 6
+offensive_shock = 6
+defensive_shock = 5
+
+trigger = {
+    A23 = {
+        mission_completed = A23_theramorean_marines
+    }
+}

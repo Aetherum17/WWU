@@ -6,7 +6,7 @@ mercantilism 		= 10
 technology_group 	= tech_jungle_troll
 religion			= voodoo
 primary_culture 	= culture_jungle_troll
-capital 			= 1385
+capital 			= 1003
 
 
 546.1.1 = {
@@ -29,6 +29,10 @@ capital 			= 1385
         dip = 5
         mil = 3
     }
+}
+
+595.1.1 = {
+    capital = 4116
 }
 
 617.1.1 = {
@@ -54,6 +58,7 @@ capital 			= 1385
 
 618.1.1 = {
     historical_friend = THB
+	capital = 1385
 }
 
 621.1.1 = {

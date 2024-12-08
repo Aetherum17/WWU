@@ -579,6 +579,10 @@ A08_lordaeron_column_5 = {
 		effect = {
 			add_mil_power = 100
 			add_prestige = 10
+
+			region_western_plaguelands = {
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 

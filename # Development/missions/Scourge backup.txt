@@ -1,0 +1,42 @@
+#P11_oust_ymirjar = { 
+		#icon = mission_shaman_rage
+        #position = 2
+        #
+		#required_missions = { P11_stabilize_the_frozen_throne }
+        #
+		#trigger = {
+        #    NOT = { exists = P15 }
+        #    3229 = { country_or_non_sovereign_subject_holds = ROOT }
+        #    3228 = { country_or_non_sovereign_subject_holds = ROOT }
+        #    947 = { country_or_non_sovereign_subject_holds = ROOT }
+		#}
+		#provinces_to_highlight = {
+        #    OR = {
+        #        owned_by = P15
+        #        province_id = 3229
+        #        province_id = 3228
+        #        province_id = 947
+        #    }
+        #    NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		#effect = {
+        #    # culture_vargul
+        #    3229 = {
+        #        change_culture = ROOT
+        #        change_religion = ROOT
+        #    }
+        #    3228 = {
+        #        change_culture = ROOT
+        #        change_religion = ROOT
+        #    }
+        #    947 = {
+        #        change_culture = ROOT
+        #        change_religion = ROOT
+        #    }
+        #    
+        #    add_power_projection = {
+        #        type = mission_rewards_power_projection
+        #        amount = 10
+        #    }
+		#}
+	#}

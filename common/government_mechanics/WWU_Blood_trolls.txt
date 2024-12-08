@@ -1,0 +1,214 @@
+ blood_trolls_mechanic = {
+	 alert_icon_gfx = GFX_alerticons_government_mechanics
+	 alert_icon_index = 5
+
+	 available = {
+		 has_dlc = "Domination"
+	 }
+
+	 interactions = {
+		 blood_troll_ability_1 = {
+			 icon = GFX_blood_troll_ability_1
+			 trigger = {
+				custom_trigger_tooltip = {
+					tooltip = nazmir_blood_3_check
+		            check_variable = {
+                which = nazmir_blood
+                value = 3
+            }
+			}
+				 adm_power_cost = 10
+				 any_owned_province = {
+					 religion = bloodmancy
+							NOT = {
+								OR = {
+								has_province_modifier = nazmir_blood_troll_ability_1_totem
+								has_province_modifier = nazmir_blood_troll_ability_2_totem
+								has_province_modifier = nazmir_blood_troll_ability_3_totem
+								}
+							}
+				 }
+			 }
+			 effect = {
+			custom_tooltip = nazmir_lose_3_blood
+			hidden_effect = {
+		            change_variable = {
+                		which = nazmir_blood
+               		    value = -3
+            }
+		            change_variable = {
+                		which = nazmir_blood_mini
+               		    value = 1
+            }
+			}
+				 adm_power_cost = 10
+			custom_tooltip = nazmir_blood_troll_ability_1
+			hidden_effect = {
+		            random_owned_province = {
+						limit = {
+							religion = bloodmancy
+							NOT = {
+								OR = {
+								has_province_modifier = nazmir_blood_troll_ability_1_totem
+								has_province_modifier = nazmir_blood_troll_ability_2_totem
+								has_province_modifier = nazmir_blood_troll_ability_3_totem
+								}
+							}
+						}
+			add_base_tax = 1
+            add_province_modifier = {
+                name = nazmir_blood_troll_ability_1_totem
+                duration = -1                                             
+            }
+					}
+			}
+			 }
+			 cooldown_years = 5
+			 ai_chance = {
+				 factor = 1
+			 }
+		 }
+		 blood_troll_ability_2 = {
+			 icon = GFX_blood_troll_ability_2
+			 trigger = { 
+				custom_trigger_tooltip = {
+					tooltip = nazmir_blood_3_check
+		            check_variable = {
+                which = nazmir_blood
+                value = 3
+            }
+			}
+				 dip_power_cost = 10
+				 any_owned_province = {
+					 religion = bloodmancy
+							NOT = {
+								OR = {
+								has_province_modifier = nazmir_blood_troll_ability_1_totem
+								has_province_modifier = nazmir_blood_troll_ability_2_totem
+								has_province_modifier = nazmir_blood_troll_ability_3_totem
+								}
+							}
+				 }
+			 }
+			 effect = { 
+			custom_tooltip = nazmir_lose_3_blood
+			hidden_effect = {
+		            change_variable = {
+                		which = nazmir_blood
+               		    value = -3
+            }
+		            change_variable = {
+                		which = nazmir_blood_mini
+               		    value = 1
+            }
+			}
+				 dip_power_cost = 10
+			custom_tooltip = nazmir_blood_troll_ability_2
+			hidden_effect = {
+		            random_owned_province = {
+						limit = {
+							religion = bloodmancy
+							NOT = {
+								OR = {
+								has_province_modifier = nazmir_blood_troll_ability_1_totem
+								has_province_modifier = nazmir_blood_troll_ability_2_totem
+								has_province_modifier = nazmir_blood_troll_ability_3_totem
+								}
+							}
+						}
+			add_base_production = 1
+            add_province_modifier = {
+                name = nazmir_blood_troll_ability_2_totem
+                duration = -1                                             
+            }
+					}
+			}
+			 }
+			 cooldown_years = 5
+			 ai_chance = {
+				 factor = 10
+			 }
+		 }
+		 blood_troll_ability_3 = {
+			 icon = GFX_blood_troll_ability_3
+			 trigger = {
+				custom_trigger_tooltip = {
+					tooltip = nazmir_blood_3_check
+		            check_variable = {
+                which = nazmir_blood
+                value = 3
+            }
+			}
+				 mil_power_cost = 10
+				 any_owned_province = {
+					 religion = bloodmancy
+							NOT = {
+								OR = {
+								has_province_modifier = nazmir_blood_troll_ability_1_totem
+								has_province_modifier = nazmir_blood_troll_ability_2_totem
+								has_province_modifier = nazmir_blood_troll_ability_3_totem
+								}
+							}
+				 }
+			 }
+			 effect = { 
+			custom_tooltip = nazmir_lose_3_blood
+			hidden_effect = {
+		            change_variable = {
+                		which = nazmir_blood
+               		    value = -3
+            }
+		            change_variable = {
+                		which = nazmir_blood_mini
+               		    value = 1
+            }
+			}
+				 mil_power_cost = 10
+			custom_tooltip = nazmir_blood_troll_ability_3
+			hidden_effect = {
+		            random_owned_province = {
+						limit = {
+							religion = bloodmancy
+							NOT = {
+								OR = {
+								has_province_modifier = nazmir_blood_troll_ability_1_totem
+								has_province_modifier = nazmir_blood_troll_ability_2_totem
+								has_province_modifier = nazmir_blood_troll_ability_3_totem
+								}
+							}
+						}
+			add_base_manpower = 1
+            add_province_modifier = {
+                name = nazmir_blood_troll_ability_3_totem
+                duration = -1                                             
+            }
+					}
+			}
+			 }
+			 cooldown_years = 5
+			 ai_chance = {
+				 factor = 100
+				 modifier = {
+					 factor = 20
+					 not = { manpower_percentage = 0.3 }
+				 }
+				 modifier = {
+					 factor = 20
+					 not = { manpower_percentage = 0.2 }
+				 }
+				 modifier = {
+					 factor = 20
+					 not = { manpower_percentage = 0.1 }
+				 }
+				 modifier = {
+					 factor = 100
+					 is_in_important_war = yes
+				 }
+				 modifier = {
+					 factor = 0
+					 is_at_war = no
+				 }
+			 }
+		 }
+	 }
+ }

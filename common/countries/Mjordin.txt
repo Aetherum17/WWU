@@ -1,0 +1,1005 @@
+ graphical_culture = vrykul_gfx
+
+color = { 126 138 123 }
+
+monarch_names = {
+	"Ake" = 1
+	"Alva" = 1
+	"Arvid" = 1
+	"Asger" = 1
+	"Asmund" = 1
+	"Audun" = 1
+	"Blader" = 1
+	"Bard" = 1
+	"Birger" = 1
+	"Bjarke" = 1
+	"Bjarni" = 1
+	"Bjarte" = 1
+	"Bjorn" = 1
+	"Brandt" = 1
+	"Brant" = 1
+	"Brynjar" = 1
+	"Calder" = 1
+	"Canute" = 1
+	"Carr" = 1
+	"Colborn" = 1
+	"Colby" = 1
+	"Colden" = 1
+	"Corey" = 1
+	"Crosby" = 1
+	"Cuyler" = 1
+	"Dag" = 1
+	"Dagfinn" = 1
+	"Darby" = 1
+	"Destin" = 1
+	"Dustin" = 1
+	"Dusty" = 1
+	"Erikki" = 1
+	"Egil" = 1
+	"Einar" = 1
+	"Eindride" = 1
+	"Eirik" = 1
+	"Elof" = 1
+	"Eluf" = 1
+	"Endre" = 1
+	"Eric" = 1
+	"Erico" = 1
+	"Erland" = 1
+	"Erlend" = 1
+	"Erling" = 1
+	"Even" = 1
+	"Fell" = 1
+	"Felman" = 1
+	"Fiske" = 1
+	"Folke" = 1
+	"Frey" = 1
+	"Fritjof" = 1
+	"Frode" = 1
+	"Gandalf" = 1
+	"Garth" = 1
+	"Geir" = 1
+	"Gosta" = 1
+	"Gudbrand" = 1
+	"Gudmund" = 1
+	"Gulbrand" = 1
+	"Gunnar" = 1
+	"Gunne" = 1
+	"Gustav" = 1
+	"Gustavo" = 1
+	"Hackett" = 1
+	"Hagen" = 1
+	"Hakon" = 1
+	"Haldor" = 1
+	"Hall" = 1
+	"Halstein" = 1
+	"Halvar" = 1
+	"Halvard" = 1
+	"Halvdan" = 1
+	"Halvor" = 1
+	"Hammond" = 1
+	"Haskell" = 1
+	"Havardr" = 1
+	"Hemming" = 1
+	"Herleif" = 1
+	"Herleifr" = 1
+	"Hjalmar" = 1
+	"Holger" = 1
+	"Holmes" = 1
+	"Igor" = 1
+	"Inge" = 1
+	"Ingemar" = 1
+	"Ingfred" = 1
+	"Inghard" = 1
+	"Ingolf" = 1
+	"Ingvar" = 1
+	"Ivar" = 1
+	"Iver" = 1
+	"Jari" = 1
+	"Jarl" = 1
+	"Jarle" = 1
+	"Jary" = 1
+	"Jerk" = 1
+	"Jerker" = 1
+	"Jerrik" = 1
+	"Kare" = 1
+	"Kelby" = 1
+	"Keld" = 1
+	"Kensley" = 1
+	"Kettil" = 1
+	"Kirby" = 1
+	"Kirk" = 1
+	"Kirkland" = 1
+	"Kirkwood" = 1
+	"Kjeld" = 1
+	"Kjell" = 1
+	"Knud" = 1
+	"Knute" = 1
+	"Kory" = 1
+	"kustaa" = 1
+	"Lamont" = 1
+	"Lamonte" = 1
+	"Langley" = 1
+	"Latham" = 1
+	"Leif" = 1
+	"Loki" = 1
+	"Manning" = 1
+	"Odin" = 1
+	"Olaf" = 1
+	"Olavi" = 1
+	"Olavo" = 1
+	"Olin" = 1
+	"Olle" = 1
+	"Olsen" = 1
+	"Oluf" = 1
+	"Osmond" = 1
+	"Ove" = 1
+	"Ralph" = 1
+	"Randolph" = 1
+	"Rangvald" = 1
+	"Rangvaldr" = 1
+	"Raoul" = 1
+	"Raul" = 1
+	"Ronald" = 1
+	"Ronaldo" = 1
+	"Roscoe" = 1
+	"Selby" = 1
+	"Shelby" = 1
+	"Sigurd" = 1
+	"Soini" = 1
+	"Steen" = 1
+	"Stein" = 1
+	"Steiner" = 1
+	"Sten" = 1
+	"Stian" = 1
+	"Stig" = 1
+	"Stigr" = 1
+	"Sture" = 1
+	"Sutherland" = 1
+	"Sveinn" = 1
+	"Sven" = 1
+	"Svend" = 1
+	"Tait" = 1
+	"Tarben" = 1
+	"Thor" = 1
+	"Thorpe" = 1
+	"Thorsen" = 1
+	"Thorsten" = 1
+	"Thorvaldr" = 1
+	"Thurman" = 1
+	"Thurmond" = 1
+	"Thurston" = 1
+	"Torben" = 1
+	"Torbjorn" = 1
+	"Tore" = 1
+	"Torsten" = 1
+	"Torvald" = 1
+	"Troels" = 1
+	"Trygve" = 1
+	"Tue" = 1
+	"Tyr" = 1
+	"Uffe" = 1
+	"Ulf" = 1
+	"Unn" = 1
+	"Vali" = 1
+	"Vern" = 1
+	"Vernon" = 1
+	"Vidar" = 1
+	"Viggo" = 1
+	"Welch" = 1
+	"Alfhild" = -1
+	"Alva" = -1
+	"Alvilda" = -1
+	"Ase" = -1
+	"Aslaug" = -1
+	"Aslog" = -1
+	"Asta" = -1
+	"Astrid" = -1
+	"Audhild" = -1
+	"Bergljot" = -1
+	"Bodil" = -1
+	"Borghild" = -1
+	"Brenda" = -1
+	"Brenna" = -1
+	"Dagmar" = -1
+	"Dagny" = -1
+	"Darby" = -1
+	"Dusty" = -1
+	"Eerika" = -1
+	"Eira" = -1
+	"Embla" = -1
+	"Erica" = -1
+	"Erika" = -1
+	"Eydis" = -1
+	"Freja" = -1
+	"Gerd" = -1
+	"Gull" = -1
+	"Gunborg" = -1
+	"Gunhild" = -1
+	"Gunilla" = -1
+	"Gunvor" = -1
+	"Gyda" = -1
+	"Hege" = -1
+	"Helga" = -1
+	"Helka" = -1
+	"Hella" = -1
+	"Helle" = -1
+	"Hertha" = -1
+	"Hillevi" = -1
+	"Inge" = -1
+	"Ingeborg" = -1
+	"Inger" = -1
+	"Ingrid" = -1
+	"Inkeri" = -1
+	"Iona" = -1
+	"Jorunn" = -1
+	"Kari" = -1
+	"Magnhild" = -1
+	"Nanna" = -1
+	"Oili" = -1
+	"Olga" = -1
+	"Oydis" = -1
+	"Ragna" = -1
+	"Ragnhild" = -1
+	"Runa" = -1
+	"Saga" = -1
+	"Sassa" = -1
+	"Selby" = -1
+	"Shelby" = -1
+	"Sigfrid" = -1
+	"Signe" = -1
+	"Signy" = -1
+	"Sigrid" = -1
+	"Sigrun" = -1
+	"Siri" = -1
+	"Siv" = -1
+	"Solveig" = -1
+	"Solvej" = -1
+	"Solvi" = -1
+	"Sylvi" = -1
+	"Thora" = -1
+	"Thyra" = -1
+	"Tone" = -1
+	"Torborg" = -1
+	"Tordis" = -1
+	"Torhild" = -1
+	"Toril" = -1
+	"Torny" = -1
+	"Tove" = -1
+	"Turid" = -1
+	"Tyra" = -1
+	"Unn" = -1
+	"Ylva" = -1
+
+}
+
+leader_names = {
+	"Kvaldir"
+	"Kvaldar"
+	"Kvalder"
+	"Kvalhilde"
+	"Kvalhalde"
+	"Kvalhulde"
+	"Kvalholde"
+	"Kvalhilda"
+	"Kvalhalde"
+	"Kvalholde"
+	"Kvalhulde"
+	"Kvalheim"
+	"Kvalhaim"
+	"Kvalhuim"
+	"Kvalflayer"
+	"Kvalflay"
+	"Kvalflogger"
+	"Kvalflog"
+	"Kvalwhipper"
+	"Kvalwhip"
+	"Kvalskorn"
+	"Kvalskorn"
+	"Kvalskirn"
+	"Kvalskurn"
+	"Kvalskarn"
+	"Skadir"
+	"Skadar"
+	"Skader"
+	"Skahilde"
+	"Skahalde"
+	"Skahulde"
+	"Skaholde"
+	"Skahilda"
+	"Skahalde"
+	"Skaholde"
+	"Skahulde"
+	"Skaheim"
+	"Skahaim"
+	"Skahuim"
+	"Skaflayer"
+	"Skaflay"
+	"Skaflogger"
+	"Skaflog"
+	"Skawhipper"
+	"Skawhip"
+	"Skaskorn"
+	"Skaskorn"
+	"Skaskirn"
+	"Skaskurn"
+	"Skaskarn"
+	"Sbadir"
+	"Sbadar"
+	"Sbader"
+	"Sbahilde"
+	"Sbahalde"
+	"Sbahulde"
+	"Sbaholde"
+	"Sbahilda"
+	"Sbahalde"
+	"Sbaholde"
+	"Sbahulde"
+	"Sbaheim"
+	"Sbahaim"
+	"Sbahuim"
+	"Sbaflayer"
+	"Sbaflay"
+	"Sbaflogger"
+	"Sbaflog"
+	"Sbawhipper"
+	"Sbawhip"
+	"Sbaskorn"
+	"Sbaskorn"
+	"Sbaskirn"
+	"Sbaskurn"
+	"Sbaskarn"
+	"Kaldir"
+	"Kaldar"
+	"Kalder"
+	"Kalhilde"
+	"Kalhalde"
+	"Kalhulde"
+	"Kalholde"
+	"Kalhilda"
+	"Kalhalde"
+	"Kalholde"
+	"Kalhulde"
+	"Kalheim"
+	"Kalhaim"
+	"Kalhuim"
+	"Kalflayer"
+	"Kalflay"
+	"Kalflogger"
+	"Kalflog"
+	"Kalwhipper"
+	"Kalwhip"
+	"Kalskorn"
+	"Kalskorn"
+	"Kalskirn"
+	"Kalskurn"
+	"Kalskarn"
+	"Kvildir"
+	"Kvildar"
+	"Kvilder"
+	"Kvilhilde"
+	"Kvilhalde"
+	"Kvilhulde"
+	"Kvilholde"
+	"Kvilhilda"
+	"Kvilhalde"
+	"Kvilholde"
+	"Kvilhulde"
+	"Kvilheim"
+	"Kvilhaim"
+	"Kvilhuim"
+	"Kvilflayer"
+	"Kvilflay"
+	"Kvilflogger"
+	"Kvilflog"
+	"Kvilwhipper"
+	"Kvilwhip"
+	"Kvilskorn"
+	"Kvilskorn"
+	"Kvilskirn"
+	"Kvilskurn"
+	"Kvilskarn"
+	"Kvidir"
+	"Kvidar"
+	"Kvider"
+	"Kvihilde"
+	"Kvihalde"
+	"Kvihulde"
+	"Kviholde"
+	"Kvihilda"
+	"Kvihalde"
+	"Kviholde"
+	"Kvihulde"
+	"Kviheim"
+	"Kvihaim"
+	"Kvihuim"
+	"Kviflayer"
+	"Kviflay"
+	"Kviflogger"
+	"Kviflog"
+	"Kviwhipper"
+	"Kviwhip"
+	"Kviskorn"
+	"Kviskorn"
+	"Kviskirn"
+	"Kviskurn"
+	"Kviskarn"
+	"Kaidir"
+	"Kaidar"
+	"Kaider"
+	"Kaihilde"
+	"Kaihalde"
+	"Kaihulde"
+	"Kaiholde"
+	"Kaihilda"
+	"Kaihalde"
+	"Kaiholde"
+	"Kaihulde"
+	"Kaiheim"
+	"Kaihaim"
+	"Kaihuim"
+	"Kaiflayer"
+	"Kaiflay"
+	"Kaiflogger"
+	"Kaiflog"
+	"Kaiwhipper"
+	"Kaiwhip"
+	"Kaiskorn"
+	"Kaiskorn"
+	"Kaiskirn"
+	"Kaiskurn"
+	"Kaiskarn"
+	"Brunndir"
+	"Brunndar"
+	"Brunnder"
+	"Brunnhilde"
+	"Brunnhalde"
+	"Brunnhulde"
+	"Brunnholde"
+	"Brunnhilda"
+	"Brunnhalde"
+	"Brunnholde"
+	"Brunnhulde"
+	"Brunnheim"
+	"Brunnhaim"
+	"Brunnhuim"
+	"Brunnflayer"
+	"Brunnflay"
+	"Brunnflogger"
+	"Brunnflog"
+	"Brunnwhipper"
+	"Brunnwhip"
+	"Brunnskorn"
+	"Brunnskorn"
+	"Brunnskirn"
+	"Brunnskurn"
+	"Brunnskarn"
+	"Brandir"
+	"Brandar"
+	"Brander"
+	"Branhilde"
+	"Branhalde"
+	"Branhulde"
+	"Branholde"
+	"Branhilda"
+	"Branhalde"
+	"Branholde"
+	"Branhulde"
+	"Branheim"
+	"Branhaim"
+	"Branhuim"
+	"Branflayer"
+	"Branflay"
+	"Branflogger"
+	"Branflog"
+	"Branwhipper"
+	"Branwhip"
+	"Branskorn"
+	"Branskorn"
+	"Branskirn"
+	"Branskurn"
+	"Branskarn"
+	"Branndir"
+	"Branndar"
+	"Brannder"
+	"Brannhilde"
+	"Brannhalde"
+	"Brannhulde"
+	"Brannholde"
+	"Brannhilda"
+	"Brannhalde"
+	"Brannholde"
+	"Brannhulde"
+	"Brannheim"
+	"Brannhaim"
+	"Brannhuim"
+	"Brannflayer"
+	"Brannflay"
+	"Brannflogger"
+	"Brannflog"
+	"Brannwhipper"
+	"Brannwhip"
+	"Brannskorn"
+	"Brannskorn"
+	"Brannskirn"
+	"Brannskurn"
+	"Brannskarn"
+	"Brinndir"
+	"Brinndar"
+	"Brinnder"
+	"Brinnhilde"
+	"Brinnhalde"
+	"Brinnhulde"
+	"Brinnholde"
+	"Brinnhilda"
+	"Brinnhalde"
+	"Brinnholde"
+	"Brinnhulde"
+	"Brinnheim"
+	"Brinnhaim"
+	"Brinnhuim"
+	"Brinnflayer"
+	"Brinnflay"
+	"Brinnflogger"
+	"Brinnflog"
+	"Brinnwhipper"
+	"Brinnwhip"
+	"Brinnskorn"
+	"Brinnskorn"
+	"Brinnskirn"
+	"Brinnskurn"
+	"Brinnskarn"
+	"Bvinndir"
+	"Bvinndar"
+	"Bvinnder"
+	"Bvinnhilde"
+	"Bvinnhalde"
+	"Bvinnhulde"
+	"Bvinnholde"
+	"Bvinnhilda"
+	"Bvinnhalde"
+	"Bvinnholde"
+	"Bvinnhulde"
+	"Bvinnheim"
+	"Bvinnhaim"
+	"Bvinnhuim"
+	"Bvinnflayer"
+	"Bvinnflay"
+	"Bvinnflogger"
+	"Bvinnflog"
+	"Bvinnwhipper"
+	"Bvinnwhip"
+	"Bvinnskorn"
+	"Bvinnskorn"
+	"Bvinnskirn"
+	"Bvinnskurn"
+	"Bvinnskarn"
+	"Bvanndir"
+	"Bvanndar"
+	"Bvannder"
+	"Bvannhilde"
+	"Bvannhalde"
+	"Bvannhulde"
+	"Bvannholde"
+	"Bvannhilda"
+	"Bvannhalde"
+	"Bvannholde"
+	"Bvannhulde"
+	"Bvannheim"
+	"Bvannhaim"
+	"Bvannhuim"
+	"Bvannflayer"
+	"Bvannflay"
+	"Bvannflogger"
+	"Bvannflog"
+	"Bvannwhipper"
+	"Bvannwhip"
+	"Bvannskorn"
+	"Bvannskorn"
+	"Bvannskirn"
+	"Bvannskurn"
+	"Bvannskarn"
+	"Bvalidir"
+	"Bvalidar"
+	"Bvalider"
+	"Bvalihilde"
+	"Bvalihalde"
+	"Bvalihulde"
+	"Bvaliholde"
+	"Bvalihilda"
+	"Bvalihalde"
+	"Bvaliholde"
+	"Bvalihulde"
+	"Bvaliheim"
+	"Bvalihaim"
+	"Bvalihuim"
+	"Bvaliflayer"
+	"Bvaliflay"
+	"Bvaliflogger"
+	"Bvaliflog"
+	"Bvaliwhipper"
+	"Bvaliwhip"
+	"Bvaliskorn"
+	"Bvaliskorn"
+	"Bvaliskirn"
+	"Bvaliskurn"
+	"Bvaliskarn"
+	"Ymirdir"
+	"Ymirdar"
+	"Ymirder"
+	"Ymirhilde"
+	"Ymirhalde"
+	"Ymirhulde"
+	"Ymirholde"
+	"Ymirhilda"
+	"Ymirhalde"
+	"Ymirholde"
+	"Ymirhulde"
+	"Ymirheim"
+	"Ymirhaim"
+	"Ymirhuim"
+	"Ymirflayer"
+	"Ymirflay"
+	"Ymirflogger"
+	"Ymirflog"
+	"Ymirwhipper"
+	"Ymirwhip"
+	"Ymirskorn"
+	"Ymirskorn"
+	"Ymirskirn"
+	"Ymirskurn"
+	"Ymirskarn"
+	"Ymiridir"
+	"Ymiridar"
+	"Ymirider"
+	"Ymirihilde"
+	"Ymirihalde"
+	"Ymirihulde"
+	"Ymiriholde"
+	"Ymirihilda"
+	"Ymirihalde"
+	"Ymiriholde"
+	"Ymirihulde"
+	"Ymiriheim"
+	"Ymirihaim"
+	"Ymirihuim"
+	"Ymiriflayer"
+	"Ymiriflay"
+	"Ymiriflogger"
+	"Ymiriflog"
+	"Ymiriwhipper"
+	"Ymiriwhip"
+	"Ymiriskorn"
+	"Ymiriskorn"
+	"Ymiriskirn"
+	"Ymiriskurn"
+	"Ymiriskarn"
+	"Yimidir"
+	"Yimidar"
+	"Yimider"
+	"Yimihilde"
+	"Yimihalde"
+	"Yimihulde"
+	"Yimiholde"
+	"Yimihilda"
+	"Yimihalde"
+	"Yimiholde"
+	"Yimihulde"
+	"Yimiheim"
+	"Yimihaim"
+	"Yimihuim"
+	"Yimiflayer"
+	"Yimiflay"
+	"Yimiflogger"
+	"Yimiflog"
+	"Yimiwhipper"
+	"Yimiwhip"
+	"Yimiskorn"
+	"Yimiskorn"
+	"Yimiskirn"
+	"Yimiskurn"
+	"Yimiskarn"
+	"Dragondir"
+	"Dragondar"
+	"Dragonder"
+	"Dragonhilde"
+	"Dragonhalde"
+	"Dragonhulde"
+	"Dragonholde"
+	"Dragonhilda"
+	"Dragonhalde"
+	"Dragonholde"
+	"Dragonhulde"
+	"Dragonheim"
+	"Dragonhaim"
+	"Dragonhuim"
+	"Dragonflayer"
+	"Dragonflay"
+	"Dragonflogger"
+	"Dragonflog"
+	"Dragonwhipper"
+	"Dragonwhip"
+	"Dragonskorn"
+	"Dragonskorn"
+	"Dragonskirn"
+	"Dragonskurn"
+	"Dragonskarn"
+	"Wyverndir"
+	"Wyverndar"
+	"Wyvernder"
+	"Wyvernhilde"
+	"Wyvernhalde"
+	"Wyvernhulde"
+	"Wyvernholde"
+	"Wyvernhilda"
+	"Wyvernhalde"
+	"Wyvernholde"
+	"Wyvernhulde"
+	"Wyvernheim"
+	"Wyvernhaim"
+	"Wyvernhuim"
+	"Wyvernflayer"
+	"Wyvernflay"
+	"Wyvernflogger"
+	"Wyvernflog"
+	"Wyvernwhipper"
+	"Wyvernwhip"
+	"Wyvernskorn"
+	"Wyvernskorn"
+	"Wyvernskirn"
+	"Wyvernskurn"
+	"Wyvernskarn"
+	"Wyrmdir"
+	"Wyrmdar"
+	"Wyrmder"
+	"Wyrmhilde"
+	"Wyrmhalde"
+	"Wyrmhulde"
+	"Wyrmholde"
+	"Wyrmhilda"
+	"Wyrmhalde"
+	"Wyrmholde"
+	"Wyrmhulde"
+	"Wyrmheim"
+	"Wyrmhaim"
+	"Wyrmhuim"
+	"Wyrmflayer"
+	"Wyrmflay"
+	"Wyrmflogger"
+	"Wyrmflog"
+	"Wyrmwhipper"
+	"Wyrmwhip"
+	"Wyrmskorn"
+	"Wyrmskorn"
+	"Wyrmskirn"
+	"Wyrmskurn"
+	"Wyrmskarn"
+	"Dragdir"
+	"Dragdar"
+	"Dragder"
+	"Draghilde"
+	"Draghalde"
+	"Draghulde"
+	"Dragholde"
+	"Draghilda"
+	"Draghalde"
+	"Dragholde"
+	"Draghulde"
+	"Dragheim"
+	"Draghaim"
+	"Draghuim"
+	"Dragflayer"
+	"Dragflay"
+	"Dragflogger"
+	"Dragflog"
+	"Dragwhipper"
+	"Dragwhip"
+	"Dragskorn"
+	"Dragskorn"
+	"Dragskirn"
+	"Dragskurn"
+	"Dragskarn"
+	"Wyidir"
+	"Wyidar"
+	"Wyider"
+	"Wyihilde"
+	"Wyihalde"
+	"Wyihulde"
+	"Wyiholde"
+	"Wyihilda"
+	"Wyihalde"
+	"Wyiholde"
+	"Wyihulde"
+	"Wyiheim"
+	"Wyihaim"
+	"Wyihuim"
+	"Wyiflayer"
+	"Wyiflay"
+	"Wyiflogger"
+	"Wyiflog"
+	"Wyiwhipper"
+	"Wyiwhip"
+	"Wyiskorn"
+	"Wyiskorn"
+	"Wyiskirn"
+	"Wyiskurn"
+	"Wyiskarn"
+	"Wyveradir"
+	"Wyveradar"
+	"Wyverader"
+	"Wyverahilde"
+	"Wyverahalde"
+	"Wyverahulde"
+	"Wyveraholde"
+	"Wyverahilda"
+	"Wyverahalde"
+	"Wyveraholde"
+	"Wyverahulde"
+	"Wyveraheim"
+	"Wyverahaim"
+	"Wyverahuim"
+	"Wyveraflayer"
+	"Wyveraflay"
+	"Wyveraflogger"
+	"Wyveraflog"
+	"Wyverawhipper"
+	"Wyverawhip"
+	"Wyveraskorn"
+	"Wyveraskorn"
+	"Wyveraskirn"
+	"Wyveraskurn"
+	"Wyveraskarn"
+	"Wyveridir"
+	"Wyveridar"
+	"Wyverider"
+	"Wyverihilde"
+	"Wyverihalde"
+	"Wyverihulde"
+	"Wyveriholde"
+	"Wyverihilda"
+	"Wyverihalde"
+	"Wyveriholde"
+	"Wyverihulde"
+	"Wyveriheim"
+	"Wyverihaim"
+	"Wyverihuim"
+	"Wyveriflayer"
+	"Wyveriflay"
+	"Wyveriflogger"
+	"Wyveriflog"
+	"Wyveriwhipper"
+	"Wyveriwhip"
+	"Wyveriskorn"
+	"Wyveriskorn"
+	"Wyveriskirn"
+	"Wyveriskurn"
+	"Wyveriskarn"
+	"Winterdir"
+	"Winterdar"
+	"Winterder"
+	"Winterhilde"
+	"Winterhalde"
+	"Winterhulde"
+	"Winterholde"
+	"Winterhilda"
+	"Winterhalde"
+	"Winterholde"
+	"Winterhulde"
+	"Winterheim"
+	"Winterhaim"
+	"Winterhuim"
+	"Winterflayer"
+	"Winterflay"
+	"Winterflogger"
+	"Winterflog"
+	"Winterwhipper"
+	"Winterwhip"
+	"Winterskorn"
+	"Winterskorn"
+	"Winterskirn"
+	"Winterskurn"
+	"Winterskarn"
+	"Frostdir"
+	"Frostdar"
+	"Frostder"
+	"Frosthilde"
+	"Frosthalde"
+	"Frosthulde"
+	"Frostholde"
+	"Frosthilda"
+	"Frosthalde"
+	"Frostholde"
+	"Frosthulde"
+	"Frostheim"
+	"Frosthaim"
+	"Frosthuim"
+	"Frostflayer"
+	"Frostflay"
+	"Frostflogger"
+	"Frostflog"
+	"Frostwhipper"
+	"Frostwhip"
+	"Frostskorn"
+	"Frostskorn"
+	"Frostskirn"
+	"Frostskurn"
+	"Frostskarn"
+	"Chilldir"
+	"Chilldar"
+	"Chillder"
+	"Chillhilde"
+	"Chillhalde"
+	"Chillhulde"
+	"Chillholde"
+	"Chillhilda"
+	"Chillhalde"
+	"Chillholde"
+	"Chillhulde"
+	"Chillheim"
+	"Chillhaim"
+	"Chillhuim"
+	"Chillflayer"
+	"Chillflay"
+	"Chillflogger"
+	"Chillflog"
+	"Chillwhipper"
+	"Chillwhip"
+	"Chillskorn"
+	"Chillskorn"
+	"Chillskirn"
+	"Chillskurn"
+	"Chillskarn"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	vrykul_inf_a_1
+	vrykul_cav_a_1
+	vrykul_inf_a_2
+	vrykul_cav_a_2
+	vrykul_inf_a_3
+	vrykul_cav_a_3
+	vrykul_inf_a_4
+	vrykul_cav_a_4
+	vrykul_inf_a_5
+	vrykul_cav_a_5
+}
+

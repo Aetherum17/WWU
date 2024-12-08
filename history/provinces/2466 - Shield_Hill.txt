@@ -1,16 +1,16 @@
 
 is_city = yes
 
-owner = B08
-controller = B08
-add_core = B08
+owner = B09
+controller = B09
+add_core = B09
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
 culture = culture_vrykul
-religion = titan_worship
+religion = corrupt_titan_worship
 
 hre = no
 trade_goods = resource_food

@@ -1,0 +1,11 @@
+
+# Nendis
+government 				= republic
+add_government_reform   = noble_republic_reform
+mercantilism 			= 10
+technology_group 		= tech_night_elf
+religion				= elune
+primary_culture 		= culture_night_elf
+government_rank	= 2
+capital = 5967
+

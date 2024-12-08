@@ -1,0 +1,31 @@
+﻿l_german:
+ # Modifiers
+ ai_handler__magical_study_timer: "AI Handler: Magical Study Timer"
+ desc_ai_handler__magical_study_timer: ""
+ 
+ ai_handler__spellbook_status_timer: "AI Handler: Spellbook Status Timer"
+ desc_ai_handler__spellbook_status_timer: ""
+ 
+ ai_handler__spellbook_spell_timer: "AI Handler: Spellbook Spell Timer"
+ desc_ai_handler__spellbook_spell_timer: ""
+ 
+ ai_handler__class_study_timer: "AI Handler: Class Study Timer"
+ desc_ai_handler__class_study_timer: ""
+ 
+ ai_handler__class_abilities_timer: "AI Handler: Class Abilities Timer"
+ desc_ai_handler__class_abilities_timer: ""
+ 
+ ai_handler__stratagems_timer: "AI Handler: Stratagems Timer"
+ desc_ai_handler__stratagems_timer: ""
+ 
+ ai_handler__artifacts_timer: "AI Handler: Artifact Timer"
+ desc_ai_handler__artifacts_timer: ""
+ 
+ ai_handler__faction_menu_timer: "AI Handler: Faction Menu"
+ desc_ai_handler__faction_menu_timer: ""
+ 
+ ai_handler__army_teleport_timer: "AI Handler: Army Teleport"
+ desc_ai_handler__army_teleport_timer: ""
+ 
+ ai_handler__mission_switch_timer: "AI Handler: Mission Switch"
+ desc_ai_handler__mission_switch_timer: ""

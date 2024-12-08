@@ -1,9 +1,8 @@
-
 is_city = yes
 
-owner = P01
-controller = P01
-add_core = P01
+owner = G39
+controller = G39
+add_core = G39
 
 base_tax = 2
 base_production = 2
@@ -14,3 +13,27 @@ religion = fel
 
 hre = no
 trade_goods = resource_artifacts
+
+
+617.1.1 = {
+  owner = SCK
+  add_core = SCK
+  controller = SCK
+  
+  culture = culture_scourge
+  religion = cult_of_the_damned
+}
+
+618.1.1 = {
+  owner = G39
+  add_core = G39
+  remove_core = SCK
+  controller = G39
+  culture = culture_scourge
+  religion = cult_of_the_damned
+}
+
+625.1.1 = {
+  culture = culture_satyr
+  religion = fel
+}

@@ -859,3 +859,49 @@ gov_sisterhood_of_elune = {
         has_reform = sisterhood_of_elune_reform
 	}
 }
+gov_the_perfect_ones = {
+	rank = {
+		1 = GOV_THE_PERFECT_ONES
+		2 = GOV_THE_PERFECT_ONES
+		3 = GOV_THE_PERFECT_ONES
+	}
+
+	ruler_male = {
+		1 = GOV_HIGH_KHAN
+		2 = GOV_HIGH_KHAN
+		3 = GOV_HIGH_KHAN
+	}
+
+	ruler_female = {
+		1 = GOV_HIGH_KHANESS
+		2 = GOV_HIGH_KHANESS
+		3 = GOV_HIGH_KHANESS
+	}
+
+	trigger = {
+		has_reform = the_perfect_ones_reform
+	}
+}
+gov_ymirjar_order = {
+	rank = {
+		1 = GOV_YMIRJAR_ORDER
+		2 = GOV_YMIRJAR_ORDER
+		3 = GOV_YMIRJAR_ORDER
+	}
+
+	ruler_male = {
+		1 = GOV_THANE
+		2 = GOV_THANE
+		3 = GOV_THANE
+	}
+
+	ruler_female = {
+		1 = GOV_CRONE
+		2 = GOV_CRONE
+		3 = GOV_CRONE
+	}
+
+	trigger = {
+		has_reform = ymirjar_order_reform
+	}
+}

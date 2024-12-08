@@ -16,4 +16,11 @@ hre = no
 trade_goods = resource_common_ores
 
 
+631.1.1 = {
+    owner = MAC
+    controller = MAC
+    add_core = MAC
 
+    culture = culture_black_dragonflight
+    religion = corrupt_dragon_aspect
+}

@@ -1,0 +1,10 @@
+
+# Darrowshire
+government			= republic
+add_government_reform = noble_republic_reform
+government_rank		= 1
+mercantilism 		= 10
+technology_group 	= tech_human
+religion			= holy_light
+primary_culture 	= culture_lordaeron 
+capital 			= 592

@@ -6,7 +6,7 @@ mercantilism 		= 10
 technology_group 	= tech_murloc
 religion			= deep_mother
 primary_culture 	= culture_murloc
-capital = 3505
+capital = 3512
 
 540.1.1 = {
 	monarch = {

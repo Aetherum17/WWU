@@ -23,5 +23,10 @@ capital 			= 778
  	}
     
     set_ruler_flag = is_immortal
+
+    set_defender_of_the_faith = {
+        who = B86
+        religion = yogg_saron
+    }
 }
 

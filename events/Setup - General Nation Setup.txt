@@ -373,4 +373,3 @@ country_event = {
         clr_country_flag = ignore_horde_vote
     }
 }
-

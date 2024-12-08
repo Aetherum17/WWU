@@ -1,15 +1,15 @@
+is_city = yes
 
-# Empty Province
-native_size = 10
-native_ferocity = 10
-native_hostileness = 10
+owner = SPT
+controller = SPT
+add_core = SPT
 
 base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 4
 
-culture = culture_silithid
-religion = cthun
+culture = culture_uldum
+religion = titan_worship
 
 hre = no
 trade_goods = unknown

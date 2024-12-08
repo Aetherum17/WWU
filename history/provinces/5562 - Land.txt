@@ -1,29 +1,26 @@
 is_city = yes
-owner = A40
-controller = A40
-add_core = A40
+owner = WAK
+controller = WAK
+add_core = WAK
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 4
+base_manpower = 5
 
-culture = culture_orc
-religion = shamanism
+culture = culture_podling
+religion = sporemounds
 
 hre = no
 trade_goods = resource_common_wood
 
-# Fel Conversion
-560.1.1 = {
-    religion = fel
-}
 
 # First War
 592.1.1 = {
     owner = U03
     controller = U03
     add_core = U03
-    
+    remove_core = WAK
+	
     culture = culture_fel_orc
     religion = fel
 }

@@ -120,6 +120,9 @@
  A22_scarlet_eastern_kingdoms_a22_title: "Scarlet Eastern Kingdoms"
  A22_scarlet_eastern_kingdoms_a22_desc: ""
  
+ A22_the_hunt_for_the_damned_a22_title: "Hunt the Damned"
+ A22_the_hunt_for_the_damned_a22_desc: ""
+ 
  # --- Modifiers ---
  mission_scarlet_humanity: "Scarlet Humanity"
  desc_mission_scarlet_humanity: ""
@@ -234,6 +237,10 @@
  
  mission_scarlet_supremacy_a22: "Scarlet Supremacy"
  desc_mission_scarlet_supremacy_a22: ""
+ 
+ mission_scarlet_crusade_hunting_damned_a22: "Hunting the Damned"
+ desc_mission_scarlet_crusade_hunting_damned_a22: "This §Ymodifier§! will persist as long as the §PEternal Damnation§! privilege remains in effect."
+ tooltip_mission_scarlet_crusade_hunting_damned_a22: "This §Ymodifier§! will persist as long as the §PEternal Damnation§! privilege remains in effect."
  
  #-----------------------------------------------
  # Scarlet Crusade

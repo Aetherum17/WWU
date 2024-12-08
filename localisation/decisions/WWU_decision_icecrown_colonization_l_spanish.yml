@@ -1,0 +1,18 @@
+﻿l_spanish:
+ #-----------------------------------------------
+ # Icecrown Colonization
+ #-----------------------------------------------
+ establish_glaciar_settlements_title: "[DI_blueprint] Establish Glaciar Settlements"
+ establish_glaciar_settlements_desc: "As our people studied the lands, we are able to prepare plans for establishing permanent settlelments in the Icecrown region."
+
+ estabilsh_surfice_colonies_title: "[DI_blueprint] Establish Surface Colonies"
+ estabilsh_surfice_colonies_desc: "As our people studied the lands, we are able to prepare plans for establishing permanent settlelments in the Icecrown region."
+ 
+ #-----------------------------------------------
+ # Tied Modifiers
+ #-----------------------------------------------
+ establish_settlement_icecrown: "Icecrown Settelments"
+ desc_establish_settlement_icecrown: ""
+ 
+ recently_send_icecrown: "Icecrown Expedition Recovery"
+ desc_recently_send_icecrown: ""

@@ -1,0 +1,90 @@
+namespace = wwu_flavour_nc_pandaren_empire
+
+# Pick a name for Pandaren Empire
+country_event = {
+	id = wwu_flavour_nc_pandaren_empire.1
+	title = wwu_flavour_nc_pandaren_empire.1.title
+	desc = wwu_flavour_nc_pandaren_empire.1.desc
+	picture = PANDARIA_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_nc_pandaren_empire.1.a
+		
+		# Pandaren and others		
+		
+		override_country_name = PANDAREN_EMPIRE
+		
+		ai_chance = {		
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_pandaren_empire.1.b
+		
+		# Hozen
+		trigger = {
+			culture_group = culture_group_hozen
+		}
+		
+		override_country_name = HOZEN_EMPIRE
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_pandaren_empire.1.c
+		
+		# Jinyu		
+		trigger = {
+		   culture_group = culture_group_jinyu
+		}
+		
+		override_country_name = JINYU_EMPIRE
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_pandaren_empire.1.d
+		
+		# Yaungol		
+		trigger = {
+		   culture_group = culture_group_yaungol
+		}
+		
+		override_country_name = YAUNGOL_EMPIRE
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_pandaren_empire.1.e
+		
+		# Grummle		
+		trigger = {
+		   culture_group = culture_group_grummle
+		}
+		
+		override_country_name = GRUMMLE_EMPIRE
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {		
+		name = wwu_flavour_nc_pandaren_empire.1.f
+		
+		# Pandaren and others
+		
+		override_country_name = EMPIRE_OF_PANDARIA
+		
+		ai_chance = {		
+			factor = 1
+		}
+	}
+}

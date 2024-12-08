@@ -431,25 +431,13 @@
  STORMWIND_UNLOCK_MERCENTILE_FLAGSHIP_TT: "Unlocks the §YStormwind Mercantile Reach§! Flagship Modification"
  STORMWIND_UNLOCK_ARMADA_FLAGSHIP_TT:  "Unlocks the §YStormwind Grand Armada§! Flagship Modification"
 
-# ---Stormwind History Localization---
+# ---Stormwind History/Other Localization---
 
-stormwind_crippled: "Crippled Administration"
-desc_stormwind_crippled: ""
+ stormwind_crippled: "Crippled Administration"
+ desc_stormwind_crippled: ""
 
-stormwind_isolationism: "Stormwind Isolationism"
-desc_stormwind_isolationism: ""
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+ stormwind_isolationism: "Stormwind Isolationism"
+ desc_stormwind_isolationism: ""
+
+ event_gnoll_war_stormwind_manpower: "Fresh Recruits"
+ desc_event_gnoll_war_stormwind_manpower: ""

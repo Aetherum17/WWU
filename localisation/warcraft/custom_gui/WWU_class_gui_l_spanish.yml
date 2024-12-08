@@ -1,0 +1,378 @@
+﻿l_spanish:
+ #----------------------------------------
+ # Class GUI - Core
+ #----------------------------------------
+ # Button Titles
+ ruler_class_study_button: "Class Study"
+ 
+ CLASS_WARRIOR: "Warrior"
+ CLASS_PALADIN: "Paladin"
+ CLASS_PRIEST: "Priest"
+ CLASS_ROGUE: "Rogue"
+ CLASS_MAGE: "Mage"
+ CLASS_WARLOCK: "Warlock"
+ CLASS_DRUID: "Druid"
+ CLASS_HUNTER: "Hunter"
+ CLASS_SHAMAN: "Shaman"
+ CLASS_DEATH_KNIGHT: "Death Knight"
+ CLASS_MONK: "Monk"
+ CLASS_DEMON_HUNTER: "Demon Hunter"
+ 
+ # Textboxes
+ class_gui_study_title: "Class Study"
+ class_gui_class_section_title: "Class Selection"
+ class_gui_class_study_progress_text: "[Root.GetClassStudyProgress]"
+ class_gui_study_selection: "[Root.GetRulerClassInTraining]"
+ class_gui_abilities_title: "[Root.GetRulerClass]"
+ class_gui_banner_title: "Abilities"
+ 
+ # Hover Tooltips
+ RULER_CLASS_HOVER_TT: "View the Class Study window."
+ RULER_CLASS_ABILITIES_HOVER_TT: "View the Abilities window."
+ 
+ CLASS_STUDY_PROGRESS_HOVER_TT: "Study Progress is gained every month, with the value ranging from §Y0.1%§! to §Y1.0%§!.\n\nRandom events may occur whilst Class Study is active, which can also change Study Progress."
+ CLASS_STUDY_START_HOVER_TT: "Start studying to become a specific class."
+ CLASS_STUDY_CANCEL_HOVER_TT: "Stop studying to become a specific class."
+ CLASS_STUDY_BOOST_HOVER_TT: "Invest additional gold into tutors and other avenues of research to hasten studying."
+ 
+ RULER_CLASS_SPECIALIZATION_HOVER_WARRIOR_TT: "[Root.Monarch.GetName] will become a Warrior."
+ RULER_CLASS_SPECIALIZATION_HOVER_PALADIN_TT: "[Root.Monarch.GetName] will become a Paladin."
+ RULER_CLASS_SPECIALIZATION_HOVER_PRIEST_TT: "[Root.Monarch.GetName] will become a Priest."
+ RULER_CLASS_SPECIALIZATION_HOVER_ROGUE_TT: "[Root.Monarch.GetName] will become a Rogue."
+ RULER_CLASS_SPECIALIZATION_HOVER_MAGE_TT: "[Root.Monarch.GetName] will become a Mage."
+ RULER_CLASS_SPECIALIZATION_HOVER_WARLOCK_TT: "[Root.Monarch.GetName] will become a Warlock."
+ RULER_CLASS_SPECIALIZATION_HOVER_DRUID_TT: "[Root.Monarch.GetName] will become a Druid."
+ RULER_CLASS_SPECIALIZATION_HOVER_HUNTER_TT: "[Root.Monarch.GetName] will become a Hunter."
+ RULER_CLASS_SPECIALIZATION_HOVER_SHAMAN_TT: "[Root.Monarch.GetName] will become a Shaman."
+ RULER_CLASS_SPECIALIZATION_HOVER_DEATH_KNIGHT_TT: "[Root.Monarch.GetName] will become a Death Knight."
+ RULER_CLASS_SPECIALIZATION_HOVER_MONK_TT: "[Root.Monarch.GetName] will become a Monk."
+ RULER_CLASS_SPECIALIZATION_HOVER_DEMON_HUNTER_TT: "[Root.Monarch.GetName] will become a Demon Hunter."
+ 
+ RULER_CLASS_ICON_HOVER_WARRIOR_TT: "[Root.Monarch.GetName] is a Warrior."
+ RULER_CLASS_ICON_HOVER_PALADIN_TT: "[Root.Monarch.GetName] is a Paladin."
+ RULER_CLASS_ICON_HOVER_PRIEST_TT: "[Root.Monarch.GetName] is a Priest."
+ RULER_CLASS_ICON_HOVER_ROGUE_TT: "[Root.Monarch.GetName] is a Rogue."
+ RULER_CLASS_ICON_HOVER_MAGE_TT: "[Root.Monarch.GetName] is a Mage."
+ RULER_CLASS_ICON_HOVER_WARLOCK_TT: "[Root.Monarch.GetName] is a Warlock."
+ RULER_CLASS_ICON_HOVER_DRUID_TT: "[Root.Monarch.GetName] is a Druid."
+ RULER_CLASS_ICON_HOVER_HUNTER_TT: "[Root.Monarch.GetName] is a Hunter."
+ RULER_CLASS_ICON_HOVER_SHAMAN_TT: "[Root.Monarch.GetName] is a Shaman."
+ RULER_CLASS_ICON_HOVER_DEATH_KNIGHT_TT: "[Root.Monarch.GetName] is a Death Knight."
+ RULER_CLASS_ICON_HOVER_MONK_TT: "[Root.Monarch.GetName] is a Monk."
+ RULER_CLASS_ICON_HOVER_DEMON_HUNTER_TT: "[Root.Monarch.GetName] is a Demon Hunter."
+ 
+ RULER_CLASS_ABILITY_WARRIOR_1_HOVER_TT: "Unrelenting Assault"
+ RULER_CLASS_ABILITY_WARRIOR_2_HOVER_TT: "Second Wind"
+ RULER_CLASS_ABILITY_WARRIOR_3_HOVER_TT: "Battle Shout"
+ 
+ RULER_CLASS_ABILITY_PALADIN_1_HOVER_TT: "Blade of Justice"
+ RULER_CLASS_ABILITY_PALADIN_2_HOVER_TT: "Long Arm of the Law"
+ RULER_CLASS_ABILITY_PALADIN_3_HOVER_TT: "Sanctified Wrath"
+ 
+ RULER_CLASS_ABILITY_PRIEST_1_HOVER_TT: "Binding Prayers"
+ RULER_CLASS_ABILITY_PRIEST_2_HOVER_TT: "Evangelism"
+ RULER_CLASS_ABILITY_PRIEST_3_HOVER_TT: "Heavenly Voice"
+ 
+ BINDING_PRAYERS_TT: "All owned provinces that follow §Y[Root.Religion.GetName]§! will gain the §YBinding Prayers§! modifier. This reduces enemy troop movement speed by §R80%§! for §Y10§! years."
+ 
+ RULER_CLASS_ABILITY_ROGUE_1_HOVER_TT: "Combat Expertise"
+ RULER_CLASS_ABILITY_ROGUE_2_HOVER_TT: "Preparation"
+ RULER_CLASS_ABILITY_ROGUE_3_HOVER_TT: "Master of Subtlety"
+ 
+ PREPARATION_ABILITY_TT: "All owned provinces that are §Y[Root.Culture.GetName]§! will gain the §YPreparation§! modifier. This increases the Attrition Cap by §Y5§! and increases Hostile Attrition by §R3§! for §Y10§! years."
+ 
+ RULER_CLASS_ABILITY_MAGE_1_HOVER_TT: "Time Warp"
+ RULER_CLASS_ABILITY_MAGE_2_HOVER_TT: "Focusing Crystal"
+ RULER_CLASS_ABILITY_MAGE_3_HOVER_TT: "Rune of Power"
+ 
+ RULER_CLASS_ABILITY_WARLOCK_1_HOVER_TT: "Fire and Brimstone"
+ RULER_CLASS_ABILITY_WARLOCK_2_HOVER_TT: "Jinx"
+ RULER_CLASS_ABILITY_WARLOCK_3_HOVER_TT: "Grimoire of Command"
+ 
+ JINX_EFFECT_TT: "All warring enemy provinces will be affected by §YJinx§!, reducing the size of the Garrison within each province by §R80%§! for §Y10§! years."
+ JINX_EFFECT_PEACE_TT: "If we were at war, all warring enemy provinces would be affected by §YJinx§!, reducing the size of the Garrison within each province by §R80%§! for §Y10§! years."
+ 
+ RULER_CLASS_ABILITY_DRUID_1_HOVER_TT: "Flourish"
+ RULER_CLASS_ABILITY_DRUID_2_HOVER_TT: "Natural Perfection"
+ RULER_CLASS_ABILITY_DRUID_3_HOVER_TT: "Eclipse"
+ 
+ RULER_CLASS_ABILITY_HUNTER_1_HOVER_TT: "Efficiency"
+ RULER_CLASS_ABILITY_HUNTER_2_HOVER_TT: "Master Tactitian"
+ RULER_CLASS_ABILITY_HUNTER_3_HOVER_TT: "Camouflage"
+ 
+ RULER_CLASS_ABILITY_SHAMAN_1_HOVER_TT: "Elemental Oath"
+ RULER_CLASS_ABILITY_SHAMAN_2_HOVER_TT: "Echo of the Elements"
+ RULER_CLASS_ABILITY_SHAMAN_3_HOVER_TT: "Astral Shift"
+ 
+ RULER_CLASS_ABILITY_DEATH_KNIGHT_1_HOVER_TT: "Necrotic Aura"
+ RULER_CLASS_ABILITY_DEATH_KNIGHT_2_HOVER_TT: "Death Siphon"
+ RULER_CLASS_ABILITY_DEATH_KNIGHT_3_HOVER_TT: "Icy Grip"
+ 
+ DEATH_SIPHON_PEACE_TT: "If we were at war, all warring enemy countries would be affected by §YDeath Siphon§!, causing §R0.33§! Devastation in all of their owned provinces per month for §Y10§! years."
+ 
+ ICY_GRIP_TT: "All owned provinces that are §Y[Root.Culture.GetName]§! will gain the §YIcy Grip§! modifier. This reduces enemy troop movement speed by §R95%§! for §Y10§! years."
+ 
+ RULER_CLASS_ABILITY_MONK_1_HOVER_TT: "Guard"
+ RULER_CLASS_ABILITY_MONK_2_HOVER_TT: "Power Strikes"
+ RULER_CLASS_ABILITY_MONK_3_HOVER_TT: "Ironskin Brew"
+ 
+ RULER_CLASS_ABILITY_DEMON_HUNTER_1_HOVER_TT: "Demon Spikes"
+ RULER_CLASS_ABILITY_DEMON_HUNTER_2_HOVER_TT: "Soul Cleave"
+ RULER_CLASS_ABILITY_DEMON_HUNTER_3_HOVER_TT: "Spectral Sight"
+ 
+ DEMON_SPIKES_TT: "All owned provinces that are §Y[Root.Culture.GetName]§! will gain the §YDemon Spikes§! modifier. This increases the Attrition Cap by §Y10§! for §Y10§! years."
+ 
+ RULER_ENERGY_FULL_1: "Usable energy."
+ RULER_ENERGY_FULL_2: "Usable energy."
+ RULER_ENERGY_FULL_3: "Usable energy."
+ RULER_ENERGY_FULL_4: "Usable energy."
+ RULER_ENERGY_FULL_5: "Usable energy."
+ RULER_ENERGY_FULL_6: "Usable energy."
+ RULER_ENERGY_FULL_7: "Usable energy."
+ RULER_ENERGY_FULL_8: "Usable energy."
+ RULER_ENERGY_FULL_9: "Usable energy."
+ RULER_ENERGY_FULL_10: "Usable energy."
+ 
+ RULER_ENERGY_EMPTY_1: "Empty energy."
+ RULER_ENERGY_EMPTY_2: "Empty energy."
+ RULER_ENERGY_EMPTY_3: "Empty energy."
+ RULER_ENERGY_EMPTY_4: "Empty energy."
+ RULER_ENERGY_EMPTY_5: "Empty energy."
+ RULER_ENERGY_EMPTY_6: "Empty energy."
+ RULER_ENERGY_EMPTY_7: "Empty energy."
+ RULER_ENERGY_EMPTY_8: "Empty energy."
+ RULER_ENERGY_EMPTY_9: "Empty energy."
+ RULER_ENERGY_EMPTY_10: "Empty energy."
+ 
+ # Trigger Tooltips
+ CLASS_GUI_NOT_OPEN_TT: "Class Study window is not already open."
+ CLASS_ABILITIES_NOT_OPEN_TT: "Abilities window is not already open."
+ CLASS_ALREADY_ASSIGNED_TT: "[Root.Monarch.GetName] has not been assigned a class."
+ 
+ HAS_ENERGY_0: "[Root.Monarch.GetName] has zero points of §YEnergy§!."
+ HAS_ENERGY_1: "[Root.Monarch.GetName] has one point of §YEnergy§!."
+ HAS_ENERGY_2: "[Root.Monarch.GetName] has two points of §YEnergy§!."
+ HAS_ENERGY_3: "[Root.Monarch.GetName] has three points of §YEnergy§!."
+ HAS_ENERGY_4: "[Root.Monarch.GetName] has four points of §YEnergy§!."
+ HAS_ENERGY_5: "[Root.Monarch.GetName] has five points of §YEnergy§!."
+ 
+ # Effect Tooltips
+ BOOST_CLASS_STUDY_BY_5_TT: "Increase §YStudy Progress§! by §G5§!."
+ CLASS_STUDY_RESUME_TT: "Cancelling your Study will cause all §YStudy Progress§! to be lost."
+ TOGGLE_CLASS_SELECTION_TT: "View the Class Selection window."
+ 
+ ENERGY_GAIN_1: "[Root.Monarch.GetName] will gain one point of §YEnergy§!."
+ 
+ ENERGY_LOSS_1: "[Root.Monarch.GetName] will lose one point of §YEnergy§!."
+ ENERGY_LOSS_2: "[Root.Monarch.GetName] will lose two points of §YEnergy§!."
+ ENERGY_LOSS_3: "[Root.Monarch.GetName] will lose three point of §YEnergy§!."
+ ENERGY_LOSS_4: "[Root.Monarch.GetName] will lose four point of §YEnergy§!."
+ ENERGY_LOSS_5: "[Root.Monarch.GetName] will lose five point of §YEnergy§!."
+ 
+ # Custom Loc
+ CLASS_STUDY_PROGRESS_VAR: "[Root.class_study_progress.GetValue] %"
+ CLASS_STUDY_PROGRESS_DEFAULT: "0 %"
+ 
+ IS_SPELLCASTER: "Is Spellcaster"
+ IS_NOT_SPELLCASTER: "Is Not a Spellcaster"
+ 
+ SKILL_ENERGY_0: ""
+ 
+ # .GUI Loc
+ CLASS_STUDY_START_BUTTON: "Start Class Study"
+ CLASS_STUDY_END_BUTTON: "Cancel Class Study"
+ CLASS_STUDY_BOOST_BUTTON: "Boost Study Progress"
+ 
+ # Variables
+ class_study_progress: "Study Progress"
+ class_study_difficulty: "Study Difficulty"
+ ruler_energy: "Energy"
+ 
+ # Modifiers
+ class_training: "Class Training"
+ desc_class_training: ""
+ 
+ class_ability_warrior_unrelenting_assault: "Unrelenting Ground"
+ desc_class_ability_warrior_unrelenting_assault: ""
+ class_ability_warrior_second_wind: "Second Wind"
+ desc_class_ability_warrior_second_wind: ""
+ class_ability_warrior_battle_shout: "Battle Shout"
+ desc_class_ability_warrior_battle_shout: ""
+ 
+ class_ability_paladin_blade_of_justice: "Blade of Justice"
+ desc_class_ability_paladin_blade_of_justice: ""
+ class_ability_paladin_long_arm_of_the_law: "Long Arm of the Law"
+ desc_class_ability_paladin_long_arm_of_the_law: ""
+ class_ability_paladin_sanctified_wrath: "Sanctified Wrath"
+ desc_class_ability_paladin_sanctified_wrath: ""
+ 
+ class_ability_priest_binding_prayers: "Binding Prayers"
+ desc_class_ability_priest_binding_prayers: ""
+ class_ability_priest_binding_prayers_prov: "Binding Prayers"
+ desc_class_ability_priest_binding_prayers_prov: ""
+ class_ability_priest_evangelism: "Evangelism"
+ desc_class_ability_priest_evangelism: ""
+ class_ability_priest_heavenly_voice: "Heavenly Voice"
+ desc_class_ability_priest_heavenly_voice: ""
+ 
+ class_ability_rogue_combat_expertise: "Combat Expertise"
+ desc_class_ability_rogue_combat_expertise: ""
+ class_ability_rogue_preparation: "Preparation"
+ desc_class_ability_rogue_preparation: ""
+ class_ability_rogue_preparation_prov: "Preparation"
+ desc_class_ability_rogue_preparation_prov: ""
+ class_ability_rogue_master_of_subtlety: "Master of Subtlety"
+ desc_class_ability_rogue_master_of_subtlety: ""
+ 
+ class_ability_mage_time_warp: "Time Warp"
+ desc_class_ability_mage_time_warp: ""
+ class_ability_mage_focusing_crystal: "Focusing Crystal"
+ desc_class_ability_mage_focusing_crystal: ""
+ class_ability_mage_rune_of_power: "Rune of Power"
+ desc_class_ability_mage_rune_of_power: ""
+ 
+ class_ability_warlock_fire_and_brimstone: "Fire and Brimstone"
+ desc_class_ability_warlock_fire_and_brimstone: ""
+ class_ability_warlock_jinx: "Jinx"
+ desc_class_ability_warlock_jinx: ""
+ class_ability_warlock_jinx_prov: "Jinx"
+ desc_class_ability_warlock_jinx_prov: ""
+ class_ability_warlock_grimoire_of_command: "Grimoire of Command"
+ desc_class_ability_warlock_grimoire_of_command: ""
+ 
+ class_ability_druid_flourish: "Flourish"
+ desc_class_ability_druid_flourish: ""
+ class_ability_druid_natural_perfection: "Natural Perfection"
+ desc_class_ability_druid_natural_perfection: ""
+ class_ability_druid_eclipse: "Eclipse"
+ desc_class_ability_druid_eclipse: ""
+ 
+ class_ability_hunter_efficiency: "Efficiency"
+ desc_class_ability_hunter_efficiency: ""
+ class_ability_hunter_master_tactitian: "Master Tactitian"
+ desc_class_ability_hunter_master_tactitian: ""
+ class_ability_hunter_camouflage: "Camouflage"
+ desc_class_ability_hunter_camouflage: ""
+ 
+ class_ability_shaman_elemental_oath: "Elemental Oath"
+ desc_class_ability_shaman_elemental_oath: ""
+ class_ability_shaman_echo_of_the_elements: "Echo of the Elements"
+ desc_class_ability_shaman_echo_of_the_elements: ""
+ class_ability_shaman_astral_shift: "Astral Shift"
+ desc_class_ability_shaman_astral_shift: ""
+ 
+ class_ability_death_knight_necrotic_aura: "Necrotic Aura"
+ desc_class_ability_death_knight_necrotic_aura: ""
+ class_ability_death_knight_death_siphon: "Death Siphon"
+ desc_class_ability_death_knight_death_siphon: ""
+ class_ability_death_knight_death_siphon_enemy: "Death Siphon"
+ desc_class_ability_death_knight_death_siphon_enemy: ""
+ class_ability_death_knight_icy_grip: "Icy Grip"
+ desc_class_ability_death_knight_icy_grip: ""
+ class_ability_death_knight_icy_grip_prov: "Icy Grip"
+ desc_class_ability_death_knight_icy_grip_prov: ""
+ 
+ class_ability_monk_guard: "Guard"
+ desc_class_ability_monk_guard: ""
+ class_ability_monk_power_strikes: "Power Strikes"
+ desc_class_ability_monk_power_strikes: ""
+ class_ability_monk_ironskin_brew: "Ironskin Brew"
+ desc_class_ability_monk_ironskin_brew: ""
+ 
+ class_ability_demon_hunter_demon_spikes: "Demon Spikes"
+ desc_class_ability_demon_hunter_demon_spikes: ""
+ class_ability_demon_hunter_demon_spikes_prov: "Demon Spikes"
+ desc_class_ability_demon_hunter_demon_spikes_prov: ""
+ class_ability_demon_hunter_soul_cleave: "Soul Cleave"
+ desc_class_ability_demon_hunter_soul_cleave: ""
+ class_ability_demon_hunter_spectral_sight: "Spectral Sight"
+ desc_class_ability_demon_hunter_spectral_sight: ""
+ 
+ # Flags
+ warrior_personality: "Warrior"
+ paladin_personality: "Paladin"
+ priest_personality: "Priest"
+ rogue_personality: "Rogue"
+ mage_personality: "Mage"
+ warlock_personality: "Warlock"
+ druid_personality: "Druid"
+ hunter_personality: "Hunter"
+ shaman_personality: "Shaman"
+ death_knight_personality: "Death Knight"
+ monk_personality: "Monk"
+ demon_hunter_personality: "Demon Hunter"
+ 
+ ruler_is_training: "Ruler is in Class Training"
+ 
+ # Modifiers
+ wisdom_of_the_warrior: "Wisdom of the Warrior"
+ desc_wisdom_of_the_warrior: ""
+ 
+ wisdom_of_the_paladin: "Wisdom of the Paladin"
+ desc_wisdom_of_the_paladin: ""
+ 
+ wisdom_of_the_priest: "Wisdom of the Priest"
+ desc_wisdom_of_the_priest: ""
+ 
+ wisdom_of_the_rogue: "Wisdom of the Rogue"
+ desc_wisdom_of_the_rogue: ""
+ 
+ wisdom_of_the_mage: "Wisdom of the Mage"
+ desc_wisdom_of_the_mage: ""
+ 
+ wisdom_of_the_warlock: "Wisdom of the Warlock"
+ desc_wisdom_of_the_warlock: ""
+ 
+ wisdom_of_the_druid: "Wisdom of the Druid"
+ desc_wisdom_of_the_druid: ""
+ 
+ wisdom_of_the_hunter: "Wisdom of the Hunter"
+ desc_wisdom_of_the_hunter: ""
+ 
+ wisdom_of_the_shaman: "Wisdom of the Shaman"
+ desc_wisdom_of_the_shaman: ""
+ 
+ wisdom_of_the_death_knight: "Wisdom of the Death Knight"
+ desc_wisdom_of_the_death_knight: ""
+ 
+ wisdom_of_the_monk: "Wisdom of the Monk"
+ desc_wisdom_of_the_monk: ""
+ 
+ wisdom_of_the_demon_hunter: "Wisdom of the Demon Hunter"
+ desc_wisdom_of_the_demon_hunter: ""
+ 
+ #----------------------------------------
+ # Old Stuff
+ #----------------------------------------
+ # The spaces are required to justify the text in the right location
+ class_spacer:      ""
+ portrait_spacer:   ""
+ 
+ # Classes
+ class_warrior: "Warrior"
+ class_paladin: "Paladin"
+ class_priest: "Priest"
+ class_rogue: "Rogue"
+ class_mage: "Mage"
+ class_warlock: "Warlock"
+ class_druid: "Druid"
+ class_hunter: "Hunter"
+ class_shaman: "Shaman"
+ class_death_knight: "Death Knight"
+ class_monk: "Monk"
+ class_demon_hunter: "Demon Hunter"
+ class_undecided: "Undecided"
+ 
+ class_icon_warrior: "£warrior_icon£"
+ class_icon_paladin: "£paladin_icon£"
+ class_icon_priest: "£priest_icon£"
+ class_icon_rogue: "£rogue_icon£"
+ class_icon_mage: "£mage_icon£"
+ class_icon_warlock: "£warlock_icon£"
+ class_icon_druid: "£druid_icon£"
+ class_icon_hunter: "£hunter_icon£"
+ class_icon_shaman: "£shaman_icon£"
+ class_icon_death_knight: "£death_knight_icon£"
+ class_icon_monk: "£monk_icon"
+ class_icon_demon_hunter: "£demon_hunter_icon£"
+ class_icon_undecided: "£unknown_icon£"

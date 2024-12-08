@@ -24,5 +24,10 @@ capital 			= 2554
         elemental_water = yes
     }
     set_ruler_flag = is_immortal
+
+    set_defender_of_the_faith = {
+		who = P24
+		religion = water
+	}
 } 
 

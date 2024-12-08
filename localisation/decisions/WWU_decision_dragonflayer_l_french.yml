@@ -1,0 +1,15 @@
+﻿l_french:
+ #------------------------------
+ #Mission Unlocked 
+ #------------------------------
+ colonize_vengance_title: "[DI_cargoship] Settle Vengance Landing"
+ colonize_vengance_desc: "Having reclaimed one of our ancestral hubs, we have prepared for total conquest of of the region. The eastern cliffsides remain unsettled, but we can change it."
+
+ restore_gjalerborn_citadel_title: "[DI_titan_grip] Restore Gjalerborn Citadel"
+ restore_gjalerborn_citadel_desc: "Having reclaimed the ancestral land of Gjalerborn from the hands of non-vrykul, we can rebuild once powerful citadel."
+
+ restore_vrykul_cities_title: "[DI_repair] Restore Southern Towns"
+ restore_vrykul_cities_desc: "With cities of Valgarde and Halvarde retaken from foreign hands, we can resettle them with our people, as they were supposed to be."
+
+ settle_strand_of_the_ancients_title: "[DI_cargoship] Settle Strand of the Ancients"
+ settle_strand_of_the_ancients_desc: "After construction of our new fleet, our admirals and many brave sailors reported ideas of settlement of the weird island, south of the dragon's boneyard. They claim they feel some familiratiy, when sailing around the place, and tell tales of riches, that can be discovered there. If we decide for it, we can claim this island, before anyone else can."

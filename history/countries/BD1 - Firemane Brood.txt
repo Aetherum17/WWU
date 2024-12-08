@@ -1,0 +1,48 @@
+
+# Black Dragonflight
+government 			    = monarchy
+add_government_reform   = dragonflight_brood_reform
+mercantilism 		= 10
+technology_group 	= tech_black_dragonflight
+religion			= corrupt_dragon_aspect
+primary_culture 	= culture_black_dragonflight
+capital 			= 1454
+
+546.1.1 = {
+    monarch = {
+        name = "Onyxia"
+        dynasty = "the Destroyer"
+		adm = 4
+		dip = 6
+		mil = 4
+        birth_date = 200.1.1
+		female = yes
+ 	}
+    setup_spellcaster_history = {
+        APTITUDE = 3
+        FINESSE = 3
+        CONCENTRATION = 3
+        MANA = 5
+        draconic = yes
+    }
+    set_ruler_flag = is_immortal
+}
+
+623.1.1 = {
+    monarch = {
+        name = "Emberstrife"
+        dynasty = "of Wyrmbog"
+		adm = 3
+		dip = 2
+		mil = 4
+        birth_date = 200.1.1
+ 	}
+    setup_spellcaster_history = {
+        APTITUDE = 3
+        FINESSE = 3
+        CONCENTRATION = 3
+        MANA = 5
+        draconic = yes
+    }
+    set_ruler_flag = is_immortal
+}

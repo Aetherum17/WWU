@@ -1,0 +1,26 @@
+country_decisions = { 
+    form_ironforge = {
+        ai_importance = 0
+        
+        potential = {
+            tag = A29
+            NOT = { has_country_flag = is_ironforge }
+        }
+
+        allow = {
+            area_ironforge = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+        effect = {
+            override_country_name = IRONFORGE
+            hidden_effect = {
+                set_country_flag = is_ironforge
+            }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+}

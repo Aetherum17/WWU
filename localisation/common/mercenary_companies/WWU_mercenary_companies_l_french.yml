@@ -306,3 +306,25 @@
  wwu_specialist_xuen_1: "1st Company: Xu'en Disciples"
  wwu_specialist_xuen_2: "2nd Company: Xu'en Disciples"
  wwu_specialist_xuen_3: "3rd Company: Xu'en Disciples"
+
+ # Stormwind
+
+ wwu_specialist_stormwind_horsebrothers_1: "1st Company: Stormwind Knights"
+ wwu_specialist_stormwind_horsebrothers_2: "2nd Company: Stormwind Knights"
+ wwu_specialist_stormwind_horsebrothers_3: "3rd Company: Stormwind Knights"
+
+ wwu_specialist_stormwind_livingston: "Livingston Brigade"
+
+ wwu_specialist_stormwind_stonewatch: "Stonewatch Warband"
+
+ wwu_specialist_stormwind_footmen_1: "1st Company: Stormwind Footmen"
+ wwu_specialist_stormwind_footmen_2: "2nd Company: Stormwind Footmen"
+ wwu_specialist_stormwind_footmen_3: "3rd Company: Stormwind Footmen"
+
+ # Centaurs
+
+ wwu_specialist_aratas: "Aratas Perfect Ones"
+
+ # Gorilla
+
+ wwu_specialist_mukla: "King's Mukla Legion"

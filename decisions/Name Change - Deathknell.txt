@@ -1,0 +1,24 @@
+country_decisions = {
+    form_deathknell= {
+        ai_importance = 0
+        
+        potential = {
+            tag = G50
+            NOT = { has_country_flag = path_deathknell_unlock }
+            NOT = { has_country_flag = is_deathknell }
+        }
+
+        allow = {
+            religion = cult_of_the_damned
+        }
+        effect = {
+            override_country_name = DEATHKNELL
+            hidden_effect = {
+                set_country_flag = is_deathknell
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

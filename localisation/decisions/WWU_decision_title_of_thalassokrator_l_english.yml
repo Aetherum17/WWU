@@ -1,0 +1,11 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Title of Thalassokrator
+ #-----------------------------------------------
+ proclaim_title_of_thalassokrator_title: "[DI_golden_crown] Proclaim Thalassocracy"
+ proclaim_title_of_thalassokrator_desc: "We are now the masters of the sea! (New Naval Reform Opens)"
+ 
+ #-----------------------------------------------
+ # Flags
+ #-----------------------------------------------
+ thalassokrator: "Thalassokrator"

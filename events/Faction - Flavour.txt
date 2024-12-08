@@ -350,29 +350,29 @@ country_event = {
 	}
 }
 
-# Kicked from the Horde
-country_event = {
-	id = wwu_faction_system.42
-	title = wwu_faction_system.42.title
-	desc = wwu_faction_system.42.desc
-	picture = HORDE_TRIAL_eventPicture
-    
-    is_triggered_only = yes
-
-    trigger = {
-        has_global_flag = enabled_faction_mechanics
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-	option = {
-		name = wwu_faction_system.42.option.a
-		
-        add_prestige = -25
-	}
-}
+## Kicked from the Horde
+#country_event = {
+#	id = wwu_faction_system.42
+#	title = wwu_faction_system.42.title
+#	desc = wwu_faction_system.42.desc
+#	picture = HORDE_TRIAL_eventPicture
+#    
+#    is_triggered_only = yes
+#
+#    trigger = {
+#        has_global_flag = enabled_faction_mechanics
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#	option = {
+#		name = wwu_faction_system.42.option.a
+#		
+#        add_prestige = -25
+#	}
+#}
 
 # Kicked from the Trade Coalition
 country_event = {
@@ -470,29 +470,29 @@ country_event = {
 	}
 }
 
-# [From.GetName] left the Horde
-country_event = {
-	id = wwu_faction_system.52
-	title = wwu_faction_system.52.title
-	desc = wwu_faction_system.52.desc
-	picture = HORDE_TRIAL_eventPicture
-    
-    is_triggered_only = yes
-
-    trigger = {
-        has_global_flag = enabled_faction_mechanics
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-	option = {
-		name = wwu_faction_system.52.option.a
-		
-        add_prestige = -25
-	}
-}
+## [From.GetName] left the Horde
+#country_event = {
+#	id = wwu_faction_system.52
+#	title = wwu_faction_system.52.title
+#	desc = wwu_faction_system.52.desc
+#	picture = HORDE_TRIAL_eventPicture
+#    
+#    is_triggered_only = yes
+#
+#    trigger = {
+#        has_global_flag = enabled_faction_mechanics
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#	option = {
+#		name = wwu_faction_system.52.option.a
+#		
+#        add_prestige = -25
+#	}
+#}
 
 # [From.GetName] left the Trade Coalition
 country_event = {

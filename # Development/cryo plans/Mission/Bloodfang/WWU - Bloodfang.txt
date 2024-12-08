@@ -1,0 +1,133 @@
+f53_bloodfang_column1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = F53
+	}
+
+	f53_base_in_shadowfang_keep = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { f53_rally_wild_worgens }
+		trigger = { }
+		effect = { }
+	}
+	f53_reconciliation_with_gilneas = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { f53_base_in_shadowfang_keep }
+		trigger = { }
+		effect = { }
+	}
+}
+
+f53_bloodfang_column2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = F53
+	}
+
+	f53_kill_godfrey = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { f53_base_in_shadowfang_keep }
+		trigger = { }
+		effect = { }
+	}
+	f53_kill_sylvanas = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { f53_reconciliation_with_gilneas f53_kill_godfrey }
+		trigger = { }
+		effect = { }
+	}
+}
+
+f53_bloodfang_column3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = F53
+	}
+
+	f53_rally_wild_worgens = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = { }
+		trigger = { }
+		effect = { }
+	}
+	f53_defy_wolf_cult = {
+		icon = mission_build_up_to_force_limit
+		position = 4
+		required_missions = { f53_rally_wild_worgens }
+		trigger = { }
+		effect = { }
+	}
+	f53_kill_genn = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { f53_defy_wolf_cult f53_kill_sylvanas f53_reclaim_silverpine_forest }
+		trigger = { }
+		effect = { }
+	}
+	f53_new_identity = {
+		icon = mission_build_up_to_force_limit
+		position = 9
+		required_missions = { f53_kill_genn }
+		trigger = { }
+		effect = { }
+	}
+}
+
+f53_bloodfang_column4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = F53
+	}
+
+	f53_alliance_with_stormspike_clan = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { f53_base_in_fenris_isle }
+		trigger = { }
+		effect = { }
+	}
+	f53_reclaim_silverpine_forest = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { f53_take_revenge_forsaken f53_alliance_with_stormspike_clan }
+		trigger = { }
+		effect = { }
+	}
+}
+
+f53_bloodfang_column5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = {
+		tag = F53
+	}
+
+	f53_base_in_fenris_isle = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { f53_rally_wild_worgens }
+		trigger = { }
+		effect = { }
+	}
+	f53_take_revenge_forsaken = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { f53_base_in_fenris_isle }
+		trigger = { }
+		effect = { }
+	}
+}

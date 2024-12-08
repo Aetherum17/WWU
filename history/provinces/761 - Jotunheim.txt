@@ -8,12 +8,12 @@ base_production = 4
 base_manpower = 6
 
 culture = culture_vrykul
-religion = titan_worship
+religion = corrupt_titan_worship
 
 hre = no
 trade_goods = resource_food
 
-center_of_trade = 1
+center_of_trade = 2
 
 615.1.1 = { 
     religion = cult_of_the_damned 

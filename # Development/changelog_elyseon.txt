@@ -1,24 +1,89 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
+-Mirefin relocation to the shores of Dustwallow
+-Onyxia size adjastment and name change (Firemane Brood)
+-Corrections and adjastments to existing tags in Tanaris
+-Changes on the formation of Empire of Arathor
+-Updated Quilboar Flags
+-Kul'tiras Node Update: Node renamed to Tiragarde Sound and broken into 3 nodes (Tiragarde Sound, Drustvar, Stormsong Valley)
 
-Releasables:
--Astranaar
--Mirkfallon Dryads
--Laughing Sisters
--Sisters of Celebras
+Unique Events 
+-Scarlet Immigrants to Kalimdor if The Scarlet Crusade falls.
+-Argent Immigrants to Kalimdor if The Argent Dawn falls.
+-Name Change Flavor for Pandaren Empire Formable
+-Name Change Flavor for Mogu Empire Formable
+-Name Change Flavor for Daughters of Cenarius Formable
+-Name Change Flavor for New Arathor Formable
+-Name Change Flavor for Northrend (New Name Change)
+-Name Change Flavor for Lordaeron Formable
+-Name Change Flavor for Scarlet Lordaeron Formable
+-Name Change Flavor for Stratholme Formable
+-Name Change Flavor for Broken Isles (New Name Change)
 
-New Tag:
--Twisted Grove
 
-Adjastments:
--Change of Shendralar and Felwood in preperation of Shendralar Mission Tree (Wildspawn in Felwood and Shendralar owns the entire city)
--Quality of Life Menu for Ancient Elven City formables
--Quality of Life Menu for Demonic Invasion formables
+ New Tags
+-Muckshell (Dustwallow Marsh)
+-Sandstone (Tanaris)
+-Blazerunner (Un'goro)
+-Shaper's Terrace (Un'goro)
+-Death's Hand (Un'goro)
+-Uhk'loc (Un'goro)
+-Shady Rest (Dustwallow - Releasable)
+-Freewind (Thousand Needles)
+-Deadwood Harpies (Broken Shore)
+-Deepbeard (Azsuna)
+-Felrage (Broken Shore)
+-Mak'rana (Azsuna - Releasable)
+-Stonefin (Broken Shore)
+-Trenchwalker (Azsuna - Releasable)
+-Wavecrashers (Suramar)
+-Zhakenar (Azsuna)
+-Shorestriders (Feralas)
+-Blackwood (East Plaug.)
+-Corin's Crossing (East Plaug.)
+-Greenwood (East Plaug.)
+-Blademoon  (Botani - Shadowmoon)
+-Nightmarsh (Botani - Shadowmoon)
+-Socrethar (Shadowmoon)
+-Telrador (Shadowmoon)
+-Draakorium (Shadowmoon)
+-Bloodpetal ( Talador )
+-Bramblekin (Shadowmoon)
+-Nightshade (Shadowmoon)
+-Noxious ( Gorgrond )
+-Rainfen ( Tanaan Jungle )
+-Spiteleaf ( Nagrand )
+-Wakkalings ( Tanaan Jungle )
+-Zangarra ( Talador )
+-Sabellian's Brood (Gorgrond)
+-Dreadwing's Brood (Gorgrond)
+-Neltharaku's Brood (Shadowmoon)
+-Veraku's Brood (Fahralon)
+-Toranaku's Brood (Shadowmoon)
+-Valoku's Brood (Tanaan Jungle)
+
+
+ Political Update
+-Dustwallow Marsh
+-Tanaris (Revisited)
+-Un'goro Crater
+
+
+ New Mission Tree
+-Northwatch
+-Theramore (Rework)
 
 # TO NOT BE REPORTED IN NEXT UPLOADS BEFORE ULDUM UPDATE
 - Flavour name changes for Uldum and Halls of Origination formables
- 
+
+New Mission Trees
+-Protectors of Ammon
+-Oogah
+
 #--------------------------------------
 # TODO
 #--------------------------------------
+
+-Add an event chain for Jaina and Aegwynn mentor as Theramore
+-Add an event for buffing Jainas staff if you control Throne of Thunder

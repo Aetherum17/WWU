@@ -2,12 +2,13 @@
 owner = HAT
 controller = HAT
 add_core = HAT
+add_core = WAV
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_azsharan
+culture = culture_sea_giant
 religion = water
 
 hre = no

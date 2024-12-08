@@ -1,0 +1,10 @@
+﻿l_spanish:
+ #-----------------------------------
+ # National Identity GUI
+ #-----------------------------------
+ national_identity_title: "National Identity"
+ NATIONAL_IDENTITY_WINDOW_TT: "§YNational Identity§!\nConfigure the map color of §Y[Root.GetName]§!."
+ 
+ color_picker_title: "Color Picker"
+ 
+ COLOR_RESTORE_ORIGINAL: "Restore Original Color"

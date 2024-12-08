@@ -25,10 +25,24 @@ trade_goods = resource_rare_skins
     religion = fel
 }
 
+598.1.1 = {
+    owner = BD6
+    controller = BD6
+    add_core = BD6
+    remove_core = A38
+	
+    base_tax = 3
+    base_production = 3
+    base_manpower = 4
+
+    culture = culture_black_dragonflight
+    religion = dragon_aspects
+}
+
 # Outlandification
 600.1.1 = {
     
     owner = ---
     controller = ---
-    remove_core = A38
+    remove_core = BD6
 }

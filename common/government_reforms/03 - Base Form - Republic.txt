@@ -721,3 +721,42 @@ trade_coalition_reform = {
     
 	ai = { factor = 0 }
 }
+
+# Used for splinter groups of important nations
+expeditionary_force_reform = {
+	icon                        = "return_to_camp"
+    legacy_equivalent           = expeditionary_force_legacy
+    valid_for_new_country       = no 
+    allow_normal_conversion     = no 
+	allow_convert               = no 
+    valid_for_nation_designer   = yes
+	nation_designer_cost        = 0
+    lock_level_when_selected    = yes
+    
+	heir = no
+    generals_become_rulers  = yes
+    
+	modifiers = {
+        colonists = 1
+        global_colonial_growth = 25
+		global_regiment_cost = -0.1
+        global_regiment_recruit_speed = -0.2
+        
+        land_forcelimit_modifier = 0.1
+        land_forcelimit = 3
+        naval_forcelimit_modifier = 0.1
+        naval_forcelimit = 3
+        
+        governing_capacity = -100
+	}
+	
+    custom_attributes = {
+		locked_government_type = yes
+	}
+    
+    potential = {
+		has_reform = expeditionary_force_reform
+	}
+    
+	ai = { factor = 0 }
+}

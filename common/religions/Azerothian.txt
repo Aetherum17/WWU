@@ -177,5 +177,37 @@ azerothian_group = {
 		
         heretic = { HERETIC }
 	}
+
+	voodoo = {
+		color = { 25 15 25 }
+		icon = 6
+		allow_female_defenders_of_the_faith = yes
+
+		country = {
+			unjustified_demands = -0.1
+            mil_advisor_cost = -0.1
+		}
+        country_as_secondary = {
+			unjustified_demands = -0.1
+            mil_advisor_cost = -0.1
+        }
+		province = {
+			local_missionary_strength = -0.01
+		}
+
+		on_convert = {
+			change_religion = voodoo
+			add_prestige = -100
+
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}			
+		}
+
+        personal_deity = yes
+        
+        heretic = { HERETIC }
+	}
     
 }

@@ -58,8 +58,8 @@
  mystery_of_the_makers: "Mystery of the Makers"
  mystery_of_the_makers_religion_desc: "The Mystery of the Makers is a rising philosophy amongst Dwarves and other close races (Gnomes especially), sparked by the discovery of Titan ruins and facilities all across Azeroth that points toward the true origin of their kin, the ancient Titans. Rather than taking the measure of their creators on faith, the Dwarves have embarked on a mammoth investigation of their past."
 
- corrupt_titan_worship: "Corrupt Titanic"
- corrupt_titan_worship_religion_desc: "The Titans are colossal, metallic space-faring beings whose purpose is bringing order to the stars by seeding planets with life. Many of their titan-forged creations still guard their ancient ruins in Azeroth and look up to them as if they were gods."
+ corrupt_titan_worship: "Vrykul Mysticism"
+ corrupt_titan_worship_religion_desc: "Upon falling victim to the Curse of Flesh, the Vrykul had blamed their creators, the Titans, and their Titan Keepers as being one responsible for their tragedy, and their slow deformations. Having turned away from Titan worship, Vrykul turned to different means of spiritualism, be it arts of Hemomancy, Rune Worship or ancient rituals calling upon voices from below, vrykul choose many path, to follow as their own."
  
  corrupt_dragon_aspect: "Corrupt Dragon Aspect"
  corrupt_dragon_aspect_religion_desc: "A corrupted dragonflight, once given power long ago by the Titans to safeguard Azeroth. Influenced by the Old Gods."
@@ -527,16 +527,6 @@
  HOLY_SITE_1122_DESC: "Uldir was a titan research and quarantine facility where the titans conducted experiments on the Old Gods and dissected them to try to understand them. Instead, they ended up creating another Old God: G'huun."
  
  # Corrupt Titan
- corrupt_titan_the_dark_heart: "The Dark Heart"
- desc_corrupt_titan_the_dark_heart: ""
- corrupt_titan_cosmic_knowledge: "Cosmic Knowledge"
- desc_corrupt_titan_cosmic_knowledge: ""
- corrupt_titan_protectors_of_history: "Historical Databanks"
- desc_corrupt_titan_protectors_of_history: ""
- corrupt_titan_breath_of_death: "Breath of Death"
- desc_corrupt_titan_breath_of_death: ""
- corrupt_titan_master_of_magic: "Master of Magic"
- desc_corrupt_titan_master_of_magic: ""
  
  # Titan
  titan_gift_of_the_stone: "Gift of the Stone"
@@ -988,6 +978,11 @@
  CRYSTAL_ASPECTS_LONG: "Crystal Aspect"
  CRYSTAL_ASPECTS_SHORT: "aspect"
  CRYSTAL_ASPECTS_POWER_NAME: "Religious Power"
+
+ CORRUPTED_TITANIC_ASPECTS: "Corrupted Titan Aspects"
+ CORRUPTED_TITANIC_ASPECTS_LONG: "Corrupted Titan Aspects"
+ CORRUPTED_TITANIC_ASPECTS_SHORT: "aspect"
+ CORRUPTED_TITANIC_ASPECTS_POWER_NAME: "Religious Power"
  
  # Cult of the Damned
  unrelenting_conversion: "Unrelenting Conversion"
@@ -1193,6 +1188,33 @@
  
  crystal_reverberations_of_the_moonsong: "Reverberations of the Moonsong"
  desc_crystal_reverberations_of_the_moonsong: ""
+
+ # Corrupted Titanic
+ 
+ corrupt_titanic_sangunare_ritual_aspect: "Sanguinare Rituals"
+ desc_corrupt_titanic_sangunare_ritual_aspect: ""
+ corrupt_titanic_trial_by_fire_aspect: "Trial by Fire"
+ desc_corrupt_titanic_trial_by_fire_aspect: ""
+ corrupt_titanic_visionare_aura_aspect: "Visionare's Aura"
+ desc_corrupt_titanic_visionare_aura_aspect: ""
+ corrupt_titanic_makers_touch_aspect: "Maker's Touch"
+ desc_corrupt_titanic_makers_touch_aspect: ""
+ corrupt_titanic_purge_evil_aspect: "Purge Evil"
+ desc_corrupt_titanic_purge_evil_aspect: ""
+ corrupt_titanic_wisdom_of_creators_aspect: "Wisdom of Creators"
+ desc_corrupt_titanic_wisdom_of_creators_aspect: ""
+
+ corrupt_titan_sanguinare_bloodlust: "Sanguinare Ritual"
+ desc_corrupt_titan_sanguinare_bloodlust: ""
+
+ corrupt_titanic_visionare_aura: "Visionare's Aura"
+ desc_corrupt_titanic_visionare_aura: ""
+
+ corrupt_titanic_makers_touch: "Maker's Touch"
+ desc_corrupt_titanic_makers_touch: ""
+
+ corrupt_titan_wisdom_of_creators: "Wisdom of Creators"
+ desc_corrupt_titan_wisdom_of_creators: ""
  
  #-----------------------------------------------
  # Misc

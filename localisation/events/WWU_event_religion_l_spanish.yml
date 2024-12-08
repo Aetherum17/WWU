@@ -13,6 +13,7 @@
  wwu_religion.1.option.g: "Convert to Earth"
  wwu_religion.1.option.h: "Convert to Wind"
  wwu_religion.1.option.i: "Convert to Water"
+ wwu_religion.1.option.j: "Convert to Fel"
  wwu_religion.1.option.x: "Actually, let us remain as we are"
  
  wwu_religion.2.title: "Manifest the Arcane: Stop"

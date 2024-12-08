@@ -1,0 +1,25 @@
+#----------------
+#--- Missions ---
+#----------------
+mission_vrykul_shared_great_game_reward = {
+    prestige_decay = -0.01
+    monthly_splendor = 1
+    diplomatic_reputation = 1
+}
+
+mission_vrykul_shared_great_game_neutral_reward = {
+    diplomatic_reputation = 1
+}
+
+mission_vrykul_shared_trial_warrior = {
+    army_tradition_from_battle = 0.05
+    land_morale = 0.10
+    war_exhaustion = -0.05
+}
+
+#----------------
+#--- Decision ---
+#----------------
+great_game_cooldown = {
+    prestige = 0.1
+}

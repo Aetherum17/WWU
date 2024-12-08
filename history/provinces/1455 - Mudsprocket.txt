@@ -19,7 +19,7 @@ center_of_trade = 1
 
 
 
-631.1.1 = { 
+625.1.1 = { 
     controller = A80
     owner = A80
     add_core = A80
@@ -31,7 +31,4 @@ center_of_trade = 1
     is_city = yes
 }
 
-632.1.1 = {
-    remove_core = A99
-}
 

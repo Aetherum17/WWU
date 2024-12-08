@@ -1,0 +1,89 @@
+country_decisions = {
+    firelord_free = {
+        potential = {
+            tag = P26
+            ai = yes
+            NOT = { is_subject = yes }
+            NOT = { religion = flame }
+            NOT = { has_country_flag = embraced_new_reliion }
+        }
+        allow = {
+            NOT = { is_subject = yes }
+            NOT = { religion = flame }
+            adm_power = 50
+        }
+        effect = {
+            add_adm_power = -50
+            change_religion = flame
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    windlord_free = {
+        potential = {
+            tag = P28
+            ai = yes
+            NOT = { is_subject = yes }
+            NOT = { religion = wind }
+            NOT = { has_country_flag = embraced_new_reliion }
+        }
+        allow = {
+            NOT = { is_subject = yes }
+            NOT = { religion = wind }
+            adm_power = 50
+        }
+        effect = {
+            add_adm_power = -50
+            change_religion = wind
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    tidehunter_free = {
+        potential = {
+            tag = P24
+            ai = yes
+            NOT = { is_subject = yes }
+            NOT = { religion = water }
+            NOT = { has_country_flag = embraced_new_reliion }
+        }
+        allow = {
+            NOT = { is_subject = yes }
+            NOT = { religion = water }
+            adm_power = 50
+        }
+        effect = {
+            add_adm_power = -50
+            change_religion = water
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    stonemother_free = {
+        potential = {
+            tag = P27
+            ai = yes
+            NOT = { is_subject = yes }
+            NOT = { religion = earth }
+            NOT = { has_country_flag = embraced_new_reliion }
+        }
+        allow = {
+            NOT = { is_subject = yes }
+            NOT = { religion = earth }
+            adm_power = 50
+        }
+        effect = {
+            add_adm_power = -50
+            change_religion = earth
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

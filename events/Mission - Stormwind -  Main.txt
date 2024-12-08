@@ -146,7 +146,7 @@ country_event = {
         }
 
         STW = {
-            country_event = { id =  wwu_mission_stw_main.4 days = 30 }
+            country_event = { id =  wwu_mission_stw_main.4 days = 3 }
         }
     }
 }

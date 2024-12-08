@@ -1,30 +1,26 @@
 is_city = yes
-owner = A34
-controller = A34
-add_core = A34
+owner = NIG
+controller = NIG
+add_core = NIG
 
-base_tax = 1
-base_production = 2
+base_tax = 2
+base_production = 4
 base_manpower = 2
 
-culture = culture_orc
-religion = shamanism
+culture = culture_podling
+religion = sporemounds
 
 hre = no
 trade_goods = resource_common_skins
 
 center_of_trade = 1
 
-# Fel Conversion
-560.1.1 = {
-    religion = fel
-}
 
 # Outlandification
 600.1.1 = {
     
     owner = ---
     controller = ---
-    remove_core = A34
+    remove_core = NIG
 }
 

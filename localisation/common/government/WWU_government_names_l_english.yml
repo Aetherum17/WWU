@@ -22,21 +22,22 @@
  GOV_TROLL_KINGDOM: "Troll Kingdom"
  GOV_TROLL_EMPIRE: "Troll Empire"
  GOV_VRYKUL_KINGDOM: "Vrykul Kingdom"
- GOV_KINGDOM_OF_SURAMAR: "Kingdom of Suramar"
+ GOV_KINGDOM_OF_SURAMAR: "Nightborn Kingdom"
  GOV_PANDAREN_UNION: "Pandaren Union"
  GOV_CELESTIAL_ORDER: "Celestial Order"
  GOV_SHADO_PAN_ORDER: "Shado-Pan Order"
  GOV_MECHAGON: "Mechagon"
  GOV_HALLS_OF_VALOR: "Halls of Valor"
- GOV_KINGDOM_OF_THAURISSAN: "Kingdom of Thaurissan"
- GOV_THORIUM_BROTHERHOOD: "Thorium Brotherhood"
- GOV_KINGDOM_OF_STORMWIND: "Kingdom of Stormwind"
- GOV_KINGDOM_OF_KHAZ_MODAN: "Kingdom of Khaz Modan"
- GOV_KINGDOM_OF_STROMGARDE: "Kingdom of Stromgarde"
- GOV_KINGDOM_OF_GILNEAS: "Kingdom of Gilneas"
- GOV_KINGDOM_OF_LORDAERON: "Kingdom of Lordaeron"
- GOV_KINGDOM_OF_ALTERAC: "Kingdom of Alterac"
+ GOV_KINGDOM_OF_THAURISSAN: "Thaurissan Monarchy"
+ GOV_THORIUM_BROTHERHOOD: "Thorium Dwarven Associaton"
+ GOV_KINGDOM_OF_STORMWIND: "Stormwindian Kingdom"
+ GOV_KINGDOM_OF_KHAZ_MODAN: "Khaz Modan Kingdom"
+ GOV_KINGDOM_OF_STROMGARDE: "Stormic Monarchy"
+ GOV_KINGDOM_OF_GILNEAS: "Gilnean Monarchy"
+ GOV_KINGDOM_OF_LORDAERON: "Lordaeronian Monarchy"
+ GOV_KINGDOM_OF_ALTERAC: "Alteraci Monarchy"
  GOV_DRAGON_ASPECTS: "Council of the Dragon Aspects"
+ GOV_SILITIHID_LAIR: "Silithrid Lair"
  
  # Republic
  GOV_REPUBLIC: "Republic"
@@ -105,6 +106,8 @@
  GOV_ASHTONGUE_COMMAND: "Ashtongue Command"
  GOV_COILSKAR_COMMAND: "Coilskar Command"
  GOV_COILFANG_COMMAND: "Coilfang Command"
+ GOV_THE_PERFECT_ONES: "The Centaur Order"
+ GOV_YMIRJAR_ORDER: "Ymirjar Order"
  
  # Tribal
  GOV_CLAN: "Clan"
@@ -135,5 +138,6 @@
  GOV_KRAUL: "Kraul"
  GOV_VRYKUL_CLAN: "Vrykul Clan"
  GOV_MURLOC_CLAN: "Murloc Clan"
+ GOV_GRONN_TRIBE: "Gronn Tribe"
  
  

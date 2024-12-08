@@ -47,7 +47,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = cthun_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -68,7 +68,7 @@ province_event = {
 		
         spawn_rebels = {
             type = cthun_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -120,7 +120,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = nzoth_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -141,7 +141,7 @@ province_event = {
 		
         spawn_rebels = {
             type = nzoth_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -193,7 +193,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = yogg_saron_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -214,7 +214,7 @@ province_event = {
 		
         spawn_rebels = {
             type = yogg_saron_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -266,7 +266,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = yshaarj_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -287,7 +287,7 @@ province_event = {
 		
         spawn_rebels = {
             type = yshaarj_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -339,7 +339,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = sha_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -360,7 +360,7 @@ province_event = {
 		
         spawn_rebels = {
             type = sha_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -412,7 +412,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = twilight_cult_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -433,7 +433,7 @@ province_event = {
 		
         spawn_rebels = {
             type = twilight_cult_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -485,7 +485,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = nightmare_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -506,7 +506,7 @@ province_event = {
 		
         spawn_rebels = {
             type = nightmare_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -558,7 +558,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = void_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -579,7 +579,7 @@ province_event = {
 		
         spawn_rebels = {
             type = void_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -631,7 +631,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = cult_of_the_damned_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -652,7 +652,7 @@ province_event = {
 		
         spawn_rebels = {
             type = cult_of_the_damned_rebels
-            size = 1
+            size = 2
         }
 	}
 }
@@ -704,7 +704,7 @@ country_event = {
             }
             spawn_rebels = {
                 type = decay_rebels
-                size = 1
+                size = 2
             }
         }
 	}
@@ -725,7 +725,7 @@ province_event = {
 		
         spawn_rebels = {
             type = decay_rebels
-            size = 1
+            size = 2
         }
 	}
 }

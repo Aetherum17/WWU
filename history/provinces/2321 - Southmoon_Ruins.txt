@@ -13,5 +13,19 @@ religion = voodoo
 hre = no
 trade_goods = resource_food
 
+600.1.1 = {
+    is_city = yes
+    
+    owner = H05
+    controller = H05
+    add_core = H05
+	
+    religion = ogre_idolatry
+    culture = culture_ogre
+}
 
-
+631.1.1 = {
+    owner = ---
+	controller = ---
+	remove_core = H05
+}

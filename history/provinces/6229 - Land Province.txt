@@ -1,0 +1,29 @@
+is_city = yes 
+
+owner = WBK
+controller = WBK
+add_core = WBK
+
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+culture = culture_treant
+religion = druidism
+
+hre = no
+trade_goods = resource_arcane
+
+618.1.1 = {
+    owner = F21
+    controller = F21
+    add_core = F21
+	remove_core = WBK
+	
+    culture = culture_crypt_fiend
+    religion = cult_of_the_damned   
+}
+
+619.1.1 = {
+    add_core = NER
+}

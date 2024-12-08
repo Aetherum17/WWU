@@ -11,7 +11,7 @@
  P26_dark_iron_pact_desc: "Our relation with Kingdom of Thaurassian is loosly defined, as that of servant and overlord. First, we should bring our ties closer, so that we can use it to our advantage"
 
  P26_molten_core_title: "The Molten Core"
- P26_molten_core_desc: "The Molten Core is a cavern beneath Blackrock Mountain, where our lord, Ragnaros, was first summoned to Azeroth after millenia of being stuck in the Elemental Plain. As such, his seat in Azeroth shall belong to him and only him."
+ P26_molten_core_desc: "The Molten Core is a cavern beneath Blackrock Mountain, where our lord, Ragnaros, was first summoned to Azeroth after millenia of being stuck in the Elemental Plane. As such, his seat in Azeroth shall belong to him and only him."
 
  P26_contol_of_dark_iron_clan_title: "Control of Dark Iron Clan"
  P26_contol_of_dark_iron_clan_desc: "Since our incursion into Azeroth is inevetable, we must decide what do we do with the Dark Iron dwarves. Should they be enslaved and ruled directly, or should they recive our blessing for unquestioned servitude?"
@@ -23,13 +23,13 @@
  P26_conquest_of_badlands_desc: "First, we must push to the north, and due to that, lands of Badlands should be our next target."
 
  P26_invasion_of_loch_modan_title: "Invasion of Loch Modan"
- P26_invasion_of_loch_modan_desc: "The region of Loch Modan holds great imporantce to the dwarves of Ironforge. We should take it away from it, and bathe the region if flames."
+ P26_invasion_of_loch_modan_desc: "The region of Loch Modan holds great imporantce to the dwarves of Ironforge. We should take it away from them, and bathe the region if flames."
 
  P26_into_the_ironforge_heartlands_title: "Into the Ironforge Heartland"
  P26_into_the_ironforge_heartlands_desc: "The time has come to push to the heart of the dwarvenkind, and destroy any resistance left."
 
  P26_the_fall_of_ironforge_title: "The Fall of Ironforge"
- P26_the_fall_of_ironforge_desc: "The Fortress and City of Ironforge fell to our might. The Great Forge awaits."
+ P26_the_fall_of_ironforge_desc: "The Fortress and City of Ironforge fell to our might. The Great Forge of Ironforge awaits."
 
  P26_conquest_of_searing_gorge_title: "Conquest of Searing Gorge"
  P26_conquest_of_searing_gorge_desc: "The Searing Gorge is a region of great value for the Dark Iron dwarves, due to rich mineral presence. We can benefit from controlling it."
@@ -38,19 +38,19 @@
  P26_redridge_aggression_desc: "Redridge is the southern territory from Burning Steppes, as well as gateway into the lands consider by many as the core crownlands of the Kingdom of Stormwind. As flames of Ragnaros cannot be extinguished, we should start to expand into this region, so that we can soon face and wipe out the human kingdom."
 
  P26_elemental_forces_of_flame_title: "Elemental Forces of Flame"
- P26_elemental_forces_of_flame_desc: ""
+ P26_elemental_forces_of_flame_desc: "The Elemental Force of Flame, the vanguard of Firelands, has to be summoned before the Firelord, and with its generals, prepare for goal to come. As our lord looks upon his rivals, the Elemental Lords."
 
  P26_confront_the_windlord_title: "Confront the Windlord"
- P26_confront_the_windlord_desc: "First, we must confront the Ruler of Skywall, the Windlord Al'akir."
+ P26_confront_the_windlord_desc: "First, we must confront the Ruler of Skywall, the Windlord Al'akir. Althrough both allies and rivals in the past, now our vision is clear. Defeat at all cost."
 
  P26_confront_the_tidehunter_title: "Confront the Tidehunter"
- P26_confront_the_tidehunter_desc: "We must confront the Master of the Abyssal Maw, Neptulon the Tidehunter"
+ P26_confront_the_tidehunter_desc: "We must confront the Master of the Abyssal Maw, Neptulon the Tidehunter. Althrough both allies and rivals in the past, now our vision is clear. Defeat at all cost."
 
  P26_confront_the_stonemother_title: "Confront the Stonemother"
- P26_confront_the_stonemother_desc: "We must descend into the realm of Earth, to confront the Stonemother Therazane"
+ P26_confront_the_stonemother_desc: "We must descend into the realm of Earth, to confront the Stonemother Therazane. Althrough both allies and rivals in the past, now our vision is clear. Defeat at all cost."
 
  P26_elemental_control_title: "Elemental Control"
- P26_elemental_control_desc: "With all other elemental plains in control, we must decide the fate of the elemental realms."
+ P26_elemental_control_desc: "With all other elemental plains in our control, we must decide the fate of the elemental realms as a whole, and declare a new order of unity for all elemental beings."
 
  P26_ungoro_volcano_title: "Un'goro Volcanic Activity"
  P26_ungoro_volcano_desc: "Due to our influence in Azeroth growing, certain regions experience increased volcanic activity. Such was the case in Un'goro Crater, where noteworthy elemental named Blazerunner awoke, and pledged himself to us."
@@ -59,10 +59,10 @@
  P26_elwynn_agression_desc: "We have entered Elwynn Forest. Soon, our flames will reach the heart of the human kingdom."
 
  P26_the_flames_of_stormwind_title: "The Flames of Stormwind"
- P26_the_flames_of_stormwind_desc: "The Gate of Stormwind shall fall, unted the might of the Firelord."
+ P26_the_flames_of_stormwind_desc: "The Gate of Stormwind shall fall, under the might of the Firelord."
 
  P26_confrontation_with_ordos_title: "Confrontation with Ordos"
- P26_confrontation_with_ordos_desc: "We must confront the so-called Fire God of Pandaria"
+ P26_confrontation_with_ordos_desc: "We must confront the so-called Fire God of Pandaria, and show he who trurly decides the fate of all flames."
 
  P26_sulfuron_defences_title: "Sulfuron Defences"
  P26_sulfuron_defences_desc: "Our generals has shown sights of worry due to lack of defences our home region offers. Perhaps we should construct some sort of fortification is most critical locations."
@@ -121,3 +121,12 @@
 
  mission_flaming_armory: "Flaming Armory"
  desc_mission_flaming_armory: ""
+
+ event_blazerunner_empowerment_minor: "Blazerunner Gift"
+ desc_event_blazerunner_empowerment_minor: ""
+
+ event_blazerunner_empowerment_major: "Blazerunner Power"
+ desc_event_blazerunner_empowerment_major: ""
+
+ event_BLA_frontier_ten: "Blazerunner Frontier"
+ desc_event_BLA_frontier_ten: ""

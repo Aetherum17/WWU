@@ -6,7 +6,9 @@ mercantilism 		= 10
 technology_group 	= tech_sea_giant
 religion			= arkkorok
 primary_culture 	= culture_sea_giant
-capital 			= 1435
+add_accepted_culture = culture_makrura
+add_accepted_culture = culture_murloc
+capital 			= 4091
 
 546.1.1 = { 
 	monarch = { 

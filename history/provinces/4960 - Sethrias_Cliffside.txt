@@ -17,18 +17,20 @@ trade_goods = resource_artifacts
 
 
 631.1.1 = {
-    religion = twilight_cult
-    owner = B06
-    controller = B06
-    add_core = B06
+    owner = SHB
+    controller = SHB
+    add_core = SHB
+	
+	culture = culture_twilight_dragonflight
+	religion = flame
 }
 
 632.1.1 = {
-    culture = culture_fire
-    religion = flame
     owner = P26
     controller = P26
     add_core = P26
-    remove_core = B06
+    remove_core = SHB
+	
+	culture = culture_fire
+    religion = flame
 }
-

@@ -77,7 +77,7 @@ country_decisions = {
             # Bonus
             add_formable_bonus = yes
             trigger_ni_switch = yes
-            #trigger_mission_switch = yes
+            trigger_mission_switch = yes
             set_final_tag_status = yes
 		}
 		

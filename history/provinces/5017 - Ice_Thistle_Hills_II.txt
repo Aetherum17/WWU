@@ -1,25 +1,37 @@
 
 is_city = yes
 
-owner = B44
-controller = B44
-add_core = B44
+owner = G03
+controller = G03
+add_core = G03
 
-base_tax = 2
-base_production = 2
+base_tax = 1
+base_production = 1
 base_manpower = 2
 
-culture = culture_furbolg
-religion = shamanism
+culture = culture_frost_giant
+religion = titan_worship
 
 
 hre = no
 trade_goods = resource_food
 
 
+616.1.1 = {
+owner = CRA
+controller = CRA
+add_core = CRA
 
+religion = fel
+culture = culture_satyr
+}
 
 618.1.1 = {
-  religion = fel
-  culture = culture_corrupted_furbolg
+    owner = G03
+    controller = G03
+    add_core = G03
+	remove_core = CRA
+	
+	culture = culture_frost_giant
+	religion = titan_worship
 }

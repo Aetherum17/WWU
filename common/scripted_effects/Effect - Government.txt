@@ -234,14 +234,15 @@ on_battle_lost_province__government = {
     # Mojo - Loss
     if = {
         limit = {
-            has_government_mechanic = mojo_mechanic
+            owner = { has_government_mechanic = mojo_mechanic }
         }
-        
-        add_government_power = {
-            mechanic_type = mojo_mechanic
-            power_type = mojo
-            value = -2
-        }
+        owner = {
+			add_government_power = {
+				mechanic_type = mojo_mechanic
+				power_type = mojo
+				value = -2
+			}
+		}
     }
     
     # Mojo - Cannibal

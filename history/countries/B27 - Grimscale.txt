@@ -28,3 +28,7 @@ capital 			= 892
 		mil = 0
 	}
 }
+
+619.1.1 = {
+    add_accepted_culture = culture_murghoul
+}

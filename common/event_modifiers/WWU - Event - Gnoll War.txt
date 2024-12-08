@@ -1,0 +1,7 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+event_gnoll_war_stormwind_manpower = {
+    manpower_recovery_speed = -0.2
+    land_morale = 0.1
+}

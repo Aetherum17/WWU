@@ -23,6 +23,7 @@ manage_vassal = {
                 is_subject_of_type = crown_colony
                 is_subject_of_type = private_enterprise
                 is_subject_of_type = self_governing_colony
+                is_subject_of_type = subjugated_vassal
             }
         }
 	}

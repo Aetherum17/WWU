@@ -1,7 +1,7 @@
 
 # Northwatch
-government 			= republic
-add_government_reform = noble_republic_reform
+government = tribal
+add_government_reform = expeditionary_force_reform
 mercantilism 		= 10
 technology_group 	= tech_human
 religion		= holy_light
@@ -19,7 +19,7 @@ capital 			 = 1439
     }
 	capital = 1439
     primary_culture = culture_kul_tiran
-    religion = tidemother
+	religion = tidemother
     government = tribal
     add_government_reform = expeditionary_force_reform
 }
@@ -34,6 +34,9 @@ capital 			 = 1439
         birth_date = 561.1.1
  	}
     capital = 1369
+	
+	primary_culture = culture_lordaeron
+	religion = holy_light
 }
 
 #The Frozen Throne

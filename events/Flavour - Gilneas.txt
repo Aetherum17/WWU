@@ -8,14 +8,37 @@ country_event = {
 	picture = GRAYMANE_WALL_eventPicture
     
     is_triggered_only = yes
-    
+    major = yes
+	
 	trigger = {
 		tag = A12 # Gilneas
 		owns = 914 # Greymane Gate
-        
-		any_country = {
-			culture_group = culture_group_scourge
-            war_with = ROOT
+        OR = {
+			any_country = {
+				culture_group = culture_group_scourge
+				war_with = ROOT
+			}
+			
+			region_silverpine_forest = {
+				OR = {
+					owned_by = P52
+					controlled_by = P52
+				}
+			}
+			region_silverpine_forest = {
+				OR = {
+					owned_by = P12
+					controlled_by = P12
+				}
+			}
+			region_silverpine_forest = {
+				OR = {
+					owned_by = P11
+					controlled_by = P11
+				}
+			}
+			
+			has_country_flag = A12_can_build_greymane_wall_by_mission
 		}
         
         914 = {
@@ -58,3 +81,2268 @@ country_event = {
 	}
 }
 
+# Genn change to Worgen
+country_event = {
+	id = wwu_gilneas.2
+	title = wwu_gilneas.2.title
+	desc = wwu_gilneas.2.desc
+	picture = GENN_GREYMANE_WORGEN_eventPicture
+	
+    fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		OR = {
+			has_disaster = curse_of_the_worgen
+				
+			num_of_owned_provinces_with = {
+				value = 3
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+			
+		tag = A12 # Gilneas
+			
+		NOT = {
+			OR = {
+				ruler_culture = culture_gilnean_worgen
+				ruler_culture = culture_scourge
+				ruler_culture = culture_forsaken
+				ruler_culture = culture_undead_human
+				has_country_flag = A12_genn_became_worgen
+				has_ruler_flag = is_immunize_to_the_worgen_curse
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+		
+		modifier = {
+			factor = 0.9
+			num_of_owned_provinces_with = {
+				value = 5
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.85
+			num_of_owned_provinces_with = {
+				value = 6
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.8
+			num_of_owned_provinces_with = {
+				value = 7
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.75
+			num_of_owned_provinces_with = {
+				value = 8
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.7
+			num_of_owned_provinces_with = {
+				value = 9
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.65
+			num_of_owned_provinces_with = {
+				value = 10
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = A12_genn_became_worgen
+		}
+	}
+		
+	option = {
+		name = wwu_gilneas.2.option.a
+		
+		set_ruler_culture = culture_gilnean_worgen
+			
+		if = { #Genn can't control the beast without Aranas Antidote
+			limit = {
+				NOT = { mission_completed = A12_aranas_antidote }
+			}
+			add_ruler_modifier = {
+				name = A12_genn_become_worgen_modifier_a
+				duration = -1
+			}
+			
+			custom_tooltip = A12_genn_can_be_cured_tt
+		} 
+			
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Rebellion of Godfrey - At war with Forsaken
+country_event = {
+	id = wwu_gilneas.3
+	title = wwu_gilneas.3.title
+	desc = wwu_gilneas.3.desc
+	picture = LORD_VINCENT_GODFREY_eventPicture
+	
+    fire_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	trigger = {
+		tag = A12
+		has_country_flag = A12_genn_became_worgen
+		
+		NOT = {
+			OR = {
+				has_country_flag = A12_godfrey_died
+				has_country_flag = A12_godfrey_rebellion
+				has_global_flag = A12_X02_spawned
+			}
+		}
+		
+		is_in_war = {
+			participants = A12
+			participants = P14
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = A12_godfrey_rebellion
+		}
+	}
+	
+	option = {
+		name = wwu_gilneas.3.option.a
+		
+		890 = { #Tempest's Reach
+			spawn_rebels = {
+				leader = "Vincent Godfrey"
+				type = noble_rebels
+				size = 2
+				culture = culture_gilnean
+				win = yes
+				friend = P14
+			}
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Rebellion of Godfrey - if there is no war with Forsaken
+country_event = {
+	id = wwu_gilneas.4
+	title = wwu_gilneas.4.title
+	desc = wwu_gilneas.4.desc
+	picture = LORD_VINCENT_GODFREY_eventPicture
+    
+	mean_time_to_happen = {
+		days = 12
+	}
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		tag = A12
+		has_country_flag = A12_genn_became_worgen
+		
+		NOT = {
+			OR = {
+				has_country_flag = A12_godfrey_died
+				has_country_flag = A12_godfrey_rebellion
+				has_global_flag = A12_X02_spawned
+			}
+		}
+		
+		is_at_war = no
+		
+	}
+	
+	immediate = {
+		set_country_flag = A12_godfrey_rebellion
+		set_country_flag = A12_X02_spawned
+		
+		hidden_effect = {
+			890 = { #Tempest's Reach
+				cede_province = X02 #Lord of the East
+				add_claim = X02
+				add_core = X02
+				
+			}
+			908 = { #Gilnean Fields
+				cede_province = X02 #Lord of the East
+				add_claim = X02
+				add_core = X02
+			}
+			858 = { #Tempest Isles
+				cede_province = X02 #Lord of the East
+				add_claim = X02
+				add_core = X02
+				
+				infantry = X02
+				infantry = X02
+			}	
+			
+			X02 = {
+				define_ruler = {
+					name = "Vincent"
+					dynasty = "Godfrey"
+					adm = 3
+					dip = 1
+					mil = 4
+					min_age = 40
+					claim = 80
+				}
+				
+				define_ruler_to_general = {
+					fire = 2
+					shock = 3
+					manuever = 2
+					siege = 1
+				}
+				
+				define_general = {
+					name = "Ashbury Baron"
+					shock = 3
+					fire = 1
+					manuever = 2
+					siege = 2
+				}
+				
+				define_general = {
+					name = "Lord Walden" 
+					shock = 1
+					fire = 1
+					manuever = 2
+					siege = 3
+				}
+				
+				
+				add_yearly_manpower = 0.3
+				set_ruler_flag = warrior_personality
+				set_country_flag = automatic_discovery_completed
+			}
+		}
+	}
+	
+	option = {
+		name = wwu_gilneas.4.option.a
+		
+		X02 = {
+			declare_war_with_cb = {
+				who = A12
+				casus_belli = cb_independence_war
+			}
+		}
+		
+		hidden_effect = {
+			every_country = {
+				limit = { culture_group = culture_group_worgen }
+				
+				add_opinion = {
+					who = X02 
+					modifier = A12_opinion_godfrey_non_tolerance
+				}
+				
+				X02 = {
+					country_event = { id = wwu_discovery.6 }
+				}
+			}
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = wwu_gilneas.4.option.b #Play as Godfrey's Rebellion
+		
+		X02 = {
+			declare_war_with_cb = {
+				who = A12
+				casus_belli = cb_independence_war
+			}
+		}
+		
+		hidden_effect = {
+			every_country = {
+				limit = { culture_group = culture_group_worgen }
+				
+				add_opinion = {
+					who = X02 
+					modifier = A12_opinion_godfrey_non_tolerance
+				}
+			}
+		}
+		
+		set_global_flag = A12_player_switch_tag_for_godfrey
+		
+		switch_tag = X02
+		
+		ai_chance = { factor = 0 }
+	}
+}
+
+#Propagation of the Curse
+country_event = {
+	id = wwu_gilneas.5
+	title = wwu_gilneas.5.title
+	desc = wwu_gilneas.5.desc
+	picture = RAGING_WORGEN_eventPicture
+    
+	mean_time_to_happen = {
+		days = 40
+	}
+	
+	trigger = {
+		OR = {
+			tag = A12
+			primary_culture = culture_gilnean
+			primary_culture = culture_lordaeron
+		}
+		
+		OR = {
+			any_neighbor_country = {
+				culture_group = culture_group_worgen
+			}
+		 	any_owned_province = {
+				culture_group = culture_group_worgen
+			}
+		}
+		
+		NOT = {
+			OR = {
+				has_global_flag = curse_of_the_worgen_cured
+				primary_culture = culture_gilnean_worgen
+				technology_group = tech_worgen
+				religion = scarlet_light
+				primary_culture = culture_forsaken
+				primary_culture = culture_scourge
+				primary_culture = culture_undead_human
+			}
+		}
+		NOT = {
+			any_owned_province = {
+				has_province_modifier = A12_the_worgens_already_attacked_this_prov
+			}
+		}
+		any_owned_province = {
+			any_neighbor_province = {
+				culture_group = culture_group_worgen
+				NOT = { has_province_modifier = A12_the_worgens_already_attacked_this_prov }	
+			}
+			NOT = {
+				OR = {
+					province_id = 890
+					province_id = 908
+				}
+			}
+			NOT = { culture_group = culture_group_worgen }
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			random_owned_province = {
+				limit = {
+					any_neighbor_province = {
+						culture_group = culture_group_worgen
+						NOT = { has_province_modifier = A12_the_worgens_already_attacked_this_prov }	
+					}
+					NOT = {
+						OR = {
+							province_id = 890
+							province_id = 908
+						}
+					}
+					NOT = { culture_group = culture_group_worgen }
+				}
+				save_event_target_as = A12_propagation_of_the_curse_event_target
+				add_province_modifier = {
+					name = A12_the_worgens_already_attacked_this_prov
+					duration = 30
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = wwu_gilneas.5.option.a
+		if = {
+			limit = { primary_culture = culture_gilnean }
+			random_list = {
+				70 = {
+					event_target:A12_propagation_of_the_curse_event_target = {
+						change_culture = culture_gilnean_worgen						
+					}
+				}
+				30 = { }
+			}
+			
+			#custom_tooltip = " "
+			
+			add_prestige = -10
+		}
+		else = {
+			random_list = {
+				70 = {
+					event_target:A12_propagation_of_the_curse_event_target = {
+						change_culture = culture_lordaeron_worgen						
+					}
+				}
+				30 = { }
+			}
+			
+			#custom_tooltip = " "
+			
+			add_prestige = -10
+		}
+	}
+	
+	option = {
+		name = wwu_gilneas.5.option.b
+		if = {
+			limit = { primary_culture = culture_gilnean }
+			random_list = {
+				40 = {
+					event_target:A12_propagation_of_the_curse_event_target = {
+						change_culture = culture_gilnean_worgen						
+					}
+				}
+				60 = { 
+					add_prestige = 5 
+					add_yearly_manpower = -0.05
+				}
+			}
+			
+			#custom_tooltip = " "
+			
+			add_mil_power = -50
+		}
+		else = {
+			random_list = {
+				40 = {
+					event_target:A12_propagation_of_the_curse_event_target = {
+						change_culture = culture_lordaeron_worgen						
+					}
+				}
+				60 = { 
+					add_prestige = 5 
+					add_yearly_manpower = -0.05
+				}
+			}
+			
+			#custom_tooltip = " "
+			
+			add_mil_power = -50
+		}
+	}
+}
+
+# Heir become Worgen
+country_event = {
+	id = wwu_gilneas.6
+	title = wwu_gilneas.6.title
+	desc = wwu_gilneas.6.desc
+	picture = RAGING_WORGEN_eventPicture
+		
+	trigger = {
+		ROOT = {
+			OR = {
+				has_disaster = curse_of_the_worgen
+				
+				num_of_owned_provinces_with = {
+					value = 3
+					region = region_gilneas
+					culture = culture_gilnean_worgen
+				}
+			}
+			
+			tag = A12
+			has_heir = yes
+			
+			NOT = {
+				heir_culture = culture_gilnean_worgen
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+		
+		modifier = {
+			factor = 0.9
+			num_of_owned_provinces_with = {
+				value = 5
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.85
+			num_of_owned_provinces_with = {
+				value = 6
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.8
+			num_of_owned_provinces_with = {
+				value = 7
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.75
+			num_of_owned_provinces_with = {
+				value = 8
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.7
+			num_of_owned_provinces_with = {
+				value = 9
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.65
+			num_of_owned_provinces_with = {
+				value = 10
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+	}
+			
+	option = {
+		name = wwu_gilneas.6.option.a
+		set_heir_culture = culture_gilnean_worgen
+			
+			
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Ruler become Worgen (not Genn)
+# country_event = {
+#     id = wwu_gilneas.7
+#     title = wwu_gilneas.7.title
+#     desc = wwu_gilneas.7.desc
+#     picture = GRAYMANE_WALL_eventPicture
+#         
+#     trigger = {
+#         ROOT = {
+#             OR = {
+#                 has_disaster = curse_of_the_worgen
+#                 
+#                 num_of_owned_provinces_with = {
+#                     value = 3
+#                     region = region_gilneas
+#                     culture = culture_gilnean_worgen
+#                 }
+#             }
+#             
+#             tag = A12
+#             
+#             NOT = {
+#                 ruler_culture = culture_gilnean_worgen
+#             }
+#         }
+#     }
+#     
+#     mean_time_to_happen = {
+#         months = 16
+#         
+#         modifier = {
+#             factor = 0.9
+#             num_of_owned_provinces_with = {
+#                 value = 5
+#                 region = region_gilneas
+#                 culture = culture_gilnean_worgen
+#             }
+#         }
+#         
+#         modifier = {
+#             factor = 0.85
+#             num_of_owned_provinces_with = {
+#                 value = 6
+#                 region = region_gilneas
+#                 culture = culture_gilnean_worgen
+#             }
+#         }
+#         
+#         modifier = {
+#             factor = 0.8
+#             num_of_owned_provinces_with = {
+#                 value = 7
+#                 region = region_gilneas
+#                 culture = culture_gilnean_worgen
+#             }
+#         }
+#         
+#         modifier = {
+#             factor = 0.75
+#             num_of_owned_provinces_with = {
+#                 value = 8
+#                 region = region_gilneas
+#                 culture = culture_gilnean_worgen
+#             }
+#         }
+#         
+#         modifier = {
+#             factor = 0.7
+#             num_of_owned_provinces_with = {
+#                 value = 9
+#                 region = region_gilneas
+#                 culture = culture_gilnean_worgen
+#             }
+#         }
+#         
+#         modifier = {
+#             factor = 0.65
+#             num_of_owned_provinces_with = {
+#                 value = 10
+#                 region = region_gilneas
+#                 culture = culture_gilnean_worgen
+#             }
+#         }
+#         
+#     }
+#     immediate = {
+#         set_country_flag = A12_genn_became_worgen
+#     }
+#         
+#     option = {
+#         name = wwu_gilneas.7.option.a
+#         set_ruler_culture = culture_gilnean_worgen
+#             
+#             
+#         ai_chance = { factor = 100 }
+#     }
+# }
+
+
+# Queen becomes Worgen
+country_event = {
+	id = wwu_gilneas.8
+	title = wwu_gilneas.8.title
+	desc = wwu_gilneas.8.desc
+	picture = RAGING_WORGEN_eventPicture
+		
+	trigger = {
+		OR = {
+			has_disaster = curse_of_the_worgen
+				
+			num_of_owned_provinces_with = {
+				value = 3
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+			
+		tag = A12
+		has_consort = yes
+			
+		NOT = {
+			consort_culture = culture_gilnean_worgen
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 16
+		
+		modifier = {
+			factor = 0.9
+			num_of_owned_provinces_with = {
+				value = 5
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.85
+			num_of_owned_provinces_with = {
+				value = 6
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.8
+			num_of_owned_provinces_with = {
+				value = 7
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.75
+			num_of_owned_provinces_with = {
+				value = 8
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.7
+			num_of_owned_provinces_with = {
+				value = 9
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+		
+		modifier = {
+			factor = 0.65
+			num_of_owned_provinces_with = {
+				value = 10
+				region = region_gilneas
+				culture = culture_gilnean_worgen
+			}
+		}
+	}
+			
+	option = {
+		name = wwu_gilneas.8.option.a
+		set_consort_culture = culture_gilnean_worgen
+			
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Assassination Attempt on Ashbury and Walden
+country_event = {
+	id = wwu_gilneas.9
+	title = wwu_gilneas.9.title
+	desc = wwu_gilneas.9.desc
+	picture = WORGEN_INFILTRATOR_eventPicture
+		
+	is_triggered_only = yes
+			
+	option = {
+		name = wwu_gilneas.9.option.a
+		
+		X02 = {
+			kill_leader = {
+				type = "Ashbury Baron"
+			}
+		}
+				
+		X02 = {	
+			kill_leader = { 
+				type = "Lord Walden"
+			}
+		}
+					
+		set_global_flag = A12_death_of_ashbury_walden
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Assassination Attempt on Ashbury and Walden - Failed
+country_event = {
+	id = wwu_gilneas.10
+	title = wwu_gilneas.10.title
+	desc = wwu_gilneas.10.desc
+	picture = WORGEN_INFILTRATOR_eventPicture
+		
+	is_triggered_only = yes
+			
+	option = {
+		name = wwu_gilneas.10.option.a
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Godfrey Suicide
+country_event = {
+	id = wwu_gilneas.11
+	title = wwu_gilneas.11.title
+	desc = wwu_gilneas.11.desc
+	picture = CLIFF_AND_AGITATED_SEA_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		has_global_flag = A12_death_of_ashbury_walden
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+			
+	option = {
+		name = wwu_gilneas.11.option.a
+		
+		if = {
+			limit = {
+				X02 = {
+					exists = yes
+				}
+			}
+			X02 = {
+				kill_ruler = yes
+			}
+			
+			890 = {
+				cede_province = A12
+				remove_core = X02
+				remove_claim = X02
+				set_local_autonomy = 0
+			}
+			
+			908 = {
+				cede_province = A12
+				remove_core = X02
+				remove_claim = X02
+				set_local_autonomy = 0
+			}
+			
+			858 = {
+				cede_province = A12
+				remove_core = X02
+				remove_claim = X02
+				set_local_autonomy = 0
+			}
+			if = {
+				limit = { 3017 = { owned_by = X02 } }
+				3017 = { #Emberstone Village
+					cede_province = A12
+					remove_core = X02
+					remove_claim = X02
+					set_local_autonomy = 0
+				}
+			}
+			if = {
+				limit = { 848 = { owned_by = X02 } }
+				848 = { #Emberstone Mine
+					cede_province = A12
+					remove_core = X02
+					remove_claim = X02
+					set_local_autonomy = 0
+				}
+			}
+			if = {
+				limit = { 842 = { owned_by = X02 } }
+				842 = { #Stormglen Village
+					cede_province = A12
+					remove_core = X02
+					remove_claim = X02
+					set_local_autonomy = 0
+				}
+			}
+			if = {
+				limit = { 505 = { owned_by = X02 } }
+				505 = { #Northen Headlands
+					cede_province = A12
+					remove_core = X02
+					remove_claim = X02
+					set_local_autonomy = 0
+				}
+			}
+			if = {
+				limit = { 809 = { owned_by = X02 } }
+				809 = { #The Headlands
+					cede_province = A12
+					remove_core = X02
+					remove_claim = X02
+					set_local_autonomy = 0
+				}
+			}
+			if = {
+				limit = { 774 = { owned_by = X02 } }
+				774 = { #Keel Harbour
+					cede_province = A12
+					remove_core = X02
+					remove_claim = X02
+					set_local_autonomy = 0
+				}
+			}
+			if = {
+				limit = { 962 = { owned_by = X02 } }
+				962 = { #Purgation Isle
+					cede_province = PREV
+					add_core = PREV
+				}
+			}
+		}
+		else = {
+			#A12 = {
+			#	kill_units = {
+			#		who = REB
+			#	}
+			#}
+				
+			every_owned_province = {
+				limit = { controlled_by = noble_rebels }
+				change_controller = A12
+			}
+		}
+		
+		clr_country_flag = A12_godfrey_rebellion
+		set_global_flag = A12_godfrey_died
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Resurection of Godfrey and betrayal
+country_event = {
+	id = wwu_gilneas.12
+	title = wwu_gilneas.12.title
+	desc = wwu_gilneas.12.desc
+	picture = CLIFF_AND_AGITATED_SEA_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	is_triggered_only = yes
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+			
+	option = {
+		name = wwu_gilneas.12.option.a
+		
+		if = {
+			limit = {
+				A13 = {
+					NOT = { has_ruler = "Arugal of Dalaran" }
+				}
+			}
+			
+			A13 = {
+				define_ruler = {
+					name = "Vincent"
+					dynasty = "Godfrey"
+					adm = 3
+					dip = 1
+					mil = 4
+					min_age = 40
+					claim = 80
+					culture = culture_forsaken
+					religion = shadow
+				}
+				
+				define_ruler_to_general = {
+					fire = 2
+					shock = 3
+					manuever = 2
+					siege = 1
+				}
+				
+				define_general = {
+					name = "Ashbury Baron"
+					shock = 3
+					fire = 1
+					manuever = 2
+					siege = 2
+				}
+				
+				define_general = {
+					name = "Lord Walden"
+					shock = 1
+					fire = 1
+					manuever = 2
+					siege = 3
+				}
+				
+				add_yearly_manpower = 0.3
+				set_ruler_flag = mage_personality
+				
+				change_technology_group = tech_undead
+				change_primary_culture = culture_forsaken
+			}
+		}
+		else = {
+			custom_tooltip = A12_godfrey_exiled
+		}
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = wwu_gilneas.12.option.b
+		ai_chance = { factor = 10 }
+	}
+}
+
+# Worgen Summoned
+country_event = {
+	id = wwu_gilneas.13
+	title = wwu_gilneas.13.title
+	desc = wwu_gilneas.13.desc
+	picture = TWISTED_WORGEN_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	
+	trigger = {
+		OR = {
+			tag = A13
+			primary_culture = culture_gilnean
+		}
+		
+		has_global_flag = enable_worgen
+		
+		NOT = {  
+			686 = {
+				has_province_flag = A12_arugal_summoned_worgen
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 12
+	}
+	
+	immediate = {
+		hidden_effect = {
+			686 = {
+				change_culture = culture_gilnean_worgen
+			}
+		}
+	}
+	
+	option = {
+		name = wwu_gilneas.13.option.a
+		
+	}
+}
+
+# Assassination Attempt on Ashbury and Walden - Decision
+country_event = {
+	id = wwu_gilneas.14
+	title = wwu_gilneas.14.title
+	desc = wwu_gilneas.14.desc
+	picture = ASSASSINS_BLADE_eventPicture
+		
+	is_triggered_only = yes
+			
+	option = {
+		name = wwu_gilneas.14.option.a
+		
+		hidden_effect = {
+			random_list = {
+				85 = {
+					X02 = {
+						country_event = {
+							id = wwu_gilneas.9
+						}
+					}
+				}
+				
+				15 = {
+					A12 = {
+						country_event = {
+							id = wwu_gilneas.10
+						}
+					}
+				}
+			}
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Arugal Advisor Spawning
+country_event = {
+	id = wwu_gilneas.15
+	title = wwu_gilneas.15.title
+	desc = wwu_gilneas.15.desc
+	picture = GRAYMANE_WALL_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		tag = A12
+		
+		NOT = { is_year = 625 }
+	}
+	
+	immediate = {
+		A12 = {
+			define_advisor = {
+				type = unique_arugal
+				location = 927
+				name = "Arugal"
+				skill = 2
+			}
+		}
+	}
+		
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	
+	option = {
+		name = wwu_gilneas.15.option.a
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Assassination attempted successful for Gilneas
+country_event = {
+	id = wwu_gilneas.16
+	title = wwu_gilneas.16.title
+	desc = wwu_gilneas.16.desc
+	picture = ASSASSINS_BLADE_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = A12_death_of_ashbury_walden
+		tag = A12
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+		
+	fire_only_once = yes
+	
+	option = {
+		name = wwu_gilneas.16.option.a
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Darius Crowley in jail
+country_event = {
+	id = wwu_gilneas.17
+	title = wwu_gilneas.17.title
+	desc = wwu_gilneas.17.desc
+	picture = DARIUS_CROWLEY_eventPicture
+	
+	trigger = {
+		has_country_flag = A12_northgate_rebellion
+		
+		region_gilneas = {
+			NOT = { has_rebel_faction = REB }
+		}
+		
+		#Northgate Area
+		505 = {
+			controlled_by = ROOT
+			owned_by = ROOT
+		}
+		
+		914 = {
+			controlled_by = ROOT
+			owned_by = ROOT
+		}
+		
+		525 = {
+			controlled_by = ROOT
+			owned_by = ROOT
+		}
+		
+		3017 = {
+			controlled_by = ROOT
+			owned_by = ROOT
+		}
+		
+		848 = {
+			controlled_by = ROOT
+			owned_by = ROOT
+		}
+	}
+		
+	fire_only_once = yes
+	major = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = wwu_gilneas.17.option.a
+		set_country_flag = A12_darius_crowley_jailed
+		clr_country_flag = A12_northgate_rebellion
+		
+		every_owned_province = {
+			clr_province_flag = A12_northgate_rebellion_province_flag
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Gilneas asks for help: Stormwind response
+country_event = {
+	id = wwu_gilneas.18
+	title = wwu_gilneas.18.title
+	desc = wwu_gilneas.18.desc
+	picture = STORMWIND_KNIGHT_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = { # Accept
+		name = wwu_gilneas.18.option.a
+		add_country_modifier = {
+			name = A12_STW_tax_for_support
+			duration = 5475
+		}
+		add_years_of_income = 3.5
+
+		STW = {
+			create_alliance = A12
+			join_all_defensive_wars_of = A12
+		}
+
+		if = {
+			limit = {
+				NOT = { has_country_modifier = member_of_alliance }
+			}
+			add_country_modifier = {
+				name = member_of_alliance
+				duration = -1
+			}
+		}
+
+		ai_chance = { factor = 85 }
+	}
+
+	option = { # Refuse
+		name = wwu_gilneas.18.option.b
+		
+		ai_chance = { factor = 15 }
+	}
+}
+
+# Gilneas asks for help: Darnassus response
+country_event = {
+	id = wwu_gilneas.19
+	title = wwu_gilneas.19.title
+	desc = wwu_gilneas.19.desc
+	picture = DARNASSUS_ASPIRANT_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = { # Accept
+		name = wwu_gilneas.19.option.a
+		set_global_flag = A12_A94_promise_taldoren
+		add_years_of_income = 2.1
+		
+		if = {
+			limit = {
+				A94 = {
+					NOT = {
+						is_in_war = {
+							attacker_leader = P14
+							defender_leader = A12
+						}
+					}
+				}
+			}
+			A94 = {
+				create_alliance = A12
+				join_all_defensive_wars_of = A12
+			}
+		}
+		else = {
+			A94 = {
+				create_alliance = A12
+			}
+		}
+
+		3021 = {
+			add_core = A94
+		}
+
+		ai_chance = { factor = 95 }
+	}
+
+	option = { # Refuse
+		name = wwu_gilneas.19.option.b
+		
+		ai_chance = { factor = 5 }
+	}
+}
+
+# Gilneas asks for help: After war - Darnassus
+country_event = {
+	id = wwu_gilneas.20
+	title = wwu_gilneas.20.title
+	desc = wwu_gilneas.20.desc
+	picture = TYRANDE_WHISPERWIND_eventPicture
+
+	trigger = {
+		A12 = { NOT = { is_at_war = yes } }
+		P14 = { NOT = { is_at_war = yes } }
+		tag = A12
+		has_global_flag = A12_A94_promise_taldoren
+	}
+
+	fire_only_once = yes
+	major = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = { # Accept
+		name = wwu_gilneas.20.option.a
+
+		if = {
+			limit = {
+				A12 = { owns = 3021 }
+			}
+			3021 = {
+				cede_province = A94
+				remove_core = A12
+				remove_claim = A12
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = { A12 = { owns = 3021 } }
+			}
+			3021 = {
+				add_permanent_claim = A94
+				remove_core = A12
+				remove_claim = A12
+			}
+		}
+
+		ai_chance = { factor = 90 }
+	}
+
+	option = { # Refuse
+		name = wwu_gilneas.20.option.b
+		A94 = {
+			add_opinion = { who = A12 modifier = A12_A94_genn_is_a_liar }
+			add_casus_belli = {
+				target = A12
+				type = cb_insult
+				months = 50
+			}
+		}
+
+		A12 = {
+			add_country_modifier = {
+				name = A12_didnt_keep_promise
+				duration = 5475
+			}
+		}
+
+		A94 = {
+			country_event = { id = wwu_gilneas.21 }
+		}
+
+		ai_chance = { factor = 10 }
+	}
+}
+
+# Gilneas asks for help: After war - Darnassus - Refused
+country_event = {
+	id = wwu_gilneas.21
+	title = wwu_gilneas.21.title
+	desc = wwu_gilneas.21.desc
+	picture = TYRANDE_WHISPERWIND_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # No retaliation
+		name = wwu_gilneas.21.option.a
+		
+		ai_chance = { factor = 5 }
+	}
+
+	option = { # Break alliance
+		name = wwu_gilneas.21.option.b
+		break_alliance = A12
+		
+		ai_chance = { factor = 95 }
+	}
+}
+
+# Gilneas asks for help: Khaz Modan response
+country_event = {
+	id = wwu_gilneas.22
+	title = wwu_gilneas.22.title
+	desc = wwu_gilneas.22.desc
+	picture = IRONFORGE_PORTAL_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = { # Accept
+		name = wwu_gilneas.22.option.a
+		add_years_of_income = 1.1
+
+		A29 = {
+			create_alliance = A12
+			join_all_defensive_wars_of = A12
+		}
+
+
+		ai_chance = { factor = 100 }
+	}
+
+	option = { # Refuse
+		name = wwu_gilneas.22.option.b
+		
+		ai_chance = { factor = 0 }
+	}
+}
+
+# Gilneas asks for help: Kul Tiras response
+country_event = {
+	id = wwu_gilneas.23
+	title = wwu_gilneas.23.title
+	desc = wwu_gilneas.23.desc
+	picture = KUL_TIRAS_eventPicture
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+
+	option = { # Accept
+		name = wwu_gilneas.23.option.a
+		add_years_of_income = 1.4
+
+		A14 = {
+			create_alliance = A12
+			join_all_defensive_wars_of = A12
+		}
+
+
+		ai_chance = { factor = 100 }
+	}
+
+	option = { # Refuse
+		name = wwu_gilneas.23.option.b
+		
+		ai_chance = { factor = 0 }
+	}
+}
+
+# New Lordaeron name
+country_event = {
+	id = wwu_gilneas.24
+	title = wwu_gilneas.24.title
+	desc = wwu_gilneas.24.desc
+	picture = SHADOWFANG_KEEP_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = X04
+		has_global_flag = is_X04_name_changing_flag_b
+	}
+	
+	mean_time_to_happen = {
+		days = 6
+	}
+
+	option = { # Adopt new name
+		name = wwu_gilneas.24.option.a
+		X04 = {
+			override_country_name = KINGDOM_OF_TIRISFAL
+			
+		##custom_tooltip = " "
+		
+		custom_tooltip = X04_the_question_about_name_b
+		}
+		ai_chance = { factor = 50 }
+	}
+
+	option = { # No
+		name = wwu_gilneas.24.option.b
+		custom_tooltip = X04_the_question_about_name
+		
+		ai_chance = { factor = 50 }
+	}
+}
+
+# New Lordaeron - Player switch decision
+country_event = {
+	id = wwu_gilneas.25
+	title = wwu_gilneas.25.title
+	desc = wwu_gilneas.25.desc
+	picture = ALARM_O_BOT
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = A12
+		has_global_flag = is_X04_name_changing_flag
+	}
+	mean_time_to_happen = {
+		months = 60
+	}
+	immediate = {
+		hidden_effect = {
+			A12 = {
+				add_historical_friend = X04
+				add_truce_with = X04
+			}
+			X04 = {
+				add_historical_friend = A12
+				add_truce_with = A12
+			}
+		}
+	}
+	
+	option = { # Adopt new tag
+		name = wwu_gilneas.25.option.a
+		
+		# Switch
+		switch_tag = X04
+		swap_free_idea_group = yes
+		
+		##custom_tooltip = " "
+		
+		# Diplomacy 
+		X04 = {
+			create_alliance = A12
+			create_marriage = A12
+		}
+		
+		A12 = {
+			create_guarantee = X04
+		}
+		
+		##custom_tooltip = " "
+		
+		custom_tooltip = wwu_gilneas_25_warning
+		
+		# Fire event for changing name
+		set_global_flag = is_X04_name_changing_flag_b
+		
+		ai_chance = { factor = 0 }
+	}
+
+	option = { # No
+		name = wwu_gilneas.25.option.b
+		
+		# History choice
+		A12 = {
+			create_subject = {
+				subject_type = gilnean_colony
+				subject = X04
+			}
+		}
+		
+		# Fire event for changing name
+		set_global_flag = is_X04_name_changing_flag_b
+		
+		ai_chance = { factor = 10000 }
+	}
+}
+
+# Change technology group to Worgen
+country_event = {
+	id = wwu_gilneas.26
+	title = wwu_gilneas.26.title
+	desc = wwu_gilneas.26.desc
+	picture = ALARM_O_BOT
+
+	trigger = {
+		culture_group = culture_group_worgen
+		NOT = { technology_group = tech_worgen }
+		NOT = { has_global_flag = changed_to_worgen_tech_group }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	option = {
+		name = wwu_gilneas.26.option.a
+		set_country_flag = changed_to_worgen_tech_group
+		
+		change_technology_group = tech_worgen
+		
+		swap_free_idea_group = yes
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = wwu_gilneas.26.option.b
+		change_technology_group = tech_worgen
+		
+		set_country_flag = changed_to_worgen_tech_group
+		
+		ai_chance = { factor = 10 }
+	}
+}
+
+# New Lordaeron - Player choice for being subject of Gilneas
+country_event = {
+	id = wwu_gilneas.27
+	title = wwu_gilneas.27.title
+	desc = wwu_gilneas.27.desc
+	picture = ALARM_O_BOT
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = X04
+		
+		NOT = { ai = yes }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = { # Accept
+		name = wwu_gilneas.27.option.a
+		
+		A12 = {
+			create_subject = {
+				subject_type = gilnean_colony
+				subject = X04
+			}
+		}
+		
+		ai_chance = { factor = 60 }
+	}
+
+	option = { # Refuse
+		name = wwu_gilneas.27.option.b
+		custom_tooltip = X04_we_stay_free_thanks_to_player
+
+		ai_chance = { factor = 40 }
+	}
+}
+
+# Lich King forces Gilneas to become its vassal
+# country_event = {
+# 	id = wwu_gilneas.28
+# 	title = wwu_gilneas.28.title
+# 	desc = wwu_gilneas.28.desc
+# 	picture = ICECROWN_CITADEL_eventPicture
+# 
+# 	fire_only_once = yes
+# 	
+# 	mean_time_to_happen = {
+# 		months = 38 # 3 years
+# 	}
+# 	
+# 	trigger = {
+# 		tag = A12
+# 		
+# 		exists = P11
+# 
+# 		has_country_flag = A12_freedom_keep_from_lich_king
+# 	}
+# 	
+# 	immediate = {
+# 		change_technology_group = tech_scourge
+# 	}
+# 	
+# 	option = { # Accept
+# 		name = wwu_gilneas.28.option.a
+# 		
+# 		# Create the subject
+# 		P11 = {
+# 			create_subject = {
+# 				subject_type = prime_scourge_vassal
+# 				subject = A12
+# 			}
+# 		}
+# 		
+# 		# Setup new characteristics
+# 		A12 = {
+# 			if = {
+# 				limit = { NOT = { government = monarchy } }
+# 				change_government = monarchy
+# 				add_government_reform = scourge_domain_reform
+# 			}
+# 			else = {
+# 				add_government_reform = scourge_domain_reform
+# 			}
+# 			
+# 			kill_ruler = yes
+# 		
+# 			if = {
+# 				limit = { has_heir = yes }
+# 				kill_heir = yes
+# 			}
+# 			if = {
+# 				limit = { has_consort = yes }
+# 				kill_consort = yes
+# 			}
+# 			
+# 			add_accepted_culture = culture_scourge
+# 			add_accepted_culture = culture_undead_human
+# 		}
+# 		
+# 		hidden_effect = {
+# 			change_religion = cult_of_the_damned
+# 			change_technology_group = tech_scourge
+# 			A12_the_scourge_in_gilneas = yes
+# 		}
+# 		
+# 		ai_chance = { factor = 100 }
+# 	}
+# }
+
+
+# Aranas Advisor spawning
+country_event = {
+	id = wwu_gilneas.29
+	title = wwu_gilneas.29.title
+	desc = wwu_gilneas.29.desc
+	picture = GRAYMANE_WALL_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		tag = A12
+	}
+		
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		A12 = {
+			define_advisor = {
+				type = unique_aranas
+				location = 927
+				name = "Krennan Aranas"
+				skill = 2
+			}
+		}
+	}
+	option = {
+		name = wwu_gilneas.29.option.a
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Arugal for Scourge Advisor spawning
+country_event = {
+	id = wwu_gilneas.30
+	title = wwu_gilneas.30.title
+	desc = wwu_gilneas.30.desc
+	picture = GRAYMANE_WALL_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		tag = P11
+		
+		is_year = 625
+	}
+		
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		P11 = {
+			define_advisor = {
+				type = unique_shade_of_arugal
+				location = 1268
+				name = "Shades of Arugal"
+				skill = 2
+			}
+		}
+		A12 = {
+			set_country_flag = A12_too_late_for_arugal
+		}
+	}
+	
+	option = {
+		name = wwu_gilneas.30.option.a
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Genn spawn as heir
+country_event = {
+	id = wwu_gilneas.31
+	title = wwu_gilneas.31.title
+	desc = wwu_gilneas.31.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	trigger = {
+		tag = A12
+		has_ruler = "Archibald Greymane"
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = wwu_gilneas.31.option.a
+		define_heir = {
+			name = "Genn"
+			dynasty = "Greymane"
+			age = 0
+			claim = 80
+			adm = 3
+			dip = 2
+			mil = 4
+			male = yes
+		}
+		
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = wwu_gilneas.31.option.b
+		
+		ai_chance = { factor = 5 }
+	}
+}
+
+#Genn setup for ruler
+country_event = {
+	id = wwu_gilneas.32
+	title = wwu_gilneas.32.title
+	desc = wwu_gilneas.32.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		tag = A12
+		has_ruler = "Genn Greymane"
+		NOT = { has_ruler_flag = ruler_portrait_genn_graymane }
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = wwu_gilneas.32.option.a
+		set_ruler_flag = ruler_portrait_genn_graymane
+		set_ruler_flag = warrior_personality
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Liam setup as heir
+country_event = {
+	id = wwu_gilneas.33
+	title = wwu_gilneas.33.title
+	desc = wwu_gilneas.33.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	trigger = {
+		tag = A12
+		has_ruler = "Genn Greymane"
+		NOT = {
+			has_heir = yes 
+			has_country_flag = A12_liam_already_died
+		}
+	}
+
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = wwu_gilneas.33.option.a
+		define_heir = {
+			name = "Liam"
+			monarch_name = "Liam I"
+			dynasty = "Greymane"
+			age = 0
+			claim = 80
+			adm = 6
+			dip = 3
+			mil = 4
+			male = yes
+		}
+		add_heir_personality = entrepreneur_personality
+		set_heir_flag = A12_liam_greymane
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Liam death
+country_event = {
+	id = wwu_gilneas.34
+	title = wwu_gilneas.34.title
+	desc = wwu_gilneas.34.desc
+	picture = DEADLY_POISON_eventPicture
+		
+	fire_only_once = yes
+    
+	mean_time_to_happen = {
+		months = 48
+	}
+	
+	trigger = {
+		tag = A12
+		has_ruler = "Genn Greymane"
+		has_heir_flag = A12_liam_greymane
+		
+		is_at_war = yes
+	}
+	
+	immediate = {
+		kill_heir = {}
+	}
+	
+	option = {
+		name = wwu_gilneas.34.option.a
+		
+		define_heir = {
+			name = "Tess"
+			monarch_name = "Tess I"
+			dynasty = "Greymane"
+			female = yes
+			claim = 100
+			adm = 2
+			dip = 5
+			mil = 5
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Forgotten Shadow Gilneas - Evil path
+country_event = {
+	id = wwu_gilneas.35
+	title = wwu_gilneas.35.title
+	desc = wwu_gilneas.35.desc
+	picture = UNDEAD_ASSAULT_eventPicture
+		
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	trigger = {
+		tag = A12
+		has_country_flag = A12_can_take_freedom_the_scourge
+		NOT = { is_at_war = yes }
+		NOT = { is_subject_of = P11 }
+	}
+
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { primary_culture = culture_gilnean_worgen }
+				change_technology_group = tech_worgen
+			}
+			else = {
+				change_technology_group = tech_undead
+			}
+			
+			change_religion = forgotten_shadow
+			remove_accepted_culture = culture_scourge
+			remove_accepted_culture = culture_undead_human
+			add_accepted_culture = culture_forsaken
+			
+			A12_the_scourge_in_gilneas_c = yes
+			
+			if = {
+				limit = { ruler_religion = cult_of_the_damned }
+				kill_ruler = yes
+			}
+		}
+	}
+	
+	option = {
+		name = wwu_gilneas.35.option.a
+		define_ruler = {
+			name = "Liam"
+			dynasty = "Greymane"
+			adm = 4
+			dip = 3
+			mil = 3
+			claim = 50
+			culture = culture_forsaken
+			religion = forgotten_shadow
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+#The Siege of Gilneas
+country_event = {
+	id = wwu_gilneas.36
+	title = wwu_gilneas.36.title
+	desc = wwu_gilneas.36.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		927 = {
+			has_siege = yes
+		}
+		is_in_war = {
+			participants = P14 #Forsaken
+		}
+		
+		tag = A12 
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = wwu_gilneas.36.option.a
+		add_yearly_manpower = 4
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Fall of the Capital
+country_event = {
+	id = wwu_gilneas.37
+	title = wwu_gilneas.37.title
+	desc = wwu_gilneas.37.desc
+	picture = GILNEAS_CITY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		927 = {
+			controller = {
+				tag = P14 #Forsaken
+			}
+		}
+		
+		tag = A12
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+	}
+	
+	option = {
+		name = wwu_gilneas.37.option.a
+		if = {
+			limit = {
+				3020 = { #Hailwood
+					OR = {
+						controlled_by = A12
+						owned_by = A12
+					}
+				}
+			}
+			3020 = { #Hailwood
+				add_province_modifier = {
+					name = A12_war_with_forsaken
+					duration = 7300
+				}
+				
+				infantry = A12
+			}
+		}
+		if = {
+			limit = {
+				789 = { #Greymane Manor
+					OR = {
+						controlled_by = A12
+						owned_by = A12
+					}
+				}
+			}
+			789 = { #Greymane Manor
+				add_province_modifier = {
+					name = A12_war_with_forsaken
+					duration = 7300
+				}
+				
+				infantry = A12
+			}
+		}
+		if = {
+			limit = {
+				890 = { #Tempest's Reach
+					OR = {
+						controlled_by = A12
+						owned_by = A12
+					}
+				}
+			}
+			890 = { #Tempest's Reach
+				add_province_modifier = {
+					name = A12_war_with_forsaken
+					duration = 7300
+				}
+				
+				infantry = A12
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					AND = {
+						3020 = { #Hailwood
+							OR = {
+								controlled_by = A12
+								owned_by = A12
+							}
+						}
+					}
+					AND = {
+						789 = { #Greymane Manor
+							OR = {
+								controlled_by = A12
+								owned_by = A12
+							}
+						}
+					}
+					AND = {
+						890 = { #Tempest's Reach
+							OR = {
+								controlled_by = A12
+								owned_by = A12
+							}
+						}
+					}
+				}
+			}
+			random_owned_province = {
+				add_province_modifier = {
+					name = A12_war_with_forsaken
+					duration = 7300
+				}
+				
+				infantry = A12
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+#A New Dawn for Gilneas
+country_event = {
+	id = wwu_gilneas.38
+	title = wwu_gilneas.38.title
+	desc = wwu_gilneas.38.desc
+	picture = THRONE_APPROACH_eventPicture
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 28
+	}
+	
+	trigger = {
+		tag = A12
+		
+		mission_completed = A12_the_gilneas_liberation_front
+		mission_completed = A12_adopt_the_worgen_culture
+		mission_completed = A12_the_third_war
+		
+		NOT = { is_at_war = yes }
+	}
+	
+	option = {
+		name = wwu_gilneas.38.option.a
+		add_country_modifier = {
+			name = A12_the_new_dawn_for_gilneas
+			duration = 9125
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+#Enable worgen_attack_gilneas sound
+country_event = {
+	id = wwu_gilneas.39
+	title = wwu_gilneas.39.title
+	desc = wwu_gilneas.39.desc
+	picture = THRONE_APPROACH_eventPicture
+	
+	hidden = yes
+	fire_only_once = yes
+	
+	immediate = {
+		play_sound = worgen_attack_gilneas
+	}
+	
+	trigger = {
+		NOT = { ai = yes }
+		
+		tag = A12
+		
+		927 = { culture = culture_gilnean_worgen }
+		
+	}
+	
+	option = {
+		name = wwu_gilneas.39.option.a
+		
+		ai_chance = { factor = 100 }
+	}
+}

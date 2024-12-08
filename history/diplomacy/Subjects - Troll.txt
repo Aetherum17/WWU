@@ -51,6 +51,32 @@ dependency = {
 	end_date = 600.1.1
 }
 
+# Amani-Torwatha
+dependency = {
+	subject_type = "tributary_vassal"
+	first = A58
+	second = TWA
+	start_date = 546.1.1
+	end_date = 619.1.1
+}
+
+# Amani-Treeblight
+dependency = {
+	subject_type = "tributary_vassal"
+	first = A58
+	second = TBI
+	start_date = 546.1.1
+	end_date = 619.1.1
+}
+
+# Amani-Blackleaf
+dependency = {
+	subject_type = "tributary_vassal"
+	first = A58
+	second = BKF
+	start_date = 546.1.1
+	end_date = 619.1.1
+}
 
 ### Zul'jin's United Troll Tribes ###
 # Amani-Firetree

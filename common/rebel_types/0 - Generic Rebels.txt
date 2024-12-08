@@ -540,16 +540,17 @@ noble_rebels = {
 			}
 		}
         
-        if = {
-            limit = {
-                owner = { has_disaster = northgate_rebellion }
-            }
+        
+        # if = {
+            # limit = {
+                # owner = { has_disaster = northgate_rebellion }
+            # }
             
-            add_province_modifier = {
-                name = rebel_supporters
-                duration = 3650
-            }
-        }
+            # add_province_modifier = {
+                # name = rebel_supporters
+                # duration = 3650
+            # }
+        # }
 	}
 	
 	# Country scope
@@ -602,23 +603,23 @@ noble_rebels = {
 		add_horde_unity = -20
         
         # Northgate Rebellion
-        if = {
-            limit = {
-                has_disaster = northgate_rebellion
-            }
+        # if = {
+            # limit = {
+                # has_disaster = northgate_rebellion
+            # }
             
-            set_country_flag = northgate_rebellion_lost
+            # set_country_flag = northgate_rebellion_lost
             
-            every_owned_province = {
-                limit = {
-                    has_rebel_faction = REB
-                }
-                add_province_modifier = {
-                    name = rebel_supporters
-                    duration = 3650
-                }
-            }
-        }
+            # every_owned_province = {
+                # limit = {
+                    # has_rebel_faction = REB
+                # }
+                # add_province_modifier = {
+                    # name = rebel_supporters
+                    # duration = 3650
+                # }
+            # }
+        # }
         
         # Court and Country
 		if = {

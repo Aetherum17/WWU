@@ -33,8 +33,11 @@ trade_goods = unknown
 }
 
 631.1.1 = {
-    
-    owner = ---
-    controller = ---
+    owner = F33
+    controller = F33
+    add_core = F33
     remove_core = A21
+	
+	religion = water
+    culture = culture_sea_giant
 }

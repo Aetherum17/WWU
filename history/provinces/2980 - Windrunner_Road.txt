@@ -4,7 +4,7 @@ is_city = yes
 owner = B12
 controller = B12
 add_core = B12
-add_core = A90
+add_core = QL6
 
 base_tax = 1
 base_production = 1
@@ -22,6 +22,12 @@ trade_goods = resource_common_wood
     add_core = F21
     culture = culture_scourge
     religion = cult_of_the_damned
-    remove_core = A90 
 }
 
+625.1.1 = { 
+	owner = FRT
+	controller = FRT
+	add_core = FRT
+	culture = culture_blood_elf
+	religion = arcane
+}

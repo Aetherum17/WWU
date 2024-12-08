@@ -8,6 +8,7 @@ base_manpower = 3
 culture = culture_murloc
 religion = deep_mother
 trade_goods = unknown
+is_city = no
 617.1.1 = {
 	is_city = yes
 	owner = BL6
@@ -21,4 +22,3 @@ trade_goods = unknown
 	controller = A15
 	add_core = A15
 }
-is_city = no

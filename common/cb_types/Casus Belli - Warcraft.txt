@@ -650,3 +650,48 @@ cb_tauren_genecide = {
 
     war_goal = take_capital_barbarous
 }
+
+# Primals Harvest
+cb_primals_harvest = {
+    valid_for_subject = no
+
+    prerequisites_self = {
+        has_country_flag = unlock_primals_harvest_cb
+        is_free_or_tributary_trigger = yes
+    }
+
+    prerequisites = {
+        FROM = {
+            culture_group = culture_group_botani
+        }
+    }
+
+    war_goal = take_capital_primal_harvest
+}
+
+# Vrykul Unification
+cb_vrykul_unification = {
+    valid_for_subject = no
+
+    prerequisites_self = {
+        has_country_flag = unlock_vrykul_unification_CB
+        is_free_or_tributary_trigger = yes
+    }
+
+    prerequisites = {
+        FROM = {
+            OR = {
+                tag = P16
+                tag = VLR
+                tag = B08
+                tag = B09
+                tag = P15
+                tag = P17
+                tag = MJD
+                tag = BLW
+            }
+        }
+    }
+
+    war_goal = take_capital_vassalize
+}

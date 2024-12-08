@@ -1,0 +1,1173 @@
+#--------------------------------------
+# Northwatch
+#--------------------------------------
+G06_northwatch_column_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+    has_country_shield = yes
+    
+	potential = {
+	    tag = G06
+	} 
+	
+	G06_fort_triumph = {
+		icon = mission_human_barrackswc3r
+		position = 4
+		required_missions = { G06_forward_command }
+		
+		provinces_to_highlight = {
+            province_id = 3435
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			3435 = {
+				owned_by = ROOT
+				has_building = wow_fort_1
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_fortifying_south_barrens_g06
+				duration = 7300
+			}
+			add_mil_power = 100
+		}
+	}
+	G06_beal_modan = {
+		icon = mission_dwarf
+		position = 6
+		required_missions = { G06_fort_triumph }
+		
+		trigger = {
+			OR = {
+			    F59 = {
+                    has_opinion = {
+                        who = ROOT
+                        value = 100
+					}
+                }
+			    NOT = { exists = F59 }
+            }
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_colonist_dwarves_g06
+				duration = 7300
+			}
+			if = {
+			    limit = {
+				    F59 = {
+					    has_opinion = {
+						    who = ROOT
+                            value = 100
+						}
+					}
+				}
+				create_alliance = F59
+				add_dip_power = 100
+			}
+			else_if = {
+			    limit = {
+				    NOT = { exists = F59 }
+				}
+				area_blackthorn_ridge = {
+                    add_permanent_claim = ROOT
+			    }
+				add_adm_power = 100
+	  		}
+		}
+	}
+	G06_cultural_integration = {
+		icon = mission_race_change
+		position = 8
+		required_missions = { G06_stable_govermance }
+		
+		trigger = {
+			OR = {
+			    num_accepted_cultures = 4
+				dominant_culture = culture_lordaeron
+			}
+		}
+		
+		effect = {
+			if = {
+			    limit = {
+				    num_accepted_cultures = 4
+				}
+			    every_owned_province = {
+                    limit = {
+                        continent = continent_kalimdor
+                        NOT = { culture = ROOT }
+                    }
+                    change_culture = culture_northwatch
+				}
+				every_owned_province = { 
+                    limit = {
+                        continent = continent_kalimdor
+                        culture = ROOT
+						NOT = { culture = culture_northwatch }
+                    }
+                    change_culture = culture_northwatch
+				}
+            }
+			else_if = {
+			    limit = {
+				    dominant_culture = culture_lordaeron
+				}
+				every_owned_province = { 
+                    limit = {
+                        continent = continent_kalimdor
+                        culture_group = culture_group_human
+						NOT = { culture = culture_northwatch }
+                    }
+                    change_culture = culture_northwatch
+				}
+				add_country_modifier = {
+				    name = mission_shared_future_g06
+				    duration = 7300
+			    }
+			}
+		}
+	}
+	G06_north_barren_trade_routes = {
+		icon = mission_trading_outpost
+		position = 10
+		required_missions = { }
+		
+		trigger = {
+			1373 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_northern_trade_g06
+				duration = -1
+			}
+		}
+	}	
+}
+
+G06_northwatch_column_2 = { 
+	slot = 2
+	generic = no
+	ai = yes
+    has_country_shield = yes
+    
+	potential = {
+	    tag = G06
+	} 
+	
+	G06_indepedent_actions = {
+		icon = mission_freehold
+		position = 2
+		required_missions = { G06_northwatch_military }
+		
+		trigger = {
+			A23 = {
+                has_opinion = {
+                    who = ROOT
+                    value = 150
+				}
+            }
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_freedom_of_moves_g06
+				duration = 7300
+			}		
+			A23 = {			
+			    create_subject = {
+                    subject_type = tributary_vassal
+                    subject = G06
+                }
+			}
+		}
+	}
+	G06_forward_command = {
+		icon = mission_defend_towers
+		position = 3
+		required_missions = { G06_indepedent_actions }
+		
+		provinces_to_highlight = {
+		    OR = {
+                province_id = 1440
+				province_id = 3443
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			1440 = {
+				owned_by = ROOT
+			}
+			3443 = {
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_establish_a_front_g06
+				duration = 7300
+			}
+			add_mil_power = 100
+		}
+	}
+	G06_camp_taurajo = {
+		icon = mission_camp_flag
+		position = 4
+		required_missions = { G06_forward_command }
+		
+		provinces_to_highlight = {
+            province_id = 1444
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			1444 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_tauren_presence_g06
+				duration = 7300
+			}
+			area_taurajo = {
+                add_permanent_claim = ROOT
+			}
+			area_desolation = {
+                add_permanent_claim = ROOT
+			}
+			area_winterhoof_waterwell = {
+                add_permanent_claim = ROOT
+			}
+		}
+	}
+	G06_the_gates_of_mulgore = {
+		icon = mission_tauren
+		position = 6
+		required_missions = { G06_camp_taurajo }
+		
+		provinces_to_highlight = {
+		    OR = {
+                province_id = 1445
+			    province_id = 3419
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			1445 = {
+				controlled_by = ROOT
+			}
+			3419 = {
+				controlled_by = ROOT
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_siege_of_mulgore_g06
+				duration = 7300
+			}
+			region_mulgore = {
+                add_permanent_claim = ROOT
+			}
+		}
+	}
+	G06_stable_govermance = {
+		icon = mission_town_houses
+		position = 7
+		required_missions = { G06_beal_modan G06_the_gates_of_mulgore G06_fortify_the_barrens }
+		
+		trigger = {
+			legitimacy_equivalent = 95
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_end_of_expedition_g06
+				duration = -1
+			}
+			add_prestige = 20
+			
+		    country_event = {
+				id = wwu_mission_northwatch.1
+            }
+		}
+	}
+	G06_theramore_depedance = {
+		icon = mission_zan_kultiras_1
+		position = 8
+		required_missions = { G06_stable_govermance }
+		
+		trigger = {
+			total_development = 400
+			army_size = 50
+			navy_size = 40
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_full_liberties_g06
+				duration = -1
+			}
+			grant_independence = yes
+			add_prestige = 20
+			add_power_projection = {
+                type = mission_rewards_power_projection
+                amount = 15
+            }
+		}
+	}
+	G06_fate_of_theramore = {
+		icon = mission_zan_kultiras_1
+		position = 9
+		required_missions = { G06_theramore_depedance }
+		
+		trigger = {
+		    OR = {
+			    A23 = {
+                    has_opinion = {
+                        who = ROOT
+                        value = 200
+				    }
+                }
+				NOT = { exists = A23 }
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_fate_of_theramore_g06
+				duration = -1
+			}
+			country_event = {
+				id = wwu_mission_northwatch.2
+            }
+		}
+	}
+	G06_south_barren_trade_routes = {
+		icon = mission_trading_outpost
+		position = 10
+		required_missions = { }
+		
+		trigger = {
+		    1439 = {
+			    province_has_center_of_trade_of_level = 2               
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			1443 = {
+			    province_has_center_of_trade_of_level = 2               
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			1448 = {
+			    province_has_center_of_trade_of_level = 2               
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			3437 = {
+			    province_has_center_of_trade_of_level = 2               
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			3439 = {
+			    province_has_center_of_trade_of_level = 2               
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+			3440 = {
+			    province_has_center_of_trade_of_level = 2               
+                country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_southern_trade_g06
+				duration = -1
+			}
+			add_dip_power = 200
+			add_adm_power = 200
+		}
+	}
+	G06_northwatch_hold_new_capital = {
+		icon = mission_town_houses
+		position = 11
+		required_missions = { }
+		
+		trigger = {
+			1439 = {
+			    owned_by = ROOT
+				development = 40
+				has_building = wow_fort_4
+				has_building = wow_headquarters
+				has_building = wow_arsenal_3
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_a_great_capital_g06
+				duration = 7300
+			}
+			add_prestige = 20
+			add_power_projection = {
+                type = mission_rewards_power_projection
+                amount = 15
+            }
+		}
+	}
+}
+
+G06_northwatch_column_3 = { 
+	slot = 3
+	generic = no
+	ai = yes
+    has_country_shield = yes
+    
+	potential = {
+	    tag = G06
+	}
+	 
+	
+	G06_northwatch_military = { 
+		icon = mission_barracks
+		position = 1
+		required_missions = { }
+        
+		trigger = {
+		    NOT = { ai = yes }
+            army_size_percentage = 1
+			manpower_percentage = 0.8
+			num_of_generals = 1
+		}
+		
+		effect = { 
+		    add_country_modifier = {
+				name = mission_organizing_the_expedition_g06
+				duration = -1
+			}
+			every_owned_province = {
+				every_neighbor_province = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						NOT = { is_permanent_claim = ROOT	}
+						NOT = { is_core = ROOT	}
+					}
+					add_claim = ROOT
+				}
+			}
+			add_mil_power = 100
+		}
+	}
+	G06_deep_strike_hunters_hill = { 
+		icon = mission_warrior_skirmisher
+		position = 4
+		required_missions = { G06_forward_command }
+        
+		provinces_to_highlight = {
+            province_id = 1443
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+            1443 = {
+			    OR = {
+			        controlled_by = ROOT
+					owned_by = ROOT
+				}
+			}
+		}
+        
+		effect = { 
+		    add_country_modifier = {
+				name = mission_hunter_hill_g06
+				duration = 7300
+			}
+			if = { limit = { 1443 = { NOT = { owned_by = ROOT } } } 1443 = { cede_province = ROOT } }
+			if = { limit = { 3452 = { NOT = { owned_by = ROOT } } } 3452 = { cede_province = ROOT } }
+			if = { limit = { 1369 = { NOT = { owned_by = ROOT } } } 1369 = { cede_province = ROOT } }
+			if = { limit = { 3451 = { NOT = { owned_by = ROOT } } } 3451 = { cede_province = ROOT } }
+			add_mil_power = 200
+			area_malaka_jin = {
+                add_permanent_claim = ROOT
+			}	
+            area_forgotten_pools = {
+                add_permanent_claim = ROOT
+			}			
+		}
+	}
+	G06_fortify_the_barrens = { 
+		icon = mission_force_shield
+		position = 6
+		required_missions = { G06_deep_strike_hunters_hill }
+		
+        provinces_to_highlight = {
+		    OR = {
+                province_id = 1443
+				province_id = 3475
+				province_id = 1372
+				province_id = 1439
+				province_id = 3435
+				province_id = 1448
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { has_fort_building_trigger = yes }
+        }
+		
+		trigger = {
+            1443 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_fort_building_trigger = yes
+            }
+			3475 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_fort_building_trigger = yes
+            }
+			1372 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_fort_building_trigger = yes
+            }
+			1439 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_fort_building_trigger = yes
+            }
+			3435 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_fort_building_trigger = yes
+            }
+			1448 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_fort_building_trigger = yes
+            }
+			1444 = {
+                country_or_non_sovereign_subject_holds = ROOT
+                has_fort_building_trigger = yes
+            }
+		}
+        
+		effect = { 
+		    add_country_modifier = {
+				name = mission_safe_barrens_g06
+				duration = 7300
+			}
+			1443 = { add_or_improve_fort = yes }
+            3475 = { add_or_improve_fort = yes }
+            1372 = { add_or_improve_fort = yes }
+			1439 = { add_or_improve_fort = yes }
+            3439 = { add_or_improve_fort = yes }
+            1448 = { add_or_improve_fort = yes }
+			1444 = { add_or_improve_fort = yes }
+		}
+	}
+	G06_strategic_interests_stonetalon_mountains = { 
+		icon = mission_stonetalon_mountains
+		position = 8
+		required_missions = { G06_fortify_the_barrens }
+        
+		provinces_to_highlight = {
+           OR = {
+                province_id = 2280
+				province_id = 1408
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+            2280 = {
+			    owned_by = ROOT 
+			}
+			1408 = {
+			    owned_by = ROOT
+			}
+		}
+        
+		effect = { 
+		    add_country_modifier = {
+				name = mission_lock_the_horde_g06
+				duration = 7300
+			}
+			area_webwinder_path = {
+                add_permanent_claim = ROOT
+			}
+			area_windshear_crag = {
+                add_permanent_claim = ROOT
+			}
+		}
+	}
+	G06_a_fleet_to_challenge_the_great_sea = { 
+		icon = mission_ship_sailing
+		position = 10
+		required_missions = { }
+        
+		trigger = {
+            navy_size = 80
+			num_of_heavy_ship = 20
+			num_of_galley = 40
+		}
+		
+		effect = { 
+		    add_country_modifier = {
+				name = mission_grand_armade_g06
+				duration = 7300
+			}
+			create_flagship = {
+                name = "Northwatch's Pride"
+                type = heavy_ship
+            }
+			create_flagship = {
+                name = "Dealin's Mourning"
+                type = heavy_ship
+            }
+		}
+	}
+}
+
+G06_northwatch_column_4 = { 
+	slot = 4
+	generic = no
+	ai = yes
+    has_country_shield = yes
+    
+	potential = {
+	    tag = G06
+	} 
+    
+	G06_northwatch_hold = {
+		icon = mission_defend
+		position = 2
+		required_missions = { G06_northwatch_military }
+		
+		provinces_to_highlight = {
+			province_id = 1439
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			1439 = {
+			    owned_by = ROOT
+				has_building = wow_fort_1
+				development = 18
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_a_grand_fort_g06
+				duration = 7300
+			}
+			3403 = {
+                add_permanent_claim = ROOT
+			}
+			3404 = {
+                add_permanent_claim = ROOT
+			}
+			1384 = {
+                add_permanent_claim = ROOT
+			}
+		}
+	}
+	G06_durotar_landing = {
+		icon = mission_barracks
+		position = 4
+		required_missions = { G06_northwatch_hold }
+		
+		provinces_to_highlight = {
+			province_id = 3403
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			3403 = {
+			    OR = {
+			        controlled_by = ROOT
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_horde_homeland_g06
+				duration = 7300
+			}
+			if = {
+			    limit = {
+				    3403 = {
+					    controlled_by = ROOT
+					}
+				}
+				3403 = { cede_province = ROOT }
+			}
+			if = {
+			    limit = {
+				    3403 = {
+					    owned_by = ROOT
+					}
+				}
+				3403 = {
+			        add_building = wow_shipyard_2
+				    add_building = wow_tower_2
+			    }
+			}			
+		}
+	}
+	G06_eco_isles_supply_lines = {
+		icon = mission_storehouse
+		position = 5
+		required_missions = { G06_durotar_landing }
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 3404
+				province_id = 1384
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			3404 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1384 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_troll_supplies_g06
+				duration = 7300
+			}
+			region_durotar = {
+			    add_permanent_claim = ROOT
+			}
+		}
+	}
+	G06_siege_of_orgrimmar = {
+		icon = mission_horde_invasion
+		position = 6
+		required_missions = { G06_eco_isles_supply_lines }
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 3395
+				province_id = 3164
+				province_id = 3165
+				province_id = 3399
+				province_id = 3167
+				province_id = 3166
+				province_id = 3398
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			3395 = {
+			    controlled_by = ROOT
+			}
+			3164 = {
+			    controlled_by = ROOT
+			}
+			3165 = {
+			    controlled_by = ROOT
+			}
+			3399 = {
+			    controlled_by = ROOT
+			}
+			3167 = {
+			    controlled_by = ROOT
+			}
+			3166 = {
+			    controlled_by = ROOT
+			}
+			3398 = {
+			    controlled_by = ROOT
+			}
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_the_root_of_all_evil_g06
+				duration = 7300
+			}
+			
+			country_event = {
+				id = wwu_mission_northwatch.3
+            }
+		}
+	}
+	G06_fate_of_the_horde = {
+		icon = mission_icon_horde
+		position = 8
+		required_missions = { G06_siege_of_orgrimmar }
+		
+		trigger = {
+			has_won_war_against = {
+	            who = A48
+	            max_years_since = 5
+            }
+			A48 = {
+			    NOT = {
+			        army_size = 10
+					total_development = 100
+				}
+			}			
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_end_of_fourth_war_g06
+				duration = -1
+			}
+			country_event = {
+				id = wwu_faction_system_collapse.2
+            }
+			add_dip_power = 200
+		}
+	}
+	G06_establish_new_strom = {
+		icon = mission_human_building_upgrade_T2_wc3r
+		position = 9
+		required_missions = { }
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 1373
+				province_id = 3465
+				province_id = 3464
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			1373 = {
+			    owned_by = ROOT
+			}
+			3465 = {
+			    owned_by = ROOT
+			}
+			3464 = {
+			    owned_by = ROOT
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_new_strom_g06
+				duration = 7300
+			}
+			country_event = {
+				id = wwu_mission_northwatch.4
+            }
+		}
+	}
+	G06_establish_tiragarde = {
+		icon = mission_zan_kultiras_1
+		position = 10
+		required_missions = { }
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 1382
+				province_id = 3406
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			1382 = {
+			    owned_by = ROOT
+			}
+			3406 = {
+			    owned_by = ROOT
+			}
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_tiragarde_g06
+				duration = 7300
+			}
+			country_event = {
+				id = wwu_mission_northwatch.5
+            }
+		}
+	}
+	G06_form_new_arathor = {
+		icon = mission_paladin_empowered_seals_truth
+		position = 10
+		required_missions = { }
+		
+		provinces_to_highlight = {
+		    OR = {
+			    region = region_durotar
+				region = region_north_barrens
+				region = region_south_barrens
+				region = region_mulgore
+				region = region_dustwallow_marsh			
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			region_durotar = {			
+			    type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			region_north_barrens = {			
+			    type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			region_south_barrens = {			
+			    type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			region_mulgore = {			
+			    type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			region_dustwallow_marsh = {			
+			    type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			primary_culture = culture_northwatch
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_new_land_new_empire_g06
+				duration = 7300
+			}
+			country_event = {
+				id = wwu_mission_northwatch.8
+            }			
+		}
+	}
+}
+
+G06_northwatch_column_5 = { 
+	slot = 5
+	generic = no
+	ai = yes
+    has_country_shield = yes
+    
+	potential = {
+	    tag = G06
+	} 
+	
+	G06_ratchet = {
+		icon = mission_goblin_engineer
+		position = 1
+		required_missions = { }
+		
+		provinces_to_highlight = {
+		    area = area_ratchet
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+		    OR = {
+		        area_ratchet = {
+				    owned_by = ROOT
+				    type = all
+			    }
+			    RTC = {
+                    has_opinion = {
+                        who = ROOT
+                        value = 120
+				    }
+				}
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_ratchet_port_g06
+				duration = 7300
+			}
+			if = {
+			    limit = {
+				    RTC = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 120
+				        }
+				    }
+				}
+				create_alliance = RTC
+			}
+			else_if = {
+			    limit = {
+				    OR = {
+					    area_ratchet = {
+				            owned_by = ROOT
+				            type = all
+			            }
+						NOT = { exists = RTC }
+					}
+				}
+				area_the_crossroads = {
+			        add_permanent_claim = ROOT
+			    }
+				area_raptor_grounds = {
+			        add_permanent_claim = ROOT
+			    }
+				area_farwatch = {
+			        add_permanent_claim = ROOT
+			    }
+			}
+		}
+	}
+	G06_the_crossroads = {
+		icon = mission_orc_rider
+		position = 2
+		required_missions = { G06_ratchet }
+		
+		provinces_to_highlight = {
+		    area = area_the_crossroads
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+		    area_the_crossroads = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_splitting_horde_lines_g06
+				duration = 7300
+			}
+			area_dreadmist = {
+			    add_permanent_claim = ROOT
+			}
+			area_the_dry_hills = {
+			    add_permanent_claim = ROOT
+			}
+		}
+	}
+	G06_the_morsan_ramparts = {
+		icon = mission_hunter_rapid_killing
+		position = 4
+		required_missions = { G06_the_crossroads }
+		
+		provinces_to_highlight = {
+		    area = area_the_dry_hills
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+		    area_the_dry_hills = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_reconnect_with_night_elves_g06
+				duration = 7300
+			}
+			add_mil_power = 200
+			add_adm_power = 100
+		}
+	}
+	G06_night_elven_support = {
+		icon = mission_night_elf_warrior
+		position = 5
+		required_missions = { G06_the_morsan_ramparts }
+		
+		trigger = {
+		    A94 = {
+                has_opinion = {
+                    who = ROOT
+                    value = 120
+				}
+		    }
+		}
+		effect = {
+		    add_country_modifier = {
+				name = mission_respect_old_alliances_g06
+				duration = 7300
+			}
+			create_alliance = A94
+			add_historical_friend = A94
+			A94 = {
+			    add_historical_friend = ROOT
+			}
+		}
+	}
+	G06_the_quilboar_threat = {
+		icon = mission_achievement_boss_quilboar
+		position = 7
+		required_missions = { }
+		
+		trigger = {
+		    NOT = { exists = B68 }
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_quilboar_extermination_g06
+				duration = -1
+			}
+		}
+	}
+	G06_establish_beal_modan = {
+		icon = mission_dwarf
+		position = 9
+		required_missions = { }
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 1474
+				province_id = 3422
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		
+		trigger = {
+			1474 = {
+			    owned_by = ROOT
+			}
+			3422 = {
+			    owned_by = ROOT
+			}
+			NOT = { exists = F59 }
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_new_home_for_the_dwarves_g06
+				duration = 7300
+			}
+			country_event = {
+				id = wwu_mission_northwatch.6
+            }
+		}
+	}
+	G06_establish_windshear_hold = {
+		icon = mission_human_male
+		position = 10
+		required_missions = { }
+		
+		provinces_to_highlight = {
+		    OR = {
+			    province_id = 1363
+				province_id = 3640
+			}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			1363 = {
+			    owned_by = ROOT
+			}
+			3640 = {
+			    owned_by = ROOT
+			}
+		}
+		
+		effect = {
+		    add_country_modifier = {
+				name = mission_windshear_hold_g06
+				duration = 7300
+			}
+			country_event = {
+				id = wwu_mission_northwatch.7
+            }
+		}
+	}
+}

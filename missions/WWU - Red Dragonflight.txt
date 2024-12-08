@@ -675,9 +675,17 @@ B03_red_dragonflight_column_5 = {
             owned_by = ROOT
         }
 		effect = {
+			#add_power_projection = { # Commented out because type = is missing
+			#	amount = 25
+			#}
 			add_country_modifier = {
                 name = mission_proto_drake_sepremacy_b03
                 duration = -1
+            }
+
+			add_country_modifier = {
+                    name = is_evil
+                    duration = -1
             }
 		}
 	}
@@ -711,11 +719,17 @@ B03_red_dragonflight_column_5 = {
 			define_ruler = {
                 name = "Galakrond Father of Dragons"
                 dynasty = "Galakrond"
-                adm = 4
-                dip = 4
+                adm = 5
+                dip = 5
                 mil = 7
             }
 			set_ruler_flag = is_immortal
+
+			custom_tooltip = IMMORTAL_RULER_TT
+
+			hidden_effect = {
+				country_event = { id = wwu_mission_red_dragonflight.1 days = 30 }
+			}
 		}
 	}
 	B03_devour_the_world_b03 = {

@@ -1,25 +1,14 @@
-
-is_city = yes
-
-owner = B44
-controller = B44
-add_core = B44
+# Empty Province
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_furbolg
-religion = shamanism
-
+culture = culture_ghost
+religion = arcane
 
 hre = no
-trade_goods = resource_artifacts
-
-
-
-618.1.1 = {
-  religion = fel
-  culture = culture_corrupted_furbolg
-}
-
+trade_goods = unknown

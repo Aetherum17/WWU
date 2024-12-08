@@ -33,8 +33,8 @@ song = { name = "music_iron_dawn" chance = { modifier = { factor = 1 } } }
 song = { name = "music_khadgar" chance = { modifier = { factor = 1 } } }
 song = { name = "music_lament_of_the_highborne" chance = { modifier = { factor = 1 } } }
 song = { name = "music_lifeblood" chance = { modifier = { factor = 1 } } }
-song = { name = "music_Neal Acree - Anduin Pt1 A1" chance = { modifier = { factor = 1 } } }
-song = { name = "music_Neal Acree - Demon Hunter Pt1 C" chance = { modifier = { factor = 1 } } }
+song = { name = "music_neal_acree_anduin" chance = { modifier = { factor = 1 } } }
+song = { name = "music_neal_acree_demon_hunter" chance = { modifier = { factor = 1 } } }
 song = { name = "music_netherstorm" chance = { modifier = { factor = 1 } } }
 song = { name = "music_nightsong" chance = { modifier = { factor = 1 } } }
 song = { name = "music_old_growth" chance = { modifier = { factor = 1 } } }
@@ -92,4 +92,10 @@ song = { name = "music_jaina_homeland" chance = { modifier = { factor = 1 } } }
 song = { name = "music_classic_battle_e" chance = { modifier = { factor = 1 } } }
 song = { name = "music_pride_of_the_seas" chance = { modifier = { factor = 1 } } }
 song = { name = "music_xaxas" chance = { modifier = { factor = 1 } } }
-
+song = { name = "music_gilneas_intro" chance = { modifier = { factor = 1 } } }
+song = { name = "music_invincible_an_karanir_thanagor" chance = { modifier = { factor = 1 } } }
+song = { name = "music_acherus" chance = { modifier = { factor = 1 } } }
+song = { name = "music_culling_of_stratholme" chance = { modifier = { factor = 1 } } }
+song = { name = "music_battle_of_dazaralor" chance = { modifier = { factor = 1 } } }
+song = { name = "music_cata_shadow" chance = { modifier = { factor = 1 } } }
+song = { name = "music_fungal_fields_hallowfall" chance = { modifier = { factor = 1 } } }

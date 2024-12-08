@@ -16,11 +16,19 @@ trade_goods = resource_rare_wood
 
 
 622.1.1 = {
-    owner = A94
-    controller = A94
-    add_core = A94
+    owner = A95
+    controller = A95
+    add_core = A95
     remove_core = F47
   
     culture = culture_night_elf
 }
 
+631.1.1 = {
+    owner = A43
+    controller = A43
+    add_core = A43
+
+    culture = culture_twilight_cultist
+    religion = twilight_cult
+}

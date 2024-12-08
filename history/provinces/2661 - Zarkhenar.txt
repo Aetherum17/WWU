@@ -1,16 +1,14 @@
 is_city = yes
-owner = AZG
-controller = AZG
-add_core = AZG
+owner = ZHA
+controller = ZHA
+add_core = ZHA
 
 base_tax = 3
 base_production = 3
 base_manpower = 3
 
-culture = culture_blue_dragonflight
+culture = culture_nightborne
 religion = arcane
 
 hre = no
 trade_goods = resource_melee_weaponry
-
-

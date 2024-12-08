@@ -1,4 +1,4 @@
-graphical_culture = human_gfx
+graphical_culture = lordaeron_gfx
 
 color = { 127 48 24 }
 

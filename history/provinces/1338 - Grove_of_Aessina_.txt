@@ -1,8 +1,9 @@
 
 is_city = yes
 
-owner = A95
-controller = A95
+owner = F99
+controller = F99
+add_core = F99
 add_core = A95
 
 base_tax = 2
@@ -22,3 +23,37 @@ latent_trade_goods = {
 center_of_trade = 1
 
 
+617.1.1 = {
+    owner = G02
+    controller = G02
+    add_core = G02
+	
+	culture = culture_doomguard
+    religion = fel
+}
+
+618.1.1 = {
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+	culture = culture_night_elf
+    religion = druidism
+}
+
+631.1.1 = {
+    owner = P26
+    controller = P26
+    add_core = P26
+
+    culture = culture_fire
+    religion = flame
+}
+
+632.1.1 = {
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+    religion = druidism
+}

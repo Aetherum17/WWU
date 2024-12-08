@@ -25,6 +25,10 @@ capital 			= 1561
     }
 	
     set_ruler_flag = is_immortal
-	
+
+	set_defender_of_the_faith = {
+		who = P28
+		religion = wind
+	}
 } 
 

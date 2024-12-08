@@ -1,25 +1,17 @@
 
 is_city = yes
 
-owner = A90
-controller = A90
-add_core = A90
+owner = WBK
+controller = WBK
+add_core = WBK
 
 base_tax = 1
-base_production = 1
-base_manpower = 1
+base_production = 3
+base_manpower = 3
 
-culture = culture_high_elf
-religion = holy_light
+culture = culture_treant
+religion = druidism
 
 hre = no
 trade_goods = resource_food
-
-618.1.1 = {
-    owner = F21
-    add_core = F21
-    controller = F21
-	remove_core = A90
-}
-
 

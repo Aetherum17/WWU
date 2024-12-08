@@ -227,7 +227,7 @@
  faction_authority_old_horde_mechanic: "Faction Authority"
  
  faction_authority_old_horde: "Faction Authority"
- faction_authority_old_horde_desc: "Gained by assisting Old Horde members in wars, and maintaing high relations with Old Horde members.\n\n§YBequeath Gold§!, §YBequeath Sailors§! and §YBequeath Manpower§! diplomatic actions will grant §YFaction Authority§!."
+ faction_authority_old_horde_desc: "Gained by assisting Horde members in wars, and maintaing high relations with Horde members.\n\n§YBequeath Gold§!, §YBequeath Sailors§! and §YBequeath Manpower§! diplomatic actions will grant §YFaction Authority§!."
  
  ability_faction_authority_old_horde_mechanic: "§YFaction Authority§!"
  
@@ -249,12 +249,12 @@
  faction_authority_old_horde_battleborn: "Battleborn"
  faction_authority_old_horde_battleborn_desc: ""
  
- faction_authority_old_horde_unite_the_faction: "Unite the Old Horde"
+ faction_authority_old_horde_unite_the_faction: "Unite the Horde"
  faction_authority_old_horde_unite_the_faction_desc: ""
  
- OLD_HORDE_MEMBERS_EFFECTED_TT: "All §YOld Horde§! members will gain this modifier."
- OLD_HORDE_MEMBERS_ANNEXED_TT: "All §YOld Horde§! members with relations at §Y0§! or higher with us shall be annexed (excluding players)."
- OLD_HORDE_MEMBERS_VASSALIZED_TT: "All §YOld Horde§! members with relations at §Y0§! or higher with us shall be vassalized (excluding players)."
+ OLD_HORDE_MEMBERS_EFFECTED_TT: "All §YHorde§! members will gain this modifier."
+ OLD_HORDE_MEMBERS_ANNEXED_TT: "All §YHorde§! members with relations at §Y0§! or higher with us shall be annexed (excluding players)."
+ OLD_HORDE_MEMBERS_VASSALIZED_TT: "All §YHorde§! members with relations at §Y0§! or higher with us shall be vassalized (excluding players)."
  
  OLD_HORDE_FULLY_UPGRADED_TT: "Have fully upgraded this §YOld Horde§! faction modifier."
  OLD_HORDE_UNLOCKED_ALL_TT: "All §YOld Horde§! faction modifiers have been fully upgraded."
@@ -322,7 +322,7 @@
  faction_old_horde_battleborn_2: "Enabled §YBattleborn II§!."
  faction_old_horde_battleborn_3: "Enabled §YBattleborn III§!."
  
- unified_the_old_horde: "Old Horde has been consolidated."
+ unified_the_grom_horde: "Horde has been consolidated."
  
  # Tooltips
  FACTION_relentless_conquest_TT: "You have reached the maximum level of §YRelentless Conquest§!."

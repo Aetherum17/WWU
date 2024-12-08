@@ -32,6 +32,11 @@ has_mission_tab__rise_of_the_horde = {
         tag = A38
         tag = A37
         tag = A46
+        tag = WCC
+        tag = BWC
+        tag = RWC
+        tag = LBC
+        tag = DRS
     }
 }
 

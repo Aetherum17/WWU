@@ -617,4 +617,54 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+    
+    
+	spriteType = {
+		name = "GFX_advisor_unique_aranas"
+		texturefile = "gfx//interface//advisors//human//aranas.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_unique_arugal"
+		texturefile = "gfx//interface//advisors//human//arugal.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_unique_shade_of_arugal"
+		texturefile = "gfx//interface//advisors//human//shade_of_arugal.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_unique_calia_hastings"
+		texturefile = "gfx//interface//advisors//human//calia_hastings.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_unique_tabetha"
+		texturefile = "gfx//interface//advisors//human//tabetha.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advisor_unique_inspector_tarem"
+		texturefile = "gfx//interface//advisors//human//inspector_tarem.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+	}
 }

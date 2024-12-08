@@ -1,0 +1,357 @@
+graphical_culture = nerubian_gfx
+
+color = { 25 46 64 }
+
+monarch_names = {
+	"Onokzor" = 1
+	"Kipik" = 1
+	"Zor'jak" = 1
+	"Xakip" = 1
+	"Jakiyyo" = 1
+	"Pa'ril" = 1
+	"Mokkuk" = 1
+	"Jakqi" = 1
+	"Ninil'ner" = 1
+	"Rikiyyo" = 1
+	"Qimok" = 1
+	"Vo'tar" = 1
+	"Rik'lok" = 1
+	"Haravo" = 1
+	"Riun" = 1
+	"Kilkal" = 1
+	"Jarak'shek" = 1
+	"Bak'sok" = 1
+	"Kukxeer" = 1
+	"Mal'zek" = 1
+	"Haraka" = 1
+	"Zekek" = 1
+	"Jinrik" = 1
+	"Xa'kuk" = 1
+	"Kalvalak" = 1
+	"Ik'onok" = 1
+	"Vomel" = 1
+	"Rixa" = 1
+	"Melun" = 1
+	"Zekkuk" = 1
+	"Shek'kor" = 1
+	"Kiphara" = 1
+	"Qi'kor" = 1
+	"Ruk'kal" = 1
+	"Nerkuk" = 1
+	"Erske" = 1
+	"Haraqi" = 1
+	"Komel" = 1
+	"Qi'kil" = 1
+	"Xeerril" = 1
+	"Tiktilak" = 1
+	"Kilga" = 1
+	"Ninil'ner" = 1
+	"Ek'shek" = 1
+	"His'kor" = 1
+	"Korxa" = 1
+	"Kukga" = 1
+	"Roz'tilak" = 1
+	"Jak'kaz" = 1
+	"Ninilkor" = 1
+	"Ril'ek" = 1
+	"Kor'un" = 1
+	"Ta'ta" = 1
+	"Ga'ri" = 1
+	"Ikkuk" = 1
+	"Yakiyyo" = 1
+	"Shekvo" = 1
+	"Kaik" = 1
+	"Kil'zek" = 1
+	"Kal'xeer" = 1
+	"Zor'ruk" = 1
+	"Skeri" = 1
+	"Bakko" = 1
+	"Mok'bak" = 1
+	"Iyyo'bak" = 1
+	"Koryak" = 1
+	"Valakvalak" = 1
+	"Kip'xeer" = 1
+	"Vomal" = 1
+	"Takal" = 1
+	"Skezek" = 1
+	"Voik" = 1
+	"Kil'shek" = 1
+	"Hara'lok" = 1
+	"Kilmok" = 1
+	"Tilak'jarak" = 1
+	"Ko'mel" = 1
+	"Rozkal" = 1
+	"Ta'tar" = 1
+	"Kip'hara" = 1
+	"Sokko" = 1
+	"Ekroz" = 1
+	"Skerik" = 1
+	"Ka'kor" = 1
+	"Korbak" = 1
+	"Kipvalak" = 1
+	"Kari" = 1
+	"Shek'un" = 1
+	"Tarik" = 1
+	"Mokkip" = 1
+	"Jakske" = 1
+	"Kiphara" = 1
+	"Paroz" = 1
+	"Zekroz" = 1
+	"Mel'zor" = 1
+	"Kazkor" = 1
+	"Kalkaz" = 1
+	"Unmok" = 1
+	"Iyyoiyyo" = 1
+	"Jin'mal" = 1
+	"Paer" = 1
+	"Rilkor" = 1
+	"Valakkaz" = 1
+	"Rikkor" = 1
+	"Bakkil" = 1
+	"Melvo" = 1
+	"Kaz'zor" = 1
+	"Kajin" = 1
+	"Onokzor" = -1
+	"Kipik" = -1
+	"Zor'jak" = -1
+	"Xakip" = -1
+	"Jakiyyo" = -1
+	"Pa'ril" = -1
+	"Mokkuk" = -1
+	"Jakqi" = -1
+	"Ninil'ner" = -1
+	"Rikiyyo" = -1
+	"Qimok" = -1
+	"Vo'tar" = -1
+	"Rik'lok" = -1
+	"Haravo" = -1
+	"Riun" = -1
+	"Kilkal" = -1
+	"Jarak'shek" = -1
+	"Bak'sok" = -1
+	"Kukxeer" = -1
+	"Mal'zek" = -1
+	"Haraka" = -1
+	"Zekek" = -1
+	"Jinrik" = -1
+	"Xa'kuk" = -1
+	"Kalvalak" = -1
+	"Ik'onok" = -1
+	"Vomel" = -1
+	"Rixa" = -1
+	"Melun" = -1
+	"Zekkuk" = -1
+	"Shek'kor" = -1
+	"Kiphara" = -1
+	"Qi'kor" = -1
+	"Ruk'kal" = -1
+	"Nerkuk" = -1
+	"Erske" = -1
+	"Haraqi" = -1
+	"Komel" = -1
+	"Qi'kil" = -1
+	"Xeerril" = -1
+	"Tiktilak" = -1
+	"Kilga" = -1
+	"Ninil'ner" = -1
+	"Ek'shek" = -1
+	"His'kor" = -1
+	"Korxa" = -1
+	"Kukga" = -1
+	"Roz'tilak" = -1
+	"Jak'kaz" = -1
+	"Ninilkor" = -1
+	"Ril'ek" = -1
+	"Kor'un" = -1
+	"Ta'ta" = -1
+	"Ga'ri" = -1
+	"Ikkuk" = -1
+	"Yakiyyo" = -1
+	"Shekvo" = -1
+	"Kaik" = -1
+	"Kil'zek" = -1
+	"Kal'xeer" = -1
+	"Zor'ruk" = -1
+	"Skeri" = -1
+	"Bakko" = -1
+	"Mok'bak" = -1
+	"Iyyo'bak" = -1
+	"Koryak" = -1
+	"Valakvalak" = -1
+	"Kip'xeer" = -1
+	"Vomal" = -1
+	"Takal" = -1
+	"Skezek" = -1
+	"Voik" = -1
+	"Kil'shek" = -1
+	"Hara'lok" = -1
+	"Kilmok" = -1
+	"Tilak'jarak" = -1
+	"Ko'mel" = -1
+	"Rozkal" = -1
+	"Ta'tar" = -1
+	"Kip'hara" = -1
+	"Sokko" = -1
+	"Ekroz" = -1
+	"Skerik" = -1
+	"Ka'kor" = -1
+	"Korbak" = -1
+	"Kipvalak" = -1
+	"Kari" = -1
+	"Shek'un" = -1
+	"Tarik" = -1
+	"Mokkip" = -1
+	"Jakske" = -1
+	"Kiphara" = -1
+	"Paroz" = -1
+	"Zekroz" = -1
+	"Mel'zor" = -1
+	"Kazkor" = -1
+	"Kalkaz" = -1
+	"Unmok" = -1
+	"Iyyoiyyo" = -1
+	"Jin'mal" = -1
+	"Paer" = -1
+	"Rilkor" = -1
+	"Valakkaz" = -1
+	"Rikkor" = -1
+	"Bakkil" = -1
+	"Melvo" = -1
+	"Kaz'zor" = -1
+	"Kajin" = -1
+
+}
+
+leader_names = {
+	"the Bonebreaker"
+	"the Throatslicer"
+	"the Wise"
+	"the Quick"
+	"the Sly"
+	"the Coy"
+	"the Smasher"
+	"the Stabber"
+	"the Gutter"
+	"the Ripper"
+	"the Puncher"
+	"the Kicker"
+	"the Massive"
+	"the Mammoth"
+	"the Monstrous"
+	"the Colossal"
+	"the Gigantic"
+	"the Giant"
+	"the Immense"
+	"the Vast"
+	"the Towering"
+	"the Bulky"
+	"the Lusty"
+	"the Mighty"
+	"the Titanic"
+	"the Potent"
+	"the Powerful"
+	"the Stout"
+	"the Tough"
+	"the Strong"
+	"the Sturdy"
+	"the Stalwart"
+	"the Brawny"
+	"the Hearty"
+	"the Great"
+	"the Almighty"
+	"the Gutsy"
+	"the Punchy"
+	"the Astute"
+	"the Careful"
+	"the Enlightened"
+	"the Perceptive"
+	"the Prudent"
+	"the Sane"
+	"the Shrewd"
+	"the Smart"
+	"the Wary"
+	"the Cunning"
+	"the Keen"
+	"the Sage"
+	"the Sharp"
+	"the Crafty"
+	"the Erudite"
+	"the Witty"
+	"the Sapient"
+	"the Tactful"
+	"the Furious"
+	"the Desperate"
+	"the Fierce"
+	"the Frantic"
+	"the Livid"
+	"the Raging"
+	"the Violent"
+	"the Frenzied"
+	"the Inciter"
+	"the Insane"
+	"the Crazed"
+	"the Maniac"
+	"the Vicious"
+	"the Rabid"
+	"the Delirious"
+	"the Fanatical"
+	"the Fervent"
+	"the Virulent"
+	"the Zealous"
+	"the Astute"
+	"the Educated"
+	"the Ample"
+	"the Judicious"
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	nerubian_inf_a_1
+	nerubian_cav_a_1
+	nerubian_inf_a_2
+	nerubian_cav_a_2
+	nerubian_inf_a_3
+	nerubian_cav_a_3
+	nerubian_inf_a_4
+	nerubian_cav_a_4
+	nerubian_inf_a_5
+	nerubian_cav_a_5
+}

@@ -1,0 +1,102 @@
+# STW - Stormwind
+# B17 - Redridge Gnolls 
+# B16 - Shadowhide
+# B15 - Riverpaw
+# GHR - Gnoll Horde
+# cb_gnoll_resurgence
+namespace = wwu_gnoll_war
+
+# Stormwind Armed Forces
+country_event = {
+    id = wwu_gnoll_war.1
+    title = wwu_gnoll_war.1.title
+    desc = wwu_gnoll_war.1.desc
+    picture = BOLVAR_FORDRAGON_eventPicture
+
+    mean_time_to_happen = {
+        months = 60
+    }
+
+    trigger = {
+        tag = STW
+        is_in_war = {
+            casus_belli = cb_gnoll_resurgence
+        }
+        NOT = { manpower_percentage = 0.9 }
+    }
+
+    option = {
+        name = wwu_gnoll_war.1.option.a
+
+        add_yearly_manpower = 2
+
+        add_country_modifier = {
+            name = event_gnoll_war_stormwind_manpower
+            duration = 3650
+        }
+    }
+}
+
+# Death of the Packlord - Stormwind
+country_event = {
+    id = wwu_gnoll_war.2
+    title = wwu_gnoll_war.2.title
+    desc = wwu_gnoll_war.2.desc
+    picture = STORMWIND_KNIGHT_eventPicture
+
+    mean_time_to_happen = {
+        months = 3
+    }
+
+    trigger = {
+        NOT = { has_country_flag = packlord_stormwind_fired }
+        tag = STW
+        is_in_war = {
+            casus_belli = cb_gnoll_resurgence
+        }
+        772 = {
+            controlled_by = STW
+        }
+    }
+
+    option = {
+        name = wwu_gnoll_war.2.option.a
+
+        add_prestige = 25
+
+        772 = {
+            add_devastation = 90
+        }
+
+        GHR = {
+            country_event = { id = wwu_gnoll_war.3 days = 3 }
+        }
+
+        hidden_effect = {
+            set_country_flag = packlord_stormwind_fired
+        }
+    }
+}
+
+# Death of the Packlord - Gnoll Horde
+country_event = {
+    id = wwu_gnoll_war.3
+    title = wwu_gnoll_war.3.title
+    desc = wwu_gnoll_war.3.desc
+    picture = GNOLL_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_gnoll_war.3.option.a
+
+        kill_ruler = yes
+        add_stability = -6
+        add_prestige = -200
+        add_horde_unity = -100
+
+        hidden_effect = {
+            set_country_flag = gnoll_horde_collapse_disaster_start
+        }
+    }
+}

@@ -1034,4 +1034,8 @@ spriteTypes = {
 		name = "privilege_resource_azerite"
 		texturefile = "gfx/interface/privileges/privilege_resource_azerite.dds"
 	}
+	spriteType = {
+		name = "privilege_greymane_greygard"
+		texturefile = "gfx/interface/privileges/privilege_greymane_greygard.dds"
+	}
 }

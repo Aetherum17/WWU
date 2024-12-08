@@ -1,0 +1,55 @@
+
+is_city = yes
+
+owner = A95
+controller = A95
+add_core = A95
+
+base_tax = 2
+base_production = 2
+base_manpower = 2
+
+culture = culture_forest_nymph
+religion = druidism
+
+hre = no
+trade_goods = resource_common_skins
+
+
+617.1.1 = {
+    owner = G02
+    controller = G02
+    add_core = G02
+	
+	culture = culture_eredar
+    religion = fel
+}
+
+618.1.1 = {
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+	culture = culture_night_elf
+    religion = druidism
+}
+
+631.1.1 = {
+    owner = P26
+    controller = P26
+    add_core = P26
+	
+	culture = culture_fire
+    religion = flame
+		
+    trade_goods = resource_rare_ores
+}
+
+632.1.1 = {    
+    owner = A95
+    controller = A95
+    add_core = A95
+	
+	religion = druidism
+	culture = culture_forest_nymph
+}

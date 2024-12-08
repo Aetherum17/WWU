@@ -1,0 +1,55 @@
+﻿l_french:
+
+ #---------------------------------------------------------
+ # X02 Lote Column1
+ #---------------------------------------------------------
+
+
+ #---------------------------------------------------------
+ # X02 Lote Column2
+ #---------------------------------------------------------
+ X02_support_of_north_villager_title: "Support of North Villagers"
+ X02_support_of_north_villager_desc: "Securing the support of the villagers in the northern territories is vital for strengthening your position. Their backing will provide you with crucial local intelligence and support, essential for your campaign."
+
+ #---------------------------------------------------------
+ # X02 Lote Column3
+ #---------------------------------------------------------
+
+ X02_godfrey_propaganda_title: "Godfrey Propaganda"
+ X02_godfrey_propaganda_desc: "Implementing a widespread propaganda campaign will bolster your public image and rally more supporters to your cause. Effective propaganda can significantly influence public opinion and increase loyalty."
+
+ X02_support_of_gilnean_nobles_title: "Support of Gilnean Nobles"
+ X02_support_of_gilnean_nobles_desc: "Gaining the support of the Gilnean nobility will enhance your political legitimacy and provide valuable resources. Their endorsement is crucial for consolidating power and ensuring stability within the region."
+
+ X02_support_of_the_merchants_title: "Support of The Merchants"
+ X02_support_of_the_merchants_desc: "Securing the backing of the merchants will ensure a steady flow of funds and resources. Their economic influence is essential for sustaining your efforts and maintaining a strong position in the conflict."
+
+ #---------------------------------------------------------
+ # X02 Lote Column4
+ #---------------------------------------------------------
+
+ X02_support_of_south_peasants_title: "Support of South Peasants"
+ X02_support_of_south_peasants_desc: "Winning the support of the peasants in the southern regions will provide you with crucial grassroots support. Their loyalty and contributions will be key to your efforts in the ongoing conflict."
+
+ #---------------------------------------------------------
+ # X02 Lote Column5
+ #---------------------------------------------------------
+
+ X02_base_at_purgation_isle_title: "Outpost in Purgation Isles"
+ X02_base_at_purgation_isle_desc: "Establishing a base at Purgation Isles will provide a strategic stronghold for your forces. This outpost will serve as a critical position for defense and logistics, ensuring a secure foothold in the region."
+
+ X02_the_end_of_the_civil_war_title: "End the Civil War"
+ X02_the_end_of_the_civil_war_desc: "With the end of the civil war, you can now focus on rebuilding and stabilizing the region. This resolution marks a significant achievement, allowing you to consolidate your power and plan for the future."
+
+ #---------------------------------------------------------
+ # Modifier
+ #---------------------------------------------------------
+ X02_godfrey_propaganda_modifier: "Godfrey Propaganda"
+ X02_base_at_purgation_isle_modifier: "Promise to the deprived"
+ 
+ 
+ #---------------------------------------------------------
+ # Tooltip
+ #---------------------------------------------------------
+ X02_disable_decision_assassinate: "Disable the decision §YAssassinate Ashbury and Walden§! for Gilneas"
+

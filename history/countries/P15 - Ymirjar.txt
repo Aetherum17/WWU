@@ -1,12 +1,26 @@
 
 # Ymirjar
-government 			= monarchy
-add_government_reform = vrykul_kingdom_reform
+government 			= theocracy
+add_government_reform = ymirjar_order_reform
 mercantilism 		= 10
 technology_group 	= tech_vrykul
-religion			= titan_worship
-primary_culture 	= culture_vargul
-capital 			= 734
+religion			= corrupt_titan_worship
+primary_culture 	= culture_vrykul
+capital 			= 3229
+
+546.1.1 = {
+	monarch = {
+		name = "Thaldrin"
+		dynasty = "Foreman"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+615.1.1 = {
+	religion = cult_of_the_damned
+}
 
 626.1.1 = { 
     monarch = { 

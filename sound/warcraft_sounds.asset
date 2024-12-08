@@ -19,3 +19,48 @@ sound = {
     name = yogg_saron_whisper_4        
     file = "yogg_saron_whisper_4.wav" 
 }
+sound = {
+	name = level_up
+	file = "level_up.wav"
+}
+sound = {
+	name = worgen_attack_gilneas
+	file = "worgen_attack_gilneas.wav"
+}
+sound = {
+	name = pick_up_ores
+	file = "pick_up_ores.wav"
+}
+sound = {
+	name = pick_up_paper
+	file = "pick_up_paper.wav"
+}
+sound = {
+	name = pick_up_small_metal
+	file = "pick_up_small_metal.wav"
+}
+sound = {
+	name = pick_up_cloth
+	file = "pick_up_cloth.wav"
+}
+sound = {
+	name = pick_up_gems
+	file = "pick_up_gems.wav"
+}
+sound = {
+	name = pick_up_wood_large
+	file = "pick_up_wood_large.wav"
+}
+sound = {
+	name = pick_up_wand
+	file = "pick_up_wand.wav"
+}
+sound = {
+	name = pick_up_small_chains
+	file = "pick_up_small_chains.wav"
+}
+sound = {
+	name = quest_failed
+	file = "quest_failed.wav"
+}
+

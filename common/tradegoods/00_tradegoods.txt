@@ -767,7 +767,8 @@ resource_azerite = {
 	
 	trigger = {
 		OR = {
-			development_discounting_tribal = 20
+			#development_discounting_tribal = 20
+			development = 20
 			owner = { innovativeness = 50 }
 		}
 		custom_trigger_tooltip = {

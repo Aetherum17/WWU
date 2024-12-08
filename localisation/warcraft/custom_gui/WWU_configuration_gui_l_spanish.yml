@@ -1,0 +1,142 @@
+﻿l_spanish:
+ #-----------------------------------
+ # Configuration GUI
+ #-----------------------------------
+ configuration_screen_subtitle_features: "Features"
+ configuration_screen_subtitle_content: "Content"
+ 
+ CONFIGURATION_FEATURES_TT: "Toggle which Warcraft Universalis custom features will be enabled or disabled.\n\nButton in §Ggreen§! means the feature is enabled.\nButton in §Rred§! means the feature is disabled."
+ 
+ CONFIGURATION_CONTENT_TT: "Toggle which continents are populated with countries.\n\nButton in §Ggreen§! means the continent will remain as is.\nButton in §Rred§! means the continent will be purged."
+ 
+ FINALIZE_CONFIG_TT: "Start the game with the current configuration you have set."
+ 
+ button_racial_modifiers_ON: "Racial Modifiers"
+ button_racial_modifiers_OFF: "Racial Modifiers"
+ 
+ button_magic_mechanics_ON: "Magic"
+ button_magic_mechanics_OFF: "Magic"
+ 
+ button_archaeology_mechanics_ON: "Archaeology"
+ button_archaeology_mechanics_OFF: "Archaeology"
+ 
+ button_isolation_mechanics_ON: "Isolation"
+ button_isolation_mechanics_OFF: "Isolation"
+ 
+ button_stratagem_mechanics_ON: "Stratagems"
+ button_stratagem_mechanics_OFF: "Stratagems"
+ 
+ button_lore_diplomacy_mechanics_ON: "Alliance Restrictions"
+ button_lore_diplomacy_mechanics_OFF: "Alliance Restrictions"
+ 
+ button_faction_mechanics_ON: "Warcraft Factions"
+ button_faction_mechanics_OFF: "Warcraft Factions"
+ 
+ button_local_colonial_naming_ON: "Local Colonial Naming"
+ button_local_colonial_naming_OFF: "Local Colonial Naming"
+ 
+ button_player_switch_events_ON: "Player Switch Options"
+ button_player_switch_events_OFF: "Player Switch Options"
+ 
+ button_vanquisher_system_ON: "Vanquishers"
+ button_vanquisher_system_OFF: "Vanquishers"
+ 
+ button_warmonger_system_ON: "Warmongers"
+ button_warmonger_system_OFF: "Warmongers"
+ 
+ button_relentless_conquest_system_ON: "Relentless Conquest"
+ button_relentless_conquest_system_OFF: "Relentless Conquest"
+ 
+ button_regional_aggressive_expansion_ON: "Regional Expansion"
+ button_regional_aggressive_expansion_OFF: "Regional Expansion"
+ 
+ button_balance_of_power_system_ON: "Balance of Power"
+ button_balance_of_power_system_OFF: "Balance of Power"
+ 
+ button_draenor_collapse_ON: "Collapse of Draenor"
+ button_draenor_collapse_OFF: "Collapse of Draenor"
+ 
+ button_eastern_kingdoms_ON: "Eastern Kingdoms"
+ button_eastern_kingdoms_OFF: "Eastern Kingdoms"
+ 
+ button_kalimdor_ON: "Kalimdor"
+ button_kalimdor_OFF: "Kalimdor"
+ 
+ button_northrend_ON: "Northrend"
+ button_northrend_OFF: "Northrend"
+ 
+ button_pandaria_ON: "Pandaria"
+ button_pandaria_OFF: "Pandaria"
+ 
+ button_outland_ON: "Outland"
+ button_outland_OFF: "Outland"
+ 
+ button_draenor_ON: "Draenor"
+ button_draenor_OFF: "Draenor"
+ 
+ button_broken_isles_ON: "Broken Isles"
+ button_broken_isles_OFF: "Broken Isles"
+ 
+ button_zandalar_ON: "Zandalar"
+ button_zandalar_OFF: "Zandalar"
+ 
+ button_kul_tiras_ON: "Kul Tiras"
+ button_kul_tiras_OFF: "Kul Tiras"
+ 
+ button_naga_domain_ON: "Vash'jir & Nazjatar"
+ button_naga_domain_OFF: "Vash'jir & Nazjatar"
+ 
+ button_paradise_isles_ON: "Paradise Isles"
+ button_paradise_isles_OFF: "Paradise Isles"
+ 
+ button_south_seas_ON: "South Sea Islands"
+ button_south_seas_OFF: "South Sea Islands"
+ 
+ button_plunder_isle_ON: "Plunder Isle"
+ button_plunder_isle_OFF: "Plunder Isle"
+ 
+ button_dragon_isles_ON: "Dragon Isles"
+ button_dragon_isles_OFF: "Dragon Isles"
+ 
+ button_elemental_realms_ON: "Elemental Realms"
+ button_elemental_realms_OFF: "Elemental Realms"
+ 
+ button_argus_ON: "Argus"
+ button_argus_OFF: "Argus"
+ 
+ button_shadowlands_ON: "Shadowlands"
+ button_shadowlands_OFF: "Shadowlands"
+ 
+ # Difficulty
+ vanquisher_system_TT: "§YVanquishers§!\nRandomly grants AI bonuses that allow them to become more of a threat to the player."
+ 
+ relentless_conquest_system_TT: "§YRelentless Conquest§!\nThis system allows specific nations to immediately take provinces upon sucessful sieges via the Relentless Conquest decision."
+ 
+ warmonger_system_TT: "§YWarmongers§!\nThis system makes the AI declare reckless wars and those wars are much more difficult to peace out of."
+ 
+ regional_aggressive_expansion_TT: "§YRegional Expansion§!\nThis system causes Aggressive Expansion to be cleared with countries outside of the aggressor's superregion."
+ 
+ balance_of_power_system_TT: "§YBalance of Power§!\nThis system makes it more difficult to maintain high Prestige, Army Tradition and Navy Tradition as a nation grows in size and strength."
+ 
+ draenor_collapse_TT: "§YCollapse of Draenor§!\nEnabling the Collapse of Draenor will allow the conversion of Draenor into Outland if Dimensional Portals are opened."
+ 
+ # Features
+ racial_modifiers_TT: "§YRacial Modifiers§!\nThis system grants each 'racial' group bonuses and detriments based on their administration and military structures."
+ 
+ magic_mechanics_TT: "§YMagic§!\nThis system allows for rulers to become spellcasters, enabling a spellcasting menu which allows a nation to exchange mana for various effects and modifiers."
+ 
+ archaeology_mechanics_TT: "§YArchaeology§!\nThis system allows nations to dig for artifacts and to utilise said artifacts for bonuses."
+ 
+ isolation_mechanics_TT: "§YIsolation§!\nThis system allows for specific nations to isolate themselves and gain internal bonuses whilst in said state. However, isolated nations cannot declare wars."
+ 
+ stratagem_mechanics_TT: "§YStratagems§!\nThis system allows for nations to select various mechanical bonuses that help change the functionality of sieges and rebellions."
+ 
+ lore_diplomacy_mechanics_TT: "§YAlliance Restrictions§!\nThis system restricts which nations can form alliances based on racial groupings."
+ 
+ faction_mechanics_TT: "§YWarcraft Factions§!\nThis system enables a unique mechanic that is used for the Alliance, Horde, Trade Coalition and Dragon Aspects."
+ 
+ local_colonial_naming_TT: "§YLocal Colonial Naming§!\nThis mechanic causes AI colonial nations to use local area names as their official name."
+ 
+ player_switch_events_TT: "§YPlayer Switch Options§!\nEnables events that allow the player to switch to a newly formed nation of lore significance."
+ 
+ toggle_continent_TT: "Toggle this continent."

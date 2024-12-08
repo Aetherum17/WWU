@@ -21,28 +21,28 @@ latent_trade_goods = {
 center_of_trade = 1
 
 617.1.1 = {
-    is_city = yes
     owner = A46
 	controller = A46
-	add_core = A46
+    add_core = A46
     
 	culture = culture_orc
-	religion = shamanism
-    
-
-	base_tax = 5
-	base_production = 3
-	base_manpower = 10
+	religion = shamanism   
     
 	capital = "Horde Landing Site"
 }
 
+618.1.1 = {
+    owner = A48
+	controller = A48
+    add_core = A48   
+}
 
 622.1.1 = {
     is_city = yes
     owner = RTC
     controller = RTC
 	add_core = RTC
+	remove_core = A48
     
     
     culture = culture_goblin

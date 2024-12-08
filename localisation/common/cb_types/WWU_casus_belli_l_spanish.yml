@@ -101,6 +101,9 @@
  cb_infestation: "Infestation"
  cb_infestation_desc: "All of Azeroth shall join the Sporemound!"
  
+ cb_fungarian_invasion_on_nazmir: "War against the oppressor"
+ cb_fungarian_invasion_on_nazmir_desc: "Attack the oppressors!"
+
  cb_naga_invasion_on_zandalar: "Naga Invasion"
  cb_naga_invasion_on_zandalar_desc: "Attack the natives of Zandalar!"
  
@@ -181,6 +184,15 @@
  
  cb_war_of_aggression: "War of Aggression"
  cb_war_of_aggression_desc: "We must destroy them!"
+
+ cb_tauren_genecide: "Tauren Genecide"
+ cb_tauren_genecide_desc: "We must eradice the Tauren race, for we are the true masters of the plains!"
+
+ cb_primals_harvest: "Primal Harvest"
+ cb_primals_harvest_desc: "Since those creatures are living plants, they can be harvested just like trees."
+
+ cb_vrykul_unification: "Vrykul Unification"
+ cb_vrykul_unification_desc: "After passing trials, which determined our ruler has proved himself as great leader, we can take step to unite our people."
  
  #-----------------------------------
  # Wargoals
@@ -287,6 +299,9 @@
  
  take_capital_war_of_aggression: "War of Aggression"
  take_capital_war_of_aggression_desc: ""
+
+ take_capital_primal_harvest: "Primal Harvest"
+ take_capital_primal_harvest_desc: ""
  
  #-----------------------------------
  # War Names
@@ -328,6 +343,8 @@
  BENEVOLENT_LIBERATION_WAR: "$ORDER$$FIRST$ Liberation War against $SECOND$"
  
  WAR_OF_AGGRESSION_NAME: "$ORDER$$FIRST$ War of Aggression against $SECOND$"
+ PRIMAL_HARVEST_NAME: "$ORDER$$FIRST$ Primal Harvest agaisnt $SECOND$"
+
  
  #-----------------------------------
  # Peace Options

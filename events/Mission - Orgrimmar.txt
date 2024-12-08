@@ -1,0 +1,50 @@
+namespace = wwu_mission_orgrimmar
+
+# Horde Agression - Garrosh
+country_event = {
+    id = wwu_mission_orgrimmar.1
+    title = wwu_mission_orgrimmar.1.title
+    desc = wwu_mission_orgrimmar.1.desc
+    picture = KUL_TIRAN_SHIP_eventPicture
+
+    fire_only_once = yes
+	
+	trigger = {
+        tag = A48
+		A23 = {
+            mission_completed = A23_orgrimmar_radical_voices
+		}
+    }
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_orgrimmar.1.option.a
+        
+		A48 = {
+		    set_ruler = Garrosh
+			set_dynasty = Hellscream
+			define_ruler = {
+                name = "Garrosh"
+                dynasty = "Hellscream"
+                adm = 4
+                dip = 2
+                mil = 6
+                age = 30
+                claim = 95
+            }
+ 		}
+		set_country_flag = garrosh_in_charge_a48
+		
+		add_country_modifier = {
+    		name = event_garrosh_rally_a48
+	    	duration = 14600
+    	}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

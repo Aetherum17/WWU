@@ -35,27 +35,23 @@ country_event = {
 	option = {
 	    name = wwu_flavour_protectors_of_ammon.1.b
 		
-		if = {
-            every_owned_province = { 
-                limit = {
-				    B72 = { primary_culture = culture_tolvir }
-                    area = area_ruins_of_ammon
-			        culture = culture_ghost
-                    NOT = { culture = culture_tolvir }
-                }
-                change_culture = culture_tolvir 
-            }
-		}
-		if = {
-            every_owned_province = { 
-                limit = {
-				    B72 = { primary_culture = culture_stone_tolvir }
-                    area = area_ruins_of_ammon
-			        culture = culture_ghost
-                    NOT = { culture = culture_stone_tolvir }
-                }
-                change_culture = culture_stone_tolvir 
+		 every_owned_province = { 
+			limit = {
+				owner = { primary_culture = culture_tolvir }
+				area = area_ruins_of_ammon
+				culture = culture_ghost
+				NOT = { culture = culture_tolvir }
 			}
+			change_culture = culture_tolvir 
+		}
+		every_owned_province = { 
+			limit = {
+				owner = { primary_culture = culture_stone_tolvir }
+				area = area_ruins_of_ammon
+				culture = culture_ghost
+				NOT = { culture = culture_stone_tolvir }
+			}
+			change_culture = culture_stone_tolvir 
 		}
         
 		add_prestige = 20
@@ -225,7 +221,7 @@ country_event = {
             limit = {
                 area = area_ruins_of_ammon
 			    religion = titan_worship
-                NOT = { culture = cthun }
+                NOT = { religion = cthun }
             }
             change_religion = cthun 
 		}
@@ -259,7 +255,6 @@ country_event = {
             limit = {
                 area = area_ruins_of_ammon
 			    religion = titan_worship
-                NOT = { culture = void }
             }
             change_religion = void 
 		}
@@ -333,7 +328,15 @@ country_event = {
                 NOT = { culture = culture_stone_tolvir }
             }
             change_culture = culture_stone_tolvir			
-       } 
+        }
+	    every_owned_province = { 
+            limit = {
+                region = region_uldum
+			    culture = culture_tolvir
+                NOT = { culture = culture_stone_tolvir }
+            }
+            change_culture = culture_stone_tolvir			
+        }
 		change_primary_culture = culture_stone_tolvir
 		
 		ai_chance = {
@@ -398,6 +401,7 @@ country_event = {
         
 		#Form Uldum
 		change_tag = G14
+		override_country_name = ULDUM
 		add_formable_bonus = yes
         trigger_ni_switch = yes
 		capital_scope = {

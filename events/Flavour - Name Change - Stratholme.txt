@@ -1,0 +1,28 @@
+namespace = wwu_flavour_stratholme
+
+# Pick a name for Lordaeron
+country_event = {
+	id = wwu_flavour_stratholme.1
+	title = wwu_flavour_stratholme.1.title
+	desc = wwu_flavour_stratholme.1.desc
+	picture = ARTHAS_MENETHIL_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_stratholme.1.a
+		#Go by the standard name
+		
+		ai_chance = {		
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_stratholme.1.b
+		override_country_name = EASTWEALD
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

@@ -1,16 +1,14 @@
-
-is_city = yes
-
-owner = BD1
-controller = BD1
-add_core = BD1
+# Empty Province
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_black_dragonflight
-religion = corrupt_dragon_aspect
+culture = culture_makrura
+religion = water
 
 hre = no
 trade_goods = resource_alcohol
@@ -23,6 +21,7 @@ add_permanent_province_modifier = {
 }
 
 600.1.1 = { 
+    is_city = yes
     owner = F57
     controller = F57
     add_core = F57
@@ -39,14 +38,36 @@ add_permanent_province_modifier = {
     controller = A23
     owner = A23
     add_core = A23
-    culture = culture_kul_tiran
+	add_core = SRR
+	
+    culture = culture_lordaeron
     religion = holy_light
     base_tax = 2
     base_manpower = 3
     base_production = 2
 }
 
-632.1.1 = {
-    remove_core = A99
+622.1.1 = {
+    controller = F58
+    owner = F58
+    add_core = F58
+	add_core = SRR
 }
 
+631.1.1 = {
+    controller = A23
+    owner = A23
+    add_core = A23	
+	add_core = SRR
+	remove_core = F58
+	
+	culture = culture_theramorean
+}
+
+632.1.1 = {  
+    owner = ---
+    controller = ---
+    remove_core = A23
+	remove_core = SRR
+	add_core = G06
+}

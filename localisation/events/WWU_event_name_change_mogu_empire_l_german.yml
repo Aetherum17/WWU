@@ -1,0 +1,24 @@
+﻿l_german:
+ #-----------------------------------------------
+ # Mogu Empire
+ #----------------------------------------------- 
+ wwu_flavour_nc_mogu_empire.1.title: "Important Choices!"
+ wwu_flavour_nc_mogu_empire.1.desc: "Now that we solidified Pandaria we need to give us a name that represents our view of the world. We can approach it in two ways. Ether establish a name that shows our prowess or... something that our old subjects feared and trempled when they heard it. What name will we give to our empire?"
+ wwu_flavour_nc_mogu_empire.1.a: "We stick with Mogu Empire."
+ wwu_flavour_nc_mogu_empire.1.b: "We are THE EMPIRE OF THUNDER!"
+ wwu_flavour_nc_mogu_empire.1.c: "We are the Old Kingdom!"
+ wwu_flavour_nc_mogu_empire.1.d: "Tremble! The First Dynasty has returned!"
+ wwu_flavour_nc_mogu_empire.1.e: "Tremble! The Xin Dynasty has RISEN!"
+ wwu_flavour_nc_mogu_empire.1.f: "Tremble! The Dojan Dynasty has returned!"
+
+ # Name Change
+ EMPIRE_OF_THUNDER: "Empire of Thunder"
+ EMPIRE_OF_THUNDER_ADJ: "Imperial"
+ THE_OLD_KINGDOM: "The Old Kingdom"
+ THE_OLD_KINGDOM_ADJ: "Kingdom's"
+ THE_FIRST_DYNASTY: "The First Dynasty"
+ THE_FIRST_DYNASTY_ADJ: "Dynasty's"
+ XIN_DYNASTY: "Xin Dynasty"
+ XIN_DYNASTY_ADJ: "Xin"
+ DOJAN_DYNASTY: "Dojan Dynasty"
+ DOJAN_DYNASTY_ADJ: "Dojan"

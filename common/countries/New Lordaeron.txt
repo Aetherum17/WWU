@@ -1,0 +1,779 @@
+graphical_culture = gilneas_gfx
+
+color = { 67 67 67 }
+
+monarch_names = {
+	"Harry" = 1
+	"Oliver" = 1
+	"Jack" = 1
+	"Charlie" = 1
+	"Jacob" = 1
+	"Thomas" = 1
+	"Alfie" = 1
+	"Riley" = 1
+	"William" = 1
+	"James" = 1
+	"Joshua" = 1
+	"George" = 1
+	"Ethan" = 1
+	"Noah" = 1
+	"Samuel" = 1
+	"Daniel" = 1
+	"Oscar" = 1
+	"Max" = 1
+	"Leo" = 1
+	"Tyler" = 1
+	"Joseph" = 1
+	"Archie" = 1
+	"Henry" = 1
+	"Lucas" = 1
+	"Alexander" = 1
+	"Dylan" = 1
+	"Logan" = 1
+	"Isaac" = 1
+	"Mason" = 1
+	"Benjamin" = 1
+	"Jake" = 1
+	"Finley" = 1
+	"Harrison" = 1
+	"Edward" = 1
+	"Jayden" = 1
+	"Freddie" = 1
+	"Adam" = 1
+	"Zachary" = 1
+	"Sebastian" = 1
+	"Ryan" = 1
+	"Lewis" = 1
+	"Theo" = 1
+	"Luke" = 1
+	"Harvey" = 1
+	"Toby" = 1
+	"Liam" = 1
+	"Callum" = 1
+	"Arthur" = 1
+	"Michael" = 1
+	"Jenson" = 1
+	"Tommy" = 1
+	"Nathan" = 1
+	"Bobby" = 1
+	"Connor" = 1
+	"David" = 1
+	"Luca" = 1
+	"Charles" = 1
+	"Kai" = 1
+	"Jamie" = 1
+	"Alex" = 1
+	"Blake" = 1
+	"Frankie" = 1
+	"Reuben" = 1
+	"Aaron" = 1
+	"Dexter" = 1
+	"Jude" = 1
+	"Leon" = 1
+	"Ollie" = 1
+	"Stanley" = 1
+	"Elliot" = 1
+	"Gabriel" = 1
+	"Cameron" = 1
+	"Owen" = 1
+	"Louie" = 1
+	"Aiden" = 1
+	"Louis" = 1
+	"Elijah" = 1
+	"Finlay" = 1
+	"Rhys" = 1
+	"Caleb" = 1
+	"Evan" = 1
+	"Fredirick" = 1
+	"Hugo" = 1
+	"Kian" = 1
+	"Sonny" = 1
+	"Seth" = 1
+	"Kayden" = 1
+	"Taylor" = 1
+	"Kyle" = 1
+	"Elliott" = 1
+	"Robert" = 1
+	"Theodore" = 1
+	"Bailey" = 1
+	"Rory" = 1
+	"Ellis" = 1
+	"Joel" = 1
+	"Bradley" = 1
+	"Hayden" = 1
+	"John" = 1
+	"Ronnie" = 1
+	"Olly" = 1
+	"Austin" = 1
+	"Albert" = 1
+	"Billy" = 1
+	"Ashton" = 1
+	"Christopher" = 1
+	"Jackson" = 1
+	"Felix" = 1
+	"Dominic" = 1
+	"Corey" = 1
+	"Ben" = 1
+	"Nathaniel" = 1
+	"Aidan" = 1
+	"Reece" = 1
+	"Cody" = 1
+	"Sam" = 1
+	"Maxwell" = 1
+	"Patrick" = 1
+	"Tobias" = 1
+	"Yusuf" = 1
+	"Jasper" = 1
+	"Jakub" = 1
+	"Finn" = 1
+	"Kaiden" = 1
+	"Roman" = 1
+	"Tristan" = 1
+	"Carter" = 1
+	"Zac" = 1
+	"Rwan" = 1
+	"Morgan" = 1
+	"Ali" = 1
+	"Jay" = 1
+	"Teddy" = 1
+	"Anthony" = 1
+	"Syed" = 1
+	"Filip" = 1
+	"Eli" = 1
+	"Flynn" = 1
+	"Joe" = 1
+	"Reggie" = 1
+	"Nicholas" = 1
+	"Spencer" = 1
+	"Cole" = 1
+	"Levi" = 1
+	"Andrew" = 1
+	"Ewan" = 1
+	"Zack" = 1
+	"Brandon" = 1
+	"Alfred" = 1
+	"Maximilian" = 1
+	"Milo" = 1
+	"Zain" = 1
+	"Layton" = 1
+	"Xavier" = 1
+	"Jason" = 1
+	"Zak" = 1
+	"Leighton" = 1
+	"Marcus" = 1
+	"Marley" = 1
+	"Johnathan" = 1
+	"Kieran" = 1
+	"Beau" = 1
+	"Kacper" = 1
+	"Ruben" = 1
+	"Declan" = 1
+	"Joey" = 1
+	"Alan" = 1
+	"Kevin" = 1
+	"Joanh" = 1
+	"Oskar" = 1
+	"Vincent" = 1
+	"Peter" = 1
+	"Jaiden" = 1
+	"Miles" = 1
+	"Rocco" = 1
+	"Albie" = 1
+	"Lukas" = 1
+	"Jensen" = 1
+	"Jaxon" = 1
+	"Ralph" = 1
+	"Rio" = 1
+	"Zach" = 1
+	"Tom" = 1
+	"Shay" = 1
+	"Jesse" = 1
+	"Fraser" = 1
+	"Lennon" = 1
+	"Myles" = 1
+	"Amelia" = -1
+	"Olivia" = -1
+	"Jessica" = -1
+	"Emily" = -1
+	"Lily" = -1
+	"Ava" = -1
+	"Mia" = -1
+	"Isla" = -1
+	"Sophie" = -1
+	"Isabella" = -1
+	"Evie" = -1
+	"Ruby" = -1
+	"Poppy" = -1
+	"Grace" = -1
+	"Sophia" = -1
+	"Chloe" = -1
+	"Isabelle" = -1
+	"Ella" = -1
+	"Freya" = -1
+	"Charlotte" = -1
+	"Scarlett" = -1
+	"Daisy" = -1
+	"Lola" = -1
+	"Eva" = -1
+	"Holly" = -1
+	"Millie" = -1
+	"Lucy" = -1
+	"Phoebe" = -1
+	"Layla" = -1
+	"Maisie" = -1
+	"Sienna" = -1
+	"Alice" = -1
+	"Lilly" = -1
+	"Florence" = -1
+	"Ellie" = -1
+	"Erin" = -1
+	"Imogen" = -1
+	"Elizabeth" = -1
+	"Molly" = -1
+	"Summer" = -1
+	"Megan" = -1
+	"Hannah" = -1
+	"Sofia" = -1
+	"Abigail" = -1
+	"Jasmine" = -1
+	"Lexi" = -1
+	"Matilda" = -1
+	"Rosie" = -1
+	"Lacey" = -1
+	"Emma" = -1
+	"Amelie" = -1
+	"Gracie" = -1
+	"Maya" = -1
+	"Hollie" = -1
+	"Georgia" = -1
+	"Emilia" = -1
+	"Evelyn" = -1
+	"Bella" = -1
+	"Brooke" = -1
+	"Amber" = -1
+	"Eliza" = -1
+	"Amy" = -1
+	"Eleanor" = -1
+	"Leah" = -1
+	"Esme" = -1
+	"Katie" = -1
+	"Harriet" = -1
+	"Anna" = -1
+	"Willow" = -1
+	"Elsie" = -1
+	"Zara" = -1
+	"Annabelle" = -1
+	"Bethany" = -1
+	"Faith" = -1
+	"Madison" = -1
+	"Isabel" = -1
+	"Martha" = -1
+	"Rose" = -1
+	"Julia" = -1
+	"Paige" = -1
+	"Maryam" = -1
+	"Maddison" = -1
+	"Heidi" = -1
+	"Mollie" = -1
+	"Niamh" = -1
+	"Skye" = -1
+	"Aisha" = -1
+	"Ivy" = -1
+	"Darcey" = -1
+	"Francesca" = -1
+	"Zoe" = -1
+	"Keira" = -1
+	"Tilly" = -1
+	"Maria" = -1
+	"Sarah" = -1
+	"Lydia" = -1
+	"Caitlin" = -1
+	"Isobel" = -1
+	"Sara" = -1
+	"Violet" = -1
+	"Alexis" = -1
+	"Lexie" = -1
+	"Lauren" = -1
+	"Mya" = -1
+	"Seren" = -1
+	"Victoria" = -1
+	"Darcy" = -1
+	"Rebecca" = -1
+	"Annabel" = -1
+	"Eloise" = -1
+	"Maisy" = -1
+	"Lottie" = -1
+	"Fatima" = -1
+	"Beatrice" = -1
+	"Lara" = -1
+	"Alexandra" = -1
+	"Tia" = -1
+	"Laila" = -1
+	"Nicole" = -1
+	"Gabriella" = -1
+	"Nevaeh" = -1
+	"Darcie" = -1
+	"Iris" = -1
+	"Isis" = -1
+	"Nancy" = -1
+	"Aaliyah" = -1
+	"Annie" = -1
+	"Libby" = -1
+	"Lois" = -1
+	"Alisha" = -1
+	"Maja" = -1
+	"Zainab" = -1
+	"Leila" = -1
+	"Lyla" = -1
+	"Eve" = -1
+	"Kayla" = -1
+	"Savannah" = -1
+	"Lena" = -1
+	"Hope" = -1
+	"Naomi" = -1
+	"Laura" = -1
+	"Angel" = -1
+	"Miley" = -1
+	"India" = -1
+	"Faye" = -1
+	"Zahra" = -1
+	"Elise" = -1
+	"Alicia" = -1
+	"Madeleine" = -1
+	"Natalia" = -1
+	"Eden" = -1
+	"Lillie" = -1
+	"Connie" = -1
+	"Aimee" = -1
+	"Robyn" = -1
+	"Orla" = -1
+	"Esther" = -1
+	"Georgina" = -1
+	"Scarlet" = -1
+	"Neve" = -1
+	"Mila" = -1
+	"Alyssa" = -1
+	"Alexa" = -1
+	"Anya" = -1
+	"Emelia" = -1
+	"Pippa" = -1
+	"Yasmin" = -1
+	"Abbie" = -1
+	"Jessie" = -1
+	"Beau" = -1
+	"Betsy" = -1
+	"Felicity" = -1
+	"Sadie" = -1
+	"Amira" = -1
+	"Frankie" = -1
+	"Aleena" = -1
+	"Nina" = -1
+	"Arabella" = -1
+	"Elsa" = -1
+	"Anaya" = -1
+	"Clara" = -1
+	"Macie" = -1
+	"Tabitha" = -1
+	"Hanna" = -1
+	"Mariam" = -1
+	"Elena" = -1
+	"Zuzanna" = -1
+	"Amina" = -1
+	"Autumn" = -1
+	"Lucia" = -1
+	"Alexia" = -1
+	"Melissa" = -1
+	"Nadia" = -1
+	"Ayla" = -1
+	"Macey" = -1
+	"Jemima" = -1
+	"Jennifer" = -1
+	"Lacie" = -1
+	"Skyla" = -1
+
+}
+
+leader_names = {
+	"Jonathan"
+	"Lothar"
+	"Clay"
+	"Fordragon"
+	"Windsor"
+	"Soluna"
+	"Leland"
+	"Stockton"
+	"Lohan"
+	"Bauden"
+	"McCoy"
+	"Allen"
+	"Miller"
+	"Gallina"
+	"Rall"
+	"Marie"
+	"Anship"
+	"Chaddis"
+	"Raskol"
+	"Langston"
+	"Stoutmantle"
+	"Stonefield"
+	"Schweitzer"
+	"Pfeiffer"
+	"Sanders"
+	"Lind"
+	"Pressler"
+	"Fielder"
+	"Odesyus"
+	"Taylor"
+	"Brom"
+	"Moulaine"
+	"Arbington"
+	"Mallory"
+	"Moore"
+	"Laughlin"
+	"Bolero"
+	"Constantine"
+	"Merriweather"
+	"Hafgan"
+	"Axeman"
+	"Potts"
+	"Derring"
+	"Jainrose"
+	"Eva"
+	"Griffith"
+	"Berrybuck"
+	"Davenport"
+	"Germaine"
+	"Halloran"
+	"Krighton"
+	"Fadran"
+	"Wainwright"
+	"Hastings"
+	"Kryten"
+	"Benedictus"
+	"Gaiman"
+	"Malin"
+	"Nakada"
+	"Cailen"
+	"Stormfeather"
+	"Marsters"
+	"Peshkov"
+	"Huwe"
+	"Neto"
+	"Blank"
+	"Bridenbecker"
+	"Downs"
+	"Chilton"
+	"Fitch"
+	"Fitzgerald"
+	"Hesse"
+	"Jaxon"
+	"Lauffer"
+	"Burnhep"
+	"Feeney"
+	"Windmill"
+	"Fellwood"
+	"Ironboot"
+	"Matalli"
+	"Daniels"
+	"Dobbins"
+	"Hann"
+	"Kelly"
+	"Townsley"
+	"Alexston"
+	"Tidewater"
+	"Wental"
+	"Bartleby"
+	"Ginsetti"
+	"Behsten"
+	"Mora"
+	"Trias"
+	"Carevin"
+	"Elgueta"
+	"Foxworthy"
+	"Stonehammer"
+	"Gump"
+	"Brubaker"
+	"Heisten"
+	"Quin"
+	"Featherwhistle"
+	"Maclure"
+	"DeLavey"
+	"Farthing"
+	"Grey"
+	"Gray"
+	"Hammerbeak"
+	"Hennigan"
+	"Cloudwing"
+	"Terrel"
+	"Hamfist"
+	"Stonebraid"
+	"Crowley"
+	"Grassman"
+	"Thomas"
+	"Jongleur"
+	"Alpert"
+	"Danuvin"
+	"Darill"
+	"Hanes"
+	"Dirgehammer"
+	"Holley"
+	"Revshon"
+	"Nials"
+	"Greenfield"
+	"Brownfield"
+	"Rouncefield"
+	"Longfield"
+	"Windfield"
+	"Oakfield"
+	"Oak"
+	"Maple"
+	"Yew"
+	"Teak"
+	"Sycaruse"
+	"Willow"
+	"Jones"
+	"Williams"
+	"Campbell"
+	"Davis"
+	"Thompson"
+	"Kelly"
+	"Sullivan"
+	"O'Brien"
+	"Evans"
+	"Brown"
+	"Lewis"
+	"Wilson"
+	"Wallace"
+	"Ryan"
+	"Moore"
+	"Anderson"
+	"Jackson"
+	"Johnson"
+	"Smith"
+	"Murphy"
+	"Rogers"
+	"Philips"
+	"Morgan"
+	"Graham"
+	"Robinson"
+	"Burns"
+	"Robertson"
+	"Rodriguez"
+	"Thomas"
+	"Walker"
+	"Clark"
+	"Harris"
+	"Wright"
+	"Howard"
+	"Powell"
+	"Price"
+	"King"
+	"Frizgerald"
+	"Roberts"
+	"Taylor"
+	"Lopez"
+	"Russell"
+	"Gray"
+	"Walsh"
+	"Duncan"
+	"Kelley"
+	"Stewart"
+	"Richardson"
+	"Higgins"
+	"Hamilton"
+	"Wells"
+	"Carroll"
+	"Ferguson"
+	"Armstrong"
+	"Allen"
+	"Burke"
+	"Cle"
+	"Lynch"
+	"McCarthy"
+	"Nelson"
+	"Baker"
+	"Parker"
+	"Hall"
+	"Moran"
+	"Craig"
+	"Perez"
+	"Davies"
+	"Watson"
+	"Hughes"
+	"Hill"
+	"Adams"
+	"Chapman"
+	"Casey"
+	"Butler"
+	"Ward"
+	"White"
+	"Knight"
+	"Garcia"
+	"Grant"
+	"Spencer"
+	"Henderson"
+	"Green"
+	"Perry"
+	"Bailey"
+	"Turner"
+	"Cunningham"
+	"Martin"
+	"Morris"
+	"McLaughlin"
+	"Harrison"
+	"Long"
+	"Flynn"
+	"Gallagher"
+	"Edwards"
+	"Brooks"
+	"Miller"
+	"Dunn"
+	"Cooper"
+	"Young"
+	"Owens"
+	"Cook"
+	"Carter"
+	"Ross"
+	"Ellis"
+	"Mitchell"
+	"Cameron"
+	"Warren"
+	"Johnston"
+	"Gibson"
+	"Smith"
+	"Buchanan"
+	"Barnes"
+	"Byrne"
+	"Riley"
+	"Morrison"
+	"Foster"
+	"Lloyd"
+	"Richards"
+	"McClure"
+	"Elliott"
+	"Taylor"
+	"Andrews"
+	"Miller"
+	"MacDonald"
+	"O'Neil"
+	"McMahon"
+	"Fowler"
+	"Douglas"
+	"Crawford"
+	"Mason"
+	"Alexander"
+	"Stevens"
+	"Hawkins"
+	"Clark"
+	"Wagner"
+	"Farrell"
+	"Wood"
+	"Fitzpatrick"
+	"McCormick"
+	"Webb"
+	"Myers"
+	"Hunt"
+	"Monygomery"
+	"Harper"
+	"Tucker"
+	"Schmidt"
+	"Torres"
+	"West"
+	"Sweeney"
+	"Holmes"
+	"Dixon"
+	"Payne"
+	"Barrett"
+	"Jensen"
+	"Perkins"
+	"O'Donnell"
+	"McLean"
+	"Scott"
+	"Lee"
+	"Murray"
+	"Reed"
+	"McCullough"
+	"Quinn"
+	"Bennett"
+	"Hopkins"
+	"Stephens"
+	"Ortiz"
+	"Foley"
+	"Simmons"
+	"Reid"
+	"McGrath"
+	"Patterson"
+	"Nolan"
+	"Kennedy"
+	"Joyce"
+	"Dillon"
+	"Doyle"
+	"Brennan"
+	"Holland"
+	"Gordon"
+	"Brady"
+	"McCann"
+	"Schneider"
+	"Rhodes"
+	"Little"
+	"Coleman"
+	"McDonald"
+	"Howell"
+	"Rowe"
+	"Reyes"
+	"Dougherty"
+	"Bates"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	human_inf_a_1
+	human_cav_a_1
+	human_inf_a_2
+	human_cav_a_2
+	human_inf_a_3
+	human_cav_a_3
+	human_inf_a_4
+	human_cav_a_4
+	human_inf_a_5
+	human_cav_a_5
+}

@@ -46,6 +46,21 @@
  scourge_vassal_subject: "Scourge Subject"
  scourge_vassal_bonus: "Scourge Overlord"
  
+ gilnean_colony: "Gilnean Colony"
+ gilnean_colony_title: "Gilnean Colony"
+ gilnean_colony_plural: "Gilnean Colonies"
+ gilnean_colony_title_plural: "Gilnean Colonies"
+ gilnean_colony_is_our: "Gilnean Colony"
+ gilnean_colony_long_desc: "A population colonial from Gilneas"
+ 
+ prime_scourge_vassal: "Scourge Dominion"
+ prime_scourge_vassal_title: "Scourge Dominion"
+ prime_scourge_vassal_plural: "Scourge Dominions"
+ prime_scourge_vassal_title_plural: "Scourge Dominions"
+ prime_scourge_vassal_is_our: "Scourge Dominion"
+ prime_scourge_vassal_long_desc: "The Scourge Dominion is a vassal state under the control of the Lich King. Once independent, this nation now serves the interests of the Scourge, its leaders corrupted by the promise of power and protection. While retaining some autonomy, the Dominion’s ultimate loyalty lies with the Frozen Throne, and its forces bolster the ever-growing ranks of the undead."
+
+ 
  # Modifiers
  union_subject: "Union Subject" 
  union_nation: "Union Nation" 
@@ -63,6 +78,8 @@
  tributary_subject: "Tributary Subject"
  alliance_subject: "Alliance Subject"
  alliance_nation: "Alliance Nation"
+ is_gilnean_colony: "Gilnean colony"
+ 
  
  # Tooltips
  MARCHTOOLARGE: "March is too Large"

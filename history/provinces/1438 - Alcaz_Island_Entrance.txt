@@ -53,10 +53,13 @@ trade_goods = resource_treasure
     culture = culture_nazja
 }
 
-631.1.1 = { 
-    owner = B92
-    controller = B92
-    add_core = B92
-    remove_core = A23
+632.1.1 = {  
+    owner = ---
+    controller = ---
+    remove_core = P07
+	
+	base_tax = 1
+    base_production = 1
+    base_manpower = 1
 }
 

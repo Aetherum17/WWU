@@ -1,0 +1,88 @@
+﻿l_spanish:
+ # --- Mission Vrykul Shared ---
+ wwu_vrykul_generic_column_1: ""
+ wwu_vrykul_generic_column_2: ""
+ wwu_vrykul_generic_column_3: ""
+
+ # Column 1
+ wwu_vrykul_generic_C1_S2_title: "The Trial of the Hunt"
+ wwu_vrykul_generic_C1_S2_desc: "Placeholder"
+
+ # Column 2
+ wwu_vrykul_generic_C2_S1_title: "The Great Game"
+ wwu_vrykul_generic_C2_S1_desc: "Placeholder"
+
+ wwu_vrykul_generic_C2_S3_title: "The Right to Rule"
+ wwu_vrykul_generic_C2_S3_desc: "Placeholder"
+
+ # Column 3
+ wwu_vrykul_generic_C3_S2_title: "The Trial of the Warrior"
+ wwu_vrykul_generic_C3_S2_desc: "Placeholder"
+
+ # Modifiers
+
+ # Custom Tooltips
+
+ CT_TRIAL_HUNT_TT: "Succesfully complete three levels of the §YThe Great Game§! hunts."
+
+ NOVINCE_HUNT_SUCCESS_TT: "The Hunt will be succesful, rewards us with §Y 15 Prestige§! and §G 100 Military Power§!"
+ NOVINCE_HUNT_NEUTRAL_TT: "We fail to succesfully hunt the beasts. Gains §Y5 Prestige§!"
+
+ ADVANCED_HUNT_SUCCESS_TT: "The Hunt will be succesful, rewards us with §Y 20 Prestige§! and §G 150 Military Power§!"
+ ADVANCED_HUNT_NEUTRAL_TT: "We fail to succesfully hunt the beasts. Gains §Y5 Prestige§!"
+
+ NOVINCE_HUNT_SUCCESS_TT: "The Hunt will be succesful, rewards us with §Y 25 Prestige§! and §G 200 Military Power§!"
+ EXPERT_HUNT_NEUTRAL_TT: "We fail to succesfully hunt the beasts. Gains §Y5 Prestige§!"
+
+ vrykul_unification_CB_unlocked_TT: "Unlocks access to the §OVrykul Unifcation CB§! against all Vrykul nations in §YNorthrend.§!"
+
+ great_game_unlocked_TT: "Unlocks the §YHost The Great Game§! Decision, allowing you to progress with further missions."
+
+ # Event Text
+
+ wwu_mission_vrykul_shared.1.title: "The Great Game"
+ wwu_mission_vrykul_shared.1.desc: "Like every few years, we once more gather to prepare for a new game. A great hunt, a proving ground for vrykul men and women alike. One thing that proves bravery and resiliance. Thing that seperates mighty from fragile, alive and dead."
+ wwu_mission_vrykul_shared.1.option.a: "Host Novince Hunt"
+ wwu_mission_vrykul_shared.1.option.b: "Host Advanced Hunt"
+ wwu_mission_vrykul_shared.1.option.c: "Host Expert Hunt"
+
+ wwu_mission_vrykul_shared.2.title: "The Novice Hunt"
+ wwu_mission_vrykul_shared.2.desc: "This year, we decided upon the easy hunt. Something more akin to relaxation, then a challenge. Between agile Dreadsaber, mighty Shovertusk or a swift Hawk, those are beasts that rarely cause adult vrykul any challenge. This should be easy."
+ wwu_mission_vrykul_shared.2.option.a: "Let the hunt begin!"
+
+ wwu_mission_vrykul_shared.3.title: "The Advanced Hunt"
+ wwu_mission_vrykul_shared.3.desc: "This year, we decided to not play around. Finally, true hunters can show what they are really capeable of. This time, the hunt will bring glory and fame. Or one swift release of death. Today on the hunt: The Deep Dwelling Orcas, The Enraged Rhinos and ferocious Skyhawks! Let there be blood!"
+ wwu_mission_vrykul_shared.3.option.a: "Let the hunt begin!"
+
+ wwu_mission_vrykul_shared.4.title: "The Expert Hunt"
+ wwu_mission_vrykul_shared.4.desc: "This year, we decided to challenge the fate. At long last, the hunt few return from. This time, the risk is high. We challenge the very titans of Northrend, the mightiest of them all. What will happen today, will be written down, for the next generation to spreak, a legend of true warriros. Today, we challenge the Mammoths of the Frozen North, the Jormungal Worms that rule the frozen tundra and the oldest among them, the Proto-Drakes!"
+ wwu_mission_vrykul_shared.4.option.a: "Let the hunt begin!"
+
+ wwu_mission_vrykul_shared.5.title: "Success in the Great Hunt"
+ wwu_mission_vrykul_shared.5.desc: "We were successful while participating in the Great Hunt games. Tale of our hunt will linger for a time, offering better look at our realm."
+ wwu_mission_vrykul_shared.5.option.a: "Stories shall be told."
+
+ wwu_mission_vrykul_shared.6.title: "The Lack of Success"
+ wwu_mission_vrykul_shared.6.desc: "Sadly, this time we did not succede in the Great Game Hunt. Our pray outmanuvered us, allowing it escape. Hopefully we did not make any critical mistake, but we must try harder next time!"
+ wwu_mission_vrykul_shared.6.option.a: "Until next time."
+
+ # Event Tooltips
+
+ # Modifiers
+ mission_vrykul_shared_great_game_reward: "Renown of the Great Game"
+ desc_mission_vrykul_shared_great_game_reward: ""
+
+ mission_vrykul_shared_great_game_neutral_reward: "The Great Game Participator"
+ desc_mission_vrykul_shared_great_game_neutral_reward: ""
+
+ mission_vrykul_shared_trial_warrior: "Prove of the Great Warrior"
+ desc_mission_vrykul_shared_trial_warrior: ""
+
+ great_game_cooldown: "Great Game Aftermatch"
+ desc_great_game_cooldown: ""
+
+ # Flags
+ novince_hunt_success: "Novice Hunt Success"
+ advanced_hunt_success: "Advanced Hunt Success"
+ expert_hunt_success: "Expert Hunt Success"
+ unlock_vrykul_unification_CB: "Unlocked Vrykul Unification CB"

@@ -2,127 +2,103 @@
 # Changelog
 #--------------------------------------
 
-#Map:
-General:
--Reduced number of gold provinces in Stranglethorn Vale region
--Added Fenris Isle and Webbed Coast areas to Silverpine Region
--Fixed few incorrect culture provinces in Outland
+#Bugfixes:
+-Fixed Ango'rosh Mission Tree condition
+-Fixed issues with subjegated_vassals not being able to be managed (when previously mentioned that they were)
 
-Rise of the Qiraj Bookmark:
--Updated Polical Map of Mulgore
--Redgill will now exists in Westfall
+#New Countries /Tags
+-Mjordin (Icecrown)
 
-#History:
--Storwind will now start with two debuff Modifiers, that will have to be removed with a mission tree (removed in bookmarks past Beyond the Dark Portal)
--Stomwind will now start with additional cores in Westfall region
+Wrath of the Lich King:
+-Isle of Conquest will be divided between Horde and Alliance
 
--Leader of the Argussian Reach renamed to provent same-dynasty union
+#Decisions:
+-Elemental Lords: Elemental Lord AI will now be able to restore their primary religion, if their previous religion was changed due to any effect. Will do it only if the are not a subject nation.
+-Icecrown: Nations with capital in Icecrown region have access to Establish Glaciar Settlements decision, allowing them access to siberian_frontiers for limited time
+-Vandelmar will now have option to rename themselves to Deathknell, assuming they exist and embraced cult of the damned
+-Added decision to change name Khaz Modan to Ironforge
 
-#Great Projects:
--Tyr's Hand Great Project moved to correct location
+#Diplomacy:
+-Jotunheim starts with new tributary - Mjordin
+-Hyldnir starts with new tributary - Valkyrion
+-Dragonflayer starts with new vassal - Winterskorn
 
--Some Buildable Great Projects will now require money and time to construct, with currently:
-*Stormwind Mage Tower
-*Cathedral of Light
-*Tyr's Tomb
+-Troll Culture tags will no longer be able to ally with historically core alliance races
 
-#Subject Types:
--Allowed Administrate Subject interaction for Subjegated Vassals
--Increased base_libery_desire for Scourge Vassals, making them a bit harder to control
--Restricted creating Scourge Vassals to Scourge CB
--Scourge CB now suffers 125% AE
+#Gameplay:
+-Increased minimal time needed to convert a culture in the province
+-Naga Culture AI will not be allowed to colonize any land before end of Frozen Throne age
+-Dark Portal will not be colonizable by non-draenor nations
+-Frozen Throne Area was blocked from colonization
+-Nazjatar was made less likely to start random wars on the surface
+-Annul Treaties will now be active for 15 years (10 previously)
+-Max truce time from war increased to 10 (8 previous)
+-Halfed income penalty for being over forcelimit
+-Ghost culture will not be considered immortal (its really funny that they weren't )
+-Recruit Manpower interaction will no longer require manpower from a country that is using it
+-Provinces converted by Spread Religion will now get 5 year penalty towards conversion
 
-#Goverment Mechanics:
--Feudal Autorithy accept_vassalization_reasons moved from 100 --> 20
+#Goverment Mechanic:
+-Autocracy Mechanic now gives autonomy_change instead of yearly_absolutism
+
+#Goverment Reform:
+-Rebalanced Horde Gov. reforms modifier values
+-Tribal Tier 4: Applied Cooldown on reform effects, due to them triggering so often
+-Added New reforms for Vrykul Culture
+-Rebalanced Mantid reforms
+
+#Idea Groups
+-Adjusted Balance Issues
+
+#Localization:
+-Renamed Human Kingdoms names to fit more with standard naming conventions
 
 #National Ideas:
--Kul'tiras will no longer have marine Modifiers (since they don't use marines)
--Reduced some values in Stormwind ideas
--Rebalanced Blackrock, Shattered Hand, Burning Blade, Twilight Hammer and Warsong
--Fixed issue with Dark Conclave and Zangar Giants having default ideas
+-Reworked: Fire Group,
+-Adjusted: Centaur Marauders, Drakkari Empire, Drakkari, Ice Troll Group, Centaur Group
 
-#Events:
--Adjusted "The Darkmoon Faire" event to cost less mana to accept
+Religion:
+Elune:
+-Night Warrior decision rebalanced: Adds stronger general (6/6/6/6), at cost of -1 stability per summon. Adjusted modifier values.
 
-#Formables:
--Added Option to form The Fel Horde as Orc Culture in Outland
--Added Option to reform Ahn'Qiraj as Aqir Culture
--The Catacombs will no longer falsly add Ancient Elven City flag
+Voodoo:
+-Moved from Death group to Azerothian Group
 
-#Bugfixes:
--Added more ways to remove the flag responsible for spawning Scourge of Lordaeron on sieged provinces
+Defender of the Faith:
+Added historical defenders of the faith for: Flame, Water, Earth, Wind and Yogg'Saron religions
+
+#State Edicts:
+-Reduced values of certain edicts
+
+#Stratagems:
+-Purification cost increase, now goes 4/5/6/7/8
+
+#Map
+-Icecrown Region has been decolonized, to better depict pre-wow status
+-Northern Vrykul tags had been setup accordingly to lore-speculation
+-Serveral Northrend tag color adjustments
 
 #Missions:
-
-Generic Mission Tree:
--Added Mana rewards to each mission, so that you can catch up more easily as non-custom tree nation
-
-Wildhammer:
--Rebalanced Mana rewards values
--Readjusted Modifiers to use correct values
--Readjusted rewards of "United Dwarves" mission to include accepted cultures
-
-Lordaeron:
--Readjusted existing missions to have to do
-
-Scarlet Crusade:
--Readjusted Modifiers to use correct values
-
-Wyrmrest Accord:
--Readjusted Modifiers to use correct values
-
-Vermillion Redoubt:
--Readjusted Modfieirs to use correct values
-
-Kul'tiras:
--Added Localization to the missions
-
-Kunzen:
--Added new mission tree, replacing old one
-
-Blackrock:
--Expanded 5th column missions centered around development
+Anh'Qiraj:
+-Domination of Thousand Needles mission is no longer dependent on any mission
 
 Centaur Marauders:
--Replaced "Ritual of Champion" mission due to effect not working with Centuar goverment type
--Mission "Into the Stonetalor Mountains" bug fixed. Subjegation CB now has duration time of 10 years.
--Mission "Control of Durotar" will now reward additional claims upon completed.
--Mission "Awakening of the Earth Mother" bug fixed. Now will check for formables.
--Mission "Subjegate Krenka Khanate" made harder with additional condition.
--Mission "Rule Stonetalon" will now reward additional claims upon completed.
--Mission "Culling of Mulgore" will no longer check for unrest and seperatism
--Mission "Quillboar Agression" requirements readjusted
--Mission "Dealing with Razormane" requirements readjusted to be less specific
--Mission Event "Rise of Aratas and Perfect Ones" will now correctly switch to new goverment type on 1st option
+-Adjusted Modifier values of most missions modifiers
+-Adjusted conditions of various missions
+-Adjusted rewards of various missions
+-Overhauled Story Events
 
-Ahn'Qiraj:
--Added Several AI skips, making AI be able to progreess the mission tree easier, die less and become a bigger threat for the region
--Adjusted icons, localization and position of some missions
--Added several "ifs" to mission that require some tags to exists to progress, making sure it won't break the mission tree
--Adjusted mission rewards: Most temporarly claims became permanent, points & treasury rewards were reduced by 25-50%
--Added few hidden interactions between Ahn'Qiraj and Night Elves/Druids, throught the mission tree
+Firelands:
+-Adjusted Un'goro Mission with new flavour
 
-Stormwind 1st Part:
--Mission "Filling the Treasury" total gold needed reduced, no requires to have no loans
--Mission "Survival of Humanity" will not only give permanent claims on Elwynn Region
--Mission "Securing Westfall" now has alternative reward depending on condition
--Mission "Reconquest of Elwynn Forest" rewards fixed
--Mission "Conquest of Redridge" reward add_years_of_income nerfed from 5.0 --> 3.0
--Mission "Securing Gradn Hamlet" now has alternative reward depending on condition
--Mission "The Brotherhood of the Horse" will no longer unlock Stormwind Knight mercenary company
--Mission "Stormwind Arsenal" values rebalanced, now can be complited indepenently
--Mission Events from Guardian, Ironforge and New Dawn mission will not be consider global, allowing players to see the outcome made by AI
--Adjusted localization errors
+Kul'Tiras:
+-AI gets some early boosts and it's opening is slightly scripted for performance
+-Minor missions adjustment
 
-Stormwind 2nd Part:
--Mission "Balor Naval Command" unrest requirement removed
--Mission "Reducing the Frontier Unrest" requirements reworked, now has different reward
--Added Custom Tooltips informing of hidden rewards from Missions "Stormwind Mercantile Connections" and "Stormwind Armada"
--Mission "Debate of Light and Flame" now can be complited indepenently
--Mission "Balor Naval Command" now can be complited indepenently
--Mission "Order of Knights" privilige reward removed
--Adjusted localization errors
--Added Development Branch
+#--------------------------------------
+# Internal Notes
+#--------------------------------------
+-Distabled Scourge Paths related to corrupting/dealing with Vrykul, so that it won't break for a time I work on Vrykul content
 
 #--------------------------------------
 # TODO
@@ -166,5 +142,46 @@ Possible Features:
 #Shattered Hand:
 -Add planned mission tree
 
-# Kunzen
+#Kunzen
 -Reevalueate Mission Rewards (best to ask for feedback)
+
+#Setup - Dragons of Nightmare Events
+
+#Dark Scar - Frostwolf - Thunderlord - Bladespire
+-Events around Blood River War
+
+#Goverment Reforms
+-Add unique icon for Gronn Tribe reform
+-Add unique icon for Silithid Lair reform
+
+#Subjects
+-Add unqiue icon for Silithid Hive subject type
+-Fix problem with AQ mission "Bolster the Silithid Hives": Either add option to convert them to subject based on vassal, or rework the mission
+
+#Gnoll Horde:
+-Add Gnoll Horde collapse disaster
+
+#####################################################################################################
+Vrykul TODO:
+-Add T1 Gov Reforms:
+*Hyldanir Order: Theocracy: Reflavoured The Sisterhood of Jeanne d'Arc
+*Ymirheim Order: Theocracy: Militarization mechanic, but you sacrifice manpower for it. Reverse Bloodlust Ability mechanic 
+
+-Add T3 Gov Reforms:
+*Hydlanir Battle Sisters - infantry_power = 0.1, cavalry_power = 0.1 , army_tradition_from_battle = 0.03, global_manpower_modifier = -0.5
+*Ymirheim Frostbreakers - shock_damage = 0.10, shock_damage_received = -0.10, land_attrition = -0.15, fire_damage_received = 0.2
+*Jotunheim Raiders - loot_amount = 0.33, movement_speed = 0.1, war_exhaustion = -0.03, discipline = -0.05
+*Utgarde Defensive Theory - defensiveness = 0.2, max_hostile_attrition = 2, hostile_attrition = 2, fort_maintenance_modifier = 0.25, land_maintenance_modifier = 0.15
+*Dragonflayer Proto-Drake Riders - fire_damage = 0.1, siege_ability = 0.125, cavalry_flanking = 0.15, global_regiment_cost = 0.15, global_regiment_recruit_speed = 0.25
+*Vrykul Hemomancers - recover_army_morale_speed = 0.125, reserves_organisation = 0.125, land_morale = 0.1, reinforce_speed = -0.15, general_cost = 0.25
+
+Icecrown Vrykul:
+-Try to improve expansion into wasteland
+
+Dragonflayer:
+-Add Tooltips to exising decisions (colonization + fort restoration)
+-Add "Unleash Bloodlust" decision
+-Add "Settle Stand of the Ancients" decision
+-Add "Improve Harpoon Technology: 1-3" decisions
+
+Add Icons to all new stuff

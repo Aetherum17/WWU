@@ -1,10 +1,11 @@
 
 # Bloodwake
+government_rank 	= 1
 government 			= monarchy
-add_government_reform = vrykul_kingdom_reform
+add_government_reform = vrykul_clan_reform
 mercantilism 		= 10
 technology_group 	= tech_vrykul
-religion			= titan_worship
+religion			= corrupt_titan_worship
 primary_culture 	= culture_vrykul
 capital 		    = 4104
 

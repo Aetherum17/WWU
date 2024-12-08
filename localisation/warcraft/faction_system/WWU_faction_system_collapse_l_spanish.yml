@@ -8,8 +8,8 @@
  wwu_faction_system_collapse.2.desc: "The Horde has fallen upon hard times, and the current head has been assaulted by ferocious adversaries. As their capital falls, the notion of a united Horde falls too."
  wwu_faction_system_collapse.2.option.a: "..."
 
- wwu_faction_system_collapse.3.title: "Collapse of the Old Horde"
- wwu_faction_system_collapse.3.desc: "The Old Horde has fallen upon hard times, and the current head has been assaulted by ferocious adversaries. As their capital falls, the notion of a united Horde falls too."
+ wwu_faction_system_collapse.3.title: "Collapse of the Horde"
+ wwu_faction_system_collapse.3.desc: "The Horde has fallen upon hard times, and the current head has been assaulted by ferocious adversaries. As their capital falls, the notion of a united Horde falls too."
  wwu_faction_system_collapse.3.option.a: "..."
  
  wwu_faction_system_collapse.4.title: "Collapse of the Trade Coalition"
@@ -29,7 +29,7 @@
  wwu_faction_system_collapse.11.desc: ""
  wwu_faction_system_collapse.11.option.a: "OK"
  
- wwu_faction_system_collapse.12.title: "Collapse of the Old Horde"
+ wwu_faction_system_collapse.12.title: "Collapse of the Horde"
  wwu_faction_system_collapse.12.desc: ""
  wwu_faction_system_collapse.12.option.a: "OK"
  

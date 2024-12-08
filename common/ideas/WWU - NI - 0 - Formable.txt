@@ -74,12 +74,12 @@ arathor_ideas = {
     # Restored Determination
 	arathor_ideas_1 = {
 		defensiveness = 0.25
-        war_exhaustion = -0.05
+        war_exhaustion = -0.075
 	}
     # Destiny of Men
 	arathor_ideas_2 = {
         legitimacy = 1
-		administrative_efficiency = 0.05
+		administrative_efficiency = 0.1
 	}
     # Holy Quest
 	arathor_ideas_3 = { 
@@ -88,7 +88,7 @@ arathor_ideas = {
 	}
     # Wings of Liberty
 	arathor_ideas_4 = {  
-		range = 1.0
+		infantry_power = 0.15 
         movement_speed = 0.2
 	}
     # Human Absolution
@@ -103,6 +103,7 @@ arathor_ideas = {
     # Bureaucratic Revolution
 	arathor_ideas_7 = {
 		free_policy = 1
+		global_unrest = -2
 	}
 }
 
@@ -918,7 +919,7 @@ azq_ideas = {
 ctr_ideas = {
 	start = {
 		cavalry_cost = -0.5
-		cav_to_inf_ratio = 1.0
+		cav_to_inf_ratio = 0.5
 	}
 
 	bonus = {
@@ -936,7 +937,8 @@ ctr_ideas = {
 	}
     # Centaur Charge
 	ctr_ideas_2 = {
-		leader_land_shock = 2
+		leader_land_shock = 1
+		leader_land_manuever = 1
 	}
     # Blessing of the Steppes
 	ctr_ideas_3 = {
@@ -1293,7 +1295,7 @@ drakkari_empire_ideas = {
  
     #Blood of the Loa
     drakkari_empire_ideas_1 = {
-        infantry_power = 0.2
+        infantry_power = 0.15
     }
     #Frozen Dominion
     drakkari_empire_ideas_2 = {
@@ -1310,7 +1312,7 @@ drakkari_empire_ideas = {
     }
     #Ice Witchcraft
     drakkari_empire_ideas_5 = {
-        global_missionary_strength = 0.05
+        global_missionary_strength = 0.03
     }
     #Shamanic Network
     drakkari_empire_ideas_6 = {

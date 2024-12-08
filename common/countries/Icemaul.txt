@@ -1,6 +1,6 @@
 graphical_culture = ogre_gfx
 
-color = { 109 12 255 }
+color = { 52 189 217 }
 
 monarch_names = {
 	"Maulgar" = 1

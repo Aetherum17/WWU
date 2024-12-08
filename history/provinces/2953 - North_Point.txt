@@ -28,6 +28,20 @@ center_of_trade = 1
 	base_manpower = 4
 	base_production = 3
 	
+    trade_goods = resource_leather_armor
+}
 
-trade_goods = resource_leather_armor
+626.1.1 = {
+    culture = culture_theramorean
+}
+
+632.1.1 = {  
+    owner = ---
+    controller = ---
+    remove_core = A23
+	add_core = G06
+	
+	base_tax = 1
+	base_manpower = 1
+	base_production = 1
 }

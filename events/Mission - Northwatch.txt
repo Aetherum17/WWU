@@ -1,0 +1,557 @@
+namespace = wwu_mission_northwatch
+
+# Stable Government
+country_event = {
+    id = wwu_mission_northwatch.1
+    title = wwu_mission_northwatch.1.title
+    desc = wwu_mission_northwatch.1.desc
+    picture = STORMWIND_DOCK_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	# Republic
+    option = {
+        name = wwu_mission_northwatch.1.option.a
+        
+		change_government = republic
+		add_government_reform = noble_republic_reform
+		override_country_name = NORTHWATCH_ADMIRALTY
+		add_dip_power = 200
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+    
+	# Monarchy
+    option = {
+        name = wwu_mission_northwatch.1.option.b
+		
+        change_government = monarchy
+		override_country_name = KINDGDOM_OF_THE_BARRENS
+		add_mil_power = 200
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	
+	# Theocracy
+	option = {
+        name = wwu_mission_northwatch.1.option.c
+        
+		change_government = theocracy
+		add_government_reform = theocracy_reform
+		override_country_name = TEMPLE_CITY_OF_NORTHWATCH
+		add_adm_power = 200
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Fate of Theramore
+country_event = {
+    id = wwu_mission_northwatch.2
+    title = wwu_mission_northwatch.2.title
+    desc = wwu_mission_northwatch.2.desc
+    picture = STORMWIND_DOCK_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = wwu_mission_northwatch.2.option.a
+        
+		trigger = {
+		    A23 = {
+                has_opinion = {
+                    who = ROOT
+                    value = 200
+				}
+            }
+		}
+		create_union = A23
+		
+        ai_chance = {
+            factor = 10
+        }
+    }
+    
+    option = {
+        name = wwu_mission_northwatch.2.option.b
+		
+		trigger = {
+		    NOT = { exists = A23 }
+			OR = {
+				area_dreadmurk_coast = {				            
+				    country_or_non_sovereign_subject_holds = ROOT
+				}
+				area_theramore_isle = {
+				    country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+		}
+		
+		release = A23
+        create_subject = {
+            subject_type = personal_union
+            subject = A23
+		}
+	}
+	
+	option = {
+        name = wwu_mission_northwatch.2.option.c
+        	
+		region_dustwallow_marsh = {
+            add_core = ROOT
+		}
+	
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Siege of Orgrimmar
+country_event = {
+    id = wwu_mission_northwatch.3
+    title = wwu_mission_northwatch.3.title
+    desc = wwu_mission_northwatch.3.desc
+    picture = ENTERING_ORGRIMMAR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	
+    option = {
+        name = wwu_mission_northwatch.3.option.a
+		
+        add_mil_power = 300
+		3395 = {
+			add_devastation = 60
+		}
+		3164 = {
+			add_devastation = 60
+		}
+		3165 = {
+			add_devastation = 60
+		}
+		3399 = {
+			add_devastation = 60
+		}
+		3167 = {
+			add_devastation = 60
+		}
+		3166 = {
+			add_devastation = 60
+		}
+		3398 = {
+			add_devastation = 60
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	
+	option = {
+        name = wwu_mission_northwatch.3.option.b
+        
+		create_subject = {
+            subject_type = tributary_vassal
+            subject = A48       
+		}
+		add_mil_power = 100
+		3395 = {
+			add_devastation = 20
+		}
+		3164 = {
+			add_devastation = 20
+		}
+		3165 = {
+			add_devastation = 20
+		}
+		3399 = {
+			add_devastation = 20
+		}
+		3167 = {
+			add_devastation = 20
+		}
+		3166 = {
+			add_devastation = 20
+		}
+		3398 = {
+			add_devastation = 20
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Nation Establishments
+# New Strom
+country_event = {
+    id = wwu_mission_northwatch.4
+    title = wwu_mission_northwatch.4.title
+    desc = wwu_mission_northwatch.4.desc
+    picture = BARRENS_OUTPOST_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	
+    option = {
+        name = wwu_mission_northwatch.4.option.a
+
+		1373 = {
+            cede_province = NW1
+			add_core = NW1
+            change_culture = culture_arathi
+            change_religion = holy_light
+		}
+		3464 = {
+            cede_province = NW1
+			add_core = NW1
+            change_culture = culture_arathi
+            change_religion = holy_light
+        }
+		3465 = {
+            cede_province = NW1
+		    add_core = NW1
+            change_culture = culture_arathi
+            change_religion = holy_light
+        }
+	    create_subject = {
+            subject_type = personal_union
+            subject = NW1
+        }		
+			
+	    region_north_barrens = {
+            add_core = NW1
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	
+	option = {
+        name = wwu_mission_northwatch.4.option.b
+        
+		1373 = {
+			add_core = NW1
+            change_culture = culture_arathi
+            change_religion = holy_light
+		}
+		3464 = {
+			add_core = NW1
+            change_culture = culture_arathi
+            change_religion = holy_light
+        }
+		3465 = {
+		    add_core = NW1
+            change_culture = culture_arathi
+            change_religion = holy_light
+        }
+		add_adm_power = 150
+		add_dip_power = 150
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Tiragarde
+country_event = {
+    id = wwu_mission_northwatch.5
+    title = wwu_mission_northwatch.5.title
+    desc = wwu_mission_northwatch.5.desc
+    picture = DUROTAR_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	
+    option = {
+        name = wwu_mission_northwatch.5.option.a
+
+		1382 = {
+            cede_province = TIR
+			add_core = TIR
+            change_culture = culture_kul_tiran
+            change_religion = holy_light
+		}
+		3406 = {
+            cede_province = TIR
+			add_core = TIR
+            change_culture = culture_kul_tiran
+            change_religion = holy_light
+        }
+	    create_subject = {
+            subject_type = personal_union
+            subject = TIR
+        }		
+			
+	    region_durotar = {
+            add_core = NW1
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	
+	option = {
+        name = wwu_mission_northwatch.5.option.b
+        
+		1382 = {
+			add_core = TIR
+            change_culture = culture_kul_tiran
+            change_religion = holy_light
+		}
+		3406 = {
+			add_core = TIR
+            change_culture = culture_kul_tiran
+            change_religion = holy_light
+        }
+		add_adm_power = 150
+		add_dip_power = 150
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Bael Modan
+country_event = {
+    id = wwu_mission_northwatch.6
+    title = wwu_mission_northwatch.6.title
+    desc = wwu_mission_northwatch.6.desc
+    picture = MINECART_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	
+    option = {
+        name = wwu_mission_northwatch.6.option.a
+
+		1474 = {
+            cede_province = F59
+			add_core = F59
+            change_culture = culture_ironforge
+            change_religion = holy_light
+		}
+		3422 = {
+            cede_province = F59
+			add_core = F59
+            change_culture = culture_ironforge
+            change_religion = holy_light
+        }
+	    create_subject = {
+            subject_type = personal_union
+            subject = F59
+        }		
+			
+	    region_mulgore = {
+            add_core = F59
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	
+	option = {
+        name = wwu_mission_northwatch.6.option.b
+        
+		1474 = {
+			add_core = F59
+            change_culture = culture_ironforge
+            change_religion = holy_light
+		}
+		3422 = {
+			add_core = F59
+            change_culture = culture_ironforge
+            change_religion = holy_light
+        }
+		add_adm_power = 150
+		add_dip_power = 150
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Windshear Hold
+country_event = {
+    id = wwu_mission_northwatch.7
+    title = wwu_mission_northwatch.7.title
+    desc = wwu_mission_northwatch.7.desc
+    picture = SHIPS_CANNON_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	
+    option = {
+        name = wwu_mission_northwatch.7.option.a
+
+		1363 = {
+            cede_province = NW2
+			add_core = NW2
+            change_culture = culture_alterac
+            change_religion = holy_light
+		}
+		3640 = {
+            cede_province = NW2
+			add_core = NW2
+            change_culture = culture_alterac
+            change_religion = holy_light
+        }
+	    create_subject = {
+            subject_type = personal_union
+            subject = NW2
+        }		
+			
+	    region_stonetalon_mountains = {
+            add_core = NW2
+		}
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	
+	option = {
+        name = wwu_mission_northwatch.7.option.b
+        
+		1363 = {
+			add_core = NW2
+            change_culture = culture_alterac
+            change_religion = holy_light
+		}
+		3640 = {
+			add_core = NW2
+            change_culture = culture_alterac
+            change_religion = holy_light
+        }
+		add_adm_power = 150
+		add_dip_power = 150
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}
+
+# Form New Arathor
+country_event = {
+    id = wwu_mission_northwatch.8
+    title = wwu_mission_northwatch.8.title
+    desc = wwu_mission_northwatch.8.desc
+    picture = HOLY_ASSAULT_eventPicture
+
+    is_triggered_only = yes
+	
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+	# If Republic
+    option = {
+        name = wwu_mission_northwatch.8.option.a
+        
+		trigger = {
+		    government = republic
+		}
+		
+		change_tag = FNN
+		add_formable_bonus = yes
+		trigger_ni_switch = yes
+		set_final_tag_status = yes
+		override_country_name = ADMIRALTY_OF_NEW_ARATHOR
+        ai_chance = {
+            factor = 1
+        }
+    }
+	# If Monarchy
+	option = {
+        name = wwu_mission_northwatch.8.option.b
+        
+		trigger = {
+		    government = monarchy
+		}
+		
+		change_tag = FNN
+		add_formable_bonus = yes
+		trigger_ni_switch = yes
+		set_final_tag_status = yes
+		override_country_name = EMPIRE_OF_NEW_ARATHOR
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	# If Theocracy
+	option = {
+        name = wwu_mission_northwatch.8.option.c
+        
+		trigger = {
+		    government = theocracy
+		}
+		
+		change_tag = FNN
+		add_formable_bonus = yes
+		trigger_ni_switch = yes
+		set_final_tag_status = yes
+		override_country_name = HOLY_ARATHOR
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+	# Keep it Simple
+	option = {
+        name = wwu_mission_northwatch.8.option.d
+        
+		change_tag = FNN
+		add_formable_bonus = yes
+		trigger_ni_switch = yes
+		set_final_tag_status = yes
+		override_country_name = NEW_ARATHOR
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+}

@@ -10,6 +10,8 @@ add_accepted_culture = culture_kul_tiran
 add_accepted_culture = culture_high_elf
 capital 			 = 1439
 
+set_country_flag = theramore_missions_old_617
+
 546.1.1 = {
     monarch = {
         name = Roland
@@ -21,7 +23,7 @@ capital 			 = 1439
     }
     
     primary_culture = culture_kul_tiran
-    religion = tidemother
+	religion = tidemother
     government = tribal
     add_government_reform = expeditionary_force_reform
 }
@@ -50,13 +52,23 @@ capital 			 = 1439
         MANA = 5
         arcane = yes
     }
+	
+	primary_culture = culture_lordaeron
+	religion = holy_light
+	government = tribal
+    add_government_reform = expeditionary_force_reform
 }
 
 #The Frozen Throne
 618.1.1 = {
+    clr_country_flag = theramore_missions_old_617
 	government = monarchy
     add_government_reform = autocracy_reform
-	primary_culture = culture_theramorean
+	capital = 3478
+}
+
+626.1.1 =  {
+    primary_culture = culture_theramorean
 }
 
 632.1.1 = {

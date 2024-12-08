@@ -42,6 +42,7 @@ add_accepted_culture = culture_blood_elf
 
 618.1.1 = {
     historical_friend = THB
+	historical_friend = A23
 }
 
 621.1.1 = {
@@ -60,6 +61,10 @@ add_accepted_culture = culture_blood_elf
         name = member_of_horde
         duration = -1
     }
+}
+
+626.1.1 = {
+    historical_rival = A23
 }
 
 631.1.1 = {

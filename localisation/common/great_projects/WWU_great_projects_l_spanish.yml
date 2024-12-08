@@ -50,11 +50,11 @@
  monument_research_argus: "Argus Research"
  monument_research_south_seas: "South Seas Research"
  monument_research_naga_domain: "Naga Domain Research"
- monument_research__paradise_isles: "Paradise Isles Research"
+ monument_research_paradise_isles: "Paradise Isles Research"
  monument_research_plunder_isle: "Plunder Isle Research"
  monument_research_elemental_realms: "Elemental Research"
  monument_research_dragon_isles: "Dragon Isles Research"
- monument_resaerch_shadowlands: "Shadowlands Research"
+ monument_research_shadowlands: "Shadowlands Research"
  
  MONUMENT_RESEARCH_BEGINS: "Start the process of researching monuments. Once the process is complete, [Root.GetName] will be able to use monuments across the chosen continent without needing to meet their normal requirements."
  
@@ -559,7 +559,7 @@
  gp_halls_of_atonement: "Halls of Atonement"
  gp_torghast: "Torghast"
  gp_sanctum_of_domination: "Sanctum of Domination"
- 
+
  gp_cathedral_of_light: "Cathedral of Light"
  gp_stormwind_mage_tower: "Stormwind Mage Tower"
  gp_obelisk_of_the_moon: "Obelisk of the Moon"

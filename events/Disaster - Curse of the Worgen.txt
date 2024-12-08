@@ -17,6 +17,8 @@ country_event = {
 		name = wwu_curse_of_the_worgen.1.option.a
         
 		add_stability = -3
+		
+		play_sound = worgen_attack_gilneas
         
         random_owned_province = {
             spawn_rebels = {

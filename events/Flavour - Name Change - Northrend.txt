@@ -1,0 +1,35 @@
+namespace = wwu_flavour_northrend
+
+# Pick a name for Dragon Isles
+country_event = {
+	id = wwu_flavour_northrend.1
+	title = wwu_flavour_northrend.1.title
+	desc = wwu_flavour_northrend.1.desc
+	picture = ICECROWN_CITADEL_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_northrend.1.a
+		override_country_name = NORTHREND
+		ai_chance = {		
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_northrend.1.b
+		override_country_name = CROWN_OF_THE_WORLD
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_northrend.1.c
+		override_country_name = CROWN_OF_THE_AZEROTH
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

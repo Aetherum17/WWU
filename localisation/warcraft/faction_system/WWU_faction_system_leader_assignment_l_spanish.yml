@@ -30,7 +30,7 @@
  wwu_faction_system_leader_assignment.11.option.a: "We accept the position"
  wwu_faction_system_leader_assignment.11.option.b: "No, we cannot accept such a position"
  
- wwu_faction_system_leader_assignment.12.title: "A New Warchief for the Old Horde"
+ wwu_faction_system_leader_assignment.12.title: "A New Warchief for the Horde"
  wwu_faction_system_leader_assignment.12.desc: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] has been chosen by the members of the Horde to act as the new Warchief."
  wwu_faction_system_leader_assignment.12.option.a: "We accept the position"
  wwu_faction_system_leader_assignment.12.option.b: "No, we cannot accept such a position"

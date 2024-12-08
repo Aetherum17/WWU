@@ -1,0 +1,139 @@
+country_decisions = {
+    proclaim_title_of_thalassokrator = {
+		major = yes
+        ai_importance = 0
+        
+		potential = { 
+            NOT = { 
+				has_country_modifier = thalassokrator
+			}
+			OR = {
+				# Great Sea
+				1456 = {	# Dustwallow
+					is_strongest_trade_power = ROOT
+				}
+				4086 = {    # South Seas
+					is_strongest_trade_power = ROOT
+				}
+				1113 = {    # Voldun
+					is_strongest_trade_power = ROOT
+				}
+				1122 = {    # Nazmir
+					is_strongest_trade_power = ROOT
+				}
+				2469 = {    # Zandalar
+					is_strongest_trade_power = ROOT
+				}
+				570 = {     # Kul Tiras
+					is_strongest_trade_power = ROOT
+				}
+				2668 = {    # Broken Shore
+					is_strongest_trade_power = ROOT
+				}
+				2662 = {    # Azshuna
+					is_strongest_trade_power = ROOT
+				}
+				3183 = {    # Suramar
+					is_strongest_trade_power = ROOT
+				}
+				2651 = {    # Valshara
+					is_strongest_trade_power = ROOT
+				}
+				2642 = {    # Highmountain
+					is_strongest_trade_power = ROOT
+				}
+				2678 = {    # Stormheim
+					is_strongest_trade_power = ROOT
+				}
+				989 = {     # Tol Barad
+					is_strongest_trade_power = ROOT
+				}
+			}
+		}
+		
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1456
+				province_id = 4086
+				province_id = 1113
+				province_id = 1122
+				province_id = 2469
+				province_id = 570
+				province_id = 2668
+				province_id = 2662
+				province_id = 3183
+				province_id = 2651
+				province_id = 2642
+				province_id = 2678
+				province_id = 989
+			}
+			NOT = { is_strongest_trade_power = ROOT }
+		}
+		
+		allow = {		
+			#has_mission = NHO_atulhet_weapon
+			OR = {
+				full_idea_group = wwu_maritime_ideas
+				full_idea_group = wwu_naval_ideas
+				full_idea_group = wwu_trade_ideas
+			}
+			1456 = {
+				is_strongest_trade_power = ROOT
+			}
+			4086 = {
+				is_strongest_trade_power = ROOT
+			}					
+			1113 = {
+				is_strongest_trade_power = ROOT
+			}
+			1122 = {
+				is_strongest_trade_power = ROOT
+			}
+			2469 = {
+    			is_strongest_trade_power = ROOT
+			}
+			570 = {
+				is_strongest_trade_power = ROOT
+			}
+			2668 = {
+				is_strongest_trade_power = ROOT
+			}
+			2662 = {
+				is_strongest_trade_power = ROOT
+			}
+			3183 = {
+				is_strongest_trade_power = ROOT
+			}
+			2651 = {
+				is_strongest_trade_power = ROOT
+			}
+			2642 = {
+				is_strongest_trade_power = ROOT
+			}
+			2678 = {
+				is_strongest_trade_power = ROOT
+			}
+			989 = {
+    			is_strongest_trade_power = ROOT
+			}		
+		}
+		
+		effect = {
+            # Cost
+            add_country_modifier = {
+				name = "thalassokrator"
+				duration = 7300
+			}
+			change_government_reform_progress = 100          
+			set_country_flag = thalassokrator
+			#unlock_government_reform = {
+			#	government_reform = thalassocracy_reform
+			#}
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -751,6 +751,47 @@
  wwu_artifact_unlocks.6.desc: "Goremaw the Devourer, Sargeras' personal hound, claimed countless lives before it was eventually ambushed and killed on another world long ago. Following the hound's death, Mephistroph had its fangs crafted into two powerful daggers that still carried with them some of the potent withering essence that made Goremaw's bites so deadly. These daggers were passed to Akaari, one of Sargeras' most deadly assassins, who wields them to this day.\nWe have the opportunity to traverse a fel portal and enter the world of Akaari, allowing us to claim this artifact."
  wwu_artifact_unlocks.6.option.a: "It is mine!"
  
+ wwu_artifact_unlocks.16.title: "Horn of Cenarius"
+ wwu_artifact_unlocks.16.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.15.title: "Killmaim"
+ wwu_artifact_unlocks.15.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.14.title: "Warglave of Azzinoth"
+ wwu_artifact_unlocks.14.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.13.title: " Atiesh, Grandstaff of the Guardian"
+ wwu_artifact_unlocks.13.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.12.title: "Eye of Dalaran"
+ wwu_artifact_unlocks.12.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.11.title: "Skull of Gul’dan"
+ wwu_artifact_unlocks.11.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.10.title: "Hammer of Twilight"
+ wwu_artifact_unlocks.10.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.9.title: "Thunderfury, Blessed Blade of the Windseeker"
+ wwu_artifact_unlocks.9.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.8.title: "Shalamane"
+ wwu_artifact_unlocks.8.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.7.title: "Sulfuras, Hand of Ragnaros"
+ wwu_artifact_unlocks.7.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.16.desc: " "
+ wwu_artifact_unlocks.15.desc: " "
+ wwu_artifact_unlocks.14.desc: " "
+ wwu_artifact_unlocks.13.desc: " "
+ wwu_artifact_unlocks.12.desc: " "
+ wwu_artifact_unlocks.11.desc: " "
+ wwu_artifact_unlocks.10.desc: " "
+ wwu_artifact_unlocks.9.desc: " "
+ wwu_artifact_unlocks.8.desc: " "
+ wwu_artifact_unlocks.7.desc: " "
+ 
  #----------------------------------------------
  # Strings
  #----------------------------------------------

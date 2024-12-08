@@ -27,5 +27,10 @@ capital 			= 2601
     set_ruler_flag = ruler_portrait_ragnaros
     
     set_ruler_flag = is_immortal
+
+    set_defender_of_the_faith = {
+		who = P26
+		religion = flame
+	}
 }
 

@@ -1,4 +1,4 @@
-graphical_culture = blue_dragon_gfx
+graphical_culture = black_dragon_gfx
 
 color = { 81 42 67 }
 

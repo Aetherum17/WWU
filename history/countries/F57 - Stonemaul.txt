@@ -43,8 +43,11 @@ capital 			= 3826
         dip = 6
         mil = 5
         birth_date = 585.1.1
+		
+		religion = shamanism
+		culture = culture_mok_nathal
     }
-    religion = shamanism
+    religion = shamanism	
 }
 
 622.1.1 = {

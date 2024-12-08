@@ -27,4 +27,9 @@ capital 			= 2129
         MANA = 5
         draconic = yes
     }
+	
+	add_country_modifier = {
+        name = member_of_dragon_aspects
+        duration = -1
+    }
 }

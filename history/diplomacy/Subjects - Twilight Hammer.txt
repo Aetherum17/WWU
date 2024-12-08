@@ -1,0 +1,27 @@
+
+# Twilight Hammer - Lycanthoth
+dependency = {
+	subject_type = "cultural_sphere_of_influence_subject"
+	first = A43
+	second = LYC
+	start_date = 631.1.1
+	end_date = 632.12.31
+}
+
+# Twilight Hammer - Sethrias Brood
+dependency = {
+	subject_type = "cultural_sphere_of_influence_subject"
+	first = A43
+	second = SHB
+	start_date = 631.1.1
+	end_date = 632.12.31
+}
+
+# Twilight Hammer - Crestfall Brood
+dependency = {
+	subject_type = "cultural_sphere_of_influence_subject"
+	first = A43
+	second = CSB
+	start_date = 631.1.1
+	end_date = 632.12.31
+}

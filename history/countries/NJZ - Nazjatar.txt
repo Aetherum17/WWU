@@ -17,6 +17,9 @@ capital 			    = 616
         female = yes
         birth_date = 20.1.1
     }
+
+    add_ruler_personality = populist_personality
+    add_ruler_personality = silver_tongue_personality
     
     setup_spellcaster_history = {
         APTITUDE = 5
@@ -25,7 +28,7 @@ capital 			    = 616
         MANA = 5
         corruption = yes
     }
-    
+     
     set_ruler_flag = ruler_portrait_azshara
     
 	set_ruler_flag = is_immortal

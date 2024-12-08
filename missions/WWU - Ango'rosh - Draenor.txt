@@ -1,0 +1,734 @@
+#--------------------------------------
+# Ango'rosh Draenor
+#--------------------------------------
+F69_D_ango_rosh_column_1 = {
+    slot = 1
+    generic = no
+    ai = yes
+    has_country_shield = yes
+
+    potential = {
+        tag = F69
+        NOT = { has_country_flag = angarosh_outland_missions_unlocked }
+    }
+
+    F69_D_isle_of_strenght = {
+        icon = mission_haymaker
+        position = 1
+
+        trigger = {
+            5397 = {
+                owned_by = ROOT
+                religion = ROOT
+                culture = culture_ogre
+                NOT = { nationalism = 1 }
+            }
+        }
+
+        provinces_to_highlight = {
+            province_id = 5397
+        }
+
+        effect = {
+            add_prestige = 10
+
+            #custom_tooltip = event_insight_isle_of_strenght_trials_TT
+            set_country_flag = unlock_isle_of_strenght_trials
+        }
+    }
+
+    F69_D_isle_of_strenght_dev = {
+        icon = mission_goods
+        position = 2
+
+        required_missions = { F69_D_isle_of_strenght  F69_D_strenghten_tribals }
+
+        trigger = {
+            5397 = {
+                development = 15
+                OR = {
+                    has_building = wow_temple_1
+                    has_building = wow_temple_2
+                    has_building = wow_temple_3
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            province_id = 5397
+        }
+
+        effect = {
+            5397 = {
+                add_base_manpower = 3
+                add_base_tax = 1
+                add_base_production = 1
+
+                add_province_modifier = {
+                    name = province_angorosh_settlement
+                    duration = -1
+                }
+            }
+
+            add_prestige = 10
+            add_mil_power = 50
+        }
+    }
+
+    F69_D_isle_of_strenght_str = {
+        icon = mission_headquarters
+        position = 3
+
+        required_missions = { F69_D_isle_of_strenght_dev }
+
+        trigger = {
+            5397 = {
+                development = 30
+
+                OR = {
+                    has_building = wow_mine_1
+                    has_building = wow_mine_2
+                    has_building = wow_mine_3
+                }
+
+                OR = {
+                    has_building = wow_farm_1
+                    has_building = wow_farm_2
+                    has_building = wow_farm_3
+                }
+
+                OR = {
+                    has_building = wow_barracks_1
+                    has_building = wow_barracks_2
+                    has_building = wow_barracks_3
+                }
+
+                OR = {
+                    has_building = wow_arsenal_1
+                    has_building = wow_arsenal_2
+                    has_building = wow_arsenal_3
+                }
+
+                has_fort_building_trigger = yes
+            }
+        }
+
+        provinces_to_highlight = {
+            province_id = 5397
+        }
+
+        effect = {
+            5397 = {
+                add_base_manpower = 2
+                add_base_production = 2
+                add_base_tax = 2
+
+                add_province_modifier = {
+                    name = province_angorosh_stronghold
+                    duration = -1
+                }
+            }
+
+            set_capital = 5397
+
+            country_event = { id = wwu_angorosh.1 days = 3 }
+
+            define_advisor = {
+                type = supervisor
+                skill = 3
+                location = 5397
+                discount = yes
+                culture = culture_ogre
+                religion = arcane
+            }
+        }
+    }
+
+    F69_D_operation_wood_harvest = {
+        icon = mission_lumbermill
+        position = 5
+
+        trigger = {
+            3768 = {
+                OR = {
+                    has_building = wow_mine_1
+                    has_building = wow_mine_2
+                    has_building = wow_mine_3
+                }
+                OR = {
+                    has_building = wow_farm_1
+                    has_building = wow_farm_2
+                    has_building = wow_farm_3
+                }
+                base_production = 5
+            }
+        }
+
+        provinces_to_highlight = {
+            province_id = 3768
+        }
+
+        effect = {
+            5456 = {
+                add_claim = ROOT
+            }
+            5457 = {
+                add_claim = ROOT
+            }
+
+            3768 = {
+                add_province_modifier = {
+                    name = province_ogre_lumbermill
+                    duration = -1
+                }
+            }
+
+            add_treasury = 150
+        }
+    }
+
+    F69_D_develop_economy = {
+        icon = mission_gold_pile
+        position = 6
+
+        required_missions = { F69_D_operation_wood_harvest }
+
+        trigger = {
+            OR = {
+                area_gulrok = {
+                    type = all
+                    OR = {
+                        has_building = wow_farm_1
+                        has_building = wow_farm_2
+                        has_building = wow_farm_3
+                    }
+                    OR = {
+                        has_building = wow_mine_1
+                        has_building = wow_mine_2
+                        has_building = wow_mine_3
+                    }
+                    development = 8
+                }
+                AND = {
+                    monthly_income = 40.0
+                    production_income_percentage = 0.25
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            area = area_gulrok
+        }
+
+        effect = {
+            add_country_modifier = {
+                name = mission_expansive_development
+                duration = 9125
+            }
+        }
+    }
+
+    F69_D_build_the_fleet = {
+        icon = mission_ship_sailing
+        position = 7
+
+        required_missions = { F69_D_develop_economy }
+
+        trigger = {
+            OR = {
+                navy_size = 30
+                navy_size_percentage = 0.9
+            }
+            num_of_admirals = 1
+            OR = {
+                employed_advisor = {
+                    type = naval_reformer
+                }
+                employed_advisor = {
+                    type = trader
+                }
+                employed_advisor = {
+                    type = colonial_governor
+                }
+            }
+        }
+
+        effect = {
+            add_country_modifier = {
+                name = mission_naval_power
+                duration = -1
+            }
+
+            add_country_modifier = {
+                name = mission_ogre_colonial_rush
+                duration = -9125
+            }
+
+            add_navy_tradition = 25
+            create_admiral = {
+				tradition = 90
+			}
+
+            region_ashran = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+}
+F69_D_ango_rosh_column_2 = {
+    slot = 2
+    generic = no
+    ai = yes
+    has_country_shield = yes
+
+    potential = {
+        tag = F69
+        NOT = { has_country_flag = angarosh_outland_missions_unlocked }
+    }
+
+    F69_D_strenghten_tribals = {
+        icon = mission_ogre
+        position = 1
+
+        trigger = {
+            num_of_estate_privileges = {
+                estate = estate_tribals 
+                value = 3
+            }
+            estate_loyalty = { 
+                estate = estate_tribals
+                loyalty = 55
+                higher_than_influence = yes
+            }
+            num_of_generals = 1
+        }
+
+        effect = {
+            add_manpower = 5
+            add_mil_power = 50
+            add_dip_power = 50
+        }
+    }
+
+    F69_D_show_of_might = {
+        icon = mission_pvp_1
+        position = 2
+
+        required_missions = { F69_D_strenghten_tribals }
+
+        trigger = {
+            OR = {
+                grown_by_states = 15
+                region_talador = {
+                    type = all
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
+                calc_true_if = {
+                    all_known_country = {
+                        is_subject_of = ROOT
+                    }
+                    amount = 4
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            region = region_talador
+        }
+
+        effect = {
+            add_ruler_modifier = {
+                name = ruler_great_conqueror
+                duration = -1
+            }
+
+            add_prestige_or_monarch_power = {
+                amount = 25
+            }
+
+            change_mil = 1
+
+            if = {
+                limit = {
+                    5396 = {
+                        owned_by = ROOT
+                    }
+                }
+				5396 = {
+					add_base_manpower = 3
+				}
+            }
+        }
+    }
+
+    F69_D_wood_chopping_efficiency = {
+        icon = mission_flayer
+        position = 6
+
+        required_missions = { F69_D_operation_wood_harvest }
+
+        trigger = {
+            OR = {
+                calc_true_if = {
+                    all_owned_province = {
+                        trade_goods = resource_common_wood
+                    }
+                    amount = 5
+                }
+                production_leader = {
+                    trade_goods = resource_common_wood
+                }
+            }
+            5456 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = wow_farm_1
+                    has_building = wow_farm_2
+                    has_building = wow_farm_3
+                }
+            }
+            5457 = {
+                owned_by = ROOT
+                OR = {
+                    has_building = wow_farm_1
+                    has_building = wow_farm_2
+                    has_building = wow_farm_3
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 5457
+                province_id = 5456
+            }
+        }
+
+        effect = {
+            5456 = {
+                add_base_production = 3
+                add_base_manpower = 1
+            }
+            5457 = {
+                add_base_production = 3
+                add_base_manpower = 1
+            }
+
+            add_dip_power = 100
+
+            add_country_modifier = {
+                name = mission_searing_axe
+                duration = 9125
+            }
+
+            area_skettis_draenor = {
+                add_permanent_claim = ROOT
+            }
+            area_bladefist_hold = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+
+    F69_D_weapons_of_war = {
+        icon = mission_blacksmithing
+        position = 7
+
+        required_missions = { F69_D_wood_chopping_efficiency }
+
+        trigger = {
+            area_bladefist_hold = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+            area_skettis_draenor = {
+                type = all
+                owned_by = ROOT
+            }
+            3815 = {
+                base_production = 10
+            }
+            5464 = {
+                base_production = 5
+            }
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                area = area_skettis_draenor
+                area = area_bladefist_hold
+            }
+        }
+
+        effect = {
+            add_mil_power = 100
+            add_prestige = 10
+
+            hidden_effect = {
+                country_event = { id = wwu_angorosh.2 days = 3 }
+            }
+        }
+    }
+
+    F69_D_ashran_expedition = {
+        icon = mission_beach
+        position = 8
+
+        required_missions = { F69_D_weapons_of_war F69_D_build_the_fleet }
+
+        trigger = {
+            region_ashran = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+			any_owned_province = {
+				region = region_ashran
+				OR = {
+					has_building = wow_shipyard_1
+					has_building = wow_shipyard_2
+					has_building = wow_shipyard_3
+				}
+			}
+        }
+
+        provinces_to_highlight = {
+            region = region_ashran
+        }
+
+        effect = {
+            region_farahlon = {
+                add_permanent_claim = ROOT
+            }
+
+            #add_power_projection = { # Commented out because type = is missing
+            #    amount = 10
+            #}
+            
+            custom_tooltip = UNLOCK_PRIMAL_HARVEST_CB_TT
+            hidden_effect = {
+                set_country_flag = unlock_primals_harvest_cb
+            }
+        }
+    }
+
+    F69_D_fall_of_farahlon = {
+        icon = mission_genesaur
+        position = 9
+
+        required_missions = { F69_D_ashran_expedition }
+
+        trigger = {
+            region_farahlon = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        provinces_to_highlight = {
+            region = region_farahlon
+        }
+
+        effect = {
+            country_event = { id = wwu_angorosh.3 }
+        }
+    }
+}
+
+F69_D_ango_rosh_column_3 = {
+    slot = 3
+    generic = no
+    ai = yes
+    has_country_shield = yes
+
+    potential = {
+        tag = F69
+        NOT = { has_country_flag = angarosh_outland_missions_unlocked }
+    }
+
+    F69_D_siege_of_shattrath = {
+        icon = mission_draenei_male
+        position = 5
+
+        #required_missions = 
+
+        trigger = {
+            area_shattrath_draenor = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+
+        provinces_to_highlight = {
+            area = area_shattrath_draenor
+        }
+
+        effect = {
+            area_shattrath_draenor = {
+                add_core = ROOT
+                add_devastation = 90
+                add_base_manpower = -2
+                add_base_production = -2
+                add_base_tax = -2
+            }
+
+            add_treasury = 2000
+        }
+    }
+
+    F69_D_restore_goria = {
+        icon = mission_ogre_king
+        position = 6
+
+        required_missions = { F69_D_siege_of_shattrath }
+
+        trigger = {
+            NOT = {
+                exists = A54
+            }
+            area_shattrath_draenor = {
+                type = all
+                NOT = { culture = culture_draenei }
+                owned_by = ROOT
+            }
+            area_shattrath_outskirts = {
+                type = all
+                NOT = { culture = culture_draenei }
+                owned_by = ROOT
+            }
+            3765 = {
+                development = 40
+            }
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                area = area_shattrath_draenor
+                area = area_shattrath_outskirts
+            }
+        }
+
+        effect = {
+            if = {
+                limit = {
+                    exists = OGR
+                }
+                add_casus_belli = {
+                    target = OGR
+                    type = cb_restore_personal_union
+                    months = 240
+                }
+                else = {
+                    region_nagrand_draenor = {
+                        add_permanent_claim = ROOT
+                    }
+                }
+            }
+
+            add_prestige_or_monarch_power = {
+                amount = 25
+            }
+            add_adm_power = 100
+            add_dip_power = 100
+            add_mil_power = 100
+
+            #add_power_projection = { # Commented out because type = is missing
+            #    amount = 10
+            #}
+        }
+    }
+
+    F69_D_heirs_of_goria = {
+        icon = mission_scroll
+        position = 7
+
+        required_missions = { F69_D_restore_goria }
+
+        trigger = {
+            OGR = {
+                OR = {
+                    is_subject_of = ROOT
+                    AND = {
+                        NOT = { exists = OGR }
+                        area_upper_highmaul = {
+                            type = all
+                            owned_by = ROOT
+                        }
+                        area_lower_highmaul = {
+                            type = all
+                            owned_by = ROOT
+                        }
+                        area_broken_precipice = {
+                            type = all
+                            owned_by = ROOT
+                        }
+                    }
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                is_capital_of = OGR
+                area = area_lower_highmaul
+                area = area_upper_highmaul
+                area = area_broken_precipice
+            }
+        }
+
+        effect = {
+            if = {
+                limit = {
+                    OGR = {
+                        is_subject_of = ROOT
+                    }
+                }
+                add_country_modifier = {
+                        name = mission_gorian_intergration
+                        duration = -1
+                }
+                else = {
+                    add_country_modifier = {
+                        name = mission_gorian_lands
+                        duration = -1
+                    }
+                }
+            }
+
+            add_country_modifier = {
+                name = mission_angorosh_prestige
+                duration = 7300
+            }
+        }
+    }
+}
+
+F69_D_ango_rosh_column_4 = {
+    slot = 4
+    generic = no
+    ai = yes
+    has_country_shield = yes
+
+    potential = {
+        tag = F69
+        NOT = { has_country_flag = angarosh_outland_missions_unlocked }
+    }
+
+    F69_D_outland_mission_switch = {
+        position = 1
+        icon = mission_titan_spirits
+
+        trigger = {
+            area_ango_rosh_grounds = {
+                owned_by = ROOT
+            }
+        }
+
+        provinces_to_highlight = {
+            area = area_ango_rosh_grounds
+        }
+
+        effect = {
+            set_country_flag = angarosh_outland_missions_unlocked
+        }
+    }
+}

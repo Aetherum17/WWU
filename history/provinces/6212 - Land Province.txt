@@ -1,0 +1,15 @@
+is_city = yes
+
+owner = WBK
+controller = WBK
+add_core = WBK
+
+base_tax = 1
+base_production = 3
+base_manpower = 3
+
+culture = culture_treant
+religion = druidism
+
+hre = no
+trade_goods = resource_food

@@ -880,6 +880,55 @@ scourge_vassal = {
 	}
 }
 
+prime_scourge_vassal = { #For Gilneas
+	copy_from = vassal
+	
+	# Graphics:
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadvassal
+	diplomacy_subject_sprite = GFX_diplomacy_amvassal
+
+	# Properties:
+	base_liberty_desire = -20.0
+	can_be_annexed = no
+    takes_diplo_slot = no
+	allows_taking_land_without_independence = yes
+	overlord_can_attack = yes
+	can_have_subjects_of_other_types = yes
+	
+	can_fight = {
+		independent_nations = yes
+		same_overlord = tributary_state
+		other_overlord = all
+	}
+	can_ally = {
+		independent_nations = yes
+		same_overlord = tributary_state
+		other_overlord = all
+	}
+	can_rival = {
+		independent_nations = yes
+		same_overlord = tributary_state
+		other_overlord = all
+	}
+    
+	# Modifiers:
+	modifier_overlord = clear #We don't want to duplicate the ones inherited from vassal
+	modifier_subject = clear #Ditto
+    
+	modifier_subject = {
+		modifier = subject_nation
+	}
+    
+	modifier_overlord = {
+		modifier = scourge_vassal_subject
+	}
+    
+	modifier_subject = {
+		modifier = scourge_vassal_bonus
+	}
+}
+
 lesser_bloodmother = {
 	copy_from = tributary_state
 	
@@ -1477,4 +1526,73 @@ cultural_sphere_of_influence_subject = {
 	modifier_subject = {
 		modifier = culturally_influenced_country
 	}
+}
+
+gilnean_colony = {
+	copy_from = vassal
+	
+	# Graphics:
+	sprite = GFX_icon_vassal
+	diplomacy_overlord_sprite = GFX_diplomacy_leadcolony
+	diplomacy_subject_sprite = GFX_diplomacy_subjectcolony
+
+	# Properties:
+	can_be_integrated = no
+	can_have_subjects_of_other_types = yes
+	can_be_annexed = no
+	takes_diplo_slot = no 
+	can_release_in_peace = yes
+	overlord_protects_external = yes 
+	overlord_enforce_peace_attacking = yes
+	can_use_claims = yes
+	allows_taking_land_without_independence = yes
+	can_send_missionary_to_subject = yes
+
+	max_government_rank = 2
+	
+	base_liberty_desire = 0.25
+	liberty_desire_development_ratio = 0.1
+	liberty_desire_same_dynasty = -25.0
+	pays_overlord = 2.0
+	forcelimit_to_overlord = 0
+
+	relative_power_class = 1
+	
+	restoration_cb = cb_disloyal_vassal
+
+	# Subject Interactions:
+	embargo_rivals = yes
+	support_loyalists = yes
+	subsidize_armies = yes
+	scutage = yes
+	send_officers = yes 
+	divert_trade = yes
+	
+	placate_rulers = yes
+	place_relative_on_throne = no
+	grant_province = yes
+	fortify_march = yes
+	seize_territory = yes
+	grant_core_claim = yes
+	sacrifice_ruler = no
+	sacrifice_heir = no
+	takeondebt = yes
+	bestow_gifts = yes
+	send_additional_troops = yes
+	conscript_general = yes
+	knowledge_sharing = yes
+	block_settlement_growth = yes
+	allow_settlement_growth = yes 
+
+	# Modifiers:
+	modifier_subject = {
+		modifier = vassal_nation
+	}
+	modifier_overlord = {
+		modifier = vassal_subject
+	}
+    
+    #looks in 00_opinion_modifers
+	overlord_opinion_modifier = is_gilnean_colony
+	subject_opinion_modifier = is_gilnean_colony
 }

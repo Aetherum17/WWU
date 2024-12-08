@@ -5,6 +5,7 @@
  A08_lordaeron_column_3: ""
  A08_lordaeron_column_4: ""
  A08_lordaeron_column_5: ""
+
  
  # Scourge of Lordaeron
  A08_uthers_investigations_title: "Uther's Investigations"
@@ -28,26 +29,32 @@
  A08_expedition_to_northrend_desc: "Prince Arthas has become convinced that the true source of the plague resides in Northrend. He has created an expeditionary force to travel there."
  
  # General
- A08_ingratiate_vandermar_title: "Ingratiate Vandermar"
- A08_ingratiate_vandermar_desc: ""
+ A08_consolidate_vandelmar_title: "Consolidation of Vandelmar Realm"
+ A08_consolidate_vandelmar_desc: "The Vandelmar Realm was an autonomous area of Lordaeron, sittuated to the West. With a degree of autonomy, the local communities of farmers, commoners and knights saw themselves as worthy to compite in the battle of infuelnce over Tirisfal. There is only one way we can settle it. Either they will be loyal, or they shall be incorporated into our realm directly!"
  
- A08_secure_tirisfal_glades_title: "Secure Tirisfal Glades"
- A08_secure_tirisfal_glades_desc: ""
+ A08_eliminating_the_border_threats_title: "Elimination of Border Threats"
+ A08_eliminating_the_border_threats_desc: "To the south of Tirisfal Glades, grows Silverpine Forest. While beautiful and plentiful in resources, it is home to many vile creatures, that had treathened stability of our local settlements. We must regain control of Northern Silverpine, and eliminate the murlock and troll threats from the area."
  
  A08_passage_to_southshore_title: "Passage to Southshore"
- A08_passage_to_southshore_desc: ""
+ A08_passage_to_southshore_desc: "Southshore is one of the more important cities for our realm, situated at the top of Baradin Bay, it is important trade hub for our kingdom. However, diplomatic and political arrangemnets made it dislocated from our realm's administration. To enforce our control, we must regain a land route that will directly connect with the city."
  
  A08_protect_stormwind_title: "Protect Stormwind"
- A08_protect_stormwind_desc: ""
+ A08_protect_stormwind_desc: "To the South of the continent, Kingdom of Stormwind stands as the furtherest extend of Arathorian settelers. It is realm of vast importance, and for it, we should keep our ties close."
  
- A08_ingratiate_stratholme_title: "Ingratiate Stratholme"
- A08_ingratiate_stratholme_desc: ""
+ A08_ingratiate_stratholme_region_title: "Integration of Eastweald Region"
+ A08_ingratiate_stratholme_region_desc: "Eastweald is a vast region of farmlands, forests and plains, housing divided administative realms, that connect local noble families. However, we have long since neglected keeping our influence over the region, making it cost us much more then we get in return, straining our administration. We must reintegrate local realms with our common laws, and make sure they can prosper along with us."
  
  A08_secure_the_eastern_outposts_title: "Secure the Eastern Outposts"
- A08_secure_the_eastern_outposts_desc: ""
+ A08_secure_the_eastern_outposts_desc: "Easten shores of Eastweald were long occupied by the forest trolls, who time and time again raided our realms over the centuries of existance and establishment of the human race, and the states that followed. While the troll influence is vast, we should divide their strenght, with invasion of the bordering land that establish their trade route."
  
  A08_eliminate_the_trolls_title: "Eliminate the Trolls"
- A08_eliminate_the_trolls_desc: ""
+ A08_eliminate_the_trolls_desc: "Having dealt a blow to integrati of the troll lands, and divided their hegemony in the region, we can focus on culling down their numbers, and destroying their tribal leadership, making them threat of the past."
+
+ A08_rally_the_army_title: "Rally the Army"
+ A08_rally_the_army_desc: "Due to many years without war, our realm has reduced numbers of troops that are activily deployed for the kingdom. We must restore our ranks, to reach fighting capabilities."
+
+ A08_dalaran_diplomacy_title: "Dalaran Diplomacy"
+ A08_dalaran_diplomacy_desc: "Dalaran long since stood as important center of wisdom, and second most important center of magical reasearch on the continent. However, over the years, arguments and political decisions led to situation being different, that it was many years ago. We must rethink our apporoach to Dalaran, and act accordingly."
  
  # --- Modifiers ---
  mission_vadermar_elites: "Vandermar Elites"
@@ -62,8 +69,8 @@
  mission_stormwind_alliance: "Stormwind Alliance"
  desc_mission_stormwind_alliance: ""
  
- mission_stratholme_elites: "Stratholme Elites"
- desc_mission_stratholme_elites: ""
+ mission_stratholme_domination: "Stratholme Regional Domination"
+ desc_mission_stratholme_domination: ""
  
  mission_eastern_security: "Eastern Security"
  desc_mission_eastern_security: ""
@@ -73,3 +80,27 @@
  
  mission_uthers_investigations: "Uther's Investigations"
  desc_mission_uthers_investigations: ""
+
+ # Event Modifiers
+
+ A08_event_tyrs_autonomy: "Tyr's Hand Autonomy"
+ desc_A08_event_tyrs_autonomy: ""
+
+ # --- History Modifiers ---
+
+ # Rise of the Horde
+
+ A08_eastweald_administrative_attrition: "Eastweald Administrative Attrition"
+
+
+ # --- Events Localization ---
+
+ wwu_mission_lordaeron.1.title: "Fate of New Avalon"
+ wwu_mission_lordaeron.1.desc: "With the conquest of the lands previously owned by the trolls, Lordaeron plan to resettle those provinces with new settlers, and establish new form of local administration. There were many voices and suggestion across the court of Capital City of Lordaeron, from issues of security, cost of administration and our policy in the region. One is sure, we must chose one form or another, to serve us in the region."
+ wwu_mission_lordaeron.1.option.a: "Establishing a local human bastion is a good option."
+ wwu_mission_lordaeron.1.option.b: "We should divide the land and establish dependances."
+ wwu_mission_lordaeron.1.option.c: "Our Administration will handle this"
+
+ wwu_mission_lordaeron.2.title: "Submission of Vassalage"
+ wwu_mission_lordaeron.2.desc: "We must make the new subject obey their feudal lord."
+ wwu_mission_lordaeron.2.option.a: "Submit. People."  

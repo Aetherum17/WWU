@@ -12,9 +12,9 @@ dependency = {
 
 # Crusade - Crimson Legion
 dependency = {
-	subject_type = "personal_union"
+	subject_type = "march"
 	first = A22
 	second = CRL
-	start_date = 622.1.1
+	start_date = 621.1.1
 	end_date = 632.1.1
 }

@@ -8,7 +8,7 @@ calm_the_sea_aspect = {
 		global_unrest = -1
 	}
     
-	monarch_power = adm
+	monarch_power = ADM
     
 	ai_will_do = {
 		factor = 10
@@ -34,7 +34,7 @@ consult_the_tidesages_aspect = {
 		dip_tech_cost_modifier = -0.05
 	}
     
-	monarch_power = adm
+	monarch_power = ADM
     
 	ai_will_do = {
 		factor = 15
@@ -48,7 +48,7 @@ muster_the_fleet_aspect = {
         sailors_recovery_speed = 0.05
 	}
     
-	monarch_power = adm
+	monarch_power = ADM
     
 	ai_will_do = {
 		factor = 15
@@ -102,7 +102,7 @@ tirasian_communities_aspect = {
 				else_if = {
 					limit = {
 						owner = {
-							has_cultural_union = no
+							government_rank = 3
 						}
 						culture_group = ROOT
 						has_owner_accepted_culture = no
@@ -120,7 +120,7 @@ tirasian_communities_aspect = {
 		tolerance_own = 1
 	}
     
-	monarch_power = dip
+	monarch_power = DIP
     
 	ai_will_do = {
 		factor = 15
@@ -189,7 +189,7 @@ insular_tidesages_aspect = {
 		prestige_per_development_from_conversion = 0.25
 	}
 	
-    monarch_power = dip
+    monarch_power = DIP
     
 	ai_will_do = {
 		factor = 15
@@ -257,7 +257,7 @@ diplomatic_tidesages_aspect = {
 		development_cost = -0.05
 	}
     
-	monarch_power = dip
+	monarch_power = DIP
     
 	ai_will_do = {
 		factor = 15
@@ -274,7 +274,7 @@ tirasian_marines_aspect = {
 		allowed_marine_fraction = 0.1
 	}
     
-	monarch_power = mil
+	monarch_power = MIL
     
 	ai_will_do = {
 		factor = 10
@@ -298,7 +298,7 @@ sea_wards_aspect = {
 		defensiveness = 0.15
 	}
     
-	monarch_power = mil
+	monarch_power = MIL
     
 	ai_will_do = {
 		factor = 12
@@ -317,7 +317,7 @@ pride_of_the_sea_aspect = {
 		naval_morale = 0.05
 	}
     
-	monarch_power = mil
+	monarch_power = MIL
     
 	ai_will_do = {
 		factor = 12

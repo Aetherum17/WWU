@@ -150,6 +150,7 @@ estate_nobility = {
     
 	# ----- Privileges -----
 	privileges = {
+		estate_nobility_greymane_greyguard
 		estate_nobility_land_rights
 		estate_nobility_right_of_counsel
 		estate_nobility_supremacy_over_government

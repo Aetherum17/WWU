@@ -1,16 +1,14 @@
+# Empty Province
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
-is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
-owner = G39
-controller = G39
-add_core = G39
-
-base_tax = 3
-base_production = 3
-base_manpower = 3
-
-culture = culture_satyr
-religion = fel
+culture = culture_makrura
+religion = arkkorok
 
 hre = no
 trade_goods = resource_artifacts
@@ -18,6 +16,8 @@ trade_goods = resource_artifacts
 latent_trade_goods = {
 	resource_azerite
 }
+
+
 618.1.1 = {
     owner = P05
     controller = P05

@@ -27,7 +27,7 @@ trade_goods = resource_common_skins
     owner = F50
     controller = F50
     add_core = F50
-    remove_core = A51
+    remove_core = F72
 }
 
 625.1.1 = {

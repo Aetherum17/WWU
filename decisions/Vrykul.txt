@@ -1,0 +1,22 @@
+country_decisions = {
+    the_great_game = {
+        potential = {
+            has_country_flag = great_game_unlocked
+        }
+        allow = {
+            mil_power = 50
+            NOT = { has_country_modifier = great_game_cooldown }
+            NOT = { is_at_war = yes }
+        }
+        effect = {
+            add_mil_power = -50
+
+            country_event = { id = wwu_mission_vrykul_shared.1 }
+
+            add_country_modifier = {
+                name = great_game_cooldown
+                duration = 1460
+            }
+        }
+    }
+}

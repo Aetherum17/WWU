@@ -1,0 +1,14 @@
+﻿l_german:
+ #-----------------------------------------------
+ # Lordaeron
+ #----------------------------------------------- 
+ wwu_flavour_lordaeron.1.title: "Lordaeron Unification"
+ wwu_flavour_lordaeron.1.desc: "We finally unified the ancestral lands of Lordaeron and reached or even surprased their eternal glory! How should we be called now?"
+ wwu_flavour_lordaeron.1.a: "Lordaeron"
+ wwu_flavour_lordaeron.1.b: "Northlands"
+ 
+ # Name Change
+ LORDAERON: "Lordaeron"
+ LORDAERON_ADJ: "Lordaeron"
+ NORTHLANDS: "Northlands"
+ NORTHLANDS_ADJ: "Northlands"

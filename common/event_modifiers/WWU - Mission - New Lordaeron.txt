@@ -1,0 +1,13 @@
+X04_reconquest_of_andorhal_modifer = {
+	prestige = 0.5
+	diplomatic_reputation = 1
+	land_morale = 0.05
+	land_forcelimit_modifier = 0.10
+}
+
+X04_reconquest_of_stratholme_modifier = {
+	legitimacy = 1
+	diplomatic_reputation = 1
+	land_morale = 0.05
+	production_efficiency = 0.05
+}

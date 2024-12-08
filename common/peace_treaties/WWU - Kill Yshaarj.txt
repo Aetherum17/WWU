@@ -41,7 +41,7 @@ po_kill_yshaarj = {
 	}
 	effect = {
         hidden_effect = {
-            hide_ambient_object = yshaarj
+            #hide_ambient_object = yshaarj
             clr_global_flag = yshaarj_active
             set_global_flag = killed_yshaarj
         }

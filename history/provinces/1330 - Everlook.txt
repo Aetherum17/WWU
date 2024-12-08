@@ -23,9 +23,10 @@ center_of_trade = 1
 }
 
 622.1.1 = {
-    # Steamwheedle
-    owner = A80
-    controller = A80
+    # Everlook
+    owner = EVR
+    controller = EVR
+	add_core = EVR
     add_core = A80
     
     culture = culture_goblin

@@ -1,0 +1,16 @@
+﻿l_french:
+ #-----------------------------------------------
+ # New Arathor
+ #----------------------------------------------- 
+ wwu_flavour_nc_new_arathor.1.title: "Empire's Identity Crisis"
+ wwu_flavour_nc_new_arathor.1.desc: "Now that we solidified Southern Eastern Kingdoms we need to give us a name that represents our standing and heritage. What name will we give to our empire?"
+ wwu_flavour_nc_new_arathor.1.a: "We are the empire of New Arathor"
+ wwu_flavour_nc_new_arathor.1.b: "We are the Southlands"
+ wwu_flavour_nc_new_arathor.1.c: "We are the Kingdom of Azeroth"
+ 
+
+ # Name Change
+ SOUTHLANDS: "Southlands"
+ SOUTHLANDS_ADJ: "Southland's"
+ KINGDOM_OF_AZEROTH: "Kindgom of Azeroth"
+ KINGDOM_OF_AZEROTH_ADJ: "Azerothian"

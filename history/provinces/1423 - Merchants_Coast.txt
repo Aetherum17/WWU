@@ -17,25 +17,26 @@ trade_goods = resource_plate_armor
 
 617.1.1 = {
     owner = A70
-    controller = A70
+	controller = A70
     add_core = A70
     
     culture = culture_jungle_troll
     religion = voodoo
     
-    base_tax = 3
-    base_manpower = 3
-    base_production = 3
-    
     capital = "Darkspear Landing"
+}
+
+618.1.1 = {
+    owner = A48
+	controller = A48
+    add_core = A48
 }
 
 622.1.1 = { 
     owner = A19
     controller = A19
     add_core = A19
-    
-    remove_core = A70
+    remove_core = A48
     
     religion = holy_light
     culture = culture_kul_tiran

@@ -1,29 +1,256 @@
 ﻿l_french:
  # --- Missions ---
+ KUN_kunzen_column_1: ""
+ KUN_kunzen_column_2: ""
+ KUN_kunzen_column_3: ""
  KUN_kunzen_column_4: ""
  KUN_kunzen_column_5: ""
+
+ # Column 1
+
+ KUN_saltfur_alliance_title: "Saltfur Alliance"
+ KUN_saltfur_alliance_desc: "Saltfur are the only other hozen we know about, so it best for us to keep them as friends. Is it?"
+
+ KUN_hozen_subject_title: "Hozen Subject"
+ KUN_hozen_subject_desc: "If we ask nicely, Saltfur will serve us? That's easy!"
+
+ KUN_lapidis_domination_title: "Domination of Lapidis Isles"
+ KUN_lapidis_domination_desc: "North one done, quater of the Plunder Isles is ours!"
+
+ KUN_goblin_ties_title: "The Goblin Ties"
+ KUN_goblin_ties_desc: "Our history with goblins is...there. Sometimes good, sometimes bad. But we have some ties."
+
+ KUN_hozen_bay_title: "The Hozen Bay"
+ KUN_hozen_bay_desc: "The Goblin called it after a booty! No shame. Hozen will not be so shameful."
+
+ KUN_jungle_for_hozen_title: "Jungle for the Hozen"
+ KUN_jungle_for_hozen_desc: "Naturally, if there is a jungle, it should belong to the hozen."
+
+ KUN_the_great_gorilla_title: "Rise of the Great Ape"
+ KUN_the_great_gorilla_desc: "Wait, I've seen this somewhere before..."
+
+ # Column 2
+
+ KUN_death_to_pygmy_title: "Death to Pygmy"
+ KUN_death_to_pygmy_desc: "Death to the Vermin!"
+
+ KUN_kunza_isle_unification_title: "Kunza-Kunza Unfication"
+ KUN_kunza_isle_unification_desc: "Finally we can call Kunza-Kunza, Kunza-Kunza. Kunzastic!"
+
+ KUN_settling_island_chain_title: "Settling the Island Chain"
+ KUN_settling_island_chain_desc: "The great voice called upon us, and demanded we settle those islands. Was it the Monkey King himself?"
+
+ KUN_hozen_colonial_expansion_title: "Hozen Colonial Expansion"
+ KUN_hozen_colonial_expansion_desc: "Expansions go brrr..."
+
+ KUN_plunder_isle_domination_title: "Domination of Plunder Isle"
+ KUN_plunder_isle_domination_desc: "Finally, we are big boys!"
+
+ KUN_great_hozen_admirality_title: "Great Kunzen Admirality"
+ KUN_great_hozen_admirality_desc: "Fancy we call ourselves, compared to our primitive brothers."
+
+ KUN_challenge_zandalari_title: "Challenge Zandalari"
+ KUN_challenge_zandalari_desc: "Zandalari...sounds spooky. How about a challenge?"
+
+ KUN_zandalar_landfall_title: "Landfall on Zuldazar"
+ KUN_zandalar_landfall_desc: "Apes together strong."
+
+ KUN_fall_of_zandalari_title: "Fall of Zandalar"
+ KUN_fall_of_zandalari_desc: "Monkastic!"
+
+ # Column 3
+
+ KUN_development_of_kunza_title: "Development of Kunza"
+ KUN_development_of_kunza_desc: "Everyone needs a shiny corner!"
+
+ KUN_hozen_council_title: "The Hozen Council"
+ KUN_hozen_council_desc: "The Banana Council approve of this."
+
+ KUN_hozen_the_wise_title: "Rise of Hozen the Wise"
+ KUN_hozen_the_wise_desc: "Hmm, I wonder..."
+
+ KUN_appease_celestials_title: "Appease August Celestials"
+ KUN_appease_celestials_desc: "We respect our elders, now where are the benefits?"
+
+ KUN_gillijim_domination_title: "Gillijim Domination"
+ KUN_gillijim_domination_desc: "Another big island for the Kunzen."
+
+ KUN_tel_abil_ownership_title: "Owner of the Great Tel Abim"
+ KUN_tel_abil_ownership_desc: "Kingdom of the Apes anyone?"
+
+ # Column 4
+
+ KUN_doing_de_magic_title: "Doing De Magic"
+ KUN_doing_de_magic_desc: "Woooooooshhhhh!"
+
+ KUN_the_heartland_title: "The Heartland"
+ KUN_the_heartland_desc: "Return to Pandaria"
+
+ KUN_defeat_the_union_title: "Defeat of the Union"
+ KUN_defeat_the_union_desc: "The Great Hozen Wave Tactics reign supreme!"
+
+ KUN_control_valley_of_four_winds_title: "Control the Valley of Four Winds"
+ KUN_control_valley_of_four_winds_desc: "It's ours!"
+
+ KUN_reestablish_hozen_ties_title: "Reestablish Hozen Ties"
+ KUN_reestablish_hozen_ties_desc: "Wanna Discuss Banana Prices?"
+
+ KUN_hozen_empire_title: "The Hozen Empire"
+ KUN_hozen_empire_desc: "Yes, I fancy myself as Emperor."
+
+ KUN_eradication_of_pandaria_threats_title: "Eradication of Pandaria's Threats"
+ KUN_eradication_of_pandaria_threats_desc: "Down for good."
+
+ KUN_the_pirate_outpost_title: "Pirate Outpost"
+ KUN_the_pirate_outpost_desc: "Everyone needs their remote, secluded islands to rest from time to time."
+
+ # Column 5
+
+ KUN_rally_the_fleet_title: "Rally the Fleet"
+ KUN_rally_the_fleet_desc: "Water Monkey Sees Action"
+
+ KUN_establish_the_naval_base_title: "Establishment of Naval Bases"
+ KUN_establish_the_naval_base_desc: "Ships production goes brrr"
+
+ KUN_sea_domination_title: "Sea Domination"
+ KUN_sea_domination_desc: "How does that justify me getting those random claims?"
+
+ KUN_way_of_the_pirate_title: "Way of the Pirate"
+ KUN_way_of_the_pirate_desc: "Now we just need a small ship in a bottle"
+
+ KUN_plunder_the_booty_title: "Plunder of Booty"
+ KUN_plunder_the_booty_desc: "Hmmm, what a name..."
+
+ KUN_the_mightiest_of_pirates_title: "The Mightiest of Pirates"
+ KUN_the_mightiest_of_pirates_desc: "We are the Pirate King!"
+
+
+ # Modifiers
+
+ # Column 1M
+
+ mission_saltfur_alliance: "Saltfur Alliance"
+ desc_mission_saltfur_alliance: ""
+
+ mission_goblin_ties: "The Goblin Ties"
+ desc_mission_goblin_ties: ""
+
+ mission_hozen_jungle_vale: "Hozen's Stranglethorn"
+ desc_mission_hozen_jungle_vale: ""
+
+ # Column 2M
+
+ mission_death_pygmy: "Death of the Pygmy Vermin"
+ desc_mission_death_pygmy: ""
+
+ mission_kunza_unified: "Kunza-Kunza Unified"
+ desc_mission_kunza_unified: ""
+
+ mission_settling_islands: "Settling the Isles"
+ desc_mission_settling_islands: ""
+
+ mission_colonial_rush: "Kunzen Colonial Rush"
+ desc_mission_colonial_rush: ""
+
+ mission_hozen_admirality: "Hozen Admirality"
+ desc_mission_hozen_admirality: ""
+
+ mission_monkey_rule_zandalar: "Monkey Rule Zandalar"
+ desc_mission_monkey_rule_zandalar: ""
+
+ # Column 3M
  
- KUN_bolster_kunza_kunza_title: "Bolster Kunza-Kunza"
- KUN_bolster_kunza_kunza_desc: ""
+ mission_kunza_development: "Kunza Extended Development"
+ desc_mission_kunza_development: ""
+
+ mission_hozen_council: "The Hozen Council"
+ desc_mission_hozen_council: ""
+
+ mission_hozen_wise: "Hozen the Wise"
+ desc_mission_hozen_wise: ""
+
+ # Column 4M
+
+ mission_hozen_valley: "The Hozen Valley"
+ desc_mission_hozen_valley: ""
+
+ # Column 5M
  
- KUN_control_northpoint_title: "Control Northpoint"
- KUN_control_northpoint_desc: ""
- 
- KUN_establish_hozen_isle_title: "Establish Isle of Hozen"
- KUN_establish_hozen_isle_desc: ""
- 
- KUN_create_hozen_strikeforce_title: "Form Ook-Ook Strikeforce"
- KUN_create_hozen_strikeforce_desc: ""
- 
- KUN_establish_goblin_alliance_title: "Establish Goblin Alliance"
- KUN_establish_goblin_alliance_desc: ""
- 
- # --- Modifiers ---
- mission_hozen_fury: "Hozen Fury"
- desc_mission_hozen_fury: ""
- 
- mission_apes_together_strong: "Apes Together Strong"
- desc_mission_apes_together_strong: ""
- 
- mission_goblin_equipment: "Goblin Equipment"
- desc_mission_goblin_equipment: ""
+ mission_kunza_flagship: "Kunza Flagships"
+ desc_mission_kunza_flagship: ""
+
+ mission_allow_raids: "Kunzen: Allow Raids"
+ desc_mission_allow_raids: ""
+
+ mission_privateering: "Efficient Privateering"
+ desc_mission_privateering: ""
+
+ # Extra M
+
+ mukla_subdued: "King Mukla Subdued"
+ desc_mukla_subdued: ""
+
+ mukla_embraced: "King Mukla Embraced"
+ desc_mukla_embraced: ""
+
+ event_august_power: "Power of August Celestials"
+ desc_event_august_power: ""
+
+ mission_hozen_admirality_alt: "Hozen Admirality"
+ desc_mission_hozen_admirality_alt: ""
+
+ # Custom
+
+ KUNZEN_DISCOVER_VALLEY_OF_FOUR_WINDS_TT: "Discovers §YValley of Four Winds§! Region"
+ KUNZEN_DISCOVER_STORMSTOUT_AND_HALFHILL_TT: "Discovers §YHalfhill§! and §YStormstout Fields§! Areas"
+ KUNZEN_DISCOVER_PANDARIA_TT: "Discovers §YPandaria§! Subcontinent"
+ KUNZEN_DISCOVER_SOUTH_SEAS_TT: "Discovers §YSouth Seas§! Subcontinent"
+
+ KUNZEN_UNLOCK_PLUNDER_ISLE_MONUMENTS_TT: "Unlocks all Monuments in §YPlunder Isles§! Subcontinent"
+
+ KUNZEN_UNLOCK_KUNZEN_FLAGSHIP_TT: "Unlocks the §YKunzen Ship Boarding§! Flagship Modification"
+
+ KUNZEN_MONKEY_MISSION_WARNING_TT: "Having above 125 relation with @DAK Dakani and @THP Thumpknuckle, when they exist, will resault in them receiving §YRise of Kunzen§! events."
+
+ RISE_OF_KUNZEN_EVENT_PREVIEW_TT: "\n§YEvent Preview:§!\nFollowing event will resault in @DAK Dakani and @THP Thumpknuckle being proposed to end up as our Subjects. However, there exist small chance they will reject our offer.\n"
+
+ KUNZEN_KUNZA_DEV_MISSION_WARNING_TT: "Having above §Y100 ducats§! will resault in obtaing the province of §YNorthpoint Isle§! for @KUN Kunzen."
+
+ KUN_hero_mercenary_company_TT: "Unlocks the §YKing Mukla§! §THero Mercenary Company§!. Company bonuses are:\n§G+10%§! Discipline\n§G+10%§! Infantry Combat Ability\n§G+1§! Infantry Shock\n"
+
+
+ # Mission Events
+  
+  wwu_mission_kunzen.1.title: "Rise of Kunzen: Dakani Submission"
+  wwu_mission_kunzen.1.desc: "With the arrival of the Hozen armies on the shores of Zuldazar, a delagation from the newly settled Kunzen Admirality proposes us a deal, giving us option to become their tributary, in return for autonomy to rule our lands. It is inevetable that Kunzen will try to conquer Zuldazar, and by that, our jungles. We have a choice to make. Do we submit, or do we resist?"
+  wwu_mission_kunzen.1.option.a: "We will not resist. We shall stand as one against the Zandalari."
+  wwu_mission_kunzen.1.option.b: "We are not the same monkeys. We shall not stand with them."
+
+  wwu_mission_kunzen.2.title: "Rise of Kunzen: Thumpknuckle Submission"
+  wwu_mission_kunzen.2.desc: "With the arrival of the Hozen armies on the shores of Zuldazar, a delagation from the newly settled Kunzen Admirality proposes us a deal, giving us option to become their tributary, in return for autonomy to rule our lands. It is inevetable that Kunzen will try to conquer Zuldazar, and by that, our jungles. We have a choice to make. Do we submit, or do we resist?"
+  wwu_mission_kunzen.2.option.a: "We will not resist. We shall stand as one against the Zandalari."
+  wwu_mission_kunzen.2.option.b: "We are not the same monkeys. We shall not stand with them."
+
+  wwu_mission_kunzen.3.title: "Dakani Submission"
+  wwu_mission_kunzen.3.desc: "The Gorilla that call themselves Dakani Tribe decided to agree to our proposal."
+  wwu_mission_kunzen.3.option.a: "Wise Choice"
+
+  wwu_mission_kunzen.4.title: "Thumpknuckle Submission"
+  wwu_mission_kunzen.4.desc: "The Gorilla of the Thumpknuckle Grove have decided to submit, upon reciving our proposition"
+  wwu_mission_kunzen.4.option.a: "As one of us, they stand strong"
+
+  wwu_mission_kunzen.5.title: "Rise of King Mukla"
+  wwu_mission_kunzen.5.desc: "Our development in the jungles of Jaguero Isles awakened the infamous King Mukla, leader of the island and one of the few remaining Gigantic Gorillas that still walk lands of Azeroth. Our work has been dedicated to persuading him, making him join our ranks and help us expand our reaches. With his might, legions of enemy armies would fall to us."
+  wwu_mission_kunzen.5.option.a: "Make him a general. Why not. It must go right!"
+  wwu_mission_kunzen.5.option.b: "Respect his 'King' status"
+
+  wwu_mission_kunzen.6.title: "Fate of Kunzen Admirality"
+  wwu_mission_kunzen.6.desc: "Our ascention into the masters of Plunder Isle had called forward desire to reform our old, outdated system of leadership. What path we desire to follow?"
+  wwu_mission_kunzen.6.option.a: "From today onwards, all of Kunzen could become great. We stand with republic!"
+  wwu_mission_kunzen.6.option.b: "We shall stand with our traditional systems of leadership."
+
+  wwu_mission_kunzen.7.title: "Change of Vision?"
+  wwu_mission_kunzen.7.desc: "As we delved deeper with our path of piracy, some of us started to question our believes, seeing our actions against teaching of the Monkey King. While most see this as irrelevant, we as a leader must declare, what will be our path forward?"
+  wwu_mission_kunzen.7.option.a: "Nonesence. Our faith is strong."
+  wwu_mission_kunzen.7.option.b: "You know what? They are right. The Gold is our focus!"
+  wwu_mission_kunzen.7.option.c: "I. See. Darker. Visions..."

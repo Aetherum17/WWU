@@ -2156,630 +2156,630 @@ on_monthly_pulse__artifacts = {
         limit = {
             has_country_flag = artifact_apocalypse
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_apocalypse
     }
     if = {
         limit = {
             has_country_flag = artifact_twinblades_of_the_deceiver
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_twinblades_of_the_deceiver
     }
     if = {
         limit = {
             has_country_flag = artifact_thasdorah
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_thasdorah
     }
     if = {
         limit = {
             has_country_flag = artifact_aluneth
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_aluneth
     }
     if = {
         limit = {
             has_country_flag = artifact_sheilun
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_sheilun
     }
     if = {
         limit = {
             has_country_flag = artifact_ashbringer
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_ashbringer
     }
     if = {
         limit = {
             has_country_flag = artifact_xalatath
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_xalatath
     }
     if = {
         limit = {
             has_country_flag = artifact_doomhammer
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_doomhammer
     }
     if = {
         limit = {
             has_country_flag = artifact_dreadblades
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_dreadblades
     }
     if = {
         limit = {
             has_country_flag = artifact_skull_of_manari
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_skull_of_manari
     }
     if = {
         limit = {
             has_country_flag = artifact_warswords_of_valarjar
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_warswords_of_valarjar
     }
     if = {
         limit = {
             has_country_flag = artifact_scythe_of_elune
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_scythe_of_elune
     }
     if = {
         limit = {
             has_country_flag = artifact_maw_of_the_damned
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_maw_of_the_damned
     }
     if = {
         limit = {
             has_country_flag = artifact_blades_of_the_fallen_prince
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_blades_of_the_fallen_prince
     }
     if = {
         limit = {
             has_country_flag = artifact_aldrachi_warblades
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_aldrachi_warblades
     }
     if = {
         limit = {
             has_country_flag = artifact_fangs_of_ashamane
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_fangs_of_ashamane
     }
     if = {
         limit = {
             has_country_flag = artifact_claws_of_ursoc
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_claws_of_ursoc
     }
     if = {
         limit = {
             has_country_flag = artifact_ghanir
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_ghanir
     }
     if = {
         limit = {
             has_country_flag = artifact_titanstrike
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_titanstrike
     }
     if = {
         limit = {
             has_country_flag = artifact_talonclaw
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_talonclaw
     }
     if = {
         limit = {
             has_country_flag = artifact_felomelorn
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_felomelorn
     }
     if = {
         limit = {
             has_country_flag = artifact_ebonchill
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_ebonchill
     }
     if = {
         limit = {
             has_country_flag = artifact_fu_zan
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_fu_zan
     }
     if = {
         limit = {
             has_country_flag = artifact_fists_of_the_heavens
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_fists_of_the_heavens
     }
     if = {
         limit = {
             has_country_flag = artifact_silver_hand
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_silver_hand
     }
     if = {
         limit = {
             has_country_flag = artifact_truthguard
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_truthguard
     }
     if = {
         limit = {
             has_country_flag = artifact_lights_wrath
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_lights_wrath
     }
     if = {
         limit = {
             has_country_flag = artifact_tuure
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_tuure
     }
     if = {
         limit = {
             has_country_flag = artifact_kingslayers
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_kingslayers
     }
     if = {
         limit = {
             has_country_flag = artifact_fangs_of_the_devourer
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_fangs_of_the_devourer
     }
     if = {
         limit = {
             has_country_flag = artifact_fist_of_raden
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_fist_of_raden
     }
     if = {
         limit = {
             has_country_flag = artifact_sharasdal
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_sharasdal
     }
     if = {
         limit = {
             has_country_flag = artifact_ulthalesh
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_ulthalesh
     }
     if = {
         limit = {
             has_country_flag = artifact_scepter_of_sargeras
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_scepter_of_sargeras
     }
     if = {
         limit = {
             has_country_flag = artifact_stromkar
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_stromkar
     }
     if = {
         limit = {
             has_country_flag = artifact_scale_of_the_earthwarder
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_scale_of_the_earthwarder
     }
     if = {
         limit = {
             has_country_flag = artifact_underlight_angler
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_underlight_angler
     }
     if = {
         limit = {
             has_country_flag = artifact_glaive_of_the_aspects
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_glaive_of_the_aspects
     }
     if = {
         limit = {
             has_country_flag = artifact_scimitar_of_sirocco
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_scimitar_of_sirocco
     }
     if = {
         limit = {
             has_country_flag = artifact_staff_of_ammunae
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_staff_of_ammunae
     }
     if = {
         limit = {
             has_country_flag = artifact_dustbringer
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_dustbringer
     }
     if = {
         limit = {
             has_country_flag = artifact_valanyr
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_valanyr
     }
     if = {
         limit = {
             has_country_flag = artifact_puzzle_box_of_yogg_saron
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_puzzle_box_of_yogg_saron
     }
     if = {
         limit = {
             has_country_flag = artifact_twirling_longbow
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_twirling_longbow
     }
     if = {
         limit = {
             has_country_flag = artifact_spear_of_xuen
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_spear_of_xuen
     }
     if = {
         limit = {
             has_country_flag = artifact_umbrella_of_chiji
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_umbrella_of_chiji
     }
     if = {
         limit = {
             has_country_flag = artifact_amulet_of_rukhmar
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_amulet_of_rukhmar
     }
     if = {
         limit = {
             has_country_flag = artifact_dream_of_argus
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_dream_of_argus
     }
     if = {
         limit = {
             has_country_flag = artifact_grimoire_of_the_nameless_void
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_grimoire_of_the_nameless_void
     }
     if = {
         limit = {
             has_country_flag = artifact_gronnsbane
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_gronnsbane
     }
     if = {
         limit = {
             has_country_flag = artifact_gutreks_cleaver
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_gutreks_cleaver
     }
     if = {
         limit = {
             has_country_flag = artifact_headdress_of_the_first_shaman
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_headdress_of_the_first_shaman
     }
     if = {
         limit = {
             has_country_flag = artifact_warmaul_of_the_warmaul_chieftain
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_warmaul_of_the_warmaul_chieftain
     }
     if = {
         limit = {
             has_country_flag = artifact_beakbreaker_of_terokk
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_beakbreaker_of_terokk
     }
     if = {
         limit = {
             has_country_flag = artifact_zinrokh
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_zinrokh
     }
     if = {
         limit = {
             has_country_flag = artifact_fetish_of_hireek
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_fetish_of_hireek
     }
     if = {
         limit = {
             has_country_flag = artifact_bwonsamdi_voodoo_mask
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_bwonsamdi_voodoo_mask
     }
     if = {
         limit = {
             has_country_flag = artifact_rezan_idol
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_rezan_idol
     }
     if = {
         limit = {
             has_country_flag = artifact_jagged_blade_of_the_drust
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_jagged_blade_of_the_drust
     }
     if = {
         limit = {
             has_country_flag = artifact_soul_coffer
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_soul_coffer
     }
     if = {
         limit = {
             has_country_flag = artifact_fetish_of_the_tormented_mind
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_fetish_of_the_tormented_mind
     }
     if = {
         limit = {
             has_country_flag = artifact_ritual_fetish
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_ritual_fetish
     }
     if = {
         limit = {
             has_country_flag = artifact_blade_of_northern_kings
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_blade_of_northern_kings
     }
     if = {
         limit = {
             has_country_flag = artifact_brinebeards_shanker
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_brinebeards_shanker
     }
     if = {
         limit = {
             has_country_flag = artifact_crimson_captains_hat
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_crimson_captains_hat
     }
     if = {
         limit = {
             has_country_flag = artifact_elemental_lairat
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_elemental_lairat
     }
     if = {
         limit = {
             has_country_flag = artifact_onyx_annulet
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_onyx_annulet
     }
     if = {
         limit = {
             has_country_flag = artifact_spark_of_ingenuity
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_spark_of_ingenuity
     }
     if = {
         limit = {
             has_country_flag = artifact_awakmani
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_awakmani
     }
     if = {
         limit = {
             has_country_flag = artifact_kharnalex
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_kharnalex
     }
     if = {
         limit = {
             has_country_flag = artifact_pashmars_finial
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_pashmars_finial
     }
     if = {
         limit = {
             has_country_flag = artifact_anu_azshara
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_anu_azshara
     }
     if = {
         limit = {
             has_country_flag = artifact_scepter_of_the_azshari
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_scepter_of_the_azshari
     }
     if = {
         limit = {
             has_country_flag = artifact_arcane_phial
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_arcane_phial
     }
     if = {
         limit = {
             has_country_flag = artifact_vision_of_demise
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_vision_of_demise
     }
     if = {
         limit = {
             has_country_flag = artifact_pearl_of_pandaria
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_pearl_of_pandaria
     }
     if = {
         limit = {
             has_country_flag = artifact_sulfuras
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_sulfuras
     }
     if = {
         limit = {
             has_country_flag = artifact_shalamane
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_shalamane
     }
     if = {
         limit = {
             has_country_flag = artifact_thunderfury
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_thunderfury
     }
     if = {
         limit = {
             has_country_flag = artifact_hammer_of_twilight
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_hammer_of_twilight
     }
     if = {
         limit = {
             has_country_flag = artifact_skull_of_guldan
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_skull_of_guldan
     }
     if = {
         limit = {
             has_country_flag = artifact_eye_of_dalaran
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_eye_of_dalaran
     }
     if = {
         limit = {
             has_country_flag = artifact_atiesh
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_atiesh
     }
     if = {
         limit = {
             has_country_flag = artifact_warglave_of_azzinoth
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_warglave_of_azzinoth
     }
     if = {
         limit = {
             has_country_flag = artifact_killmaim
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_killmaim
     }
     if = {
         limit = {
             has_country_flag = artifact_horn_of_cenarius
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_horn_of_cenarius
     }
     if = {
         limit = {
             has_country_flag = artifact_ancestral_staff
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_ancestral_staff
     }
     if = {
         limit = {
             has_country_flag = artifact_necklace_of_burning_souls
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_necklace_of_burning_souls
     }
     if = {
         limit = {
             has_country_flag = artifact_soulfeast
         }
-
-        save_global_event_target_as = artifact_soulfeast
+		# Audax Validator "." Ignore_NEXT
+        save_global_event_target_as = artifact_owner_soulfeast
     }
     if = {
         limit = {
             has_country_flag = artifact_shield_of_the_deathlord
         }
-
+		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_shield_of_the_deathlord
     }
 }

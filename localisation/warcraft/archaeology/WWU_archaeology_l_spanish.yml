@@ -9,23 +9,12 @@
  HAS_ANY_ARTIFACT: "Has any artifact in their possession."
  HAS_DISCOVERED_ARCHAEOLOGY: "Has discovered §YArchaeology§!."
  
- view_archeological_expedition_title: "[DI_archaeology] View Archaeological Expedition"
- view_archeological_expedition_desc: "View the status of our current archaeological expedition and expediate progress if the resources are available."
- 
  #----------------------------------------------
  # Events
  #----------------------------------------------
- wwu_archaeology.1.title: "Archaeological Expedition"
- wwu_archaeology.1.desc: "£archaeology_banner£\nOur archaeologists are hard at work. If so desired, we may send them additional resources to advance their progress more quickly.\n\nCurrent Dig Progress: §Y[This.excavation_progress.GetValue]/[This.excavation_progress_cap.GetValue]§!"
- wwu_archaeology.1.option.exit: "Exit"
- wwu_archaeology.1.option.advance_dig: "Advance Dig"
- wwu_archaeology.1.option.advance_dig.lack_gold: "§gAdvance Dig§!"
- wwu_archaeology.1.option.advance_dig.cooldown: "§gAdvance Dig§!"
- wwu_archaeology.1.option.cancel_dig: "Cancel Dig"
- 
- ARCHAEOLOGICAL_EXPEDITION_ACTION_COOLDOWN_TT: "We will not be able to use Advance Dig for §Y365§! days."
+ ARCHAEOLOGICAL_EXPEDITION_ACTION_COOLDOWN_TT: "We will not be able to use §YHasten Archaeological Dig§! for §Y365§! days."
  ADVANCE_DIG_LACK_TT: "We do not have enough ducats to afford this action."
- ADVANCE_DIG_USED_TT: "We have already used Advance Dig within the last §Y365§! days."
+ ADVANCE_DIG_USED_TT: "We have already used §YHasten Archaeological Dig§! within the last §Y365§! days."
  
  wwu_archaeology.300.title: "Expedition Begins"
  wwu_archaeology.300.desc: "£archaeology_banner£\nOur archaeologists have prepared and are ready to set off on their expedition. Let us direct them to the most promising sites that we know of."
@@ -81,6 +70,7 @@
  wwu_archaeology.301.option.kingslayers: "Look for the Kingslayers"
  wwu_archaeology.301.option.ulthalesh: "Look for Ulthalesh"
  wwu_archaeology.301.option.stromkar: "Look for Strom'kar"
+ wwu_archaeology.301.option.shield_of_the_deathlord: "Look for Shield of the Deathlord"
  
  wwu_archaeology.302.title: "Focus in Kalimdor"
  wwu_archaeology.302.desc: "£archaeology_banner£\nOur archaeologists have have reached Kalimdor with their expedition. Let us direct them to sites that likely possess the exact artifact we wish to find. However, such direction will increase costs."
@@ -93,6 +83,8 @@
  wwu_archaeology.302.option.glaive_of_the_aspects: "Look for the Glaive of the Aspects"
  wwu_archaeology.302.option.scimitar_of_sirocco: "Look for the Scimitar of Sirocco"
  wwu_archaeology.302.option.staff_of_ammunae: "Look for the Staff of Ammunae"
+ wwu_archaeology.302.option.ancestral_staff: "Look for the Ancestral Staff"
+ wwu_archaeology.302.option.necklace_of_burning_souls: "Look for the Necklace of Burning Souls"
  
  wwu_archaeology.303.title: "Focus in Northrend"
  wwu_archaeology.303.desc: "£archaeology_banner£\nOur archaeologists have have reached Northrend with their expedition. Let us direct them to sites that likely possess the exact artifact we wish to find. However, such direction will increase costs."
@@ -142,6 +134,7 @@
  wwu_archaeology.307.option.scepter_of_sargeras: "Look for the Scepter of Sargeras"
  wwu_archaeology.307.option.scale_of_the_earthwarder: "Look for the Scale of the Earthwarder"
  wwu_archaeology.307.option.underlight_angler: "Look for the Underlight Angler"
+ wwu_archaeology.307.option.soulfeast: "Look for Soulfeast the Devourer"
  
  wwu_archaeology.308.title: "Focus in Zandalar"
  wwu_archaeology.308.desc: "£archaeology_banner£\nOur archaeologists have have reached Zandalar with their expedition. Let us direct them to sites that likely possess the exact artifact we wish to find. However, such direction will increase costs."
@@ -262,7 +255,20 @@
  ARTIFACT_FOCUS_scepter_of_the_azshari: "Look for the artifact known as the §YScepter of the Azsh'ari§!"
  ARTIFACT_FOCUS_arcane_phial: "Look for the artifact known as the §YPhial of the Arcane Tempest§!"
  ARTIFACT_FOCUS_vision_of_demise: "Look for the artifact known as the §YVision of Demise§!"
- ARTIFACT_FOCUS_pearl_of_pandaria: "Look for the artifact known as the §YPearl of Pandaria§!"
+ ARTIFACT_FOCUS_sulfuras: "Look for the artifact known as the §YSulfuras, Hand of Ragnaros§!"
+ ARTIFACT_FOCUS_shalamane: "Look for the artifact known as the §YShalamane§!"
+ ARTIFACT_FOCUS_thunderfury: "Look for the artifact known as the §YThunderfury, Blessed Blade of the Windseeker§!"
+ ARTIFACT_FOCUS_hammer_of_twilight: "Look for the artifact known as the §YHammer of Twilight§!"
+ ARTIFACT_FOCUS_skull_of_guldan: "Look for the artifact known as the §YSkull of Gul’dan§!"
+ ARTIFACT_FOCUS_eye_of_dalaran: "Look for the artifact known as the §YEye of Dalaran§!"
+ ARTIFACT_FOCUS_atiesh: "Look for the artifact known as the §YAtiesh, Grandstaff of the Guardian§!"
+ ARTIFACT_FOCUS_warglave_of_azzinoth: "Look for the artifact known as the §YWarglave of Azzinoth§!"
+ ARTIFACT_FOCUS_killmaim: "Look for the artifact known as the §YKillmaim§!"
+ ARTIFACT_FOCUS_horn_of_cenarius: "Look for the artifact known as the §YHorn of Cenarius§!"
+ ARTIFACT_FOCUS_ancestral_staff: "Look for the artifact known as the §YAncestral Staff§!"
+ ARTIFACT_FOCUS_necklace_of_burning_souls: "Look for the artifact known as the §YNecklace of Burning Souls§!"
+ ARTIFACT_FOCUS_soulfeast: "Look for the artifact known as the §YSoulfeast the Devourer§!"
+ ARTIFACT_FOCUS_shield_of_the_deathlord: "Look for the artifact known as the §YShield of the Deathlord§!"
  
  #----------------------------------------------
  # Dig Progress Events
@@ -621,6 +627,62 @@
  wwu_archaeology.85.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£pearl_of_pandaria_icon£\n\n\nA magnificent pearl, said to represent the purity of Pandaria and its inhabitants."
  wwu_archaeology.85.option.a: "Excellent find!"
 
+ wwu_archaeology.86.title: "Major Discovery: Sulfuras, Hand of Ragnaros"
+ wwu_archaeology.86.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£sulfuras_icon£\n\n\nThe legendary hammer of the Fire Lord, Ragnaros."
+ wwu_archaeology.86.option.a: "Excellent find!"
+
+ wwu_archaeology.87.title: "Major Discovery: Shalamane"
+ wwu_archaeology.87.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£shalamane_icon£\n\n\nShalamayne is a legendary sword, the result of two night elven blades, Shalla'tor and Ellemayne, that were magically fused."
+ wwu_archaeology.87.option.a: "Excellent find!"
+
+ wwu_archaeology.88.title: "Major Discovery: Thunderfury, Blessed Blade of the Windseeker"
+ wwu_archaeology.88.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£thunderfury_icon£\n\n\nThe legendary sword once wielded by Prince Thunderaan, Prince of Air."
+ wwu_archaeology.88.option.a: "Excellent find!"
+
+ wwu_archaeology.89.title: "Major Discovery: Hammer of Twilight"
+ wwu_archaeology.89.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£hammer_of_twilight_icon£\n\n\nA weapon of Cho'gall, used within the Altar of Twilight to bring forth the age of Twilight."
+ wwu_archaeology.89.option.a: "Excellent find!"
+
+ wwu_archaeology.90.title: "Major Discovery: Skull of Gul'dan"
+ wwu_archaeology.90.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£skull_of_guldan_icon£\n\n\nA powerful demonic artifact created from the skull of the orc warlock Gul'dan. Used for a plethora of demonic activity, from opening portals to corrupting the northern forests of Ashenvale."
+ wwu_archaeology.90.option.a: "Excellent find!"
+
+ wwu_archaeology.91.title: "Major Discovery: Eye of Dalaran"
+ wwu_archaeology.91.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£eye_of_dalaran_icon£\n\n\nA crystal that was created by the mages of Dalaran to focus their magics in an effort to reconstruct the Violet Citadel."
+ wwu_archaeology.91.option.a: "Excellent find!"
+
+ wwu_archaeology.92.title: "Major Discovery: Atiesh, Grandstaff of the Guardian"
+ wwu_archaeology.92.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£atiesh_icon£\n\n\nA powerful staff passed down through the line of the Guardians of Tirisfal up until and including Medivh, the Last Guardian."
+ wwu_archaeology.92.option.a: "Excellent find!"
+
+ wwu_archaeology.93.title: "Major Discovery: Warglave of Azzinoth"
+ wwu_archaeology.93.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£warglave_of_azzinoth_icon£\n\n\nA legendary one-handed sword once owned by the demonic Illidan Stormrage whilst he resided within the Black Temple."
+ wwu_archaeology.93.option.a: "Excellent find!"
+
+ wwu_archaeology.94.title: "Major Discovery: Killmaim"
+ wwu_archaeology.94.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£killmaim_icon£\n\n\nAn immense greatsword has a series of fang-like points extending from both sides of the blade. Although these "teeth" look fragile, they do not snap off on a hit, but instead cause painful bite-like wounds that drain life away, returning it to the weapon's wielder. The teeth seem to drain any blood from the blade, so that it effectively cleans itself after each fight."
+ wwu_archaeology.94.option.a: "Excellent find!"
+
+ wwu_archaeology.95.title: "Major Discovery: Horn of Cenarius"
+ wwu_archaeology.95.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£horn_of_cenarius_icon£\n\n\nThe horn of the demigod Cenarious, possessing potent natural power."
+ wwu_archaeology.95.option.a: "Excellent find!"
+
+ wwu_archaeology.96.title: "Major Discovery: Ancestral Staff"
+ wwu_archaeology.96.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£ancestral_staff_icon£\n\n\nAn intricate staff with names of generations of witch doctors carved into it. The wielder can call upon them for wisdom and guidance in times of peril."
+ wwu_archaeology.96.option.a: "Excellent find!"
+
+ wwu_archaeology.97.title: "Major Discovery: Necklace of Burning Souls"
+ wwu_archaeology.97.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£necklace_of_burning_souls_icon£\n\n\nA relic of the revenant of burning souls. For centuries, the Revenant of Burning Souls has collected the spirits of those who fell in battle against him. Their energy and life are stored within this warm bauble as a trophy of his numerous triumphs."
+ wwu_archaeology.97.option.a: "Excellent find!"
+
+ wwu_archaeology.98.title: "Major Discovery: Soulfeast the Devourer"
+ wwu_archaeology.98.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£soulfeast_icon£\n\n\nAn ancient artifact that entraps the souls of those who die violently, forcing them to relive the last moments of their lives for eternity."
+ wwu_archaeology.98.option.a: "Excellent find!"
+
+ wwu_archaeology.99.title: "Major Discovery: Shield of the Deathlord"
+ wwu_archaeology.99.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£shield_of_the_deathlord_icon£\n\n\nAn ancient shield once possessed by an eldritch deathlord, imbued with potent death magic. Attempts to sway its wielder towards evil."
+ wwu_archaeology.99.option.a: "Excellent find!"
+
  # Non-Persistent Rewards
  wwu_archaeology.400.title: "Minor Discovery: Ancient Crown"
  wwu_archaeology.400.desc: "£archaeology_banner£\n[Root.GetArtifactUnlockSpacer]£crown_artifact_icon£\n\n\nAn ancient crown once worn by a long lost king. No known provenance exists, but it can be sold to various collectors easily."
@@ -689,22 +751,66 @@
  wwu_artifact_unlocks.6.desc: "Goremaw the Devourer, Sargeras' personal hound, claimed countless lives before it was eventually ambushed and killed on another world long ago. Following the hound's death, Mephistroph had its fangs crafted into two powerful daggers that still carried with them some of the potent withering essence that made Goremaw's bites so deadly. These daggers were passed to Akaari, one of Sargeras' most deadly assassins, who wields them to this day.\nWe have the opportunity to traverse a fel portal and enter the world of Akaari, allowing us to claim this artifact."
  wwu_artifact_unlocks.6.option.a: "It is mine!"
  
+ wwu_artifact_unlocks.16.title: "Horn of Cenarius"
+ wwu_artifact_unlocks.16.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.15.title: "Killmaim"
+ wwu_artifact_unlocks.15.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.14.title: "Warglave of Azzinoth"
+ wwu_artifact_unlocks.14.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.13.title: " Atiesh, Grandstaff of the Guardian"
+ wwu_artifact_unlocks.13.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.12.title: "Eye of Dalaran"
+ wwu_artifact_unlocks.12.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.11.title: "Skull of Gul’dan"
+ wwu_artifact_unlocks.11.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.10.title: "Hammer of Twilight"
+ wwu_artifact_unlocks.10.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.9.title: "Thunderfury, Blessed Blade of the Windseeker"
+ wwu_artifact_unlocks.9.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.8.title: "Shalamane"
+ wwu_artifact_unlocks.8.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.7.title: "Sulfuras, Hand of Ragnaros"
+ wwu_artifact_unlocks.7.option.a: "It is mine!"
+ 
+ wwu_artifact_unlocks.16.desc: " "
+ wwu_artifact_unlocks.15.desc: " "
+ wwu_artifact_unlocks.14.desc: " "
+ wwu_artifact_unlocks.13.desc: " "
+ wwu_artifact_unlocks.12.desc: " "
+ wwu_artifact_unlocks.11.desc: " "
+ wwu_artifact_unlocks.10.desc: " "
+ wwu_artifact_unlocks.9.desc: " "
+ wwu_artifact_unlocks.8.desc: " "
+ wwu_artifact_unlocks.7.desc: " "
+ 
  #----------------------------------------------
  # Strings
  #----------------------------------------------
- dig_in_progress: "Dig in Progress"
+ ARCHAEOLOGY_DISCOVERED_IT_TT: "Has discovered Archaeology."
+ ARCHAEOLOGY_IS_CIVILIZED_TT: "Is considered a §YCivilized§! nation."
  
- excavation_progress: "Dig Progress"
- excavation_progress_cap: "Dig Progress Goal"
+ dig_in_progress: "Excavation in Progress"
  
- INCREMENT_DIG_TT: "Progress on the dig will advance by §Y1§!.\nCurrent Dig Progress: §Y[This.excavation_progress.GetValue]/[This.excavation_progress_cap.GetValue]§!"
- INCREMENT_DIG_MASSIVELY_TT: "Progress on the dig will advance by §Y3§!.\nCurrent Dig Progress: §Y[This.excavation_progress.GetValue]/[This.excavation_progress_cap.GetValue]§!"
+ excavation_progress: "Excavation Progress"
+ excavation_progress_cap: "Excavation Progress Goal"
  
- DECREMENT_DIG_TT: "Progress on the dig will reduce by §Y1§!.\nCurrent Dig Progress: §Y[This.excavation_progress.GetValue]/[This.excavation_progress_cap.GetValue]§!\n\nIf dig progress drops to or below §Y0§!, the dig will end."
+ INCREMENT_DIG_TT: "Progress on the excavation will advance by §Y1%§!."
+ INCREMENT_DIG_MASSIVELY_TT: "Progress on the excavation will advance by §Y3%§!."
  
- RESET_DIG_TT: "Progress on the dig will be set to §Y0§!.\nCurrent Dig Progress: §Y[This.excavation_progress.GetValue]/[This.excavation_progress_cap.GetValue]§!"
+ DECREMENT_DIG_TT: "Progress on the excavation will reduce by §Y1%§!.\nIf excavation progress drops to or below §Y0%s§!, the excavation will end."
  
- CURRENT_EXCAVATION_PROGRESS: "Current Dig Progress: §Y[This.excavation_progress.GetValue]/[This.excavation_progress_cap.GetValue]§!"
+ RESET_DIG_TT: "Progress on the excavation will be set to §Y0%§!."
+ 
+ CURRENT_EXCAVATION_PROGRESS: "Current Excavation Progress: §Y[excavation_progress.GetValue]/[excavation_progress_cap.GetValue]§!"
 
  artifact_unlock_spacer:  "                                                     "
 

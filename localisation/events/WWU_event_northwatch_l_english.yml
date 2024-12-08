@@ -1,0 +1,64 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Northwatch
+ #----------------------------------------------- 
+ wwu_mission_northwatch.1.title: "Stable Government"
+ wwu_mission_northwatch.1.desc: "Now that we settle down from our expedition we need to see how we will govern ourselves"
+ wwu_mission_northwatch.1.option.a: "A Republic!"
+ wwu_mission_northwatch.1.option.b: "A Kingdom!"
+ wwu_mission_northwatch.1.option.c: "A Theocracy!"
+ 
+ wwu_mission_northwatch.2.title: "Fate of Theramore"
+ wwu_mission_northwatch.2.desc: "Theramore was there when we started our expedition and guided our stepes into the wilderness against the vile beasts. But we grew and with that power naturally followed. Now we stand in a place where we can make these choices."
+ wwu_mission_northwatch.2.option.a: "Time to claim the throne!"
+ wwu_mission_northwatch.2.option.b: "Time to bring them back!"
+ wwu_mission_northwatch.2.option.c: "We will retake the lands for ourselves!"
+ 
+ wwu_mission_northwatch.3.title: "Siege of Orgrimmar"
+ wwu_mission_northwatch.3.desc: "As the siege gets to its natural conclusion we need to decide the fate of the city. Before you take your decision remember the thousand of innocents that died at the vile hands of the orcs!"
+ wwu_mission_northwatch.3.option.a: "No compromises!"
+ wwu_mission_northwatch.3.option.b: "We will keep a close eye..."
+ 
+ wwu_mission_northwatch.4.title: "New Strom"
+ wwu_mission_northwatch.4.desc: "Crossroads have come into our hands but we have to adress some immigration issues comming from the old world. What should we do?"
+ wwu_mission_northwatch.4.option.a: "We will make a new state for the stromi people!"
+ wwu_mission_northwatch.4.option.b: "We will provide them a settler here!"
+ 
+ wwu_mission_northwatch.5.title: "Tiragarde"
+ wwu_mission_northwatch.5.desc: "South Durotar has come into our hands but we have to adress some strategic issues with help from the old world. What should we do?"
+ wwu_mission_northwatch.5.option.a: "We will make a new state for the tirisian people!"
+ wwu_mission_northwatch.5.option.b: "We will provide them a defencive position here!"
+ 
+ wwu_mission_northwatch.6.title: "Bael Modan"
+ wwu_mission_northwatch.6.desc: "Close to our borders, in the lands owned by the tauren lies the great mountain ranges of mulgore. Taking into consideration the hidden riches bellow, we may want to make new dwarven expeditions!"
+ wwu_mission_northwatch.6.option.a: "We will make a new state for the dwarven people!"
+ wwu_mission_northwatch.6.option.b: "We will provide them a settler here!"
+ 
+ wwu_mission_northwatch.7.title: "Windshear Hold"
+ wwu_mission_northwatch.7.desc: "Going Through the rough mountains of Stonetalon we will need to properly administrate these lands and we have other problems to solve... what should we do?"
+ wwu_mission_northwatch.7.option.a: "We will welcome the mountain people of Alterac!"
+ wwu_mission_northwatch.7.option.b: "We will provide them a settler here!"
+ 
+ wwu_mission_northwatch.8.title: "New Arathor"
+ wwu_mission_northwatch.8.desc: "In the old world, Arathor was a symbol of power and everyone remembered it fondly. Now it is time to bring it to the new world! A new world, a new empire!"
+ wwu_mission_northwatch.8.option.a: "Long live the admiralty of Arathor!"
+ wwu_mission_northwatch.8.option.b: "Long live the Empire of New Arathor!"
+ wwu_mission_northwatch.8.option.c: "Long live the empire of Holy Arathor!"
+ wwu_mission_northwatch.8.option.d: "Long live the state of New Arathor!"
+ 
+ 
+ # Name Change
+ NORTHWATCH_ADMIRALTY: "Northwatch Admiralty"
+ NORTHWATCH_ADMIRALTY_ADJ: "Northwatch"
+ KINDGDOM_OF_THE_BARRENS: "Kingdom of the Barrens"
+ KINDGDOM_OF_THE_BARRENS_ADJ: "Barren"
+ TEMPLE_CITY_OF_NORTHWATCH: "Temple City of Northwatch"
+ TEMPLE_CITY_OF_NORTHWATCH_ADJ: "Northwatch"
+ ADMIRALTY_OF_NEW_ARATHOR: "Admiralty of New Arathor"
+ ADMIRALTY_OF_NEW_ARATHOR_ADJ: "Arathorian"
+ EMPIRE_OF_NEW_ARATHOR: "Empire of New Arathor"
+ EMPIRE_OF_NEW_ARATHOR_ADJ: "Arathorian"
+ HOLY_ARATHOR: "Holy Arathor"
+ HOLY_ARATHOR_ADJ: "Arathorian"
+ NEW_ARATHOR: " New Arathor"
+ NEW_ARATHOR_ADJ: "Arathorian"

@@ -30,7 +30,7 @@ POA_protectors_of_ammon_column_3 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_counter_offensive_poa
-                duration = -1
+                duration = 9125
             }
 			area_lost_city_of_the_tolvir = {
                 add_permanent_claim = ROOT
@@ -134,7 +134,7 @@ POA_protectors_of_ammon_column_3 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_natural_defences_a_poa
-                duration = -1
+                duration = 9125
             }
 			seize_empty_province_effect = { province = 4621 }
 			seize_empty_province_effect = { province = 4622 }
@@ -156,7 +156,7 @@ POA_protectors_of_ammon_column_3 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_adapting_to_circumstances_poa
-                duration = -1
+                duration = 9125
             }
             country_event = {
 				id = wwu_flavour_protectors_of_ammon.2
@@ -174,12 +174,11 @@ POA_protectors_of_ammon_column_3 = {
 				value = 15
 			}			
 			power_projection = 60
-			government = tribal
 		}
 		effect = {			
 			add_country_modifier = {
                 name = mission_terror_of_the_desert_a_poa
-                duration = -1
+                duration = 9125
             }			
 		}
 	}
@@ -255,7 +254,7 @@ POA_protectors_of_ammon_column_4 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_raise_the_banners_poa
-                duration = -1
+                duration = 9125
             }
 			area_neferset = {
                 add_permanent_claim = ROOT
@@ -282,7 +281,7 @@ POA_protectors_of_ammon_column_4 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_maddening_thoughts_poa
-                duration = -1
+                duration = 9125
             }
 			country_event = {
 				id = wwu_flavour_protectors_of_ammon.4
@@ -303,7 +302,7 @@ POA_protectors_of_ammon_column_4 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_an_ancient_threat_poa
-                duration = -1
+                duration = 9125
             }
 			country_event = {
 				id = wwu_flavour_protectors_of_ammon.5
@@ -412,7 +411,7 @@ POA_protectors_of_ammon_column_4 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_new_name_same_threat_poa
-                duration = -1
+                duration = 9125
             }
 			if = {
 			    limit = {
@@ -595,7 +594,7 @@ POA_protectors_of_ammon_column_5 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_diplomatic_initiatives_poa
-                duration = -1
+                duration = 9125
             }
 			 if = {
                 limit = {
@@ -635,15 +634,15 @@ POA_protectors_of_ammon_column_5 = {
 		
 		trigger = {
 			1566 = {
-			    development = 25
-				is_prosperous = yes
+			    development = 25				
 				owned_by = ROOT
 			}
+			advisor = supervisor
 		}
 		effect = {			
 			add_country_modifier = {
                 name = mission_rebuilding_a_city_of_old_poa
-                duration = -1
+                duration = 9125
             }
 			1566 = {
                 change_province_name = "City of Ammon"
@@ -760,7 +759,7 @@ POA_protectors_of_ammon_column_5 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_natural_defences_b_poa
-                duration = -1
+                duration = 9125
             }
 			seize_empty_province_effect = { province = 4626 }
 			seize_empty_province_effect = { province = 4627 }
@@ -792,7 +791,7 @@ POA_protectors_of_ammon_column_5 = {
 		effect = {			
 			add_country_modifier = {
                 name = mission_faith_of_ammon_poa
-                duration = -1
+                duration = 9125
             }
 		}
 	}

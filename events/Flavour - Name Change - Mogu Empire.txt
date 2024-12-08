@@ -1,0 +1,81 @@
+namespace = wwu_flavour_nc_mogu_empire
+
+# Pick a name for Mogu Empire
+country_event = {
+	id = wwu_flavour_nc_mogu_empire.1
+	title = wwu_flavour_nc_mogu_empire.1.title
+	desc = wwu_flavour_nc_mogu_empire.1.desc
+	picture = MOGUSHANS_PALACE_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_nc_mogu_empire.1.a
+		
+		# Keep the Name
+		
+		ai_chance = {		
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_mogu_empire.1.b
+		
+		override_country_name = EMPIRE_OF_THUNDER
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_mogu_empire.1.c
+		
+		override_country_name = THE_OLD_KINGDOM
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_mogu_empire.1.d
+		
+		trigger = {
+		    OR = {
+		        tag = P92
+				tag = SRW
+			}
+		}
+		
+		override_country_name = THE_FIRST_DYNASTY
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_mogu_empire.1.e
+		
+		trigger = {
+		    tag = P42
+		}
+		
+		override_country_name = XIN_DYNASTY
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_mogu_empire.1.f
+		
+		trigger = {
+		    tag = P81
+		}
+		
+		override_country_name = DOJAN_DYNASTY
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+}

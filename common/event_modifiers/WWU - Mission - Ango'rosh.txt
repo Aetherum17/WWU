@@ -45,4 +45,96 @@ mission_ogre_empire = {
     great_project_upgrade_cost = -0.25
     core_creation = -0.05
     administrative_efficiency = 0.05
-}    
+}
+
+
+# Draenor Modifiers
+
+province_angorosh_settlement = {
+    local_development_cost = -0.2
+    local_build_cost = -0.2
+    local_build_time = -0.25
+    local_production_efficiency = 0.1
+}
+
+province_angorosh_stronghold = {
+    fort_level = 2
+    local_defensiveness = 0.25
+    local_manpower = 5
+    local_defender_dice_roll_bonus = 1
+    regiment_recruit_speed = -0.15
+    ship_recruit_speed = -0.33
+    local_ship_repair = 0.2
+}
+
+ruler_great_conqueror = {
+    ae_impact = -0.2
+    province_warscore_cost = -0.2
+    core_creation = -0.25
+}
+
+province_ogre_lumbermill = {
+    trade_goods_size_modifier = 0.25
+    local_production_efficiency = 0.15
+}
+
+mission_expansive_development = {
+    production_efficiency = 0.15
+    build_cost = -0.1
+    build_time = -0.2
+}
+
+mission_naval_power = {
+    navy_tradition = 1
+    ship_durability = 0.1
+    sunk_ship_morale_hit_recieved = -0.1
+    leader_naval_shock = 1
+}
+
+mission_ogre_colonial_rush = {
+    colonists = 1
+    global_colonial_growth = 25
+    colonist_placement_chance = 0.05
+}
+
+mission_searing_axe = {
+    production_efficiency = 0.15
+}
+
+mission_gorian_intergration = {
+    years_to_integrate_personal_union = -20
+}
+
+mission_gorian_lands = {
+    state_maintenance_modifier = -0.15
+}
+
+mission_angorosh_prestige = {
+    prestige = 1
+}
+
+# Draenor Event Modifiers
+
+event_weapons_of_war_1 = {
+    siege_ability = 0.15
+    artillery_barrage_cost = -0.33
+}
+
+event_weapons_of_war_2 = {
+    backrow_artillery_damage = 0.1
+    artillery_power = 0.1
+}
+
+event_weapons_of_war_3 = {
+    leader_siege = 1
+    artillery_levels_available_vs_fort = 1
+}
+
+# Draenor Static Modifiers
+
+primal_angorosh_provinces = {
+    trade_goods_size_modifier = 0.1
+    local_unrest = 3
+}
+
+

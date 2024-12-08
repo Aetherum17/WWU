@@ -1,0 +1,170 @@
+﻿#----------------------------------------------------------------------------
+# Changelog
+#----------------------------------------------------------------------------
+# Note: Fill changes after all other changelogs have been done
+#----------------------------------------------------------------------------
+
+# Gameplay
+-Updated Quilboar Flags (special thanks to Pardjraikeniv for providing the material - for the end of announcement)
+-Mirefin relocation to the shores of Dustwallow
+-Onyxia size adjastment and name change (Firemane Brood)
+-Corrections and adjastments to existing tags in Tanaris
+-Changes on the formation of Empire of Arathor
+-Increased minimal time needed to convert a culture in the province
+-Idea Groups: Adjusted Balance Issues
+-National Ideas: A) Reworked: Fire Group. B) Adjusted: Centaur Marauders, Centaur Group
+-State Edicts: Reduced values of certain edicts
+-Stratagems: Purification cost increase, now goes 4/5/6/7/8
+-Kul'tiras Node Update: Node renamed to Tiragarde Sound and broken into 3 nodes (Tiragarde Sound, Drustvar, Stormsong Valley)
+-Gilneas Content and Flavor Update
+-Adjasted Gilnean diplomatic relations post Cataclysm
+-Introduced unique national ideas for Gilneas and worgen Gilneas
+-The Greymane Wall can now be built if the primary culture is Worgen.
+-Removed the Northgate Rebellion disaster, integrating it into the Gilnean mission tree
+-New subject type of Gilnean Colony for New Lordaeron (Gilnean mission content)
+-Various changes related to Gilneas (flavour, adjustments)
+-Added opening window descriptions for BC-WRATH-CATA-MOP bookmarks
+-Wrath of the Lich King: Isle of Conquest will be divided between Horde and Alliance
+-Added new traesure (gold) tradegood across many regions in Kalimdor
+-New Terra Incognita Skin
+-AI-controlled countries with Scarlet Light or Cult of the Damned as their religion now automatically gain the estate privilege eternal_damnation
+-Buffing the eternal_damnation estate privilege by increasing the warscore_cost_vs_other_religion reduction from -0.10 to -0.15
+
+
+# Music/Sound
+-Added music tracks
+-New sound effects added:
+    - Level-up sound when switching mission trees (used for Gilneas).
+    - Background Worgen attack ambient in Gilneas City when the culture of Gilneas City is Worgen.
+    - Sounds for archaeological finds (pickup/putdown).
+    - "Quest failed" sound for failed archaeological digs.
+-Replaced Vanilla Sounds with WoW Audio:
+    - Diplomatic offer → "TellMe" sound
+    - Diplomatic Offer rejected → Quest failed sound
+    - Decision enacted → Event/quest sounds
+    - Event popup → Quest pop-up
+    - Gain CB → Raid alert
+    - Gain gold → Loot pickup
+    - General button click → WoW default click
+    - Call to arms → PvP Horde flag
+    - War declaration → PvP Alliance flag
+    - Lose gold → "No loot" sound
+    - Enemy province selected → Targeting sound
+    - Fleet selection → WoW naval sounds
+    - Start game → WoW "Enter world" sound
+- Tab transitions sounds:
+    -Diplomacy → Spellbook page
+    -Economy → Guild bank opening
+    -Ideas → Transmog window
+    -Missions → Achievement tab opening
+    -Technology → Repair equipment
+    -Trade → Auction house opening
+
+
+# Goverment Mechanics and Reforms:
+-Autocracy Mechanic now gives autonomy_change instead of yearly_absolutism
+-Rebalanced Horde Gov. reforms modifier values
+-Tribal Tier 4: Applied Cooldown on reform effects, due to them triggering so often
+-Night Warrior decision rebalanced (Religion: Elune): Adds stronger general (6/6/6/6), at cost of -1 stability per summon. Adjusted modifier values.
+-Adjasted Bloodfang Reform
+
+
+# Unique Events 
+-Scarlet Immigrants to Kalimdor if The Scarlet Crusade falls (For Holy Light Nations)
+-Argent Immigrants to Kalimdor if The Argent Dawn falls (For Holy Light Nations)
+-Name Change Flavor for Pandaren Empire Formable
+-Name Change Flavor for Mogu Empire Formable
+-Name Change Flavor for Daughters of Cenarius Formable
+-Name Change Flavor for New Arathor Formable
+-Name Change Flavor for Northrend (New Name Change)
+-Name Change Flavor for Lordaeron Formable
+-Name Change Flavor for Scarlet Lordaeron Formable
+-Name Change Flavor for Stratholme Formable
+-Name Change Flavor for Broken Isles (New Name Change)
+
+
+# New Tags
+-Mjordin (Icecrown)
+-Muckshell (Dustwallow Marsh)
+-Sandstone (Tanaris)
+-Blazerunner (Un'goro)
+-Shaper's Terrace (Un'goro)
+-Death's Hand (Un'goro)
+-Uhk'loc (Un'goro)
+-Freewind (Thousand Needles)
+-Shady Rest (Dustwallow - Releasable)
+-Deadwood Harpies (Broken Shore)
+-Deepbeard (Azsuna)
+-Felrage (Broken Shore)
+-Mak'rana (Azsuna - Releasable)
+-Stonefin (Broken Shore)
+-Trenchwalker (Azsuna - Releasable)
+-Wavecrashers (Suramar)
+-Zhakenar (Azsuna)
+-Shorestriders (Feralas)
+-Blackwood (East Plaug.)
+-Corin's Crossing (East Plaug.)
+-Greenwood (East Plaug.)
+-Blademoon  (Botani - Shadowmoon)
+-Nightmarsh (Botani - Shadowmoon)
+-Socrethar (Shadowmoon)
+-Telrador (Shadowmoon)
+-Draakorium (Shadowmoon)
+-Bloodpetal ( Talador )
+-Bramblekin (Shadowmoon)
+-Nightshade (Shadowmoon)
+-Noxious ( Gorgrond )
+-Rainfen ( Tanaan Jungle )
+-Spiteleaf ( Nagrand )
+-Wakkalings ( Tanaan Jungle )
+-Zangarra ( Talador )
+-Sabellian's Brood (Gorgrond) (Date 498)
+-Dreadwing's Brood (Gorgrond) (Date 498)
+-Neltharaku's Brood (Shadowmoon) (Date 498)
+-Veraku's Brood (Fahralon) (Date 498)
+-Toranaku's Brood (Shadowmoon) (Date 498)
+-Valoku's Brood (Tanaan Jungle (Date 498))
+-Whitebark (Eversong Woods - Ghostlands)
+-Tor'watha (Azul'aman)
+-Blackleaf (Azul'aman - Releasable)
+-Treeblight (Azul'aman - Releasable)
+-Nerubis (Ghostlands)
+-Lords of the East (Mission Tree Content)
+-New Lordaeron (Mission Tree Content)
+
+
+# Province/Political Update
+-Icecrown
+-Dustwallow Marsh
+-Tanaris (Revisited)
+-Un'goro Crater
+-Isle of Quel'danas
+-Eversong Woods
+-Ghostlands
+-Azul'aman
+
+
+# New Mission Trees, Reworks and Adjastments
+-Northwatch (New Mission Tree)
+-Theramore (Rework - Date y618+ )
+-Dragonflayer (New Mission Tree )
+-Gilneas (New Mission Tree - unlocks Lords of the East and New Lordaeron with their own mission trees)
+-Centaur Marauders (Adjusted some mission conditions,values of mission modifiers, the rewards of various missions and overhauled story events)
+-Firelands (Adjusted Un'goro Mission with new flavour)
+-Scarlet Crusade (Introduced a new mission: hunt_the_damned)
+
+
+# Bugfixes and Adjastments:
+-Fixed Ango'rosh Mission Tree condition
+-Fixed issues with subjegated_vassals not being able to be managed (when previously mentioned that they were)
+-Fixed Political Inaccuraties in Tirisfal
+-Cleared Ner’zhul’s portrait when Arthas becomes the Lich King
+-Fixed missing localizations for music tracks
+-Adjustement of the Worgen Curse
+-Removing Genn Greymane as the general at the start of the game
+-Fixing Scarlet Crusade generals and monarch name (Taelan, Saidan, Herod)
+
+
+#----------------------------------------------------------------------------
+# TODO
+#----------------------------------------------------------------------------

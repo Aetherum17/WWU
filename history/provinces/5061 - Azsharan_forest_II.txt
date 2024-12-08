@@ -17,8 +17,6 @@ trade_goods = resource_common_wood
 
 
 
-
-
 631.1.1 = { 
     owner = A79
     add_core = A79

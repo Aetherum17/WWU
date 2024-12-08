@@ -14,5 +14,17 @@ religion = titan_worship
 hre = no
 trade_goods = unknown
 
+626.1.1 = {
+    owner = H06
+    controller = H06
+    add_core = H06
+
+    base_tax = 2
+    base_production = 5
+    base_manpower = 2
+
+    culture = culture_stormwindian
+    religion = holy_light
+}
 
 

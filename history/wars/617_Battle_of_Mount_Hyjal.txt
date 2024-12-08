@@ -1,0 +1,58 @@
+#------------------------------------
+# Name
+#------------------------------------
+name = "Battle of Mount Hyjal"
+
+#------------------------------------
+# Wargoal
+#------------------------------------
+war_goal = {
+	type = take_capital_third_war
+	casus_belli = cb_third_war
+    tag = A95
+}
+
+#------------------------------------
+# Dates
+#------------------------------------
+617.1.1 = {
+    add_attacker = B92 # Burning Legion
+	add_attacker = G02 # Darkwhisper
+	add_attacker = CRA # Corrupted Ancients
+	add_attacker = DNG # Demon Elit Guard
+	add_attacker = SCK # Scourge of Kalimdor
+	add_attacker = B96 # Jadefire
+	add_attacker = B44 # Winterfall
+	add_defender = A95 # Keepers of the Grove
+	add_defender = H01 # Sentinels
+	add_defender = STL # Starfall
+	add_defender = BAR # Barkskin
+	add_defender = F47 # Shadowtooth
+	add_defender = A23 # Theramore
+	add_defender = A46 # Frostwolf
+	add_defender = A35 # Warsong
+	add_defender = A70 # Darkspear
+	add_defender = BDH # Bloodhoof
+	add_defender = H02 # Cenarion Circle
+}
+
+617.12.31 = {
+    rem_attacker = B92 # Burning Legion
+	rem_attacker = G02 # Darkwhisper
+	rem_attacker = CRA # Corrupted Ancients
+	rem_attacker = DNG # Demon Elit Guard
+	rem_attacker = SCK # Scourge of Kalimdor
+	rem_attacker = B96 # Jadefire
+	rem_attacker = B44 # Winterfall
+	rem_defender = A95 # Keepers of the Grove
+	rem_defender = H01 # Sentinels
+	rem_defender = STL # Starfall
+	rem_defender = BAR # Barkskin
+	rem_defender = F47 # Shadowtooth
+	rem_defender = A23 # Theramore
+	rem_defender = A46 # Frostwolf
+	rem_defender = A35 # Warsong
+	rem_defender = A70 # Darkspear
+	rem_defender = BDH # Bloodhoof
+	rem_defender = H02 # Cenarion Circle
+}

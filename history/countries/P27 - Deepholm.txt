@@ -29,5 +29,10 @@ capital 			= 3157
     set_ruler_flag = ruler_portrait_therazane
     
     set_ruler_flag = is_immortal
+
+    set_defender_of_the_faith = {
+		who = P27
+		religion = earth
+	}
  } 
 

@@ -20,6 +20,7 @@ trade_goods = unknown
 	owner = A94
 	controller = A94
     add_core = A94
+	add_core = STL
 	
     culture = culture_night_elf
     trade_goods = resource_ground_mounts

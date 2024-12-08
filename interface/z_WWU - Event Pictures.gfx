@@ -9719,6 +9719,30 @@ spriteTypes = {
         texturefile = "gfx/event_pictures//CENTAUR_ART_BLACKWHITE.dds"
         alwaystransparent = yes
     }
-    
+	spriteType = {
+        name = "LORD_VINCENT_GODFREY_eventPicture"
+        texturefile = "gfx/event_pictures//LORD_VINCENT_GODFREY.dds"
+        alwaystransparent = yes
+    }
+	spriteType = {
+        name = "CLIFF_AND_AGITATED_SEA_eventPicture"
+        texturefile = "gfx/event_pictures//CLIFF_AND_AGITATED_SEA.dds"
+        alwaystransparent = yes
+    }
+	spriteType = {
+        name = "INTERROGATION_eventPicture"
+        texturefile = "gfx/event_pictures//INTERROGATION.dds"
+        alwaystransparent = yes
+    }
+	spriteType = {
+        name = "IVAR_BLOODFANG_eventPicture"
+        texturefile = "gfx/event_pictures//IVAR_BLOODFANG.dds"
+        alwaystransparent = yes
+    }
+	spriteType = {
+        name = "GILNEAS_CITY_eventPicture"
+        texturefile = "gfx/event_pictures//GILNEAS_CITY.dds"
+        alwaystransparent = yes
+    }
 }
 

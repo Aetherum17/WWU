@@ -1,0 +1,39 @@
+﻿l_german:
+ #----------------------------------------
+ # Diplomacy GUI - Core
+ #----------------------------------------
+ DIPLO_VIEW_NO_CLASS: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is not any class."
+ DIPLO_VIEW_CLASS_DEATH_KNIGHT: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDeath Knight§!"
+ DIPLO_VIEW_CLASS_DEMON_HUNTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDemon Hunter§!"
+ DIPLO_VIEW_CLASS_DRUID: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDruid§!"
+ DIPLO_VIEW_CLASS_HUNTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YHunter§!"
+ DIPLO_VIEW_CLASS_MAGE: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YMage§!"
+ DIPLO_VIEW_CLASS_MONK: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YMonk§!"
+ DIPLO_VIEW_CLASS_PALADIN: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YPaladin§!"
+ DIPLO_VIEW_CLASS_PRIEST: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YPriest§!"
+ DIPLO_VIEW_CLASS_ROGUE: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YRogue§!"
+ DIPLO_VIEW_CLASS_SHAMAN: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YShaman§!"
+ DIPLO_VIEW_CLASS_WARLOCK: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YWarlock§!"
+ DIPLO_VIEW_CLASS_WARRIOR: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YWarrior§!"
+ 
+ DIPLO_VIEW_NO_SPELLCASTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] has no magical ability."
+ DIPLO_VIEW_SPELLCASTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YSpellcaster§!, following the §Y[Root.GetMagicSchool]§! school."
+ 
+ DIPLO_VIEW_FACTION_ALLIANCE: "[Root.GetAllianceStatus]"
+ DIPLO_VIEW_FACTION_OLD_HORDE: "[Root.GetOldHordeStatus]"
+ DIPLO_VIEW_FACTION_HORDE: "[Root.GetHordeStatus]"
+ DIPLO_VIEW_FACTION_TRADE_COALITION: "[Root.GetTradeCoalitionStatus]"
+ DIPLO_VIEW_FACTION_DRAGON_ASPECTS: "[Root.GetDragonAspectsStatus]"
+ 
+ #----------------------------------------
+ # Faction GUI
+ #----------------------------------------
+ FACTION_STATUS_ALLIANCE_HEAD: "[Root.GetName] is the §YHigh King§! of the §YAlliance§!."
+ FACTION_STATUS_ALLIANCE_MEMBER: "[Root.GetName] is a member of the §YAlliance§!."
+ FACTION_STATUS_HORDE_HEAD: "[Root.GetName] is the §YWarchief§! of the §YHorde§!."
+ FACTION_STATUS_HORDE_MEMBER: "[Root.GetName] is a member of the §YHorde§!."
+ FACTION_STATUS_TRADE_COALITION_HEAD: "[Root.GetName] is the §YTrade Prince§! of the §YTrade Coalition§!."
+ FACTION_STATUS_TRADE_COALITION_MEMBER: "[Root.GetName] is a member of the §YTrade Coalition§!."
+ FACTION_STATUS_DRAGON_ASPECTS_HEAD: "[Root.GetName] is the §YLeader§! of the §YDragon Aspects§!."
+ FACTION_STATUS_DRAGON_ASPECTS_MEMBER: "[Root.GetName] is a member of the §YDragon Aspects§!."
+ 

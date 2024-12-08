@@ -147,6 +147,14 @@ CRE = "countries/Crestfall.txt"
 CTW = "countries/The Castaways.txt"
 FRN = "countries/Farson Hold.txt"
 RSB = "countries/Rustberg.txt"
+NW1 = "countries/New Strom.txt"
+NW2 = "countries/Windshear Hold.txt"
+X02 = "countries/Lord of the East.txt"
+X03 = "countries/Silverpine.txt"
+X04 = "countries/New Lordaeron.txt"
+SRR = "countries/Shady Rest.txt"
+BLC = "countries/Blackwood Barony.txt"
+CRC = "countries/Corins Crossing.txt"
 
 #-------------------------------------
 # Dwarf
@@ -213,6 +221,11 @@ A45 = "countries/Dragonmaw.txt"                 # - A45
 A46 = "countries/Frostwolf.txt"                 # - A46
 A47 = "countries/MokNathal.txt"                 # - A47
 A43 = "countries/Twilights Hammer.txt"          # - A43
+DRS = "countries/Dark Scar.txt"                 # - DRS
+BWC = "countries/Bladewind.txt"                 # - BWC
+RWC = "countries/Redwalker.txt"                 # - RWC
+WCC = "countries/Whiteclaw.txt"                 # - WCC
+LBC = "countries/Lightning Blade Clan.txt"      # - LBC
 
 # Post-Draenor
 A42 = "countries/Stormreaver.txt"               # - A42
@@ -245,6 +258,8 @@ A53 = "countries/Bloodmaul.txt"             # - A53
 F69 = "countries/Ango'rosh.txt"             # - F69
 A52 = "countries/Gordunni.txt"              # - A52
 F57 = "countries/Stonemaul.txt"             # - F57
+ASM = "countries/Ashmaul.txt"               # - ASM
+GVH = "countries/Gor'vosh.txt"              # - GVH
 
 # Post-Draenor
 P50 = "countries/Crushridge.txt"            # - P50
@@ -302,6 +317,9 @@ CEX = "countries/Council of Exarchs.txt"
 SAR = "countries/Sargerei.txt"
 TLH = "countries/Telhamat Theocracy.txt"
 GEN = "countries/Genedar.txt"
+TEO = "countries/Telredor.txt"
+DRA = "countries/Draakorium.txt"
+SOC = "countries/Socrethar.txt"
 
 #-------------------------------------
 # Broken and Lost Ones
@@ -340,6 +358,9 @@ A63 = "countries/Firetree.txt"                  # - A63
 A64 = "countries/Witherbark.txt"                # - A64
 A65 = "countries/Smolderthorn.txt"              # - A65
 P55 = "countries/Shadowglen.txt"                # - P55
+TWA = "countries/Torwatha.txt"    
+TBI = "countries/Treeblight.txt"    
+BKF = "countries/Blackleaf.txt"    
 
 #-------------------------------------
 # Jungle Troll
@@ -399,6 +420,7 @@ MTL = "countries/Motherlode.txt"                # - MTL
 RTC = "countries/Ratchet.txt"                   # - RTC
 GDG = "countries/Gadgetzan.txt"                 # - GDG
 FSP = "countries/Speedbarge.txt"                # - FSP
+EVR = "countries/Everlook.txt"
 
 #-------------------------------------
 # Tauren
@@ -427,6 +449,7 @@ WDT = "countries/Windtotem.txt"
 YOU = "countries/Younghoof.txt"
 IRH = "countries/Ironhoof.txt"
 FLP = "countries/Flayer Point.txt"
+FEE = "countries/Freewind.txt"
 
 #-------------------------------------
 # High Elf
@@ -441,6 +464,13 @@ F54 = "countries/Farstriders.txt"               # - F54
 FLM = "countries/Federation of Loch Modan.txt"  # - FLM
 FHN = "countries/Federation of Hinterlands.txt" # - FHN
 FES = "countries/Federation of Eastweald.txt"   # - FES
+QL1 = "countries/Dawnstar.txt"
+QL2 = "countries/Fairbreeze.txt"
+QL3 = "countries/Goldenmist.txt"
+QL4 = "countries/Suncrown.txt"
+QL5 = "countries/Sunsail.txt"
+QL6 = "countries/Windrunner.txt"
+GRE = "countries/Greenwood.txt"
 
 #-------------------------------------
 # Blood Elf
@@ -481,6 +511,7 @@ SUR = "countries/Suramar.txt"
 WIT = "countries/Withered.txt"
 NTF = "countries/The Nightfallen.txt"
 FAL = "countries/Faldorei.txt"
+ZHA = "countries/Zhakenar.txt"
 
 #-------------------------------------
 # Night Elf
@@ -506,13 +537,20 @@ STA = "countries/Starbreeze.txt"
 WRC = "countries/The Watchers.txt"
 WSD = "countries/The Shadow Wardens.txt"
 AST = "countries/Astranaar.txt"
+NEN = "countries/Nendis.txt"
+STL = "countries/Starfall.txt"
+TAL = "countries/Talrendis.txt"
+
+#-------------------------------------
+# Treant
+#-------------------------------------
+WBK = "countries/Whitebark.txt"
 
 #-------------------------------------
 # Aqir
 #-------------------------------------
 A97 = "countries/Ahnqiraj.txt"                  # - A97
 A98 = "countries/Silithid.txt"                  # - A98
-P74 = "countries/Azjol'Nerub.txt"               # - P74
 AZQ = "countries/Azjaqir.txt"                   # - AZQ
 AIH = "countries/Ashi Hive.txt"                 # - AIH
 CPH = "countries/Centipaar Hive.txt"            # - CPH
@@ -527,15 +565,29 @@ ZZH = "countries/Hazzali Hive.txt"              # - ZZH
 NXL = "countries/Noxious Lair.txt"              # - NXL
 
 #-------------------------------------
+# Nerubian
+#-------------------------------------
+P74 = "countries/Azjol'Nerub.txt"               # - P74
+NER = "countries/Nerubis.txt"
+NRE = "countries/Nerubian Empire.txt"
+
+#-------------------------------------
 # Black Dragonflight
 #-------------------------------------
-A99 = "countries/Black Dragonflight.txt"      # - A99
-BD1 = "countries/Onyxia Brood.txt"            # - GD5
-BD2 = "countries/Pyrriccion Brood.txt"        # - BD2
-BD3 = "countries/Nyxondra Brood.txt"          # - BD3
-BD4 = "countries/Nefarian Brood.txt"          # - BD4
-SIN = "countries/Sinestra Brood.txt"          # - SIN
+A99 = "countries/Black Dragonflight.txt"        # - A99
+BD1 = "countries/Firemane Brood.txt"            # - GD5
+BD2 = "countries/Pyrriccion Brood.txt"          # - BD2
+BD3 = "countries/Nyxondra Brood.txt"            # - BD3
+BD4 = "countries/Nefarian Brood.txt"            # - BD4
+SIN = "countries/Sinestra Brood.txt"            # - SIN
 BD5 = "countries/Searinox Brood.txt"
+MAC = "countries/Malicions Brood.txt"
+BD6 = "countries/Sabellians Brood.txt"
+BD7 = "countries/Dreadwings Brood.txt"
+BD8 = "countries/Neltharakus Brood.txt"
+BD9 = "countries/Verakus Brood.txt"
+VOL = "countries/Valokus Brood.txt"
+TON = "countries/Toranakus Brood.txt"
 
 #-------------------------------------
 # Blue Dragonflight
@@ -545,8 +597,9 @@ SNB = "countries/Sindragosa Brood.txt"         # - SNB
 SPB = "countries/Sapphiron Brood.txt"          # - SPB
 CNB = "countries/Cyanigosa Brood.txt"          # - CNB
 HHB = "countries/Haleh Brood.txt"              # - HHB
-AZG = "countries/Azuregos Flight.txt"          # - AZG
+AZG = "countries/Brood of Senegos.txt"          # - AZG
 AZV = "countries/Azure Vault.txt"
+AZU = "countries/Brood of Azuregos.txt"
 
 #-------------------------------------
 # Red Dragonflight
@@ -594,6 +647,7 @@ CSB = "countries/Crestfall Brood.txt"           # - CSB
 FBD = "countries/Forbidden Reach.txt"
 VUS = "countries/Vault of Incarnates.txt"
 FLA = "countries/Flashfrost.txt"
+SHB = "countries/Sethrias Brood.txt"
 
 #-------------------------------------
 # Drakonid
@@ -627,7 +681,8 @@ VLK = "countries/Valkyra.txt"                   # - VLK
 DRJ = "countries/Drekirjar.txt"                 # - DRJ
 VLJ = "countries/Valarjar.txt"                  # - VLJ
 BLW = "countries/Bloodwake.txt"                 # - BLW
-VLR = "countries/Valkyrion.txt"
+VLR = "countries/Valkyrion.txt"                 # - VLR
+MJD = "countries/Mjordin.txt"                   # - MJD
 
 #-------------------------------------
 # Gnoll
@@ -707,20 +762,23 @@ G41 = "countries/Saltspittle.txt"               # - G41 # Unused
 DSE = "countries/Deep Sea Empire.txt"           # - DSE
 SWP = "countries/Swamprock.txt"                 # - SWP
 ULT = "countries/Underlight.txt"                # - ULT
-MCW = "countries/Mistclaw.txt"                  # - MCW
 SKE = "countries/Cavemoss.txt"                  # - SKE
 UNM = "countries/Underworld Minions.txt"        # - UNM
-WSR = "countries/Whispereef.txt"                # - WSR
 PL7 = "countries/Plunderclaws.txt"
 PL8 = "countries/Piratefins.txt"
 PL9 = "countries/Frogeye.txt"
 DTE = "countries/The Dark Tide.txt"
+STE = "countries/Stonefin.txt"
 
 #-------------------------------------
-# Lobster
+# Lobster - Makrura
 #-------------------------------------
 B37 = "countries/Makraru.txt"                   # - B37
 B38 = "countries/Bogstrok.txt"                  # - B38
+WSR = "countries/Whispereef.txt"                # - WSR
+MCW = "countries/Mistclaw.txt"                  # - MCW
+MCK = "countries/Muckshell.txt"                  # - MCK
+MAK = "countries/Makrana.txt"
 
 #-------------------------------------
 # Furbolg
@@ -815,6 +873,7 @@ CVN = "countries/Cult of Aviana.txt"            # - CVN
 CHH = "countries/Cult of Ohnahra.txt"           # - CHH
 SDH = "countries/Screechflight.txt"
 BLD = "countries/Bloodfeather.txt"
+DEA = "countries/Deadwood Harpies.txt"
 
 #-------------------------------------
 # Quillboar
@@ -832,6 +891,7 @@ GMG = "countries/Cult of Agamaggan.txt"         # - GMG
 # Titan
 TYR = "countries/Tyrhold.txt"
 ULD = "countries/Uldir.txt"                     # - ULD
+SPT = "countries/Shapers Terrace.txt"
 
 # Stone Titan
 B74 = "countries/Uldaman.txt"                   # - B74
@@ -856,6 +916,7 @@ SMF = "countries/Stormforged.txt"
 # Earthen
 G32 = "countries/Earthen.txt"                   # - G32
 ERR = "countries/Earthen Remnants.txt"
+SDS = "countries/Sandstone.txt"
 
 #-------------------------------------
 # Tol'vir
@@ -950,6 +1011,7 @@ AUR = "countries/Aurinor.txt"                   # - AUR
 DNG = "countries/Demon Elite Guard.txt"         # - DNG
 HDR = "countries/Hederine.txt"                  # - HDR
 BLT = "countries/The Black Temple.txt"
+MAN = "countries/Mannoroc.txt"
 
 #-------------------------------------
 # Satyr
@@ -1006,6 +1068,8 @@ P12 = "countries/Cult of the Damned.txt"            # - P12
 P13 = "countries/Knights of the Ebon Blade.txt"     # - P13
 P52 = "countries/The Scourge of Lordaeron.txt"      # - P52
 F21 = "countries/Deatholme.txt"                     # - F21
+SCK = "countries/The Scourge of Kalimdor.txt"
+DHA = "countries/Deaths Hand.txt"
 
 #-------------------------------------
 # Undead
@@ -1040,6 +1104,7 @@ P26 = "countries/Firelands.txt"             # - P26
 P27 = "countries/Deepholm.txt"              # - P27
 P28 = "countries/Skywall.txt"               # - P28
 G04 = "countries/Bloodvenom.txt"            # - G04
+BLA = "countries/Blazerunner.txt"
 
 #-------------------------------------
 # Worgen
@@ -1053,6 +1118,7 @@ CLG = "countries/Cult of Lo Gosh.txt"   # - CLG
 TRW = "countries/Terrowulf.txt"         # - TRW
 TLB = "countries/Talonbranch.txt"       # - TLB
 BOO = "countries/Bloodmoon.txt"         # - BOO
+LYC = "countries/Lycanthoth Vandals.txt"
 
 #-------------------------------------
 # Mantid
@@ -1204,6 +1270,11 @@ G03 = "countries/Frostmaul.txt"             # - G03
 VAV = "countries/Vault of Archavon.txt"     # - VAV
 SOM = "countries/Sons of Moroc.txt"
 DOL = "countries/Dolomite.txt"
+WAV = "countries/Wavecrashers.txt"
+TRE = "countries/Trenchwalker.txt"
+DEP = "countries/Deepbeard.txt"
+FER = "countries/Felrage.txt"
+SHO = "countries/Shorestriders.txt"
 
 #-------------------------------------
 # Sprite
@@ -1265,6 +1336,11 @@ NTV = "countries/Nathavor.txt"
 NZM = "countries/Nazmani.txt"
 
 #-------------------------------------
+# Fungarian
+#-------------------------------------
+FN1 = "countries/Fungarian Warriors.txt"
+
+#-------------------------------------
 # Tortollan
 #-------------------------------------
 TOR = "countries/Tortollan Refuge.txt"
@@ -1282,16 +1358,27 @@ SRP = "countries/Snarlpaw.txt"
 SMS = "countries/Steamscar.txt"
 TTR = "countries/Tailthrasher.txt"
 BKG = "countries/Blackfang.txt"
+PTH = "countries/Panthran.txt"
 
 #-------------------------------------
 # Botani
 #-------------------------------------
 EVB = "countries/Everbloom.txt"
+BLM = "countries/Blademoon.txt"
+NGM = "countries/Nightmarsh.txt"
 
 #-------------------------------------
 # Podling
 #-------------------------------------
 GMS = "countries/Gloomshade.txt"
+SPI = "countries/Spiteleaf.txt"
+WAK = "countries/Wakka.txt"
+BRA = "countries/Bramblekin.txt"
+RAI = "countries/Rainfen.txt"
+BLO = "countries/Bloodpetal.txt"
+NIG = "countries/Nightshade.txt"
+NOX = "countries/Noxious.txt"
+ZAN = "countries/Zangarra.txt"
 
 #-------------------------------------
 # Gorilla
@@ -1299,6 +1386,7 @@ GMS = "countries/Gloomshade.txt"
 TAB = "countries/Tel Abim.txt"
 DAK = "countries/Dakani.txt"
 THP = "countries/Thumpknuckle.txt"
+UHK = "countries/Uhkloc.txt"
 
 #-------------------------------------
 # Djaradin
@@ -1325,7 +1413,6 @@ DRE = "countries/Drakkari Empire.txt"
 OGR = "countries/Gorian Empire.txt"
 APX = "countries/Apexis Empire.txt"
 AME = "countries/Amani Empire.txt"
-NRE = "countries/Nerubian Empire.txt"
 LCD = "countries/Legion of the Cold Dark.txt"
 DFL = "countries/Darkfallen.txt"
 OOD = "countries/Order of Desacration.txt"

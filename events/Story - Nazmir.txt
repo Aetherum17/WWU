@@ -2,337 +2,1538 @@ namespace = wwu_nazmir
 
 # An start event that appears to the player choosing one of the 3 countries
 country_event = {
-	id = wwu_nazmir.1
-	title = wwu_nazmir.1.title
-	desc = wwu_nazmir.1.desc
-	picture = NAZMIR_1_eventPicture
-    
-    is_triggered_only = yes
-	
-	trigger = {
-	any_country = {
-	NOT = { has_country_flag = nazmir_start_opened }
-	NOT = { has_country_flag = first_blood_matron }
-	}
-		OR = {
-		AND = {
-            tag = NZM # Nazmani
-            ai = no
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-		AND = {
-            tag = NZM # Nazmani
-            ai = yes
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-        
-		AND = {
-            tag = NZM # Nazmani
-            ai = yes
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = no
-			}
-			}
-		AND = {
-            tag = NZM # Nazmani
-            ai = yes
-			NTV = {
-			ai = no
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-		AND = {
-            tag = NZM # Nazmani
-            ai = no
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-		AND = {
-            tag = NTV # Natha'vor
-            ai = no
-			NZM = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-		AND = {
-            tag = AMK # Nazmani
-            ai = no
-			NTV = {
-			ai = yes
-			}
-			NZM = {
-			ai = yes
-			}
-			}
-        }
-		}
-    
-    immediate = {
-		hidden_effect = {
-		NZM = {
-		set_country_flag = nazmir_start_opened
-            set_variable = {
-                which = nazmir_blood
-                value = 0
-            }
-			}
-		NTV = {
-		set_country_flag = nazmir_start_opened
-            set_variable = {
-                which = nazmir_blood
-                value = 0
-            }
-			}
-		AMK = {
-		set_country_flag = nazmir_start_opened
-            set_variable = {
-                which = nazmir_blood
-                value = 0
-            }
-			}
-		NZM = {
-            set_variable = {
-                which = nazmir_small
-                value = 0
-            }
-			}
-		NTV = {
-            set_variable = {
-                which = nazmir_small
-                value = 0
-            }
-			}
-		AMK = {
-            set_variable = {
-                which = nazmir_small
-                value = 0
-            }
-			}
-		NZM = {
-            set_variable = {
-                which = nazmir_medium
-                value = 0
-            }
-			}
-		NTV = {
-            set_variable = {
-                which = nazmir_medium
-                value = 0
-            }
-			}
-		AMK = {
-            set_variable = {
-                which = nazmir_medium
-                value = 0
-            }
-			}
-		NZM = {
-            set_variable = {
-                which = nazmir_big
-                value = 0
-            }
-			}
-		NTV = {
-            set_variable = {
-                which = nazmir_big
-                value = 0
-            }
-			}
-		AMK = {
-            set_variable = {
-                which = nazmir_big
-                value = 0
-            }
-			}
-		NZM = {
-            set_variable = {
-                which = nazmir_curse
-                value = 1
-            }
-			}
-		NTV = {
-            set_variable = {
-                which = nazmir_curse
-                value = 1
-            }
-			}
-		AMK = {
-            set_variable = {
-                which = nazmir_curse
-                value = 1
-            }
-			}
-    if = {
-        limit = {
-		OR = {
-		AND = {
-            tag = NZM # Nazmani
-            ai = no
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-		AND = {
-            tag = NZM # Nazmani
-            ai = yes
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-		AND = {
-            tag = NZM # Nazmani
-            ai = yes
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = no
-			}
-			}
-		AND = {
-            tag = NZM # Nazmani
-            ai = yes
-			NTV = {
-			ai = no
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-		AND = {
-            tag = NZM # Nazmani
-            ai = no
-			NTV = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-			
-        }
-		}
-create_subject = {              # Used to create subjects not covered by other effects
-    subject_type = lesser_bloodmother       # Found in common/subject_types/00_subject_types.txt
-	subject = NTV          # Who the current scope makes subject
-}
-create_subject = {              # Used to create subjects not covered by other effects
-    subject_type = lesser_bloodmother       # Found in common/subject_types/00_subject_types.txt
-	subject = AMK          # Who the current scope makes subject
-}
-    }
-    
-    if = {
-        limit = {
-		AND = {
-            tag = NTV # Natha'vor
-            ai = no
-			NZM = {
-			ai = yes
-			}
-			AMK = {
-			ai = yes
-			}
-			}
-        }
-create_subject = {              # Used to create subjects not covered by other effects
-    subject_type = lesser_bloodmother       # Found in common/subject_types/00_subject_types.txt
-	subject = NZM          # Who the current scope makes subject
-}
-create_subject = {              # Used to create subjects not covered by other effects
-    subject_type = lesser_bloodmother       # Found in common/subject_types/00_subject_types.txt
-	subject = AMK          # Who the current scope makes subject
-}
-    }
-	
-    if = {
-        limit = {
-		AND = {
-            tag = AMK # Nazmani
-            ai = no
-			NTV = {
-			ai = yes
-			}
-			NZM = {
-			ai = yes
-			}
-			}
-        }
-create_subject = {              # Used to create subjects not covered by other effects
-    subject_type = lesser_bloodmother       # Found in common/subject_types/00_subject_types.txt
-	subject = NTV           # Who the current scope makes subject
-}
-create_subject = {              # Used to create subjects not covered by other effects
-    subject_type = lesser_bloodmother       # Found in common/subject_types/00_subject_types.txt
-	subject = NZM           # Who the current scope makes subject
-}
-    }
+  id = wwu_nazmir.1
+  title = wwu_nazmir.1.title
+  desc = wwu_nazmir.1.desc
+  picture = NAZMIR_1_eventPicture
 
-	}
+  fire_only_once = yes
+  is_triggered_only = yes
+
+  trigger = {
+    any_country = {
+      NOT = {
+        has_country_flag = nazmir_start_opened
+      }
+      NOT = {
+        has_country_flag = first_blood_matron
+      }
     }
-    
-	option = {
-		name = wwu_nazmir.1.op1
-        custom_tooltip = event_1_tooltip
-        hidden_effect = {
-            set_country_flag = first_blood_matron
+    OR = {
+      AND = {
+        tag = NZM # Nazmani
+        ai = no
+        NTV = {
+          ai = yes
         }
-	}
+        AMK = {
+          ai = yes
+        }
+      }
+      AND = {
+        tag = NZM # Nazmani
+        ai = yes
+        NTV = {
+          ai = yes
+        }
+        AMK = {
+          ai = yes
+        }
+      }
+
+      AND = {
+        tag = NZM # Nazmani
+        ai = yes
+        NTV = {
+          ai = yes
+        }
+        AMK = {
+          ai = no
+        }
+      }
+      AND = {
+        tag = NZM # Nazmani
+        ai = yes
+        NTV = {
+          ai = no
+        }
+        AMK = {
+          ai = yes
+        }
+      }
+      AND = {
+        tag = NZM # Nazmani
+        ai = no
+        NTV = {
+          ai = yes
+        }
+        AMK = {
+          ai = yes
+        }
+      }
+      AND = {
+        tag = NTV # Natha 'vor
+        ai = no
+        NZM = {
+          ai = yes
+        }
+        AMK = {
+          ai = yes
+        }
+      }
+      AND = {
+        tag = AMK # Nazmani
+        ai = no
+        NTV = {
+          ai = yes
+        }
+        NZM = {
+          ai = yes
+        }
+      }
+    }
+  }
+
+  immediate = {
+    hidden_effect = {
+      NZM = {
+        set_country_flag = nazmir_start_opened
+        set_variable = {
+          which = nazmir_blood
+          value = 0
+        }
+      }
+      NTV = {
+        set_country_flag = nazmir_start_opened
+        set_variable = {
+          which = nazmir_blood
+          value = 0
+        }
+      }
+      AMK = {
+        set_country_flag = nazmir_start_opened
+        set_variable = {
+          which = nazmir_blood
+          value = 0
+        }
+      }
+      NZM = {
+        set_variable = {
+          which = nazmir_small
+          value = 0
+        }
+      }
+      NTV = {
+        set_variable = {
+          which = nazmir_small
+          value = 0
+        }
+      }
+      AMK = {
+        set_variable = {
+          which = nazmir_small
+          value = 0
+        }
+      }
+      NZM = {
+        set_variable = {
+          which = nazmir_medium
+          value = 0
+        }
+      }
+      NTV = {
+        set_variable = {
+          which = nazmir_medium
+          value = 0
+        }
+      }
+      AMK = {
+        set_variable = {
+          which = nazmir_medium
+          value = 0
+        }
+      }
+      NZM = {
+        set_variable = {
+          which = nazmir_big
+          value = 0
+        }
+      }
+      NTV = {
+        set_variable = {
+          which = nazmir_big
+          value = 0
+        }
+      }
+      AMK = {
+        set_variable = {
+          which = nazmir_big
+          value = 0
+        }
+      }
+      NZM = {
+        set_variable = {
+          which = nazmir_curse
+          value = 1
+        }
+      }
+      NTV = {
+        set_variable = {
+          which = nazmir_curse
+          value = 1
+        }
+      }
+      AMK = {
+        set_variable = {
+          which = nazmir_curse
+          value = 1
+        }
+      }
+      if = {
+        limit = {
+          OR = {
+            AND = {
+              tag = NZM # Nazmani
+              ai = no
+              NTV = {
+                ai = yes
+              }
+              AMK = {
+                ai = yes
+              }
+            }
+            AND = {
+              tag = NZM # Nazmani
+              ai = yes
+              NTV = {
+                ai = yes
+              }
+              AMK = {
+                ai = yes
+              }
+            }
+            AND = {
+              tag = NZM # Nazmani
+              ai = yes
+              NTV = {
+                ai = yes
+              }
+              AMK = {
+                ai = no
+              }
+            }
+            AND = {
+              tag = NZM # Nazmani
+              ai = yes
+              NTV = {
+                ai = no
+              }
+              AMK = {
+                ai = yes
+              }
+            }
+            AND = {
+              tag = NZM # Nazmani
+              ai = no
+              NTV = {
+                ai = yes
+              }
+              AMK = {
+                ai = yes
+              }
+            }
+
+          }
+        }
+        create_subject = {
+          # Used to create subjects not covered by other effects
+          subject_type = lesser_bloodmother # Found in common / subject_types / 00_ subject_types.txt
+          subject = NTV # Who the current scope makes subject
+        }
+        create_subject = {
+          # Used to create subjects not covered by other effects
+          subject_type = lesser_bloodmother # Found in common / subject_types / 00_ subject_types.txt
+          subject = AMK # Who the current scope makes subject
+        }
+      }
+
+      if = {
+        limit = {
+          AND = {
+            tag = NTV # Natha 'vor
+            ai = no
+            NZM = {
+              ai = yes
+            }
+            AMK = {
+              ai = yes
+            }
+          }
+        }
+        create_subject = {
+          # Used to create subjects not covered by other effects
+          subject_type = lesser_bloodmother # Found in common / subject_types / 00_ subject_types.txt
+          subject = NZM # Who the current scope makes subject
+        }
+        create_subject = {
+          # Used to create subjects not covered by other effects
+          subject_type = lesser_bloodmother # Found in common / subject_types / 00_ subject_types.txt
+          subject = AMK # Who the current scope makes subject
+        }
+      }
+
+      if = {
+        limit = {
+          AND = {
+            tag = AMK # Nazmani
+            ai = no
+            NTV = {
+              ai = yes
+            }
+            NZM = {
+              ai = yes
+            }
+          }
+        }
+        create_subject = {
+          # Used to create subjects not covered by other effects
+          subject_type = lesser_bloodmother # Found in common / subject_types / 00_ subject_types.txt
+          subject = NTV # Who the current scope makes subject
+        }
+        create_subject = {
+          # Used to create subjects not covered by other effects
+          subject_type = lesser_bloodmother # Found in common / subject_types / 00_ subject_types.txt
+          subject = NZM # Who the current scope makes subject
+        }
+      }
+
+      add_country_modifier = {
+        name = blood_matron_gift_cd
+        duration = 1825
+        hidden = yes
+      }
+    }
+  }
+
+  option = {
+    name = wwu_nazmir.1.op1
+    custom_tooltip = event_1_tooltip
+    hidden_effect = {
+      set_country_flag = first_blood_matron
+	  if = {
+		limit = {
+			ai = yes
+		}
+		country_event = { 
+    		id = wwu_nazmir.8          
+    		days = 365      
+		}
+	  }
+    }
+  }
 }
 
 # An start event that appears after built totem
 country_event = {
-	id = wwu_nazmir.2
-	title = wwu_nazmir.2.title
-	desc = wwu_nazmir.2.desc
-	picture = NAZMIR_2_eventPicture
+  id = wwu_nazmir.2
+  title = wwu_nazmir.2.title
+  desc = wwu_nazmir.2.desc
+  picture = NAZMIR_2_eventPicture
+
+  is_triggered_only = yes
+
+  immediate = {
+    capital_scope = {
+      remove_province_triggered_modifier = blood_totem_building_province
+    }
+  }
+  option = {
+    name = wwu_nazmir.2.op1
+    custom_tooltip = event_2_tooltip
+    capital_scope = {
+      add_province_triggered_modifier = blood_totem_province
+    }
+    hidden_effect = {
+      random_easy_sacrificial = yes
+      random_medium_sacrificial = yes
+      random_hard_sacrificial = yes
+    }
+  }
+}
+
+country_event = {
+  id = wwu_nazmir.3
+  title = wwu_nazmir.3.title
+  desc = wwu_nazmir.3.desc
+  picture = FUNGARIAN_1_eventPicture
+
+  is_triggered_only = yes
+
+  option = {
+    name = wwu_nazmir.3.op1
+    add_years_of_owned_provinces_manpower = {
+      years = 5
+      trigger = {
+        has_province_modifier = zandalar_fungarian_bad
+      }
+      custom_tooltip = zandalar_fungarian_exploit_province_b
+    }
+    custom_tooltip = event_3_tooltip_a
+
+
+    hidden_effect = {
+      add_country_modifier = {
+        name = nazmir_fungarian_cd
+        duration = 9125
+      }
+      set_country_flag = nazmir_fungarian_3_a
+      if = {
+        limit = {
+          any_owned_province = {
+            OR = {
+              has_province_modifier = zandalar_fungarian_bad
+              has_province_modifier = zandalar_trap_5
+            }
+          }
+        }
+        every_owned_province = {
+          limit = {
+            OR = {
+              has_province_modifier = zandalar_fungarian_bad
+              has_province_modifier = zandalar_trap_5
+            }
+          }
+          remove_province_modifier = zandalar_fungarian_bad
+          remove_province_modifier = zandalar_trap_5
+          add_province_modifier = {
+            name = zandalar_fungarian_bad
+            duration = -1
+          }
+        }
+      }
+      if = {
+        limit = {
+          any_owned_province = {
+            has_province_modifier = zandalar_fungarian_bad
+          }
+        }
+        every_owned_province = {
+          limit = {
+            has_province_modifier = zandalar_fungarian_bad
+          }
+          add_province_modifier = {
+            name = zandalar_fungarian_bad_bad
+            duration = 1825
+          }
+        }
+      }
+
+    }
+
+  }
+
+  option = {
+    name = wwu_nazmir.3.op2
+    create_general = {
+      name = "Deadrot Fungalmancer"
+      tradition = 80
+      culture = culture_fungarian
+    }
+    2723 = {
+      add_province_modifier = {
+        name = zandalar_fungarian_good
+        duration = -1
+      }
+    }
+    custom_tooltip = event_3_tooltip_b
+
+    hidden_effect = {
+      add_country_modifier = {
+        name = nazmir_fungarian_cd
+        duration = 9125
+      }
+      set_country_flag = nazmir_fungarian_3_b
+      if = {
+        limit = {
+          any_owned_province = {
+            OR = {
+              has_province_modifier = zandalar_fungarian_bad
+              has_province_modifier = zandalar_trap_5
+            }
+          }
+        }
+        every_owned_province = {
+          limit = {
+            OR = {
+              has_province_modifier = zandalar_fungarian_bad
+            }
+          }
+          remove_province_modifier = zandalar_fungarian_bad
+        }
+        every_owned_province = {
+          limit = {
+            OR = {
+              has_province_modifier = zandalar_trap_5
+            }
+          }
+          remove_province_modifier = zandalar_trap_5
+        }
+      }
+    }
+
+  }
+}
+
+
+country_event = {
+  id = wwu_nazmir.4
+  title = wwu_nazmir.4.title
+  desc = wwu_nazmir.4.desc
+  picture = FUNGARIAN_1_eventPicture
+
+  is_triggered_only = yes
+
+  trigger = {
+    any_owned_province = {
+      OR = {
+        has_province_modifier = zandalar_fungarian_bad
+        has_province_modifier = zandalar_fungarian_good
+      }
+    }
+    OR = {
+      has_country_flag = nazmir_fungarian_3_a
+      has_country_flag = nazmir_fungarian_3_b
+    }
+    NOT = {
+      has_country_modifier = nazmir_fungarian_cd
+    }
+    owns = 2723
+  }
+
+  option = {
+    name = wwu_nazmir.4.op1
+    if = {
+      limit = {
+        has_country_flag = nazmir_fungarian_3_a
+      }
+      add_years_of_owned_provinces_manpower = {
+        years = 5
+        trigger = {
+          has_province_modifier = zandalar_fungarian_bad
+        }
+        custom_tooltip = zandalar_fungarian_exploit_province_b
+      }
+      hidden_effect = {
+        every_owned_province = {
+          limit = {
+            has_province_modifier = zandalar_fungarian_bad
+          }
+          add_province_modifier = {
+            name = zandalar_fungarian_bad_bad
+            duration = 1825
+          }
+        }
+      }
+
+    }
+    hidden_effect = {
+      add_country_modifier = {
+        name = nazmir_fungarian_cd
+        duration = 9125
+      }
+    }
+    if = {
+      limit = {
+        has_country_flag = nazmir_fungarian_3_b
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 5
+            NOT = {
+              development = 10
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 10
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 10
+            NOT = {
+              development = 15
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 20
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 15
+            NOT = {
+              development = 20
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 30
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 20
+            NOT = {
+              development = 25
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 40
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 25
+            NOT = {
+              development = 30
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 50
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 30
+            NOT = {
+              development = 35
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 60
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 35
+            NOT = {
+              development = 40
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 70
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 40
+            NOT = {
+              development = 45
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 80
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 45
+            NOT = {
+              development = 50
+            }
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 90
+          culture = culture_fungarian
+        }
+
+      }
+      if = {
+        limit = {
+          2723 = {
+            development = 50
+          }
+        }
+        create_general = {
+          name = "Deadrot Fungalmancer"
+          tradition = 100
+          culture = culture_fungarian
+        }
+
+      }
+    }
+
+  }
+}
+
+country_event = {
+  id = wwu_nazmir.5
+  title = wwu_nazmir.5.title
+  desc = wwu_nazmir.5.desc
+  picture = NAZMIR_3_eventPicture
+
+  is_triggered_only = yes
+
+  trigger = {
+    check_variable = {
+      which = nazmir_expedition
+      value = 1
+    }
+        region_nazmir = {
+          OR = {
+            colonysize = 50
+            owned_by = ROOT
+          }
+          has_province_modifier = zandalar_trap_3
+        }
+    NOT = {
+      has_country_flag = event_nazmir_5_open
+    }
+  }
+
+
+  immediate = {
+    hidden_effect = {
+      set_country_flag = event_nazmir_5_open
+    }
+  }
+
+  option = {
+    name = wwu_nazmir.5.op1
+    country_event = {
+      id = wwu_nazmir.6
+    }
+    custom_tooltip = event_5_tooltip_a
+    add_adm_power = -25
+    add_dip_power = -25
+    add_mil_power = -25
+    add_manpower = -2
+    hidden_effect = {
+
+      set_country_flag = event_nazmir_5_extra
+    }
+  }
+
+  option = {
+    name = wwu_nazmir.5.op2
+    country_event = {
+      id = wwu_nazmir.6
+    }
+
+
+  }
+}
+
+country_event = {
+  id = wwu_nazmir.6
+  title = wwu_nazmir.6.title
+  desc = wwu_nazmir.6.desc
+  picture = NAZMIR_3_eventPicture
+
+  is_triggered_only = yes
+
+  option = {
+    name = wwu_nazmir.6.op1
+    region_nazmir = {
+      limit = {
+        OR = {
+          colonysize = 50
+          owned_by = ROOT
+        }
+        has_province_modifier = zandalar_trap_3
+      }
+      decolonize = yes
+      cede_province = ROOT
+      add_core = ROOT
+      change_culture = ROOT
+      change_religion = ROOT
+      change_trade_goods = resource_oil
+      if = {
+        limit = {
+          has_province_modifier = zandalar_trap_3
+        }
+        remove_province_modifier = zandalar_trap_3
+        add_province_modifier = {
+          name = zandalar_fungarian_bad
+          duration = 9125
+          desc = zandalar_fungarian_bad_desc
+        }
+      }
+      if = {
+        limit = {
+          ROOT = {
+            has_country_flag = event_nazmir_5_extra
+          }
+        }
+        add_province_modifier = {
+          name = nazmir_expedition_size
+          duration = -1
+        }
+      }
+    }
+
+
+
+    add_treasury = -75
+    add_adm_power = -25
+    add_dip_power = -25
+    add_mil_power = -25
+
+    hidden_effect = {
+      change_variable = {
+        which = nazmir_expedition
+        value = -1
+      }
+      clr_country_flag = event_nazmir_5_open
+      clr_country_flag = event_nazmir_5_extra
+    }
+  }
+
+  option = {
+    name = wwu_nazmir.6.op2
+    region_nazmir = {
+      limit = {
+        OR = {
+          colonysize = 50
+          owned_by = ROOT
+        }
+        has_province_modifier = zandalar_trap_3
+      }
+      decolonize = yes
+      cede_province = ROOT
+      add_core = ROOT
+      change_culture = ROOT
+      change_religion = ROOT
+      change_trade_goods = resource_artifacts
+      if = {
+        limit = {
+          has_province_modifier = zandalar_trap_3
+        }
+        remove_province_modifier = zandalar_trap_3
+        add_province_modifier = {
+          name = zandalar_fungarian_bad
+          duration = 9125
+          desc = zandalar_fungarian_bad_desc
+        }
+      }
+      if = {
+        limit = {
+          ROOT = {
+            has_country_flag = event_nazmir_5_extra
+          }
+        }
+        add_province_modifier = {
+          name = nazmir_expedition_size
+          duration = -1
+        }
+      }
+    }
+
+
+    add_treasury = -50
+    add_adm_power = -10
+    add_dip_power = -10
+    add_mil_power = -10
+
+    hidden_effect = {
+      change_variable = {
+        which = nazmir_expedition
+        value = -1
+      }
+      clr_country_flag = event_nazmir_5_open
+      clr_country_flag = event_nazmir_5_extra
+    }
+  }
+
+  option = {
+    name = wwu_nazmir.6.op3
+    region_nazmir = {
+      limit = {
+        OR = {
+          colonysize = 50
+          owned_by = ROOT
+        }
+        has_province_modifier = zandalar_trap_3
+      }
+      decolonize = yes
+      cede_province = ROOT
+      add_core = ROOT
+      change_culture = ROOT
+      change_religion = ROOT
+      change_trade_goods = resource_fossils
+      if = {
+        limit = {
+          has_province_modifier = zandalar_trap_3
+        }
+        remove_province_modifier = zandalar_trap_3
+        add_province_modifier = {
+          name = zandalar_fungarian_bad
+          duration = 9125
+          desc = zandalar_fungarian_bad_desc
+        }
+      }
+      if = {
+        limit = {
+          ROOT = {
+            has_country_flag = event_nazmir_5_extra
+          }
+        }
+        add_province_modifier = {
+          name = nazmir_expedition_size
+          duration = -1
+        }
+      }
+    }
+    add_treasury = -25
+
+    hidden_effect = {
+      change_variable = {
+        which = nazmir_expedition
+        value = -1
+      }
+      clr_country_flag = event_nazmir_5_open
+      clr_country_flag = event_nazmir_5_extra
+    }
+  }
+
+  option = {
+    name = wwu_nazmir.6.op4
+    region_nazmir = {
+      limit = {
+        OR = {
+          colonysize = 50
+          owned_by = ROOT
+        }
+        has_province_modifier = zandalar_trap_3
+      }
+      decolonize = yes
+      cede_province = ROOT
+      add_core = ROOT
+      change_culture = ROOT
+      change_religion = ROOT
+      change_trade_goods = resource_common_wood
+      if = {
+        limit = {
+          has_province_modifier = zandalar_trap_3
+        }
+        remove_province_modifier = zandalar_trap_3
+        add_province_modifier = {
+          name = zandalar_fungarian_bad
+          duration = 9125
+          desc = zandalar_fungarian_bad_desc
+        }
+      }
+      if = {
+        limit = {
+          ROOT = {
+            has_country_flag = event_nazmir_5_extra
+          }
+        }
+        add_province_modifier = {
+          name = nazmir_expedition_size
+          duration = -1
+        }
+      }
+    }
+
+
+    hidden_effect = {
+      change_variable = {
+        which = nazmir_expedition
+        value = -1
+      }
+      clr_country_flag = event_nazmir_5_open
+      clr_country_flag = event_nazmir_5_extra
+    }
+  }
+}
+
+# Blood Cycle
+country_event = {
+  id = wwu_nazmir.7
+  title = wwu_nazmir.7.title
+  desc = wwu_nazmir.7.desc
+  picture = NAZMIR_3_eventPicture
+
+  is_triggered_only = yes
+
+  trigger = {
+    has_country_flag = event_nazmir_7
+    NOT = {
+      has_country_modifier = nazmir_blood_cycle_cd
+    }
+  }
+
+  immediate = {
+    hidden_effect = {
+    if = {
+      limit = {
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_discount
+            value = 1
+          }
+        }
+      }
+      add_country_modifier = {
+        name = nazmir_blood_cycle_cd
+        duration = 7300
+      }
+    }
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_discount
+          value = 1
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_discount
+            value = 2
+          }
+        }
+      }
+      add_country_modifier = {
+        name = nazmir_blood_cycle_cd
+        duration = 5475
+      }
+    }
+
+
+    }
+  }
+
+  option = {
+    name = wwu_nazmir.7.op1
+
+    if = {
+      limit = {
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 3
+          }
+        }
+      }
+      blood_add_1 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 3
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 6
+          }
+        }
+      }
+      blood_add_2 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 6
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 9
+          }
+        }
+      }
+      blood_add_3 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 9
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 12
+          }
+        }
+      }
+      blood_add_4 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 12
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 15
+          }
+        }
+      }
+      blood_add_5 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 15
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 18
+          }
+        }
+      }
+      blood_add_6 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 18
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 21
+          }
+        }
+      }
+      blood_add_7 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 21
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 24
+          }
+        }
+      }
+      blood_add_8 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 24
+        }
+        NOT = {
+          check_variable = {
+            which = nazmir_blood_mini
+            value = 27
+          }
+        }
+      }
+      blood_add_9 = yes
+    }
+
+    if = {
+      limit = {
+        check_variable = {
+          which = nazmir_blood_mini
+          value = 27
+        }
+      }
+      blood_add_10 = yes
+    }
+  }
+}
+
+country_event = {
+  id = wwu_nazmir.9
+  title = wwu_nazmir.9.title
+  desc = wwu_nazmir.9.desc
+  picture = NAZMIR_3_eventPicture
+
+  is_triggered_only = yes
+
+  trigger = {
+    has_country_flag = first_blood_matron
+    NOT = {
+      has_country_modifier = blood_matron_gift_cd
+    }
+    NOT = {
+      has_country_flag = blood_matron_gift_received
+    }
+  }
+
+  immediate = {
+    set_country_flag = blood_matron_gift_received
+  }
+
+  option = {
+    name = wwu_nazmir.9.op1
+    trigger = {
+      NOT = {
+        tag = NZM
+      }
+      NZM = {
+        is_subject_of = ROOT
+      }
+    }
+      add_adm_power = 100
+      add_country_modifier = {
+        name = blood_matron_gift_nzm
+        duration = 5475
+      }
+  }
+
+  option = {
+    name = wwu_nazmir.9.op2
+    trigger = {
+      NOT = {
+        tag = NTV
+      }
+      NTV = {
+        is_subject_of = ROOT
+      }
+    }
+      add_dip_power = 100
+  random_list = {
+  	30 = {
+define_advisor = {
+    type = treasurer
+    name = "Butcher treasurer"  
+    skill = 1
+    female = yes
+    cost_multiplier = 0.5
+}
+  	}
+  	30 = {
+define_advisor = {
+    type = spymaster
+    name = "Butcher spymaster"  
+    skill = 1
+    female = yes
+    cost_multiplier = 0.5
+}
+  	}
+  	30 = {
+define_advisor = {
+    type = commandant
+    name = "Butcher commandant"  
+    skill = 1
+    female = yes
+    cost_multiplier = 0.5
+}
+  	}
+  	10 = {
+define_advisor = {
+    type = army_reformer
+    name = "Butcher from Diablo"  
+    skill = 3
+    female = yes
+    cost_multiplier = 0.05
+}
+  	}
+  }
+  }
+
+  option = {
+    name = wwu_nazmir.9.op3
+    trigger = {
+      NOT = {
+        tag = AMK
+      }
+      AMK = {
+        is_subject_of = ROOT
+      }
+    }
+      add_mil_power = 100
+  define_general = {
+    shock = 6           
+    fire = 2    
+    manuever = 0    
+    siege = 3
+    name = "Warmother Champion"
+    female = yes
+    trait = master_of_arms_personality
+}
+  }
+
+
+}
+
+#ai helper event
+country_event = {
+	id = wwu_nazmir.8
+	title = wwu_nazmir.1.title
+	desc = wwu_nazmir.1.desc
+	picture = ZANDALAR_1_eventPicture
     
     is_triggered_only = yes
 
-    immediate = {
-		capital_scope = {
-    remove_province_triggered_modifier = blood_totem_building_province
+  immediate = {
+		    change_variable = {
+                which = nazmir_ai_help
+                value = 1
             }
+  }
+
+  option = {
+    name = wwu_nazmir.8.op1
+
+if = {
+	limit = {
+		NOT = {
+		    check_variable = {
+                which = nazmir_ai_help
+                value = 6
+            }
+		}
 	}
-	option = {
-		name = wwu_nazmir.2.op1
-        custom_tooltip = event_2_tooltip
-		capital_scope = {
-		                add_province_triggered_modifier = blood_totem_province
-            }
-			hidden_effect = {
-					random_easy_sacrificial = yes
-					random_medium_sacrificial = yes
-					random_hard_sacrificial = yes
-					}
+	country_event = { 
+   		id = wwu_nazmir.8          
+    	days = 1460       
 	}
 }
 
+if = {
+	limit = {
+		NOT = {
+		    check_variable = {
+                which = nazmir_ai_help
+                value = 4
+            }
+		}
+		    check_variable = {
+                which = nazmir_ai_help
+                value = 3
+            }
+	}
+complete_mission = NAZ_five_four
+}
+
+if = {
+	limit = {
+		NOT = {
+		    check_variable = {
+                which = nazmir_ai_help
+                value = 2
+            }
+		}
+		    check_variable = {
+                which = nazmir_ai_help
+                value = 1
+            }
+	}
+complete_mission = NAZ_one_two
+complete_mission = NAZ_one_three
+complete_mission = NAZ_one_four
+complete_mission = NAZ_one_five
+}
+
+        change_variable = {
+          which = nazmir_small
+          value = 1
+        }
+        change_variable = {
+          which = nazmir_medium
+          value = 1
+        }
+        change_variable = {
+          which = nazmir_big
+          value = 1
+        }
+blood_add_3 = yes
+blood_add_2 = yes
+add_manpower = 5
+add_treasury = 100
+  }
+
+}
+
+# Blood god immortal gift
+country_event = {
+	id = wwu_nazmir.10
+	title = wwu_nazmir.10.title
+	desc = wwu_nazmir.10.desc
+	picture = NAZMIR_4_eventPicture
+	
+  trigger = {
+    has_country_flag = three_four_nazmir
+      NOT = {
+        has_ruler_flag = nazmir_gift_event
+      }
+  }
+	is_triggered_only = yes
+
+  immediate = {
+    set_ruler_flag = nazmir_gift_event
+  }
+    
+    # Take gift
+	option = {
+		name = wwu_nazmir.10.op1
+		
+        custom_tooltip = nazmir_took_gift
+        hidden_effect = {
+            set_ruler_flag = is_immortal
+			set_ruler_flag = nazmir_took_gift
+      add_country_modifier = {
+        name = nazmir_took_gift
+        duration = 360
+        hidden = yes
+      }
+        }
+		
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+    # No
+	option = {
+		name = wwu_nazmir.10.op2
+
+    custom_tooltip = nazmir_reject_gift
+		add_prestige = -20
+		add_devotion = -20
+        
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+# Death after got blessing
+country_event = {
+	id = wwu_nazmir.11
+	title = wwu_nazmir.11.title
+	desc = wwu_nazmir.11.desc
+	picture = NAZMIR_4_eventPicture
+	
+	is_triggered_only = yes
+    
+    # Death after got blessing
+	option = {
+		name = wwu_nazmir.11.op1
+		
+		kill_ruler = yes
+    blood_add_5 = yes
+		
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+    
+}
+
+# Check if you have 1 blood
+country_event = {
+	id = wwu_nazmir.12
+	title = wwu_nazmir.12.title
+	desc = wwu_nazmir.12.desc
+	picture = NAZMIR_4_eventPicture
+
+  trigger = {
+  has_ruler_flag = nazmir_took_gift
+  NOT = {
+      has_country_modifier = nazmir_took_gift
+      }
+  }
+
+  hidden = yes
+	
+	is_triggered_only = yes
+    
+    # Check if you have 1 blood
+	option = {
+		name = wwu_nazmir.12.op1
+		
+    if = {
+      limit = {
+            check_variable = {
+              which = nazmir_blood
+              value = 1
+            }
+      }
+            change_variable = {
+              which = nazmir_blood
+              value = -1
+            }
+      add_country_modifier = {
+        name = nazmir_took_gift
+        duration = 360
+        hidden = yes
+      }
+    }
+        else = {
+          hidden_effect = {
+            country_event = {
+              id = wwu_nazmir.11
+            }
+          }
+
+        }
+		
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+    
+}
+	

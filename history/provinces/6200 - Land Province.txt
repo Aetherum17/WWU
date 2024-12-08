@@ -1,0 +1,25 @@
+is_city = yes 
+
+owner = TWA
+controller = TWA
+add_core = TWA
+
+base_tax = 4
+base_production = 3
+base_manpower = 5
+
+culture = culture_forest_troll
+religion = voodoo
+
+hre = no
+trade_goods = resource_artifacts
+
+center_of_trade = 1
+
+
+ 
+619.1.1 = {
+    owner = A58
+    controller = A58
+    add_core = A58
+}

@@ -1,0 +1,12 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Stratholme
+ #----------------------------------------------- 
+ wwu_flavour_stratholme.1.title: "Stratholme Formation"
+ wwu_flavour_stratholme.1.desc: "We finally unified the rich forested lands of Eastweald! How should we be called now?"
+ wwu_flavour_stratholme.1.a: "Stratholme"
+ wwu_flavour_stratholme.1.b: "Eastweald"
+ 
+ # Name Change
+ EASTWEALD: "Eastweald"
+ EASTWEALD_ADJ: "Eastweald"

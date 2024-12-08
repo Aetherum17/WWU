@@ -1,0 +1,80 @@
+namespace = wwu_flavour_broken_isles
+
+# Pick a name for Dragon Isles
+country_event = {
+	id = wwu_flavour_broken_isles.1
+	title = wwu_flavour_broken_isles.1.title
+	desc = wwu_flavour_broken_isles.1.desc
+	picture = DRAENOR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_broken_isles.1.a
+		override_country_name = BROKEN_ISLES
+		ai_chance = {		
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_broken_isles.1.b
+
+		trigger = {
+		   OR = {
+		        primary_culture = culture_night_elf
+		        primary_culture = culture_highbourne	
+                primary_culture = culture_nightborne
+			    primary_culture = culture_felborne
+				primary_culture = culture_nightfallen
+		        primary_culture = culture_satyr  
+	    	}			
+		}
+		
+		override_country_name = THALDRANATH			
+		set_capital = 2667
+		if = {
+		    limit = {
+			    OR = {
+				    primary_culture = culture_night_elf
+		            primary_culture = culture_highbourne
+					primary_culture = culture_nightborne
+					primary_culture = culture_nightfallen
+				}
+			}
+		    2667 = {
+		        change_province_name = "Temple of Elune"
+		    }
+		}
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_broken_isles.1.c
+
+		trigger = {
+		   OR = {
+		        primary_culture = culture_nazja
+		        primary_culture = culture_vashjari
+			    primary_culture = culture_azsharan	
+			    religion = cthun
+			    religion = nzoth
+			    religion = yogg_saron
+			    religion = yshaarj
+			    religion = sha
+			    religion = twilight_cult
+			    religion = void
+	    	}			
+		}
+				
+		override_country_name = KTANTH			
+		set_capital = 2667
+		2667 = {
+		    change_province_name = "K'tanth"
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

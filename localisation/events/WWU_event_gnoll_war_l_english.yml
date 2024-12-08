@@ -1,0 +1,15 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Gnoll War
+ #----------------------------------------------- 
+ wwu_gnoll_war.1.title: "Stormwind Armed Forces"
+ wwu_gnoll_war.1.desc: "While our struggle continues, a group of brave men and woman had mobilized and joined our rank, allowing us to reinforce our missing soldiers. While their arrivel brings new hope to our troops, it means less will be there to rebuild once this war comes to an end."
+ wwu_gnoll_war.1.option.a: "Whatever will be, soldiers are welcome."
+
+ wwu_gnoll_war.2.title: "Hunt of the Packlord"
+ wwu_gnoll_war.2.desc: "Having breached gaps in Gnoll Horde defences, we were able to lay siege to their capital. Once we raised the local camp to the ash, we were able to face and defeat the Packlord behind this scourge. And soon, his head shall be rolling down from his shoulders."
+ wwu_gnoll_war.2.option.a: "Die, fiend."
+
+ wwu_gnoll_war.3.title: "Death of the Packlord"
+ wwu_gnoll_war.3.desc: "Enemies had reached our capital. The Packlord has been slain! With those news, the many warlords under our ranks had started to fight for power and dominance. Either we stabilize our realm, or we will face collapse!"
+ wwu_gnoll_war.3.option.a: "Grrrrllll?!"

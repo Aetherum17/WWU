@@ -1,0 +1,27 @@
+namespace = wwu_flavour_lordaeron
+
+# Pick a name for Lordaeron
+country_event = {
+	id = wwu_flavour_lordaeron.1
+	title = wwu_flavour_lordaeron.1.title
+	desc = wwu_flavour_lordaeron.1.desc
+	picture = ARTHAS_MENETHIL_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_lordaeron.1.a
+		override_country_name = LORDAERON
+		ai_chance = {		
+			factor = 3
+		}
+	}
+	option = {
+		name = wwu_flavour_lordaeron.1.b
+		override_country_name = NORTHLANDS
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

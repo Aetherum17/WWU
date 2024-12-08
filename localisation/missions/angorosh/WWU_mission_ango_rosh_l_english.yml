@@ -1,8 +1,12 @@
 ﻿l_english:
+ # Outland Tree
+
  # --- Missions ---
- F69_ango_rosh_column_1: ""
- F69_ango_rosh_column_4: ""
- F69_ango_rosh_column_5: ""
+ F69_O_ango_rosh_column_1: ""
+ F69_O_ango_rosh_column_2: ""
+ F69_O_ango_rosh_column_3: ""
+ F69_O_ango_rosh_column_4: ""
+ F69_O_ango_rosh_column_5: ""
  
  F69_clobbering_time_title: "Clobbering Time"
  F69_clobbering_time_desc: "Since the destruction of our glorious capital of Goria and the fall of the great Gorian Empire, we have become broken, helpless, divided. Let us embark on a quest of vengeance and glory to reclaim what is rightfully ours so that we may yet awaken the spirit of our proud people! Let's start by attacking the sporelings! "
@@ -66,4 +70,147 @@
  desc_mission_ogre_empire: ""
  
  contested_draenei_holdings_tt: "Completed Mission §YContest Draenei Holdings§!"
+
+
+ # Draenor Tree
+ F69_D_ango_rosh_column_1: ""
+ F69_D_ango_rosh_column_2: ""
+ F69_D_ango_rosh_column_3: ""
+ F69_D_ango_rosh_column_4: ""
+ F69_D_ango_rosh_column_5: ""
+
+ # Missions
+
+ # Column 1
+ F69_D_isle_of_strenght_title: "Isle of Strenght"
+ F69_D_isle_of_strenght_desc: "The Isle of Strenght stands as important location for our control of the region. We must defeat the unworthy Boulderfist clan, and claim it as our own!"
+
+ F69_D_isle_of_strenght_dev_title: "Development of Ango'rosh Settlement"
+ F69_D_isle_of_strenght_dev_desc: "As we have moved further onto an island and established a community there, many of our wiser advisors suggested we make moves to move our main base onto it, allowing us establishment of bigger settlement, and in the future, a fortress."
+
+ F69_D_isle_of_strenght_str_title: "Ango'rosh Stronghold"
+ F69_D_isle_of_strenght_str_desc: "With our efforts, the Isle of Strenght had become a powerful base of operation for both our people and our soliders. With it, we have decided to establish the Ango'Rosh Hold on this island, serving as our primary bastion and secure place for our court."
+
+ F69_D_operation_wood_harvest_title: "Operation: Wood Harvest"
+ F69_D_operation_wood_harvest_desc: "We need more lumber. And so we have find a way to secure lumber supply."
+
+ F69_D_develop_economy_title: "Economical Development"
+ F69_D_develop_economy_desc: "We have to establish a way to secure founds for our war campains. By any means nessesary."
+
+ F69_D_build_the_fleet_title: "Construct the Fleet"
+ F69_D_build_the_fleet_desc: "To be able to challenge the enemies across the sea, one needs a navy able to withstand the Dreanor's waters. And we shall show everyone that Ogres are the best sailors across Draenor!"
+
+ # Column 2
+ F69_D_strenghten_tribals_title: "Strenghten the Tribals"
+ F69_D_strenghten_tribals_desc: "The Tribal Elders of our warband need to be respected."
+
+ F69_D_show_of_might_title: "The Show of Might"
+ F69_D_show_of_might_desc: "As we have expanded our realm, nobody stands to oppose us. With might of our leader, all of Draenor shall tremble in fear!"
+
+ F69_D_wood_chopping_efficiency_title: "Efficient Wood Chopping"
+ F69_D_wood_chopping_efficiency_desc: "Sharper Axes make for more officient wood harvest."
+
+ F69_D_weapons_of_war_title: "Weapons of War"
+ F69_D_weapons_of_war_desc: "If we are to wage war across the continent, we must prepare for many battles ahead of us. But when it comes to taking down enemy fortifications, weapons of war are what we need."
+
+ F69_D_ashran_expedition_title: "Ashran Expedition"
+ F69_D_ashran_expedition_desc: "In the far north of Draenor, we have heard tales of an island, full of jungles and forests. Before we settle there, however, we must secure a landing spot. And the old land of Ashran will have to work."
+
+ F69_D_fall_of_farahlon_title: "Fall of Faralhon"
+ F69_D_fall_of_farahlon_desc: "All we asked for. Infinite Lumber!"
+
+ # Column 3
+
+ F69_D_siege_of_shattrath_title: "Siege of Shattrath"
+ F69_D_siege_of_shattrath_desc: "The Draenei Scum had been eliminated, and the old capital had been reclaimed."
+
+ F69_D_restore_goria_title: "Restoration of Goria"
+ F69_D_restore_goria_desc: "The Old city of Goria had been reclaimed. Now, we are the true Gorians!"
+
+ F69_D_heirs_of_goria_title: "Heirs of Gorian Empire"
+ F69_D_heirs_of_goria_desc: "And so, the fake Emperor had fallen. Today, we stand. Today, we celebrate. For we are the true Gorian Empire!"
+
+ # Column 5
+
+ F69_D_outland_mission_switch_title: "Outland Mission Switch"
+ F69_D_outland_mission_switch_desc: "Mission Switch: Push after collapse of Draenor"
+
+ # Modifiers
+
+ # Column 1 M
+
+ province_angorosh_settlement: "Ango'rosh Settlement"
+ desc_province_angorosh_settlement: ""
+
+ province_angorosh_stronghold: "Ango'rosh Stronghold"
+ desc_province_angorosh_stronghold: ""
+
+ province_ogre_lumbermill: "Ogre Lumbermill"
+ desc_province_ogre_lumbermill: ""
+
+ mission_expansive_development: "Expansive Development"
+ desc_mission_expansive_development: ""
+
+ mission_naval_power: "Ango'rosh Naval Prowess"
+ desc_mission_naval_power: ""
+
+ mission_ogre_colonial_rush: "Colonial Rush"
+ desc_mission_ogre_colonial_rush: ""
+
+ # Column 2 M
+ ruler_great_conqueror: "The Great Conqueror"
+ desc_ruler_great_conqueror: ""
+
+ mission_searing_axe: "Searing Axes"
+ desc_mission_searing_axe: ""
+
+ # Column 3 M
+
+ mission_gorian_intergration: "Gorian Integration"
+ desc_mission_gorian_intergration: ""
+
+ mission_gorian_lands: "Gorian Land Law"
+ desc_mission_gorian_lands: ""
+
+ mission_angorosh_prestige: "Prestige of Victory"
+ desc_mission_angorosh_prestige: ""
+
+ # Events
+
+ wwu_angorosh.1.title: "The Ango'rosh Hold"
+ wwu_angorosh.1.desc: "For a long time, we had saw the Isle of Strenght as the worthy condender, for a massive fortification. However, as we expanded there, subjegated the local fauna and flora, as well as the very land, we had decided to settle on the stronghold. A bastion seperated by sea, able to protect itself from enemies in most dire of situation. From today onwards, the Isle of Strenght shall be known as Ango'rosh Hold, and from today, it shall serve as our home! For Ango'rosh!"
+ wwu_angorosh.1.option.a: "For Ango'rosh!"
+
+ wwu_angorosh.2.title: "The Weapons of War"
+ wwu_angorosh.2.desc: "As our expansions increases, we have learned about technologies and ideas we have long since been blind too. Now, as we have secured sufficient source of required resources, as wells as bright minds to develop them, we can think of expanding our capiblities of war."
+ wwu_angorosh.2.option.a: "The more efficient ammunition is required!"
+ wwu_angorosh.2.option.b: "The strike needs to be more powerful."
+ wwu_angorosh.2.option.c: "It's an issue of commanders, they need to study the theories."
+
+ wwu_angorosh.3.title: "The Fall of the Primals"
+ wwu_angorosh.3.desc: "Placeholder"
+ wwu_angorosh.3.option.a: "Cut them down. The land shall belong only to us."
+ wwu_angorosh.3.option.b: "They have their purpuse. One we will benefit from."
+ wwu_angorosh.3.option.c: "We shall make them useful."
+
+ # Event Modifiers
+
+ event_weapons_of_war_1: "Weapon of War: Burning Oil"
+ desc_event_weapons_of_war_1: ""
+
+ event_weapons_of_war_2: "Weapon of War: Advanced Frames"
+ desc_event_weapons_of_war_2: ""
+
+ event_weapons_of_war_3: "Weapon of War: Wartime Manuscript"
+ desc_event_weapons_of_war_3: ""
+
+ primal_angorosh_provinces: "Harvesting Primals"
+ desc_primal_angorosh_provinces: "The Primals had been subjegated, and their bodies shall works as lumber for our future rise."
  
+ # Special Loc
+
+ ANGOROSH_STRONGHOLD: "Ango'rosh Hold"
+ ANGOROSH_STRONGHOLD_ADJ: "Ango'rosh Hold"
+
+ UNLOCK_PRIMAL_HARVEST_CB_TT: "\nFollowing Mission Unlocks access to §YPrimal Harvest Casus Belli§!, available against all of the Botani."
+ FATE_OF_FARAHLON_EVENT_TT: "§YEvery province§! with §Ybotani culture§! in the §YFaralhon§! region will get §YHarvesting Primals§! until the end of the game, giving:\n§G+10%§! Local Goods Produced Modifier\n§R+3§! Local Unrest"

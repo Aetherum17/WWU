@@ -1,0 +1,28 @@
+government = tribal
+add_government_reform = tauren_tribe_reform
+add_government_reform = wwu_tribal_established_hierarchy_reform
+mercantilism 		= 10
+technology_group 	= tech_tauren
+religion			= tauren_shamanism
+primary_culture 	= culture_tauren
+capital 			= 1582
+religious_school = the_sunwalkers
+
+592.1.1 = {
+	monarch = {
+		name = "Cliffwatcher"
+		dynasty = "Longhorn"
+        birth_date = 570.1.1
+		adm = 4
+		dip = 5
+		mil = 5
+ 	}
+}
+
+622.1.1 = {
+    add_country_modifier = {
+        name = member_of_horde
+        duration = -1
+    }
+}
+

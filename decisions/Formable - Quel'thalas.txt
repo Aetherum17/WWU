@@ -50,7 +50,7 @@ country_decisions = {
             # General
 			is_at_war = no	
 			stability = 1
-            total_development = 500
+            total_development = 300
             
             # Cost
             adm_power = 200

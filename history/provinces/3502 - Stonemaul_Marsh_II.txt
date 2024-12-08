@@ -1,25 +1,22 @@
-
-is_city = yes
-
-owner = BD1
-controller = BD1
-add_core = BD1
+# Empty Province
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_black_dragonflight
-religion = corrupt_dragon_aspect
+culture = culture_makrura
+religion = water
 
 hre = no
 trade_goods = resource_common_fish
 
 
-
-
-
 600.1.1 = { 
+    is_city = yes
+	
     owner = F57
     controller = F57
     add_core = F57
@@ -37,24 +34,13 @@ trade_goods = resource_common_fish
 
 # Rise of the Qiraji
 622.1.1 = { 
-    owner = A99
-    controller = A99
-    add_core = A99
+    owner = BD1
+    controller = BD1
+    add_core = BD1
     culture = culture_black_dragonflight
     religion = corrupt_dragon_aspect    
 	base_tax = 1
     base_manpower = 1
     base_production = 1
-	capital = "Stonemaul Ruins Marsh II"
 }
-
-632.1.1 = {
-    # Empty Province
-    owner = B92
-   
-add_core = B92
-controller = B92
-    remove_core = A99
-}
-
 

@@ -1,13 +1,13 @@
 is_city = yes
-owner = EVB
-controller = EVB
-add_core = EVB
+owner = NOX
+controller = NOX
+add_core = NOX
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 4
+base_manpower = 5
 
-culture = culture_botani
+culture = culture_podling
 religion = sporemounds
 
 hre = no
@@ -15,7 +15,7 @@ trade_goods = resource_common_herbs
 
 # Orc Conflicts
 590.1.1 = {
-    remove_core = EVB
+    remove_core = NOX
     
     owner = A41
     controller = A41

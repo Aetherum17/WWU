@@ -13,6 +13,8 @@ religion = earth
 hre = no
 trade_goods = resource_magical_weaponry
 
+add_building = wow_fort_2
+
 
 548.1.1 = {
     owner = B17

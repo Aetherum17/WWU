@@ -20,14 +20,28 @@ P11_scourge_column_1 = {
 		required_missions = {  } 
                 		
 		trigger = {
+            is_great_power = yes
+            if = {
+                limit = {
+                    exists = P17
+                }
+                P17 = {
+                    NOT = { is_great_power = yes }
+                }
+            }
+            else = {
+                always = yes
+            }
+
             if = {
                 limit = {
                     exists = P17
                 }
                 has_spy_network_in = {
                     who = P17 # Jotunheim
-                    value = 30
+                    value = 45
                 }
+                
             }
             else = {
                 always = yes
@@ -52,7 +66,7 @@ P11_scourge_column_1 = {
             }
 		}
 	}
-	P11_corrupt_dragonflayer = { 
+	P11_corrupt_ymirjar = { 
 		icon = mission_paladin_blade_of_justice_2
         position = 2
 		completed_by = 616.12.31
@@ -64,11 +78,11 @@ P11_scourge_column_1 = {
 		trigger = {
             if = {
                 limit = {
-                    exists = B08
+                    exists = P15
                 }
                 has_spy_network_in = {
-                    who = B08 # Dragonflayer
-                    value = 30
+                    who = P15 # Ymirjar
+                    value = 45
                 }
             }
             else = {
@@ -76,7 +90,7 @@ P11_scourge_column_1 = {
             }
 		}
 		provinces_to_highlight = {
-            owned_by = B08 # Dragonflayer
+            owned_by = P15 # Ymirjar
         }
 		effect = {  
             if = {
@@ -86,7 +100,7 @@ P11_scourge_column_1 = {
       
                 create_subject = {
                     subject_type = scourge_vassal
-                    who = B08
+                    who = P15
                 }
             }
             else = {
@@ -99,7 +113,7 @@ P11_scourge_column_1 = {
         position = 3
         
 		required_missions = {
-			P11_corrupt_dragonflayer
+			P11_corrupt_ymirjar
 		} 
                 		
 		trigger = {
@@ -177,23 +191,23 @@ P11_scourge_column_1 = {
                     }
                 }
                 
-                if = {
-                    limit = {
-                        exists = B08
-                    }
-                    # Dragonflayer
-                    B08 = {
-                        add_historical_friend = ROOT
-                        
-                        change_religion = cult_of_the_damned
-                        
-                        every_owned_province = {
-                            change_religion = cult_of_the_damned
-                        }
-                        
-                        country_event = { id = wwu_scourge.3 } # Ymiron's Ascension
-                    }
-                }
+                #if = {
+                    #limit = {
+                       # exists = B08
+                    #}
+                    ## Dragonflayer
+                    #B08 = {
+                        #add_historical_friend = ROOT
+                        #
+                       # change_religion = cult_of_the_damned
+                        #
+                        #every_owned_province = {
+                        #    change_religion = cult_of_the_damned
+                        #}
+                        #
+                        #country_event = { id = wwu_scourge.3 } # Ymiron's Ascension
+                    #}
+                #}
 			}
 		}
 	}
@@ -328,48 +342,6 @@ P11_scourge_column_2 = {
     #-----------------------------------------
     # INTERNAL PATH
     #-----------------------------------------
-    P11_oust_ymirjar = { 
-		icon = mission_shaman_rage
-        position = 2
-        
-		required_missions = { P11_stabilize_the_frozen_throne }
-        
-		trigger = {
-            NOT = { exists = P15 }
-            3229 = { country_or_non_sovereign_subject_holds = ROOT }
-            3228 = { country_or_non_sovereign_subject_holds = ROOT }
-            947 = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		provinces_to_highlight = {
-            OR = {
-                owned_by = P15
-                province_id = 3229
-                province_id = 3228
-                province_id = 947
-            }
-            NOT = { country_or_non_sovereign_subject_holds = ROOT }
-        }
-		effect = {
-            # culture_vargul
-            3229 = {
-                change_culture = ROOT
-                change_religion = ROOT
-            }
-            3228 = {
-                change_culture = ROOT
-                change_religion = ROOT
-            }
-            947 = {
-                change_culture = ROOT
-                change_religion = ROOT
-            }
-            
-            add_power_projection = {
-                type = mission_rewards_power_projection
-                amount = 10
-            }
-		}
-	}
     
     P11_construct_corprethar_wall = { 
 		icon = mission_barracks

@@ -1,0 +1,163 @@
+graphical_culture = gorilla_gfx
+
+color = { 153 255 226 }
+
+monarch_names = {
+	"Runk-Runk" = 1
+	"Logo" = 1
+	"Mat Mat" = 1
+	"Zik Zik" = 1
+	"Kaklu" = 1
+	"Granuhl" = 1
+	"Jehl Jehl" = 1
+	"Juh Juh" = 1
+	"Abon" = 1
+	"Gubek" = 1
+	"Bo Bo" = 1
+	"Ringok" = 1
+	"Jagba" = 1
+	"Jumenku" = 1
+	"Tom Tom" = 1
+	"Uhl-Uhl" = 1
+	"Umben" = 1
+	"Kot-Kot" = 1
+	"Zhuru" = 1
+	"Lena" = 1
+	"Uklu" = 1
+	"Zumbohlo" = 1
+	"Fan-Fan" = 1
+	"Ot Ot" = 1
+	"Mekka" = 1
+	"Wuku" = 1
+	"Zooboomu" = 1
+	"Langka" = 1
+	"Eko" = 1
+	"Goklahe" = 1
+	"Moro" = 1
+	"Arlang" = 1
+	"To-to" = 1
+	"Mit Mit" = 1
+	"Lap-Lap" = 1
+	"Gramba" = 1
+	"Grom-Grom" = 1
+	"Eklaro" = 1
+	"Gikik" = 1
+	"Grukomu" = 1
+	"Wuk-Wuk" = 1
+	"Ip-Ip" = 1
+	"Te Te" = 1
+	"Unbu" = 1
+	"Doko" = 1
+	"Kah Kah" = 1
+	"Ruguru" = 1
+	"Gangkeno" = 1
+	"Groka" = 1
+	"Gramoon" = 1
+	"Runk-Runk" = -1
+	"Logo" = -1
+	"Mat Mat" = -1
+	"Zik Zik" = -1
+	"Kaklu" = -1
+	"Granuhl" = -1
+	"Jehl Jehl" = -1
+	"Juh Juh" = -1
+	"Abon" = -1
+	"Gubek" = -1
+	"Bo Bo" = -1
+	"Ringok" = -1
+	"Jagba" = -1
+	"Jumenku" = -1
+	"Tom Tom" = -1
+	"Uhl-Uhl" = -1
+	"Umben" = -1
+	"Kot-Kot" = -1
+	"Zhuru" = -1
+	"Lena" = -1
+	"Uklu" = -1
+	"Zumbohlo" = -1
+	"Fan-Fan" = -1
+	"Ot Ot" = -1
+	"Mekka" = -1
+	"Wuku" = -1
+	"Zooboomu" = -1
+	"Langka" = -1
+	"Eko" = -1
+	"Goklahe" = -1
+	"Moro" = -1
+	"Arlang" = -1
+	"To-to" = -1
+	"Mit Mit" = -1
+	"Lap-Lap" = -1
+	"Gramba" = -1
+	"Grom-Grom" = -1
+	"Eklaro" = -1
+	"Gikik" = -1
+	"Grukomu" = -1
+	"Wuk-Wuk" = -1
+	"Ip-Ip" = -1
+	"Te Te" = -1
+	"Unbu" = -1
+	"Doko" = -1
+	"Kah Kah" = -1
+	"Ruguru" = -1
+	"Gangkeno" = -1
+	"Groka" = -1
+	"Gramoon" = -1
+}
+
+leader_names = {
+	"Yipfist" "Yiplash" "Yipfury" "Yipfight" "Yipsmash" "Yipchaser" "Yippaw" "Yiptail" "Ookfist" "Ooklash" "Ookfury" "Ookfight" "Ooksmash" "Ookchaser" "Ookpaw" "Ooktail" "Dokfist" "Doklash" "Dokfury" "Dokfight" "Doksmash" "Dokchaser" "Dokpaw" "Doktail" "Takfist" "Taklash" "Takfury" "Takfight" "Taksmash" "Takchaser" "Takpaw" "Taktail" "Ruukfist" "Ruuklash" "Ruukfury" "Ruukfight" "Ruuksmash" "Ruukchaser" "Ruukpaw" "Ruuktail" "Rikifist"  "Rikifury" "Rikifight" "Rikismash" "Rikichaser" "Rikipaw" "Rikitail" "Kenifist" "Kenilash" "Kenifury" "Kenifight" "Kenismash" "Kenichaser" "Kenipaw" "Kenitail" "Gukfist" "Guklash" "Gukfury" "Gukfight" "Guksmash" "Gukchaser" "Gukpaw" "Guktail" "Hozfist" "Hozlash" "Hozfury" "Hozfight" "Hozsmash" "Hozchaser" "Hozpaw" "Hoztail"
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	hozen_inf_a_1
+	hozen_cav_a_1
+	hozen_inf_a_2
+	hozen_cav_a_2
+	hozen_inf_a_3
+	hozen_cav_a_3
+	hozen_inf_a_4
+	hozen_cav_a_4
+	hozen_inf_a_5
+	hozen_cav_a_5
+}
+

@@ -84,3 +84,6 @@
  
  estate_traders_regional_trade_hubs: "Regional Trade Hubs"
  estate_traders_regional_trade_hubs_desc: "Let us focus efforts on supporting regional trade hubs outside of our main hub. This will reduce our trade capacity at home, but other hubs will benefit greatly."
+
+ estate_traders_purchase_transport_ships_stormwind: "Purchase Merchant Transport Ships"
+ estate_traders_purchase_transport_ships_stormwind_desc: "Let us purchase the transport ships from the wealthy merchants, as we have more dire need for them right now."

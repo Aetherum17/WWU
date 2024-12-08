@@ -19,3 +19,13 @@ center_of_trade = 1
 600.1.1 = {
 	add_core = GDG
 }
+
+631.1.1 = {
+    owner = A19
+    controller = A19
+    add_core = A19
+    remove_core = A21
+		
+    religion = holy_light
+    culture = culture_kul_tiran
+}

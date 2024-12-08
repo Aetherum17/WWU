@@ -55,6 +55,7 @@ country_event = {
     picture = IRONFORGE_PORTAL_eventPicture
 
     is_triggered_only = yes
+    major = yes
     
     mean_time_to_happen = {
         days = 1
@@ -117,6 +118,7 @@ country_event = {
 
     is_triggered_only = yes
     mean_time_to_happen = { days = 1 }
+    major = yes
 
     option = {
         name = wwu_firelands.3.option.a
@@ -294,6 +296,7 @@ country_event = {
 
     is_triggered_only = yes
     mean_time_to_happen = { days = 1 }
+    major = yes
 
     option = {
         name = wwu_firelands.7.option.a
@@ -349,6 +352,7 @@ country_event = {
 
     is_triggered_only = yes
     mean_time_to_happen = { days = 1 }
+    major = yes
 
     option = {
         name = wwu_firelands.8.option.a
@@ -364,6 +368,167 @@ country_event = {
             add_dip_power = 750
 
             add_years_of_income = 6.0
+        }
+    }
+}
+
+#Blazerunner Submission
+country_event = {
+    id = wwu_firelands.9
+    title = wwu_firelands.9.title
+    desc = wwu_firelands.9.desc
+    picture = FIRELANDS_PORTAL_eventPicture
+
+    is_triggered_only = yes
+    major = yes
+
+    option = {
+        name = wwu_firelands.9.option.a
+
+        P26 = {
+            create_subject = {
+                subject_type = vassal
+                subject = BLA
+            }
+            country_event = { id = wwu_firelands.10 days = 3 }
+        }
+
+        ai_chance = {
+            factor = 20
+        }
+    }
+
+    option = {
+        name = wwu_firelands.9.option.b
+
+        add_prestige = 25
+        add_mil_power = 250
+
+        P26 = {
+            country_event = { id = wwu_firelands.11 days = 3 }
+        }
+
+        ai_chance = {
+            factor = 2
+        }
+    }
+}
+
+#Blazerunner Submission - Empowerment
+country_event = {
+    id = wwu_firelands.10
+    title = wwu_firelands.10.title
+    desc = wwu_firelands.10.desc
+    picture = FIRE_PLUMES_HEART_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_firelands.10.option.a
+
+        add_adm_power = -250
+        add_dip_power = -250
+        add_mil_power = -250
+        add_yearly_manpower = -1
+
+        add_country_modifier = {
+            name = event_blazerunner_empowerment_minor
+            duration = -1
+        }
+
+        BLA = {
+            area_fire_plume_ridge = {
+                limit = {
+                    is_empty = yes
+                }
+                cede_province = BLA
+                add_core = BLA
+                change_culture = culture_fire
+                change_religion = flame
+            }
+            1539 = {
+				if = {
+					limit = {
+						is_empty = yes
+					}
+					cede_province = BLA
+					add_core = BLA
+					change_culture = culture_fire
+					change_religion = flame
+				}
+            }
+            1528 = {
+                if = {
+                    limit = {
+                        is_empty = yes
+                    }
+                    cede_province = BLA
+					add_core = BLA
+					change_culture = culture_fire
+					change_religion = flame
+                }
+            }
+
+            1533 = {
+                add_core = BLA
+                cede_province = BLA
+
+                add_base_tax = 3
+                add_base_production = 3
+                add_base_manpower = 3
+                
+                change_culture = culture_fire
+                change_religion = flame
+            }
+
+            add_country_modifier = {
+                name = event_BLA_frontier_ten
+                duration = 3650
+            }
+
+            add_mil_power = 100
+            add_dip_power = 100
+            add_adm_power = 100
+        }
+
+        ai_chance = {
+            factor = 20
+        }
+    }
+
+    option = {
+        name = wwu_firelands.10.option.b
+
+        add_mil_power = 100
+        add_yearly_manpower = 2
+
+        add_country_modifier = {
+            name = event_blazerunner_empowerment_major
+            duration = -1
+        }
+
+        ai_chance = {
+            factor = 2
+        }
+    }
+}
+
+#Blazerunner Rejection
+country_event = {
+    id = wwu_firelands.11
+    title = wwu_firelands.11.title
+    desc = wwu_firelands.11.desc
+    picture = BARON_GEDDON_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_firelands.11.option.a
+
+        add_prestige = -20
+        
+        area_fire_plume_ridge = {
+            add_permanent_claim = ROOT
         }
     }
 }

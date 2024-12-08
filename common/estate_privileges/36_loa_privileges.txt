@@ -204,9 +204,6 @@ estate_loa_incite_berserkers = {
 	ai_will_do = {
 		factor = 0
 	}
-	ai_will_do = {
-		factor = 10
-	}
 }
 
 estate_loa_loyal_witch_doctors = {
@@ -233,9 +230,6 @@ estate_loa_loyal_witch_doctors = {
 	}
 	ai_will_do = {
 		factor = 0
-	}
-	ai_will_do = {
-		factor = 10
 	}
 }
 

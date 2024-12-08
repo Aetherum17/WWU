@@ -168,7 +168,7 @@
  mission_durotar_conquest: "Conquest of Durotar"
  desc_mission_durotar_conquest: ""
 
- mission_cull_witchwing: "Cull of Witching"
+ mission_cull_witchwing: "Cull of Witchwing"
  desc_mission_cull_witchwing: ""
 
  mission_rule_stonetalon: "Rule Stonetalon"
@@ -194,9 +194,6 @@
 
  event_centaur_heirs_earth: "Heirs of the Centaur Race: Earth"
  desc_event_centaur_heirs_earth: ""
-
- mission_raiding_parties: "Centaur Subjegations"
- desc_mission_raiding_parties: ""
 
  allow_siberian_frontier_20Y: "Allow Siberian Frontier 20Y"
  desc_allow_siberian_frontier_20Y: ""
@@ -230,6 +227,8 @@
  # Tooltips
  CENTAUR_CB_TT: "The Following Mission Unlocks special CB against all Tauren nations"
 
+ primary_artifact_apocalypse: "Primary Artifact is: Apocalypse"
+
  IMMORTAL_RULER_TT: "Following Mission will make your current ruler Immortal. Remember to not make him a general!"
 
  IMMORTAL_RULER_EVENT_TT: "Following Event will make your current ruler Immortal. Remember to not make him a general!"
@@ -244,7 +243,7 @@
  wwu_centaur_marauders.1.desc: "As tales of our conquest reach the most further corners of Kalimdor and even beyond, and ballades of doom are sang by the wary travelers, we have proven once for one that we can be seen as legitimate heirs to the Centaur civilization. The Question of our belives comes to the question, for we know that we are the children of Earth and Nature, born and created by it. What faith should we follow, to honor our heretige?"
  wwu_centaur_marauders.1.option.a: "The Nature is our call. We shall honor our father, Zaetar."
  wwu_centaur_marauders.1.option.b: "The Spirits of our Ancestors are our only heretige. The Path of Shamanism stands before us."
- wwu_centaur_marauders.1.option.c: "Our one, true creator. The Earthmother."
+ wwu_centaur_marauders.1.option.c: "Our one, true creator. The Earth."
 
  wwu_centaur_marauders.2.title: "The Centaur - Razormane War"
  wwu_centaur_marauders.2.desc: "Our lands had been invaded by the army of the Centaur Marauders, a local threat on the rise to become dangerous enemy in the future. We should be cautious of their actions, as they had claimed some of our lands, and if they manage to get control of them, they may take them by force!"

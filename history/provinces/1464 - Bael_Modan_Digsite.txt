@@ -2,6 +2,7 @@ is_city = yes
 owner = SKY
 controller = SKY
 add_core = SKY
+add_core = SES
 
 base_tax = 2
 base_production = 2
@@ -20,7 +21,7 @@ trade_goods = unknown
     controller = B68
     add_core = B68
     
-    culture = culture_quillboar
-    religion = earth
+    culture = culture_tauren
+    religion = tauren_shamanism
 }
 

@@ -1350,4 +1350,32 @@ A22_scarlet_crusade_column_5 = {
 			}
 		}
 	}
+	
+	A22_the_hunt_for_the_damned_a22 = {
+		icon = mission_paladin_beacon_of_light
+        position = 7
+
+		required_missions = { } 
+        
+		trigger = {
+			has_estate_privilege = estate_clergy_eternal_damnation
+			has_estate = estate_clergy
+			religion = scarlet_light
+			
+			OR = {
+				num_of_allies = 2
+				num_of_subjects = 2
+			}
+			
+        }
+		effect = { 
+			add_country_modifier = {
+				name = mission_scarlet_crusade_hunting_damned_a22
+				duration = -1
+				desc = tooltip_mission_scarlet_crusade_hunting_damned_a22
+			}	
+			add_adm_power = 150
+			add_mil_power = 150
+		}
+	}
 }

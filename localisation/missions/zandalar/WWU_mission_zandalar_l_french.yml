@@ -6,6 +6,8 @@
  A78_zandalar_column_4: ""
  A78_zandalar_column_5: ""
  
+ grain_shortage: "Grain Shortage"
+ 
  A78_zan_one_two_title: "Fleet Renovation"
  A78_zan_one_two_desc: "Zandalar has had a great fleet since Shattering. We must start re-creating our invincible armada."
  
@@ -151,6 +153,24 @@
  TSP_zemlan_five_six_desc: "Our captain has been painstakingly learning magic over the years to get rid of the curse. Instead, however, after much research, he concluded that he would be able to alter the operation of the curse, thereby making his and his crew's behavior less chaotic; improving the curse itself."
  
  # --- Modifiers ---
+ zandalar_tribute_to_nazmani: "A tribute to the Nazmani tribe"
+ desc_zandalar_tribute_to_nazmani: "The government is too weak to effectively defend itself against the bloodthirsty tribes of bloody trolls, although it is only temporary, we are forced to pay them tribute."
+ 
+ zandalar_tribute_to_nathavor: "A tribute to the Natha'vor tribe"
+ desc_zandalar_tribute_to_nathavor: "The government is too weak to effectively defend itself against the bloodthirsty tribes of bloody trolls, although it is only temporary, we are forced to pay them tribute."
+ 
+ zandalar_tribute_to_amaki: "A tribute to the Amaki tribe"
+ desc_zandalar_tribute_to_amaki: "The government is too weak to effectively defend itself against the bloodthirsty tribes of bloody trolls, although it is only temporary, we are forced to pay them tribute."
+ 
+ zandalar_tribute_to_nazmir: "A tribute to the Nazmir Matriarchy"
+ desc_zandalar_tribute_to_nazmir: "The government is too weak to effectively defend itself against the bloodthirsty tribes of bloody trolls, although it is only temporary, we are forced to pay them tribute."
+ 
+ zandalar_tribute_tribes: "Tribute from Zandalar"
+ desc_zandalar_tribute_tribes: "Fearing the bloody trolls, Zandalar pays us tribute. Once they deal with their problems, they will most likely stop paying it."
+ 
+ zandalar_tribute_nazmir: "Tribute from Zandalar"
+ desc_zandalar_tribute_nazmir: "Fearing the bloody trolls, Zandalar pays us tribute. Once they deal with their problems, they will most likely stop paying it."
+ 
  zandalar_thunder_gift_tool: "[A78.Monarch.GetName] will be §YImmortal§!"
  desc_zandalar_thunder_gift_tool: ""
  
@@ -226,14 +246,17 @@
  zandalari_nagas_2: "Focusing Strength on Artifacts"
  desc_zandalari_nagas_2: ""
  
- rusty_empire_one: "Rusty Military"
- desc_rusty_empire_one: ""
+ zandalar_rusty_military: "Weak Military"
+ desc_zandalar_rusty_military: ""
  
- rusty_empire_two: "Rusty Diplomacy"
- desc_rusty_empire_two: ""
+ zandalar_rusty_diplomacy: "Inept Diplomacy"
+ desc_zandalar_rusty_diplomacy: ""
  
- rusty_empire_three: "Rusty Administration"
- desc_rusty_empire_three: ""
+ zandalar_rusty_administration: "Rusty Administration"
+ desc_zandalar_rusty_administration: ""
+ 
+ zandalar_resurgent_empire: "Resurgent Empire"
+ desc_zandalar_resurgent_empire: ""
  
  zul_bad_event_aa: "Bad Omen"
  desc_zul_bad_event_aa: ""
@@ -262,8 +285,22 @@
  zul_good_event_dd: "Good Incident"
  desc_zul_good_event_dd: ""
  
+ powerful_zandalar_loa_blessing: "Greatest blessing from the Loa of Kings"
+ desc_powerful_zandalar_loa_blessing: "The ruler's lifespan is §Y250 years§!. After crossing this age, the ruler's soul will go to Loa."
+ 
+ great_zandalar_loa_blessing: "Great blessing from the Loa of Kings"
+ desc_great_zandalar_loa_blessing: "The ruler's lifespan is §Y200 years§!. After crossing this age, the ruler's soul will go to Loa."
+ 
+ zandalar_loa_blessing: "Blessing from the Loa of Kings"
+ desc_zandalar_loa_blessing: "The ruler's lifespan is §Y150 years§!. After crossing this age, the ruler's soul will go to Loa."
+
+ zandalar_mine_1: "Zandalar Gold Administration"
+
+ zandalar_mine_2: "Advanced Zandalar Gold Administration"
+ 
+ zandalar_mine_3: "The most efficient Administration of Zandalar Gold"
  # --- Tooltips ---
- zul_domination_effect_a: "\n§G+1§! to §lDiplomatic Superiority§!"
+ zandalar_diplomatic_superiority_effect_a: "\n§G+1§! to §lDiplomatic Superiority§!"
  
  zandalari_event_council_not_ready_buff: "\nYou can only use one of the §lZul power§! or §lZul influence§! sudden drop actions once every 10 years and if you have the required amount of them."
  
@@ -305,7 +342,7 @@
  
  zandalari_tooltip_five_seven_a: "Choose one from three §THero Mercenary Companies§!."
 
- zandalari_tooltip_rusty_empire_a: "To end this disaster you have to complete mission §YThe end of the Rusty Empire§!."
+ RUSTY_EMPIRE_END_COND_TT: "To end this disaster you have to complete mission §YThe end of the Rusty Empire§!."
  
  zandalari_tooltip_rusty_empire_b: "The §YThe Rusty Empire§! disaster will be ended."
 
@@ -335,13 +372,31 @@
 
  zandalari_tooltip_five_thirteen_a: "§YThe mission reward§! depends on the choice made during the §YEvent Chain§! concerning §YThe Civil War§!."
  
+ powerful_zandalar_loa_blessing_tool: "The ruler receives the greatest blessing of the Loa. Its lifespan will be §Y250 years§!.\n"
+ 
+ great_zandalar_loa_blessing_tool: "The ruler receives the great blessing of the Loa. Its lifespan will be §Y200 years§!.\n"
+ 
+ zandalar_loa_blessing_tool: "The ruler receives the blessing of the Loa. Its lifespan will be §Y150 years§!.\n"
+ 
+ zandalar_pay_tribute: "An emissary will be sent to each troll tribe asking for tribute. Each acceptance of tribute will cost us §R-12§!¤ yearly tax income for §Y5 years§!, if Nazmir unites, it will cost us §R-36§!¤ yearly tax income. Agreeing to the tribute will mean a truce for §Y5 years§!.\n\nIf the tribe does not agree to the tribute, we will no longer send requests to it."
+ 
+ zandalar_cant_stop_tribute: "An emissary will be sent to each troll tribe asking for tribute. Each acceptance of tribute will cost us §R-12§!¤ yearly tax income for §Y5 years§!, if Nazmir unites, it will cost us §R-36§!¤ yearly tax income. Agreeing to the tribute will mean a truce for §Y5 years§!.\n\nIf the tribe does not agree to the tribute, we will no longer send requests to it.\n\n§gAs long as the Rusty Empire disaster lasts, we cannot refuse to send an emissary.§!"
+ 
+ zandalar_stop_tribute: "No emissary will be sent and the event will no longer appear."
+ 
+ zandalar_accept_tribute: "The next emissary will be sent by Zandalar in §Y5 years§!. After their §Ydisaster§! is over, they most likely won't do it.\n"
+
+ zandalar_reject_tribute: "This event will not appear again"
+ 
+ zandalar_gold_mines_upgrade: "Every owned province with:\n    Has Expanded Infrastracture at least §Y1§! times.\n    §YProvince(s)§! producing §YTreasure§!\nwill get conditional modifier:\n    Local Goods Size: §G+1§!\n    Local Gold Depletion Chance: §G-15%§!\nFor each level of §YExpand Infrastructure§!, the modifier level will increase, up to a maximum of §Y3§!.\n\nEach time §YExpand Infrastructure§! is used, the province will gain the above modifier, up to a maximum of level §Y3§!.\n\nIf you have met the mission requirements (without having trade goods §YTreasury§!) for the §YAtal'gral§! province, start producing §YTreasure§! there."
+ 
  # Mercenary Company unlocks
  z_merc_company_oondasta_a_tt: "Unlock the §YOondasta§! Mercenary Company.\nCompany bonuses are:\n§G+10%§! Discipline\n§G+25%§! Cavalry Combat Ability\n§G+50%§! Cavalry to Infantry Ratio\n§G-10%§! Shock Damage Received"
  z_merc_company_oondasta_b_tt: "Unlock the §YOondasta§! Mercenary Company.\nCompany bonuses are:\n§G+10%§! Discipline\n§G+25%§! Cavalry Combat Ability\n§G+50%§! Cavalry to Infantry Ratio\n§G-20%§! Shock Damage Received"
  z_merc_company_oondasta_c_tt: "Unlock the §YOondasta§! Mercenary Company.\nCompany bonuses are:\n§G+10%§! Discipline\n§G+25%§! Cavalry Combat Ability\n§G+50%§! Cavalry to Infantry Ratio\n§G-30%§! Shock Damage Received"
  z_merc_company_devilsaur_tt: "Unlock the §YDevilsaurs§! Mercenary Company.\nCompany bonuses are:\n§G+5%§! Discipline\n§G+20%§! Cavalry Combat Ability\n§G+50%§! Cavalry to Infantry Ratio"
  z_merc_company_rezan_tt: "Unlock the §YRezan the Loa of Kings§! Mercenary Company.\nCompany bonuses are:\n§G+15%§! Discipline\n§G+33%§! Cavalry Combat Ability\n§G+50%§! Cavalry to Infantry Ratio"
- z_merc_company_construct_1_tt: "Unlock the §YRuby Constructs! Mercenary Company.\nCompany bonuses are:\n§G+2.5%§! Discipline\n§G-10%§! Fire Damage Received\n§G-10%§! Schock Damage Received"
+ z_merc_company_construct_1_tt: "Unlock the §YRuby Constructs§! Mercenary Company.\nCompany bonuses are:\n§G+2.5%§! Discipline\n§G-10%§! Fire Damage Received\n§G-10%§! Schock Damage Received"
  z_merc_company_construct_2_tt: "Unlock the §YEmerald Constructs§! Mercenary Company.\nCompany bonuses are:\n§G+2.5%§! Discipline\n§G-10%§! Fire Damage Received\n§G-10%§! Schock Damage Received"
  z_merc_company_paku: "Unlock the §YPa'ku The Lord of Winds§! Mercenary Company.\nCCompany bonuses are:\n§G+15%§! Discipline\n§G+10%§! Cavalry Combat Ability\n§G+50%§! Cavalry to Infantry Ratio\n§G+33%§! Movement Speed"
  z_merc_company_gonk: "Unlock the §YGonk The Loa of the Hunt§! Mercenary Company.\nCCompany bonuses are:\n§G+15%§! Discipline\n§G+20%§! Cavalry Combat Ability\n§G+50%§! Cavalry to Infantry Ratio\n§G+20%§! Movement Speed"
@@ -451,6 +506,32 @@
  wwu_zandalar.42.op1: "Let her be the first in line to the Golden Throne!"
  wwu_zandalar.42.op2: "We don't need such descendant"
  
+ wwu_zandalar.43.title: "A tribute to blood trolls"
+ wwu_zandalar.43.desc: "The King of Zandalar, whose power was once unchallenged, now faces unprecedented challenges. Blood trolls, plague the borders of the empire, spreading havoc and fear into the hearts of its inhabitants. With each passing day, as the sun sinks below the horizon, blood trolls go on the hunt, attacking villages and caravans, kidnapping victims for their dark rituals. The empire, already weakened by internal conflicts and political intrigues, is barely able to maintain its positions. In desperation, the King of Zandalar decides to make a reluctant deal with the blood trolls. In exchange for a fragile ceasefire, the empire must pay tribute - gold - to ensure temporary peace. This solution, although controversial, seems to be the only way to avoid an open war that the empire is unable to win. However, each tribute paid to the bloodtrolls only strengthens their position and courage, and the king realizes that this is only temporary relief. He must find a lasting solution before the blood trolls become too powerful to stop."
+ wwu_zandalar.43.op1: "Let's pay tribute"
+ wwu_zandalar.43.op2: "Zandalar is an empire that does not have to kneel"
+ 
+ wwu_zandalar.45.title: "A messenger with a tribute from Zandalar"
+ wwu_zandalar.45.desc: "A messenger from Zandalar, dressed in robes decorated with gold and symbols of the empire, bows before the [Root.Monarch.GetTitle] [Root.Monarch.GetName] of the blood trolls. In his hands lies a chest full of gold and precious stones - a tribute from a king who desires temporary peace. But in the eyes of the [Root.Monarch.GetTitle] there is greed not only for gold, but also for blood. Among Zandalar's emissaries are strong warriors who could serve as powerful sacrifices for G'huun. Their screams and pain could be a powerful gift that would please the god and bring even greater power to the tribe. Will the blood trolls choose temporary wealth or the long-lasting power of their sacrifices? The choice is in [Root.Monarch.GetTitle] hands, and the consequences will be felt by the entire tribe."
+ wwu_zandalar.45.op1: "We take tribute"
+ wwu_zandalar.45.op2: "Blood for the Blood God!"
+ 
+ wwu_zandalar.46.title: "Zandalar - upgrade golden mine"
+ wwu_zandalar.46.desc: ""
+ wwu_zandalar.46.option.a: ""
+ 
+ wwu_zandalar.50.title: "Blessing from the Loa"
+ wwu_zandalar.50.desc: "Today, we gather to celebrate a pivotal moment in the history of our land - the coronation of a new ruler of Zandalar. In this mystical convergence of spiritual and earthly realms, we invoke the presence of Rezan, the Loa of Kings. As the guardian of our traditions, keeper of our wisdom, and guide in times of uncertainty, Rezan's blessing upon the new leader symbolizes strength, unity, and the promise of a prosperous future. With hearts filled with gratitude and reverence, we welcome the new ruler as they receive the extended hand of Rezan. May this moment serve as a beacon of unity, wisdom, and resilience as we face the challenges ahead. In the name of the entire Zandalari people, we thank Rezan for his blessing and entrust our future to the guidance of our Loa."
+ wwu_zandalar.50.op1: "May the ruler receive the greatest blessing"
+ wwu_zandalar.50.op2: "May the ruler receive the great blessing"
+ wwu_zandalar.50.op3: "May the ruler receive the blessing"
+ wwu_zandalar.50.op4: "Blessing? Our ruler will do without it!"
+ 
+ wwu_zandalar.51.title: "Mourning in the palace"
+ wwu_zandalar.51.desc: "As dawn broke, a scene of solemnity enveloped the halls as the body of the ruler was discovered upon the golden throne. His form, desiccated, bore witness to the departure of his soul to the realm of the Loa. The air was heavy with reverence as it became apparent that the divine had called him forth, leaving behind a legacy of wisdom and guidance. The people whispered in hushed tones, recognizing the profound loss of their leader, whose spirit now danced among the Loa, forever watching over his beloved Zandalar."
+ wwu_zandalar.51.op1: "A great ruler has just passed away to Loa"
+
+ 
  wwu_zandalar.100.title: "Zandalar - Startup Defaults"
  wwu_zandalar.100.desc: ""
  wwu_zandalar.100.option.a: ""
@@ -482,8 +563,10 @@
  uldir_complex_start_desc: "You will be raided on Uldir to destroy the threats and uncover the secrets of the titans."
  
  # --- Misc ---
- zul_domination: "§YDiplomatic Superiority§!"
- zul_domination_a: "§YDiplomatic Superiority§! §Y[This.zul_domination.GetValue]/3§!\n§gYou can get Diplomatic Superiority through an event every 4 years.§!"
+ zandalar_diplomatic_superiority: "§YDiplomatic Superiority§!"
+ 
+ zandalar_duplomatic_reform_tt: "§YDiplomatic Superiority§! §Y[This.zandalar_diplomatic_superiority.GetValue]/3§!\n§gDiplomatic Superiority can be changed via the 'A Show of Strength'. This event happens every 4 years after year 550§!"
+ 
  zul_power: "§YZul Power§!"
  zul_influence: "§YZul Influence§!"
  
@@ -511,6 +594,26 @@
  
  troll_no_refugees_1: "Accepted troll refugees"
  
+ zandalar_trap_1: "Dangerous area"
+ zandalar_trap_1_desc: "After you start colonizing this province, enemies will appear who will want to §Ydeclare war§! on you!\n\n§GIt will be possible to play as the country that appears here.§!"
+ 
+ zandalar_trap_2: "Dangerous area"
+ zandalar_trap_2_desc: "After you start colonizing this province, enemies will appear who will want to §Ydeclare war§! on you!"
+ 
+ zandalar_trap_3: "Fungarians territories"
+ zandalar_trap_3_desc: "When playing as Nazmir minor, possession of these provinces will pose the risk of enemies appearing."
+ 
+ zandalar_trap_4: "Dangerous area"
+ zandalar_trap_4_desc: "After you start colonizing this province, enemies will appear who will want to §Ydeclare war§! on you!"
+
+ zandalar_trap_5: "Fungarians capital"
+ zandalar_trap_5_desc: "This province will always be the capital in the wars of the Fungarians against the Nazmir minors."
+ 
+ zandalar_fungarian_bad: "Enslaved Fungarian population"
+ zandalar_fungarian_bad_desc: "The population of Fungarians has been completely enslaved by the trolls of Nazmir. They will work here until their miserable end."
+
+ zandalar_fungarian_good: "Co-existing Fungarian population"
+ zandalar_fungarian_good_desc: "The Fungarians population is co-existing. They will have their own autonomy here and bring benefits to the rest of society."
  # ------------------------------------
  # -- Zandalar: Pandaria Invasion
  # ------------------------------------
@@ -588,11 +691,11 @@
  wwu_zandalar_pandaria_invasion.31.option.a: "Long live the emperor!"
  
  # -- Tooltips
- zandalari_event_throw_leishen: "You threw Lei Shen's body down to the hole."
+ zandalari_event_throw_leishen: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] became truly §Yimmortal§."
  zandalari_event_thunderking_rise_army: "§Y50,000§! Infantry will appear in the capital."
  mogu_zandalari_found_thunderking: "The Zandalari found Lei Shen's body through an event during the war with Pandaria."
  zandalari_event_thunderking_a: "This will allow our ally to create the §YMogu Empire§!."
- zandalari_ruler_immortal_tt: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] will become immortal."
+ zandalari_ruler_immortal_tt: "[Root.Monarch.GetTitle] [Root.Monarch.GetName] will become truly §Yimmortal§!. If he has any §Yloa blessing§!, it is removed."
  
  zandalar_mogu_war_start_tt: "Zandalar will declare war on the Golden Lotus.\n\nEvery Mogu country and every troll country we convinced to the troll meeting will join the war on the side of Zandalar.\n\nEvery Pandaren, Jinyu and Hozen nation will join the war on the side of Golden Lotus.\n\nYou can win the war by clicking the last option in the peace deal. Then, a few days after the end of the war, an event about the division of Pandaria will appear."
  
@@ -728,7 +831,7 @@
  wwu_zandalar_pirate_invasion.3.option.a: "Horrible!"
  
  # -- Tooltips
- zandalari_zemlan_invasion_tt: "Zem'lan invasion forces will attempt to attack our capital."
+ zandalari_zemlan_invasion_tt: "Zem'lan invasion forces will attempt to attack our capital.\nA §Yspecial peacemaking§! option is available."
  zandalari_zemlan_invasion_crushed_tt: "The Zem'lan were driven out of Zandalar."
  zandalari_zemlan_ignore_tt: "The Zem'lan will remain and continue to harass our empire."
  zandalari_event_zemlan_play_tt: "Play as the §YZem'lan Revenants§!"
@@ -769,8 +872,8 @@
  wwu_zandalar_naga_invasion.22.option.a: "Horrible!"
  
  # -- Tooltips
- zandalari_nazeshi_invasion_tt: "Nazeshi invasion forces will attempt to attack our capital."
- zandalari_vilescale_invasion_tt: "Vilescale invasion forces will attempt to attack our capital."
+ zandalari_nazeshi_invasion_tt: "Nazeshi invasion forces will attempt to attack our capital.\nA §Yspecial peacemaking§! option is available."
+ zandalari_vilescale_invasion_tt: "Vilescale invasion forces will attempt to attack our capital.\nA §Yspecial peacemaking§! option is available."
 
  zandalari_nazeshi_invasion_crushed_tt: "The Nazeshi were driven out of Zandalar."
  zandalari_vilescale_invasion_crushed_tt: "The Vilescale were driven out of Zandalar."
@@ -847,7 +950,7 @@
  cataclysm_ending_survival_tt: "Thanks to the efficient handling of the cataclysm, sympathy for the king grew. Apparently the cataclysm was not as bad as Zul described it."
  
  zandalari_cataclysm_time_tt: "§Y15 years§! must pass from the beginning of the §RCataclysm§!."
- zandalari_cataclysm_start_tt: "The cataclysm has begun.\n§RAll provinces on the continent of Zandalar will get 90 devastation, 75 local autonomy, and for 25 years:§!\n§R +2 local unrest§!\n§R +0.05 local monthly devastation§!"
+ zandalari_cataclysm_start_tt: "The cataclysm has begun.\n§RAll provinces on the continent of Zandalar will get 75 devastation, 25 local autonomy, and for 25 years:§!\n§R +2 local unrest§!\n§R +0.05 local monthly devastation§!"
  zandalari_cataclysm_ask_for_help_warning_tt: "The people may turn to Prophet Zul if we fail them."
  
  cataclysm_zul_assistance_tt: "Prophet Zul will assist us during the Cataclysm if it comes to pass."
@@ -914,14 +1017,14 @@
  # -- Rusty Empire 
  # ------------------------------------
  # -- Disaster
- rusty_empire: "The Rusty Empire"
+ rusty_empire: "Rusty Empire"
  
  # -- Events
  wwu_rusty_empire.1.title: "The Rusty Empire"
  wwu_rusty_empire.1.desc: "Once the great strength and heart of the Zul Empire that led all trolls. Today only a shadow of myself. Additionally, buried on the island by a great cataclysm caused by the eruption of the well of eternity, the Zandalari lost its position to the younger races, burying itself in decadence. The policy of our King Rastakhan does not indicate that anything will change in this matter. The radicalist and patriot §YProphet Zul§!, bored with the passivity of our king, will try to repair the country on his own. Our main goal is to get our kingdom back on track, with Zandalari becoming an empire again not only in name."
  wwu_rusty_empire.1.option.a: "Let the changes bring us enlightenment"
  
- wwu_rusty_empire.100.title: "End of The Rusty Empire"
+ wwu_rusty_empire.100.title: "End of the Rusty Empire"
  wwu_rusty_empire.100.desc: "The changes we've made will help us get back to the true empire track. However, §YProphet Zul§! has no patience and prefers radical changes to make the Troll Empire great again. He will want to achieve this in a number of ways, and we must be aware of this."
  wwu_rusty_empire.100.option.a: "For the future of Zandalari!"
  
@@ -988,7 +1091,7 @@
  wwu_council_of_zanchul.101.option.a: ""
  
  # -- Tooltips --
- council_of_zanchul_unlocked_tt: "The decision to interact with the §YCouncil of Zanchul§! is unlocked.\n\nThe disaster of §RThe Great Civil War§! is unlocked.\n\nIf 100 years have passed and §YZul Influence§! is high, Prophet Zul will trigger a civil war. §YZul Power§! will increase the size of his force when war breaks out.\nIf civil war is avoided for 120 years, risk is avoided."
+ council_of_zanchul_unlocked_tt: "The disaster of §RThe Great Civil War§! is unlocked.\n\nIf 100 years have passed and §YZul Influence§! is high, Prophet Zul will trigger a civil war. §YZul Power§! will increase the size of his force when war breaks out.\nIf civil war is avoided for 120 years, risk is avoided."
  
  council_of_zanchul_is_too_powerful_tt: "Council of Zanchul is too powerful for this action to be used."
  council_of_zanchul_is_too_influential_tt: "Council of Zanchul is too influencial for this action to be used."

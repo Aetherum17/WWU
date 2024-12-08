@@ -1,322 +1,324 @@
-namespace = wwu_northgate_rebellion
-
-# Lord Crowley's Rebellion
-country_event = {
-	id = wwu_northgate_rebellion.1
-	title = wwu_northgate_rebellion.1.title
-	desc = wwu_northgate_rebellion.1.desc
-	picture = DARIUS_CROWLEY_eventPicture
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-    
-	option = {
-		name = wwu_northgate_rebellion.1.option.a
-		
-		add_stability = -3
-        
-        if = {
-            limit = {
-                has_country_modifier = member_of_alliance
-            }
-            remove_country_modifier = member_of_alliance
-        }
-        
-        if = {
-            limit = {
-                owns = 720
-            }
-            720 = {
-                spawn_rebels = {
-                    type = noble_rebels
-                    size = 3
-                    win = yes
-                }
-            }
-        }
-        if = {
-            limit = {
-                owns = 2962
-            }
-            2962 = {
-                spawn_rebels = {
-                    type = noble_rebels
-                    size = 3
-                    win = yes
-                }
-            }
-        }
-        
-        random_owned_province = {
-            limit = {
-                is_capital = no
-                OR = {
-                    region = region_silverpine_forest
-                    region = region_gilneas
-                }
-            }
-            spawn_rebels = {
-				type = noble_rebels
-				size = 3
-                win = yes
-			}
-        }
-	}
-}
-
-# Northgate Rebellion Quelled
-country_event = {
-	id = wwu_northgate_rebellion.100
-	title = wwu_northgate_rebellion.100.title
-	desc = wwu_northgate_rebellion.100.desc
-	picture = GRAYMANE_WALL_eventPicture
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-    
-    immediate = {
-        hidden_effect = {
-            set_global_flag = northgate_rebellion_happened
-        }
-    }
-	
-	option = {
-		name = wwu_northgate_rebellion.100.option.a
-		
-		add_stability = 3
-        
-        hidden_effect = {
-            set_country_flag = imprisonment_timer
-        }
-        
-        # Crowley wins
-        if = {
-            limit = {
-                AND = {
-                    OR = {
-                        has_country_flag = northgate_rebellion_lost
-                        capital_scope = {
-                            controlled_by = REB
-                        }
-                    }
-                    num_of_owned_provinces_with = {
-                        value = 6
-                        has_province_modifier = rebel_supporters
-                    }
-                }
-            }
-            
-            country_event = { id = wwu_northgate_rebellion.101 }
-        }
-        # Greymane wins
-        else = {
-            country_event = { id = wwu_northgate_rebellion.102 }
-        }
-	}
-}
-
-# Nobles Defect in X
-country_event = {
-	id = wwu_northgate_rebellion.10
-	title = wwu_northgate_rebellion.10.title
-	desc = wwu_northgate_rebellion.10.desc
-	picture = SHADOWFANG_KEEP_eventPicture
-	goto = target_province
-    
-	trigger = {
-		manpower_percentage = 0.25
-        any_owned_province = {
-            is_capital = no
-            OR = {
-                region = region_silverpine_forest
-                region = region_gilneas
-            }
-            
-            NOT = { has_province_modifier = rebel_supporters }
-            NOT = { has_province_modifier = royalist_supporters }
-        }
-	}
-
-	is_triggered_only = yes
-	
-    immediate = {
-        random_owned_province = {
-            limit = {
-                is_capital = no
-                OR = {
-                    region = region_silverpine_forest
-                    region = region_gilneas
-                }
-                
-                NOT = { has_province_modifier = rebel_supporters }
-                NOT = { has_province_modifier = royalist_supporters }
-            }
-            save_event_target_as = target_province
-        }
-    }
-    
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = wwu_northgate_rebellion.10.option.a
-		
-		event_target:target_province = {
-            spawn_rebels = {
-				type = noble_rebels
-				size = 1
-			}
-        }
-        
-        ai_chance = {
-            factor = 90
-        }
-	}
-    option = {
-		name = wwu_northgate_rebellion.10.option.b
-		
-        trigger = {
-            dip_power = 100
-        }
-        
-        add_dip_power = -100
-        
-		event_target:target_province = {
-            add_province_modifier = {
-                name = royalist_supporters
-                duration = 3650
-            }
-        }
-        
-        ai_chance = {
-            factor = 10
-        }
-	}
-}
-
-# Greymane Deposed
-country_event = {
-	id = wwu_northgate_rebellion.101
-	title = wwu_northgate_rebellion.101.title
-	desc = wwu_northgate_rebellion.101.desc
-	picture = DARIUS_CROWLEY_eventPicture
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = wwu_northgate_rebellion.101.option.a
-		
-		add_country_modifier = {
-            name = imprisonment_of_greymane
-            duration = -1
-        }
-        
-        # This prevents the normal succession event from occuring
-        hidden_effect = {
-            set_country_flag = skip_next_succession_event
-        }
-        
-        define_ruler = {
-            name = "Darius"
-            dynasty = "Crowley"
-            min_age = 40
-            max_age = 80
-            adm = 4
-            dip = 4
-            mil = 4
-            hide_skills = yes
-        }
-        
-        914 = {
-            destroy_great_project = {
-                type = gp_greymane_wall
-            }
-        }
-        clr_country_flag = can_build_greymane_wall
-        
-        if = {
-            limit = {
-                owns = 720
-            }
-            720 = {
-                add_base_tax = 2
-                add_base_production = 2
-                add_base_manpower = 2
-            }
-        }
-        if = {
-            limit = {
-                owns = 2962
-            }
-            2962 = {
-                add_base_tax = 2
-                add_base_production = 2
-                add_base_manpower = 2
-            }
-        }
-        
-        every_owned_province = {
-            limit = {
-                has_province_modifier = rebel_supporters
-            }
-            remove_province_modifier = rebel_supporters
-        }
-        every_owned_province = {
-            limit = {
-                has_province_modifier = royalist_supporters
-            }
-            remove_province_modifier = royalist_supporters
-        }
-	}
-}
-
-# Crowley Imprisoned
-country_event = {
-	id = wwu_northgate_rebellion.102
-	title = wwu_northgate_rebellion.102.title
-	desc = wwu_northgate_rebellion.102.desc
-	picture = GENN_GREYMANE_eventPicture
-	
-	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = wwu_northgate_rebellion.102.option.a
-		
-		add_country_modifier = {
-            name = imprisonment_of_crowley
-            duration = -1
-        }
-        add_country_modifier = {
-            name = gilnean_isolation
-            duration = -1
-        }
-        
-        every_owned_province = {
-            limit = {
-                has_province_modifier = rebel_supporters
-            }
-            remove_province_modifier = rebel_supporters
-        }
-        every_owned_province = {
-            limit = {
-                has_province_modifier = royalist_supporters
-            }
-            remove_province_modifier = royalist_supporters
-        }
-	}
-}
+# Disabled because the Northgate Rebellion disaster is disabled as well
+#
+#namespace = wwu_northgate_rebellion
+#
+## Lord Crowley's Rebellion
+#country_event = {
+#	id = wwu_northgate_rebellion.1
+#	title = wwu_northgate_rebellion.1.title
+#	desc = wwu_northgate_rebellion.1.desc
+#	picture = DARIUS_CROWLEY_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#	option = {
+#		name = wwu_northgate_rebellion.1.option.a
+#		
+#		add_stability = -3
+#        
+#        if = {
+#            limit = {
+#                has_country_modifier = member_of_alliance
+#            }
+#            remove_country_modifier = member_of_alliance
+#        }
+#        
+#        if = {
+#            limit = {
+#                owns = 720
+#            }
+#            720 = {
+#                spawn_rebels = {
+#                    type = noble_rebels
+#                    size = 3
+#                    win = yes
+#                }
+#            }
+#        }
+#        if = {
+#            limit = {
+#                owns = 2962
+#            }
+#            2962 = {
+#                spawn_rebels = {
+#                    type = noble_rebels
+#                    size = 3
+#                    win = yes
+#                }
+#            }
+#        }
+#        
+#        random_owned_province = {
+#            limit = {
+#                is_capital = no
+#                OR = {
+#                    region = region_silverpine_forest
+#                    region = region_gilneas
+#                }
+#            }
+#            spawn_rebels = {
+#				type = noble_rebels
+#				size = 3
+#                win = yes
+#			}
+#        }
+#	}
+#}
+#
+## Northgate Rebellion Quelled
+#country_event = {
+#	id = wwu_northgate_rebellion.100
+#	title = wwu_northgate_rebellion.100.title
+#	desc = wwu_northgate_rebellion.100.desc
+#	picture = GRAYMANE_WALL_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    immediate = {
+#        hidden_effect = {
+#            set_global_flag = northgate_rebellion_happened
+#        }
+#    }
+#	
+#	option = {
+#		name = wwu_northgate_rebellion.100.option.a
+#		
+#		add_stability = 3
+#        
+#        hidden_effect = {
+#            set_country_flag = imprisonment_timer
+#        }
+#        
+#        # Crowley wins
+#        if = {
+#            limit = {
+#                AND = {
+#                    OR = {
+#                        has_country_flag = northgate_rebellion_lost
+#                        capital_scope = {
+#                            controlled_by = REB
+#                        }
+#                    }
+#                    num_of_owned_provinces_with = {
+#                        value = 6
+#                        has_province_modifier = rebel_supporters
+#                    }
+#                }
+#            }
+#            
+#            country_event = { id = wwu_northgate_rebellion.101 }
+#        }
+#        # Greymane wins
+#        else = {
+#            country_event = { id = wwu_northgate_rebellion.102 }
+#        }
+#	}
+#}
+#
+## Nobles Defect in X
+#country_event = {
+#	id = wwu_northgate_rebellion.10
+#	title = wwu_northgate_rebellion.10.title
+#	desc = wwu_northgate_rebellion.10.desc
+#	picture = SHADOWFANG_KEEP_eventPicture
+#	goto = target_province
+#    
+#	trigger = {
+#		manpower_percentage = 0.25
+#        any_owned_province = {
+#            is_capital = no
+#            OR = {
+#                region = region_silverpine_forest
+#                region = region_gilneas
+#            }
+#            
+#            NOT = { has_province_modifier = rebel_supporters }
+#            NOT = { has_province_modifier = royalist_supporters }
+#        }
+#	}
+#
+#	is_triggered_only = yes
+#	
+#    immediate = {
+#        random_owned_province = {
+#            limit = {
+#                is_capital = no
+#                OR = {
+#                    region = region_silverpine_forest
+#                    region = region_gilneas
+#                }
+#                
+#                NOT = { has_province_modifier = rebel_supporters }
+#                NOT = { has_province_modifier = royalist_supporters }
+#            }
+#            save_event_target_as = target_province
+#        }
+#    }
+#    
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#
+#	option = {
+#		name = wwu_northgate_rebellion.10.option.a
+#		
+#		event_target:target_province = {
+#            spawn_rebels = {
+#				type = noble_rebels
+#				size = 1
+#			}
+#        }
+#        
+#        ai_chance = {
+#            factor = 90
+#        }
+#	}
+#    option = {
+#		name = wwu_northgate_rebellion.10.option.b
+#		
+#        trigger = {
+#            dip_power = 100
+#        }
+#        
+#        add_dip_power = -100
+#        
+#		event_target:target_province = {
+#            add_province_modifier = {
+#                name = royalist_supporters
+#                duration = 3650
+#            }
+#        }
+#        
+#        ai_chance = {
+#            factor = 10
+#        }
+#	}
+#}
+#
+## Greymane Deposed
+#country_event = {
+#	id = wwu_northgate_rebellion.101
+#	title = wwu_northgate_rebellion.101.title
+#	desc = wwu_northgate_rebellion.101.desc
+#	picture = DARIUS_CROWLEY_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = wwu_northgate_rebellion.101.option.a
+#		
+#		add_country_modifier = {
+#            name = imprisonment_of_greymane
+#            duration = -1
+#        }
+#        
+#        # This prevents the normal succession event from occuring
+#        hidden_effect = {
+#            set_country_flag = skip_next_succession_event
+#        }
+#        
+#        define_ruler = {
+#            name = "Darius"
+#            dynasty = "Crowley"
+#            min_age = 40
+#            max_age = 80
+#            adm = 4
+#            dip = 4
+#            mil = 4
+#            hide_skills = yes
+#        }
+#        
+#        914 = {
+#            destroy_great_project = {
+#                type = gp_greymane_wall
+#            }
+#        }
+#        clr_country_flag = can_build_greymane_wall
+#        
+#        if = {
+#            limit = {
+#                owns = 720
+#            }
+#            720 = {
+#                add_base_tax = 2
+#                add_base_production = 2
+#                add_base_manpower = 2
+#            }
+#        }
+#        if = {
+#            limit = {
+#                owns = 2962
+#            }
+#            2962 = {
+#                add_base_tax = 2
+#                add_base_production = 2
+#                add_base_manpower = 2
+#            }
+#        }
+#        
+#        every_owned_province = {
+#            limit = {
+#                has_province_modifier = rebel_supporters
+#            }
+#            remove_province_modifier = rebel_supporters
+#        }
+#        every_owned_province = {
+#            limit = {
+#                has_province_modifier = royalist_supporters
+#            }
+#            remove_province_modifier = royalist_supporters
+#        }
+#	}
+#}
+#
+## Crowley Imprisoned
+#country_event = {
+#	id = wwu_northgate_rebellion.102
+#	title = wwu_northgate_rebellion.102.title
+#	desc = wwu_northgate_rebellion.102.desc
+#	picture = GENN_GREYMANE_eventPicture
+#	
+#	is_triggered_only = yes
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = wwu_northgate_rebellion.102.option.a
+#		
+#		add_country_modifier = {
+#            name = imprisonment_of_crowley
+#            duration = -1
+#        }
+#        add_country_modifier = {
+#            name = gilnean_isolation
+#            duration = -1
+#        }
+#        
+#        every_owned_province = {
+#            limit = {
+#                has_province_modifier = rebel_supporters
+#            }
+#            remove_province_modifier = rebel_supporters
+#        }
+#        every_owned_province = {
+#            limit = {
+#                has_province_modifier = royalist_supporters
+#            }
+#            remove_province_modifier = royalist_supporters
+#        }
+#	}
+#}

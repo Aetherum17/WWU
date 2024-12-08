@@ -16,6 +16,13 @@ hre = no
 trade_goods = resource_rare_cloth
 
 
+619.1.1 = {
+    
+    owner = ---
+    controller = ---
+    remove_core = SET
+}
+
 630.1.1 = {
     owner = G06
     controller = G06

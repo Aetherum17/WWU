@@ -1,21 +1,22 @@
 is_city = yes
-owner = SRP
-controller = SRP
-add_core = SRP
+owner = SPI
+controller = SPI
+add_core = SPI
+add_core = OGR
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 2
+base_production = 3
+base_manpower = 4
 
-culture = culture_saberon
-religion = shamanism
+culture = culture_podling
+religion = sporemounds
 
 hre = no
 trade_goods = resource_common_fish
 
 # Twilight's Hammer created
 560.1.1 = {
-    remove_core = SRP
+    remove_core = SPI
     
     owner = A43
     controller = A43

@@ -3,6 +3,7 @@
  # Ruler Personalities
  #---------------------------------------
  immortal_personality: "Long-Lived Species"
+ spellcaster_personality: "Spellcaster"
  
  ambitious_personality: "Ambitious"
  chaste_personality: "Chaste"
@@ -62,6 +63,8 @@
  
  #Personality Desc
  desc_immortal_personality: "This ruler is a member long lived species."
+ desc_spellcaster_personality: "This ruler is a spellcaster."
+ 
  desc_jack_of_all_trades_personality: "Jack of all trades, master of none. This ruler dabbles in most spheres of knowledge, enough to rule fairly well, but does not excel in any particular skill. Such a ruler is aware of their limits, and will declare war only when victory is likely."
  desc_renaissance_man_personality: "This ruler is a Classical Man. Significantly well-versed and skilled in numerous subjects, a Classical Man rules extraordinarily well in all aspects and is open to learning new ideas and institutions in order to add them to his arsenal of expertise." 
  desc_renaissance_woman_personality: "This ruler is a Classical Woman. Significantly well-versed and skilled in numerous subjects, a Classical Woman rules extraordinarily well in all aspects and is open to learning new ideas and institutions in order to add them to his arsenal of expertise." 
@@ -136,6 +139,7 @@
  
  #Obituaries
  immortal_personality_die_desc: "Obviously, reports of their immortality were greatly exaggerated."
+ spellcaster_personality_die_desc: "Unfortunately, magic did not save them from thier inevitable fate."
  
  jack_of_all_trades_personality_die_desc: "Our nation mourns the [Root.Monarch.GetTitle], who shall be remembered for their wide variety of skills, although not particularly remembered for any specific one among [Root.Monarch.GetHerHis] arsenal."
  renaissance_man_personality_die_desc: "Our people shall miss the brilliance of the late [Root.Monarch.GetTitle], whose wide range of expertise made [Root.Monarch.GetHerHim] known across the land for being a master of all trades."

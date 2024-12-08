@@ -13,6 +13,6 @@ culture = culture_tauren
 religion = tauren_shamanism
 
 hre = no
-trade_goods = resource_food
+trade_goods = resource_treasure
 
 center_of_trade = 1

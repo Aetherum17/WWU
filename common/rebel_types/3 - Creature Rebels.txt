@@ -589,6 +589,8 @@ worgen_rebels = {
 				duration = 10
 				hidden = yes
 			}
+			
+			remove_country_modifier = A12_terror_in_gilneas_city #in developpment for Gilneas 
 		}
         
         if = {

@@ -1,0 +1,162 @@
+﻿l_french:
+ # --- Missions ---
+ B08_dragonflayer_column_1: ""
+ B08_dragonflayer_column_2: ""
+ B08_dragonflayer_column_3: ""
+ B08_dragonflayer_column_4: ""
+ B08_dragonflayer_column_5: ""
+
+ # Column 1
+
+ # Column 2
+
+ # Column 3
+ B08_reinforce_utgarde_keep_title: "Reinforcment of Utgarde Keep"
+ B08_reinforce_utgarde_keep_desc: "Utgarde stands as a centerpoint of our realm. From here our rulers watch over the lands, and here many of our brothers and sister sleep in deep hibernation, awaiting the time the curse of flesh had been dealt with. We must impove and reinforce Utgarde at all cost."
+
+ B08_dragonflayer_pens_title: "The Dragonflayer Pens"
+ B08_dragonflayer_pens_desc: "Dragonflayer Pens is an area within Utgarde, dedicated for various beasts gathered from all around Northrend. However, its more imporant role is as a stables for various Proto-Drake mounts our warriors use to rule the skies."
+
+ B08_furnace_of_hate_title: "Furnace of Hate"
+ B08_furnace_of_hate_desc: "To create various pieces of armor and weaponry, we must have forge able to melt down even the most resistant of ores and metals. For that, a project had been propose, about the great furnace, that would unleash rage of our smiths, and allow their hammers to forge the best of equippement."
+
+ # Column 4
+
+ B08_gather_the_hunters_title: "Gathering of the Hunters"
+ B08_gather_the_hunters_desc: "Before we can perform any action, we must call back the hunters of our subserviant clans, who will join us in future battles."
+
+ B08_reclaim_gjalerborn_title: "Reclamation of our Lands"
+ B08_reclaim_gjalerborn_desc: "Gjalerborn is one of the ancestral places, for out kin. There, are the ancient burial ground, where we for a long time resisted effects of the vile curse of flesh, the sickness that turned vrykul from being of metal and stone, into one of flesh, suseptable to weakness and illness. There stands remanants of the massive citadel, that had long stood to protect our homeland from the invaders. Additionally, some time ago, our settlements to the south were invaded and overwhelmed by vile murlocks. We must purge those lesser creatures, and reclaim what is ours."
+
+ B08_unite_the_howling_fjord_title: "Unification of the Howling Fjord"
+ B08_unite_the_howling_fjord_desc: "With blood and guts all over the grassy landscape, with dedication and action, we have unified the once divided Fjords, under the banner of Dragonflayer. Be this murloc, kobold or any other beast, all fall before might of the vrykul power!"
+
+ B08_subjegate_grizzly_hills_title: "Subjegation of Grizzly Hills"
+ B08_subjegate_grizzly_hills_desc: "Our ambition grew far and wide, after our homeland was secured. In the past, the vrykul had ruled many lands. Stories so old that they had been forgotten. But we do not reclaim history, we make it. With axe and spear and with loud shout, we claim those lands as ours, for we are the first step to new realm for the Vrykul!"
+
+ B08_crush_drakkari_spirt_title: "Crushing the Drakkari Spirit"
+ B08_crush_drakkari_spirt_desc: "Trolls were bane of all people. The Drakkari, as they call themselves in the north, always saw themselves as masters of the continent, and treated all others as lesser races. Today, we mark the passing of their history, as the walls of Zul'Drak had fallen, and zigguraths of Gundrak burn and collapse under our sieges."
+
+ B08_subjegate_valkyrion_title: "Subjegation of Valkyrion"
+ B08_subjegate_valkyrion_desc: "Valkyrion stands as lone settlement of vrykul. In there, many faithful gather, worshipping the legends about the great valkyr. And while we are not exactly one in faith, their strenght on the battlefield can greatly benefit us."
+
+ # Column 5
+
+ B08_cliffside_harbors_title: "Cliffside Harbors"
+ B08_cliffside_harbors_desc: "Having secured the Howling Cliffs, we must prepare a set of defences and infrastructure for further expansion."
+
+ B08_mighty_fleet_title: "Mighty Fleet"
+ B08_mighty_fleet_desc: "Vrykul have raided coasts for decades, using it to bring riches to their domains. But for it we must build a proper navy."
+
+ B08_bloodwake_subjegation_title: "Bloodwake Submission"
+ B08_bloodwake_subjegation_desc: "The Lords of Bloodwake Isle stand alone in great sea, tied to use only due to messengers. They would be far more useful, as our subjects. Alternativly, we can simply use their island, by taking it over."
+
+ B08_dread_chain_expedition_title: "Dread Chain Expedition"
+ B08_dread_chain_expedition_desc: "With our domain, many sailors come and go. Some told stories of islands, to the west of our realm, and our homeland. Where ice covers the land and riches within, and over the years as we live, many legends were proven or forgotten. However, in this one, we can do it ourselves."
+
+ B08_fortifying_borders_title: "Border Fortifications"
+ B08_fortifying_borders_desc: "With border to Howling Fjord secured and watched, our people will gain valuable time to prepare for inevetable invasions."
+
+ B08_conclude_the_jalgar_war_title: "Conclusion of Jalgar War"
+ B08_conclude_the_jalgar_war_desc: "Our conflict with Jalgar, or furbolgs, like they call themselves now, is as ancient as vrykul history with the flesh. For generation, we had fought for dominance, for survival and resorces. We, a warriro race, against those fur-covered beasts. However, the conflict, one day, must pass into history. And jalgar shall join history, as species that once was."
+
+ B08_explore_titan_facilities_title: "Exploration of Titan Facilities"
+ B08_explore_titan_facilities_desc: "After our conquest reached outwards our familar fjords, we have managed to discover ancient writings among the sturdy stone structures, carved into the mountains. Our crones and magic practicioners were able to cecipher the texts, and found suprising similiarities of our records, compared to those runic tablets. That discovery had sparked interest among our people, as they started to theorize about the common orgin of our people, and the many stone and metal constructs that roam the lands."
+
+ B08_alliance_with_thorim_title: "Alliance with Thorim"
+ B08_alliance_with_thorim_desc: "In search of anwsers, we have decided to ally ourselves with one of the great warriors of the North, a behemot of a being, great warriro of old legends. The one they call Titan Keeper Thorim."
+
+ B08_secrets_of_ulduar_title: "Secrets of Ulduar"
+ B08_secrets_of_ulduar_desc: "All clues, all texts, all informations called our the place, that we are now invading. Ulduar. Seat of Titan Keepers, and possible origin of us all. While we wanted to apprach it without hostilities, the protectors of the place did not offer us chance. And so, with word of Thorim, we storm into Ulduar, ready to uncover its secrets."
+
+ # --- Modifiers ---
+
+ # Column 1M
+
+ # Column 2M
+
+ # Column 3M
+
+ mission_B08_dragonflayer_pens: "Dragonflayer Pens"
+ desc_mission_B08_dragonflayer_pens: ""
+
+ mission_B08_hate_furnace: "Furnace of Hate"
+ desc_mission_B08_hate_furnace: ""
+
+ mission_B08_power_of_furnace: "Power of the Forge"
+ desc_mission_B08_power_of_furnace: ""
+
+ # Column 4M
+
+ mission_B08_drakkari_vanquisher: "Drakkari Vanquisher"
+ desc_mission_B08_drakkari_vanquisher: ""
+
+ mission_B08_valkyrion: "Vrykul of Valkyrion"
+ desc_mission_B08_valkyrion: ""
+
+ # Column 5M
+
+ mission_B08_ship_power: "Dragonflayer Fleet"
+ desc_mission_B08_ship_power: ""
+
+ mission_B08_colonial_missions: "Colonial Ambitions"
+ desc_mission_B08_colonial_missions: ""
+
+ mission_B08_jalgar_war_victory: "Victors of the Jalgar War"
+ desc_mission_B08_jalgar_war_victory: ""
+
+ mission_B08_titan_schematics: "Titan Schematics"
+ desc_mission_B08_titan_schematics: ""
+
+ # Event Modifiers
+
+ event_B08_utgarde_prosperity: "Utgarde Prosperity"
+ desc_event_B08_utgarde_prosperity: ""
+
+ event_B08_ulduar_secreats_penalty: "Ulduar Aftermatch: Destabilization"
+ desc_event_B08_ulduar_secreats_penalty: ""
+
+ event_B08_ulduar_secreats_titan: "Secrets of Ulduar: Wisdom of Titans"
+ desc_event_B08_ulduar_secreats_titan: ""
+
+ event_B08_ulduar_secreats_conversion: "Ulduar Aftermatch: Corruption"
+ desc_event_B08_ulduar_secreats_conversion: ""
+
+ event_B08_ulduar_secreats_yogg: "Secrets of Ulduar: Wisdom of Yogg'Saron"
+ desc_event_B08_ulduar_secreats_yogg: ""
+
+ # Decision Modifiers
+
+ decision_B08_gjalerborn_citadel: "Gjelerbron Citadel"
+ desc_decision_B08_gjalerborn_citadel: ""
+
+ # --- Events ---
+
+ wwu_dragonflayer.1.title: "Great Pillage of Gundrak"
+ wwu_dragonflayer.1.desc: "Gundrak, the former capital of the Ice Troll Empire, had fallen under our might. With it, our berserkers and looters went rampart, dismantling temples, altars and infrastructure alike, since as long as it had value, it could be repurpused. After days of such events, the heart of the Drakkari realm was left in ruins. However, we had no saying against it, since in the end, it benefited us."
+ wwu_dragonflayer.1.option.a: "With it, Utgarde Keep shall see years of prosperity."
+
+ wwu_dragonflayer.2.title: "Secrets of Ulduar"
+ wwu_dragonflayer.2.desc: "As we have stepped deep into the ancient complex called Ulduar, we have discovered wisdoms and truths out race had long since forgotten, for from within those walls our people had originated. This domain was of our masters, however, they had succumbed to type of corruption. We must face the threat of this place, and purge it, for we are the chosen of the titants. We are..."
+ wwu_dragonflayer.2.option.a: "No heresy shall tempt us. Today, Ulduar is liberated!"
+ wwu_dragonflayer.2.option.b: "...Listening. For HE had spoken."
+
+ wwu_dragonflayer.3.title: "Submission to Dragonflayer"
+ wwu_dragonflayer.3.desc: "Placeholder"
+ wwu_dragonflayer.3.option.a: "There is no other choice."
+ wwu_dragonflayer.3.option.b: "Never."
+
+ # --- Tooltips ---
+
+ B08_harpoon_reaserch_TT: "\nUnlocks Technology Research: §YIron Harpoons§!"
+ B08_colonize_sota_TT: "\nUnlocks Decision: §YSettle Strand of the Ancients§!"
+ B08_colonize_vengance_TT: "\nUnlocks Decision: §YSettle Vengance Landing§!"
+ B08_restore_gjalerborn_TT: "Unlocks Decision: §YRestore Gjalerbron Citadel§!"
+ B08_restore_vrykul_cities_TT: "\nUnlocks Decision: §YRestore Southern Towns§!"
+
+ unlock_dragonflayer_riders_reform_TT: "Unlocks Tier 3 Gov. Reform: §ODragonflayer Proto-Drake Riders§!"
+ unlock_utgarde_defensive_strategy_TT: "\nUnlocks Tier 3 Gov. Reform: §OUtgarde Defensive Strategy§!"
+
+ # --- Flags ---
+ unlock_dragonflayer_dragon_riders: "Dragonflayers Proto-Drake Riders"
+ unlock_utgarde_defensive_strategy: "Utgarde Defensive Strategy"

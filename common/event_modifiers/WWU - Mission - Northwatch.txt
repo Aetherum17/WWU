@@ -1,0 +1,165 @@
+#----------------------------------------------
+# Missions
+#----------------------------------------------
+mission_fortifying_south_barrens_g06 = {
+    defensiveness = 0.05
+}
+
+mission_colonist_dwarves_g06 = {
+    improve_relation_modifier = 0.1
+}
+
+mission_shared_future_g06 = {
+    culture_conversion_cost = -0.15
+	promote_culture_cost = -0.1
+}
+
+mission_northern_trade_g06 = {
+    caravan_power = 0.2
+	merchants = 1
+}
+
+mission_freedom_of_moves_g06 = {
+    unjustified_demands = -0.1
+	stability_cost_modifier = -0.05
+}
+
+mission_establish_a_front_g06 = {
+    ae_impact = -0.1
+	movement_speed = 0.05
+}
+
+mission_tauren_presence_g06 = {
+    shock_damage_received = -0.10
+}
+
+mission_siege_of_mulgore_g06 = {
+    siege_ability = 0.10
+	artillery_levels_available_vs_fort = 1
+}
+
+mission_end_of_expedition_g06 = {
+    development_cost = -0.1
+	build_time = -0.15
+	build_cost = -0.1
+} 	
+
+mission_full_liberties_g06 = {
+    administrative_efficiency = 0.1
+	global_prosperity_growth = 0.1
+}
+
+mission_fate_of_theramore_g06 = {
+    liberty_desire_from_subject_development = -0.15
+	diplomatic_annexation_cost = -0.2
+}
+
+mission_southern_trade_g06 = {
+    global_trade_power = 0.1 
+	center_of_trade_upgrade_cost = -0.1
+}
+
+mission_a_great_capital_g06 = {
+    prestige_decay = -0.01
+	diplomatic_reputation = 1
+}
+
+mission_organizing_the_expedition_g06 = {
+ 	leader_land_shock = 1
+	shock_damage = 0.10
+	siege_ability = 0.10
+}
+
+mission_hunter_hill_g06 = {
+    overextension_impact_modifier = -0.1
+	defensiveness = 0.1
+}
+
+mission_safe_barrens_g06 = {
+    defensiveness = 0.1
+	fort_maintenance_modifier = -0.10
+	war_exhaustion_cost = -0.10
+}
+
+mission_lock_the_horde_g06 = {
+    warscore_cost_vs_other_religion = -0.15
+	leader_siege = 1
+}
+
+mission_grand_armade_g06 = {
+    naval_maintenance_modifier = -0.2
+	global_sailors_modifier = 0.2
+}
+
+mission_a_grand_fort_g06 = {
+ 	garrison_size = 0.10
+	fort_maintenance_modifier = -0.10
+}
+
+mission_horde_homeland_g06 = {
+    supply_limit_modifier = 0.15
+	local_own_coast_naval_combat_bonus = 1
+}
+
+mission_troll_supplies_g06 = {
+    blockade_efficiency = 0.1 
+	embargo_efficiency = 0.25 
+}
+
+mission_the_root_of_all_evil_g06 = {
+    siege_ability = 0.10
+	leader_siege = 1
+}
+
+mission_end_of_fourth_war_g06 = {
+    diplomatic_reputation = 2
+	relation_with_same_culture_group = 10
+}
+
+mission_new_strom_g06 = {
+    vassal_forcelimit_bonus = 0.2 
+}
+
+mission_tiragarde_g06 = {
+    vassal_income = 0.2 
+}
+
+mission_new_land_new_empire_g06 = {
+    prestige_decay = -0.01
+	diplomatic_reputation = 1
+	great_project_upgrade_cost = -0.15
+    administrative_efficiency = 0.1
+}
+
+mission_ratchet_port_g06 = {
+    trade_efficiency = 0.1 
+}
+
+mission_splitting_horde_lines_g06 = {
+    leader_land_manuever = 1 
+	supply_limit_modifier = 0.1
+}
+
+mission_reconnect_with_night_elves_g06 = {
+    diplomatic_upkeep = 1 
+	diplomats = 1 
+}
+
+mission_respect_old_alliances_g06 = {
+    envoy_travel_time = -0.2 
+	monthly_favor_modifier = 0.1 
+}
+
+mission_quilboar_extermination_g06 = {
+    culture_conversion_cost = -0.15
+    culture_conversion_time = -0.075 
+}
+
+mission_new_home_for_the_dwarves_g06 = {
+    production_efficiency = 0.05 
+	global_trade_goods_size_modifier = 0.1 
+}
+
+mission_windshear_hold_g06 = {
+    min_autonomy_in_territories = -0.1 
+}

@@ -34,6 +34,7 @@ on_war_won__missions = {
     if = {
         limit = {
             tag = A66 # Gurubashi
+			# Audax Validator "." Ignore_NEXT
             FROM = {
                 tag = STW
             }
@@ -44,8 +45,10 @@ on_war_won__missions = {
     # Zandalar
     if = {
         limit = {
+			# Audax Validator "." Ignore_NEXT
             FROM = { has_country_flag = zandalar_war_against_pandaria_started }
         }
+		# Audax Validator "." Ignore_NEXT
         FROM = {
             set_country_flag = zandalar_war_against_pandaria_lost
         }

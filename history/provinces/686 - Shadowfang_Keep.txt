@@ -34,7 +34,9 @@ trade_goods = resource_common_wood
 	culture = culture_gilnean_worgen
 	religion = shadow
 	capital = "Shadowfang Keep"
-	remove_core = A08 
+	remove_core = A08
+	
+	set_province_flag = A12_arugal_summoned_worgen
 }
 
 # Cataclysm

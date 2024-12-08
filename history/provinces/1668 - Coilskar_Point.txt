@@ -45,7 +45,6 @@ trade_goods = unknown
 
 # The Frozen Throne
 618.1.1 = {
-    remove_core = A34
     
     owner = COL
     controller = COL

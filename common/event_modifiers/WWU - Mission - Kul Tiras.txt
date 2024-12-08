@@ -156,3 +156,12 @@ strengening_our_faith = {
 	religious_unity = 0.3
 	global_unrest = -1
 }
+
+kultiras_boost_early = {
+	reinforce_cost_modifier = -0.25
+	recover_army_morale_speed = 0.25
+	land_attrition = -0.33
+	land_forcelimit = 10
+	global_regiment_cost = -0.25
+	global_regiment_recruit_speed = -0.5
+}

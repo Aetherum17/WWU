@@ -16,8 +16,9 @@ hre = no
 trade_goods = resource_rare_wood
 
 617.1.1 = {   
-    owner = HDR
-    controller = HDR
+    owner = G02
+    controller = G02
+    add_core = G02
     add_core = HDR
     remove_core = A95
 	
@@ -28,5 +29,16 @@ trade_goods = resource_rare_wood
 	culture = culture_sayaad
     religion = fel
     trade_goods = resource_fel
+}
+
+631.1.1 = {
+    owner = A43
+    controller = A43
+    add_core = A43
+	
+	culture = culture_twilight_cultist
+    religion = twilight_cult
+	
+	trade_goods = resource_rare_wood
 }
 

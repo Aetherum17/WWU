@@ -1,0 +1,374 @@
+﻿l_spanish:
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column1 #Alliance path
+    #---------------------------------------------------------
+
+    A12_develop_capital_title: "Develop the Capital"
+    A12_develop_capital_desc: "The capital of Gilneas stands as a symbol of our strength and resilience. It is time to invest in its development, ensuring it thrives as a bastion of our power and culture."
+    A12_develop_silverpine_title: "Develop the Silverpine Forest"
+    A12_develop_silverpine_desc: "The Silverpine Forest holds untapped potential. Expanding our influence and resources in this region will secure Gilneas' dominance in the surrounding lands."
+    A12_exploit_from_emberstone_mine_title: "Exploit Emberstone Mine"
+    A12_exploit_from_emberstone_mine_desc: "Emberstone Mine contains valuable resources that can fuel the growth of our nation. By exploiting its riches, we will strengthen our economy and ensure our independence."
+    A12_crowley_fate_title: "The Crowley Fate"
+    A12_crowley_fate_desc: "Lord Crowley’s actions have put him in a precarious position. It’s time to decide his fate and whether his loyalty can still be of value to Gilneas."
+    A12_the_gilneas_liberation_front_title: "The Gilneas Liberation Front"
+    A12_the_gilneas_liberation_front_desc: "The Gilneas Liberation Front stands ready to fight for the freedom of our people. With their aid, we can reclaim our lands and protect our sovereignty."
+    A12_strength_in_unity_title: "Strength in Unity"
+    A12_strength_in_unity_desc: "United we stand, divided we fall. It is essential to rally the various factions within Gilneas and forge a strong, unified front to face the challenges ahead."
+    A12_destroy_scholomance_title: "Destroy Scholomance"
+    A12_destroy_scholomance_desc: "Scholomance, a bastion of dark magic, poses a dire threat to the land. It must be eradicated before its malevolent influence spreads further."
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column2
+    #---------------------------------------------------------
+
+    A12_reclaim_kul_tiras_title: "Reclaim Kul'Tiras"
+    A12_reclaim_kul_tiras_desc: "Kul'Tiras was once a proud ally, but now it lies vulnerable. Reclaiming this vital region is key to restoring the strength of our alliance."
+    A12_build_silverlaine_dungeon_title: "Build Silverlaine Dungeon"
+    A12_build_silverlaine_dungeon_desc: "The construction of Silverlaine Dungeon will solidify our military presence and provide a stronghold against our enemies."
+    A12_evacuate_the_silverpine_title: "Evacuate the Silverpine"
+    A12_evacuate_the_silverpine_desc: "With the rising threats in Silverpine, evacuation may be the only way to safeguard our people and prepare for a counterattack."
+    A12_reconciliation_with_bloodfang_title: "Reconciliation with the Bloodfang pack"
+    A12_reconciliation_with_bloodfang_desc: "The Bloodfang pack has long been estranged, but unity is our only path to survival. We must seek reconciliation to harness their strength in the coming battles."
+    A12_the_rebellion_title: "Northgate Rebellion"
+    A12_the_rebellion_desc: "The Northgate Rebellion threatens to tear our nation apart. It's time to put down the uprising and restore order within Gilneas."
+    A12_reconquest_of_andorhal_title: "Seize Andorhal"
+    A12_reconquest_of_andorhal_desc: "Andorhal, once a prosperous city, now lies in ruin. Seizing control of it will give us a strategic foothold in the region."
+    A12_reborn_of_lordaeron_title: "Reborn of Lordaeron"
+    A12_reborn_of_lordaeron_desc: "With the fall of Lordaeron, the time has come to rebuild the once-great kingdom and restore its legacy under Gilneas' banner."
+    A12_darnassus_support_title: "Search for Darnassus Support"
+    A12_darnassus_support_desc: "Darnassus holds considerable influence and resources. Securing their support could be a turning point in our struggle."
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column3 #Alliance path
+    #---------------------------------------------------------
+
+    A12_alliance_of_lordaeron_title: "Alliance of Lordaeron"
+    A12_alliance_of_lordaeron_desc: "The once-great Alliance of Lordaeron was the bulwark against the orcish hordes. this alliance will give Gilneas a powerful network of allies to ensure its survival."
+    A12_the_end_of_the_second_war_title: "The End of the Second War"
+    A12_the_end_of_the_second_war_desc: "The Second War brought much destruction, but it also united the kingdoms in common cause. With the war's end, Gilneas must decide its place in the peace to follow."
+    A12_prevent_the_fall_title: "Prevent the Fall"
+    A12_prevent_the_fall_desc: "Lordaeron stands on the brink of collapse. We must take decisive action to prevent its fall and ensure that it remains a strong ally in the region."
+    A12_rally_the_army_title: "Rally the Army"
+    A12_rally_the_army_desc: "Our forces are scattered and demoralized. It is time to rally the army and prepare for the battles that lie ahead."
+    A12_the_third_war_title: "The Third War"
+    A12_the_third_war_desc: "As the Third War rages across Azeroth, Gilneas must decide how to face the coming storm. Will we fight to protect our lands, or isolate ourselves from the chaos?"
+    A12_reconquest_of_silverpine_forest_title: "Reconquest of Silverpine Forest"
+    A12_reconquest_of_silverpine_forest_desc: "The Silverpine Forest has fallen into enemy hands. It is time to reclaim it, restoring our sovereignty and securing a vital region."
+    A12_reconquest_of_tirisfal_title: "Lordaeron Legacy"
+    A12_reconquest_of_tirisfal_desc: "The legacy of Lordaeron must be preserved. We must reconquer Tirisfal and restore its rightful place as a symbol of human strength."
+    A12_reconquest_of_stratholme_title: "Claim Stratholme"
+    A12_reconquest_of_stratholme_desc: "Stratholme, once a jewel of the human kingdoms, is now a cursed city. Reclaiming it will be a difficult but crucial step in restoring our homeland."
+    A12_forsaken_war_title: "The Forsaken War"
+    A12_forsaken_war_desc: "The Forsaken, under the banner of the Banshee Queen, pose a dire threat to all of humanity. We must take up arms and wage war to eliminate their influence from our lands."
+    A12_uses_stagecoach_title: "Uses Koroth Hillbreaker"
+    A12_uses_stagecoach_desc: "After successfully exploiting the chaos created by Koroth Hillbreaker, the ettin has become a crucial asset in our strategic efforts. By manipulating Koroth and his ogre minions, we have redirected their wrath towards the Forsaken, disrupting their plans and fortifying our own position."
+    A12_end_the_blocus_title: "End The Blocus"
+    A12_end_the_blocus_desc: "Our enemies have blockaded us, cutting off vital supplies. Breaking the blockade is essential to our survival and the continuation of our fight."
+    A12_dwarf_support_title: "Search for Dwarf Support"
+    A12_dwarf_support_desc: "The dwarves of Khaz Modan are fierce warriors and steadfast allies. Securing their support would strengthen our war effort considerably."
+    A12_kultiras_support_title: "Search for Kul'Tiras Support"
+    A12_kultiras_support_desc: "Kul'Tiras has a formidable naval force. Gaining their support would bolster our maritime defenses and expand our reach across the seas."
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column4 #Alliance path
+    #---------------------------------------------------------
+    
+    A12_start_the_isolation_title: "Gilnean isolation"
+    A12_start_the_isolation_desc: "In the wake of the Second War, Gilneas is adamant in its refusal to support the Alliance’s decision to establish orc internment camps. The growing dissatisfaction with the Alliance’s decisions has led Gilneas to adopt a policy of isolation, focusing on its own affairs and rejecting the costly and morally questionable internment camps."
+    A12_greyman_wall_title: "The Greyman Wall"
+    A12_greyman_wall_desc: "The Greyman Wall stands as a symbol of Gilneas' resilience. Fortifying this defensive structure will help protect our lands from external threats and reinforce our strategic position."
+    A12_end_the_isolation_title: "End the isolation"
+    A12_end_the_isolation_desc: "The time has come to end our isolationist stance. With our defenses solidified and our position secured, we are ready to re-engage with the broader political landscape. By ending the period of isolation, we will open up new avenues for alliances, trade, and expansion, ensuring that Gilneas remains a formidable force in the region."
+    A12_adopt_the_worgen_culture_title: "Adopt the Worgen Culture"
+    A12_adopt_the_worgen_culture_desc: "Integrating the new reality, as worgens into our society will strengthen our unity and embrace the unique heritage of our people, providing us with new strengths and capabilities."
+    A12_confront_the_scarlet_crusade_title: "Confront the Scarlet Crusade"
+    A12_confront_the_scarlet_crusade_desc: "The Scarlet Crusade's fanaticism poses a significant threat to our stability. We must confront and defeat them to secure our lands and protect our people from their zealotry."
+    A12_claim_tol_barad_title: "Claim Tol Barad"
+    A12_claim_tol_barad_desc: "Tol Barad is a strategic location of great importance. Claiming this fortress will give us control over a key area and bolster our defensive and offensive capabilities."
+    A12_stromgarde_throne_title: "Stromgarde Throne"
+    A12_stromgarde_throne_desc: "The throne of Stromgarde represents a crucial seat of power. Securing it will enhance our influence and authority in the region, fortifying our position."
+    A12_stormwind_support_title: "Search for Stormwind Support"
+    A12_stormwind_support_desc: "Stormwind is a powerful ally with a strong military force. Seeking their support will provide us with additional resources and strengthen our position in the ongoing struggle."
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column5 #Alliance path
+    #---------------------------------------------------------
+
+    A12_hire_arugal_title: "Hire Arugal"
+    A12_hire_arugal_desc: "Arugal is a mage with considerable magical prowess. Hiring him will bolster our magical capabilities and provide us with new strategies to handle our adversaries."
+    A12_archmage_arugal_title: "The Archmage Arugal"
+    A12_archmage_arugal_desc: "The Archmage Arugal is a master of arcane arts. Recognizing his status and leveraging his knowledge will enhance our magical endeavors and influence."
+    A12_study_the_ur_research_title: "Study the Ur Research"
+    A12_study_the_ur_research_desc: "The Ur Research holds valuable knowledge that could advance our understanding of magic and lore. Studying it will provide us with crucial insights and power about the Emerald Dream power."
+    A12_release_worgen_title: "Release Worgen"
+    A12_release_worgen_desc: "Releasing the Worgen from their confines will harness their unique abilities and integrate them into our forces, enhancing our combat effectiveness and strategic options."
+    A12_the_curse_of_worgen_title: "The Curse of Worgen"
+    A12_the_curse_of_worgen_desc: "The Worgen curse is a double-edged sword, offering both power and peril. Managing this curse and its effects will be crucial to maximizing its benefits while mitigating its risks."
+    A12_aranas_antidote_title: "Aranas Antidote"
+    A12_aranas_antidote_desc: "The Aranas Antidote is a critical component in controlling the Worgen curse. Developing and utilizing this antidote will help manage its effects and maintain stability within our ranks."
+    A12_knowledge_of_the_elf_title: "Knowledge of the Elf"
+    A12_knowledge_of_the_elf_desc: "Elven lore and knowledge offer insights into ancient magic and strategies. Gaining this knowledge will provide us with a tactical advantage and enhance our capabilities against the Curse of Worgen."
+    A12_the_armed_winged_of_alliance_title: "The Armed Winged of the Alliance"
+    A12_the_armed_winged_of_alliance_desc: "Thanks to the Worgen's unique abilities, we now command a formidable winged force within the Alliance. This newly acquired power enhances our military reach and provides us with a significant strategic advantage in battle."
+    
+    #---------------------------------------------------------
+    # A12 Gilneas Column6 #Evil path
+    #---------------------------------------------------------
+
+    A12_develop_capital_c_title: "Develop the Capital"
+    A12_develop_capital_c_desc: "The capital of Gilneas stands as a symbol of our strength and resilience. It is time to invest in its development, ensuring it thrives as a bastion of our power and culture."
+    A12_develop_silverpine_c_title: "Develop the Silverpine"
+    A12_develop_silverpine_c_desc: "The Silverpine Forest holds untapped potential. Expanding our influence and resources in this region will secure Gilneas' dominance in the surrounding lands."
+    A12_exploit_from_emberstone_mine_c_title: "Exploit Emberstone Mine"
+    A12_exploit_from_emberstone_mine_c_desc: "Emberstone Mine contains valuable resources that can fuel the growth of our nation. By exploiting its riches, we will strengthen our economy and ensure our independence."
+    A12_the_rebellion_c_title: "Northgate Rebellion"
+    A12_the_rebellion_c_desc: "The Northgate Rebellion threatens to tear our nation apart. It's time to put down the uprising and restore order within Gilneas."
+    A12_crowley_fate_c_title: "The Crowley Fate"
+    A12_crowley_fate_c_desc: "Lord Crowley’s actions have put him in a precarious position. It’s time to decide his fate and whether his loyalty can still be of value to Gilneas."
+    A12_the_gilneas_liberation_front_c_title: "The Gilnean Liberation Front"
+    A12_the_gilneas_liberation_front_c_desc: "The Gilneas Liberation Front stands ready to fight for the freedom of our people. With their aid, we can reclaim our lands and protect our sovereignty."
+    A12_strength_in_unity_c_title: "Strength In Unity"
+    A12_strength_in_unity_c_desc: "United we stand, divided we fall. It is essential to rally the various factions within Gilneas and forge a strong, unified front to face the challenges ahead."
+    A12_destroy_the_argent_crusade_c_title: "Destroy The Argent Crusade"
+    A12_destroy_the_argent_crusade_c_desc: "The Argent Crusade poses a significant threat to our plans. Eradicating their influence is vital to securing our control and furthering our dark objectives."
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column7
+    #---------------------------------------------------------
+
+    A12_build_silverlaine_dungeon_c_title: "Build Silverlaine Dungeon"
+    A12_build_silverlaine_dungeon_c_desc: "Constructing the Silverlaine Dungeon will enhance our power and control over the region. This stronghold will serve as a key asset in our efforts to consolidate power."
+    A12_sacrifies_the_silverpine_citizens_c_title: "Sacrifices The Silverpine Citizens"
+    A12_sacrifies_the_silverpine_citizens_c_desc: "Sacrificing the Silverpine citizens will demonstrate our dominance and provide the necessary strength to further our goals. Their suffering will not be in vain. For the Lich King !"
+    A12_eternal_damnation_c_title: "Eternal Damnation"
+    A12_eternal_damnation_c_desc: "We are damned."
+    A12_destroy_stromgarde_c_title: "Destroy Stromgarde"
+    A12_destroy_stromgarde_c_desc: "Eliminating Stromgarde will remove a significant obstacle to our ambitions. Their destruction will solidify our position and intimidate any potential challengers."
+    A12_destroy_the_scarlet_crusade_c_title: "Destroy The Scarlet Crusade"
+    A12_destroy_the_scarlet_crusade_c_desc: "The Scarlet Crusade is a thorn in our side. Their complete destruction will pave the way for our uncontested rule and advance our dark agenda."
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column8
+    #---------------------------------------------------------
+
+    A12_four_year_plan_c_title: "Four Year Plan"
+    A12_four_year_plan_c_desc: "Our Four Year Plan outlines a strategy to secure our dominance and expand our influence. With careful execution, we will consolidate our power and achieve our dark ambitions."
+    A12_affirm_neutrality_c_title: "Affirm Neutrality"
+    A12_affirm_neutrality_c_desc: "Maintaining neutrality is crucial to maneuvering through the political landscape. By affirming our neutrality, we can avoid unnecessary conflicts and focus on our internal goals."
+    A12_prevent_the_fall_c_title: "Prevent The Fall"
+    A12_prevent_the_fall_c_desc: "Preventing the fall of our territory is essential to our survival and strength. We must take decisive actions to ensure that our dominion remains unchallenged."
+    A12_rally_the_army_c_title: "Rally The Army"
+    A12_rally_the_army_c_desc: "Rallying our army is vital for our defense and offensive operations. Mobilizing our forces will prepare us for any threats and ensure our strategic superiority."
+    A12_pact_with_devil_c_title: "Pact With Devil"
+    A12_pact_with_devil_c_desc: "Forming a pact with dark forces will enhance our power and give us an edge over our enemies. This unholy alliance will serve our interests and advance our agenda."
+    A12_corrupt_ruler_c_title: "Corrupt Ruler"
+    A12_corrupt_ruler_c_desc: "As the ruler of Gilneas, you must embrace the dark powers that will solidify your control and ensure the nation's absolute obedience. Corruption is key to maintaining dominance.""
+    A12_corrupt_gilneas_c_title: "Corrupt Gilneas"
+    A12_corrupt_gilneas_c_desc: "Transform Gilneas into a bastion of darkness. Through corruption and manipulation, mold the nation into a formidable force aligned with the Scourge's sinister goals."
+    A12_destroy_lordaeron_c_title: "Destroy Lordaeron"
+    A12_destroy_lordaeron_c_desc: "The destruction of Lordaeron is a critical step in eliminating a major rival. Their fall will pave the way for our unchallenged rule and weaken our adversaries."
+    A12_destroy_kultiras_c_title: "Destroy Kul'Tiras"
+    A12_destroy_kultiras_c_desc: "Eradicating Kultiras will remove a significant threat to our plans. Their destruction will secure our influence and reduce resistance to our expansion."
+    A12_destroy_the_forsaken_c_title: "Destroy The Forsaken"
+    A12_destroy_the_forsaken_c_desc: "Eliminating the Forsaken will remove a dangerous faction from the equation. Their destruction will further our control and reduce opposition to our dark design"
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column9
+    #---------------------------------------------------------
+
+    A12_greyman_wall_c_title: "Greymane Wall"
+    A12_greyman_wall_c_desc: "Strengthening the Greymane Wall will fortify our defenses and prevent incursions. This strategic enhancement will bolster our position and protect our territory."
+    A12_adopt_the_worgen_culture_c_title: "Adopt The Worgen Culture"
+    A12_adopt_the_worgen_culture_c_desc: "Embracing Worgen fury will integrate their strengths into our society. This cultural shift will enhance our capabilities and unify our people under a common banner."
+    A12_destroy_alterac_c_title: "Destroy Alterac"
+    A12_destroy_alterac_c_desc: "The destruction of Alterac will eliminate a rival power and solidify our control over the region. Their fall will strengthen our position and reduce potential threats."
+    A12_destroy_stormwind_c_title: "Destroy Stormwind"
+    A12_destroy_stormwind_c_desc: "Stormwind's destruction will be a significant blow to our enemies. By eradicating this stronghold, we will secure our dominance and intimidate any challengers."
+    A12_reclaim_kul_tiras_c_title: "Reclaim Kul'Tiras"
+    A12_reclaim_kul_tiras_c_desc: "Reclaiming Kul Tiras will restore our influence over the region. By asserting control, we will reestablish our power and expand our reach."
+
+    #---------------------------------------------------------
+    # A12 Gilneas Column10
+    #---------------------------------------------------------
+
+    A12_hire_arugal_c_title: "Hire Arugal"
+    A12_hire_arugal_c_desc: "Enlist the aid of Arugal, a powerful mage who can bring the dark magic needed to strengthen Gilneas' position and further our goals."
+    A12_archmage_arugal_c_title: "Archmage Arugal"
+    A12_archmage_arugal_c_desc: "Archmage Arugal's expertise in forbidden magic can be a powerful asset. Utilize his knowledge to deepen our control over the Worgen curse and advance our sinister objectives."
+    A12_study_the_ur_research_c_title: "Study The Ur Research"
+    A12_study_the_ur_research_c_desc: "Investigate the ancient Ur research to uncover powerful secrets that can enhance our dark powers and solidify our dominion over Gilneas."
+    A12_release_worgen_c_title: "Release Worgen"
+    A12_release_worgen_c_desc: "Unleash the Worgen from their confinement to harness their power. Their strength and ferocity will serve our corrupt purposes and instill fear in our enemies"
+    A12_the_curse_of_worgen_c_title: "The Curse of Worgen"
+    A12_the_curse_of_worgen_c_desc: "Embrace the curse of the Worgen to transform Gilneas into a realm of darkness. This curse will bind our people to our cause and ensure their loyalty."
+    A12_aranas_antidote_c_title: "Aranas Antidote"
+    A12_aranas_antidote_c_desc: "Develop an antidote to counteract any potential threats to our power. This antidote will safeguard our plans and fortify our position against the Worgen Curse."
+    A12_knowledge_of_the_lich_king_c_title: "Knowledge of The Damned Cult"
+    A12_knowledge_of_the_lich_king_c_desc: "Gain insight into the dark cults aligned with the Lich King. Their knowledge will be crucial in advancing our corrupt goals and defeating our enemies and control the Worgen beast inside us"
+    A12_destroy_gnomeragan_c_title: "Destroy Gnomeragan"
+    A12_destroy_gnomeragan_c_desc: "Eradicate Gnomeragan to eliminate a significant threat to our plans. Their destruction will pave the way for our dominance in the region"
+    A12_destroy_khazmodan_c_title: "Destroy Khaz Modan"
+    A12_destroy_khazmodan_c_desc: "Crush Khaz Modan to remove a critical obstacle in our path. Their downfall will secure our control over the surrounding areas"
+    A12_claim_tol_barad_c_title: "Claim Tol Barad"
+    A12_claim_tol_barad_c_desc: "Seize Tol Barad to expand our influence and control a strategic location. This will enhance our strategic position and support our overarching plans"
+    A12_stromgarde_throne_c_title: "Stromgarde Throne"
+    A12_stromgarde_throne_c_desc: "Assert control over the Stromgarde Throne to consolidate our power in the region. This move will strengthen our position and intimidate potential adversaries"
+    
+    #---------------------------------------------------------
+    # A12 Gilneas Column11 and Extra column
+    #---------------------------------------------------------
+    A12_neutrality_or_alliance_title: "Neutrality or Alliance"
+    A12_neutrality_or_alliance_desc: "Choose between staying neutral or forging an alliance. Your choice will determine our approach to dealing with external threats and shaping our future"
+    A12_neutrality_or_alliance_c_title: "Neutrality or Alliance"
+    A12_neutrality_or_alliance_c_desc: "Choose between staying neutral or forging an alliance. Your choice will determine our approach to dealing with external threats and shaping our future"
+    
+    A12_we_cant_more_c_title: "Enough is enough!"
+    A12_we_cant_more_c_desc: "Declare that we can no longer tolerate the current situation. This resolution will set the stage for more drastic actions to achieve our goals"
+    A12_we_cant_more_c_2_title: "Enough is enough!"
+    A12_we_cant_more_c_2_desc: "Declare that we can no longer tolerate the current situation. This resolution will set the stage for more drastic actions to achieve our goals"
+    A12_break_the_chains_c_title: "Breaking the Chains"
+    A12_break_the_chains_c_desc: "Liberate ourselves from any constraints or limitations against the Lich King. By breaking free from these chains, we will be able to pursue our ambitions more effectively."
+    A12_rally_the_forsaken_c_title: "Alliance with Forsaken"
+    A12_rally_the_forsaken_c_desc: "Forge an alliance with the Forsaken to strengthen our position and unify our forces. This partnership will enhance our capacity to achieve our objectives and confront our enemies"
+    
+
+    #---------------------------------------------------------
+    # Modifier
+    #---------------------------------------------------------
+    A12_alliance_of_lordaeron_modifier: "Alliance of Lordaeron"
+    A12_archmage_arugal_modifier: "The Archmage Arugal"
+    A12_ur_research: "The Ur Research"
+    A12_arugal_forbidden_study: "Forbidden Study from Archmage Arugal"
+    A12_release_the_worgens: "Release The Worgen"
+    A12_outdo_our_beast: "Aranas Antidote"
+    A12_outdo_our_beast_upgraded: "Restores the Balance"
+    A12_adopt_the_worgen_culture_modifier_a: "King of the pack"
+    A12_adopt_the_worgen_culture_modifier_b: "End of the curse"
+    A12_reclaim_kul_tiras_modifier_a: "Tirasian District"
+    A12_reclaim_kul_tiras_modifier_b: "Tirasian Expertise"
+    A12_claim_tol_barad_tt_a: "If the §YTirasian Region§! is entirely under the Gilneas flag, the following bonus will be applied:"
+    A12_claim_tol_barad_tt_b: "If §YStromgarde§! doesn't exist, the mission will grant the following reward:"
+    A12_terror_in_gilneas_city: "The Chaos in the street"
+    A12_genn_become_worgen_modifier_a: "The King is affected by the Curse !"
+    A12_intelligence_service: "The new Intelligence Agency of Gilneas"
+    A12_darius_crowley_killed_modifier: "Has killed an important figure"
+    A12_strenght_in_unity_vassalisation_modifier: "Recognition of Supremacy over the Worgen Culture"
+    A12_strength_in_unity_modifier: "Supremacy over the Worgen Culture"
+    A12_preparation_invasion_of_gilneas: "Preparation for the war"
+    A12_new_supply_modifier_support_a: "New supply from Stormwind"
+    A12_new_supply_modifier_support_b: "New supply from Darnassus"
+    A12_new_supply_modifier_support_c: "New supply from Khaz Modan"
+    A12_new_supply_modifier_support_d: "New supply from Kul Tiras"
+    A12_STW_tax_for_support: "Stormwindian tax"
+    A12_didnt_keep_promise: "Not trustworthy"
+    A12_develop_silverpine_arg_keep_modifier: "Lord silverlaine ordered"
+    A12_exploit_from_emberstone_mine_modifier: "Emberstone mine"
+    A12_exploit_from_emberstone_village_modifier: "New city"
+    A12_rally_the_army_modifier: "Rally the army"
+    X04_the_crusade_colonisation: "Gilnean Colonisation"
+    X04_the_crusade_army: "Martial Law"
+    A12_prevent_the_fall_modifier: "Prevent the fall"
+    A12_refugiee_to_stormwind: "Has accepted our refugee"
+    A12_refugiee_to_khaz_modan: "Has accepted our refugee"
+    A12_refugiee_to_kultiras: "Has accepted our refugee"
+    A12_refugiee_to_darnassus: "Has accepted our refugee"
+    A12_greyman_wall_modifier_a: "Greymane Wall"
+    A12_greyman_wall_modifier_b: "Greymane Wall"
+    A12_greyman_wall_modifier_c: "Greymane Wall"
+    A12_greyman_wall_modifier_d: "Greymane Wall"
+    A12_confront_scarlet_crusade: "Confront the Scarlet Crusade"
+    A12_destroy_scholomance_modifier: "Rehabilitation of Scholomance"
+    A12_destroy_scholomance_modifier_b: "Light Magical School"
+    A12_victory_on_the_tragedy_a: "Victory on the Tragedy"
+    A12_victory_on_the_tragedy_b: "Lord of the Ultimate Crusade"
+    A12_four_year_plan_modifier: "Enact the Four Year plan"
+    A12_four_year_plan_province_modifier: "Four Year plan edicts"
+    A12_affirm_neutrality_modifier: "Neutrality confirmed"
+    A12_being_scourge_vassal: "Prime Scourge Domain"
+    A12_the_worgens_already_attacked_this_prov: "This province was recently attacked by worgen"
+    A12_destroy_khazmodan_modifier: "Dun Morogh under the flame"
+    A12_kultiras_destroyed: "Spill their blood into the sea"
+    A12_destroy_the_scarlet_crusade_modifier: "Victory on the Crusader"
+    A12_destroy_the_argent_crusade_modifier: "Bury the Silver Hand Order"
+    A12_the_new_dawn_for_gilneas: "The New Dawn for Gilneas"
+    A12_war_with_forsaken: "Capital Front"
+    A12_start_the_isolation_modifier: "The Gilnean Isolation"
+    A12_end_the_isolation_modifier: "New Era for Gilneas ?"
+    A12_destroy_lordaeron_modifier: "Lordaeron blood"
+    
+    
+    A12_opinion_godfrey_non_tolerance: "Agressive politics against Worgen"
+    A12_refuse_to_help_us: "Has refused to help us"
+    A12_A94_genn_is_a_liar: "Betrayed us"
+    
+    
+    A12_has_accepted_our_refugiee: "Has accepted our refugie"
+    A12_has_accepted_our_refugiee_b: "Host our refugees"
+    
+    
+    #---------------------------------------------------------
+    # Tooltip
+    #---------------------------------------------------------
+    gilneas_enable_privilige_greymane_greygard_tt: "Grant access to §YThe Greyguard§! privilege for the noble estates."
+    X04_gain_permanant_claim_in_tg_wg_eg: "§YNew Lordaeron§!: gains a permanent claim on §YTirisfal Glades§!, §YAndorhal§! and §YStratholme§! region"
+    A12_unlock_decision_reborn_lordaeron_tt: "Unlock the §Ydecision§! to rise §VLordaeron from its ashes§!\n\nBut there is the §Ycost§! :"
+    A12_unlock_decision_reborn_lordaeron_for_andorhal_tt: "Unlock the §Ydecision§! to give Andorhal region to §Y[Root.X04.GetName]§!"
+    A12_unlock_decision_reborn_lordaeron_for_stratholme_tt: "Unlock the §Ydecision§! to give Stratholme region to §Y[Root.X04.GetName]§!"
+    A12_can_build_greymane_wall_by_mission_tt: "Can build §YGreymane Wall§! through a decision"
+    A12_can_build_greymane_wall_by_mission_modifier_a_tt: "If the §YGreymane Wall§! is already build, the following bonus will be applied to the province :"
+    A12_can_build_greymane_wall_by_mission_modifier_b_tt: "If the §YGreymane Wall§! is §Ytier 3§!, the following reward will be given :"
+    A12_forsaken_war_modifier: "War diplomacy"
+     
+    estate_nobility_greymane_greyguard: "The Greyguard"
+    estate_nobility_greymane_greyguard_desc: ""
+    
+    #UNUSED A12_no_propagation_of_the_worgen_curse: "A Worgen attack took place in [A12_propagation_of_the_curse_event_target.GetName] during the night. After a fierce struggle, our local garrison and the inhabitants managed to repel the bloodthirsty invaders—at least, for now..."
+    
+    A12_dont_match_kultiras_support: "§YWARNING§!: This mission cannot be completed if the following mission has already been finished : §PSearch for Kul'Tiras Support§!"
+    A12_dont_match_kultiras_reclaim: "§YWARNING§!: This mission cannot be completed if the following mission has already been finished : §PReclaim Kul'Tiras§!"    
+    A12_darius_crowley_jailed_tt: "Darius Crowley is actually in jail"
+    A12_number_of_year_crowley_in_jail_tt: "Number of years Darius Crowley spent in prison (§Y[Root.A12_crowley_jailed_variable.GetValue]/20§!)"
+    A12_crowley_jailed_variable: "Number of years Darius Crowley spent in prison"
+    A12_the_gilneas_liberation_front_a: "If the mission is completed while Gilneas is at war with the Forsaken, §Ythe following bonuses will be granted§!:\n([914.GetName]):\nGilneas will take the control of this province and get §Y3 regiments§!\n([525.GetName]):\nGilneas will take the control of this province and get §Y3 regiments§!"
+    A12_the_gilneas_liberation_front_b: "If the mission is completed while Gilneas is at war with the Forsaken and Darius Crowley has not been killed, §Ythe following bonuses will be granted§!:\nGilneas will get §Y1 regiments§! in §Y[914.GetName]§! and §Y[525.GetName]§!"
+    A12_the_gilneas_liberation_front_c: "If the mission is completed while Gilneas is not at war, §Ythe following bonuses will be granted§!:"
+    A12_end_the_blocus_tt: "Every §Yennemy battle ships§! near our coastal provinces will be §Ydestroyed§!"
+    A12_evacuate_the_silverpine_failed: "If the mission is completed without the §Yevacuation succeeding§!, nothing will happen."
+    A12_too_late_for_arugal_tt: "Arugal is actually dead and can't be employed"
+    A12_four_year_plan_province_modifier_tooltip: "§Y5§! random owned province will gain this §Ymodifier§! :"
+    A12_sacrifies_the_silverpine_citizens_tt: "§YTIPS§! : You can liberate Ambermill and Pyrewood as vassal to complete the mission"
+    A12_destroy_stromgarde_c_tt: "If §YStromgarde§! doesn't exist, the following reward will be applied :"
+    A12_destroy_stromgarde_c_tt_b: "If §YNew Stromgarde§! doesn't exist, the following reward will be applied :"
+    A12_rally_the_forsaken_c_warning: "§YWARNING§!: This mission cannot be completed if the following mission has already been finished : §PDestroy The Forsaken§!"
+    A12_rally_the_forsaken_c_warning_b: "§YWARNING§!: This mission cannot be completed if the following mission has already been finished : §PAlliance With the Forsaken§!"
+    A12_sacrifies_the_silverpine_citizens_effect_tt: "All provinces in the Silverpine Forest will experience death and desolation and will be ceded to the Scourge."
+    
+    A12_3_gilneas_column8: " "
+    A12_3_gilneas_column7: " "
+    A12_3_gilneas_column6: " "
+    A12_3_gilneas_column5: " "
+    A12_1_gilneas_column5: " "
+    A12_1_gilneas_column4: " "
+    A12_1_gilneas_column3: " "
+    A12_1_gilneas_column2: " "
+    A12_1_gilneas_column1: " "
+    A12_3_gilneas_column4: " "
+    A12_3_gilneas_column3: " "
+    A12_3_gilneas_column2: " "
+    A12_3_gilneas_column1: " "
+    X02_lote_column5: " "
+    X02_lote_column4: " "
+    X02_lote_column3: " "
+    X02_lote_column2: " "
+    X02_lote_column1: " "
+    X04_new_lordaeron_column_5: " "
+    X04_new_lordaeron_column_4: " "
+    X04_new_lordaeron_column_3: " "
+    X04_new_lordaeron_column_2: " "
+    X04_new_lordaeron_column_1: " "
+    no_tooltip: " "
+    no_tooltip_1: " "
+    no_tooltip_2: " "
+    

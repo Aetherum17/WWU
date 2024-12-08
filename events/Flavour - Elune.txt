@@ -435,7 +435,7 @@ country_event = {
         }
 	}
     option = {
-		name = wwu_elune.13.option.a
+		name = wwu_elune.13.option.b
 		
         add_devotion = 10
         
@@ -476,7 +476,7 @@ country_event = {
         }
 	}
     option = {
-		name = wwu_elune.14.option.a
+		name = wwu_elune.14.option.b
 		
         if = {
             limit = {

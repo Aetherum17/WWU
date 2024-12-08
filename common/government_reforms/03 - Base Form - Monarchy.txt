@@ -105,6 +105,7 @@ admiralty_reform = {
 		OR = {
             num_of_ports = 20
             primary_culture = culture_kul_tiran
+            has_country_flag = allow_admirality_reform
         }
 	}
     
@@ -390,11 +391,9 @@ vrykul_kingdom_reform = {
 	nation_designer_cost        = 0
     lock_level_when_selected    = yes
     
-    maintain_dynasty = yes
-    
 	modifiers = {
-        free_mil_policy = 1
-        unjustified_demands = -0.15
+        may_perform_slave_raid = yes 
+        unjustified_demands = -0.1
         war_exhaustion = -0.03
 
         land_forcelimit_modifier = 0.1
@@ -736,11 +735,11 @@ mantid_empire_reform = {
         manpower_recovery_speed = 0.1
         
         land_forcelimit_modifier = 0.1
-        land_forcelimit = 3
+        land_forcelimit = 5
         
         governing_capacity = 150
         
-        max_absolutism = 20
+        max_absolutism = 25
 	}
 	
     custom_attributes = {
@@ -902,10 +901,10 @@ troll_kingdom_reform = {
 	modifiers = {
         core_creation = -0.1
         unjustified_demands = -0.05
-        infantry_power = 0.1
+        land_morale = 0.1
+        hostile_attrition = 1
         
         land_forcelimit_modifier = 0.1
-        land_forcelimit = 3
         
         max_absolutism = 15
 	}
@@ -1286,7 +1285,7 @@ aqir_kingdom_reform = {
     potential = {
         OR = {
             have_had_reform = aqir_kingdom_reform
-            culture_group = culture_group_aqir
+            primary_culture = culture_qiraji
         }
     }
     
@@ -1698,7 +1697,7 @@ khaz_modan_kingdom_reform = {
         }
         
         government_abilities = {
-            feudal_authority_mechanic
+            autocratic_strength_mechanic
         }
     }
     
@@ -1845,6 +1844,9 @@ lordaeron_kingdom_reform = {
         OR = {
             tag = A08
             was_tag = A08
+			
+			tag = X04 #New Lordaeron
+			was_tag = X04
         }
     }
     
@@ -1992,4 +1994,47 @@ dragonflight_brood_reform = {
 	}
     
 	ai = { factor = 0 }
+}
+
+# Used by Silithid
+silithid_lair_reform = {
+    icon                        = "silithrid"
+    legacy_equivalent           = autocracy_legacy
+    valid_for_new_country       = no
+    allow_normal_conversion     = no 
+	allow_convert               = no 
+    valid_for_nation_designer   = yes
+	nation_designer_cost        = 0
+    lock_level_when_selected    = yes
+
+    heir    = no
+    queen   = no
+	
+	fixed_rank = 1
+
+    modifiers = {
+        global_manpower_modifier = 0.15
+        manpower_recovery_speed = 0.15
+        no_cost_for_reinforcing = yes
+        global_regiment_cost = -0.25
+
+        land_forcelimit = -3
+        land_morale = -0.1
+        discipline = -0.05
+
+        development_cost = -0.1
+        build_cost = -0.15
+    }
+
+    custom_attributes = {
+		locked_government_type = yes
+	}
+
+    potential = {
+        OR = {
+            have_had_reform = silithid_lair_reform
+            primary_culture = culture_silithid
+        }
+    }
+
 }

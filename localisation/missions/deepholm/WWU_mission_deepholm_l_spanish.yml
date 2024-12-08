@@ -7,16 +7,19 @@
  P27_deepholm_column_5: ""
  
  P27_bolster_the_temple_of_earth_title: "Bolster the Temple of Earth"
- P27_bolster_the_temple_of_earth_desc: ""
+ P27_bolster_the_temple_of_earth_desc: "The Temple of Earth stands as the pillar of Deepholm, a central obelisk that stabilizes Azeroth. By developing areas around it, we will stabilize our realm."
  
  P27_spread_therazane_beauty_title: "Spread Therazane's Beauty"
- P27_spread_therazane_beauty_desc: ""
+ P27_spread_therazane_beauty_desc: "Beatuty of the Earth Mother must be witnessed by all of Azeroth."
  
  P27_crush_the_fire_lord_title: "Crush the Fire Lord"
- P27_crush_the_fire_lord_desc: ""
+ P27_crush_the_fire_lord_desc: "Ragnaros the Firelord is one of the elemental lords, commanding Firelands. While both our ally and enemy in the past, now we have show him that we are the dominant elemental force."
+
+ P27_crush_the_wind_lord_title: "Crush the Air Lord"
+ P27_crush_the_wind_lord_desc: "Al'akir the Windlord is one of the elemental lords, commanding Skywall. While both our ally and enemy in the past, now we have show him that we are the dominant elemental force."
  
- P27_crush_the_tidehunter_title: "Crush the Wind Lord"
- P27_crush_the_tidehunter_desc: ""
+ P27_crush_the_tidehunter_title: "Crush the Water Lord"
+ P27_crush_the_tidehunter_desc: "Neptulon the Tidehunter is one of the elemental lords, commanding Abyssal Maw. While both our ally and enemy in the past, now we have show him that we are the dominant elemental force."
  
  # --- Modifiers ---
  mission_therazane_beauty: "Therazane's Beauty"
@@ -27,3 +30,6 @@
  
  mission_therazane_swiftness: "Therazane's Swiftness"
  desc_mission_therazane_swiftness: ""
+
+ mission_therazene_wisdom: "Therazene's Wisdom"
+ desc_mission_therazene_wisdom: ""

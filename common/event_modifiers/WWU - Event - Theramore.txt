@@ -1,0 +1,99 @@
+#----------------------------------------------
+# Missions
+#----------------------------------------------
+event_transregional_transportation_system_a23 = {
+    movement_speed = 0.15 
+	envoy_travel_time = -0.25
+	caravan_power = 0.25 
+	global_trade_power = 0.2 
+	trade_efficiency = 0.2 
+	center_of_trade_upgrade_cost = -0.2 
+}
+
+event_trainer_garion_a23 = {
+    morale_damage_received = -0.025 
+	backrow_artillery_damage = 0.10 
+}
+
+event_trainer_morlann_a23 = {
+    morale_damage = 0.025 
+	shock_damage = 0.10 
+}
+
+event_returned_captives_a23 = {
+    diplomatic_reputation = 2 
+}
+
+event_valuable_captives_a23 = {
+    diplomats = 1 
+	unjustified_demands = -0.2
+}
+
+event_released_captives_a23 = {
+    diplomatic_reputation = -1
+	improve_relation_modifier = -0.1
+}
+
+event_shady_rest_inn_mystery_solved_a23 = {
+    global_spy_defence = 0.1 
+	spy_offence = 0.1	
+}
+
+event_healing_wounds_a23 = {
+    improve_relation_modifier = -0.1
+	diplomatic_upkeep = 1
+}
+
+event_spitting_on_dealins_memory_a23 = {
+    diplomatic_reputation = -1
+	improve_relation_modifier = -0.1
+}
+
+event_stealing_focusing_iris_a23 = {
+    global_spy_defence = -0.1 
+    shock_damage_received = 0.05 
+}
+
+event_an_everlasting_tragedy_a23 = {
+    stability_cost_modifier = 0.2
+    global_unrest = 2
+	development_cost = 0.1 
+}
+
+event_stealing_mana_bomb_a23 = {
+    diplomatic_reputation = 1
+	global_defender_dice_roll_bonus = 1 
+}
+
+event_end_of_a_great_threat_a23 = {
+    diplomatic_reputation = 1
+	land_morale = 0.10
+}
+
+event_opened_their_own_grave_a23 = {
+    ae_impact = -0.2 
+	assault_fort_ability = 0.15 
+}
+
+event_arcane_radiation_a23 = {
+    global_colonial_growth = -1000
+	colonist_placement_chance = -0.1
+	local_monthly_devastation = 0.05 
+}
+
+event_honorable_warfare_a23 = {
+    diplomatic_reputation = 1
+	discipline = 0.01
+	unjustified_demands = -0.1
+}
+
+event_destroyed_fleets_a23 = {
+    privateering_efficiency_in_fleet_modifier = 0.1
+	barrage_cost_in_fleet_modifier = -0.1 
+}
+
+event_liberation_and_retribution_a23 = {
+    diplomatic_reputation = 2
+	prestige = 0.2
+	monarch_military_power = 1 
+}

@@ -27,6 +27,8 @@ country_event = {
         unlock_artifact = {
             artifact = skull_of_manari
         }
+		
+		play_sound = pick_up_gems
 	}
 }
 
@@ -57,6 +59,8 @@ country_event = {
         unlock_artifact = {
             artifact = maw_of_the_damned
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -89,6 +93,8 @@ country_event = {
         unlock_artifact = {
             artifact = blades_of_the_fallen_prince
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -119,6 +125,8 @@ country_event = {
         unlock_artifact = {
             artifact = aldrachi_warblades
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
@@ -149,6 +157,8 @@ country_event = {
         unlock_artifact = {
             artifact = tuure
         }
+		
+		play_sound = pick_up_ores
 	}
 }
 
@@ -179,296 +189,298 @@ country_event = {
         unlock_artifact = {
             artifact = fangs_of_the_devourer
         }
+		
+		play_sound = pick_up_small_metal
 	}
 }
 
-# Sulfuras, Hand of Ragnaros
-country_event = {
-	id = wwu_artifact_unlocks.7
-	title = wwu_artifact_unlocks.7.title
-	desc = wwu_artifact_unlocks.7.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_sulfuras }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.7.option.a
-        
-        unlock_artifact = {
-            artifact = sulfuras
-        }
-	}
-}
-
-# Shalamane
-country_event = {
-	id = wwu_artifact_unlocks.8
-	title = wwu_artifact_unlocks.8.title
-	desc = wwu_artifact_unlocks.8.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_shalamane }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.8.option.a
-        
-        unlock_artifact = {
-            artifact = shalamane
-        }
-	}
-}
-
-# Thunderfury, Blessed Blade of the Windseeker
-country_event = {
-	id = wwu_artifact_unlocks.9
-	title = wwu_artifact_unlocks.9.title
-	desc = wwu_artifact_unlocks.9.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_thunderfury }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.9.option.a
-        
-        unlock_artifact = {
-            artifact = thunderfury
-        }
-	}
-}
-
-# Hammer of Twilight
-country_event = {
-	id = wwu_artifact_unlocks.10
-	title = wwu_artifact_unlocks.10.title
-	desc = wwu_artifact_unlocks.10.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_hammer_of_twilight }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.10.option.a
-        
-        unlock_artifact = {
-            artifact = hammer_of_twilight
-        }
-	}
-}
-
-# Skull of Gul’dan
-country_event = {
-	id = wwu_artifact_unlocks.11
-	title = wwu_artifact_unlocks.11.title
-	desc = wwu_artifact_unlocks.11.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_skull_of_guldan }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.11.option.a
-        
-        unlock_artifact = {
-            artifact = skull_of_guldan
-        }
-	}
-}
-
-# Eye of Dalaran
-country_event = {
-	id = wwu_artifact_unlocks.12
-	title = wwu_artifact_unlocks.12.title
-	desc = wwu_artifact_unlocks.12.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_eye_of_dalaran }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.12.option.a
-        
-        unlock_artifact = {
-            artifact = eye_of_dalaran
-        }
-	}
-}
-
-# Atiesh, Grandstaff of the Guardian
-country_event = {
-	id = wwu_artifact_unlocks.13
-	title = wwu_artifact_unlocks.13.title
-	desc = wwu_artifact_unlocks.13.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_atiesh }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.13.option.a
-        
-        unlock_artifact = {
-            artifact = atiesh
-        }
-	}
-}
-
-# Warglave of Azzinoth
-country_event = {
-	id = wwu_artifact_unlocks.14
-	title = wwu_artifact_unlocks.14.title
-	desc = wwu_artifact_unlocks.14.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_warglave_of_azzinoth }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.14.option.a
-        
-        unlock_artifact = {
-            artifact = warglave_of_azzinoth
-        }
-	}
-}
-
-# Killmaim
-country_event = {
-	id = wwu_artifact_unlocks.15
-	title = wwu_artifact_unlocks.15.title
-	desc = wwu_artifact_unlocks.15.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_killmaim }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.15.option.a
-        
-        unlock_artifact = {
-            artifact = killmaim
-        }
-	}
-}
-
-# Horn of Cenarius
-country_event = {
-	id = wwu_artifact_unlocks.16
-	title = wwu_artifact_unlocks.16.title
-	desc = wwu_artifact_unlocks.16.desc
-	picture = ANTORUS_eventPicture
-	
-    is_triggered_only = yes
-    
-	trigger = {
-        NOT = { has_global_flag = discovered_artifact_horn_of_cenarius }
-        is_civilized = yes
-        # TODO
-        always = no
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    option = {
-		name = wwu_artifact_unlocks.16.option.a
-        
-        unlock_artifact = {
-            artifact = horn_of_cenarius
-        }
-	}
-}
+## Sulfuras, Hand of Ragnaros
+#country_event = {
+#	id = wwu_artifact_unlocks.7
+#	title = wwu_artifact_unlocks.7.title
+#	desc = wwu_artifact_unlocks.7.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_sulfuras }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.7.option.a
+#        
+#        unlock_artifact = {
+#            artifact = sulfuras
+#        }
+#	}
+#}
+#
+## Shalamane
+#country_event = {
+#	id = wwu_artifact_unlocks.8
+#	title = wwu_artifact_unlocks.8.title
+#	desc = wwu_artifact_unlocks.8.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_shalamane }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.8.option.a
+#        
+#        unlock_artifact = {
+#            artifact = shalamane
+#        }
+#	}
+#}
+#
+## Thunderfury, Blessed Blade of the Windseeker
+#country_event = {
+#	id = wwu_artifact_unlocks.9
+#	title = wwu_artifact_unlocks.9.title
+#	desc = wwu_artifact_unlocks.9.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_thunderfury }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.9.option.a
+#        
+#        unlock_artifact = {
+#            artifact = thunderfury
+#        }
+#	}
+#}
+#
+## Hammer of Twilight
+#country_event = {
+#	id = wwu_artifact_unlocks.10
+#	title = wwu_artifact_unlocks.10.title
+#	desc = wwu_artifact_unlocks.10.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_hammer_of_twilight }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.10.option.a
+#        
+#        unlock_artifact = {
+#            artifact = hammer_of_twilight
+#        }
+#	}
+#}
+#
+## Skull of Gul’dan
+#country_event = {
+#	id = wwu_artifact_unlocks.11
+#	title = wwu_artifact_unlocks.11.title
+#	desc = wwu_artifact_unlocks.11.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_skull_of_guldan }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.11.option.a
+#        
+#        unlock_artifact = {
+#            artifact = skull_of_guldan
+#        }
+#	}
+#}
+#
+## Eye of Dalaran
+#country_event = {
+#	id = wwu_artifact_unlocks.12
+#	title = wwu_artifact_unlocks.12.title
+#	desc = wwu_artifact_unlocks.12.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_eye_of_dalaran }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.12.option.a
+#        
+#        unlock_artifact = {
+#            artifact = eye_of_dalaran
+#        }
+#	}
+#}
+#
+## Atiesh, Grandstaff of the Guardian
+#country_event = {
+#	id = wwu_artifact_unlocks.13
+#	title = wwu_artifact_unlocks.13.title
+#	desc = wwu_artifact_unlocks.13.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_atiesh }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.13.option.a
+#        
+#        unlock_artifact = {
+#            artifact = atiesh
+#        }
+#	}
+#}
+#
+## Warglave of Azzinoth
+#country_event = {
+#	id = wwu_artifact_unlocks.14
+#	title = wwu_artifact_unlocks.14.title
+#	desc = wwu_artifact_unlocks.14.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_warglave_of_azzinoth }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.14.option.a
+#        
+#        unlock_artifact = {
+#            artifact = warglave_of_azzinoth
+#        }
+#	}
+#}
+#
+## Killmaim
+#country_event = {
+#	id = wwu_artifact_unlocks.15
+#	title = wwu_artifact_unlocks.15.title
+#	desc = wwu_artifact_unlocks.15.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_killmaim }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.15.option.a
+#        
+#        unlock_artifact = {
+#            artifact = killmaim
+#        }
+#	}
+#}
+#
+## Horn of Cenarius
+#country_event = {
+#	id = wwu_artifact_unlocks.16
+#	title = wwu_artifact_unlocks.16.title
+#	desc = wwu_artifact_unlocks.16.desc
+#	picture = ANTORUS_eventPicture
+#	
+#    is_triggered_only = yes
+#    
+#	trigger = {
+#        NOT = { has_global_flag = discovered_artifact_horn_of_cenarius }
+#        is_civilized = yes
+#        # TODO
+#        always = no
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    option = {
+#		name = wwu_artifact_unlocks.16.option.a
+#        
+#        unlock_artifact = {
+#            artifact = horn_of_cenarius
+#        }
+#	}
+#}
 

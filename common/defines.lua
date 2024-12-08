@@ -163,13 +163,13 @@ NDiplomacy = {
 	EMPEROR_REVOKE_AUTHORITY_COST = 50.0,			-- Cost for the emperor to revoke a reform
 	EMPEROR_REVOKE_MODIFIER_DAYS = 1800,			-- How long the temporary modifier applied after revoking will last
 	TRUCE_YEARS = 5, 								-- _DDEF_TRUCE_YEARS_; Years of Truce
-	SCALED_TRUCE_YEARS = 3,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
+	SCALED_TRUCE_YEARS = 5,						-- Additional years of truce based on % of warscore taken in war (100% warscore = full scaled truce years)
 	--- WWU: reduced scaled truce length to allow for quicker conquest.
 	REQUEST_HEIR_TRUCE = 5,
 	REQUEST_HEIR_AE = 20,
 	WARNING_YEARS = 10,								-- Years before warning expire
 	--- WWU: Reduced time for warnings to reduce blocking expansion by more powerful AI
-	ANNUL_TREATIES_YEARS = 10,						-- Years before annul treaties expire
+	ANNUL_TREATIES_YEARS = 15,						-- Years before annul treaties expire
 	COALITION_YEARS = 10,							-- Years before coalition expire
 	--- WWU: reduced time that coalition remains active to not block expansion for players
 	REVANCHISM_MONTHLY_DECAY = 0.833,			-- about 20 years to decay all of it.
@@ -456,7 +456,7 @@ NDiplomacy = {
 	LEAVING_GREAT_POWER_YEARS = 5,					-- The number of years a Great Power can remain after being removed from the top (8).
 	GREAT_POWER_SUBJECT_CONTRIBUTION = 0.5,			-- Share of subjects' development that will count towards overlord's Great Power score.
 
-	FORCE_BREAK_ALLIANCE_TRUCE_YEARS = 8,			-- Length of truce imposed by Break Alliance.
+	FORCE_BREAK_ALLIANCE_TRUCE_YEARS = 10,			-- Length of truce imposed by Break Alliance.
 	--- WWU: reduced to match new max truce length.
 	FORCE_END_RIVALRY_YEARS = 15,					-- Years until you can re-add a Rival after being forced to remove them by peace treaty.
 	DECLINE_FAVOR_ACTION_STAB_HIT = 0,				-- stability lost for refusing a favor action																	
@@ -762,9 +762,9 @@ NCountry = {
 	--- WWU: adjusted to fit around 1 year reduction per click
 	GREAT_PROJECT_MOVE_COST_PER_DAY = 3, --how much to move a great project for one day
 	COUNTRIES_GETTING_SCORE = 10,
-	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 10,			-- extra expense for being above forcelimit
+	LAND_FORCELIMIT_EXTRA_COST_FACTOR = 4,			-- extra expense for being above forcelimit
 	--- WWU: increase cost of excessive troops
-	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 10,			-- extra expense for being above forcelimit
+	NAVAL_FORCELIMIT_EXTRA_COST_FACTOR = 4,			-- extra expense for being above forcelimit
 	--- WWU: increase cost of excessive ships
 	REPUBLICAN_TRADITION_YEARLY_INCREASE = 1,		-- how much it increases each year.
 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.25,			-- percentage of piety kept at new ruler.
@@ -982,7 +982,7 @@ NCountry = {
 	MONTHS_TO_CORE_MAXIMUM = 240,					-- Maximum amount of months it will take to core a province after all modifiers.
 	MONTHS_TO_CORE_MINIMUM = 6,						-- Minimum amount of months it will take to core a province after all modifiers.
 	MONTHS_TO_CORE = 36,							-- How many months it will take to core a province.
-	MONTHS_TO_CHANGE_CULTURE = 1,					-- How many months it will take to change culture in a province, per development.
+	MONTHS_TO_CHANGE_CULTURE = 6,					-- How many months it will take to change culture in a province, per development.
 	--- WWU: make changing culture much quicker.
 	RELEASED_NATION_ARMY_SIZE = 0.5,				-- Newly released nations get an army of this size
 	STARTING_ARMY_SIZE = 0.75,						-- Percentage of force limit

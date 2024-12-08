@@ -1,0 +1,274 @@
+﻿l_german:
+ #-----------------------------------------------
+ # Theramore
+ #-----------------------------------------------
+ wwu_mission_theramore.1.title: "Aftermath: Dealin's Death"
+ wwu_mission_theramore.1.desc: "After Dalaran's destruction by the Scourge, Jaina Proudmoore took as many survivors of Lordaeron she could find and sailed west to the forgotten shores of Kalimdor. After the Burning Legion was defeated at the Battle of Mount Hyjal, all surviving humans, dwarves and high elves of Jaina's expedition settled along the coast of Dustwallow Marsh, where they erected the island citadel of Theramore to safeguard the ragtag remnants of the failing Alliance. Between both Theramore and Durotar a tension arose, when Admiral Daelin Proudmoore landed in the human colony and started a vicious war against the Horde. He kept hold of the city until Rexxar and the Horde, with the assistance of Jaina assaulted the citadel. The result of this final battle in Theramore was Daelin's death. Jaina's involvment sent a shock wave across all human kingdoms and broke the relations between Kul'tiras and the Alliance. Now Jaina has to live with the consequences..."
+ wwu_mission_theramore.1.option.a: "It was a worthy choice in the name of our peace..."
+ 
+ wwu_mission_theramore.2.title: "Grimtotem Settlers"
+ wwu_mission_theramore.2.desc: "During our border friction with the horde we found an unlikely ally. The Grimtotem tauren offered to assist us in consolidating Dustswallow in exchange for settling in the marshes!"
+ wwu_mission_theramore.2.option.a: "A new home for the Grimtotem!"
+ 
+ wwu_mission_theramore.3.title: "Onyxia"
+ wwu_mission_theramore.3.desc: "Onyxia and her brood were always a thorn to humanity's side. Onyxia, transformed as Katrana Prestor, manipulated the Kingdom of Stormwind, abducted king Varian wrynn, controlled the prince in his absence and caused unrest among the populace. Now, in her lair, we finally give AN END TO HER TYRANNY!"
+ wwu_mission_theramore.3.option.a: "She got what she deserved!"
+ 
+ wwu_mission_theramore.4.title: "Tiragarde Keep"
+ wwu_mission_theramore.4.desc: "Tiragarde Keep is an Alliance stronghold located in the Scuttle Coast in Durotar. It was previously manned by soldiers loyal to Admiral Daelin Proudmoore, Lord of Kul Tiras, and was ruined in a battle against the Horde. After Daelin's death, a reserve force under Lieutenant Benedict took control of the ruins and continued the Admiral's crusade against the orcs. Almost all of his forces were killed in Cataclysm and the fort soon became ruins, with us attempting to reclaim this important fort."
+ wwu_mission_theramore.4.option.a: "We could gain control diplomatically!"
+ wwu_mission_theramore.4.option.b: "The only way to get the fort is through war..."
+ 
+ wwu_mission_theramore.5.title: "Theramorean Ideas"
+ wwu_mission_theramore.5.desc: "Theramore is the common dream of its people. Immigrants from all over the old world gathered here in their hopes to escape the Scourge and make a peaceful living in this inhospitable land! After many disasters, wars and the harsh conditions of the marsh, the citizens of Theramore shaped a common identity as a result of the common struggle. Our people now have their own ideas about the world!"
+ wwu_mission_theramore.5.option.a: "We will embrace our new culture!"
+ wwu_mission_theramore.5.option.b: "We will keep our routes!"
+ 
+ wwu_mission_theramore.6.title: "Kalimdor's Gold Road"
+ wwu_mission_theramore.6.desc: "The ancient Golden Road was a trade route that began from Mor'shan Rampart to the southern edges of the barrens. It is actually belived that during ancient times this road extended all the way to the druitic region of Moonglade. With our hard work, dedication and engineering skills, we managed to upgrade and utilise the road to its ULTIMATE extent!"
+ wwu_mission_theramore.6.option.a: "An achievement worthy of our people!"
+ 
+ wwu_mission_theramore.7.title: "Blackhoof Village"
+ wwu_mission_theramore.7.desc: "Blackhoof Village was a big center for the grimtotem in the region. As they opposed us it would only be nessecery to take hold of this important strategic location in order to secure our flanks for potential threats. The Grimtoten will get no saying on this matter..."
+ wwu_mission_theramore.7.option.a: "The victory is OURS!"
+ 
+ wwu_mission_theramore.8.title: "Radical Voices of Orgrimmar"
+ wwu_mission_theramore.8.desc: "Even though Thrall and Jaina found a peace among the two sides a beneficial thing, many voices in both sides seem to disagree with it. the loudest of those voices came from Garrosh Hellscream, son of Grommash Hellscream. As the time goes on and Garrosh gathers achievements, his call for war appear more and more appealing to the average horde member..."
+ wwu_mission_theramore.8.option.a: "This won't end well..."
+ 
+ wwu_mission_theramore.9.title: "Horde Aggression"
+ wwu_mission_theramore.9.desc: "As tensions are rising more and more skirmishes rise in the borsers. Some Horde groups have even harrashed Northwatch Hold. We need to act quickly!"
+ wwu_mission_theramore.9.option.a: "We don't have many options anymore..."
+ 
+ wwu_mission_theramore.10.title: "Digsites in South Barrens"
+ wwu_mission_theramore.10.desc: "In the sacred lands of the Stonespire tauren, we found a series of important titan ruins and artifacts. With the help of the dwarven colony of Bael Modan we made important progress with the excavasions!"
+ wwu_mission_theramore.10.option.a: "I am sure nothing will go wrong!"
+ 
+ wwu_mission_theramore.11.title: "Stonespire Tauren and Sacred Locations"
+ wwu_mission_theramore.11.desc: "Our actions have created tensions with the Stonespire clan! They demand we return to them their holy ground and stop defiling it! Some radical voices demand swift actions but we should treat this diplomatically..."
+ wwu_mission_theramore.11.option.a: "We will return the land, its rightfully theirs."
+ wwu_mission_theramore.11.option.b: "We shall strike a final blow to the foul beasts!"
+
+ wwu_mission_theramore.12.title: "Suspicious Flyers"
+ wwu_mission_theramore.12.desc: "The last weeks some flyers have been spread around the city causing some tensions among the ranks of the soldiers! At first glance they look like propaganda flyers. We need to take immediate action!"
+ wwu_mission_theramore.12.option.a: "We will find who is behind this."
+ 
+ wwu_mission_theramore.13.title: "Theramorean Deserters"
+ wwu_mission_theramore.13.desc: "Following the trails left behind them we managed to find their wereabouts! It is a group of deserters, composed primarily by ex-soldiers of Theramore who abandoned their duties. Some of them even stayed behind in town to agitate the local population with propaganda denouncing Lady Jaina Proudmoore and encouraging more Theramore guards to join them. Their base of operations is in an old tower, the Lost Point. Its time to STRIKE!"
+ wwu_mission_theramore.13.option.a: "Non will escape, death to traitors!"
+ wwu_mission_theramore.13.option.a: "What a shameful act under our nose..."
+ 
+ wwu_mission_theramore.14.title: "Tabetha's Farm"
+ wwu_mission_theramore.14.desc: "Tabetha's Farm is a small hut with a garden located in the murkiest part of the Quagmire in Dustwallow Marsh. Tabetha herself is present in the building along with her two apprentices Garion and Morlann. Its time to ask for her assistance in state and military affairs."
+ wwu_mission_theramore.14.option.a: "We will need Tabetha herself."
+ wwu_mission_theramore.14.option.b: "Garion seems a promising asset for the army!"
+ wwu_mission_theramore.14.option.c: "Morlann seems a promising asset for the army!"
+ 
+ wwu_mission_theramore.15.title: "Taurajo Captives"
+ wwu_mission_theramore.15.desc: "After our succesful capture of camp Taurajo, a central point of strateguc interest, we got our hands in a handful of captives. Prisoners of war are a common thing but we need to make a decision for our future proceeding regarding their issue."
+ wwu_mission_theramore.15.option.a: "We will release the captives!"
+ wwu_mission_theramore.15.option.b: "Escort the captives in the hands of Thunderbluff."
+ wwu_mission_theramore.15.option.c: "Keep them for leverage!"
+ 
+ wwu_mission_theramore.16.title: "Death of Taurajo Captives"
+ wwu_mission_theramore.16.desc: "When we released the captives we did it hastily. Unfortunally, as we didnt survey the land, the captives fell immediately to the hands of the savage quilboars and were murdered on the spot... Now the world blame us..."
+ wwu_mission_theramore.16.option.a: "We have to live with it..."
+ 
+ wwu_mission_theramore.17.title: "Gates of Mulgore"
+ wwu_mission_theramore.17.desc: "The gates of Mulgore have fallen! Now it is the time to capture the moment, now that the plains are valnurable! Use any military and diplomatic tool nessecery."
+ wwu_mission_theramore.17.option.a: "We exchange out prisoners for an area of control!"
+ wwu_mission_theramore.17.option.b: "They will resist to the last man!"
+ wwu_mission_theramore.17.option.c: "We threatened to execute the prisoners if they dont surrender everything. The bluff actually WORKED!"
+ 
+ wwu_mission_theramore.18.title: "Stonemaul Clan"
+ wwu_mission_theramore.18.desc: "After the defeat of the Old Horde in the Second War, the ogre clans dispersed in all directions. While some escaped back through the Dark Portal into Draenor, other clans either remained in the Eastern Kingdoms or made the difficult journey across the ocean to Kalimdor. For unknown reasons, the Stonemaul clan separated in two with one remaining in Lordaeron and the other journeying to Kalimdor and establishing themselves in the Dustwallow Marsh. After the events of the Third War and the siege of Theramore the Stonemaul clan and Theramore contested the region for their own interests."
+ wwu_mission_theramore.18.option.a: "The stalemate ends."
+ 
+ wwu_mission_theramore.19.title: "Fate of Thunderbluff"
+ wwu_mission_theramore.19.desc: "After a hard fought war we finally managed to siege down the impregnable city of Thunderbluff. The tauren proved great warriors and resilient people but we need to decide their fate."
+ wwu_mission_theramore.19.option.a: "Utterly destroy them!"
+ wwu_mission_theramore.19.option.b: "Sunjucate them!"
+ wwu_mission_theramore.19.option.c: "Spare them!"
+ 
+ wwu_mission_theramore.20.title: "Mystery of Shady Rest Inn"
+ wwu_mission_theramore.20.desc: "The Shady Rest Inn was a human-built inn near the border between Dustwallow Marsh and the Southern Barrens. Some time ago it was mysteriously burned to the ground. We need to find who burned it down and fast!"
+ wwu_mission_theramore.20.option.a: "We will hire an inspector!"
+ 
+ wwu_mission_theramore.21.title: "Investigations Begin"
+ wwu_mission_theramore.21.desc: "Inspector Tarem jumped on the work and seems confident about finding the suspect. He already found some clues and only requests our full support for his efforts."
+ wwu_mission_theramore.21.option.a: "We will fully support him."
+ 
+ wwu_mission_theramore.22.title: "Following Potential Suspects"
+ wwu_mission_theramore.22.desc: "After a thorough investigation, inspector Tarem has began following two lead suspects, Paval Reethe and Lieutenant Caldwell. Unfortunally we only have resources to follow one of them..."
+ wwu_mission_theramore.22.option.a: "Give priority to Paval Reethe."
+ wwu_mission_theramore.22.option.b: "Give priority to Lieutenant Caldwell."
+ 
+ wwu_mission_theramore.23.title: "Dead Suspects"
+ wwu_mission_theramore.23.desc: "During investigation, Paval Reethe as well as possibly Lieutenant Caldwell were implicated by investigating agents and both were killed before they could reveal the truth of who was behind the attack."
+ wwu_mission_theramore.23.option.a: "What an unfortunate event..."
+ 
+ wwu_mission_theramore.24.title: "Leading Clues: The Grimtotem"
+ wwu_mission_theramore.24.desc: "After the sad news of the death of both of our main suspects, inspector Tarem didn't give up his efforts! After his hard work, clues were found that led him to... an unlikely culprit, the Grimtotem tauren. This investigation has gone too deep..."
+ wwu_mission_theramore.24.option.a: "Noone will escape our judgement!"
+ 
+ wwu_mission_theramore.25.title: "Mystery Solved"
+ wwu_mission_theramore.25.desc: "Sir we finally got the news we wanted to hear! Inspector Tarem and some adventourers revealed that the Grimtotem of the nearby villages have burned down the inn. Their arms and shields brought signs of the burning, among other clues... Its time to act!"
+ wwu_mission_theramore.25.option.a: "They will pay for everything!"
+ 
+ wwu_mission_theramore.26.title: "Return to Kul'tiras"
+ wwu_mission_theramore.26.desc: "It has been a long time since the Proudmoore of Theramore have set step into their ancestral homeland. The last time they met with the main house it was a period of war and strife that ended up with the death od Dealin Proudmoore. Unfortunally that event drove Kultiras into cutting any contact with us. After all these years do they still hold a grudge against us?"
+ wwu_mission_theramore.26.option.a: "Time will show..."
+ 
+ wwu_mission_theramore.27.title: "Fate of the Admiralty"
+ wwu_mission_theramore.27.desc: "Our relation with the Admiralty of Kul'tiras has been a complicated one. Our current powerful standing though demands that we solve this issue one way or the other. These people are not only our blood but also the gate towards Lordaeron. Kul'tiras has to make a choice!"
+ wwu_mission_theramore.27.option.a: "Time to unite the broken house!"
+ wwu_mission_theramore.27.option.b: "We won't allow any resistance! Theramore and Kul'tiras will be one!"
+ wwu_mission_theramore.27.option.c: "If the Proudmoore don't want to follow, the other houses may want to!"
+ 
+ wwu_mission_theramore.28.title: "Siege of Zuldazar"
+ wwu_mission_theramore.28.desc: "Zandalar was a great naval power for a long time. Their fleets managed to travel across the entire great sea. But today is our day and the capital city of Zuldazar has fallen. Our navies will rule the world!"
+ wwu_mission_theramore.28.option.a: "A moment for celebration!"
+ 
+ wwu_mission_theramore.29.title: "Focusing Iris"
+ wwu_mission_theramore.29.desc: "The Focusing Iris is an orb found in the center of the Eye of Eternity and was used by Malygos. An ancient artifact of the blue dragonflight, it is an item of immense arcane power. Keys to the Focusing Iris are held by the most ancient members of the blue dragonflight. At minimal power, they can be used to open the iris a fraction, drawing Malygos's ire. Malygos had used his own blood to activate and control this orb, which had lain dormant for millennia. With the open Focusing Iris, Malygos had been able to direct powerful surge needles, using them to pull arcane magic from Azeroth's ley lines and channeling that magic into the Nexus."
+ wwu_mission_theramore.29.option.a: "What a terrifying artifact!"
+ 
+ wwu_mission_theramore.30.title: "Blue Dragon Assistance"
+ wwu_mission_theramore.30.desc: "Reflecting on its missuse in the past and its potential for future misuse, Kalecgos ordered the Focusing Iris moved to a more secure location - encased in enchanted ice, magically warded, and dumped at the bottom of the Frozen Sea."
+ wwu_mission_theramore.30.option.a: "That's a wise move."
+ 
+ wwu_mission_theramore.31.title: "Horde Interferance"
+ wwu_mission_theramore.31.desc: "The dragons sent to escort the iris were ambushed and killed by members of the Horde, who stole it and moved it into an unkown location. We need to make our move fast or it will be too late! Noone knows what the Horde plans to do with it..."
+ wwu_mission_theramore.31.option.a: "These are disastrous news."
+ 
+ wwu_mission_theramore.32.title: "Stolen Iris Investigation"
+ wwu_mission_theramore.32.desc: "As the iris was stolen we were left with no other option to send our best investigators to assist the blue dragonflight into reclaiming the artifact. Unfortunally we have to focus our attention to many targets. We cannot afford to make mistakes but we only have one chance at this..."
+ wwu_mission_theramore.32.option.a: "We will focus on Orgrimmar. The capital must have all the answers"
+ wwu_mission_theramore.32.option.b: "We will investigate the affairs of the Blidgewater Cartel"
+ wwu_mission_theramore.32.option.c: "A powerful artifact needs the best mages to study it, we will focus on Silvermoon!"
+ 
+ wwu_mission_theramore.33.title: "Siege of Theramore"
+ wwu_mission_theramore.33.desc: "The Horde has managed to push through the marsh and lay siege on Theramore Isle. We need to protect the capital before it falls in the hands of those foul beasts!"
+ wwu_mission_theramore.33.option.a: "The walls stand tall!"
+ 
+ wwu_mission_theramore.34.title: "Mana Bomb"
+ wwu_mission_theramore.34.desc: "We finally witness what the Horde was preparing.. a powerful mana bomb! It seems that the focusing iris augmented its destructive power. Lets see what will be the fruits of our investigations!"
+ wwu_mission_theramore.34.option.a: "THERAMORE IS BOMBED! WE FAILED!"
+ wwu_mission_theramore.34.option.b: "Our men seem to have control of the ship! THE BOMB IS OURS!"
+ wwu_mission_theramore.34.option.c: "Our men hyjacked the bomb and it selfdestruckted! THE BOMB IS GONE!"
+ 
+ wwu_mission_theramore.35.title: "Dropping Mana Bomb in Orgrimmar"
+ wwu_mission_theramore.35.desc: "When the Horde laid siege on Theramore Isle they brought forward a destructive powerful mana bomb, that could alter reality itself! Thanks to our efforts the bomb fell to our hands. Now, we are not known as a merciful lot... what shall we do?"
+ wwu_mission_theramore.35.option.a: "An eye for an eye!"
+ wwu_mission_theramore.35.option.b: "We are better than them, BUT ABOVE THEM."
+ wwu_mission_theramore.35.option.c: "There is no honor in eradicating them like this..."
+ 
+ wwu_mission_theramore.36.title: "Fate of Theramore"
+ wwu_mission_theramore.36.desc: "The war with the Horde was a costly one... i would dare to say that noone won this war, but now we can only look forward... ruined cities, powerful weapons, countless lives lost in both sides... But we won... didn't we?"
+ wwu_mission_theramore.36.option.a: "We will build anew! Theramore is where its citizens are!"
+ wwu_mission_theramore.36.option.b: "This time we were saved by our precaution, stay always vigilant!"
+ wwu_mission_theramore.36.option.c: "We saved the city, we stole the bomb, time to maintain peace!"
+ 
+ wwu_mission_theramore.37.title: "Seaborn Rivals"
+ wwu_mission_theramore.37.desc: "The foul beasts of the deep sea were always a threat to any marinetime presence since their awakening by Illidan Stormrage. Now we deliver a decisive blow to their naval power once and for all!"
+ wwu_mission_theramore.37.option.a: "Time for safe seas! Time for safe trade!"
+ 
+ wwu_mission_theramore.38.title: "Fate of Lordaeron"
+ wwu_mission_theramore.38.desc: "Since the time we were exiled from our own lands in Lordaeron by the vile undead, we dreamed about our return home and bringing justice to the dead. This day has finally come. Our people, full in tears, can finally enjoy their sweet home but we need to make some decisive choices are made for the future of this land!"
+ wwu_mission_theramore.38.option.a: "The land will return to its people under our guidance!"
+ wwu_mission_theramore.38.option.b: "The crusaders will get hold of it. They fought here for decades in our absence."
+ wwu_mission_theramore.38.option.c: "We will keep these lands ourselves but bring back the rightful owners."
+ 
+ wwu_mission_theramore.39.title: "Warning! Mana Bomb events!"
+ wwu_mission_theramore.39.desc: "The next decisions that you will take will affect the outcome of the fate of Theramore. Dont choose based on convinience!"
+ wwu_mission_theramore.39.option.a: "Roger!"
+ 
+ wwu_mission_theramore.40.title: "Warning! Kul'Tiras Relations!"
+ wwu_mission_theramore.40.desc: "The next mission will adress potential change of relation with Kul'tiras in connection to the existance of Orgrimar or their status! Be aware!"
+ wwu_mission_theramore.40.option.a: "Roger!"
+ 
+ wwu_mission_theramore.41.title: "Warning! Suspicious Flyer events!"
+ wwu_mission_theramore.41.desc: "Next missions will drive you to an open war in your lands! Take nessecery military actions to ensure your nations stability!"
+ wwu_mission_theramore.41.option.a: "Roger!"
+
+ wwu_mission_theramore.42.title: "Warning! Taurajo events!"
+ wwu_mission_theramore.42.desc: "Next missions will be affected by how you treat the Taurajo captives! Be Aware!"
+ wwu_mission_theramore.42.option.a: "Roger!"
+ 
+ 
+ #-----------------------------------------------
+ # Modifiers
+ #-----------------------------------------------
+ event_transregional_transportation_system_a23: "Transregional Transportation System"
+ desc_event_transregional_transportation_system_a23: ""
+ 
+ event_trainer_garion_a23: "Trainer Garion"
+ desc_event_trainer_garion_a23: ""
+ 
+ event_trainer_morlann_a23: "Trainer Morlann"
+ desc_event_trainer_morlann_a23: ""
+ 
+ event_returned_captives_a23: "Returned Captives"
+ desc_event_returned_captives_a23: ""
+ 
+ event_valuable_captives_a23: "Valuable Captives"
+ desc_event_valuable_captives_a23: ""
+ 
+ event_released_captives_a23: "Released Captives"
+ desc_event_released_captives_a23: ""
+ 
+ event_shady_rest_inn_mystery_solved_a23: "Shady Rest Inn Mystery Solved"
+ desc_event_shady_rest_inn_mystery_solved_a23: ""
+ 
+ event_healing_wounds_a23: "Healing Wounds"
+ desc_event_healing_wounds_a23: ""
+ 
+ event_spitting_on_dealins_memory_a23: "Spitting on Dealin's Memory"
+ desc_event_spitting_on_dealins_memory_a23: ""
+ 
+ event_stealing_focusing_iris_a23: "Stealing Focusing Iris"
+ desc_event_stealing_focusing_iris_a23: ""
+ 
+ event_arcane_radiation_a23: "Arcane Radiation"
+ desc_event_arcane_radiation_a23: ""
+ 
+ event_an_everlasting_tragedy_a23: "An Everlasting Tragedy"
+ desc_event_an_everlasting_tragedy_a23: ""
+ 
+ event_stealing_mana_bomb_a23: "Stealing Mana Bomb"
+ desc_event_stealing_mana_bomb_a23: ""
+ 
+ event_end_of_a_great_threat_a23: "End of a Great Threat"
+ desc_event_end_of_a_great_threat_a23: ""
+ 
+ event_opened_their_own_grave_a23: "Opened Their Own Grave"
+ desc_event_opened_their_own_grave_a23: ""
+ 
+ event_honorable_warfare_a23: "Honorable Warfare"
+ desc_event_honorable_warfare_a23: ""
+ 
+ event_destroyed_fleets_a23: "Destroyed Fleets"
+ desc_event_destroyed_fleets_a23: ""
+ 
+ event_liberation_and_retribution_a23: "Liberation and Retribution"
+ desc_event_liberation_and_retribution_a23: ""
+ 
+ 
+ #------------------------------
+ # Flags
+ #------------------------------
+ a_looming_tragedy_a23: "A Looming Tragedy"
+ move_of_good_will_a23: "Move of Good Will"
+ diplomatic_leverage_a23: "Diplomatic Leverage"
+ shady_rest_destruction_culprits_a23: "Shady Rest Destruction Culprits"
+ inestigate_reethe_a23: "Investigate Reethe"
+ investigate_caldwell_a23: "Investigate Caldwell"
+ further_investigations_a23: "Further Investigations"
+ grimtotem_investigation_a23: "Grimtotem Investigation"
+ mystery_of_shady_rest_inn_solved_a23: "Mystery of Shady Rest Inn Solved"
+ returning_home_a23: "Returning Home"
+ returning_home_our_way_a23: "Returning Home Out Way"
+ hide_artifact_a23: "Hide Artifact"
+ fruitless_investigations_a23: "Fruitless Investigation"
+ fruitful_investigations_a23: "Fruitful Investigations"
+ terrifying_revelation_a23: "Terrifying Revelation"

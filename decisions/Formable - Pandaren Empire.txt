@@ -57,29 +57,19 @@ country_decisions = {
 			owns_core_province = 1437   # Swarming Plains
 			
             # General
-			adm_tech = 10
-			dip_tech = 10
-			mil_tech = 10
 			is_at_war = no	
 			stability = 2
-            total_development = 650
-            
-            # Cost
-            adm_power = 400
-			dip_power = 400
-			mil_power = 400
+            total_development = 650           
 		}
-		effect = {
-            # Cost
-			add_adm_power = -200
-			add_dip_power = -200
-            add_mil_power = -200
-            
+		effect = {           
             # Switch
 			change_tag = PAN
 			change_government = monarchy
 			set_government_rank = 3
-            
+			
+            country_event = {
+				id = wwu_flavour_nc_pandaren_empire.1
+			}
 			if = {
 			    limit = {
 			        primary_culture = culture_pandaren 
@@ -161,7 +151,7 @@ country_decisions = {
                     NOT = { culture = culture_imperial_yaungol}
                 }
                 change_culture = culture_imperial_yaungol
-            }
+            }			
 
 			# Bonus
             add_formable_bonus = yes

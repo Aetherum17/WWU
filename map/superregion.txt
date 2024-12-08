@@ -190,6 +190,13 @@ shadowlands_superregion = {
     region_maw
 }
 
+khaz_algar_superregion = {
+    region_isle_of_dorn
+    region_ringing_deeps
+    region_hallowfall
+    region_azj_kahet
+}
+
 #-------------------
 # Sea
 #-------------------
@@ -207,6 +214,7 @@ ocean_superregion = {
     region_northrend_seas
     region_draenor_seas
     region_draconic_seas
+    region_khaz_algar_seas
 }
 
 #-------------------

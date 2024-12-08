@@ -29,6 +29,6 @@ trade_goods = resource_plate_armor
     controller = UNY
 	add_core = UNY
     
-	culture = culture_undead_human
+	culture = culture_ghost
 }
 

@@ -1,9 +1,9 @@
 
 is_city = yes
 
-owner = WIM
-controller = WIM
-add_core = WIM
+owner = FEE
+controller = FEE
+add_core = FEE
 
 base_tax = 4
 base_production = 4
@@ -18,7 +18,6 @@ trade_goods = resource_flying_mounts
 center_of_trade = 1
 
 
-
 622.1.1 = {
 add_core = THB
 owner = THB
@@ -29,8 +28,14 @@ controller = THB
 owner = GMT
 controller = GMT
 add_core = GMT
-culture = culture_tauren
 base_tax = 3
 base_manpower = 3
 base_production = 3
+}
+
+632.1.1 = { 
+owner = FEE
+controller = FEE
+add_core = FEE
+remove_core = GMT
 }

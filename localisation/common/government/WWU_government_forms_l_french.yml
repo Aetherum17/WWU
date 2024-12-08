@@ -240,6 +240,11 @@
  alterac_kingdom_reform_desc: ""
  alterac_kingdom_legacy: "Kingdom of Alterac"
  alterac_kingdom_legacy_desc: ""
+
+ silithid_lair_reform: "Silithrid Lair"
+ silithid_lair_reform_desc: ""
+ silithid_lair_legacy: "Silithrid Lair"
+ silithid_lair_legacy_desc: ""
  
  # Republic
  noble_republic_reform: "Noble Republic"
@@ -388,6 +393,11 @@
  blood_matriarchy_legacy: "Blood Matriarchy"
  blood_matriarchy_legacy_desc: ""
  
+ blood_tribe_matriarchy_reform: "Primitive Bloody Matriarchy"
+ blood_tribe_matriarchy_reform_desc: ""
+ blood_tribe_matriarchy_legacy: "Primitive Bloody Matriarchy"
+ blood_tribe_matriarchy_legacy_desc: ""
+ 
  soul_covenant_reform: "Soul Covenant"
  soul_covenant_reform_desc: ""
  soul_covenant_legacy: "Soul Covenant"
@@ -437,6 +447,16 @@
  celestial_order_reform_desc: ""
  celestial_order_legacy: "Celestial Order"
  celestial_order_legacy_desc: ""
+
+ the_perfect_ones_reform: "The Perfect Ones"
+ the_perfect_ones_reform_desc: ""
+ the_perfect_ones_legacy: "The Perfect Ones"
+ the_perfect_ones_legacy_desc: ""
+
+ ymirjar_order_reform: "Ymirjar Order"
+ ymirjar_order_reform_desc: ""
+ ymirjar_order_legacy: "Ymirjar Order"
+ ymirjar_order_legacy_desc: ""
  
  # Tribal
  tribal_federation_reform: "Tribal Federation"
@@ -578,6 +598,11 @@
  murloc_tribe_reform_desc: ""
  murloc_tribe_legacy: "Murloc Clan"
  murloc_tribe_legacy_desc: ""
+
+ gronn_tribe_reform: "Gronn Tribe"
+ gronn_tribe_reform_desc: ""
+ gronn_tribe_legacy: "Gronn Tribe"
+ gronn_tribe_legacy_desc: ""
  
  # Native
  native_tribe_reform: "Native Clan"

@@ -1,11 +1,11 @@
 
 is_city = yes
-owner = A10
-controller = A10
-add_core = A10
+owner = A08
+controller = A08
+add_core = A08
 
 base_tax = 2
-base_production = 1
+base_production = 3
 base_manpower = 1
 
 culture = culture_lordaeron
@@ -16,11 +16,6 @@ trade_goods = resource_common_skins
  
 center_of_trade = 1
 
-592.1.1 = { 
-	owner = A08
-	controller = A08
-    add_core = A08
-}
 
 # The Third War
 617.1.1 = { 

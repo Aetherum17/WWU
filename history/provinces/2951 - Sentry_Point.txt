@@ -27,14 +27,17 @@ trade_goods = unknown
 	base_manpower = 4
 	base_production = 3
 	
-
-trade_goods = resource_common_wood
+    trade_goods = resource_common_wood
 }
 
-632.1.1 = {
-    owner = G06
-	controller = G06 #Get this Destroyed lands!
-	add_core = G06
+626.1.1 = {
+    culture = culture_theramorean
+}
+
+632.1.1 = {  
+    owner = ---
+    controller = ---
     remove_core = A23
+	add_core = G06
 }
 

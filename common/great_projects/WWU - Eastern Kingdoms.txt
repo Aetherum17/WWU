@@ -6999,6 +6999,7 @@ gp_greymane_wall = {
         OR = {
             has_monument_research_eastern_kingdoms = yes
             is_available_to_human = yes
+			is_available_to_worgen = yes
         }
 	}
 	on_built = {
@@ -7015,12 +7016,14 @@ gp_greymane_wall = {
 		OR = {
             has_monument_research_eastern_kingdoms = yes
             is_available_to_human = yes
+			is_available_to_worgen = yes
         }
 	}
 	can_upgrade_trigger = {
 		OR = {
             has_monument_research_eastern_kingdoms = yes
             is_available_to_human = yes
+			is_available_to_worgen = yes
         }
 	}
 	keep_trigger = { always = yes }

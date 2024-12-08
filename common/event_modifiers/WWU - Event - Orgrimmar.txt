@@ -1,0 +1,8 @@
+#----------------------------------------------
+# Missions
+#----------------------------------------------
+event_garrosh_rally_a48 = {
+    land_morale = 0.10 
+	infantry_power = 0.10 
+	artillery_power = 0.10 
+}

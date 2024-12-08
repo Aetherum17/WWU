@@ -1,21 +1,21 @@
 is_city = yes
-owner = A47
-controller = A47
-add_core = A47
+owner = NOX
+controller = NOX
+add_core = NOX
 
 base_tax = 2
 base_production = 2
-base_manpower = 2
+base_manpower = 3
 
-culture = culture_mok_nathal
-religion = shamanism
+culture = culture_podling
+religion = sporemounds
 
 hre = no
 trade_goods = resource_common_metals
 
 # Orc Conflicts
 590.1.1 = {
-    remove_core = A47
+    remove_core = NOX
     
     owner = A41
     controller = A41
@@ -25,10 +25,20 @@ trade_goods = resource_common_metals
     religion = fel
 }
 
+598.1.1 = {
+    owner = BD7
+    controller = BD7
+    add_core = BD7
+    remove_core = A41
+	
+    culture = culture_black_dragonflight
+    religion = corrupt_dragon_aspect
+}
+
 # Outlandification
 600.1.1 = {
     
     owner = ---
     controller = ---
-    remove_core = A41
+    remove_core = BD7
 }

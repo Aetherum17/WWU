@@ -1,0 +1,26 @@
+﻿l_german:
+
+ #---------------------------------------------------------
+ # X04 New Lordaeron Column 4
+ #---------------------------------------------------------
+ X04_reconquest_of_andorhal_title: "Reconquest of Andorhal"
+ X04_reconquest_of_andorhal_desc: ""
+ X04_reconquest_of_stratholme_title: "Reconquest of Stratholme"
+ X04_reconquest_of_stratholme_desc: ""
+
+ #---------------------------------------------------------
+ # X04 New Lordaeron Column 5
+ #---------------------------------------------------------
+ X04_new_lordaeron_title: "New Lordaeron"
+ X04_new_lordaeron_desc: ""
+
+ #---------------------------------------------------------
+ # Tooltip
+ #---------------------------------------------------------
+ #Tooltip
+ 
+ #---------------------------------------------------------
+ # Modifiers
+ #---------------------------------------------------------
+ X04_reconquest_of_andorhal_modifer: "Reconquest of Andorhal"
+ X04_reconquest_of_stratholme_modifier: "Reconquest of Stratholme"

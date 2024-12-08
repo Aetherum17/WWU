@@ -16,7 +16,7 @@ autocratic_strength_mechanic = {
 			scaled_modifier = {
 				modifier = {
                     max_absolutism = 20
-                    yearly_absolutism = 5.0
+                    global_autonomy = -0.1
                     global_unrest = -5
 				}
 			}
@@ -36,7 +36,7 @@ autocratic_strength_mechanic = {
 			}
             
 			effect = {
-				add_war_exhaustion = -2
+				add_war_exhaustion = -3
 			}
             
 			ai_chance = {

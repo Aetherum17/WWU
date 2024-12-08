@@ -1,15 +1,15 @@
 
 is_city = yes
-owner = A32
-controller = A32
-add_core = A32
+owner = A29
+controller = A29
+add_core = A29
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_gnome
-religion = technomancy
+culture = culture_ironforge
+religion = holy_light
 
 hre = no
 trade_goods = resource_devices

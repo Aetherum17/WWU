@@ -1617,5 +1617,39 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//balance_of_power.dds"
 		loadType = "INGAME"
 	}
-    
+	spriteType = {
+		name = "government_reform_silithrid"
+		texturefile = "gfx//interface//government_reform_icons//silithrid.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "government_reform_hyldnir_frostrider"
+		texturefile = "gfx//interface//government_reform_icons//hyldnir_frostrider.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "government_reform_ymirheim_frostbreakers"
+		texturefile = "gfx//interface//government_reform_icons//ymirjar_frostbreaker.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "government_reform_savage_ymirjar"
+		texturefile = "gfx//interface//government_reform_icons//savage_ymirjar.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "government_reform_utgarde_grapplesniper"
+		texturefile = "gfx//interface//government_reform_icons//utgarde_grapplesniper.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "government_reform_emberscale_drake"
+		texturefile = "gfx//interface//government_reform_icons//emberscale_drake.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "government_reform_hematurge"
+		texturefile = "gfx//interface//government_reform_icons//hematurge.dds"
+		loadType = "INGAME"
+	} 
 }

@@ -155,3 +155,8 @@ mission_end_of_sourge_of_lordaeron_b_a22 = {
 mission_scarlet_supremacy_a22 = {
     prestige_decay = -0.01
 }
+
+mission_scarlet_crusade_hunting_damned_a22 = {
+	manpower_in_true_faith_provinces = 0.10
+	discipline = 0.03
+}

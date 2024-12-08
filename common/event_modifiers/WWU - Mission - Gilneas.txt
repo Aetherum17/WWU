@@ -1,6 +1,347 @@
 #----------------------------------------------
 # Missions
 #----------------------------------------------
+A12_develop_cathedral_square_modifier = {
+	stability_cost_modifier = 0.15
+	prestige = 0.5
+}
+# Modifiers
+A12_alliance_of_lordaeron_modifier = {
+	land_morale = 0.10
+	movement_speed = 0.05
+ 	defensiveness = 0.05
+}
+
+A12_archmage_arugal_modifier = {
+ 	global_institution_spread = 0.1
+	diplomatic_reputation = 1
+}
+
+A12_ur_research = {
+	country_admin_power = 1
+	diplomatic_reputation = -1
+	technology_cost = -0.05
+}
+
+A12_arugal_forbidden_study = {
+	country_admin_power = -1
+}
+
+A12_release_the_worgens = {
+	country_military_power = 1
+	shock_damage = 0.10
+}
+
+A12_outdo_our_beast = {
+ 	global_unrest = -2
+	infantry_power = 0.05
+}
+
+A12_outdo_our_beast_upgraded = {
+	global_unrest = -3
+	infantry_power = 0.10
+}
+
+A12_adopt_the_worgen_culture_modifier_a = {
+	diplomatic_reputation = 1
+	relation_with_same_culture_group = 10
+}
+
+A12_adopt_the_worgen_culture_modifier_b = {
+	culture_conversion_cost = -0.20
+}
+
+A12_reclaim_kul_tiras_modifier_a = { #Province modifier
+	local_build_time = -0.1
+	local_development_cost = -0.1
+}
+
+A12_reclaim_kul_tiras_modifier_b = { #Province modifier
+	local_ship_repair = 0.1
+	ship_recruit_speed = -0.15
+	local_ship_cost = -0.1
+}
+
+A12_terror_in_gilneas_city = { #Province modifier
+	local_build_time = 1
+	local_development_cost = 1
+	local_monthly_devastation = 0.1
+}
+
+A12_genn_become_worgen_modifier_a = { #Genn is infected by the Curse and cant control himself without Aranas Antidote
+	tolerance_own = -3
+	diplomatic_reputation = -3
+ 	country_admin_power = -1
+	country_diplomatic_power = -1
+	country_military_power = -1
+}
+
+A12_darius_crowley_killed_modifier = {
+	diplomatic_reputation = -3
+	global_unrest = 3
+	
+	unjustified_demands = -0.15
+	global_autonomy = -0.05
+}
+
+A12_intelligence_service = {
+	spy_offence = 0.2
+	global_spy_defence = 0.15
+ 	core_creation = -0.1
+	global_autonomy = -0.1
+}
+
+A12_strenght_in_unity_vassalisation_modifier = {
+	liberty_desire = -50
+}
+
+A12_strength_in_unity_modifier = {
+	diplomatic_reputation = 3
+	same_culture_advisor_cost = -0.25
+}
+
+A12_new_supply_modifier_support_a = {
+	recover_army_morale_speed = 0.05
+	global_supply_limit_modifier = 0.05
+	war_exhaustion = -0.05
+}
+
+A12_new_supply_modifier_support_b = {
+	recover_army_morale_speed = 0.05
+	global_supply_limit_modifier = 0.05
+	war_exhaustion = -0.05
+}
+
+A12_new_supply_modifier_support_c = {
+	recover_army_morale_speed = 0.05
+	global_supply_limit_modifier = 0.05
+	war_exhaustion = -0.05
+}
+
+A12_new_supply_modifier_support_d = {
+	recover_army_morale_speed = 0.05
+	global_supply_limit_modifier = 0.05
+	war_exhaustion = -0.05
+}
+
+A12_STW_tax_for_support = {
+	global_tax_modifier = -0.10
+	production_efficiency = -0.10
+	technology_cost = 0.1
+}
+
+A12_didnt_keep_promise = {
+	diplomatic_reputation = -2
+	improve_relation_modifier = -0.15
+}
+
+A12_develop_silverpine_arg_keep_modifier = {
+	local_build_time = -0.05
+	local_fort_maintenance_modifier = -0.10
+}
+
+A12_exploit_from_emberstone_mine_modifier = {
+ 	local_production_efficiency = 0.1
+	local_development_cost_modifier = -0.15
+	tax_income = 10
+}
+
+A12_exploit_from_emberstone_village_modifier = {
+	local_tax_modifier = 0.1
+	tax_income = 14
+}
+
+A12_rally_the_army_modifier = {
+	land_forcelimit_modifier = 0.10
+	free_leader_pool = 1
+}
+
+X04_the_crusade_colonisation = {
+	culture_conversion_cost = -0.45
+	culture_conversion_time = 0.45
+	global_heathen_missionary_strength = -0.03
+}
+
+X04_the_crusade_army = {
+	army_tradition = 0.5
+	land_morale = 0.10
+	development_cost_in_primary_culture = -0.35
+}
+
+A12_prevent_the_fall_modifier = {
+	global_manpower_modifier = 0.05
+	global_regiment_recruit_speed = -0.05
+	fort_maintenance_modifier = -0.05
+	build_time = -0.05
+}
+
+A12_refugiee_to_stormwind = {
+	improve_relation_modifier = 0.05
+	stability_cost_modifier = -0.025
+}
+
+A12_refugiee_to_khaz_modan = {
+	improve_relation_modifier = 0.05
+	stability_cost_modifier = -0.025
+}
+
+A12_refugiee_to_kultiras = {
+	improve_relation_modifier = 0.05
+	stability_cost_modifier = -0.025
+}
+
+A12_refugiee_to_darnassus = {
+	improve_relation_modifier = 0.05
+	stability_cost_modifier = -0.025
+}
+
+A12_greyman_wall_modifier_a = {
+	local_great_project_upgrade_cost = -0.15
+	local_great_project_upgrade_time = -0.45
+}
+
+A12_greyman_wall_modifier_b = {
+	local_great_project_upgrade_cost = -0.15
+	local_great_project_upgrade_time = -0.65
+}
+
+A12_greyman_wall_modifier_c = {
+	local_great_project_upgrade_cost = -0.15
+	local_great_project_upgrade_time = -0.45
+}
+
+A12_greyman_wall_modifier_d = {
+	local_great_project_upgrade_cost = -0.15
+	local_great_project_upgrade_time = -0.45
+}
+
+A12_confront_scarlet_crusade = {
+	tolerance_own = 1
+	tolerance_heathen = 1
+	fire_damage = 0.10
+}
+
+A12_destroy_scholomance_modifier = {
+	yearly_innovativeness = 0.25
+	embracement_cost = -0.1
+}
+
+A12_destroy_scholomance_modifier_b = {
+	global_institution_spread = 0.33
+	free_policy = 1
+ 	embracement_cost = -0.15
+}
+
+A12_victory_on_the_tragedy_a = {
+	prestige = 0.5
+	army_tradition = 0.5
+	administrative_efficiency = 0.2
+}
+
+A12_victory_on_the_tragedy_b = {
+	prestige = 1
+	army_tradition = 1
+	vassal_forcelimit_bonus = 0.2
+	vassal_income = 0.2
+	allow_client_states = yes
+}
+
+A12_forsaken_war_modifier = {
+	diplomatic_reputation = 1
+	monthly_favor_modifier = 0.25
+}
+
+A12_four_year_plan_modifier = {
+ 	stability_cost_modifier = -0.1
+	technology_cost = -0.1
+	monarch_admin_power = 1
+	monarch_diplomatic_power = 1 
+	monarch_military_power = 1
+}
+
+A12_four_year_plan_province_modifier = {
+	local_build_time = -0.25
+	local_build_cost = -0.25 
+	local_development_cost_modifier = -0.25 
+}
+
+A12_affirm_neutrality_modifier = {
+	monarch_admin_power = 1
+	monarch_diplomatic_power = 1 
+	monarch_military_power = -1
+}
+
+A12_being_scourge_vassal = {
+	monarch_admin_power = 1
+	monarch_diplomatic_power = 1 
+	monarch_military_power = 1
+	land_morale = 0.05
+	global_manpower_modifier = 0.15
+ 	land_forcelimit_modifier = 0.10
+}
+
+A12_the_worgens_already_attacked_this_prov = {
+	local_unrest = 1
+	local_monthly_devastation = 0.1
+	local_culture_conversion_cost = 0.35
+}
+
+A12_destroy_khazmodan_modifier = {
+	monarch_military_power = 1
+	all_power_cost = -0.1
+}
+
+A12_kultiras_destroyed = {
+	has_man_of_war = yes
+	allowed_man_of_war_fraction = 0.15
+}
+
+A12_destroy_the_scarlet_crusade_modifier = {
+	religious_unity = 0.25
+	monarch_admin_power = 1
+}
+
+A12_destroy_the_argent_crusade_modifier = {
+	monarch_admin_power = 1
+	monarch_military_power = 1
+}
+
+A12_the_new_dawn_for_gilneas = {
+	development_cost = -0.25
+	build_time = -0.25
+	stability_cost_to_declare_war = 1 
+	diplomatic_reputation = 2
+	technology_cost = -0.1
+	prestige = 0.5
+	advisor_cost = -0.25
+}
+
+A12_war_with_forsaken = {
+	local_friendly_movement_speed = 0.1 
+	local_manpower_modifier = 0.2
+	regiment_recruit_speed = -0.3
+}
+
+A12_start_the_isolation_modifier = {
+	diplomatic_reputation = -2
+	improve_relation_modifier = -0.10
+	administrative_efficiency = 0.15
+	development_cost = -0.20
+ 	global_tax_modifier = 0.15
+}
+
+A12_end_the_isolation_modifier = {
+	diplomatic_reputation = 3
+	improve_relation_modifier = 0.15
+	
+	development_cost = -0.30
+ 	global_tax_modifier = 0.20
+	administrative_efficiency = 0.2
+}
+A12_destroy_lordaeron_modifier = {
+	administrative_efficiency = 0.15
+	core_creation = -0.15
+}
 mission_graymane_wall = {
     local_defensiveness = 1.0
 }

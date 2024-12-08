@@ -8,9 +8,30 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 
-culture = culture_silithid
-religion = cthun
+culture = culture_uldum
+religion = titan_worship
 
 hre = no
 trade_goods = unknown
 
+
+622.1.1 = {
+    is_city = yes
+
+    owner = G07
+    controller = G07
+    add_core = G07
+
+    culture = culture_stormwindian
+    religion = holy_light
+}
+
+626.1.1 = {
+    owner = SPT
+    controller = SPT
+    add_core = SPT
+	remove_core = G07
+
+    culture = culture_uldum
+    religion = titan_worship
+}

@@ -2,12 +2,14 @@
 owner = HAT
 controller = HAT
 add_core = HAT
+add_core = MAK
+add_core = WAV
 
 base_tax = 2
 base_production = 2
 base_manpower = 2
 
-culture = culture_azsharan
+culture = culture_makrura
 religion = water
 
 hre = no

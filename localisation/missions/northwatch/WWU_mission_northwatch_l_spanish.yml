@@ -1,0 +1,206 @@
+﻿l_spanish:
+ # --- Missions ---
+ G06_northwatch_column_1: ""
+ G06_northwatch_column_2: ""
+ G06_northwatch_column_3: ""
+ G06_northwatch_column_4: ""
+ G06_northwatch_column_5: ""
+ 
+ G06_fort_triumph_title: "Fort Triumph"
+ G06_fort_triumph_desc: ""
+ 
+ G06_beal_modan_title: "Beal Modan"
+ G06_beal_modan_desc: ""
+ 
+ G06_cultural_integration_title: "Cultural Integration"
+ G06_cultural_integration_desc: ""
+ 
+ G06_north_barren_trade_routes_title: "North Barren Trade Routes"
+ G06_north_barren_trade_routes_desc: ""
+ 
+ G06_indepedent_actions_title: "Indepedent Actions"
+ G06_indepedent_actions_desc: ""
+ 
+ G06_forward_command_title: "Forward Command"
+ G06_forward_command_desc: ""
+ 
+ G06_camp_taurajo_title: "Camp Taurajo"
+ G06_camp_taurajo_desc: ""
+ 
+ G06_the_gates_of_mulgore_title: "The Gates of Mulgore"
+ G06_the_gates_of_mulgore_desc: ""
+ 
+ G06_stable_govermance_title: "Stable Govermance"
+ G06_stable_govermance_desc: ""
+ 
+ G06_theramore_depedance_title: "Theramore Depedance"
+ G06_theramore_depedance_desc: ""
+ 
+ G06_fate_of_theramore_title: "Fate of Theramore"
+ G06_fate_of_theramore_desc: ""
+ 
+ G06_south_barren_trade_routes_title: "South Barren Trade Routes"
+ G06_south_barren_trade_routes_desc: ""
+ 
+ G06_northwatch_hold_new_capital_title: "Prestigious Capital"
+ G06_northwatch_hold_new_capital_desc: ""
+ 
+ G06_northwatch_military_title: "Northwatch Military"
+ G06_northwatch_military_desc: ""
+ 
+ G06_deep_strike_hunters_hill_title: "Deep Strike: Hunter's Hill"
+ G06_deep_strike_hunters_hill_desc: ""
+ 
+ G06_fortify_the_barrens_title: "Fortify the Barrens"
+ G06_fortify_the_barrens_desc: ""
+ 
+ G06_strategic_interests_stonetalon_mountains_title: "Strategic Interests: Stonetalon"
+ G06_strategic_interests_stonetalon_mountains_desc: ""
+ 
+ G06_a_fleet_to_challenge_the_great_sea_title: "A Fleet to Challenge the Greay Sea"
+ G06_a_fleet_to_challenge_the_great_sea_desc: ""
+ 
+ G06_northwatch_hold_title: "Northwatch Hold"
+ G06_northwatch_hold_desc: ""
+ 
+ G06_durotar_landing_title: "Durotar Landing"
+ G06_durotar_landing_desc: ""
+  
+ G06_eco_isles_supply_lines_title: "Eco Isles Supply Lines"
+ G06_eco_isles_supply_lines_desc: ""
+  
+ G06_siege_of_orgrimmar_title: "Siege of Orgrimmar"
+ G06_siege_of_orgrimmar_desc: ""
+  
+ G06_fate_of_the_horde_title: "Fate of the Horde"
+ G06_fate_of_the_horde_desc: ""
+ 
+ G06_establish_new_strom_title: "Establish New Strom"
+ G06_establish_new_strom_desc: ""
+ 
+ G06_establish_tiragarde_title: "Establish Tiragarde"
+ G06_establish_tiragarde_desc: ""
+ 
+ G06_form_new_arathor_title: "Form New Arathor"
+ G06_form_new_arathor_desc: ""
+ 
+ G06_ratchet_title: "Ratchet"
+ G06_ratchet_desc: ""
+ 
+ G06_the_crossroads_title: "The Crossroads"
+ G06_the_crossroads_desc: ""
+ 
+ G06_the_morsan_ramparts_title: "The Mor'san Ramparts"
+ G06_the_morsan_ramparts_desc: ""
+ 
+ G06_night_elven_support_title: "Night Elven Support"
+ G06_night_elven_support_desc: ""
+ 
+ G06_the_quilboar_threat_title: "The Quilboar Threat"
+ G06_the_quilboar_threat_desc: ""
+ 
+ G06_establish_beal_modan_title: "Establish Beal Modan"
+ G06_establish_beal_modan_desc: ""
+ 
+ G06_establish_windshear_hold_title: "Establish Windshear Hold"
+ G06_establish_windshear_hold_desc: ""
+ 
+ # --- Modifiers ---
+ mission_fortifying_south_barrens_g06: "Fortifying South Barrens"
+ desc_mission_fortifying_south_barrens_g06: ""
+
+ mission_colonist_dwarves_g06: "Colonist Dwarves"
+ desc_mission_colonist_dwarves_g06: ""
+
+ mission_shared_future_g06: "Shared Future"
+ desc_mission_shared_future_g06: ""
+
+ mission_northern_trade_g06: "Northern Trade"
+ desc_mission_northern_trade_g06: ""
+ 
+ mission_freedom_of_moves_g06: "Freedom of Moves"
+ desc_mission_freedom_of_moves_g06: ""
+ 
+ mission_establish_a_front_g06: "Establish a Front"
+ desc_mission_establish_a_front_g06: ""
+ 
+ mission_tauren_presence_g06: "Tauren Presence"
+ desc_mission_tauren_presence_g06: ""
+ 
+ mission_siege_of_mulgore_g06: "Siege of Mulgore"
+ desc_mission_siege_of_mulgore_g06: ""
+ 
+ mission_end_of_expedition_g06: "End of Expedition"
+ desc_mission_end_of_expedition_g06: ""
+ 
+ mission_full_liberties_g06: "Full Liberties"
+ desc_mission_full_liberties_g06: ""
+ 
+ mission_fate_of_theramore_g06: "Fate of Theramore"
+ desc_mission_fate_of_theramore_g06: ""
+ 
+ mission_southern_trade_g06: "Southern Trade"
+ desc_mission_southern_trade_g06: ""
+ 
+ mission_a_great_capital_g06: "A Great Capital"
+ desc_mission_a_great_capital_g06: ""
+ 
+ mission_organizing_the_expedition_g06: "Organizing the Expedition"
+ desc_mission_organizing_the_expedition_g06: ""
+ 
+ mission_hunter_hill_g06: "Hunter's Hill"
+ desc_mission_hunter_hill_g06: ""
+ 
+ mission_safe_barrens_g06: "Safe Barrens"
+ desc_mission_safe_barrens_g06: ""
+ 
+ mission_lock_the_horde_g06: "Lock the Horde"
+ desc_mission_lock_the_horde_g06: ""
+ 
+ mission_grand_armade_g06: "Grand Armada"
+ desc_mission_grand_armade_g06: ""
+ 
+ mission_a_grand_fort_g06: "A Grand Fort City"
+ desc_mission_a_grand_fort_g06: ""
+ 
+ mission_horde_homeland_g06: "Horde Homeland"
+ desc_mission_horde_homeland_g06: ""
+ 
+ mission_troll_supplies_g06: "Troll Supplies"
+ desc_mission_troll_supplies_g06: ""
+ 
+ mission_the_root_of_all_evil_g06: "The Root of All Evil"
+ desc_mission_the_root_of_all_evil_g06: ""
+ 
+ mission_end_of_fourth_war_g06: "End of Fourth War"
+ desc_mission_end_of_fourth_war_g06: ""
+ 
+ mission_new_strom_g06: "New Strom"
+ desc_mission_new_strom_g06: ""
+ 
+ mission_tiragarde_g06: "Tiragarde"
+ desc_mission_tiragarde_g06: ""
+ 
+ mission_new_land_new_empire_g06: "New Land, New Empire"
+ desc_mission_new_land_new_empire_g06: ""
+ 
+ mission_ratchet_port_g06: "Ratchet Port"
+ desc_mission_ratchet_port_g06: ""
+ 
+ mission_splitting_horde_lines_g06: "Splitting the Horde Lines"
+ desc_mission_splitting_horde_lines_g06: ""
+ 
+ mission_reconnect_with_night_elves_g06: "Reconnect with Night Elves"
+ desc_mission_reconnect_with_night_elves_g06: ""
+ 
+ mission_respect_old_alliances_g06: "Respect Old Alliances"
+ desc_mission_respect_old_alliances_g06: ""
+ 
+ mission_quilboar_extermination_g06: "Quilboar Extermination"
+ desc_mission_quilboar_extermination_g06: ""
+ 
+ mission_new_home_for_the_dwarves_g06: "New Home for the Dwarves"
+ desc_mission_new_home_for_the_dwarves_g06: ""
+ 
+ mission_windshear_hold_g06: "Windshear Hold"
+ desc_mission_windshear_hold_g06: ""

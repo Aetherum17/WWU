@@ -31,3 +31,7 @@ legion_command_centre = {
 }
 
 cooldown_draconic_ties = { }
+
+seat_of_heresy = {
+    local_missionary_strength = -0.1
+}

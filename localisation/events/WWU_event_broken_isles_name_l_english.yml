@@ -1,0 +1,17 @@
+﻿l_english:
+ #-----------------------------------------------
+ # Broken Isles
+ #----------------------------------------------- 
+ wwu_flavour_broken_isles.1.title: "Broken Isles Unification"
+ wwu_flavour_broken_isles.1.desc: "We own the isles... WE ARE THE BROKEN ISLES!"
+ wwu_flavour_broken_isles.1.a: "Broken Isles it is!"
+ wwu_flavour_broken_isles.1.b: "Thal'dranath it is!"
+ wwu_flavour_broken_isles.1.c: "K'tanth RISES AGAIN!"
+ 
+ # Name Change
+ BROKEN_ISLES: "Broken Isles"
+ BROKEN_ISLES_ADJ: "Broken Isle"
+ THALDRANATH: "Thal'dranath"
+ THALDRANATH_ADJ: "Thal'dranath"
+ KTANTH: "K'tanth"
+ KTANTH_ADJ: "K'tanth"

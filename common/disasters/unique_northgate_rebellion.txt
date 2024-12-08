@@ -1,88 +1,85 @@
-northgate_rebellion = {
-	potential = {
-        tag = A12
-        has_global_flag = enable_worgen
-        NOT = { has_global_flag = northgate_rebellion_happened }
-	}
-
-	can_start = {
-        tag = A12
-        has_global_flag = enable_worgen
-        914 = {
-            has_great_project = {
-                type = gp_greymane_wall
-            }
-        }
-        num_of_owned_provinces_with = {
-            value = 12
-            OR = {
-                region = region_silverpine_forest
-                region = region_gilneas
-            }
-        }
-	}
-	
-	progress = {
-		modifier = {
-			factor = 1
-            
-            custom_trigger_tooltip = {
-                tooltip = BASE_PROGRESS
-                always = yes
-            }
-		}
-        modifier = {
-			factor = 1
-            
-            NOT = { stability = 0 }
-		}
-	}
-	
-	can_stop = {
-        always = no
-	}
-	
-	can_end = {
-        OR = {
-            # Greymane wins
-            AND = {
-                NOT = { num_of_rebel_armies = 1 }
-                num_of_owned_provinces_with = {
-                    value = 6
-                    has_province_modifier = royalist_supporters
-                }
-            }
-            # Crowley wins
-            AND = {
-                OR = {
-                    has_country_flag = northgate_rebellion_lost
-                    capital_scope = {
-                        controlled_by = REB
-                    }
-                }
-                num_of_owned_provinces_with = {
-                    value = 6
-                    has_province_modifier = rebel_supporters
-                }
-            }
-        }
-	}
-	
-	modifier = {
-        stability_cost_modifier = 1.0
-        global_unrest = 2
-	}
-
-	on_start = wwu_northgate_rebellion.1
-	on_end = wwu_northgate_rebellion.100
-	
-	on_monthly = {
-        random_events = {
-            1000 = 0
-            200 = wwu_northgate_rebellion.10 # Nobles Defect
-        }
-	}
-}
-
-
-
+#northgate_rebellion = {
+#	potential = {
+#        tag = A12
+#        has_global_flag = enable_worgen
+#        NOT = { has_global_flag = northgate_rebellion_happened }
+#	}
+#
+#	can_start = {
+#        tag = A12
+#        has_global_flag = enable_worgen
+#        914 = {
+#            has_great_project = {
+#                type = gp_greymane_wall
+#            }
+#        }
+#        num_of_owned_provinces_with = {
+#            value = 12
+#            OR = {
+#                region = region_silverpine_forest
+#                region = region_gilneas
+#            }
+#        }
+#	}
+#	
+#	progress = {
+#		modifier = {
+#			factor = 1
+#            
+#            custom_trigger_tooltip = {
+#                tooltip = BASE_PROGRESS
+#                always = yes
+#            }
+#		}
+#        modifier = {
+#			factor = 1
+#            
+#            NOT = { stability = 0 }
+#		}
+#	}
+#	
+#	can_stop = {
+#        always = no
+#	}
+#	
+#	can_end = {
+#        OR = {
+#            # Greymane wins
+#            AND = {
+#                NOT = { num_of_rebel_armies = 1 }
+#                num_of_owned_provinces_with = {
+#                    value = 6
+#                    has_province_modifier = royalist_supporters
+#                }
+#            }
+#            # Crowley wins
+#            AND = {
+#                OR = {
+#                    has_country_flag = northgate_rebellion_lost
+#                    capital_scope = {
+#                        controlled_by = REB
+#                    }
+#                }
+#                num_of_owned_provinces_with = {
+#                    value = 6
+#                    has_province_modifier = rebel_supporters
+#                }
+#            }
+#        }
+#	}
+#	
+#	modifier = {
+#        stability_cost_modifier = 1.0
+#        global_unrest = 2
+#	}
+#
+#	on_start = wwu_northgate_rebellion.1
+#	on_end = wwu_northgate_rebellion.100
+#	
+#	on_monthly = {
+#        random_events = {
+#            1000 = 0
+#          200 = wwu_northgate_rebellion.10 # Nobles Defect
+#       }
+#	}
+#}

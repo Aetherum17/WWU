@@ -34,25 +34,27 @@
  # Shared by all magic menus
  MAGIC_MENU_DESCRIPTION: "£magic_banner£\nRack the mind of [Root.Monarch.GetTitle] [Root.Monarch.GetName] for possible spells to cast upon the realm.\n\nMana: [Root.GetCurrentMana]\n\nMonthly Mana Regeneration Chance: §G[Root.mana_chance.GetValue]%§!"
  
- MAGIC_SCHOOL_NONE: "§rNone§!"
- MAGIC_SCHOOL_ARCANE: "§rArcane§!"
- MAGIC_SCHOOL_HOLY: "§rHoly§!"
- MAGIC_SCHOOL_CHI: "§rChi§!"
- MAGIC_SCHOOL_VOODOO: "§rVoodoo§!"
- MAGIC_SCHOOL_NATURE: "§rNature§!"
- MAGIC_SCHOOL_UNDEAD: "§rNecromancy§!"
- MAGIC_SCHOOL_SHAMANISM: "§rShamanism§!"
- MAGIC_SCHOOL_FEL: "§rFel§!"
- MAGIC_SCHOOL_DRACONIC: "§rDraconic§!"
- MAGIC_SCHOOL_CORRUPTION: "§rCorruption§!"
- MAGIC_SCHOOL_SHADOW: "§rShadow§!"
- MAGIC_SCHOOL_TITAN: "§rTitanic§!"
- MAGIC_SCHOOL_RUNIC: "§rRunic§!"
- MAGIC_SCHOOL_NIGHTMARE: "§rNightmare§!"
- MAGIC_SCHOOL_EARTH: "§rEarth§!"
- MAGIC_SCHOOL_FIRE: "§rFire§!"
- MAGIC_SCHOOL_WATER: "§rWater§!"
- MAGIC_SCHOOL_WIND: "§rWind§!"
+ MAGIC_SCHOOL_NONE: "None"
+ MAGIC_SCHOOL_ARCANE: "Arcane"
+ MAGIC_SCHOOL_HOLY: "Holy"
+ MAGIC_SCHOOL_CHI: "Chi"
+ MAGIC_SCHOOL_VOODOO: "Voodoo"
+ MAGIC_SCHOOL_NATURE: "Nature"
+ MAGIC_SCHOOL_UNDEAD: "Necromancy"
+ MAGIC_SCHOOL_SHAMANISM: "Shamanism"
+ MAGIC_SCHOOL_FEL: "Fel"
+ MAGIC_SCHOOL_DRACONIC: "Draconic"
+ MAGIC_SCHOOL_CORRUPTION: "Corruption"
+ MAGIC_SCHOOL_SHADOW: "Shadow"
+ MAGIC_SCHOOL_TITAN: "Titanic"
+ MAGIC_SCHOOL_RUNIC: "Runic"
+ MAGIC_SCHOOL_NIGHTMARE: "Nightmare"
+ MAGIC_SCHOOL_EARTH: "Earth"
+ MAGIC_SCHOOL_FIRE: "Fire"
+ MAGIC_SCHOOL_WATER: "Water"
+ MAGIC_SCHOOL_WIND: "Wind"
+ MAGIC_SCHOOL_DOMINATION: "Domination"
+ MAGIC_SCHOOL_SOUL: "Soul"
  
  SET_MAGIC_SCHOOL_ARCANE: "[Root.Monarch.GetName] will utilise §YArcane§! spells."
  SET_MAGIC_SCHOOL_HOLY: "[Root.Monarch.GetName] will utilise §YHoly§! spells."
@@ -191,10 +193,6 @@
  NO_WRONG_CULTURE: "All provinces are §Y[Root.Culture.GetName]§!."
  
  # Spell Effects
- YOU_CANNOT_USE_THIS_SPELL_CURRENTLY: "This spell is not currently usable."
- PREVIEW_SPELL: "\nThe following effect is a preview of the spell effect:"
- RISKY_EFFECT_TT: "This spell is §Rrisky§! to §Y[Root.Monarch.GetTitle] [Root.Monarch.GetName]§!'s skill, and as such may diminish their aptitude, finesse or concentration. Perform at your own risk."
- 
  PREVENT_WAR_TT_10: "Enemies will be unable to declare war upon us for §Y10§! years."
  PREVENT_WAR_TT_8: "Enemies will be unable to declare war upon us for §Y8§! years."
  PREVENT_WAR_TT_6: "Enemies will be unable to declare war upon us for §Y6§! years."
@@ -203,29 +201,1036 @@
  
  KILL_ENEMY_UNITS_IN_COUNTRY_TT: "This spell will kill all enemy units currently in your owned provinces."
  
- TOUCH_OF_DEATH_TT: "Grants one use of the §YApply Touch of Death§! diplomatic action, allowing you to kill a targeted ruler without resistance."
- ALREADY_HAVE_ACCESS_TO_TOUCH_OF_DEATH: "You already have one use of the §YApply Touch of Death§! diplomatic action, you must use it before gaining another."
- 
  # Polymorph
- POLYMORPH_EFFECT: "This spell will make converting the culture of wrong culture province to §Y[Root.Culture.GetName]§! much easier."
- POLYMORPH_FAKE_EFFECT: "This spell will make converting the culture of wrong culture provinces to §Y[Root.Culture.GetName]§! much easier."
+ POLYMORPH_EFFECT: "This spell will make converting the culture and religion in provinces much easier."
+ POLYMORPH_FAKE_EFFECT: "This spell will make converting the culture and religion in provinces much easier."
  POLYMORPH_BEGINS_TT: "Provinces will randomly be chosen as targets of Polymorph."
- 
- # Mirror Image
- MIRROR_IMAGE_EFFECT: "This spell will make converting the religion of wrong religion province to §Y[Root.Religion.GetName]§! much easier."
- MIRROR_IMAGE_FAKE_EFFECT: "This spell will make converting the religion of wrong religion provinces to §Y[Root.Religion.GetName]§! much easier."
- MIRROR_IMAGE_BEGINS_TT: "Provinces will randomly be chosen as targets of Mirror Image."
- 
- # Evocation
- EVOCATION_TT: "[Root.GetEvocationCooldown]"
- 
- EVOCATION_5_TT: "This spell will go on cooldown for §Y5§! years."
- EVOCATION_4_TT: "This spell will go on cooldown for §Y4§! years."
- EVOCATION_3_TT: "This spell will go on cooldown for §Y3§! years."
- EVOCATION_2_TT: "This spell will go on cooldown for §Y2§! years."
- EVOCATION_1_TT: "This spell will go on cooldown for §Y1§! years."
  
  # Tooltips
  PREVENT_WAR_DIP_TT: "You cannot declare war against a nation that has Ring of Peace active."
- ALLOW_SPECIALIZATION_DECISION: "You may select your specialization later. However, you will not be able to cast any spells until you do so."
+ 
+ #-------------------------------
+ # Modifiers
+ #-------------------------------
+ # Arcane
+ conjure_feast_poor: "Conjured Feast: Poor"
+ desc_conjure_feast_poor: ""
+ conjure_feast_common: "Conjured Feast: Common"
+ desc_conjure_feast_common: ""
+ conjure_feast_rare: "Conjured Feast: Rare"
+ desc_conjure_feast_rare: ""
+ conjure_feast_epic: "Conjured Feast: Epic"
+ desc_conjure_feast_epic: ""
+ conjure_feast_legendary: "Conjured Feast: Legendary"
+ desc_conjure_feast_legendary: ""
+ 
+ apply_mass_invisibility_poor: "Mass Invisibility: Poor"
+ desc_apply_mass_invisibility_poor: ""
+ apply_mass_invisibility_common: "Mass Invisibility: Common"
+ desc_apply_mass_invisibility_common: ""
+ apply_mass_invisibility_rare: "Mass Invisibility: Rare"
+ desc_apply_mass_invisibility_rare: ""
+ apply_mass_invisibility_epic: "Mass Invisibility: Epic"
+ desc_apply_mass_invisibility_epic: ""
+ apply_mass_invisibility_legendary: "Mass Invisibility: Legendary"
+ desc_apply_mass_invisibility_legendary: ""
+ 
+ summon_portals_poor: "Summoned Portals: Poor"
+ desc_summon_portals_poor: ""
+ summon_portals_common: "Summoned Portals: Common"
+ desc_summon_portals_common: ""
+ summon_portals_rare: "Summoned Portals: Rare"
+ desc_summon_portals_rare: ""
+ summon_portals_epic: "Summoned Portals: Epic"
+ desc_summon_portals_epic: ""
+ summon_portals_legendary: "Summoned Portals: Legendary"
+ desc_summon_portals_legendary: ""
+ 
+ alter_time_poor: "Alter Time: Poor"
+ desc_alter_time_poor: ""
+ alter_time_common: "Alter Time: Common"
+ desc_alter_time_common: ""
+ alter_time_rare: "Alter Time: Rare"
+ desc_alter_time_rare: ""
+ alter_time_epic: "Alter Time: Epic"
+ desc_alter_time_epic: ""
+ alter_time_legendary: "Alter Time: Legendary"
+ desc_alter_time_legendary: ""
+ 
+ touch_of_the_magi_poor: "Touch of the Magi: Poor"
+ desc_touch_of_the_magi_poor: ""
+ touch_of_the_magi_common: "Touch of the Magi: Common"
+ desc_touch_of_the_magi_common: ""
+ touch_of_the_magi_rare: "Touch of the Magi: Rare"
+ desc_touch_of_the_magi_rare: ""
+ touch_of_the_magi_epic: "Touch of the Magi: Epic"
+ desc_touch_of_the_magi_epic: ""
+ touch_of_the_magi_legendary: "Touch of the Magi: Legendary"
+ desc_touch_of_the_magi_legendary: ""
+
+ temporal_sight_poor: "Temporal Sight: Poor"
+ desc_temporal_sight_poor: ""
+ temporal_sight_common: "Temporal Sight: Common"
+ desc_temporal_sight_common: ""
+ temporal_sight_rare: "Temporal Sight: Rare"
+ desc_temporal_sight_rare: ""
+ temporal_sight_epic: "Temporal Sight: Epic"
+ desc_temporal_sight_epic: ""
+ temporal_sight_legendary: "Temporal Sight: Legendary"
+ desc_temporal_sight_legendary: ""
+ 
+ ruler_ascendance: "Ascendance"
+ desc_ruler_ascendance: ""
+ 
+ polymorph_modifier: "Polymorphed"
+ desc_polymorph_modifier: ""
+ 
+ mirror_image_modifier: "Mirror Images"
+ desc_mirror_image_modifier: ""
+ 
+ # Chi
+ expel_harm_cooldown: "Expel Harm"
+ desc_expel_harm_cooldown: ""
+ 
+ chi_prevent_war: "Prevent War"
+ desc_chi_prevent_war: ""
+ 
+ spiritual_focus_poor: "Spiritual Focus: Poor"
+ desc_spiritual_focus_poor: ""
+ spiritual_focus_common: "Spiritual Focus: Common"
+ desc_spiritual_focus_common: ""
+ spiritual_focus_rare: "Spiritual Focus: Rare"
+ desc_spiritual_focus_rare: ""
+ spiritual_focus_epic: "Spiritual Focus: Epic"
+ desc_spiritual_focus_epic: ""
+ spiritual_focus_legendary: "Spiritual Focus: Legendary"
+ desc_spiritual_focus_legendary: ""
+ 
+ guided_meditation_poor: "Guided Meditation: Poor"
+ desc_guided_meditation_poor: ""
+ guided_meditation_common: "Guided Meditation: Common"
+ desc_guided_meditation_common: ""
+ guided_meditation_rare: "Guided Meditation: Rare"
+ desc_guided_meditation_rare: ""
+ guided_meditation_epic: "Guided Meditation: Epic"
+ desc_guided_meditation_epic: ""
+ guided_meditation_legendary: "Guided Meditation: Legendary"
+ desc_guided_meditation_legendary: ""
+ 
+ tigers_lust_poor: "Tiger's Lust: Poor"
+ desc_tigers_lust_poor: ""
+ tigers_lust_common: "Tiger's Lust: Common"
+ desc_tigers_lust_common: ""
+ tigers_lust_rare: "Tiger's Lust: Rare"
+ desc_tigers_lust_rare: ""
+ tigers_lust_epic: "Tiger's Lust: Epic"
+ desc_tigers_lust_epic: ""
+ tigers_lust_legendary: "Tiger's Lust: Legendary"
+ desc_tigers_lust_legendary: ""
+ 
+ renewing_mist_poor: "Renewing Mist: Poor"
+ desc_renewing_mist_poor: ""
+ renewing_mist_common: "Renewing Mist: Common"
+ desc_renewing_mist_common: ""
+ renewing_mist_rare: "Renewing Mist: Rare"
+ desc_renewing_mist_rare: ""
+ renewing_mist_epic: "Renewing Mist: Epic"
+ desc_renewing_mist_epic: ""
+ renewing_mist_legendary: "Renewing Mist: Legendary"
+ desc_renewing_mist_legendary: ""
+ 
+ strength_of_spirit_poor: "Strength of Spirit: Poor"
+ desc_strength_of_spirit_poor: ""
+ strength_of_spirit_common: "Strength of Spirit: Common"
+ desc_strength_of_spirit_common: ""
+ strength_of_spirit_rare: "Strength of Spirit: Rare"
+ desc_strength_of_spirit_rare: ""
+ strength_of_spirit_epic: "Strength of Spirit: Epic"
+ desc_strength_of_spirit_epic: ""
+ strength_of_spirit_legendary: "Strength of Spirit: Legendary"
+ desc_strength_of_spirit_legendary: ""
+ 
+ secret_infusion_poor: "Secret Infusion: Poor"
+ desc_secret_infusion_poor: ""
+ secret_infusion_common: "Secret Infusion: Common"
+ desc_secret_infusion_common: ""
+ secret_infusion_rare: "Secret Infusion: Rare"
+ desc_secret_infusion_rare: ""
+ secret_infusion_epic: "Secret Infusion: Epic"
+ desc_secret_infusion_epic: ""
+ secret_infusion_legendary: "Secret Infusion: Legendary"
+ desc_secret_infusion_legendary: ""
+ 
+ inner_peace_poor: "Inner Peace: Poor"
+ desc_inner_peace_poor: ""
+ inner_peace_common: "Inner Peace: Common"
+ desc_inner_peace_common: ""
+ inner_peace_rare: "Inner Peace: Rare"
+ desc_inner_peace_rare: ""
+ inner_peace_epic: "Inner Peace: Epic"
+ desc_inner_peace_epic: ""
+ inner_peace_legendary: "Inner Peace: Legendary"
+ desc_inner_peace_legendary: ""
+ 
+ celestial_gift_poor: "Celestial Gift: Poor"
+ desc_celestial_gift_poor: ""
+ celestial_gift_common: "Celestial Gift: Common"
+ desc_celestial_gift_common: ""
+ celestial_gift_rare: "Celestial Gift: Rare"
+ desc_celestial_gift_rare: ""
+ celestial_gift_epic: "Celestial Gift: Epic"
+ desc_celestial_gift_epic: ""
+ celestial_gift_legendary: "Celestial Gift: Legendary"
+ desc_celestial_gift_legendary: ""
+ 
+ # Holy
+ glimmer_of_light_poor: "Glimmer of Light: Poor"
+ desc_glimmer_of_light_poor: ""
+ glimmer_of_light_common: "Glimmer of Light: Common"
+ desc_glimmer_of_light_common: ""
+ glimmer_of_light_rare: "Glimmer of Light: Rare"
+ desc_glimmer_of_light_rare: ""
+ glimmer_of_light_epic: "Glimmer of Light: Epic"
+ desc_glimmer_of_light_epic: ""
+ glimmer_of_light_legendary: "Glimmer of Light: Legendary"
+ desc_glimmer_of_light_legendary: ""
+ 
+ fortifying_aura_poor: "Fortifying Aura: Poor"
+ desc_fortifying_aura_poor: ""
+ fortifying_aura_common: "Fortifying Aura: Common"
+ desc_fortifying_aura_common: ""
+ fortifying_aura_rare: "Fortifying Aura: Rare"
+ desc_fortifying_aura_rare: ""
+ fortifying_aura_epic: "Fortifying Aura: Epic"
+ desc_fortifying_aura_epic: ""
+ fortifying_aura_legendary: "Fortifying Aura: Legendary"
+ desc_fortifying_aura_legendary: ""
+ 
+ lights_decree_poor: "Light's Decree: Poor"
+ desc_lights_decree_poor: ""
+ lights_decree_common: "Light's Decree: Common"
+ desc_lights_decree_common: ""
+ lights_decree_rare: "Light's Decree: Rare"
+ desc_lights_decree_rare: ""
+ lights_decree_epic: "Light's Decree: Epic"
+ desc_lights_decree_epic: ""
+ lights_decree_legendary: "Light's Decree: Legendary"
+ desc_lights_decree_legendary: ""
+ 
+ endless_resolve_poor: "Endless Resolve: Poor"
+ desc_endless_resolve_poor: ""
+ endless_resolve_common: "Endless Resolve: Common"
+ desc_endless_resolve_common: ""
+ endless_resolve_rare: "Endless Resolve: Rare"
+ desc_endless_resolve_rare: ""
+ endless_resolve_epic: "Endless Resolve: Epic"
+ desc_endless_resolve_epic: ""
+ endless_resolve_legendary: "Endless Resolve: Legendary"
+ desc_endless_resolve_legendary: ""
+ 
+ divine_tempest_poor: "Divine Tempest: Poor"
+ desc_divine_tempest_poor: ""
+ divine_tempest_common: "Divine Tempest: Common"
+ desc_divine_tempest_common: ""
+ divine_tempest_rare: "Divine Tempest: Rare"
+ desc_divine_tempest_rare: ""
+ divine_tempest_epic: "Divine Tempest: Epic"
+ desc_divine_tempest_epic: ""
+ divine_tempest_legendary: "Divine Tempest: Legendary"
+ desc_divine_tempest_legendary: ""
+ 
+ protection_of_the_light_poor: "Protection of the Light: Poor"
+ desc_protection_of_the_light_poor: ""
+ protection_of_the_light_common: "Protection of the Light: Common"
+ desc_protection_of_the_light_common: ""
+ protection_of_the_light_rare: "Protection of the Light: Rare"
+ desc_protection_of_the_light_rare: ""
+ protection_of_the_light_epic: "Protection of the Light: Epic"
+ desc_protection_of_the_light_epic: ""
+ protection_of_the_light_legendary: "Protection of the Light: Legendary"
+ desc_protection_of_the_light_legendary: ""
+ 
+ # Voodoo
+ curse_of_weakness_timer: "Curse of Weakness Timer"
+ desc_curse_of_weakness_timer: ""
+ 
+ curse_of_weakness_poor: "Curse of Weakness: Poor"
+ desc_curse_of_weakness_poor: ""
+ curse_of_weakness_common: "Curse of Weakness: Common"
+ desc_curse_of_weakness_common: ""
+ curse_of_weakness_rare: "Curse of Weakness: Rare"
+ desc_curse_of_weakness_rare: ""
+ curse_of_weakness_epic: "Curse of Weakness: Epic"
+ desc_curse_of_weakness_epic: ""
+ curse_of_weakness_legendary: "Curse of Weakness: Legendary"
+ desc_curse_of_weakness_legendary: ""
+ 
+ shadow_barrier_poor: "Shadow Barrier: Poor"
+ desc_shadow_barrier_poor: ""
+ shadow_barrier_common: "Shadow Barrier: Common"
+ desc_shadow_barrier_common: ""
+ shadow_barrier_rare: "Shadow Barrier: Rare"
+ desc_shadow_barrier_rare: ""
+ shadow_barrier_epic: "Shadow Barrier: Epic"
+ desc_shadow_barrier_epic: ""
+ shadow_barrier_legendary: "Shadow Barrier: Legendary"
+ desc_shadow_barrier_legendary: ""
+ 
+ mind_vision_poor: "Mind Vision: Poor"
+ desc_mind_vision_poor: ""
+ mind_vision_common: "Mind Vision: Common"
+ desc_mind_vision_common: ""
+ mind_vision_rare: "Mind Vision: Rare"
+ desc_mind_vision_rare: ""
+ mind_vision_epic: "Mind Vision: Epic"
+ desc_mind_vision_epic: ""
+ mind_vision_legendary: "Mind Vision: Legendary"
+ desc_mind_vision_legendary: ""
+ 
+ disguise_poor: "Disguise: Poor"
+ desc_disguise_poor: ""
+ disguise_common: "Disguise: Common"
+ desc_disguise_common: ""
+ disguise_rare: "Disguise: Rare"
+ desc_disguise_rare: ""
+ disguise_epic: "Disguise: Epic"
+ desc_disguise_epic: ""
+ disguise_legendary: "Disguise: Legendary"
+ desc_disguise_legendary: ""
+ 
+ zombify_poor: "Zombify: Poor"
+ desc_zombify_poor: ""
+ zombify_common: "Zombify: Common"
+ desc_zombify_common: ""
+ zombify_rare: "Zombify: Rare"
+ desc_zombify_rare: ""
+ zombify_epic: "Zombify: Epic"
+ desc_zombify_epic: ""
+ zombify_legendary: "Zombify: Legendary"
+ desc_zombify_legendary: ""
+ 
+ enhance_weaponry_poor: "Enhanced Weaponry: Poor"
+ desc_enhance_weaponry_poor: ""
+ enhance_weaponry_common: "Enhanced Weaponry: Common"
+ desc_enhance_weaponry_common: ""
+ enhance_weaponry_rare: "Enhanced Weaponry: Rare"
+ desc_enhance_weaponry_rare: ""
+ enhance_weaponry_epic: "Enhanced Weaponry: Epic"
+ desc_enhance_weaponry_epic: ""
+ enhance_weaponry_legendary: "Enhanced Weaponry: Legendary"
+ desc_enhance_weaponry_legendary: ""
+ 
+ enhance_armor_poor: "Imbued Armor: Poor"
+ desc_enhance_armor_poor: ""
+ enhance_armor_common: "Imbued Armor: Common"
+ desc_enhance_armor_common: ""
+ enhance_armor_rare: "Imbued Armor: Rare"
+ desc_enhance_armor_rare: ""
+ enhance_armor_epic: "Imbued Armor: Epic"
+ desc_enhance_armor_epic: ""
+ enhance_armor_legendary: "Imbued Armor: Legendary"
+ desc_enhance_armor_legendary: ""
+ 
+ healing_wave_poor: "Healing Wave: Poor"
+ desc_healing_wave_poor: ""
+ healing_wave_common: "Healing Wave: Common"
+ desc_healing_wave_common: ""
+ healing_wave_rare: "Healing Wave: Rare"
+ desc_healing_wave_rare: ""
+ healing_wave_epic: "Healing Wave: Epic"
+ desc_healing_wave_epic: ""
+ healing_wave_legendary: "Healing Wave: Legendary"
+ desc_healing_wave_legendary: ""
+ 
+ # Nature
+ entangling_roots_prov_poor: "Entangling Roots: Poor"
+ desc_entangling_roots_prov_poor: ""
+ entangling_roots_prov_common: "Entangling Roots: Common"
+ desc_entangling_roots_prov_common: ""
+ entangling_roots_prov_rare: "Entangling Roots: Rare"
+ desc_entangling_roots_prov_rare: ""
+ entangling_roots_prov_epic: "Entangling Roots: Epic"
+ desc_entangling_roots_prov_epic: ""
+ entangling_roots_prov_legendary: "Entangling Roots: Legendary"
+ desc_entangling_roots_prov_legendary: ""
+ 
+ tranquility_poor: "Tranquility: Poor"
+ desc_tranquility_poor: ""
+ tranquility_common: "Tranquility: Common"
+ desc_tranquility_common: ""
+ tranquility_rare: "Tranquility: Rare"
+ desc_tranquility_rare: ""
+ tranquility_epic: "Tranquility: Epic"
+ desc_tranquility_epic: ""
+ tranquility_legendary: "Tranquility: Legendary"
+ desc_tranquility_legendary: ""
+ 
+ regrowth_poor: "Regrowth: Poor"
+ desc_regrowth_poor: ""
+ regrowth_common: "Regrowth: Common"
+ desc_regrowth_common: ""
+ regrowth_rare: "Regrowth: Rare"
+ desc_regrowth_rare: ""
+ regrowth_epic: "Regrowth: Epic"
+ desc_regrowth_epic: ""
+ regrowth_legendary: "Regrowth: Legendary"
+ desc_regrowth_legendary: ""
+ 
+ force_of_nature_poor: "Force of Nature: Poor"
+ desc_force_of_nature_poor: ""
+ force_of_nature_common: "Force of Nature: Common"
+ desc_force_of_nature_common: ""
+ force_of_nature_rare: "Force of Nature: Rare"
+ desc_force_of_nature_rare: ""
+ force_of_nature_epic: "Force of Nature: Epic"
+ desc_force_of_nature_epic: ""
+ force_of_nature_legendary: "Force of Nature: Legendary"
+ desc_force_of_nature_legendary: ""
+ 
+ # Necromancy
+ death_and_decay_prov_poor: "Death and Decay: Poor"
+ desc_death_and_decay_prov_poor: ""
+ 
+ death_and_decay_prov_common: "Death and Decay: Common"
+ desc_death_and_decay_prov_common: ""
+ 
+ death_and_decay_prov_rare: "Death and Decay: Rare"
+ desc_death_and_decay_prov_rare: ""
+ 
+ death_and_decay_prov_epic: "Death and Decay: Epic"
+ desc_death_and_decay_prov_epic: ""
+ 
+ death_and_decay_prov_legendary: "Death and Decay: Legendary"
+ desc_death_and_decay_prov_legendary: ""
+ 
+ lichborne_poor: "Lichborne: Poor"
+ desc_lichborne_poor: ""
+ 
+ lichborne_common: "Lichborne: Common"
+ desc_lichborne_common: ""
+ 
+ lichborne_rare: "Lichborne: Rare"
+ desc_lichborne_rare: ""
+ 
+ lichborne_epic: "Lichborne: Epic"
+ desc_lichborne_epic: ""
+ 
+ lichborne_legendary: "Lichborne: Legendary"
+ desc_lichborne_legendary: ""
+ 
+ pestilence_prov_poor: "Pestilence: Poor"
+ desc_pestilence_prov_poor: ""
+ 
+ pestilence_prov_common: "Pestilence: Common"
+ desc_pestilence_prov_common: ""
+ 
+ pestilence_prov_rare: "Pestilence: Rare"
+ desc_pestilence_prov_rare: ""
+ 
+ pestilence_prov_epic: "Pestilence: Epic"
+ desc_pestilence_prov_epic: ""
+ 
+ pestilence_prov_legendary: "Pestilence: Legendary"
+ desc_pestilence_prov_legendary: ""
+ 
+ # Shamanism
+ volcanic_rupture_prov_poor: "Volcanic Rupture: Poor"
+ desc_volcanic_rupture_prov_poor: ""
+ 
+ volcanic_rupture_prov_common: "Volcanic Rupture: Common"
+ desc_volcanic_rupture_prov_common: ""
+ 
+ volcanic_rupture_prov_rare: "Volcanic Rupture: Rare"
+ desc_volcanic_rupture_prov_rare: ""
+ 
+ volcanic_rupture_prov_epic: "Volcanic Rupture: Epic"
+ desc_volcanic_rupture_prov_epic: ""
+ 
+ volcanic_rupture_prov_legendary: "Volcanic Rupture: Legendary"
+ desc_volcanic_rupture_prov_legendary: ""
+ 
+ static_charge_poor: "Static Charge: Poor"
+ desc_static_charge_poor: ""
+ 
+ static_charge_common: "Static Charge: Common"
+ desc_static_charge_common: ""
+ 
+ static_charge_rare: "Static Charge: Rare"
+ desc_static_charge_rare: ""
+ 
+ static_charge_epic: "Static Charge: Epic"
+ desc_static_charge_epic: ""
+ 
+ static_charge_legendary: "Static Charge: Legendary"
+ desc_static_charge_legendary: ""
+ 
+ earthquake_prov_poor: "Earthquake: Poor"
+ desc_earthquake_prov_poor: ""
+ 
+ earthquake_prov_common: "Earthquake: Common"
+ desc_earthquake_prov_common: ""
+ 
+ earthquake_prov_rare: "Earthquake: Rare"
+ desc_earthquake_prov_rare: ""
+ 
+ earthquake_prov_epic: "Earthquake: Epic"
+ desc_earthquake_prov_epic: ""
+ 
+ earthquake_prov_legendary: "Earthquake: Legendary"
+ desc_earthquake_prov_legendary: ""
+ 
+ # Fel
+ hellfire_prov_poor: "Hellfire: Poor"
+ desc_hellfire_prov_poor: ""
+ 
+ hellfire_prov_common: "Hellfire: Common"
+ desc_hellfire_prov_common: ""
+ 
+ hellfire_prov_rare: "Hellfire: Rare"
+ desc_hellfire_prov_rare: ""
+ 
+ hellfire_prov_epic: "Hellfire: Epic"
+ desc_hellfire_prov_epic: ""
+ 
+ hellfire_prov_legendary: "Hellfire: Legendary"
+ desc_hellfire_prov_legendary: ""
+ 
+ howl_of_terror_poor: "Howl of Terror: Poor"
+ desc_howl_of_terror_poor: ""
+ 
+ howl_of_terror_common: "Howl of Terror: Common"
+ desc_howl_of_terror_common: ""
+ 
+ howl_of_terror_rare: "Howl of Terror: Rare"
+ desc_howl_of_terror_rare: ""
+ 
+ howl_of_terror_epic: "Howl of Terror: Epic"
+ desc_howl_of_terror_epic: ""
+ 
+ howl_of_terror_legendary: "Howl of Terror: Legendary"
+ desc_howl_of_terror_legendary: ""
+ 
+ demonic_empowerment_poor: "Demonic Empowerment: Poor"
+ desc_demonic_empowerment_poor: ""
+ 
+ demonic_empowerment_common: "Demonic Empowerment: Common"
+ desc_demonic_empowerment_common: ""
+ 
+ demonic_empowerment_rare: "Demonic Empowerment: Rare"
+ desc_demonic_empowerment_rare: ""
+ 
+ demonic_empowerment_epic: "Demonic Empowerment: Epic"
+ desc_demonic_empowerment_epic: ""
+ 
+ demonic_empowerment_legendary: "Demonic Empowerment: Legendary"
+ desc_demonic_empowerment_legendary: ""
+ 
+ # Draconic
+ living_flame_prov_poor: "Living Flame: Poor"
+ desc_living_flame_prov_poor: ""
+ 
+ living_flame_prov_common: "Living Flame: Common"
+ desc_living_flame_prov_common: ""
+ 
+ living_flame_prov_rare: "Living Flame: Rare"
+ desc_living_flame_prov_rare: ""
+ 
+ living_flame_prov_epic: "Living Flame: Epic"
+ desc_living_flame_prov_epic: ""
+ 
+ living_flame_prov_legendary: "Living Flame: Legendary"
+ desc_living_flame_prov_legendary: ""
+ 
+ azure_wisdom_poor: "Azure Wisdom: Poor"
+ desc_azure_wisdom_poor: ""
+ 
+ azure_wisdom_common: "Azure Wisdom: Common"
+ desc_azure_wisdom_common: ""
+ 
+ azure_wisdom_rare: "Azure Wisdom: Rare"
+ desc_azure_wisdom_rare: ""
+ 
+ azure_wisdom_epic: "Azure Wisdom: Epic"
+ desc_azure_wisdom_epic: ""
+ 
+ azure_wisdom_legendary: "Azure Wisdom: Legendary"
+ desc_azure_wisdom_legendary: ""
+ 
+ temporal_haste_poor: "Temporal Haste: Poor"
+ desc_temporal_haste_poor: ""
+ 
+ temporal_haste_common: "Temporal Haste: Common"
+ desc_temporal_haste_common: ""
+ 
+ temporal_haste_rare: "Temporal Haste: Rare"
+ desc_temporal_haste_rare: ""
+ 
+ temporal_haste_epic: "Temporal Haste: Epic"
+ desc_temporal_haste_epic: ""
+ 
+ temporal_haste_legendary: "Temporal Haste: Legendary"
+ desc_temporal_haste_legendary: ""
+ 
+ ephemeral_dream_poor: "Ephemeral Dream: Poor"
+ desc_ephemeral_dream_poor: ""
+ 
+ ephemeral_dream_common: "Ephemeral Dream: Common"
+ desc_ephemeral_dream_common: ""
+ 
+ ephemeral_dream_rare: "Ephemeral Dream: Rare"
+ desc_ephemeral_dream_rare: ""
+ 
+ ephemeral_dream_epic: "Ephemeral Dream: Epic"
+ desc_ephemeral_dream_epic: ""
+ 
+ ephemeral_dream_legendary: "Ephemeral Dream: Legendary"
+ desc_ephemeral_dream_legendary: ""
+ 
+ obsidian_skin_poor: "Obsidian Skin: Poor"
+ desc_obsidian_skin_poor: ""
+ 
+ obsidian_skin_common: "Obsidian Skin: Common"
+ desc_obsidian_skin_common: ""
+ 
+ obsidian_skin_rare: "Obsidian Skin: Rare"
+ desc_obsidian_skin_rare: ""
+ 
+ obsidian_skin_epic: "Obsidian Skin: Epic"
+ desc_obsidian_skin_epic: ""
+ 
+ obsidian_skin_legendary: "Obsidian Skin: Legendary"
+ desc_obsidian_skin_legendary: ""
+ 
+ # Old God
+ whisper_of_despair_prov_poor: "Whisper of Despair: Poor"
+ desc_whisper_of_despair_prov_poor: ""
+ 
+ whisper_of_despair_prov_common: "Whisper of Despair: Common"
+ desc_whisper_of_despair_prov_common: ""
+ 
+ whisper_of_despair_prov_rare: "Whisper of Despair: Rare"
+ desc_whisper_of_despair_prov_rare: ""
+ 
+ whisper_of_despair_prov_epic: "Whisper of Despair: Epic"
+ desc_whisper_of_despair_prov_epic: ""
+ 
+ whisper_of_despair_prov_legendary: "Whisper of Despair: Legendary"
+ desc_whisper_of_despair_prov_legendary: ""
+ 
+ mindworms_poor: "Mindworms: Poor"
+ desc_mindworms_poor: ""
+ 
+ mindworms_common: "Mindworms: Common"
+ desc_mindworms_common: ""
+ 
+ mindworms_rare: "Mindworms: Rare"
+ desc_mindworms_rare: ""
+ 
+ mindworms_epic: "Mindworms: Epic"
+ desc_mindworms_epic: ""
+ 
+ mindworms_legendary: "Mindworms: Legendary"
+ desc_mindworms_legendary: ""
+ 
+ # Shadow
+ mind_control_prov_poor: "Mind Control: Poor"
+ desc_mind_control_prov_poor: ""
+ 
+ mind_control_prov_common: "Mind Control: Common"
+ desc_mind_control_prov_common: ""
+ 
+ mind_control_prov_rare: "Mind Control: Rare"
+ desc_mind_control_prov_rare: ""
+ 
+ mind_control_prov_epic: "Mind Control: Epic"
+ desc_mind_control_prov_epic: ""
+ 
+ mind_control_prov_legendary: "Mind Control: Legendary"
+ desc_mind_control_prov_legendary: ""
+ 
+ mind_blast_poor: "Mind Blast: Poor"
+ desc_blast_poor: ""
+ 
+ mind_blast_common: "Mind Blast: Common"
+ desc_mind_blast_common: ""
+ 
+ mind_blast_rare: "Mind Blast: Rare"
+ desc_mind_blast_rare: ""
+ 
+ mind_blast_epic: "Mind Blast: Epic"
+ desc_mind_blast_epic: ""
+ 
+ mind_blast_legendary: "Mind Blast: Legendary"
+ desc_mind_blast_legendary: ""
+ 
+ dark_whispers_poor: "Dark Whispers: Poor"
+ desc_dark_whispers_poor: ""
+ 
+ dark_whispers_common: "Dark Whispers: Common"
+ desc_dark_whispers_common: ""
+ 
+ dark_whispers_rare: "Dark Whispers: Rare"
+ desc_dark_whispers_rare: ""
+ 
+ dark_whispers_epic: "Dark Whispers: Epic"
+ desc_dark_whispers_epic: ""
+ 
+ dark_whispers_legendary: "Dark Whispers: Legendary"
+ desc_dark_whispers_legendary: ""
+ 
+ soothe_mind_opinion_mod: "Soothed Mind"
+ 
+ # Titanic
+ highfathers_will_prov_poor: "Highfather's Will: Poor"
+ desc_highfathers_will_prov_poor: ""
+ 
+ highfathers_will_prov_common: "Highfather's Will: Common"
+ desc_highfathers_will_prov_common: ""
+ 
+ highfathers_will_prov_rare: "Highfather's Will: Rare"
+ desc_highfathers_will_prov_rare: ""
+ 
+ highfathers_will_prov_epic: "Highfather's Will: Epic"
+ desc_highfathers_will_prov_epic: ""
+ 
+ highfathers_will_prov_legendary: "Highfather's Will: Legendary"
+ desc_highfathers_will_prov_legendary: ""
+ 
+ blessing_of_the_titans_poor: "Blessing of the Titans: Poor"
+ desc_blessing_of_the_titans_poor: ""
+ 
+ blessing_of_the_titans_common: "Blessing of the Titans: Common"
+ desc_blessing_of_the_titans_common: ""
+ 
+ blessing_of_the_titans_rare: "Blessing of the Titans: Rare"
+ desc_blessing_of_the_titans_rare: ""
+ 
+ blessing_of_the_titans_epic: "Blessing of the Titans: Epic"
+ desc_blessing_of_the_titans_epic: ""
+ 
+ blessing_of_the_titans_legendary: "Blessing of the Titans: Legendary"
+ desc_blessing_of_the_titans_legendary: ""
+ 
+ power_from_beyond_poor: "Power from Beyonds: Poor"
+ desc_power_from_beyond_poor: ""
+ 
+ power_from_beyond_common: "Power from Beyonds: Common"
+ desc_power_from_beyond_common: ""
+ 
+ power_from_beyond_rare: "Power from Beyonds: Rare"
+ desc_power_from_beyond_rare: ""
+ 
+ power_from_beyond_epic: "Power from Beyonds: Epic"
+ desc_power_from_beyond_epic: ""
+ 
+ power_from_beyond_legendary: "Power from Beyonds: Legendary"
+ desc_power_from_beyond_legendary: ""
+ 
+ # Runic
+ forbidden_rune_poor: "Forbidden Rune: Poor"
+ desc_forbidden_rune_poor: ""
+ 
+ forbidden_rune_common: "Forbidden Rune: Common"
+ desc_forbidden_rune_common: ""
+ 
+ forbidden_rune_rare: "Forbidden Rune: Rare"
+ desc_forbidden_rune_rare: ""
+ 
+ forbidden_rune_epic: "Forbidden Rune: Epic"
+ desc_forbidden_rune_epic: ""
+ 
+ forbidden_rune_legendary: "Forbidden Rune: Legendary"
+ desc_forbidden_rune_legendary: ""
+ 
+ ice_barrage_prov_poor: "Ice Barrage: Poor"
+ desc_ice_barrage_prov_poor: ""
+ 
+ ice_barrage_prov_common: "Ice Barrage: Common"
+ desc_ice_barrage_prov_common: ""
+ 
+ ice_barrage_prov_rare: "Ice Barrage: Rare"
+ desc_ice_barrage_prov_rare: ""
+ 
+ ice_barrage_prov_epic: "Ice Barrage: Epic"
+ desc_ice_barrage_prov_epic: ""
+ 
+ ice_barrage_prov_legendary: "Ice Barrage: Legendary"
+ desc_ice_barrage_prov_legendary: ""
+ 
+ ancestral_knowledge_poor: "Ancestral Knowledge: Poor"
+ desc_ancestral_knowledge_poor: ""
+ 
+ ancestral_knowledge_common: "Ancestral Knowledge: Common"
+ desc_ancestral_knowledge_common: ""
+ 
+ ancestral_knowledge_rare: "Ancestral Knowledge: Rare"
+ desc_ancestral_knowledge_rare: ""
+ 
+ ancestral_knowledge_epic: "Ancestral Knowledge: Epic"
+ desc_ancestral_knowledge_epic: ""
+ 
+ ancestral_knowledge_legendary: "Ancestral Knowledge: Legendary"
+ desc_ancestral_knowledge_legendary: ""
+ 
+ # Nightmare
+ waking_nightmare_poor: "Waking Nightmare: Poor"
+ desc_waking_nightmare_poor: ""
+ 
+ waking_nightmare_common: "Waking Nightmare: Common"
+ desc_waking_nightmare_common: ""
+ 
+ waking_nightmare_rare: "Waking Nightmare: Rare"
+ desc_waking_nightmare_rare: ""
+ 
+ waking_nightmare_epic: "Waking Nightmare: Epic"
+ desc_waking_nightmare_epic: ""
+ 
+ waking_nightmare_legendary: "Waking Nightmare: Legendary"
+ desc_waking_nightmare_legendary: ""
+ 
+ corrupting_aura_poor: "Corrupting Aura: Poor"
+ desc_corrupting_aura_poor: ""
+ 
+ corrupting_aura_common: "Corrupting Aura: Common"
+ desc_corrupting_aura_common: ""
+ 
+ corrupting_aura_rare: "Corrupting Aura: Rare"
+ desc_corrupting_aura_rare: ""
+ 
+ corrupting_aura_epic: "Corrupting Aura: Epic"
+ desc_corrupting_aura_epic: ""
+ 
+ corrupting_aura_legendary: "Corrupting Aura: Legendary"
+ desc_corrupting_aura_legendary: ""
+ 
+ nightmare_rift_prov_poor: "Nightmare Rift: Poor"
+ desc_nightmare_rift_prov_poor: ""
+ 
+ nightmare_rift_prov_common: "Nightmare Rift: Common"
+ desc_nightmare_rift_prov_common: ""
+ 
+ nightmare_rift_prov_rare: "Nightmare Rift: Rare"
+ desc_nightmare_rift_prov_rare: ""
+ 
+ nightmare_rift_prov_epic: "Nightmare Rift: Epic"
+ desc_nightmare_rift_prov_epic: ""
+ 
+ nightmare_rift_prov_legendary: "Nightmare Rift: Legendary"
+ desc_nightmare_rift_prov_legendary: ""
+ 
+ # Earth
+ riches_of_the_earth_poor: "Riches of the Earth: Poor"
+ desc_riches_of_the_earth_poor: ""
+ 
+ riches_of_the_earth_common: "Riches of the Earth: Common"
+ desc_riches_of_the_earth_common: ""
+ 
+ riches_of_the_earth_rare: "Riches of the Earth: Rare"
+ desc_riches_of_the_earth_rare: ""
+ 
+ riches_of_the_earth_epic: "Riches of the Earth: Epic"
+ desc_riches_of_the_earth_epic: ""
+ 
+ riches_of_the_earth_legendary: "Riches of the Earth: Legendary"
+ desc_riches_of_the_earth_legendary: ""
+ 
+ living_stone_poor: "Living Stone: Poor"
+ desc_living_stone_poor: ""
+ 
+ living_stone_common: "Living Stone: Common"
+ desc_living_stone_common: ""
+ 
+ living_stone_rare: "Living Stone: Rare"
+ desc_living_stone_rare: ""
+ 
+ living_stone_epic: "Living Stone: Epic"
+ desc_living_stone_epic: ""
+ 
+ living_stone_legendary: "Living Stone: Legendary"
+ desc_living_stone_legendary: ""
+ 
+ # Fire
+ everlasting_flame_poor: "Everlasting Flame: Poor"
+ desc_everlasting_flame_poor: ""
+ 
+ everlasting_flame_common: "Everlasting Flame: Common"
+ desc_everlasting_flame_common: ""
+ 
+ everlasting_flame_rare: "Everlasting Flame: Rare"
+ desc_everlasting_flame_rare: ""
+ 
+ everlasting_flame_epic: "Everlasting Flame: Epic"
+ desc_everlasting_flame_epic: ""
+ 
+ everlasting_flame_legendary: "Everlasting Flame: Legendary"
+ desc_everlasting_flame_legendary: ""
+ 
+ unstable_combustion_poor: "Unstable Combustion: Poor"
+ desc_unstable_combustion_poor: ""
+ 
+ unstable_combustion_common: "Unstable Combustion: Common"
+ desc_unstable_combustion_common: ""
+ 
+ unstable_combustion_rare: "Unstable Combustion: Rare"
+ desc_unstable_combustion_rare: ""
+ 
+ unstable_combustion_epic: "Unstable Combustion: Epic"
+ desc_unstable_combustion_epic: ""
+ 
+ unstable_combustion_legendary: "Unstable Combustion: Legendary"
+ desc_unstable_combustion_legendary: ""
+ 
+ # Water
+ priomordial_swell_poor: "Priomordial Swell: Poor"
+ desc_priomordial_swell_poor: ""
+ 
+ priomordial_swell_common: "Priomordial Swell: Common"
+ desc_priomordial_swell_common: ""
+ 
+ priomordial_swell_rare: "Priomordial Swell: Rare"
+ desc_priomordial_swell_rare: ""
+ 
+ priomordial_swell_epic: "Priomordial Swell: Epic"
+ desc_priomordial_swell_epic: ""
+ 
+ priomordial_swell_legendary: "Priomordial Swell: Legendary"
+ desc_priomordial_swell_legendary: ""
+ 
+ abyssal_tides_poor: "Abyssal Tides: Poor"
+ desc_abyssal_tides_poor: ""
+ 
+ abyssal_tides_common: "Abyssal Tides: Common"
+ desc_abyssal_tides_common: ""
+ 
+ abyssal_tides_rare: "Abyssal Tides: Rare"
+ desc_abyssal_tides_rare: ""
+ 
+ abyssal_tides_epic: "Abyssal Tides: Epic"
+ desc_abyssal_tides_epic: ""
+ 
+ abyssal_tides_legendary: "Abyssal Tides: Legendary"
+ desc_abyssal_tides_legendary: ""
+ 
+ # Wind
+ slicing_wind_poor: "Slicing Wind: Poor"
+ desc_slicing_wind_poor: ""
+ 
+ slicing_wind_common: "Slicing Wind: Common"
+ desc_slicing_wind_common: ""
+ 
+ slicing_wind_rare: "Slicing Wind: Rare"
+ desc_slicing_wind_rare: ""
+ 
+ slicing_wind_epic: "Slicing Wind: Epic"
+ desc_slicing_wind_epic: ""
+ 
+ slicing_wind_legendary: "Slicing Wind: Legendary"
+ desc_slicing_wind_legendary: ""
+ 
+ windwalk_poor: "Windwalk: Poor"
+ desc_windwalk_poor: ""
+ 
+ windwalk_common: "Windwalk: Common"
+ desc_windwalk_common: ""
+ 
+ windwalk_rare: "Windwalk: Rare"
+ desc_windwalk_rare: ""
+ 
+ windwalk_epic: "Windwalk: Epic"
+ desc_windwalk_epic: ""
+ 
+ windwalk_legendary: "Windwalk: Legendary"
+ desc_windwalk_legendary: ""
+ 
+ tornado_prov_poor: "Tornado: Poor"
+ desc_tornado_prov_poor: ""
+ 
+ tornado_prov_common: "Tornado: Common"
+ desc_tornado_prov_common: ""
+ 
+ tornado_prov_rare: "Tornado: Rare"
+ desc_tornado_prov_rare: ""
+ 
+ tornado_prov_epic: "Tornado: Epic"
+ desc_tornado_prov_epic: ""
+ 
+ tornado_prov_legendary: "Tornado: Legendary"
+ desc_tornado_prov_legendary: ""
+ 
+ # Domination
+ chains_of_domination_prov_poor: "Chains of Domination: Poor"
+ desc_chains_of_domination_prov_poor: ""
+ 
+ chains_of_domination_prov_common: "Chains of Domination: Common"
+ desc_chains_of_domination_prov_common: ""
+ 
+ chains_of_domination_prov_rare: "Chains of Domination: Rare"
+ desc_chains_of_domination_prov_rare: ""
+ 
+ chains_of_domination_prov_epic: "Chains of Domination: Epic"
+ desc_chains_of_domination_prov_epic: ""
+ 
+ chains_of_domination_prov_legendary: "Chains of Domination: Legendary"
+ desc_chains_of_domination_prov_legendary: ""
+ 
+ shadowsteel_embers_poor: "Shadowsteel Embers: Poor"
+ desc_shadowsteel_embers_poor: ""
+ 
+ shadowsteel_embers_common: "Shadowsteel Embers: Common"
+ desc_shadowsteel_embers_common: ""
+ 
+ shadowsteel_embers_rare: "Shadowsteel Embers: Rare"
+ desc_shadowsteel_embers_rare: ""
+ 
+ shadowsteel_embers_epic: "Shadowsteel Embers: Epic"
+ desc_shadowsteel_embers_epic: ""
+ 
+ shadowsteel_embers_legendary: "Shadowsteel Embers: Legendary"
+ desc_shadowsteel_embers_legendary: ""
+ 
+ crushing_dread_poor: "Crushing Dread: Poor"
+ desc_crushing_dread_poor: ""
+ 
+ crushing_dread_common: "Crushing Dread: Common"
+ desc_crushing_dread_common: ""
+ 
+ crushing_dread_rare: "Crushing Dread: Rare"
+ desc_crushing_dread_rare: ""
+ 
+ crushing_dread_epic: "Crushing Dread: Epic"
+ desc_crushing_dread_epic: ""
+ 
+ crushing_dread_legendary: "Crushing Dread: Legendary"
+ desc_crushing_dread_legendary: ""
+ 
+ # Soul
+ accelerated_incubation_poor: "Accelerated Incubation: Poor"
+ desc_accelerated_incubation_poor: ""
+ 
+ accelerated_incubation_common: "Accelerated Incubation: Common"
+ desc_accelerated_incubation_common: ""
+ 
+ accelerated_incubation_rare: "Accelerated Incubation: Rare"
+ desc_accelerated_incubation_rare: ""
+ 
+ accelerated_incubation_epic: "Accelerated Incubation: Epic"
+ desc_accelerated_incubation_epic: ""
+ 
+ accelerated_incubation_legendary: "Accelerated Incubation: Legendary"
+ desc_accelerated_incubation_legendary: ""
+ 
+ noxious_spores_poor: "Noxious Spores: Poor"
+ desc_noxious_spores_poor: ""
+ 
+ noxious_spores_common: "Noxious Spores: Common"
+ desc_noxious_spores_common: ""
+ 
+ noxious_spores_rare: "Noxious Spores: Rare"
+ desc_noxious_spores_rare: ""
+ 
+ noxious_spores_epic: "Noxious Spores: Epic"
+ desc_noxious_spores_epic: ""
+ 
+ noxious_spores_legendary: "Noxious Spores: Legendary"
+ desc_noxious_spores_legendary: ""
  

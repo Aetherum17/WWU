@@ -60,7 +60,7 @@
  desc_bronze_dragonflight_military: "Provides the following additional bonuses:\n- None"
 
  dwarf_administration: "Dwarf Administration"
- desc_dwarf_administration: "Provides the following additional bonuses:\n- Reduces the required Dig Progress for a successful Archaeological Expedition by §Y2§!."
+ desc_dwarf_administration: "Provides the following additional bonuses:\n- Increases the speed of progress during an Archaeological Dig."
  dwarf_military: "Dwarf Military"
  desc_dwarf_military: "Provides the following additional bonuses:\n- None"
 

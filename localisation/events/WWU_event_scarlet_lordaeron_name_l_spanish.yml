@@ -1,0 +1,14 @@
+﻿l_spanish:
+ #-----------------------------------------------
+ # Scarlet Lordaeron
+ #----------------------------------------------- 
+ wwu_flavour_scarlet_lordaeron.1.title: "Revival of Lordaeron"
+ wwu_flavour_scarlet_lordaeron.1.desc: "We finally unified the ancestral lands of Lordaeron and reached or even surprased their eternal glory! In the name of the scarlet flame what should we be called now?"
+ wwu_flavour_scarlet_lordaeron.1.a: "Scarlet Lordaeron"
+ wwu_flavour_scarlet_lordaeron.1.b: "Scarlet Northlands"
+ 
+ # Name Change
+ SCARLET_LORDAERON: "Scarlet Lordaeron"
+ SCARLET_LORDAERON_ADJ: "Scarlet"
+ SCARLET_NORTHLANDS: "Scarlet Northlands"
+ SCARLET_NORTHLANDS_ADJ: "Scarlet"
