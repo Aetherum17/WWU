@@ -53,7 +53,15 @@ country_decisions = {
             # Switch
 			change_tag = A23
 			change_government = monarchy
+			change_primary_culture = culture_theramorean
 			set_capital = 1456
+            every_owned_province = { 
+                limit = {
+                    area = area_theramore_isle
+                    NOT = { culture = culture_theramorean }
+                }
+                change_culture = culture_theramorean
+            }
             
             # Bonus
             add_formable_bonus = yes
