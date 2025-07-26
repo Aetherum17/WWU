@@ -11,7 +11,7 @@ culture = culture_gnoll
 religion = earth
 
 hre = no
-trade_goods = resource_common_ores
+trade_goods = resource_common_fish
 
 latent_trade_goods = {
 	resource_azerite

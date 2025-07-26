@@ -12,7 +12,7 @@ culture = culture_lordaeron
 religion = holy_light
 
 hre = no
-trade_goods = resource_common_wood
+trade_goods = resource_common_metals
 
 center_of_trade = 1
 

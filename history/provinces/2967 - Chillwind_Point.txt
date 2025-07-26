@@ -13,7 +13,7 @@ culture = culture_forest_troll
 religion = voodoo
 
 hre = no
-trade_goods = resource_food
+trade_goods = resource_common_fish
 
 # Second War
 598.1.1 = {

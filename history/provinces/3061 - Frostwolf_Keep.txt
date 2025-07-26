@@ -11,7 +11,7 @@ culture = culture_alterac
 religion = holy_light
 
 hre = no
-trade_goods = unknown
+trade_goods = resource_magical_weaponry
 
 center_of_trade = 1
 

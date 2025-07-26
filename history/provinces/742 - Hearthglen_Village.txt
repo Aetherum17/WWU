@@ -12,7 +12,7 @@ culture = culture_lordaeron
 religion = holy_light
 
 hre = no
-trade_goods = resource_scrolls
+trade_goods = resource_common_cloth
  
 
 618.1.1 = { 

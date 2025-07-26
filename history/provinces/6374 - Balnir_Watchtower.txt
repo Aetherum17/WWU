@@ -11,7 +11,7 @@ culture = culture_lordaeron
 religion = holy_light
 
 hre = no
-trade_goods = resource_melee_weaponry
+trade_goods = resource_ranged_weaponry
 
 
 
