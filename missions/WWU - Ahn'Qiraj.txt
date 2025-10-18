@@ -412,7 +412,7 @@ A97_ahn_qiraj_column_2 = {
         icon = mission_jaina
         position = 10
 
-        #required_missions = { A97_dominate_thousand_needles }
+        required_missions = { A97_dominate_thousand_needles }
 
         trigger = {
             region_dustwallow_marsh = {
@@ -792,7 +792,7 @@ A97_ahn_qiraj_column_3 = {
         icon = mission_orc_female
         position = 11
 
-        #required_missions = { A97_dominate_thousand_needles }
+        required_missions = { A97_dominate_thousand_needles }
 
         trigger = {
             region_south_barrens = {
@@ -1079,7 +1079,7 @@ A97_ahn_qiraj_column_4 = {
         icon = mission_tauren_male
         position = 10
 
-        #required_missions = { A97_devouring_of_feralas }
+        required_missions = { A97_devouring_of_feralas }
 
         trigger = {
             region_mulgore = {

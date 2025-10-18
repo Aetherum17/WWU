@@ -41,11 +41,12 @@
 -Added 2 new missions
 -Removed 2 old missions
 
-Extra - Expanded Mission Tree space for new flow
-
 # Evergrowth
 -Replaced triggers of required mission with actual ones
 -Small balance tweaks and fixes
+
+# Firelands
+-Adjusted reward based on community feedback
 
 # Religion
 -Submission to Arcane decision will be avalable to AI based on certain personality traits

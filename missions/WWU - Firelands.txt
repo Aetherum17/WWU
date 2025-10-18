@@ -143,7 +143,7 @@ P26_firelands_column_1 = {
         }
 
         provinces_to_highlight = {
-            is_capital_of = BLA
+            area = area_fire_plume_ridge
         }
 
         effect = {
@@ -157,10 +157,10 @@ P26_firelands_column_1 = {
             }
             else = {
                 1533 = {
-                        cede_province = ROOT
-                        add_core = ROOT
-                        change_culture = ROOT
-                        change_religion = ROOT
+                    add_core = ROOT
+                }
+                area_fire_plume_ridge = {
+                    add_permanent_claim = ROOT
                 }
             }
         }
