@@ -8,9 +8,6 @@ country_event = {
     picture = EXPLORERS_HAT_eventPicture
 
     is_triggered_only = yes
-    mean_time_to_happen = {
-        days = 1
-    }
 
     option = {
         name = wwu_mission_a29_uldaman.1.option.a
@@ -68,9 +65,6 @@ country_event = {
     picture = ULDAMAN_eventPicture
 
     is_triggered_only = yes
-    mean_time_to_happen = {
-        days = 1
-    }
 
     option = {
         name = wwu_mission_a29_uldaman.2.option.a
