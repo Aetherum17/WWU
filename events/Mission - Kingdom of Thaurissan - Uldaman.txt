@@ -7,8 +7,7 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.1.desc
     picture = DARK_IRON_SKULKER_eventPicture
 
-    is_triggered_only = yes
-
+	is_triggered_only = yes
 
     option = {
         name = wwu_mission_a29_kot_responce.1.option.a
@@ -59,9 +58,6 @@ country_event = {
 		}
 	}
 	
-	mean_time_to_happen = {
-        days = 1
-    }
     option = {
         name = wwu_mission_a29_kot_digs.1.option.a
 		set_country_flag = kot_digs_1_done
@@ -95,7 +91,6 @@ country_event = {
     desc = wwu_mission_a29_kot_digs.2.desc
     picture = EXPLORERS_HAT_eventPicture
 
-    is_triggered_only = yes
 	
 	option = {
         name = wwu_mission_a29_kot_digs.2.option.a
