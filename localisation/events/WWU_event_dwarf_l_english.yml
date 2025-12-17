@@ -31,3 +31,31 @@
  wwu_dwarf.11.desc: "As our fierce war against our enemies continues, dwarves around the globe, be they a mere peasant or a powerful noble, are doing their best to help our war effort. Recently, a group of adventuring guilds including Retired Mountaineers Society, The Three Hammers and Ironbeard Retinue united under one banner and rallied citizens to join the war."
  wwu_dwarf.11.option.a: "Praise the guilds!"
  
+ #-----------------------------------------------
+ # Uldaman
+ #-----------------------------------------------
+ wwu_mission_a29_uldaman.1.title: "Ironband's Excavation!"
+ wwu_mission_a29_uldaman.1.desc: "Our leading explorer Ironband claims that here in Loch Modan lies a lead towards a place of our origin. This excavation may lead us to the answers of our origin as well as give us access to technologies of our makers. Ironband is asking for a financial contribution to hasten the proccess."
+ wwu_mission_a29_uldaman.1.option.a: "We must find the answers! Give them everything!"
+ wwu_mission_a29_uldaman.1.option.b: "It is sounds interesting. Throw them a bone."
+ wwu_mission_a29_uldaman.1.option.c: "I don't care. Let him play in the dirt."
+ 
+ wwu_mission_a29_uldaman.2.title: "Ironband's Excavation Results"
+ wwu_mission_a29_uldaman.2.desc: "Ironband claims he has some kind of access codes and a map that could lead to a temple. It will take some time to follow the map."
+ wwu_mission_a29_uldaman.2.option.a: "Make sure to hide it from the spies!"
+ wwu_mission_a29_uldaman.2.option.b: "Who cares what garbage they dug up?!"
+ 
+ wwu_mission_a29_kot_responce.1.title: "Bronzbeard Excavation"
+ wwu_mission_a29_kot_responce.1.desc: "My Emperor! Our spies in Loch Modan tell us that the Bronzbeards started to dig inside ruins. Does your highness wish to do anything?"
+ wwu_mission_a29_kot_responce.1.option.a: "Who cares? We have our own things to deal with!"
+ wwu_mission_a29_kot_responce.1.option.b: "We can start our own excavation! I know a place!"
+ wwu_mission_a29_kot_responce.1.option.c: "Let our spies continue to monitor the Bronzebeards."
+ 
+ wwu_mission_a29_kot_digs.1.title: "Start Digging"
+ wwu_mission_a29_kot_digs.1.desc: "My Emperor, we finally secured the dig site but we lack the manpower to start the excavation."
+ wwu_mission_a29_kot_digs.1.option.a: "Send everyone to start diggin!"
+ wwu_mission_a29_kot_digs.1.option.b: "Nothing we can do... Just figure something on your own."
+ 
+ wwu_mission_a29_kot_digs.1.title: "Excavation Reustls"
+ wwu_mission_a29_kot_digs.1.desc: "My Emperor our lead archeologist says that he found some kind of a code and a crude map! It will take some time to follow the map."
+ wwu_mission_a29_kot_digs.1.option.a: "Great! Let me know when we will know where the map leads to."

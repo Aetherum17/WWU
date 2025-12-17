@@ -1,3 +1,4 @@
+
 #--------------------------------------
 # Ironforge
 #--------------------------------------
@@ -732,10 +733,40 @@ A29_ironforge_column_5 = {
             }
 		}
 	}
-    A29_restore_the_facilities_of_uldaman_a29 = {
+    A29_ironbands_excavation_a29 = {
 	    icon = mission_volkhan
 		required_missions = { }
 		position = 2
+		
+		trigger = {
+			792 = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			3033 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			988 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+        provinces_to_highlight = {
+            province_id = 792
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			province_id = 3033
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			province_id = 988
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+		effect = {
+			country_event = { 
+				id = wwu_mission_a29_uldaman.1
+            }
+		}
+	}
+	A29_restore_the_facilities_of_uldaman_a29 = {
+	    icon = mission_volkhan
+		required_missions = { A29_ironbands_excavation_a29 }
+		position = 3
 		
 		trigger = {
 			1968 = { 
@@ -758,7 +789,7 @@ A29_ironforge_column_5 = {
 	A29_decrypt_the_discs_of_norgannon_a29 = {
   	    icon = mission_paladin_shield_of_the_templar
 		required_missions = { A29_restore_the_facilities_of_uldaman_a29 }
-		position = 3
+		position = 4
 		
 		trigger = {
 			adm_tech = 15
@@ -781,7 +812,7 @@ A29_ironforge_column_5 = {
 	A29_restore_to_earthen_a29 = {
 		icon = mission_volkhan
 		required_missions = { A29_decrypt_the_discs_of_norgannon_a29 }
-		position = 4
+		position = 5
 		
 		provinces_to_highlight = {
 		    AND = {

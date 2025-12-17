@@ -1,0 +1,93 @@
+namespace = wwu_mission_a29_uldaman
+
+#Start Excavating
+country_event = {
+    id = wwu_mission_a29_uldaman.1
+    title = wwu_mission_a29_uldaman.1.title
+    desc = wwu_mission_a29_uldaman.1.desc
+    picture = EXPLORERS_HAT_eventPicture
+
+    is_triggered_only = yes
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.1.option.a
+
+        add_treasury = -500
+		country_event = { 
+			id = wwu_mission_a29_uldaman.2 days = 90 
+		}
+        if = {
+			limit = { A30 = { exists = yes } }
+			A30 = { country_event = { id = wwu_mission_a29_kot_responce.1 } }
+		}
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.1.b
+
+        add_treasury = -100
+		country_event = { 
+			id = wwu_mission_a29_uldaman.2 days = 180 
+		}
+        if = {
+			limit = { A30 = { exists = yes } }
+			A30 = { country_event = { id = wwu_mission_a29_kot_responce.1 } }
+		}
+        ai_chance = {
+            factor = 5
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.1.option.c
+
+       country_event = { 
+			id = wwu_mission_a29_uldaman.2 days = 500 
+		}
+        if = {
+			limit = { A30 = { exists = yes } }
+			A30 = { country_event = { id = wwu_mission_a29_kot_responce.1 } }
+		}
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Uldaman hinted
+country_event = {
+    id = wwu_mission_a29_uldaman.2
+    title = wwu_mission_a29_uldaman.2.title
+    desc = wwu_mission_a29_uldaman.2.desc
+    picture = ULDAMAN_eventPicture
+
+    is_triggered_only = yes
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.2.option.a
+
+        add_dip_power = -100
+        set_country_flag = km_access_codes
+		set_county_flag = codes_secured
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.2.option.b
+        set_country_flag = km_access_codes
+        ai_chance = {
+            factor = 7
+        }
+    }
+}

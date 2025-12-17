@@ -1,0 +1,110 @@
+namespace = wwu_mission_a29_kot_responce
+
+#Excavations by Khaz Modan
+country_event = {
+    id = wwu_mission_a29_kot_responce.1
+    title = wwu_mission_a29_kot_responce.1.title
+    desc = wwu_mission_a29_kot_responce.1.desc
+    picture = DARK_IRON_SKULKER_eventPicture
+
+    is_triggered_only = yes
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_a29_kot_responce.1.option.a
+
+        set_country_flag = dont_care_for_uldaman
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_kot_responce.1.option.b
+
+		set_country_flag = kot_wants_to_dig
+        add_claim = 1956
+        ai_chance = {
+            factor = 5
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_kot_responce.1.option.c
+
+       country_event = { 
+			id = wwu_mission_a29_kot_responce.2 days = 500 
+		}
+		set_country_flag = kot_waiting_for_results
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#KoT wants to excavate
+country_event = {
+    id = wwu_mission_a29_kot_digs.1
+    title = wwu_mission_a29_kot_digs.1.title
+    desc = wwu_mission_a29_kot_digs.1.desc
+    picture = EXPLORERS_HAT_eventPicture
+
+    
+	trigger = {
+		owns = 1956
+		has_country_flag = kot_wants_to_dig
+		NOT = { 
+			has_country_flag = kot_digs_1_done 
+		}
+	}
+	
+	mean_time_to_happen = {
+        days = 1
+    }
+    option = {
+        name = wwu_mission_a29_kot_digs.1.option.a
+		set_country_flag = kot_digs_1_done
+		clr_country_flag = kot_wants_to_dig
+        add_manpower = -5000
+		country_event = { 	
+			id = wwu_mission_a29_kot_digs.2 days = 60 
+		}
+        ai_chance = {
+            factor = 5
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_kot_digs.1.b
+		set_country_flag = kot_digs_1_done
+		clr_country_flag = kot_wants_to_dig
+		country_event = { 
+			id = wwu_mission_a29_kot_digs.2 days = 210 
+		}
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+	
+#KoT excavation resutlts
+country_event = {
+    id = wwu_mission_a29_kot_digs.2
+    title = wwu_mission_a29_kot_digs.2.title
+    desc = wwu_mission_a29_kot_digs.2.desc
+    picture = EXPLORERS_HAT_eventPicture
+
+    is_triggered_only = yes
+	
+	option = {
+        name = wwu_mission_a29_kot_digs.2.option.a
+
+		set_country_flag = kot_access_codes
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
