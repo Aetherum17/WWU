@@ -29,7 +29,7 @@ country_event = {
     }
 
     option = {
-        name = wwu_mission_a29_uldaman.1.b
+        name = wwu_mission_a29_uldaman.1.option.b
 
         add_treasury = -100
 		country_event = { 
