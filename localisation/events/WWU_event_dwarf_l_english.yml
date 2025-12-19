@@ -56,6 +56,6 @@
  wwu_mission_a29_kot_digs.1.option.a: "Send everyone to start diggin!"
  wwu_mission_a29_kot_digs.1.option.b: "Nothing we can do... Just figure something on your own."
  
- wwu_mission_a29_kot_digs.1.title: "Excavation Reustls"
- wwu_mission_a29_kot_digs.1.desc: "My Emperor our lead archeologist says that he found some kind of a code and a crude map! It will take some time to follow the map."
- wwu_mission_a29_kot_digs.1.option.a: "Great! Let me know when we will know where the map leads to."
+ wwu_mission_a29_kot_digs.2.title: "Excavation Reustls"
+ wwu_mission_a29_kot_digs.2.desc: "My Emperor our lead archeologist says that he found some kind of a code and a crude map! It will take some time to follow the map."
+ wwu_mission_a29_kot_digs.2.option.a: "Great! Let me know when we will know where the map leads to."

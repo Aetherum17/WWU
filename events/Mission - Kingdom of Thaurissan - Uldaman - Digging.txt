@@ -1,0 +1,60 @@
+namespace = wwu_mission_a29_kot_digs
+
+#KoT wants to excavate
+country_event = {
+    id = wwu_mission_a29_kot_digs.1
+    title = wwu_mission_a29_kot_digs.1.title
+    desc = wwu_mission_a29_kot_digs.1.desc
+    picture = EXPLORERS_HAT_eventPicture
+
+    
+	trigger = {
+		owns = 1956
+		has_country_flag = kot_wants_to_dig
+		NOT = { 
+			has_country_flag = kot_digs_1_done 
+		}
+	}
+	immediate = { 
+		set_country_flag = kot_digs_1_done 
+		clr_country_flag = kot_wants_to_dig 
+	}
+	
+    option = {
+        name = wwu_mission_a29_kot_digs.1.option.a
+		
+            add_manpower = -5
+            country_event = { id = wwu_mission_a29_kot_digs.2 days = 60 }
+        ai_chance = {
+            factor = 5
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_kot_digs.1.option.b
+		
+            country_event = { id = wwu_mission_a29_kot_digs.2 days = 210 }
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+	
+#KoT excavation resutlts
+country_event = {
+    id = wwu_mission_a29_kot_digs.2
+    title = wwu_mission_a29_kot_digs.2.title
+    desc = wwu_mission_a29_kot_digs.2.desc
+    picture = EXPLORERS_HAT_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+        name = wwu_mission_a29_kot_digs.2.option.a
+
+		set_country_flag = kot_access_codes
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
