@@ -32,10 +32,210 @@ country_event = {
     option = {
         name = wwu_mission_a29_kot_responce.1.option.c
 
-       country_event = { 
-			id = wwu_mission_a29_kot_responce.2 days = 500 
-		}
 		set_country_flag = kot_waiting_for_results
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan codes confirmed
+country_event = {
+    id = wwu_mission_a29_kot_responce.2
+    title = wwu_mission_a29_kot_responce.2.title
+    desc = wwu_mission_a29_kot_responce.2.desc
+    picture = DARK_IRON_SKULKER_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = kot_waiting_for_results
+		A29 = { has_country_flag = km_access_codes }
+	}
+	mean_time_to_happen = { days = 300 }
+    option = {
+        name = wwu_mission_a29_kot_responce.2.option.a
+		add_mil_power = -700
+		add_dip_power = -700
+		add_manpower = -50
+		add_treasury = -600
+		
+        set_country_flag = kot_plan_steal_and_burn_codes
+		
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_kot_responce.2.option.b
+		add_mil_power = -100
+		add_dip_power = -100
+		set_country_flag = kot_plans_copy_codes
+        ai_chance = {
+            factor = 7
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_kot_responce.2.option.c
+		set_country_flag = kot_decides_to_wait
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan codes confirmed (guarded) KoT plans to steal and destroy
+country_event = {
+    id = wwu_mission_a29_kot_responce.3
+    title = wwu_mission_a29_kot_responce.3.title
+    desc = wwu_mission_a29_kot_responce.3.desc
+    picture = DARK_IRON_SKULKER_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = kot_plan_steal_and_burn_codes
+		A29 = { has_country_flag = km_codes_secured }
+	}
+	mean_time_to_happen = { days = 60 }
+    option = {
+        name = wwu_mission_a29_kot_responce.3.option.a
+        set_country_flag = kot_access_codes
+		A29 = { country_event = wwu_mission_a29_uldaman.4 }
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan codes confirmed (not guarded) KoT plans to steal and destroy
+country_event = {
+    id = wwu_mission_a29_kot_responce.4
+    title = wwu_mission_a29_kot_responce.4.title
+    desc = wwu_mission_a29_kot_responce.4.desc
+    picture = DARK_IRON_SKULKER_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = kot_plan_steal_and_burn_codes
+		A29 = { has_country_flag = km_codes_unguarded }
+	}
+	mean_time_to_happen = { days = 60 }
+	immediate = {
+		A29 = {
+			clr_country_flag = km_access_codes
+			clr_country_flag = km_codes_unguarded
+			set_country_flag = km_codes_destroyed
+		}
+	}
+    option = {
+        name = wwu_mission_a29_kot_responce.4.option.a
+        set_country_flag = kot_access_codes
+		A29 = { country_event = wwu_mission_a29_uldaman.5 }
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan codes (guarded) KoT plans to steal or copy
+country_event = {
+    id = wwu_mission_a29_kot_responce.5
+    title = wwu_mission_a29_kot_responce.5.title
+    desc = wwu_mission_a29_kot_responce.5.desc
+    picture = DARK_IRON_SKULKER_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = kot_plans_copy_codes
+		A29 = { has_country_flag = km_codes_secured }
+	}
+	mean_time_to_happen = { days = 60 }
+	
+	}
+    option = {
+        name = wwu_mission_a29_kot_responce.5.option.a
+		set_country_flag = kot_decides_to_wait
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan codes (not guarded) KoT plans to steal or copy
+country_event = {
+    id = wwu_mission_a29_kot_responce.6
+    title = wwu_mission_a29_kot_responce.6.title
+    desc = wwu_mission_a29_kot_responce.6.desc
+    picture = DARK_IRON_SKULKER_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = kot_plans_copy_codes
+		A29 = { has_country_flag = km_codes_unguarded }
+	}
+	mean_time_to_happen = { days = 60 }
+	
+	}
+    option = {
+        name = wwu_mission_a29_kot_responce.6.option.a
+		set_country_flag = kot_access_codes
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan sets up camp in Badlands
+country_event = {
+    id = wwu_mission_a29_kot_responce.7
+    title = wwu_mission_a29_kot_responce.7.title
+    desc = wwu_mission_a29_kot_responce.7.desc
+    picture = DESERT_CAMAL_eventPicture
+
+	is_triggered_only = yes
+	
+	}
+    option = {
+        name = wwu_mission_a29_kot_responce.7.option.a
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan sets up camp in Badlands fortified
+country_event = {
+    id = wwu_mission_a29_kot_responce.8
+    title = wwu_mission_a29_kot_responce.8.title
+    desc = wwu_mission_a29_kot_responce.8.desc
+    picture = SHIELD_BLOCK_eventPicture
+
+	is_triggered_only = yes
+	
+	}
+    option = {
+        name = wwu_mission_a29_kot_responce.8.option.a
+		add_claim = 1971
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Khazmodan prepares to enter Uldaman
+country_event = {
+    id = wwu_mission_a29_kot_responce.9
+    title = wwu_mission_a29_kot_responce.9.title
+    desc = wwu_mission_a29_kot_responce.9.desc
+    picture = ULDAMAN_eventPicture
+
+	is_triggered_only = yes
+	
+	}
+    option = {
+        name = wwu_mission_a29_kot_responce.9.option.a
+		set_country_flag = kot_access_uldaman
         ai_chance = {
             factor = 10
         }

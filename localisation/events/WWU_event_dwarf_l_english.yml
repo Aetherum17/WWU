@@ -42,8 +42,8 @@
  
  wwu_mission_a29_uldaman.2.title: "Ironband's Excavation Results"
  wwu_mission_a29_uldaman.2.desc: "Ironband claims he has some kind of access codes and a map that could lead to a temple. It will take some time to follow the map."
- wwu_mission_a29_uldaman.2.option.a: "Make sure to hide it from the spies!"
- wwu_mission_a29_uldaman.2.option.b: "Who cares what garbage they dug up?!"
+ wwu_mission_a29_uldaman.2.option.a: "Make sure to hide it from the spies, and make sure they are supervised!"
+ wwu_mission_a29_uldaman.2.option.b: "Who cares what garbage they dug up?! Let them do what ever they want."
  
  wwu_mission_a29_kot_responce.1.title: "Bronzbeard Excavation"
  wwu_mission_a29_kot_responce.1.desc: "My Emperor! Our spies in Loch Modan tell us that the Bronzbeards started to dig inside ruins. Does your highness wish to do anything?"
@@ -59,3 +59,59 @@
  wwu_mission_a29_kot_digs.2.title: "Excavation Reustls"
  wwu_mission_a29_kot_digs.2.desc: "My Emperor our lead archeologist says that he found some kind of a code and a crude map! It will take some time to follow the map."
  wwu_mission_a29_kot_digs.2.option.a: "Great! Let me know when we will know where the map leads to."
+ 
+ wwu_mission_a29_kot_responce.2.title: "Bronzbeard Excavation Finished"
+ wwu_mission_a29_kot_responce.2.desc: "My Emperor! Our spies in Loch Modan tell us that the Bronzbeards have finished digging and are bringing something to Ironforge! We believe it is important to try and steal it to hinder the Bronzbeards advances in whatever they have found!"
+ wwu_mission_a29_kot_responce.2.option.a: "Create a diversion to make it look like we set out to destroy it as our spies steal it!"
+ wwu_mission_a29_kot_responce.2.option.b: "Have our spies try to steal it or copy it!"
+ wwu_mission_a29_kot_responce.2.option.c: "Let our spies watch over what the Bronzebeards are going to do with their new find."
+ 
+ wwu_mission_a29_kot_responce.3.title: "We got the codes..."
+ wwu_mission_a29_kot_responce.3.desc: "My Emperor! The operation to steal and burn the Bronzbeards findings was half success. They had tight security and trough the sacrifice of our men we managed to get a coppy of some kind of code without arising suspicion, they think we failed. It also looks like the Bronzbeards are insulted by our actions."
+ wwu_mission_a29_kot_responce.3.option.a: "Bah! The Bronzbeard Clan is too soft to do anything about it. Lets see where they planned to use the codes."
+ 
+ wwu_mission_a29_uldaman.3.title: "Badlands Camp"
+ wwu_mission_a29_uldaman.3.desc: "Sir, Ironband expedition sends a word that they set up camp in Badlands.They claim they are on the brink of some large discovery. They also request aid to fortify their possitions as they are near to the fortress bellonging to Shadowforge. "
+ wwu_mission_a29_uldaman.3.option.a: "Great! Aid them with soldiers and build them a rampart to divert anyone with ill intentions!"
+ wwu_mission_a29_uldaman.3.option.b: "Tell him that we have no resources to spare!"
+ wwu_mission_a29_uldaman.3.option.c: "Fortify their possition, build a proper outpost and supply them with the might of Ironforge!
+ 
+ wwu_mission_a29_uldaman.4.title: "Disaster!"
+ wwu_mission_a29_uldaman.4.desc: "My King our capital was devastated in a planned attack led by the Shadowforge! We managed to deflect them but the damage was still inflicted to Ironforge. Commonfolk find their property and possesions looted or destroyed. Guards report that some spies of the Shadowforge tried to enter the vault unsuccessfuly. Other guards report that the vault guards took part in reflecting the attack on Ironforge. What shall we do?"
+ wwu_mission_a29_uldaman.4.option.a: "We must help our people first and then deal with the whelps of Shadowforge!"
+ wwu_mission_a29_uldaman.4.option.b: "How dare those banished whelps attack our city?! Send them a warning and plan for retaliation!"
+ wwu_mission_a29_uldaman.4.option.c: "This won't do! Send a warning to Shadowforge. In the meant time I assign our advisors to oversee aid to the people of Ironforge. As well as aid Ironband in his findings, looks like Thaurissan took interest in his work."
+ 
+ wwu_mission_a29_uldaman.5.title: "Disaster"
+ wwu_mission_a29_uldaman.5.desc: "My King our capital was devastated in a planned attack led by the Shadowforge! We managed to deflect them but the damage was still inflicted to Ironforge. Commonfolk find their property and possesions looted or destroyed. Ironband also reports that his office was set on fire. What shall we do?""
+ wwu_mission_a29_uldaman.5.option.a: "We must help our people first and then deal with the whelps of Shadowforge!"
+ wwu_mission_a29_uldaman.5.option.b: "How dare those banished whelps attack our city?! Send them a warning and plan for retaliation!"
+ wwu_mission_a29_uldaman.5.option.b: "This won't do! Send a warning to Shadowforge. In the meant time I assign our advisors to oversee aid to the people of Ironforge. As well as aid Ironband in his findings, looks like Thaurissan took interest in his work."
+ 
+ wwu_mission_a29_kot_responce.4.title: "Mission Success!"
+ wwu_mission_a29_kot_responce.4.desc: "My Emperor! The mission to destroy the findings of the Bronzbeards in Ironforge was a success.In Ironband's office in Ironforge we found codes of some sort. It looks like they did not care to secure the codes they have found. Our spies stole the codes during the diversion that we planned. Though the Bronzbeards are now warry of our actions."
+ wwu_mission_a29_kot_responce.4.option.a: "Great! Glory to the Shadow Forge. As for the Bronzbeards those drunkards can be warry of their own shadows for all I care!"
+ 
+ wwu_mission_a29_kot_responce.5.title: "Mission Failed!"
+ wwu_mission_a29_kot_responce.5.desc: "My Emperor! Our spies failed to get in the vaults of Ironforge.The good news is that our presence remained undetected. Yet the fact remains that it looks like what ever the Bronzbeards dug up in Loch Modan they intend to guard it."
+ wwu_mission_a29_kot_responce.5.option.a "Baaah! Hang the spies who failed and keep a close eye on what those wretches in Ironforge are planning to do!"
+ 
+ wwu_mission_a29_kot_responce.6.title: "Mission Success!"
+ wwu_mission_a29_kot_responce.6.desc: "My Emperor! Our spies managed to copy the codes Ironforge has unearthed in Loch Modan. To our surpise those fools did not think to guard their findings and kept them in the Ironband's office."
+ wwu_mission_a29_kot_responce.6.option.a: "Hahaha! Those fools! Great job, try to decode the codes and keep a look out on what they plan to use the codes for."
+ 
+ wwu_mission_a29_kot_responce.7.title: "Ironforge Camp"
+ wwu_mission_a29_kot_responce.7.desc: "My Emperor! Ironforge set up a capm in Badlands next to Angor! It seems to be a small expeditionary force."
+ wwu_mission_a29_kot_responce.7.option.a: "Let them settle for now, and continue to monitor their movements!"
+ 
+ wwu_mission_a29_kot_responce.8.title: "Ironforge Camp"
+ wwu_mission_a29_kot_responce.8.desc: "My Emperor! Ironforge set up a capm in Badlands next to Angor! They have brought an army with them and it looks like they are reinforcing it!"
+ wwu_mission_a29_kot_responce.8.option.a: "Those wretches! We must seeze a moment and destroy that camp!"
+ 
+ wwu_mission_a29_kot_responce.9.title: "Ironforge on the move!"
+ wwu_mission_a29_kot_responce.9.desc: "My Emperor! Ironforge expedition started to prepare to move into the caves where they were digging trough some sort of ruins. It looks like they are taking most of their supplies with them. Should we move in before them?"
+ wwu_mission_a29_kot_responce.9.option.a: "Let me think about it..."
+ 
+ wwu_mission_a29_uldaman.6.title: "Badlands Expedition"
+ wwu_mission_a29_uldaman.6.desc: "My King, Ironband report that they found entrance to the ruins they were excavating in Badlands. He is prepared to move in as soon as you give your blessing. It is crucial we have keep our camp in Badlands to move into the ruins."
+ wwu_mission_a29_uldaman.6.option.a: "Great news! I will announce the start of the expedition when I am ready!"

@@ -71,17 +71,249 @@ country_event = {
 
         add_dip_power = -100
         set_country_flag = km_access_codes
-		set_county_flag = codes_secured
+		set_county_flag = km_codes_secured
+		country_event = { id = wwu_mission_a29_uldaman.3 days = 1280 }
         ai_chance = {
-            factor = 3
+            factor = 5
         }
     }
 
     option = {
         name = wwu_mission_a29_uldaman.2.option.b
         set_country_flag = km_access_codes
+		set_country_flag = km_codes_unguarded
+		country_event = { id = wwu_mission_a29_uldaman.3 days = 920 }
         ai_chance = {
-            factor = 7
+            factor = 5
+        }
+    }
+}
+
+#Seting up camp in Badlands
+country_event = {
+    id = wwu_mission_a29_uldaman.3
+    title = wwu_mission_a29_uldaman.3.title
+    desc = wwu_mission_a29_uldaman.3.desc
+    picture = DESERT_CAMAL_eventPicture
+
+    is_triggered_only = yes
+	immediate = {
+		1971 = {
+			change_owner = A29
+		}
+	}
+    option = {
+        name = wwu_mission_a29_uldaman.3.option.a
+        add_mil_power = -50
+		add_treasury = -200
+		1956 = {
+			owner = {
+				add_building = wow_tower_1
+				add_base_manpower = 2
+			}
+			spawn_infantry = { AMOUNT = 2 TAG = A29 }
+		}
+		country_event = { id = wwu_mission_a29_uldaman.6 days = 180 }
+		A30 = { country_event = { wwu_mission_a29_kot_responce.7 days = 1 } }
+        ai_chance = {
+            factor = 2
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.3.option.b
+        country_event = { id = wwu_mission_a29_uldaman.6 days = 360 }
+		A30 = { country_event = { wwu_mission_a29_kot_responce.7 days = 1 } }
+        ai_chance = {
+            factor = 4
+        }
+    }
+	 
+	 option = {
+        name = wwu_mission_a29_uldaman.3.option.c
+        trigger = {
+			if = { has_country_flag = km_was_attacked}
+		}
+		add_mil_power = -500
+		add_treasury = -300
+		1956 = {
+			owner = {
+				add_building = wow_fort_1
+				add_base_manpower = 4
+				add_base_tax = 4
+				add_base_production = 4
+			}
+			spawn_infantry = { AMOUNT = 6 TAG = A29 }
+			spawn_cavalry = { AMOUNT = 2 TAG = A29 }
+			spawn_artillery = { AMOUNT = 2 TAG = A29 }
+		}
+		country_event = { id = wwu_mission_a29_uldaman.6 days = 180 }
+		A30 = { country_event = { wwu_mission_a29_kot_responce.8 days = 1 } }
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Copy of codes stolen in attack (codes guarded)
+country_event = {
+    id = wwu_mission_a29_uldaman.4
+    title = wwu_mission_a29_uldaman.4.title
+    desc = wwu_mission_a29_uldaman.4.desc
+    picture = BURROWING_MINE_eventPicture
+
+    is_triggered_only = yes
+	trigger = {
+		has_country_flag = km_codes_secured
+		A30 = { has_country_flag = kot_access_codes}
+	}
+	mean_time_to_happen = { days = 1 }
+	immediate = {
+		set_country_flag = km_was_attacked
+		capital_scope = {
+			every_state_province = {
+				add_devastation = 40
+			}
+		}
+	}
+    option = {
+        name = wwu_mission_a29_uldaman.4.option.a
+		add_adm_power = -200
+        capital_scope = {
+			every_state_province = {
+				add_devastation = -20
+			}
+		}
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.4.option.b
+        add_casus_belli = {
+			type = cb_insult
+			target = A30
+			days = 3650
+		}
+        ai_chance = {
+            factor = 3
+        }
+    }
+	
+	option = {
+		name = wwu_mission_a29_uldaman.4.option.c
+		trigger = {
+			adm = 4
+			dip = 4
+		}
+		add_casus_belli = {
+			type = cb_insult
+			target = A30
+			days = 3650
+		}
+		add_adm_power = -100
+		add_dip_power = -100
+		add_treasury = -100
+        capital_scope = {
+			every_state_province = {
+				add_devastation = -30
+			}
+		}
+		country_event = { id = wwu_mission_a29_uldaman.3 days = 760 }
+		ai_chance = {
+            factor = 10
+        }
+	}
+}
+
+#Copy of codes stolen in attack (codes not guarded).
+country_event = {
+    id = wwu_mission_a29_uldaman.5
+    title = wwu_mission_a29_uldaman.5.title
+    desc = wwu_mission_a29_uldaman.5.desc
+    picture = BURROWING_MINE_eventPicture
+
+    is_triggered_only = yes
+	trigger = {
+		has_country_flag = km_codes_secured
+		A30 = { has_country_flag = kot_access_codes}
+	}
+	mean_time_to_happen = { days = 1 }
+	immediate = {
+		set_country_flag = km_was_attacked
+		capital_scope = {
+			every_state_province = {
+				add_devastation = 40
+			}
+		}
+	}
+	option = {
+        name = wwu_mission_a29_uldaman.5.option.a
+		add_adm_power = -200
+        capital_scope = {
+			every_state_province = {
+				add_devastation = -20
+			}
+		}
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.5.option.b
+        add_casus_belli = {
+			type = cb_insult
+			target = A30
+			days = 3650
+		}
+        ai_chance = {
+            factor = 3
+        }
+    }
+	
+	option = {
+		name = wwu_mission_a29_uldaman.5.option.c
+		trigger = {
+			adm = 4
+			dip = 4
+		}
+		add_casus_belli = {
+			type = cb_insult
+			target = A30
+			days = 3650
+		}
+		add_adm_power = -100
+		add_dip_power = -100
+		add_treasury = -500
+        capital_scope = {
+			every_state_province = {
+				add_devastation = -30
+			}
+		}
+		country_event = { id = wwu_mission_a29_uldaman.3 days = 920 }
+		ai_chance = {
+            factor = 10
+        }
+	}
+}
+
+#Uldaman start
+country_event = {
+    id = wwu_mission_a29_uldaman.6
+    title = wwu_mission_a29_uldaman.6.title
+    desc = wwu_mission_a29_uldaman.6.desc
+    picture = ULDAMAN_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_a29_uldaman.6.option.a
+        set_country_flag = km_access_uldaman
+		A30 = {country_event = { id = wwu_mission_a29_kot_responce.9 days = 10 }
+        ai_chance = {
+            factor = 5
         }
     }
 }
