@@ -196,7 +196,7 @@ area_northpass_tower = {
     729 2976 6277 6278 6280
 }
 area_new_avalon = {
-    519 539 1028 6318 6319 6320
+    539 1028 6318 6319 6320
 }
 
 area_kings_harbor = {

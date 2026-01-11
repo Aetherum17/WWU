@@ -57,7 +57,6 @@ center_of_trade = 1
     owner = B87
     controller = B87
     add_core =  B87
-    remove_core = B87
     
 	culture = culture_blood_elf
     religion = chaos
@@ -68,7 +67,8 @@ center_of_trade = 1
     owner = A54
     controller = A54
     add_core =  A54
-    
+    remove_core = B87
+
     religion = light_of_the_naaru
     trade_goods = resource_arcane
 }
