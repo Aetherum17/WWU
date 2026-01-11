@@ -1928,8 +1928,6 @@
  WRC_ADJ: "Watcher"
  WSD: "The Shadow Wardens"
  WSD_ADJ: "Warden"
- AST: "Astranaar"
- AST_ADJ: "Astranaar"
  HRC: "Hellscream's Reach"
  HRC_ADJ: "Hellscream's"
  
@@ -1949,8 +1947,6 @@
 
  FN1: "Fungarian Warriors"
  FN1_ADJ: "Warriors of"
- FN1: "Fungarian Fighters"
- FN1_ADJ: "Fighters of Fungarians"
  FN3: "Deadrot"
  FN3_ADJ: "Deadrot"
 
