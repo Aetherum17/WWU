@@ -8,5 +8,5 @@ technology_group 	    = tech_algari_earthen
 religion			    = void
 primary_culture 	    = culture_algari_earthen
 
-# capital 			    = 1
+capital 			    = 6043
 

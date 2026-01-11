@@ -9,4 +9,4 @@ religion = void
 
 primary_culture = culture_kaheti
 
-# capital = 1
+capital = 6137

@@ -8,5 +8,5 @@ technology_group 	    = tech_human
 religion			    = void
 primary_culture 	    = culture_arathi
 
-# capital 			    = 6110
+capital 			    = 6112
 
