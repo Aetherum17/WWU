@@ -3269,8 +3269,8 @@ area_hallvalor = {
 }
 
 area_grommashar = {
-    3952 5392 3754 398 5397 5396
-}   
+    3952 5392 3754 5397 5396
+}
 
 area_bloodwood = {
     3758 5413 5412 5410 3759
@@ -3372,7 +3372,7 @@ area_bloodmane_valley = {
 
 area_howling_crag = {
     3820 5486 3794 3814
-} 
+}
 
 area_lost_veil = {
     5470 5471 5485
