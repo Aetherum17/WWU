@@ -42,12 +42,13 @@ trade_goods = resource_common_ores
 }
 
 # Rise of the Qiraji
-623.1.1 = { 
-	add_core = SCE
-	add_core = A22
-	remove_core = SCE
+623.1.1 = { 	
 	owner = SCE
 	controller = SCE
+	add_core = SCE
+	add_core = A22
+	remove_core = P62
+	
 	religion = scarlet_light 
 }
 
@@ -56,9 +57,8 @@ trade_goods = resource_common_ores
 	owner = P13
 	controller = P13
 	add_core = P13
-	remove_core = A08
-	remove_core = P62
-	remove_core = LDH
+	remove_core = SCE
+    remove_core = LDH
 	
 	culture = culture_death_knight
 	religion = cult_of_the_damned
