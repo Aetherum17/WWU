@@ -28,7 +28,7 @@ trade_goods = resource_apexis
     owner = B05
     controller = B05
     add_core = B05
-    remove_core = B05
+    remove_core = A41
     
     religion = arcane
     culture = culture_netherwing_dragonflight

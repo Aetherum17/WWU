@@ -13,6 +13,8 @@ base_manpower = 2
 culture = culture_high_elf
 religion = holy_light
 
+hre = no
+trade_goods = unknown
 
 618.1.1 = {
     owner = F21
