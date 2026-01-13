@@ -368,7 +368,7 @@ order_group = {
 	}
     
 	mystery_of_the_makers = {
-		color = { 0.33 0.33 0.33 }
+		color = { 84 84 84 }
 		icon = 36
 		allow_female_defenders_of_the_faith = yes
 		

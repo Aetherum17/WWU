@@ -47,7 +47,7 @@ life_group = {
     }
     
 	druidism = {
-		color = { 0.1 0.4 0.1 }
+		color = { 25 102 25 }
 		icon = 11
 		allow_female_defenders_of_the_faith = yes
 		
@@ -163,7 +163,7 @@ life_group = {
 	}
     
     cult_of_the_sun = {
-		color = { 0.6 0.5 0.1 }
+		color = { 153 127 25 }
 		icon = 74
 		allow_female_defenders_of_the_faith = yes
 		
