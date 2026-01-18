@@ -46,10 +46,17 @@ country_decisions = {
             owns_core_province = 2268			
 			owns_core_province = 1297
 			owns_core_province = 2226
-			owns_core_province = 3178
-			owns_core_province = 3282
 			owns_core_province = 1431
-			owns_core_province = 3182
+
+			3282 = {
+				country_or_subject_holds = ROOT
+			}
+			3182 ={
+				country_or_subject_holds = ROOT
+			}
+			3178 = {
+				country_or_subject_holds = ROOT
+			}
             
             # General
 			adm_tech = 18
