@@ -14,6 +14,7 @@
 -Lost Core prestige penalty altered. New values: -1. Abandon Core: -5 prestige
 -Spawned nation boost will now grant nations idea cost reduction to catch up with the world
 -Deck of Wonders "Bypass Forts" card has been disabled
+-Adjusted various privileges for noblility, clergy and traders
 
 # Monument:
 -Altar of Rot global modifier changed
@@ -33,20 +34,24 @@
 
 # Map:
 -Changed location of centers of trade and some cores in Isle of Quel'danas
+-Changed history of various provinces in Arathi Highlands and Hinterlands
 
 # Mission Trees
-# Ahn'Qiraj:
+* Ahn'Qiraj:
 -Changed MT to allow for less linear progression
 -Changed many missions to have more conditions or have alternative conditions, changed rewards
 -Added 2 new missions
 -Removed 2 old missions
 
-# Evergrowth
+* Evergrowth
 -Replaced triggers of required mission with actual ones
 -Small balance tweaks and fixes
 
-# Firelands
+* Firelands
 -Adjusted reward based on community feedback
+
+* Stromgarde
+-Mission Tree Overhaul
 
 # Religion
 -Submission to Arcane decision will be avalable to AI based on certain personality traits

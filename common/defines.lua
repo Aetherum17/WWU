@@ -831,9 +831,9 @@ NCountry = {
 	PS_BUY_EXPLORER = 100,
     --- WWU: increased.
 	PS_ASSAULT = 5,
-	PS_ARTILLERY_BARRAGE = 100,
+	PS_ARTILLERY_BARRAGE = 75,
     --- WWU: increased.
-	PS_NAVAL_BARRAGE = 100,
+	PS_NAVAL_BARRAGE = 50,
     --- WWU: increased.
 	PS_ADD_TRIBAL_LAND = 100,
 	PS_ADD_TRIBAL_LAND_EXTRA_COST_PER_PROVINCE = 10,
@@ -880,9 +880,9 @@ NCountry = {
 	PS_IMPROVE_PROVINCE_MUL = 0,
 	PS_IMPROVE_PROVINCE_CAPITAL_DISCOUNT = 0.0,
 	--- WWU: removed dev cost reduction in capital
-	PS_SET_PRIMARY_CULTURE = 250,
+	PS_SET_PRIMARY_CULTURE = 200,
     --- WWU: increased.
-	PS_ADD_ACCEPTED_CULTURE = 200,
+	PS_ADD_ACCEPTED_CULTURE = 150,
     --- WWU: increased.
 	PS_REMOVE_ACCEPTED_CULTURE = 10,
 	PS_REMOVE_ACCEPTED_CULTURE_UNREST_DURATION = 5,
@@ -937,12 +937,13 @@ NCountry = {
 	START_YEARLY_INFLATION = 0.0, 					-- _CDEF_START_YEARLY_INFLATION_
 	CLAIM_LOSE = 25,								-- how many years until a claim is lost.
 	CORE_LOSE = 200, 								-- how many years until a core is lost.
-	--- WWU: cores will never be lost
 	CORE_LOSE_CULTURE_GROUP = -1,					-- how many years until a core in a country's culture group is lost.
 	--- WWU: cores will never be lost
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 	CORE_LOSE_PRESTIGE = -1.0,						-- Prestige change when lost core
+	--- WWU: cost reduced due to existing of different prestige penalities
 	ABANDON_CORE_PRESTIGE = -5.0,					-- The cost of abandoning a core that some other country owns.
+	--- WWU: cost reduced
 	ABANDON_IDEAGROUP_REFUND = 0.35,				-- The part of the idea group spent that will be refunded upon abandonment.
 	--- WWU: make abandoning ideagroups slightly less costly
 	NEIGHBOURBONUS = -0.05, 						-- _CDEF_NEIGHBOURBONUS_
@@ -1378,7 +1379,7 @@ NMilitary = {
 	ARMY_DRILL_SKILL_MONTHS = 120,					-- The average number of months until you get a skill increase if drilling 100% of forcelimit. Set to 0 to disable.
 
 	MAX_SAILOR_LACK_ATTRITION = 1,
-	SAILOR_MAINTAINANCE = 0.02,		-- of build cost.
+	SAILOR_MAINTAINANCE = 0.02,						-- of build cost.
 	BANNER_AGE_MULTIPLIER = 0.50,
 	BANNER_STARTING_STRENGTH = 0.1,					-- Starting strength of a banner regiment, 1.0 being full strength
 	CAWA_STARTING_STRENGTH = 0.1,					-- Starting strength of a cawa regiment, 1.0 being full strength
@@ -1411,7 +1412,7 @@ NMilitary = {
 	BASE_MP_TO_MANPOWER = 0.1,		                -- 250 men per manpower
 	--- WWU: reduce baseline manpower amounts
 	SIEGE_ATTRITION = 1,
-	SIEGE_DISEASE_IMPACT = 0.05,						-- Fraction of besieging soldiers lost in a disease outbraek
+	SIEGE_DISEASE_IMPACT = 0.05,					-- Fraction of besieging soldiers lost in a disease outbraek
 	ARMY_ATTRITION_AT_COAST = 1,					-- How many percent attrition units take while loaded onto ships along the coast
 	ARMY_ATTRITION_AT_SEA = 1,						-- How many percent attrition units take while loaded onto ships traveling open sea
 	--- WWU: set passive army attrition whilst at sea to a more reasonable level

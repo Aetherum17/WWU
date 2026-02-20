@@ -41,9 +41,9 @@ war_footing = {
         is_at_war = yes
 	}
     
-    max_absolutism = 20
-    yearly_absolutism = 2.0
-    core_creation = -0.05
+    reinforce_cost_modifier = -0.1
+    recover_army_morale_speed = 0.1
+    reinforce_speed = 0.05
 }
 
 

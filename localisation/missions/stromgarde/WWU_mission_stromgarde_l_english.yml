@@ -5,54 +5,64 @@
  A16_stromgarde_column_3: ""
  A16_stromgarde_column_4: ""
  A16_stromgarde_column_5: ""
- 
+
+ # Column 1
  A16_establish_lordaeron_connections_title: "Establish Lordaeron Connections"
  A16_establish_lordaeron_connections_desc: ""
- 
- A16_proclaim_the_might_of_stromgarde_title: "Proclaim the Might of Stromgarde"
- A16_proclaim_the_might_of_stromgarde_desc: ""
- 
- A16_restore_the_empire_of_arathor_title: "Restore the Empire of Arathor"
- A16_restore_the_empire_of_arathor_desc: ""
- 
+
+ # Column 2
  A16_insult_the_alteraci_title: "Insult the Alteraci"
- A16_insult_the_alteraci_desc: ""
+ A16_insult_the_alteraci_desc: "With history between Stormic and Alteraci kingdom is not particuralty long, its is tale of continous conflict of noble titles, trade disagreements and spheres of influence. While we went back and forward on many occasions, the times call for us to let the embers rise once, so that we may put down the fire once and for all."
  
- A16_punish_the_alteraci_title: "Punish the Alteraci"
- A16_punish_the_alteraci_desc: ""
- 
- A16_mete_out_stromic_justice_title: "Mete out Stromic Justice"
- A16_mete_out_stromic_justice_desc: ""
+ A16_punish_the_alteraci_title: "Humiliate Alterac"
+ A16_punish_the_alteraci_desc: "With our show of force over Kingdom of Alterac and their presumptuous noble elites, we have proven our superiority. With the Altarac humiliated, it is time we break their fragile crown and become the rulers of Altarac."
+
+ # Column 3
+ A16_claim_the_mantle_of_humanity_title: "Claim the Mantle of Humanity"
+ A16_claim_the_mantle_of_humanity_desc: ""
  
  A16_protect_the_western_flank_title: "Protect the Western Flank"
  A16_protect_the_western_flank_desc: ""
- 
- A16_restore_stromic_hearthland_title: "Restore the Stromic Hearthland"
- A16_restore_stromic_hearthland_desc: ""
- 
- A16_secure_the_stromic_coast_title: "Secure the Stromic Coast"
- A16_secure_the_stromic_coast_desc: ""
- 
- A16_establish_hinterland_outpost_title: "Establish Hinterlands Outpost"
- A16_establish_hinterland_outpost_desc: ""
- 
- A16_oust_the_trolls_title: "Oust the Trolls"
- A16_oust_the_trolls_desc: ""
- 
- A16_protect_the_eastern_flank_title: "Protect the Eastern Flank"
- A16_protect_the_eastern_flank_desc: ""
- 
- A16_establish_wetland_outpost_title: "Establish Wetlands Outpost"
- A16_establish_wetland_outpost_desc: ""
- 
- A16_claim_grim_batol_title: "Plunder Grim Batol"
- A16_claim_grim_batol_desc: ""
- 
+
+ A16_southshore_control_title: "Southshore Control"
+ A16_southshore_control_desc: ""
+
+ A16_baradin_isles_title: "Baradin Isles Lordship"
+ A16_baradin_isles_desc: ""
+
  A16_dominate_baradin_bay_title: "Dominate Baradin Bay"
  A16_dominate_baradin_bay_desc: ""
+
+ # Column 4
+ A16_restore_stromic_hearthland_title: "Restore the Stromic Hearthland"
+ A16_restore_stromic_hearthland_desc: "With the current times whispering about great shift in power, we, the stormic people must act once more. While our current situation is but a shadow of the once proud Empire of Arathor, we must not forget that we are still their rightful heirs. Stromgarde sits upon Strom, the first of humanity great cities. But we are surrounded at all sides by those who want to see our precious kingdom burn. We will never all this! Glory to Stromgarde, may our enemies fear our might!"
  
- A16_claim_the_mantle_of_humanity_title: "Claim the Mantle of Humanity"
- A16_claim_the_mantle_of_humanity_desc: ""
+ A16_secure_the_stromic_coast_title: "Secure the Stromic Coast"
+ A16_secure_the_stromic_coast_desc: "Our efforts in fighting off the enemy forces and the inhuman creatures we tolerated far too long finally showed up efforts. Arathi Highlands are secured, at least for now. To our west, there are human kingdoms who can be both allies and enemies, so we must approach carefully. To the East, the enemy of our kind, Trolls call the lands their homes. Both have to be evaluated and reinforced. We must grow in strenght when enemies are so close."
+
+ A16_country_militarization_title: "Countryside Militarization"
+ A16_country_militarization_desc: "Stormic people have a long history of war. We were the first to unite humanity in the past, due to both our wisdom and strenght. Now, the time has come for us to do so again. Every man and woman, every elder and child, all must understand value of our might!"
+
+ A16_proclaim_the_might_of_stromgarde_title: "Proclaim the Might of Stromgarde"
+ A16_proclaim_the_might_of_stromgarde_desc: "Once more, we are on top. The long path from the Stromgarde Keep continues far and wide. We were not broken, instread breaking them. The power, the might, the glory is the tale that has once name. Stromgarde, the heir of Arathor!"
+
+ # Column 5
+ A16_restore_the_empire_of_arathor_title: "Restore the Empire of Arathor"
+ A16_restore_the_empire_of_arathor_desc: "At long last, the unity is once more. The Seven Kingdoms of Men stand united under one banner. One people. One mission. No longer we just claim. Now, we are one! We are the Arathor reborn!"
+
+ A16_protect_the_eastern_flank_title: "Protect the Eastern Flank"
+ A16_protect_the_eastern_flank_desc: "While we have reclaimed our home territories, the menace of the forest trolls is right at our borders, mocking us from their temple-cities. Before we enter the enemy lands, we must prepare our defences, so that our people will not suffer the raids and pillages."
+
+ A16_establish_hinterland_outpost_title: "Establish Hinterlands Outpost"
+ A16_establish_hinterland_outpost_desc: "With the sword and shield in hand, hundreds of our brave warriors crossed the borders and conquered the first of many places that those primitives call civilization. The first spearhead is done, now we must prepare to destroy their resistance."
+
+ A16_defeat_hinterlands_trolls_title: "Defeat of Hinterlands Trolls"
+ A16_defeat_hinterlands_trolls_desc: "One by one they failed. Witherbark, Revantusk, Vilebranch. Names that only achivisits and bards will remember as reminders of the threat that once was. No more do they post any. The wooden palisades crumbled, the temples collapsed and their people surrendered or died. Jintha'alor, the holy temple-city now burns in blaze in glory. Stormic Glory."
+
+ A16_trollbane_legacy_title: "Trollbane Legacy" 
+ A16_trollbane_legacy_desc: "One does not simply abandon their legacy. Even with the forest beast put down all around Hinterlands, the trolls are not yet defeated. They could rise and become the issue once more. But Trollbanes do not give up easily. We will continue our mission to eradicate them, now not only near our border, but all acorss Lordaeron and Quel'thalas!"
+
+ #other
  
  # --- Modifiers ---
  insulted_alterac: "Insulted Alterac"
@@ -84,4 +94,23 @@
  desc_mission_mantle_of_humanity: ""
  
  # --- Events ---
+
+ # --- Tooltips ---
+
+ stromgarde_countryside_militarization_trigger_tt: "Every province in §YArathi Highlands§! is owned by Stromgarde and has:\n- Barracks\n- Arsenal\n- Training Grounds"
+
+ stromgarde_no_trolls_tt: "All provinces in §YThe Hinterlands§! are liberated from the §YTroll§! primitive rule."
+
+ stromgarde_troll_defeat_mission_tt: "§GRewards:§!\nUnlock the Nobility Privilege §YTrollbane Duty§! which can be activated if we have any troll presence within our lands.\nGain §Y25§! Prestige or Monarch Power.\nGain §Y10§! Power Projection."
+
+ trollbane_legacy_mission_tt: "All trolls within §YLordaeron§! and §YQuel'thalas§! are eradicated. The era of trolls shall be over."
+
+ STROMKAR_RECOVERY_TT: "If  §RStrom'kar the Warbreaker§! was not recovered by anyone, we will discovery its location immidietly."
+
+ arathi_basin_fortification_tt: "§YFortify the Arathi Basin§!\n\n• §YArathi Basin§! has a Fort and §Y3 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of these provinces has a Fort."
+
+
+ # === Modifiers ---
+ trollbane_conversion_drive: "Trollbane Conversion Drive"
+ trollbane_conversion_drive_desc: "The Nobility is actively working to eradicate Troll cultural influence from our territories."
  

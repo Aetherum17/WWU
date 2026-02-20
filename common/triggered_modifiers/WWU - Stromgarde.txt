@@ -1,0 +1,17 @@
+
+# Trollbane Duty Privilege
+trollbane_conversion_drive = {
+    potential = {
+        has_estate_privilege = estate_nobility_trollbane_duty
+    }
+
+    trigger = {
+        any_owned_province = {
+            culture_group = culture_group_troll
+        }
+    }
+
+    culture_conversion_cost = -0.25
+    local_culture_conversion_time = -0.25
+    local_missionary_strength = 0.02 
+}

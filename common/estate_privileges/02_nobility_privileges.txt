@@ -85,7 +85,7 @@ estate_nobility_military_primacy = {
 	penalties = {
 	}
 	benefits = {
-		mil_tech_cost_modifier = -0.05
+		mil_tech_cost_modifier = -0.1
 	}
 	ai_will_do = {
 		factor = 25
@@ -259,7 +259,7 @@ estate_nobility_advisors = {
 		
 	}
 	benefits = {
-		mil_advisor_cost = -0.075
+		mil_advisor_cost = -0.15
 	}
 	ai_will_do = {
 		factor = 10
@@ -843,3 +843,62 @@ estate_nobility_dark_ranger_elitism = {
 		}
 	}
 }
+
+estate_nobility_trollbane_duty = {
+	icon = privilege_crown
+
+	# Cost
+    max_absolutism = -5
+    land_share = 0
+    loyalty = 0.05
+    influence = 0.1
+
+    is_valid = {
+        OR = {
+            tag = A16
+            tag = FNA
+        }
+        has_country_flag = estate_nobility_trollbane_duty_unlock
+		any_owned_province = {
+            culture_group = culture_group_troll
+        }
+    }
+
+    can_select = {
+		AND = {
+			OR = {
+				tag = A16
+				tag = FNA
+			}
+			has_country_flag = estate_nobility_trollbane_duty_unlock
+		}
+        any_owned_province = {
+            culture_group = culture_group_troll
+        }
+    }
+
+    on_granted = {
+        random_owned_province = {
+            limit = {
+                culture_group = culture_group_troll
+            }
+            change_culture = ROOT
+			change_religion = ROOT
+        }
+    }
+
+	penalties = {
+		diplomatic_reputation = -1
+	}
+	cooldown_years = 5
+	ai_will_do = {
+		factor = 0
+		modifier = {
+			factor = 3
+			any_owned_province = {
+				culture_group = culture_group_troll
+			}
+		}
+	}
+}
+

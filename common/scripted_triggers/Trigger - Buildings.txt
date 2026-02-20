@@ -89,6 +89,22 @@ has_temple_building_trigger = {
 	}
 }
 
+has_tower_building_trigger = {
+	OR = {
+		has_building = wow_tower_1
+		has_building = wow_tower_2
+		has_building = wow_tower_3
+	}
+}
+
+has_recruitment_building_trigger = {
+	OR = {
+		has_building = wow_training_ground_1
+		has_building = wow_training_ground_2
+		has_building = wow_training_ground_3
+	}
+}
+
 gained_development_from_building = {
 	has_province_flag = built_dev_$building$
 }

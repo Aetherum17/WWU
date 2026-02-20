@@ -186,6 +186,8 @@ estate_nobility = {
 		estate_nobility_guild_of_heroes
 		estate_nobility_dark_ranger_elitism
 		estate_nobility_greymane_greyguard
+		estate_nobility_trollbane_duty
+		estate_nobility_stormic_power
         
         # Monopolies
         estate_monopoly_of_resource_common_ores

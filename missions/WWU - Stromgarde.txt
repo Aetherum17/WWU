@@ -27,9 +27,15 @@ A16_stromgarde_column_1 = {
                 }
                 # Lordaeron
                 A08 = {
-                    has_opinion = {
-                        who = ROOT
-                        value = 120
+                    AND = {
+                        has_opinion = {
+                            who = ROOT
+                            value = 125
+                        }
+                        has_opinion_modifier = {
+                            modifier = diplomatic_links
+                            who = ROOT
+                        }
                     }
                 }
             }
@@ -51,163 +57,6 @@ A16_stromgarde_column_1 = {
             }
 		}
 	}
-    
-    # 2. Proclaim the Might of Stromgarde
-    A16_proclaim_the_might_of_stromgarde = {
-		icon = mission_paladin_empowered_seals_justice
-        position = 2
-        
-		required_missions = { }
-        
-		trigger = {
-            # Stormwind
-            if = {
-                limit = {
-                    exists = STW
-                }
-                military_strength = {
-                    who = STW
-                    value = 2.0
-                }
-            }
-            # Lordaeron
-            if = {
-                limit = {
-                    exists = A08
-                }
-                military_strength = {
-                    who = A08
-                    value = 2.0
-                }
-            }
-            # Gilneas
-            if = {
-                limit = {
-                    exists = A12
-                }
-                military_strength = {
-                    who = A12
-                    value = 2.0
-                }
-            }
-            # Kul Tiras
-            if = {
-                limit = {
-                    exists = A14
-                }
-                military_strength = {
-                    who = A14
-                    value = 2.0
-                }
-            }
-            # Alterac
-            if = {
-                limit = {
-                    exists = A17
-                }
-                military_strength = {
-                    who = A17
-                    value = 2.0
-                }
-            }
-            # Dalaran
-            if = {
-                limit = {
-                    exists = A18
-                }
-                military_strength = {
-                    who = A18
-                    value = 2.0
-                }
-            }
-		}
-        provinces_to_highlight = {
-            OR = {
-                is_capital_of = STW
-                is_capital_of = A08
-                is_capital_of = A12
-                is_capital_of = A14
-                is_capital_of = A17
-                is_capital_of = A18
-            }
-        }
-        
-		effect = {
-            add_prestige_or_monarch_power = {
-                amount = 100
-            }
-        
-			add_country_modifier = {
-                name = mission_might_of_stromgarde
-                duration = -1
-            }
-		}
-	}
-    
-    # 3. Restore the Empire of Arathor
-    A16_restore_the_empire_of_arathor = {
-		icon = mission_paladin_empowered_seals_righteous
-        position = 3
-        
-		required_missions = { }
-        
-		trigger = {
-            tag = FNA
-		}
-        
-		effect = {
-            add_prestige_or_monarch_power = {
-                amount = 100
-            }
-        
-			add_country_modifier = {
-                name = mission_legacy_of_arathor
-                duration = -1
-            }
-		}
-	}
-    
-    # 4. Claim the Mantle of Humanity
-    A16_claim_the_mantle_of_humanity = {
-		icon = mission_crown_of_heavens
-        position = 4
-        
-		required_missions = { }
-        
-		trigger = {
-            total_development = 1000
-            
-            calc_true_if = {
-                amount = 250
-                
-                all_owned_province = {
-                    OR = {
-                        superregion = ek_lordaeron_superregion
-                        superregion = ek_khaz_modan_superregion
-                        superregion = ek_azeroth_superregion
-                    }
-                }
-            }
-		}
-        provinces_to_highlight = {
-            OR = {
-                superregion = ek_lordaeron_superregion
-                superregion = ek_khaz_modan_superregion
-                superregion = ek_azeroth_superregion
-            }
-            NOT = { owned_by = ROOT }
-		}
-        
-		effect = {
-            add_splendor = 1000
-            reset_golden_age = yes
-            
-            add_country_modifier = {
-                name = mission_mantle_of_humanity
-                duration = -1
-            }
-		}
-	}
 }
 
 A16_stromgarde_column_2 = {
@@ -225,7 +74,7 @@ A16_stromgarde_column_2 = {
     # 1. Insult the Alteraci
 	A16_insult_the_alteraci = {
 		icon = mission_garrosh_corruption
-        position = 1
+        position = 3
         
 		required_missions = { }
         
@@ -235,9 +84,16 @@ A16_stromgarde_column_2 = {
                     exists = A17 # Alterac
                 }
                 A17 = {
-                    has_opinion_modifier = {
-                        modifier = insulted
-                        who = ROOT
+                    is_rival = ROOT
+                    OR = {
+                        has_opinion_modifier = {
+                            modifier = insulted
+                            who = ROOT
+                        }
+                        has_opinion_modifier = {
+                            modifier = scornfully_insulted
+                            who = ROOT
+                        }
                     }
                 }
             }
@@ -248,7 +104,7 @@ A16_stromgarde_column_2 = {
 		effect = {
 			add_power_projection = {
                 type = mission_rewards_power_projection
-                amount = 10
+                amount = 15
             }
 		}
 	}
@@ -256,9 +112,9 @@ A16_stromgarde_column_2 = {
     # 2. Punish the Alteraci
     A16_punish_the_alteraci = {
 		icon = mission_haymaker
-        position = 2
+        position = 4
         
-		required_missions = { A16_insult_the_alteraci }
+		required_missions = { A16_insult_the_alteraci A16_protect_the_western_flank }
         
 		trigger = {
             if = {
@@ -298,55 +154,203 @@ A16_stromgarde_column_2 = {
             }
 		}
 	}
+}
+
+A16_stromgarde_column_3 = {
+	slot = 3
+	generic = no
+	ai = yes
     
-    # 3. Mete out Stromic Justice
-    A16_mete_out_stromic_justice = {
-		icon = mission_pvp_3
-        position = 3
+	potential = {
+		tag = A16
+        has_personal_tab_active = yes
+	}
+    
+	has_country_shield = yes
+
+    # 1. Claim the Mantle of Humanity
+    A16_claim_the_mantle_of_humanity = {
+		icon = mission_crown_of_heavens
+        position = 1
         
-		required_missions = { A16_punish_the_alteraci }
+		required_missions = { }
         
 		trigger = {
-            NOT = { exists = A17 } # Alterac
-            area_alterac_headlands = {
+            total_development = 1000
+            
+            calc_true_if = {
+                amount = 250
+                
+                all_owned_province = {
+                    OR = {
+                        superregion = ek_lordaeron_superregion
+                        superregion = ek_khaz_modan_superregion
+                        superregion = ek_azeroth_superregion
+                    }
+                }
+            }
+		}
+        provinces_to_highlight = {
+            OR = {
+                superregion = ek_lordaeron_superregion
+                superregion = ek_khaz_modan_superregion
+                superregion = ek_azeroth_superregion
+            }
+            NOT = { owned_by = ROOT }
+		}
+        
+		effect = {
+            add_splendor = 1000
+            reset_golden_age = yes
+            
+            add_country_modifier = {
+                name = mission_mantle_of_humanity
+                duration = -1
+            }
+		}
+	}
+	
+    # 3. Protect the Western Flank
+	A16_protect_the_western_flank = {
+		icon = mission_warrior_skirmisher
+        position = 3
+        
+		required_missions = { A16_secure_the_stromic_coast }
+        
+		trigger = {
+            area_durnholde_keep = {
                 type = all
                 country_or_non_sovereign_subject_holds = ROOT
             }
-            area_alterac_heartland = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
+            3007 = {
+                owned_by = ROOT
+            }
+            any_owned_province = {
+                area = area_eastpoint
+                has_fort_building_trigger = yes
+            }
+            any_owned_province = {
+                area = area_durnholde_keep
+                has_fort_building_trigger = yes
             }
 		}
 		provinces_to_highlight = {
             OR = {
-                area = area_alterac_headlands
-                area = area_alterac_heartland
-                owned_by = A17 # Alterac
+                area = area_durnholde_keep
+                area = area_eastpoint
+                province_id = 3007
             }
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
         
 		effect = {
-            add_country_modifier = {
-                name = mission_stromic_justice
-                duration = -1
+			add_mil_power = 200
+            
+			area_tarren_mill = {
+                add_permanent_claim = ROOT
             }
-        
-            add_power_projection = {
-                type = mission_rewards_power_projection
-                amount = 50
+            area_southshore = {
+                add_permanent_claim = ROOT
             }
 		}
 	}
-    
-    # 4. Dominate Baradin Bay
+
+    # 4. Southshore Control
+    A16_southshore_control = {
+        icon = mission_paperbundle_02
+        position = 4
+
+        required_missions = { A16_protect_the_western_flank }
+
+        trigger = {
+            area_southshore = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+
+        provinces_to_highlight = {
+            area = area_southshore
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
+
+        effect = {
+            add_mercantilism = 5
+            add_mil_power = 50
+            add_dip_power = 50
+            962 = {
+                add_permanent_claim = ROOT
+            }
+            858 = {
+                add_permanent_claim = ROOT
+            }
+            4107 = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
+
+    # 5. Baradin Bay Isles
+    A16_baradin_isles = {
+        icon = mission_defend_towers
+        position = 5
+
+        required_missions = { A16_southshore_control }
+
+        trigger = {
+            962 = {
+                owned_by = ROOT
+            }
+            858 = {
+                owned_by = ROOT
+            }
+            4107 = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 962
+                province_id = 858
+                province_id = 4107
+            }
+        }
+
+        effect = {
+            add_dip_power = 100
+            random_owned_province = {
+                limit = {
+                    area = area_arathi_strand
+                }
+                
+                heavy_ship = ROOT
+                heavy_ship = ROOT
+                heavy_ship = ROOT
+            }
+
+            962 = {
+                add_base_production = 2
+                add_building = wow_shipyard_3
+            }
+            858 = {
+                add_base_production = 2
+                add_building = wow_shipyard_3
+            }
+            4107 = {
+                add_base_tax = 1
+                add_base_production = 1
+                add_base_manpower = 1
+                add_building = wow_shipyard_3
+            }
+        }
+    }
+
+    # 6. Dominate Baradin Bay
     A16_dominate_baradin_bay = {
 		icon = mission_ship_1
-        position = 4
+        position = 6
         
-		required_missions = { 
-            A16_protect_the_eastern_flank 
-        }
+		required_missions = { A16_baradin_isles }
         
 		trigger = {
             calc_true_if = {
@@ -390,141 +394,6 @@ A16_stromgarde_column_2 = {
 	}
 }
 
-A16_stromgarde_column_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-    
-	potential = {
-		tag = A16
-        has_personal_tab_active = yes
-	}
-    
-	has_country_shield = yes
-	
-    # 3. Protect the Eastern Flank
-	A16_protect_the_eastern_flank = {
-		icon = mission_sparring_equipment
-        position = 3
-        
-		required_missions = { 
-            A16_secure_the_stromic_coast
-        }
-        
-		trigger = {
-            # Revantusk Outpost
-            1772 = { country_or_non_sovereign_subject_holds = ROOT }
-            # Trollden
-            1771 = { country_or_non_sovereign_subject_holds = ROOT }
-            # Arathi Strand
-            3005 = { country_or_non_sovereign_subject_holds = ROOT }
-            # Thickets of Askar
-            1770 = { country_or_non_sovereign_subject_holds = ROOT }
-            # Northstar Outpost
-            1769 = { country_or_non_sovereign_subject_holds = ROOT }
-            
-            OR = {
-                1772 = { has_fort_building_trigger = yes } # Revantusk Outpost
-                1771 = { has_fort_building_trigger = yes } # Trollden
-                3005 = { has_fort_building_trigger = yes } # Arathi Strand
-                1770 = { has_fort_building_trigger = yes } # Thickets of Askar
-                1769 = { has_fort_building_trigger = yes } # Northstar Outpost
-            }
-		}
-		provinces_to_highlight = {
-            OR = {
-                province_id = 1772 # Revantusk Outpost
-                province_id = 1771 # Trollden
-                province_id = 3005 # Arathi Strand
-                province_id = 1770 # Thickets of Askar
-                province_id = 1769 # Northstar Outpost
-            }
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-        
-		effect = {
-            add_mil_power = 200
-            
-			area_revantusk = {
-                add_permanent_claim = ROOT
-            }
-		}
-	}
-    
-    # 4. Establish Wetland Outpost
-    A16_establish_wetland_outpost = {
-		icon = mission_strand_of_the_ancients
-        position = 4
-        
-		required_missions = { 
-            A16_protect_the_eastern_flank 
-        }
-        
-		trigger = {
-            calc_true_if = {
-                amount = 3
-                
-                all_owned_province = {
-                    region = region_wetlands
-                }
-            }
-            
-            any_owned_province = {
-                region = region_wetlands
-                has_fort_building_trigger = yes
-            }
-		}
-		provinces_to_highlight = {
-            region = region_wetlands
-			NOT = { owned_by = ROOT }
-		}
-        
-		effect = {
-            add_mil_power = 100
-            
-            random_owned_province = {
-                limit = {
-                    region = region_wetlands
-                }
-                
-                marine_infantry = ROOT
-                marine_infantry = ROOT
-                marine_infantry = ROOT
-                marine_infantry = ROOT
-                marine_infantry = ROOT
-            }
-		}
-	}
-    
-    # 5. Claim Grim Batol
-    A16_claim_grim_batol = {
-		icon = mission_gold_pile
-        position = 5
-        
-		required_missions = { 
-            A16_establish_wetland_outpost 
-        }
-        
-		trigger = {
-            # Grim Batol
-            1061 = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		provinces_to_highlight = {
-            province_id = 1061
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-        
-		effect = {
-            add_treasury = 1000
-            
-            add_country_modifier = {
-                name = mission_treasures_of_grim_batol
-                duration = -1
-            }
-		}
-	}
-}
-
 A16_stromgarde_column_4 = {
 	slot = 4
 	generic = no
@@ -547,27 +416,27 @@ A16_stromgarde_column_4 = {
 		trigger = {
             area_northfold = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
             }
             area_stromgarde = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
             }
             area_faldirs_cove = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
             }
             area_thandol_span = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
             }
             area_hammerfall = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
             }
             area_refuge_pointe = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
             }
 		}
 		provinces_to_highlight = {
@@ -579,14 +448,34 @@ A16_stromgarde_column_4 = {
                 area = area_hammerfall
                 area = area_refuge_pointe
             }
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { owned_by = ROOT }
 		}
         
 		effect = {
-            add_prestige = 25
+            add_stability = 1
             
 			area_arathi_strand = {
                 add_permanent_claim = ROOT
+            }
+            area_eastpoint = {
+                add_permanent_claim = ROOT
+            }
+
+            623 = {
+                add_devastation = 50
+                add_base_tax = -1
+                add_base_production = -1
+                add_base_manpower = -1
+                add_province_modifier = {
+                    name = scorched_earth
+                    duration = 1825
+                }
+            }
+
+            3002 = {
+                add_base_manpower = 1
+                add_base_production = 1
+                add_base_tax = 1
             }
 		}
 	}
@@ -601,115 +490,188 @@ A16_stromgarde_column_4 = {
 		trigger = {
             area_arathi_strand = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
+            }
+            area_eastpoint = {
+                type = all
+                owned_by = ROOT
             }
 		}
 		provinces_to_highlight = {
-            area = area_arathi_strand
+            OR = {
+                area = area_eastpoint
+                area = area_arathi_strand
+            }
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
         
 		effect = {
             add_yearly_sailors = 1.0
+            add_prestige = 10
             
             random_owned_province = {
                 limit = {
                     area = area_arathi_strand
                 }
                 
-                galley = ROOT
+                heavy_ship = ROOT
                 galley = ROOT
                 galley = ROOT
                 galley = ROOT
                 galley = ROOT
             }
+
+            area_durnholde_keep = {
+                add_permanent_claim = ROOT
+            }
+            3007 = {
+                add_permanent_claim = ROOT
+            }
+
+            add_casus_belli = {
+                target = A27
+                type = cb_vassalize_mission
+                months = 120
+            }
 		}
 	}
-    
-    # 4. Establish Hinterlands Outpost
-    A16_establish_hinterland_outpost = {
-		icon = mission_war_stomp
+
+    # 3. Countryside Militarization
+    A16_country_militarization = {
+        icon = mission_barracks
+        position = 3
+
+        required_missions = { A16_secure_the_stromic_coast }
+
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = stromgarde_countryside_militarization_trigger_tt
+
+                owns_all_provinces = {
+                    region = region_arathi_highlands
+                }
+                all_owned_province = {
+                    region = region_arathi_highlands
+                        has_manpower_building_trigger = yes
+                        has_forcelimit_building_trigger = yes
+                        has_recruitment_building_trigger = yes
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            region = region_arathi_highlands
+            AND = {
+                owned_by = ROOT
+                AND = {
+                    NOT = { has_manpower_building_trigger = yes }
+                    NOT = { has_forcelimit_building_trigger = yes }
+                    NOT = { has_recruitment_building_trigger = yes }
+                }
+            }
+        }
+
+        effect = {
+            every_owned_province = {
+                limit = {
+                    region = region_arathi_highlands
+                }
+                add_base_manpower = 2
+            }
+        }
+    }
+
+    # 4. Proclaim the Might of Stromgarde
+    A16_proclaim_the_might_of_stromgarde = {
+		icon = mission_paladin_empowered_seals_justice
         position = 4
         
-		required_missions = { 
-            A16_protect_the_eastern_flank 
-            A16_protect_the_western_flank
-        }
+		required_missions = { A16_country_militarization }
         
 		trigger = {
-            calc_true_if = {
-                amount = 3
-                
-                all_owned_province = {
-                    region = region_the_hinterlands
-                }
-            }
-            any_owned_province = {
-                region = region_the_hinterlands
-                has_fort_building_trigger = yes
-            }
-		}
-		provinces_to_highlight = {
-            region = region_the_hinterlands
-			NOT = { owned_by = ROOT }
-		}
-        
-		effect = {
-            add_country_modifier = {
-                name = mission_facing_the_troll_threat
-                duration = 3650
-            }
-		}
-	}
-    
-    # 5. Oust the Trolls
-    A16_oust_the_trolls = {
-		icon = mission_voodoo_doll
-        position = 5
-        
-		required_missions = { 
-            A16_establish_hinterland_outpost 
-        }
-        
-		trigger = {
-            NOT = { exists = A63 } # Firetree
-            NOT = { exists = A64 } # Witherbark
-            NOT = { exists = A60 } # Vilebranch
-            NOT = { exists = A61 } # Revantusk
-            NOT = { exists = A65 } # Smolderthorn
-            
-            calc_true_if = {
-                amount = 10
-                
-                all_owned_province = {
-                    region = region_the_hinterlands
-                }
-            }
-		}
-		provinces_to_highlight = {
             OR = {
-                region = region_the_hinterlands
-                owned_by = A63 # Firetree
-                owned_by = A64 # Witherbark
-                owned_by = A60 # Vilebranch
-                owned_by = A61 # Revantusk
-                owned_by = A65 # Smolderthorn
+                government_rank = 3
+                is_hegemon_of_type = military_hegemon
             }
-			NOT = { owned_by = ROOT }
+            # Stormwind
+            if = {
+                limit = {
+                    exists = STW
+                }
+                military_strength = {
+                    who = STW
+                    value = 1.5
+                }
+            }
+            # Lordaeron
+            if = {
+                limit = {
+                    exists = A08
+                }
+                military_strength = {
+                    who = A08
+                    value = 1.5
+                }
+            }
+            # Gilneas
+            if = {
+                limit = {
+                    exists = A12
+                }
+                military_strength = {
+                    who = A12
+                    value = 1.5
+                }
+            }
+            # Kul Tiras
+            if = {
+                limit = {
+                    exists = A14
+                }
+                military_strength = {
+                    who = A14
+                    value = 1.5
+                }
+            }
+            # Alterac
+            if = {
+                limit = {
+                    exists = A17
+                }
+                military_strength = {
+                    who = A17
+                    value = 1.5
+                }
+            }
+            # Dalaran
+            if = {
+                limit = {
+                    exists = A18
+                }
+                military_strength = {
+                    who = A18
+                    value = 1.5
+                }
+            }
 		}
+        provinces_to_highlight = {
+            OR = {
+                is_capital_of = STW
+                is_capital_of = A08
+                is_capital_of = A12
+                is_capital_of = A14
+                is_capital_of = A17
+                is_capital_of = A18
+            }
+        }
         
 		effect = {
-            add_stat_or_monarch_power = {
-				stat = adm
-				amount = 1
-			}
-            add_stat_or_monarch_power = {
-				stat = mil
-				amount = 2
-			}
+            add_prestige_or_monarch_power = {
+                amount = 100
+            }
         
-            add_country_modifier = {
-                name = mission_trollbane_blood
+			add_country_modifier = {
+                name = mission_might_of_stromgarde
                 duration = -1
             }
 		}
@@ -727,37 +689,234 @@ A16_stromgarde_column_5 = {
 	}
     
 	has_country_shield = yes
-	
-    # 3. Protect the Western Flank
-	A16_protect_the_western_flank = {
-		icon = mission_warrior_skirmisher
-        position = 3
+
+    # 1. Restore the Empire of Arathor
+    A16_restore_the_empire_of_arathor = {
+		icon = mission_paladin_empowered_seals_righteous
+        position = 1
         
-		required_missions = { 
-            A16_secure_the_stromic_coast
-        }
+		required_missions = { }
         
 		trigger = {
-            area_eastpoint = {
-                type = all
-                country_or_non_sovereign_subject_holds = ROOT
-            }
-            any_owned_province = {
-                area = area_eastpoint
-                has_fort_building_trigger = yes
-            }
-		}
-		provinces_to_highlight = {
-            area = area_eastpoint
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+            tag = FNA
 		}
         
 		effect = {
-			add_mil_power = 200
+            add_prestige_or_monarch_power = {
+                amount = 100
+            }
+        
+			add_country_modifier = {
+                name = mission_legacy_of_arathor
+                duration = -1
+            }
+		}
+	}
+	
+    # 3. Protect the Eastern Flank
+	A16_protect_the_eastern_flank = {
+		icon = mission_capture_flag
+        position = 3
+        
+		required_missions = { A16_secure_the_stromic_coast }
+        
+		trigger = {
+            custom_trigger_tooltip = {
+                tooltip = arathi_basin_fortification_tt
+
+                # Arathi Basin
+                3047 = {
+                    has_fort_building_trigger = yes
+                    base_manpower = 3
+                }
+                # Revantusk Outpost
+                1772 = { country_or_non_sovereign_subject_holds = ROOT }
+                # Trollden
+                1771 = { country_or_non_sovereign_subject_holds = ROOT }
+                # Arathi Strand
+                3005 = { country_or_non_sovereign_subject_holds = ROOT }
+                # Thickets of Askar
+                1770 = { country_or_non_sovereign_subject_holds = ROOT }
+                # Northstar Outpost
+                1769 = { country_or_non_sovereign_subject_holds = ROOT }
             
-			area_tarren_mill = {
+                 OR = {
+                    1772 = { has_fort_building_trigger = yes } # Revantusk Outpost
+                    1771 = { has_fort_building_trigger = yes } # Trollden
+                    3005 = { has_fort_building_trigger = yes } # Arathi Strand
+                    1770 = { has_fort_building_trigger = yes } # Thickets of Askar
+                    1769 = { has_fort_building_trigger = yes } # Northstar Outpost
+                }
+		    }
+        }
+
+		provinces_to_highlight = {
+            OR = {
+                province_id = 1772 # Revantusk Outpost
+                province_id = 1771 # Trollden
+                province_id = 3005 # Arathi Strand
+                province_id = 1770 # Thickets of Askar
+                province_id = 1769 # Northstar Outpost
+                province_id = 3047 # Arathi Basin
+            }
+		}
+        
+		effect = {
+            add_mil_power = 100
+
+            define_advisor = {
+                type = fortification_expert
+                skill = 2
+                discount = yes
+                culture = ROOT
+                religion = ROOT
+            }
+            
+			area_revantusk = {
+                add_claim = ROOT
+            }
+            area_the_hinterlands = {
+                add_claim = ROOT
+            }
+            area_troll_lowlands = {
+                add_claim = ROOT
+            }
+		}
+	}
+
+    # 4. War Against the Forest Trolls
+    A16_establish_hinterland_outpost = {
+		icon = mission_pvp_2
+        position = 4
+        
+		required_missions = { A16_protect_the_eastern_flank }
+        
+		trigger = {
+            calc_true_if = {
+                amount = 5
+                
+                all_owned_province = {
+                    region = region_the_hinterlands
+                    NOT = { area = area_aerie_peak }
+                }
+            }
+		}
+		provinces_to_highlight = {
+            region = region_the_hinterlands
+			NOT = { owned_by = ROOT }
+		}
+        
+		effect = {
+            add_country_modifier = {
+                name = mission_facing_the_troll_threat
+                duration = 5475
+            }
+
+            region_the_hinterlands = {
                 add_permanent_claim = ROOT
             }
 		}
 	}
+
+    # 5. Defeat of Hinterlands Trolls
+    A16_defeat_hinterlands_trolls = {
+        icon = mission_war_stomp
+        position = 5
+
+        required_missions = { A16_establish_hinterland_outpost }
+
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = stromgarde_no_trolls_tt
+
+                NOT = {
+                    any_province = {
+                        region = region_the_hinterlands
+                    owner = {
+                        culture_group = culture_group_troll
+                        }
+                    }
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            region = region_the_hinterlands
+            owner = {
+                culture_group = culture_group_troll
+            }
+        }
+
+        effect = {
+            custom_tooltip = stromgarde_troll_defeat_mission_tt
+
+            hidden_effect = {
+                set_country_flag = estate_nobility_trollbane_duty_unlock
+                add_prestige_or_monarch_power = {
+                    amount = 25
+                }
+                add_power_projection = {
+                    amount = 10
+                }
+            }
+        }
+    }
+
+    # 6. Trollbane Legacy
+    A16_trollbane_legacy = {
+        icon = mission_troll_male
+        position = 6
+
+        required_missions = { A16_defeat_hinterlands_trolls }
+
+        trigger = {
+            custom_trigger_tooltip = {
+                tooltip = trollbane_legacy_mission_tt
+
+                NOT = {
+                    any_province = {
+                        superregion = ek_lordaeron_superregion
+                        culture_group = culture_group_troll
+                    }
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            superregion = ek_lordaeron_superregion
+            culture_group = culture_group_troll
+        }
+
+
+        effect = {
+            add_stat_or_monarch_power = {
+				stat = adm
+				amount = 1
+			}
+            add_stat_or_monarch_power = {
+				stat = mil
+				amount = 2
+			}
+        
+            add_country_modifier = {
+                name = mission_trollbane_blood
+                duration = -1
+            }
+
+            custom_tooltip = STROMKAR_RECOVERY_TT
+
+            hidden_effect = {
+                if = {
+                    limit = {
+                        any_country = {
+                            NOT = {
+                                has_country_flag = artifact_stromkar
+                            }
+                        }
+                    }
+                    country_event = { id = wwu_archaeology.44 }
+                }
+            }
+        }
+    }
 }
