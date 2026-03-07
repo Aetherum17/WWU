@@ -1,4 +1,12 @@
 # Building triggers
+has_tavern_building_trigger = {
+	OR = {
+		has_building = wow_tavern_1
+		has_building = wow_tavern_2
+		has_building = wow_tavern_3
+	}
+}
+
 has_tax_building_trigger = {
 	OR = {
 		has_building = wow_farm_1

@@ -1,0 +1,79 @@
+# Used for Missions
+# Dun Darok Deal
+country_decisions = {
+    settle_gun_darok_claim = {
+        potential = {
+            has_country_flag = unlock_settle_gun_darok
+
+            1931 = {
+                owned_by = A29
+            }
+        }
+        allow = {
+            treasury = 200
+            dip_power = 100
+            A29 = {
+                exists = yes
+                is_subject = no
+                opinion = {
+                    who = ROOT
+                    value = 100
+                }
+            }
+        }
+
+        effect = {
+            add_treasury = -200
+            add_dip_power = -100
+
+            A29 = {
+                country_event = {
+                    id = wwu_mission_stromgarde.1
+                    days = 7
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
+
+# Resettle Southshore
+country_decisions = {
+    resettle_southshore = {
+        potential = {
+            has_country_flag = unlock_resettle_southshore
+
+            area_southshore = {
+                type = all
+                owned_by = ROOT
+            }
+        }
+        allow = {
+            area_southshore = {
+                type = all
+                owned_by = ROOT
+                religion = ROOT
+            }
+            adm_power = 100
+            dip_power = 100
+            treasury = 200
+        }
+
+        effect = {
+            add_treasury = -200
+            add_adm_power = -100
+            add_dip_power = -100
+
+            area_southshore = {
+                change_culture = ROOT
+                add_base_tax = 1
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

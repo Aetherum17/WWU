@@ -1,0 +1,160 @@
+namespace = wwu_mission_stromgarde
+
+#1 # A29 #Khaz Modan - gets Foreign Claim - Gun Darok
+country_event = {
+    id = wwu_mission_stromgarde.1
+    title = wwu_mission_stromgarde.1.title
+    desc = wwu_mission_stromgarde.1.desc
+    picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_stromgarde.1.option.a
+        
+        add_treasury = 200
+        add_dip_power = 50
+
+        1931 = {
+            add_base_manpower = -1
+            add_base_production = -1
+            add_base_tax = -1
+            remove_core = A29
+            add_core = A16
+            change_culture = culture_arathi
+        }
+
+        random_owned_province = {
+            add_base_tax = 1
+            add_base_production = 1
+            add_base_manpower = 1
+        }
+
+        ai_chance = { factor = 9 }
+    }
+
+    option = {
+        name = wwu_mission_stromgarde.1.option.b
+
+        A16 = {
+            country_event = {
+                id = wwu_mission_stromgarde.2
+                days = 1
+            }
+        }
+
+        ai_chance = { factor = 1 }
+    }
+}
+
+#2 # A29 #Khaz Modan - Foreign Claim - Gun Darok Negative Reply
+country_event = {
+    id = wwu_mission_stromgarde.2
+    title = wwu_mission_stromgarde.2.title
+    desc = wwu_mission_stromgarde.2.desc
+    picture = ANCIENT_MAGE_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_stromgarde.2.option.a
+
+        add_prestige = -5
+
+        1931 = {
+            add_permanent_claim = ROOT
+        }
+
+        add_opinion = {
+            who = A29
+            modifier = rejected_stromic_deal
+        }
+    }
+}
+
+#10 #Alterac Ultimatum
+country_event = {
+    id = wwu_mission_stromgarde.10
+    title = wwu_mission_stromgarde.10.title
+    desc = wwu_mission_stromgarde.10.desc
+    picture = KNIFE_eventPicture
+
+    is_triggered_only = yes
+
+    # Ultimatum rejection
+    option = {
+        name = wwu_mission_stromgarde.10.option.a
+
+        A16 = {
+            country_event = { id = wwu_mission_stromgarde.11 days = 1 }
+        }
+
+        add_prestige = 10
+
+        ai_chance = {
+            factor = 2
+        }
+    }
+
+    # Ultimatum Accepted
+    option = {
+        name = wwu_mission_stromgarde.10.option.b
+
+        A16 = {
+            create_union = A17
+            white_peace = A17
+        }
+        A17 = {
+            every_core_province = {
+                limit = {
+                    owned_by = A16
+                }
+                remove_core = A17
+            }
+        }
+
+        add_prestige = -50
+        add_stability = -1
+
+        ai_chance = {
+            factor = 8
+        }
+    }
+}
+
+#11 Alterac Ultimatur Rejection
+country_event = {
+    id = wwu_mission_stromgarde.11
+    title = wwu_mission_stromgarde.11.title
+    desc = wwu_mission_stromgarde.11.desc
+    picture = TIMEPIECE_OF_HORROR_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_stromgarde.11.option.a
+
+        add_prestige = -5
+
+        ai_chance = { factor = 10 }
+    }
+
+    option = {
+        name = wwu_mission_stromgarde.11.option.b
+
+        add_prestige = -5
+
+        add_mil_power = 100
+
+        A17 = {
+            every_owned_province = {
+                limit = {
+                    controlled_by = A16
+                }
+                add_devastation = 90
+            }
+        }
+
+        ai_chance = { factor = 2 }
+    }
+}

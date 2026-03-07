@@ -8,6 +8,8 @@ religion			= holy_light
 primary_culture 	= culture_arathi
 capital 			= 3002
 
+add_historical_rival = A17 # Alterac
+
 546.1.1 = { 
 	monarch = { 
 		name = "Liam" 

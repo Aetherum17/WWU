@@ -10,7 +10,7 @@
 # General Gameplay
 -Centers of Trade upgrade cost adjusted: LVL 2 now costs 300, LVL 3 1500.
 -Steering Trade Peace Deal Option: cost changed from 60 --> 50 WS.
--Reinteduced Core Decay: Cores on non-primary culture group provinces will expire after 200 years. Primary cultrue and primary tag cores remain infinite.
+-Reinteduced Core Decay: Cores on non-primary culture group provinces will expire after 100 years. Primary cultrue and primary tag cores remain infinite.
 -Lost Core prestige penalty altered. New values: -1. Abandon Core: -5 prestige
 -Spawned nation boost will now grant nations idea cost reduction to catch up with the world
 -Deck of Wonders "Bypass Forts" card has been disabled
@@ -31,6 +31,9 @@
 
 * Scourge
 -Added a protective shield modifier around Frozen Throne for the first 25 years since the spawn of the Scourge to make sniping the Helm of Domination harder
+
+* Stromgarde
+-Overhauled NI, added few flavour events, 
 
 # Map:
 -Changed location of centers of trade and some cores in Isle of Quel'danas

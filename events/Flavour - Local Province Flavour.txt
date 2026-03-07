@@ -109,6 +109,7 @@ province_event = {
 	trigger = {
         is_capital = no
         controlled_by = owner
+		has_tavern_building_trigger = yes
         owner = {
             is_high_cultured = yes
         }

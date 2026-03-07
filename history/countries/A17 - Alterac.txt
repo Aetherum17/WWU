@@ -8,6 +8,7 @@ religion			= holy_light
 primary_culture 	= culture_alterac
 capital 			= 773
 
+add_historical_rival = A16 #Stromgarde
 
 546.1.1 = {
 	monarch = {

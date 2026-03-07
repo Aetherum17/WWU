@@ -279,8 +279,20 @@ mogu_zandalar_found_thunder_king_b = {
 }
 
 stromic_lordaeron_connections = {
-    opinion = 100
+    opinion = 125
 	yearly_decay = -1
+}
+stromic_ironforge_connections = {
+    opinion = 75
+    yearly_decay = -1
+}
+stromic_dalaran_connections = {
+    opinion = 100
+    yearly_decay = -1
+}
+rejected_stromic_deal = {
+    opinion = -50
+    yearly_decay = -1
 }
 
 federation_member_ignored = {

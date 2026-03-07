@@ -8,30 +8,42 @@
 
  # Column 1
  A16_establish_lordaeron_connections_title: "Establish Lordaeron Connections"
- A16_establish_lordaeron_connections_desc: ""
+ A16_establish_lordaeron_connections_desc: "WIP"
+
+ A16_dalaran_ties_title: "Dalaran Ties"
+ A16_dalaran_ties_desc: "WIP"
+
+ A16_flexible_diplomacy_title: "Flexible Diplomacy"
+ A16_flexible_diplomacy_desc: "WIP"
 
  # Column 2
+ A16_dwarven_ties_title: "Dwarven Relations"
+ A16_dwarven_ties_desc: "WIP"
+
  A16_insult_the_alteraci_title: "Insult the Alteraci"
  A16_insult_the_alteraci_desc: "With history between Stormic and Alteraci kingdom is not particuralty long, its is tale of continous conflict of noble titles, trade disagreements and spheres of influence. While we went back and forward on many occasions, the times call for us to let the embers rise once, so that we may put down the fire once and for all."
  
  A16_punish_the_alteraci_title: "Humiliate Alterac"
  A16_punish_the_alteraci_desc: "With our show of force over Kingdom of Alterac and their presumptuous noble elites, we have proven our superiority. With the Altarac humiliated, it is time we break their fragile crown and become the rulers of Altarac."
 
+ A16_alterac_war_title: "Alterac War"
+ A16_alterac_war_desc: "WIP"
+
  # Column 3
  A16_claim_the_mantle_of_humanity_title: "Claim the Mantle of Humanity"
- A16_claim_the_mantle_of_humanity_desc: ""
+ A16_claim_the_mantle_of_humanity_desc: "WIP"
  
  A16_protect_the_western_flank_title: "Protect the Western Flank"
- A16_protect_the_western_flank_desc: ""
+ A16_protect_the_western_flank_desc: "WIP"
 
  A16_southshore_control_title: "Southshore Control"
- A16_southshore_control_desc: ""
+ A16_southshore_control_desc: "WIP"
 
  A16_baradin_isles_title: "Baradin Isles Lordship"
- A16_baradin_isles_desc: ""
+ A16_baradin_isles_desc: "WIP"
 
  A16_dominate_baradin_bay_title: "Dominate Baradin Bay"
- A16_dominate_baradin_bay_desc: ""
+ A16_dominate_baradin_bay_desc: "WIP"
 
  # Column 4
  A16_restore_stromic_hearthland_title: "Restore the Stromic Hearthland"
@@ -61,13 +73,9 @@
 
  A16_trollbane_legacy_title: "Trollbane Legacy" 
  A16_trollbane_legacy_desc: "One does not simply abandon their legacy. Even with the forest beast put down all around Hinterlands, the trolls are not yet defeated. They could rise and become the issue once more. But Trollbanes do not give up easily. We will continue our mission to eradicate them, now not only near our border, but all acorss Lordaeron and Quel'thalas!"
-
- #other
  
  # --- Modifiers ---
  insulted_alterac: "Insulted Alterac"
- 
- stromic_lordaeron_connections: "Lordaeron Connections"
  
  mission_might_of_stromgarde: "Might of Stromgarde"
  desc_mission_might_of_stromgarde: ""
@@ -84,18 +92,44 @@
  mission_trollbane_blood: "Trollbane Blood"
  desc_mission_trollbane_blood: ""
  
- mission_treasures_of_grim_batol: "Treasures of Grim Batol"
- desc_mission_treasures_of_grim_batol: ""
- 
  mission_dominance_of_baradin_bay: "Dominance of Baradin Bay"
  desc_mission_dominance_of_baradin_bay: ""
  
  mission_mantle_of_humanity: "Mantle of Humanity"
  desc_mission_mantle_of_humanity: ""
+
+ mission_flexible_diplomacy: "Flexible Diplomacy"
+ desc_mission_flexible_diplomacy: ""
+
+ # --- Opinion Modifiers ---
+ stromic_lordaeron_connections: "Lordaeron Connections"
+ stromic_ironforge_connections: "Ironforge Connections"
+ stromic_dalaran_connections: "Dalaran Connections"
+ rejected_stromic_deal: "Rejected Stromic Deal"
  
  # --- Events ---
+ wwu_mission_stromgarde.1.title: "Foreign Claim - Gun Darok"
+ wwu_mission_stromgarde.1.desc: "Recently, a diplomat from the human kingdom of Stromgarde had arrived to our gates with a proposition. They see our old fortress of Gun Darok, located on the border of Hillsbrad and Arathi region as a strategic location. Within the message from the Stromic monarch, they consider paying us a generous price if we decide to abandon our desires to reclaim it, allowing them to settle the old hold. While having the strategic fortress in the area would be always beneficial, we could consider if our relations with them are more valuable than a place we have abandoned before?"
+ wwu_mission_stromgarde.1.option.a: "We can accept such offer."
+ wwu_mission_stromgarde.1.option.b: "We are not interested."
+
+ wwu_mission_stromgarde.2.title: "Rejection of Gun Darok Deal"
+ wwu_mission_stromgarde.2.desc: "Our deal has been rejected by the ruler of the dwarven kingdom."
+ wwu_mission_stromgarde.2.option.a: "We will have it another way, sooner or later."
+
+ wwu_mission_stromgarde.10.title: "Stormic Ultimatum"
+ wwu_mission_stromgarde.10.desc: "We have received an ultimatum from the nation of Stromgarde. They demand our willing subjegation under their crown!"
+ wwu_mission_stromgarde.10.option.a: "Over our dead bodies. Altarac does not kneel!"
+ wwu_mission_stromgarde.10.option.b: "A dark day for our nation indeed..."
+
+ wwu_mission_stromgarde.11.title: "Rejection of Stormic Ultimatum"
+ wwu_mission_stromgarde.11.desc: "The Rats of Alterac had rejected our offer of willing surrender of their kingdom under our crown. They think themselves as not defeated, spitting in our faces!"
+ wwu_mission_stromgarde.11.option.a: "Diplomacy is on our side, they will see it."
+ wwu_mission_stromgarde.11.option.b: "Funny. Let's make sure they choke on their decision."
 
  # --- Tooltips ---
+
+ stormgarde_flexible_diplomacy_tt: "§YStromgarde§! gets §Y'Flexible Diplomacy'§! until the end of the game, giving:\n- Diplomatic Relations: §G+1§!\n- Aggressive Expansion Impact: §G-10.0%§!\n- Improve Relations: §G+10.0%§!\n\nAdditionally, unlocks the following decisions:\n- §YSettle Claim - Gun Darok§!\n- §YResettlement of Southshore§!"
 
  stromgarde_countryside_militarization_trigger_tt: "Every province in §YArathi Highlands§! is owned by Stromgarde and has:\n- Barracks\n- Arsenal\n- Training Grounds"
 
@@ -109,6 +143,7 @@
 
  arathi_basin_fortification_tt: "§YFortify the Arathi Basin§!\n\n• §YArathi Basin§! has a Fort and §Y3 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of these provinces has a Fort."
 
+ unlock_settlement_decisions_tt: "§GUnlock the following Decisions:§!\n• §YSettle Claim - Gun Darok§!\n• §YSettle Claim - Dalaran Southshore§!\n• §YSettle Claim - Lordaeron Southshore§!"
 
  # === Modifiers ---
  trollbane_conversion_drive: "Trollbane Conversion Drive"

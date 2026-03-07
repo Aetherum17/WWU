@@ -47,3 +47,9 @@ mission_mantle_of_humanity = {
     force_march_free = yes
     no_stability_loss_on_monarch_death = yes
 }
+
+mission_flexible_diplomacy = {
+    diplomatic_upkeep = 1
+    ae_impact = -0.1
+    improve_relation_modifier = 0.1
+}

@@ -4,6 +4,7 @@ is_city = yes
 owner = A63
 controller = A63
 add_core = A63
+add_core = A16
 
 base_tax = 1
 base_production = 1

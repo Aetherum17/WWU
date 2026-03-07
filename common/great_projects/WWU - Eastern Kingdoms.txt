@@ -453,6 +453,7 @@ gp_stromgarde_keep = {
 		}
 		area_modifier = {
             local_manpower_modifier = 0.125
+			local_defensiveness = 0.125
 		}
 		country_modifiers = {
 		}
@@ -473,6 +474,7 @@ gp_stromgarde_keep = {
 		}
 		area_modifier = {
             local_manpower_modifier = 0.25
+			local_defensiveness = 0.25
 		}
 		country_modifiers = {
 		}
@@ -493,6 +495,7 @@ gp_stromgarde_keep = {
 		}
 		area_modifier = {
             local_manpower_modifier = 0.33
+			local_defensiveness = 0.33
 		}
 		country_modifiers = {
 		}
@@ -513,10 +516,11 @@ gp_stromgarde_keep = {
 		}
 		area_modifier = {
             local_manpower_modifier = 0.5
+			local_defensiveness = 0.5
 		}
 		country_modifiers = {
             prestige = 1.0
-            infantry_power = 0.075
+            infantry_power = 0.1
 		}
 		on_upgraded = {
 			owner = { add_prestige = 10 }
@@ -7101,7 +7105,7 @@ gp_greymane_wall = {
 #--------------------------------------
 # Greymane Manor
 #--------------------------------------
-gp_greymane_manor = {
+#gp_greymane_manor = {
     type = monument
     
 	start = 789

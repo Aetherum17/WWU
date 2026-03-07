@@ -936,7 +936,7 @@ NCountry = {
 
 	START_YEARLY_INFLATION = 0.0, 					-- _CDEF_START_YEARLY_INFLATION_
 	CLAIM_LOSE = 25,								-- how many years until a claim is lost.
-	CORE_LOSE = 200, 								-- how many years until a core is lost.
+	CORE_LOSE = 100, 								-- how many years until a core is lost.
 	CORE_LOSE_CULTURE_GROUP = -1,					-- how many years until a core in a country's culture group is lost.
 	--- WWU: cores will never be lost
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
@@ -944,7 +944,7 @@ NCountry = {
 	--- WWU: cost reduced due to existing of different prestige penalities
 	ABANDON_CORE_PRESTIGE = -5.0,					-- The cost of abandoning a core that some other country owns.
 	--- WWU: cost reduced
-	ABANDON_IDEAGROUP_REFUND = 0.35,				-- The part of the idea group spent that will be refunded upon abandonment.
+	ABANDON_IDEAGROUP_REFUND = 0.5,				-- The part of the idea group spent that will be refunded upon abandonment.
 	--- WWU: make abandoning ideagroups slightly less costly
 	NEIGHBOURBONUS = -0.05, 						-- _CDEF_NEIGHBOURBONUS_
 	NEIGHBOURBONUS_CAP = -0.75, 					-- _CDEF_NEIGHBOURBONUS_CAP_
