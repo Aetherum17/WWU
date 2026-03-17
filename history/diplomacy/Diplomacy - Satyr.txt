@@ -9,7 +9,7 @@ alliance = {
 
 #Xavian-Felmusk
 alliance = {
-  first = F96
+  first = F97
   second = FMK
   start_date = 546.1.1
   end_date = 9999.1.1
