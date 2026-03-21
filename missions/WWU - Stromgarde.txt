@@ -212,6 +212,12 @@ A16_stromgarde_column_2 = {
                 who = A29 # Khan Modan
                 modifier = stromic_ironforge_connections
             }
+
+            custom_tooltip = SPECIALIST_STROMGARDE_SNIPERS_TT
+
+            hidden_effect = {
+                set_country_flag = unlocked_stromgarde_snipers
+            }
 		}
     }
 	
@@ -228,7 +234,13 @@ A16_stromgarde_column_2 = {
                     exists = A17 # Alterac
                 }
                 A17 = {
-                    is_rival = ROOT
+                    OR = {
+                        is_rival = ROOT
+                        ai_attitude = {
+                            who = A16
+                            attitude = attitude_hostile
+                        }
+                    }
                     OR = {
                         has_opinion_modifier = {
                             modifier = insulted
@@ -248,9 +260,9 @@ A16_stromgarde_column_2 = {
 		effect = {
 			add_power_projection = {
                 type = mission_rewards_power_projection
-                amount = 15
+                amount = 10
             }
-            add_dip_power = 25
+            add_dip_power = 50
 		}
 	}
     
@@ -262,57 +274,50 @@ A16_stromgarde_column_2 = {
 		required_missions = { A16_insult_the_alteraci A16_protect_the_western_flank }
         
 		trigger = {
-            OR = {
-                # In war path
-                AND = {
-                    war_with = A17
-                    A17 = {
-                        capital_scope = {
-                            controlled_by = ROOT
-                        }
-                        NOT = { army_size_percentage = 0.2 }
-                    }
-                    war_score_against = {
-                        who = A17
-                        value = 75
-                    }
-                }
-                # Post War Path
-                AND = {
-                    prestige = 75
-                    NOT = { war_with = A17 }
-                    A17 = {
-                        humiliated_by = ROOT
-
-                        capital_scope = {
-                            has_province_modifier = scorched_earth
-                        }
-                    }
-                    area_tarren_mill = {
-                        type = all
-                        NOT = { owned_by = A17 }
-                        owned_by = ROOT
-                    }
-                }
+            area_tarren_mill = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
             }
+            area_alterac_headlands = {
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+
             A17 = {
-                NOT = { total_development = 250 }
+                capital_scope = {
+                    AND = {
+                        devastation = 50
+                        has_province_modifier = scorched_earth
+                    }
+                }
             }
 		}
+
         provinces_to_highlight = {
             is_capital_of = A17
 		}
+
 		effect = {
-            add_mil_power = 250
+            add_mil_power = 150
+            add_dip_power = 100
             
-			region_alterac_mountains = {
+			area_alterac_heartland = {
+                add_permanent_claim = ROOT
+            }
+            area_strahnbrad = {
+                add_permanent_claim = ROOT
+            }
+            area_dun_baldar = {
+                add_claim = ROOT
+            }
+            area_frostwolf_keep = {
+                add_claim = ROOT
+            }
+            area_scholomance = {
                 add_claim = ROOT
             }
 
-            add_casus_belli = {
-                target = A17
-                type = cb_restore_personal_union_mission
-                months = 240
+            A17 = {
+                add_prestige = -25
             }
 		}
 	}
@@ -329,11 +334,7 @@ A16_stromgarde_column_2 = {
                 is_in_war = {
                     attacker_leader = A16
                     defender_leader = A17
-                    casus_belli = cb_restore_personal_union_mission
-                }
-                war_score_against = {
-                    who = A17
-                    value = 90
+                    war_score = 90
                 }
                 A17 = {
                     capital_scope = {
@@ -348,12 +349,7 @@ A16_stromgarde_column_2 = {
         }
 
         effect = {
-            A17 = {
-                every_owned_province = {
-                    add_claim = ROOT
-                }
-            }
-            A17 = {
+            A16 = {
                 country_event = { id = wwu_mission_stromgarde.10 }
             }
         }
@@ -427,7 +423,15 @@ A16_stromgarde_column_3 = {
                 country_or_non_sovereign_subject_holds = ROOT
             }
             3007 = {
-                owned_by = ROOT
+                OR = {
+                    owned_by = ROOT
+                    owner = {
+                        is_subject_of = ROOT
+                    }
+                    owner = {
+                        alliance_with = ROOT
+                    }
+                }
             }
             any_owned_province = {
                 area = area_eastpoint
@@ -451,10 +455,10 @@ A16_stromgarde_column_3 = {
             add_dip_power = 100
             
 			area_tarren_mill = {
-                add_core = ROOT
+                add_permanent_claim = ROOT
             }
             area_southshore = {
-                add_core = ROOT
+                add_permanent_claim = ROOT
             }
 		}
 	}
@@ -932,20 +936,25 @@ A16_stromgarde_column_5 = {
                 # Arathi Basin
                 3047 = {
                     has_fort_building_trigger = yes
-                    base_manpower = 3
+                    has_tower_building_trigger = yes
+                    base_manpower = 5
                 }
-                # Revantusk Outpost
-                1772 = { country_or_non_sovereign_subject_holds = ROOT }
-                # Trollden
-                1771 = { country_or_non_sovereign_subject_holds = ROOT }
-                # Arathi Strand
-                3005 = { country_or_non_sovereign_subject_holds = ROOT }
-                # Thickets of Askar
-                1770 = { country_or_non_sovereign_subject_holds = ROOT }
-                # Northstar Outpost
-                1769 = { country_or_non_sovereign_subject_holds = ROOT }
-            
-                 OR = {
+                1772 = {
+                    owned_by = ROOT
+                }
+                1771 = {
+                    owned_by = ROOT
+                }
+                3005 = {
+                    owned_by = ROOT
+                }
+                1700 = {
+                    owned_by = ROOT
+                }
+                1769 = {
+                    owned_by = ROOT
+                }            
+                OR = {
                     1772 = { has_fort_building_trigger = yes } # Revantusk Outpost
                     1771 = { has_fort_building_trigger = yes } # Trollden
                     3005 = { has_fort_building_trigger = yes } # Arathi Strand
@@ -998,11 +1007,26 @@ A16_stromgarde_column_5 = {
         
 		trigger = {
             OR = {
-                war_with = A61
-                war_with = A60
-                war_with = A64
-                war_with = A65
-                war_with = A63
+                OR = {
+                    war_with = A60
+                    NOT = { exists = A60 }
+                }
+                OR = {
+                    war_with = A61
+                    NOT = { exists = A61 }
+                }
+                OR = {
+                    war_with = A65
+                    NOT = { exists = A65 }
+                }
+                OR = {
+                    war_with = A63
+                    NOT = { exists = A63 }
+                }
+                OR = {
+                    war_with = A64
+                    NOT = { exists = A64 }
+                }
             }
             calc_true_if = {
                 amount = 5
@@ -1021,7 +1045,7 @@ A16_stromgarde_column_5 = {
 		effect = {
             add_country_modifier = {
                 name = mission_facing_the_troll_threat
-                duration = 5475
+                duration = 7300
             }
 
             region_the_hinterlands = {

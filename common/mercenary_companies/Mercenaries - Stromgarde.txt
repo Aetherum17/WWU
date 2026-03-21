@@ -1,0 +1,52 @@
+###----------------------------
+###--- Stromgarde Defenders ---
+###----------------------------
+wwu_specialist_stromgarde_defenders = {
+    regiments_per_development = 0.07
+    cost_modifier = 0.25
+    home_province = 981
+    cavalry_weight = 0.3
+    artillery_weight = 0.0
+
+    cavalry_cap = 6
+    sprites = { sprite_pack_stromgarde_gfx }
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        tag = A16
+    }
+    modifier = {
+        land_morale = 0.1
+        shock_damage_received = -0.05
+    }
+
+    counts_towards_force_limit = no
+    min_size = 6
+    max_size = 20
+    manpower_pool = 40
+}
+
+###---------------------------------
+###--- Stromgarde Sniper Company ---
+###---------------------------------
+wwu_specialist_stromgarde_snipers = {
+    regiments_per_development = 0.03
+    cost_modifier = 0.75
+    cavalry_weight = 0.0
+    artillery_weight = 0.2
+
+    sprites = { sprite_pack_dwarf_gfx }
+    trigger = {
+        is_allowed_to_recruit_mercenaries = yes
+        tag = A16
+        has_country_flag = unlocked_stromgarde_snipers
+    }
+    modifier = {
+        infantry_shock = 0.5
+        military_tactics = 0.2
+    }
+    
+    counts_towards_force_limit = no
+    min_size = 6
+    max_size = 20
+    manpower_pool = 20
+}

@@ -85,6 +85,7 @@ gp_seradane = {
 		}
 		area_modifier = {
             local_manpower_modifier = 0.25
+			local_defensiveness = 0.1
 		}
 		country_modifiers = {
 		}
@@ -104,6 +105,7 @@ gp_seradane = {
 		}
 		area_modifier = {
             local_manpower_modifier = 0.33
+			local_defensiveness = 0.15
 		}
 		country_modifiers = {
 		}
@@ -123,10 +125,11 @@ gp_seradane = {
 		}
 		area_modifier = {
             local_manpower_modifier = 0.5
+			local_defensiveness = 0.2
 		}
 		country_modifiers = {
-            army_tradition = 1.0
-            leader_land_manuever = 1
+            institution_spread_from_true_faith = 0.15
+            promote_culture_cost = -0.25
 		}
 		on_upgraded = {
 			owner = { add_prestige = 10 }
@@ -668,7 +671,7 @@ gp_gilneas_city = {
 gp_lordaeron_city = {
     type = monument
     
-	start = 543
+	start = 6381
 
 	date = 100.01.01
 	can_be_moved = no
@@ -941,7 +944,7 @@ gp_lights_hope_chapel = {
 gp_stratholme = {
     type = monument
     
-	start = 642
+	start = 4748
 
 	date = 100.01.01
 	can_be_moved = no
@@ -1076,13 +1079,13 @@ gp_durnholde_keep = {
     
 	start = 741
 
-	date = 100.01.01
+	date = 600.01.01
 	can_be_moved = no
 	move_days_per_unit_distance = 10
     
-    build_cost = 0
+    build_cost = 500 # Non-standard price
 	time = {
-		months = 0
+		months = 60
 	}
 
 	starting_tier = 0
@@ -4067,13 +4070,13 @@ gp_dragonmaw_port = {
     
 	start = 755
 
-	date = 100.01.01
+	date = 600.01.01
 	can_be_moved = no
 	move_days_per_unit_distance = 10
     
-    build_cost = 0
+    build_cost = 500 # Non-standard price
 	time = {
-		months = 0
+		months = 60
 	}
 
 	starting_tier = 0

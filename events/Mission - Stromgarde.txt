@@ -72,7 +72,7 @@ country_event = {
     }
 }
 
-#10 #Alterac Ultimatum
+#10 #Fate of Alterac
 country_event = {
     id = wwu_mission_stromgarde.10
     title = wwu_mission_stromgarde.10.title
@@ -81,80 +81,47 @@ country_event = {
 
     is_triggered_only = yes
 
-    # Ultimatum rejection
+    # Subjegate Them
     option = {
         name = wwu_mission_stromgarde.10.option.a
 
-        A16 = {
-            country_event = { id = wwu_mission_stromgarde.11 days = 1 }
+        create_subject = {
+            subject_type = subjugated_vassal
+            subject = A17
         }
+        white_peace = A17
 
         add_prestige = 10
+        add_dip_power = -100
+
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    # Vassalize Them
+    option = {
+        name = wwu_mission_stromgarde.10.option.b
+
+        create_vassal = A17
+        white_peace = A17
+        
+        add_prestige = 20
+        add_dip_power = -250
 
         ai_chance = {
             factor = 2
         }
     }
 
-    # Ultimatum Accepted
+    # Let me handle it
     option = {
-        name = wwu_mission_stromgarde.10.option.b
+        name = wwu_mission_stromgarde.10.option.c
 
-        A16 = {
-            create_union = A17
-            white_peace = A17
+        add_prestige = 5
+        add_country_modifier = {
+            name = mission_fate_of_alterac_own
+            duration = 1460
         }
-        A17 = {
-            every_core_province = {
-                limit = {
-                    owned_by = A16
-                }
-                remove_core = A17
-            }
-        }
-
-        add_prestige = -50
-        add_stability = -1
-
-        ai_chance = {
-            factor = 8
-        }
-    }
-}
-
-#11 Alterac Ultimatur Rejection
-country_event = {
-    id = wwu_mission_stromgarde.11
-    title = wwu_mission_stromgarde.11.title
-    desc = wwu_mission_stromgarde.11.desc
-    picture = TIMEPIECE_OF_HORROR_eventPicture
-
-    is_triggered_only = yes
-
-    option = {
-        name = wwu_mission_stromgarde.11.option.a
-
-        add_prestige = -5
-
-        ai_chance = { factor = 10 }
-    }
-
-    option = {
-        name = wwu_mission_stromgarde.11.option.b
-
-        add_prestige = -5
-
-        add_mil_power = 100
-
-        A17 = {
-            every_owned_province = {
-                limit = {
-                    controlled_by = A16
-                }
-                add_devastation = 90
-            }
-        }
-
-        ai_chance = { factor = 2 }
     }
 }

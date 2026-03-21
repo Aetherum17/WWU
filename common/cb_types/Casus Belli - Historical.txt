@@ -73,3 +73,11 @@ cb_frostmane_war = {
 	war_goal = take_capital_frostmane_war
 }
 
+cb_arathi_conflict = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+
+	war_goal = take_capital_arathi_conflict
+}
+

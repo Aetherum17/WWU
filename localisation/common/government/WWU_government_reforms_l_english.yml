@@ -48,7 +48,7 @@
  wwu_military_elitism: "Elitism"
  wwu_military_elitism_desc: "Elitism is a practice in Azeroth of relying very heavily on powerful or generally skilled warriors who can outwit, outmatch, and outskill others. These special warriors, while expensive, can compliment even the smallest of armies."
  
- ENABLE_GENERAL_TRAIT_BOOST_TT: "Enables Generals to gain more powerful traits."
+ ENABLE_GENERAL_TRAIT_BOOST_TT: "§YEnables Generals to gain more powerful traits.§!"
  
  # Human
  wwu_military_knighthood: "Knighthood"

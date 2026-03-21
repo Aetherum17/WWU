@@ -8,6 +8,8 @@ religion			= holy_light
 primary_culture 	= culture_arathi
 capital 			= 3002
 
+add_army_professionalism = 0.1
+
 add_historical_rival = A17 # Alterac
 
 546.1.1 = { 
@@ -18,7 +20,33 @@ add_historical_rival = A17 # Alterac
 		dip = 3
 		mil = 7
         birth_date = 510.1.1
-	} 
+
+		leader = {
+			name = "Liam Trollbane"
+			type = general
+			fire = 3
+			shock = 5
+			manuever = 4
+			siege = 3
+			personality = elite_inspirational_leader_general_personality
+		}
+	}
+	
+	heir = { 
+		name = "Thoras"
+		monarch_name = "Thoras" 
+		dynasty = "Trollbane" 
+		claim = 90
+		adm = 4
+		dip = 4
+		mil = 6
+		birth_date = 545.11.11
+		death_date = 620.10.10
+ 	}
+
+	add_ruler_personality = strict_personality
+	set_ruler_flag = warrior_personality
+	set_heir_flag = is_long_lived
 } 
 
 591.1.1 = {

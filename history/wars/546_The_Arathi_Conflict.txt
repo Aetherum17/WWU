@@ -1,0 +1,35 @@
+#------------
+#--- Name ---
+#------------
+name = "The Arathi-Troll Conflict"
+
+#------------------------------------
+# Wargoal
+#------------------------------------
+war_goal = {
+	type = take_capital_arathi_conflict
+	casus_belli = cb_arathi_conflict
+    tag = A65
+}
+
+#------------------------------------
+# Dates
+#------------------------------------
+546.1.1 = {
+	add_attacker = A65 # Smolderthorn
+    add_attacker = A60 # Vilebranch
+    add_attacker = A64 # Witherbark
+	add_defender = A16 # Stromgarde
+    add_defender = A08 # Lordaeron
+    add_defender = P62 # Tyr's Hand
+}
+
+567.1.1 = {
+    rem_attacker = A65
+    rem_attacker = A60
+    rem_attacker = A64
+    rem_defender = A16
+    rem_defender = A08
+    rem_defender = P62
+}
+

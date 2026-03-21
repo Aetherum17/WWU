@@ -48,6 +48,7 @@ po_kill_nzoth = {
         FROM = {
             remove_country_modifier = seat_of_nzoth
             add_stability = -6
+			kill_ruler = yes
         }
 	}
 	ai_weight = {

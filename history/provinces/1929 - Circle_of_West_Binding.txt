@@ -9,8 +9,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_arathi
-religion = holy_light 
+culture = culture_fire
+religion = flame
 
 hre = no
 trade_goods = resource_artifacts
@@ -20,8 +20,5 @@ trade_goods = resource_artifacts
 	owner = A26
 	controller = A26
 	add_core = A26
-    
-    culture = culture_fire
-    religion = flame
 }
 

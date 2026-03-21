@@ -48,6 +48,7 @@ po_kill_yogg_saron = {
         FROM = {
             remove_country_modifier = seat_of_yogg_saron
             add_stability = -6
+			kill_ruler = yes
         }
 	}
 	ai_weight = {

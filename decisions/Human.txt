@@ -7,12 +7,14 @@ country_decisions = {
 		allow =  {
 			culture_group = culture_group_human
             adm_power = 25
+            mil_power = 25
 		}
 	  	effect = {
 			add_adm_power = -25
+            add_mil_power = -25
             add_country_modifier = {
                 name = inspire_righteousness_modifier
-                duration = 10950
+                duration = 5475
             }
 		}
 		ai_will_do = {
@@ -24,7 +26,11 @@ country_decisions = {
             }
             modifier = {
                 factor = 0
-                NOT = { adm_power = 400 }
+                NOT = { adm_power = 200 }
+            }
+            modifers = {
+                factor = 0 
+                NOT = { mil_power = 200 }
             }
 		}
 	}

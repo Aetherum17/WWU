@@ -323,8 +323,12 @@
 
  # Centaurs
 
- wwu_specialist_aratas: "Aratas Perfect Ones"
+ wwu_specialist_aratas: "Aratas's Perfect Ones"
 
  # Gorilla
 
  wwu_specialist_mukla: "King's Mukla Legion"
+
+ # Stromgarde
+ wwu_specialist_stromgarde_defenders: "Stromgarde Defenders"
+ wwu_specialist_stromgarde_snipers: "Stromgarde Sniper Company"

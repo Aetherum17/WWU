@@ -18,8 +18,6 @@ mission_stromic_justice = {
 }
 
 mission_facing_the_troll_threat = {
-    shock_damage = 0.15
-    morale_damage = 0.15
     shock_damage_received = -0.1
     fire_damage_received = -0.1
     morale_damage_received = -0.05
@@ -52,4 +50,11 @@ mission_flexible_diplomacy = {
     diplomatic_upkeep = 1
     ae_impact = -0.1
     improve_relation_modifier = 0.1
+}
+
+mission_fate_of_alterac_own = {
+    core_creation = -0.2
+    province_warscore_cost = -0.1
+    unjustified_demands = -0.2
+    ae_impact = -0.1
 }

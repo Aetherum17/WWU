@@ -1,9 +1,12 @@
-is_city = yes
+# Empty Province
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
-owner = SRS
-controller = SRS
-add_core = SRS
-add_core = AST
+
+base_tax = 1
+base_production = 1
+base_manpower = 1
 
 culture = culture_night_elf
 religion = elune

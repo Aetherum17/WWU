@@ -48,6 +48,7 @@ po_kill_yshaarj = {
         FROM = {
             remove_country_modifier = seat_of_yshaarj
             add_stability = -6
+			kill_ruler = yes
         }
 	}
 	ai_weight = {

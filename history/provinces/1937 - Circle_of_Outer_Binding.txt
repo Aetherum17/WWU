@@ -4,14 +4,13 @@ is_city = yes
 owner = A65
 controller = A65
 add_core = A65
-add_core = A16
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_forest_troll
-religion = voodoo
+culture = culture_wind
+religion = wind
 
 hre = no
 trade_goods = resource_artifacts
@@ -29,8 +28,5 @@ trade_goods = resource_artifacts
 	owner = LGA
 	controller = LGA
 	add_core = LGA
-    
-	culture = culture_wind
-	religion = wind
 }
 

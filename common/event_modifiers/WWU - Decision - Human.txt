@@ -4,7 +4,8 @@
 # Decision: Inspire Righteousness
 inspire_righteousness_modifier = {
     global_missionary_strength = 0.02
-    global_unrest = 1
+    land_morale = 0.05
+    production_efficiency = -0.075
 }
 
 # Decision: Enact Civil Code

@@ -49,7 +49,7 @@
  A16_restore_stromic_hearthland_title: "Restore the Stromic Hearthland"
  A16_restore_stromic_hearthland_desc: "With the current times whispering about great shift in power, we, the stormic people must act once more. While our current situation is but a shadow of the once proud Empire of Arathor, we must not forget that we are still their rightful heirs. Stromgarde sits upon Strom, the first of humanity great cities. But we are surrounded at all sides by those who want to see our precious kingdom burn. We will never all this! Glory to Stromgarde, may our enemies fear our might!"
  
- A16_secure_the_stromic_coast_title: "Secure the Stromic Coast"
+ A16_secure_the_stromic_coast_title: "Secure the Coast"
  A16_secure_the_stromic_coast_desc: "Our efforts in fighting off the enemy forces and the inhuman creatures we tolerated far too long finally showed up efforts. Arathi Highlands are secured, at least for now. To our west, there are human kingdoms who can be both allies and enemies, so we must approach carefully. To the East, the enemy of our kind, Trolls call the lands their homes. Both have to be evaluated and reinforced. We must grow in strenght when enemies are so close."
 
  A16_country_militarization_title: "Countryside Militarization"
@@ -101,6 +101,9 @@
  mission_flexible_diplomacy: "Flexible Diplomacy"
  desc_mission_flexible_diplomacy: ""
 
+ mission_fate_of_alterac_own: "Wartime Negociation"
+ desc_mission_fate_of_alterac_own: ""
+
  # --- Opinion Modifiers ---
  stromic_lordaeron_connections: "Lordaeron Connections"
  stromic_ironforge_connections: "Ironforge Connections"
@@ -117,17 +120,15 @@
  wwu_mission_stromgarde.2.desc: "Our deal has been rejected by the ruler of the dwarven kingdom."
  wwu_mission_stromgarde.2.option.a: "We will have it another way, sooner or later."
 
- wwu_mission_stromgarde.10.title: "Stormic Ultimatum"
- wwu_mission_stromgarde.10.desc: "We have received an ultimatum from the nation of Stromgarde. They demand our willing subjegation under their crown!"
- wwu_mission_stromgarde.10.option.a: "Over our dead bodies. Altarac does not kneel!"
- wwu_mission_stromgarde.10.option.b: "A dark day for our nation indeed..."
-
- wwu_mission_stromgarde.11.title: "Rejection of Stormic Ultimatum"
- wwu_mission_stromgarde.11.desc: "The Rats of Alterac had rejected our offer of willing surrender of their kingdom under our crown. They think themselves as not defeated, spitting in our faces!"
- wwu_mission_stromgarde.11.option.a: "Diplomacy is on our side, they will see it."
- wwu_mission_stromgarde.11.option.b: "Funny. Let's make sure they choke on their decision."
+ wwu_mission_stromgarde.10.title: "Fate of Alterac"
+ wwu_mission_stromgarde.10.desc: "With their realm under our occupation, its time we end their crown once and for all. Alterac and Stromgarde will reunite once more, one way or another."
+ wwu_mission_stromgarde.10.option.a: "They shall serve under the end of days."
+ wwu_mission_stromgarde.10.option.b: "Let them be our loyal dogs for now. In time, they will become one with us."
+ wwu_mission_stromgarde.10.option.c: "I think we can negociate this in another way..."
 
  # --- Tooltips ---
+
+ SPECIALIST_STROMGARDE_SNIPERS_TT: "Unlock the §YStromgarde Sniper Company§! Mercenary Company.\nCompany bonuses are:\n§G+0.5§! Infantry Shock\n§G+0.2%§! Military Tactics"
 
  stormgarde_flexible_diplomacy_tt: "§YStromgarde§! gets §Y'Flexible Diplomacy'§! until the end of the game, giving:\n- Diplomatic Relations: §G+1§!\n- Aggressive Expansion Impact: §G-10.0%§!\n- Improve Relations: §G+10.0%§!\n\nAdditionally, unlocks the following decisions:\n- §YSettle Claim - Gun Darok§!\n- §YResettlement of Southshore§!"
 
@@ -141,7 +142,7 @@
 
  STROMKAR_RECOVERY_TT: "If  §RStrom'kar the Warbreaker§! was not recovered by anyone, we will discovery its location immidietly."
 
- arathi_basin_fortification_tt: "§YFortify the Arathi Basin§!\n\n• §YArathi Basin§! has a Fort and §Y3 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of these provinces has a Fort."
+ arathi_basin_fortification_tt: "Fortify the Arathi Basin:\n\n• §YArathi Basin§! has a Fort and §Y3 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of above provinces has a Fort."
 
  unlock_settlement_decisions_tt: "§GUnlock the following Decisions:§!\n• §YSettle Claim - Gun Darok§!\n• §YSettle Claim - Dalaran Southshore§!\n• §YSettle Claim - Lordaeron Southshore§!"
 

@@ -6,6 +6,7 @@
 -Fixed "Warlust" event, allowing it to happen
 -Fixed discovery setup preventing otherworldly nations from seeing Khaz Algar
 -Fixed Discovery event allowing humans to see Draenor upon orcish invasion
+-Fixed Green Dragons provinces starting as incorrect faith, making them start with 0 religious unity
 
 # General Gameplay
 -Centers of Trade upgrade cost adjusted: LVL 2 now costs 300, LVL 3 1500.
@@ -16,6 +17,10 @@
 -Deck of Wonders "Bypass Forts" card has been disabled
 -Adjusted various privileges for noblility, clergy and traders
 
+History:
+-Starting War: Arathi Conflict - War for the Arathi Highlands between Troll Tribes against Stromgarde and their human allies
+-Changes in development values, cultures and religions across Hinterlands and Arathi Highlands
+
 # Monument:
 -Altar of Rot global modifier changed
 
@@ -24,6 +29,7 @@
 -Added Unique Lore-Based title to each old gods
 -Added background color to summoning decisions
 -Summoning an old god will now require +2 stability
+-Killing Old Gods is actually possible with "Kill Old God" peace treaty
 
 * Ahn'Qiraj:
 -Added more interactions with the subjects + unique call to arms decision

@@ -25,7 +25,7 @@ dogma_flexible = {
     }
 	removed_effect = { }
     
-    global_unrest = -2
+    global_unrest = -1
     
 	ai_will_do = {
 		factor = 1		
@@ -55,7 +55,7 @@ dogma_appeasing = {
     }
 	removed_effect = { }
     
-    diplomatic_reputation = 2
+    diplomatic_reputation = 1.5
     
 	ai_will_do = {
 		factor = 1		
@@ -115,7 +115,7 @@ dogma_bellicose = {
     }
 	removed_effect = { }
     
-    warscore_cost_vs_other_religion = -0.15
+    warscore_cost_vs_other_religion = -0.1
     
 	ai_will_do = {
 		factor = 1		
@@ -145,7 +145,7 @@ dogma_hostile = {
     }
 	removed_effect = { }
     
-    global_missionary_strength = 0.03
+    global_missionary_strength = 0.02
     
 	ai_will_do = {
 		factor = 1		
@@ -206,7 +206,7 @@ dogma_ferverous = {
 	removed_effect = { }
     
     tolerance_own = 1
-    manpower_in_true_faith_provinces= 0.125
+    manpower_in_true_faith_provinces= 0.1
     
 	ai_will_do = {
 		factor = 1		
@@ -236,7 +236,7 @@ dogma_enlightened = {
     }
 	removed_effect = { }
     
-    stability_cost_modifier = -0.33
+    stability_cost_modifier = -0.2
     
 	ai_will_do = {
 		factor = 1		

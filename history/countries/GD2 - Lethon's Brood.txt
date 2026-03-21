@@ -30,6 +30,11 @@ capital 			= 1497
         name = member_of_dragon_aspects
         duration = -1
     }
+
+    add_country_modifier = {
+		name = dreaming
+		duration = -1
+	}
 }
 
 

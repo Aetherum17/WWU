@@ -7,7 +7,7 @@ add_core = A16
 
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 4
 
 culture = culture_arathi
 religion = holy_light

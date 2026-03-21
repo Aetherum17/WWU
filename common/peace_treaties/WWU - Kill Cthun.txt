@@ -48,6 +48,7 @@ po_kill_cthun = {
         FROM = {
             remove_country_modifier = seat_of_cthun
             add_stability = -6
+			kill_ruler = yes
         }
 	}
 	ai_weight = {
