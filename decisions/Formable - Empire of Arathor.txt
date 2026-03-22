@@ -11,7 +11,7 @@ country_decisions = {
             
             # Requisites			
 			OR = {
-			    owns = 543
+			    owns = 6381
 				owns = 927
 				owns = 773
 				owns = 863
@@ -23,7 +23,7 @@ country_decisions = {
         
         provinces_to_highlight = {
 			OR = {
-			    province_id = 543
+			    province_id = 6381
                 province_id = 927
 				province_id = 773
 				province_id = 863
@@ -34,30 +34,38 @@ country_decisions = {
         
 		allow = {
             # Ownership
-			owns_core_province = 543   
+			owns_core_province = 6381   
 			owns_core_province = 927
 			owns_core_province = 773
 			owns_core_province = 863
 			owns_core_province = 981
 			owns_core_province = 570
+
+			# Land
+			num_of_owned_provinces_with = {
+				value = 200
+				OR = {
+					superregion = kul_tiras_superregion
+					superregion = ek_lordaeron_superregion
+				}
+			}
             
             # General
-			adm_tech = 14
 			is_at_war = no	
 			stability = 1
-			total_development = 1000
+			total_development = 1250
             
 			# Cost
-            adm_power = 200
-			dip_power = 200
-			mil_power = 200
+            adm_power = 100
+			dip_power = 100
+			mil_power = 100
 		}
         
 		effect = {
             # Cost
-			add_adm_power = -200
-			add_dip_power = -200
-            add_mil_power = -200
+			add_adm_power = -100
+			add_dip_power = -100
+            add_mil_power = -100
             
             # Switch
 			change_tag = FNA

@@ -285,7 +285,7 @@ A16_stromgarde_column_2 = {
             A17 = {
                 capital_scope = {
                     AND = {
-                        devastation = 50
+                        devastation = 25
                         has_province_modifier = scorched_earth
                     }
                 }
@@ -351,6 +351,94 @@ A16_stromgarde_column_2 = {
         effect = {
             A16 = {
                 country_event = { id = wwu_mission_stromgarde.10 }
+            }
+        }
+    }
+
+    # 5. Gilneas Invasion
+    A16_gilneas_invasion = {
+        icon = mission_dreadwake
+        position = 6 
+
+        required_missions = { A16_baradin_isles }
+
+        trigger = {
+            num_of_owned_provinces_with = {
+                value = 8
+                region = mission_balcony
+            }
+            A12 = {
+                OR = {
+                    war_with = ROOT
+                    is_rival = ROOT
+                    ai_attitude = {
+                        who = A16
+                        attitude = attitude_hostile
+                    }
+                }
+            }
+        }
+
+        provinces_to_highlight = {
+            is_capital_of = ROOT
+        }
+
+        effect = {
+            region_gilneas = {
+                add_permanent_claim = ROOT
+            }
+            if = {
+                limit = {
+                    A12 = {
+                        NOT = { war_with = ROOT }
+                        NOT = { truce_with = ROOT }
+                    }
+                }
+                add_casus_belli = {
+                    target = A12
+                    type = cb_vassalize_mission
+                    months = 180
+                }
+            }
+        }
+    }
+
+    # 6. Gilneas Subjegation
+    A16_gilneas_subjegation = {
+        icon = mission_gilneas_flag
+        position = 6
+
+        required_missions = { A16_gilneas_invasion }
+
+        trigger = {
+            region_gilneas = {
+                type = all
+                country_or_non_sovereign_subject_holds = ROOT
+            }
+        }
+
+        provinces_to_highlight = {
+            region = region_gilneas
+        }
+
+        effect = {
+            region_silverpine_forest = {
+                add_permanent_claim = ROOT
+            }
+            region_alterac_mountains = {
+                add_permanent_claim = ROOT
+            }
+            area_boralus = {
+                add_permanent_claim = ROOT
+            }
+            area_ivar_patch = {
+                add_permanent_claim = ROOT
+            }
+            area_capital_city = {
+                add_permanent_claim = ROOT
+            }
+            area_lordaeron_woods = {
+                add_permanent_claim = ROOT
             }
         }
     }
@@ -563,7 +651,7 @@ A16_stromgarde_column_3 = {
         
 		trigger = {
             calc_true_if = {
-                amount = 30
+                amount = 40
                 
                 all_owned_province = {
                     has_port = yes

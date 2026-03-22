@@ -8,42 +8,48 @@
 
  # Column 1
  A16_establish_lordaeron_connections_title: "Establish Lordaeron Connections"
- A16_establish_lordaeron_connections_desc: "WIP"
+ A16_establish_lordaeron_connections_desc: "While we have received help from the noble king of Lordaeron in the dire times, we have not previously established proper diplomatic ties or relations with the largest of the human kingdoms. It is time we correct our mistake and establish a friendly relations."
 
  A16_dalaran_ties_title: "Dalaran Ties"
- A16_dalaran_ties_desc: "WIP"
+ A16_dalaran_ties_desc: "Dalaran stands as the first of the human nations emergind from the fractures of old Arathorian Empire. Being the first major city and the capital of mages to study and practice magic, Dalaran had become a major political entity and important center of magical discovery. We should establish good relations with them so that we might one day benefit from their ways."
 
  A16_flexible_diplomacy_title: "Flexible Diplomacy"
- A16_flexible_diplomacy_desc: "WIP"
+ A16_flexible_diplomacy_desc: "Diplomacy is a tricky art that requires both bright minds and subtle artisty in the way of negociation. It is a path to many closed doors, allies and enemies alike. If we are trive in this age, we must remind ourselves that might doesn't always make us right. Some subjects require subtle actions."
 
  # Column 2
  A16_dwarven_ties_title: "Dwarven Relations"
- A16_dwarven_ties_desc: "WIP"
+ A16_dwarven_ties_desc: "The Dwarven Kingdom of Ironforge emerged many years ago and we have on occasion visited one another during relevant political events. However, to the west of our own capital lies the old dwarven fortress, populated by the notable numbers of ironforge dwarves. Due to this, and many other political factors we should open a diplomatic channel between Stromgarde and Ironforge."
 
  A16_insult_the_alteraci_title: "Insult the Alteraci"
  A16_insult_the_alteraci_desc: "With history between Stormic and Alteraci kingdom is not particuralty long, its is tale of continous conflict of noble titles, trade disagreements and spheres of influence. While we went back and forward on many occasions, the times call for us to let the embers rise once, so that we may put down the fire once and for all."
  
  A16_punish_the_alteraci_title: "Humiliate Alterac"
- A16_punish_the_alteraci_desc: "With our show of force over Kingdom of Alterac and their presumptuous noble elites, we have proven our superiority. With the Altarac humiliated, it is time we break their fragile crown and become the rulers of Altarac."
+ A16_punish_the_alteraci_desc: "With our show of force over Kingdom of Alterac and their presumptuous noble elites, we have proven our superiority. With the Altarac humiliated, it is time we break their fragile crown and become the rulers of their realm."
 
  A16_alterac_war_title: "Alterac War"
- A16_alterac_war_desc: "WIP"
+ A16_alterac_war_desc: "Our advances cannot be stopped. The fragile realm crumbles under our forces, its soldiers either slain, captured or deserted. The seat of their fleeing royal power has already been captured, and its only a matter of time before all of their lands surrender to our direct control. Its time to sit at the table of winners, and make sure our demands are heard. Loud and clear."
+
+ A16_gilneas_invasion_title: "Invasion of Gilneas"
+ A16_gilneas_invasion_desc: "With our landing on the Tempest and Purgation isles, we have managed to create a foothold, a comfortable beachhead for our soldiers. While the kingdoms of Gilneas and Stromgarde had a history of both alliances and rivalries, the tides of history show that we are on the path of reunification of our realms. All human kingdoms have risen from the decline of our previous empire, and now it's time we bring some of them back under our control."
+
+ A16_gilneas_subjegation_title: "Gilnean Subjegation"
+ A16_gilneas_subjegation_desc: "The Gilneas Peninsula has been subjegated. While the remnants of the previous kings might still resist us, hoping their action can resolve in their direct rule, it is an important step in the direction of reunification of the Arathorian Empire."
 
  # Column 3
  A16_claim_the_mantle_of_humanity_title: "Claim the Mantle of Humanity"
- A16_claim_the_mantle_of_humanity_desc: "WIP"
+ A16_claim_the_mantle_of_humanity_desc: "Protection of Humanity is a mission that had formed the first of the human empire. We are the earls to that quest, destined to embrace it and ensure humanity as it stands will endure."
  
  A16_protect_the_western_flank_title: "Protect the Western Flank"
- A16_protect_the_western_flank_desc: "WIP"
+ A16_protect_the_western_flank_desc: "Even with the shoreline under our control, we must ensure our enemies will not be able to easily cross and invade our realm. We must protect this border!"
 
  A16_southshore_control_title: "Southshore Control"
- A16_southshore_control_desc: "WIP"
+ A16_southshore_control_desc: "Southshore stands as important center of commerce and strategic control. Tarren Mill and Southshore has been subject of many diplomatic and noble issues over the years, and while issue of Tarren Mill is important to us, Southshore requires our supervision as well."
 
  A16_baradin_isles_title: "Baradin Isles Lordship"
- A16_baradin_isles_desc: "WIP"
+ A16_baradin_isles_desc: "To control the Baradin Bay, we must control the strategic isles. Many have been ruled by lesser nobles who have not managed to create any opposition to us, making it easy to call those lands ours."
 
  A16_dominate_baradin_bay_title: "Dominate Baradin Bay"
- A16_dominate_baradin_bay_desc: "WIP"
+ A16_dominate_baradin_bay_desc: "Our strategic objective is secured. The Baradin Bay, upon which stands city of Stromgarde and many of our important lands is now under our grasp. With a powerful naval presence and coastal defences, we will make sure our people can live in peace upon those shores."
 
  # Column 4
  A16_restore_stromic_hearthland_title: "Restore the Stromic Hearthland"
