@@ -236,6 +236,7 @@ cb_legion_invasion = {
 	
 	prerequisites_self = {
 		tag = B92
+        has_country_flag = unlock_legion_invasions
 	}
 	
 	war_goal = legion_invasion_goal

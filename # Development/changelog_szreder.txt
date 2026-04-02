@@ -8,6 +8,7 @@
 -Fixed Discovery event allowing humans to see Draenor upon orcish invasion
 -Fixed Green Dragons provinces starting as incorrect faith, making them start with 0 religious unity
 -Fixed Knights of the Ebon Blade setup and events using outdated provinces
+-Prevented Burning Legion from making their leaders generals so they stop loosing their leaders on the start of the game
 
 # General Gameplay
 -Centers of Trade upgrade cost adjusted: LVL 2 now costs 300, LVL 3 1500.
@@ -17,6 +18,7 @@
 -Spawned nation boost will now grant nations idea cost reduction to catch up with the world
 -Deck of Wonders "Bypass Forts" card has been disabled
 -Adjusted various privileges for noblility, clergy and traders
+-National Ideas values rebalanced
 
 History + map:
 -Starting War: Arathi Conflict - War for the Arathi Highlands between Troll Tribes against Stromgarde and their human allies
@@ -49,6 +51,10 @@ History + map:
 
 * Empire of Arathor
 -No longer does formable requires admin tech 14 to form. Replaced by number of owned provinces requirement
+
+* Burning Legion
+-Demonic Invasion CB will now be unlocked only after unification of Argus, preventing AI from declaring day 1 invasions
+-Burning Legion will start with Empire rank
 
 # Mission Trees
 * Ahn'Qiraj:

@@ -1,5 +1,6 @@
 government = theocracy
 add_government_reform = burning_legion_reform
+government_rank = 3
 
 mercantilism 			= 10
 technology_group 		= tech_demon

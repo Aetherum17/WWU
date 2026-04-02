@@ -70,7 +70,7 @@ wwu_religious_ideas = {
     }
     
     bonus = {
-        culture_conversion_cost = -0.1
+        culture_conversion_cost = -0.15
         clergy_loyalty_modifier = 0.05
     }
     
@@ -93,7 +93,7 @@ wwu_religious_ideas = {
     }
     # Devotion
     wwu_religious_ideas_5 = {
-        tolerance_own = 2
+        tolerance_own = 1
 		papal_influence = 1
 		devotion = 0.5
 		monthly_fervor_increase = 1
@@ -101,7 +101,7 @@ wwu_religious_ideas = {
     }
     # Religious Traditions
     wwu_religious_ideas_6 = {
-		prestige_per_development_from_conversion = 0.33
+		prestige_per_development_from_conversion = 0.2
     }
 	# Deus Vult
     wwu_religious_ideas_7 = {
@@ -147,8 +147,7 @@ wwu_economic_ideas = {
     }
     # Organised Construction
     wwu_economic_ideas_2 = {
-        build_cost = -0.1
-        build_time = -0.1
+        build_cost = -0.15
     }
     # Royal Bank
     wwu_economic_ideas_3 = {
@@ -170,7 +169,7 @@ wwu_economic_ideas = {
     }
     # Crop Rotation
     wwu_economic_ideas_7 = {
-        production_efficiency = 0.1
+        production_efficiency = 0.15
     }
     
     ai_will_do = {
@@ -188,8 +187,7 @@ wwu_expansion_ideas = {
     category = ADM
 
     bonus = {
-        treasure_fleet_income = 0.2
-		global_trade_power = 0.1
+		global_trade_power = 0.15
     }
     #Colonists Expeditions
     wwu_expansion_ideas_1 = {
@@ -212,7 +210,6 @@ wwu_expansion_ideas = {
     }
     # Regional Governors
     wwu_expansion_ideas_5 = {
-        global_unrest = -1
         years_of_nationalism = -3
     }
     # Global Territories
@@ -307,7 +304,7 @@ wwu_administrative_ideas = {
     }
     # Administrative Efficiency
     wwu_administrative_ideas_6 = {
-        administrative_efficiency = 0.05
+        administrative_efficiency = 0.03
     }
     # Administrative Innovations
     wwu_administrative_ideas_7 = {
@@ -333,9 +330,9 @@ wwu_harmony_ideas = {
     }
     
     bonus = {
-        no_stability_loss_on_monarch_death = yes 
+        no_stability_loss_on_monarch_death = yes
+        diplomatic_reputation = 1 
         peasants_loyalty_modifier = 0.1
-        num_accepted_cultures = 1
     }
     
     # Religious Unity
@@ -359,7 +356,7 @@ wwu_harmony_ideas = {
     # Cultural Integration
     wwu_harmony_ideas_5 = {
         num_accepted_cultures = 2
-        promote_culture_cost = -0.33
+        promote_culture_cost = -0.5
     }
     # Desire of Discusion
     wwu_harmony_ideas_6 = {
@@ -455,7 +452,7 @@ wwu_law_ideas = {
     }
     # Noble Consensus
     wwu_law_ideas_6 = {
-		diplomatic_annexation_cost = -0.2
+		diplomatic_annexation_cost = -0.25
     }
     # Minority Rights
     wwu_law_ideas_7 = {

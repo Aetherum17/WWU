@@ -67,3 +67,6 @@
 
  mission_demonic_footholds: "Demonic Footholds"
  desc_mission_demonic_footholds: ""
+
+ # --- Custom Tooltips ---
+ legion_invasion_reward_tt: "§GRewards:§!\nGain §Y500§! Military Power.\nGain all empty provinces in §YEredath§! and make them our cores.\nUnlock the §YDemonic Invasion§! Casus Belli."

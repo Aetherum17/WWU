@@ -11,7 +11,6 @@ capital 			= 3002
 add_army_professionalism = 0.1
 
 add_historical_rival = A17 # Alterac
-add_country_modifier = A16_ornery_diplomacy
 
 546.1.1 = { 
 	monarch = { 
@@ -48,6 +47,11 @@ add_country_modifier = A16_ornery_diplomacy
 	add_ruler_personality = strict_personality
 	set_ruler_flag = warrior_personality
 	set_heir_flag = is_long_lived
+
+	add_country_modifier = {
+		name = A16_ornery_diplomacy
+		duration = -1
+	}
 } 
 
 591.1.1 = {

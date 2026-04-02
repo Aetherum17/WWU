@@ -247,7 +247,6 @@ burning_legion_reform = {
     lock_level_when_selected    = yes
     
     monastic                = yes
-	rulers_can_be_generals  = yes
     raze_province           = yes
     
 	modifiers = {
