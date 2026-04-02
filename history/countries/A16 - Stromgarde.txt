@@ -11,6 +11,7 @@ capital 			= 3002
 add_army_professionalism = 0.1
 
 add_historical_rival = A17 # Alterac
+add_country_modifier = A16_ornery_diplomacy
 
 546.1.1 = { 
 	monarch = { 
@@ -60,7 +61,7 @@ add_historical_rival = A17 # Alterac
 		adm = 3
 		dip = 2
 		mil = 5
-        birth_date = 554.1.1
+        birth_date = 545.11.11
 	} 
     
     # Faction - Alliance
@@ -68,6 +69,8 @@ add_historical_rival = A17 # Alterac
         name = member_of_alliance
         duration = -1
     }
+
+	remove_country_modifier = A16_ornery_diplomacy
 }
 
 605.1.1 = {

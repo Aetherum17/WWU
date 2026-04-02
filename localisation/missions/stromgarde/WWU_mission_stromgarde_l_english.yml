@@ -134,6 +134,11 @@
  mission_stromgarde_reform_valorcall: "Valorcall's Military Reform"
  desc_mission_stromgarde_reform_valorcall: ""
 
+ # --- Other Modifers ---
+
+ A16_ornery_diplomacy: "Ornery Diplomacy"
+ desc_A16_ornery_diplomacy: ""
+
  # --- Opinion Modifiers ---
  stromic_lordaeron_connections: "Lordaeron Connections"
  stromic_ironforge_connections: "Ironforge Connections"
@@ -156,6 +161,11 @@
  wwu_mission_stromgarde.10.option.b: "Let them be our loyal dogs for now. In time, they will become one with us."
  wwu_mission_stromgarde.10.option.c: "I think we can negociate this in another way..."
 
+ wwu_mission_stromgarde.11.title: "Ravenholdt Future"
+ wwu_mission_stromgarde.11.desc: "WIP"
+ wwu_mission_stromgarde.11.option.a: "We can't possibly win this."
+ wwu_mission_stromgarde.11.option.b: "Ravenholdt will not submit so easily."
+
  wwu_mission_stromgarde.20.title: "Military Reforms from Stromgarde Keep"
  wwu_mission_stromgarde.20.desc: "WIP"
  wwu_mission_stromgarde.20.option.a: "We will go with Nilas's proposal."
@@ -166,7 +176,7 @@
 
  SPECIALIST_STROMGARDE_SNIPERS_TT: "Unlock the §YStromgarde Sniper Company§! Mercenary Company.\nCompany bonuses are:\n§G+0.5§! Infantry Shock\n§G+0.2%§! Military Tactics"
 
- stormgarde_flexible_diplomacy_tt: "§YStromgarde§! gets §Y'Flexible Diplomacy'§! until the end of the game, giving:\n- Diplomatic Relations: §G+1§!\n- Aggressive Expansion Impact: §G-10.0%§!\n- Improve Relations: §G+10.0%§!\n\nAdditionally, unlocks the following decisions:\n- §YSettle Claim - Gun Darok§!\n- §YResettlement of Southshore§!"
+ stormgarde_flexible_diplomacy_tt: "§YStromgarde§! gets §Y'Flexible Diplomacy'§! until the end of the game, giving:\n- Diplomatic Relations: §G+1§!\n- Aggressive Expansion Impact: §G-10.0%§!\n- Improve Relations: §G+10.0%§!\n\nAdditionally, unlocks the following decisions:\n- §YSettle Claim - Gun Darok§!\n- §YResettlement of Southshore§! \n\n Removes §Y'Ornery Diplomacy'§! modifer from Stromgarde."
 
  stromgarde_countryside_militarization_trigger_tt: "Every province in §YArathi Highlands§! is owned by Stromgarde and has:\n- Barracks\n- Arsenal\n- Training Grounds"
 

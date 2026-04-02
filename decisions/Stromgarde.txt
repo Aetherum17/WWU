@@ -77,3 +77,55 @@ country_decisions = {
         }
     }
 }
+
+# Demand Ravenholdt Submission
+country_decisions = {
+    ravenholdt_force_vassalize = {
+        potential = {
+            exists = A27
+            A27 = {
+                NOT = {
+                    truce_with = ROOT
+                }
+            }
+            OR = {
+                A27 = {
+                    num_of_allies = 3
+                    NOT = { alliance_with = ROOT }
+                }
+                A27 = {
+                    is_subject = yes
+                    NOT = {
+                        is_subject_of = ROOT
+                    }
+                }
+            }
+        }
+
+        allow = {
+            OR = {
+                power_projection = 50
+                prestige = 50
+            }
+            dip_power = 100
+            mil_power = 100
+        }
+
+        effect = {
+            A27 = {
+                country_event = {
+                    id = wwu_mission_stromgarde.11
+                }
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+
+            modifers = {
+                factor = 0
+                is_at_war = yes
+            }
+        }
+    }
+}

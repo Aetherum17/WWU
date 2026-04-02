@@ -126,6 +126,60 @@ country_event = {
     }
 }
 
+#11 #Ravenholdt Subjugation
+country_event = {
+    id = wwu_mission_stromgarde.11
+    title = wwu_mission_stromgarde.11.title
+    desc = wwu_mission_stromgarde.11.desc
+    picture = DANCING_SWORDS_eventPicture
+
+    is_triggered_only = yes
+
+    # Ravenholdt Submits
+    option = {
+        name = wwu_mission_stromgarde.11.option.a
+
+        add_prestige = -10
+
+        A16 = {
+            create_subject = {
+                subject_type = tributary_vassal
+                subject = A27
+            }
+        }
+
+        ai_chance = {
+            factor = 10
+        }
+    }
+
+    # Ravenholdt Defends Itself
+    option = {
+        name = wwu_mission_stromgarde.11.option.b
+
+        add_prestige = 10
+        add_mil_power = 200
+
+        741 = {
+            add_claim = ROOT
+        }
+
+        declare_war_with_cb = {
+            who = A16
+            casus_belli = cb_border_war
+        }
+
+        all_ally = {
+            join_all_offensive_wars_of = ROOT
+        }
+
+        ai_chance = {
+            factor = 2
+        }
+    }
+}
+
+
 #20 #Reforms from Stromgarde Keep
 country_event = {
     id = wwu_mission_stromgarde.20

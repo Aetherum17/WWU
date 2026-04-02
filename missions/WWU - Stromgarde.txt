@@ -150,6 +150,8 @@ A16_stromgarde_column_1 = {
                 add_country_flag = unlock_settle_gun_darok
                 add_country_flag = unlock_resettle_southshore
 
+                remove_country_modifier = A16_ornery_diplomacy
+
                 add_country_modifier = {
                     name = mission_flexible_diplomacy
                     duration = -1
@@ -491,10 +493,14 @@ A16_stromgarde_column_2 = {
         required_missions = { A16_baradin_isles }
 
         trigger = {
-            num_of_owned_provinces_with = {
-                value = 8
-                region = mission_balcony
+            calc_true_if = {
+                amount = 8
+                
+                all_owned_province = {
+                    region = region_gilneas
+                }
             }
+
             A12 = {
                 OR = {
                     war_with = ROOT
