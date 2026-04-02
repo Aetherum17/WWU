@@ -235,8 +235,10 @@ cb_legion_invasion = {
 	is_triggered_only = yes
 	
 	prerequisites_self = {
-		tag = B92
-        has_country_flag = unlock_legion_invasions
+        AND = {
+            tag = B92
+            has_country_flag = unlock_legion_invasions
+        }
 	}
 	
 	war_goal = legion_invasion_goal
@@ -501,6 +503,8 @@ cb_demonic_invasion = {
 		capital_scope = {
             superregion = argus_superregion
         }
+
+        has_country_flag = unlock_legion_invasions
 	}
 
 	war_goal = take_capital_demonic_invasion

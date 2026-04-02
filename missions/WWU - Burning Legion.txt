@@ -12,6 +12,24 @@ B92_burning_legion_column_1 = {
 	}
     
 	has_country_shield = yes
+
+    B92_demon_armies = {
+        icon = mission_fel_orc
+        position = 1
+
+        required_missions = { }
+
+        trigger = {
+            army_size_percentage = 0.95
+            num_of_generals = 1
+        }
+
+        effect = {
+            argus_superregion = {
+                add_permanent_claim = ROOT
+            }
+        }
+    }
 	
 	B92_endless_legions = {
 		icon = mission_demonhunter_fel_rush
@@ -160,21 +178,18 @@ B92_burning_legion_column_3 = {
                 NOT = { exists = SDG }
                 SDG = {
                     is_subject_of = ROOT
-                    is_subject_of_type = demonic_vassal
                 }
             }
             OR = {
                 NOT = { exists = ARR }
                 ARR = {
                     is_subject_of = ROOT
-                    is_subject_of_type = demonic_vassal
                 }
             }
             OR = {
                 NOT = { exists = ARL }
                 ARL = {
                     is_subject_of = ROOT
-                    is_subject_of_type = demonic_vassal
                 }
             }
             
@@ -191,19 +206,19 @@ B92_burning_legion_column_3 = {
 		effect = {
             custom_tooltip = legion_invasion_reward_tt
 
-			add_mil_power = 500
-            
-            region_eredath = {
-                limit = {
-                    is_empty = yes
-                }
-                
-                cede_province = ROOT
-                add_core = ROOT
-            }
-
             hidden_effect = {
                 set_country_flag = unlock_legion_invasions
+
+                add_mil_power = 500
+            
+                region_eredath = {
+                    limit = {
+                        is_empty = yes
+                    }
+                
+                    cede_province = ROOT
+                    add_core = ROOT
+                }
             }
 		}
 	}
