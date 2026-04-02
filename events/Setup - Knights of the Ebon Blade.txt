@@ -55,28 +55,35 @@ country_event = {
             add_base_production = 3
             add_base_manpower = 3
             
-            add_building = wow_fort_1
+            add_building = wow_fort_3
 
             change_province_name = "Acherus the Ebon Hold"
         }
         
         # The Noxious Glades
-        2190 = {
+        area_noxious_glade = {
             cede_province = P13
             add_core = P13
-            change_culture = culture_death_knight
+            change_culture = culture_scourge
             change_religion = cult_of_the_damned
         }
         
         # Light's Point
-        3073 = {
+        area_lights_point = {
+            cede_province = P13
+            add_core = P13
+            change_culture = culture_scourge
+            change_religion = cult_of_the_damned
+        }
+        # Suntouched Glade
+        915 = {
             cede_province = P13
             add_core = P13
             change_culture = culture_death_knight
             change_religion = cult_of_the_damned
         }
-        # Tuskcross
-        2208 = {
+        # Havenshire Farms
+        6325 = {
             cede_province = P13
             add_core = P13
             change_culture = culture_death_knight
@@ -124,13 +131,16 @@ country_event = {
             adm = 4
             dip = 4
             mil = 4
+            culture = culture_death_knight
+            religion = cult_of_the_damned
+            male = yes
         }
         
         setup_spellcaster_history = {
-            APTITUDE = 1
-            FINESSE = 1
-            CONCENTRATION = 2
-            MANA = 3
+            APTITUDE = 3
+            FINESSE = 3
+            CONCENTRATION = 3
+            MANA = 6
             necromancy = yes
         }
         
@@ -150,7 +160,7 @@ country_event = {
                 }
             }
             
-            add_permanent_claim = ROOT
+            add_claim = ROOT
         }
 	}
 }

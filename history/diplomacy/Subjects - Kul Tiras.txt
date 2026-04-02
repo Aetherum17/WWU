@@ -18,3 +18,11 @@ dependency = {
 #	end_date = 640.1.1
 #}
 
+# Kul'tiras - Crestfall
+dependency = {
+	subject_type = "march"
+	first = A14
+	second = CRE
+	start_date = 515.1.1
+	end_date = 600.1.1
+}

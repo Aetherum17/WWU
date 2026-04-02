@@ -16,6 +16,15 @@
  A16_flexible_diplomacy_title: "Flexible Diplomacy"
  A16_flexible_diplomacy_desc: "Diplomacy is a tricky art that requires both bright minds and subtle artisty in the way of negociation. It is a path to many closed doors, allies and enemies alike. If we are trive in this age, we must remind ourselves that might doesn't always make us right. Some subjects require subtle actions."
 
+ A16_stromgarde_development_title: "Stromgarde's Growth"
+ A16_stromgarde_development_desc: "WIP"
+
+ A16_squares_development_title: "Expansion of Square Districts"
+ A16_squares_development_desc: "WIP"
+
+ A16_stromgarde_keep_dev_title: "The Stromgarde Keep"
+ A16_stromgarde_keep_dev_desc: "WIP"
+
  # Column 2
  A16_dwarven_ties_title: "Dwarven Relations"
  A16_dwarven_ties_desc: "The Dwarven Kingdom of Ironforge emerged many years ago and we have on occasion visited one another during relevant political events. However, to the west of our own capital lies the old dwarven fortress, populated by the notable numbers of ironforge dwarves. Due to this, and many other political factors we should open a diplomatic channel between Stromgarde and Ironforge."
@@ -110,6 +119,21 @@
  mission_fate_of_alterac_own: "Wartime Negociation"
  desc_mission_fate_of_alterac_own: ""
 
+ mission_altar_of_kings: "Altar of Kings"
+ desc_mission_altar_of_kings: ""
+
+ mission_stromgarde_dev: "Stromgarde Development Plan"
+ desc_mission_stromgarde_dev: ""
+
+ mission_stromgarde_reform_nilas: "Nilas's Military Reform"
+ desc_mission_stromgarde_reform_nilas: ""
+
+ mission_stromgarde_reform_wrenn: "Wrenn's Military Reform"
+ desc_mission_stromgarde_reform_wrenn: ""
+
+ mission_stromgarde_reform_valorcall: "Valorcall's Military Reform"
+ desc_mission_stromgarde_reform_valorcall: ""
+
  # --- Opinion Modifiers ---
  stromic_lordaeron_connections: "Lordaeron Connections"
  stromic_ironforge_connections: "Ironforge Connections"
@@ -132,6 +156,12 @@
  wwu_mission_stromgarde.10.option.b: "Let them be our loyal dogs for now. In time, they will become one with us."
  wwu_mission_stromgarde.10.option.c: "I think we can negociate this in another way..."
 
+ wwu_mission_stromgarde.20.title: "Military Reforms from Stromgarde Keep"
+ wwu_mission_stromgarde.20.desc: "WIP"
+ wwu_mission_stromgarde.20.option.a: "We will go with Nilas's proposal."
+ wwu_mission_stromgarde.20.option.b: "We will go with Wrenn's proposal."
+ wwu_mission_stromgarde.20.option.c: "We will go with Valorcall's proposal."
+
  # --- Tooltips ---
 
  SPECIALIST_STROMGARDE_SNIPERS_TT: "Unlock the §YStromgarde Sniper Company§! Mercenary Company.\nCompany bonuses are:\n§G+0.5§! Infantry Shock\n§G+0.2%§! Military Tactics"
@@ -148,11 +178,11 @@
 
  STROMKAR_RECOVERY_TT: "If  §RStrom'kar the Warbreaker§! was not recovered by anyone, we will discovery its location immidietly."
 
- arathi_basin_fortification_tt: "Fortify the Arathi Basin:\n\n• §YArathi Basin§! has a Fort and §Y3 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of above provinces has a Fort."
+ arathi_basin_fortification_tt: "Fortify the Arathi Basin:\n\n• §YArathi Basin§! has a Fort and §Y5 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of above provinces has a Fort."
 
  unlock_settlement_decisions_tt: "§GUnlock the following Decisions:§!\n• §YSettle Claim - Gun Darok§!\n• §YSettle Claim - Dalaran Southshore§!\n• §YSettle Claim - Lordaeron Southshore§!"
 
- # === Modifiers ---
+ # === Other Modifiers ---
  trollbane_conversion_drive: "Trollbane Conversion Drive"
  trollbane_conversion_drive_desc: "The Nobility is actively working to eradicate Troll cultural influence from our territories."
  

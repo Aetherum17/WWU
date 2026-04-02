@@ -19,6 +19,21 @@ country_event = {
             type = all
             controlled_by = ROOT
         }
+
+        area_kings_harbor = {
+            type = all
+            controlled_by = ROOT
+        }
+
+        area_tuskhold = {
+            type = all
+            controlled_by = ROOT
+        }
+
+        area_lights_point = {
+            type = all
+            controlled_by = ROOT
+        }
     }
 
     mean_time_to_happen = {
@@ -39,41 +54,26 @@ country_event = {
         add_prestige = 20
         add_manpower = 10  
         
-        # Havenshire
-        1011 = {
-            cede_province = ROOT
+        # Light's Point
+        area_lights_point = {
             add_core = ROOT
             change_culture = culture_death_knight
             change_religion = ROOT
         }
-
+        # Tuskhold
+        area_tuskhold = {
+            add_core = ROOT
+            change_culture = culture_death_knight
+            change_religion = ROOT
+        }
         # King's Harbor
-        519 = {
-            cede_province = ROOT
+        area_kings_harbor = {
             add_core = ROOT
             change_culture = culture_death_knight
             change_religion = ROOT
         }
-
-        # Suntouched Glade
-        915 = {
-            cede_province = ROOT
-            add_core = ROOT
-            change_culture = culture_death_knight
-            change_religion = ROOT
-        }
-
         # New Avalon
-        1028 = {
-            cede_province = ROOT
-            add_core = ROOT
-            change_culture = culture_death_knight
-            change_religion = ROOT
-        }
-
-        # Fletcher's Hollow
-        539 = {
-            cede_province = ROOT
+        area_new_avalon = {
             add_core = ROOT
             change_culture = culture_death_knight
             change_religion = ROOT
@@ -81,9 +81,9 @@ country_event = {
 
         # Acherus
         992 = {
-            add_base_tax = 1
-            add_base_production = 1
-            add_base_manpower = 1
+            add_base_tax = 3
+            add_base_production = 3
+            add_base_manpower = 3
         }
     }
 }
@@ -105,7 +105,7 @@ country_event = {
 
         any_owned_province = {
             trade_goods = resource_ground_mounts
-            base_production = 10
+            base_production = 5
         }
     }
 
@@ -146,7 +146,7 @@ country_event = {
 
         any_owned_province = {
             trade_goods = resource_flying_mounts
-            base_production = 10
+            base_production = 5
         }
     }
 
@@ -163,9 +163,9 @@ country_event = {
     option = {
         name = wwu_ebon_blade_flavour.3.option.a
 
-    add_country_modifier = {
-        name = undead_gryphon_production
-        duration = -1
+        add_country_modifier = {
+            name = undead_gryphon_production
+            duration = -1
         }
     }
 }
@@ -180,13 +180,13 @@ country_event = {
     is_triggered_only = yes
     
     trigger = {
-         NOT = { has_country_flag = battle_for_lights_hope_chapel }
+        NOT = { has_country_flag = battle_for_lights_hope_chapel }
         
         is_scourge_story_tag = yes
         religion = cult_of_the_damned
         
         # Light's Hope Chaptel
-        557 = {
+        6300 = {
             controlled_by = ROOT
         }
     }
@@ -230,11 +230,42 @@ country_event = {
             }
         }
 
-        area_new_avalon = {
-            add_claim = ROOT
+        
+        if = {
+            limit = {
+                NOT = { 
+                    area_new_avalon = {
+                        owned_by = ROOT
+                    }
+                }
+            }
+            add_permanent_claim = {
+                area = area_new_avalon
+            }
         }
-        area_tuskcross = {
-            add_claim = ROOT
+        if = {
+            limit = {
+                NOT = { 
+                    area_kings_harbor = {
+                        owned_by = ROOT
+                    }
+                }
+            }
+            add_permanent_claim = {
+                area = area_kings_harbor
+            }
+        }
+        if = {
+            limit = {
+                NOT = { 
+                    area_tuskhold = {
+                        owned_by = ROOT
+                    }
+                }
+            }
+            add_permanent_claim = {
+                area = area_tuskhold
+            }
         }
     }
 
@@ -246,7 +277,7 @@ country_event = {
             duration = -1
         }
         
-        557 = {
+        6300 = {
             cede_province = ROOT
             add_core = ROOT
             change_culture = culture_death_knight

@@ -26,11 +26,6 @@ mission_facing_the_troll_threat = {
 mission_trollbane_blood = {
     discipline = 0.05
     war_exhaustion = -0.1
-    max_absolutism = 20
-}
-
-mission_treasures_of_grim_batol = {
-    global_prosperity_growth = 0.05
 }
 
 mission_dominance_of_baradin_bay = {
@@ -52,9 +47,50 @@ mission_flexible_diplomacy = {
     improve_relation_modifier = 0.1
 }
 
+#---------------------
+# Local Modifiers
+#---------------------
+
+mission_altar_of_kings = {
+    prestige = 0.5
+    monthly_splendor = 1
+    local_manpower = 2
+}
+
+mission_stromgarde_dev = {
+    local_development_cost = -0.15
+    local_build_cost = -0.25
+    local_great_project_upgrade_cost = -0.15
+}
+
+
+#--------------------
+# Events Modifiers
+#--------------------
+
+mission_stromgarde_reform_nilas = {
+    army_tradition_from_battle = 0.03
+    land_attrition = -0.1
+    reinforce_speed = 0.1   
+}
+
+mission_stromgarde_reform_wrenn = {
+    drill_decay_modifier = -0.15
+    movement_speed = 0.1
+    recover_army_morale_speed = 0.1
+}
+
+mission_stromgarde_reform_valorcall = {
+    cavalry_flanking = 0.15
+    cavalry_power = 0.1
+    cav_to_inf_ratio = 0.1
+    cavalry_cost = -0.2
+}
+
 mission_fate_of_alterac_own = {
     core_creation = -0.2
     province_warscore_cost = -0.1
     unjustified_demands = -0.2
     ae_impact = -0.1
 }
+

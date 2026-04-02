@@ -7,6 +7,7 @@
 -Fixed discovery setup preventing otherworldly nations from seeing Khaz Algar
 -Fixed Discovery event allowing humans to see Draenor upon orcish invasion
 -Fixed Green Dragons provinces starting as incorrect faith, making them start with 0 religious unity
+-Fixed Knights of the Ebon Blade setup and events using outdated provinces
 
 # General Gameplay
 -Centers of Trade upgrade cost adjusted: LVL 2 now costs 300, LVL 3 1500.
@@ -17,14 +18,19 @@
 -Deck of Wonders "Bypass Forts" card has been disabled
 -Adjusted various privileges for noblility, clergy and traders
 
-History:
+History + map:
 -Starting War: Arathi Conflict - War for the Arathi Highlands between Troll Tribes against Stromgarde and their human allies
 -Changes in development values, cultures and religions across Hinterlands and Arathi Highlands
+-Changed location of centers of trade and some cores in Isle of Quel'danas
 
 # Monument:
--Altar of Rot global modifier changed
+-Altar of Rot modifiers changed
+-Seradane modifers changed
 
 # Flavour & Additions
+*Explorers League:
+-Will only trigger after first age had passed
+
 * Old Gods:
 -Added Unique Lore-Based title to each old gods
 -Added background color to summoning decisions
@@ -39,11 +45,10 @@ History:
 -Added a protective shield modifier around Frozen Throne for the first 25 years since the spawn of the Scourge to make sniping the Helm of Domination harder
 
 * Stromgarde
--Overhauled NI, added few flavour events, 
+-Overhauled NI
 
-# Map:
--Changed location of centers of trade and some cores in Isle of Quel'danas
--Changed history of various provinces in Arathi Highlands and Hinterlands
+* Empire of Arathor
+-No longer does formable requires admin tech 14 to form. Replaced by number of owned provinces requirement
 
 # Mission Trees
 * Ahn'Qiraj:

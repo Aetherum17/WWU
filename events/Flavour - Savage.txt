@@ -31,7 +31,7 @@ country_event = {
 		name = random_savage.1.option.a
 		
 
-        ##if = { limit = { has_global_flag = enable_event_logging } 
+        ##if = { limit = { has_global_flag = enable_event_logging } }
 
         random_neighbor_country = {
             limit = {

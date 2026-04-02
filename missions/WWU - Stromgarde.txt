@@ -157,6 +157,134 @@ A16_stromgarde_column_1 = {
             }
         }
     }
+
+    # 4. Stromgarde Development
+    A16_stromgarde_development = {
+        icon = mission_human_building_upgrade_T2_wc3r
+        position = 6
+
+        trigger = {
+            NOT = { is_at_war = yes }
+            3001 = {
+                num_of_times_improved = 3
+            }
+            3000 = {
+                num_of_times_improved = 3
+            }
+            981 = {
+                num_of_times_improved = 3
+            }
+            3002 = {
+                num_of_times_improved = 3
+            }
+            3003 = {
+                province_has_center_of_trade_of_level = 2
+                num_of_times_improved = 3
+            }
+        }
+
+        provinces_to_highlight = {
+            area = area_stromgarde
+        }
+
+        effect = {
+            area_stromgarde = {
+                add_province_modifier = {
+                    name = mission_stromgarde_dev
+                    duration = 18250
+                }
+            }
+        }
+    }
+
+    # 5. Squares Development
+    A16_squares_development = {
+        icon = mission_human_barrackswc3r
+        position = 7
+
+        required_missions = { A16_stromgarde_development }
+
+        trigger = {
+            981 = {
+                development = 10
+                base_tax = 5
+                base_manpower = 3
+                has_courthouse_building_trigger = yes
+                has_temple_building_trigger = yes
+                has_tavern_building_trigger = yes
+            }
+            3003 = {
+                development = 12
+                base_production = 6
+                has_trade_building_trigger = yes
+            }
+            3001 = {
+                development = 12
+                base_manpower = 6
+                has_temple_building_trigger = yes
+                has_production_building_trigger = yes
+            }
+        }
+
+        provinces_to_highlight = {
+            OR = {
+                province_id = 981
+                province_id = 3003
+                province_id = 3001
+            }
+        }
+
+        effect = {
+            add_country_modifier = {
+                name = mission_stormic_civil_order
+                duration = -1
+            }
+            add_prestige = 10
+
+            3003 = {
+                change_trade_goods = resource_gems
+                add_base_production = 2
+            }
+            981 = {
+                add_base_manpower = 1
+                add_base_production = 1
+                add_base_tax = 1
+            }
+            3001 = {
+                add_province_modifier = {
+                    name = mission_altar_of_kings
+                    duration = -1
+                }
+                add_base_manpower = 3
+            }
+        }
+    }
+
+    # 6. Stromgarde Keep
+    A16_stromgarde_keep_dev = {
+        icon = mission_human_keepwc3r
+        position = 7
+
+        required_missions = { A16_squares_development }
+
+        trigger = {
+            3002 = {
+                development = 30
+                base_manpower = 15
+                has_fort_building_trigger = yes
+                has_manpower_building_trigger = yes
+                has_forcelimit_building_trigger = yes
+            }
+        }
+
+        provinces_to_highlight = {
+            province_id = 3002
+        }
+
+        effect = {
+            country_event = { id = wwu_mission_stromgarde.20 days = 5 }
+        }
+    }
 }
 
 A16_stromgarde_column_2 = {
@@ -380,7 +508,7 @@ A16_stromgarde_column_2 = {
         }
 
         provinces_to_highlight = {
-            is_capital_of = ROOT
+            is_capital_of = A12
         }
 
         effect = {
@@ -406,7 +534,7 @@ A16_stromgarde_column_2 = {
     # 6. Gilneas Subjegation
     A16_gilneas_subjegation = {
         icon = mission_gilneas_flag
-        position = 6
+        position = 7
 
         required_missions = { A16_gilneas_invasion }
 

@@ -11,6 +11,7 @@ country_event = {
     is_triggered_only = yes
     
 	trigger = {
+        NOT = { age = age_rise_of_the_horde }
 		has_country_modifier = member_of_alliance
         total_development = 250
         NOT = { has_country_flag = explorers_league_estate_offer }

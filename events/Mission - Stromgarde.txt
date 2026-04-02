@@ -125,3 +125,72 @@ country_event = {
         }
     }
 }
+
+#20 #Reforms from Stromgarde Keep
+country_event = {
+    id = wwu_mission_stromgarde.20
+    title = wwu_mission_stromgarde.20.title
+    desc = wwu_mission_stromgarde.20.desc
+    picture = DANCING_SWORDS_eventPicture
+
+    is_triggered_only = yes
+
+    # Reform of Veronica Nilas
+    option = {
+        name = wwu_mission_stromgarde.20.option.a
+
+        add_country_modifier = {
+            name = mission_stromgarde_reform_nilas
+            duration = -1
+        }
+
+        define_general = {
+            shock = 3
+            fire = 3
+            manuever = 5
+            siege = 0
+            name = "Veronica Nilas"
+            female = yes
+            trait = elite_hardy_warrior_personality
+        }
+    }
+
+    # Reform of Knight-Captain Wrenn
+    option = {
+        name = wwu_mission_stromgarde.20.option.b
+
+        add_country_modifier = {
+            name = mission_stromgarde_reform_wrenn
+            duration = -1
+        }
+
+        define_general = {
+            shock = 4
+            fire = 4
+            manuever = 4
+            siege = 2
+            name = "Knight-Captain Wrenn"
+            trait = elite_defensive_planner_personality
+        }
+    }
+
+    # Reform of Liutenant Valorcall
+    option = {
+        name = wwu_mission_stromgarde.20.option.c
+
+        add_country_modifier = {
+            name = mission_stromgarde_reform_valorcall
+            duration = -1
+        }
+
+        define_general = {
+            shock = 6
+            fire = 3
+            manuever = 5
+            siege = 1
+            name = "Lieutenant Valorcall"
+            trait = elite_goal_oriented_personality
+        }
+    }
+}
+

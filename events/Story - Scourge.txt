@@ -490,7 +490,7 @@ country_event = {
 		name = wwu_scourge.32.option.a
 		
         # Scholomance
-        790 = {
+        6356 = {
             cede_province = P12 # Cult of the Damned
             add_core = P12 # Cult of the Damned
 
@@ -529,7 +529,7 @@ country_event = {
             region_western_plaguelands = {
                 cede_province = P12
                 add_core = P12
-                change_religion = cult_of_the_damned 
+                change_religion = cult_of_the_damned  
             }
         }
 	}
@@ -1039,7 +1039,7 @@ country_event = {
         }
         
         # Cult of the Damned
-        790 = {
+        6356 = {
             cede_province = P12 # Cult of the Damned
             add_core = P12 # Cult of the Damned
 
