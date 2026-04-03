@@ -1,0 +1,15 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+uldaman_gold_statue_site = {
+	yearly_legitimacy = 0.25
+	yearly_prestige = 0.25
+}
+
+uldaman_eric_speed = {
+	envoy_travel_time = -0.25
+}
+
+uldaman_olaf_fort = {
+	fort_maintenance_modifier = -0.10
+}

@@ -118,30 +118,128 @@
  
  wwu_mission_a29_uldaman_branch.1.title: "Fork in the path!"
  wwu_mission_a29_uldaman_branch.1.desc: "There are three paths in front of the expedition. Right path is emiting a subtle glow. Left path on the other hand is filled with rustling sounds. Meanwhile the centre path is completely dark and quiet. Which path shall the expedition take?"
- wwu_mission_a29_uldaman_branch.1.option.a: "Let's take the right path!"
- wwu_mission_a29_uldaman_branch.1.option.b: "Down the centre path we go!"
- wwu_mission_a29_uldaman_branch.1.option.c: "Let's tale the left path!"
+ wwu_mission_a29_uldaman_branch.1.option.a: "Down the centre path we go!"
+ wwu_mission_a29_uldaman_branch.1.option.b: "Let's tale the left path!"
+ wwu_mission_a29_uldaman_branch.1.option.c: "Let's take the right path!"
  
- wwu_mission_a29_uldaman_branch.2.title: ""
- wwu_mission_a29_uldaman_branch.2.desc: ""
- wwu_mission_a29_uldaman_branch.2.option.a: ""
- wwu_mission_a29_uldaman_branch.2.option.b: ""
- wwu_mission_a29_uldaman_branch.2.option.c: ""
- 
- wwu_mission_a29_uldaman_branch.3.title: ""
- wwu_mission_a29_uldaman_branch.3.desc: ""
- wwu_mission_a29_uldaman_branch.3.option.a: ""
- wwu_mission_a29_uldaman_branch.3.option.b: ""
- wwu_mission_a29_uldaman_branch.3.option.c: ""
- 
- wwu_mission_a29_uldaman_branch.4.title: ""
- wwu_mission_a29_uldaman_branch.4.desc: ""
- wwu_mission_a29_uldaman_branch.4.option.a: ""
- wwu_mission_a29_uldaman_branch.4.option.b: ""
- wwu_mission_a29_uldaman_branch.4.option.c: ""
- 
- wwu_mission_a29_uldaman_branch.5.title: ""
- wwu_mission_a29_uldaman_branch.5.desc: ""
- wwu_mission_a29_uldaman_branch.5.option.a: ""
- wwu_mission_a29_uldaman_branch.5.option.b: ""
- wwu_mission_a29_uldaman_branch.5.option.c: ""
+ wwu_mission_a29_uldaman_branch.2.title: "Fork in the path!"
+ wwu_mission_a29_uldaman_branch.2.desc: "There are three paths in front of the expedition. Right path is emiting a subtle glow. Left path on the other hand is filled with rustling sounds. Meanwhile the centre path is completely dark and quiet. Which path shall the expedition take?""
+ wwu_mission_a29_uldaman_branch.2.option.a: "Down the centre path we go!"
+ wwu_mission_a29_uldaman_branch.2.option.b: "Let's tale the left path!"
+ wwu_mission_a29_uldaman_branch.2.option.c: "Let's take the right path!"
+
+ wwu_mission_a29_uldaman_branch.3.title: "DEAD END!"
+ wwu_mission_a29_uldaman_branch.3.desc: "Sir it appears we have arrived to a dead end."
+ wwu_mission_a29_uldaman_branch.3.option.a: "Agh! How can this be. Alright lets go back and start over!"
+
+ wwu_mission_a29_uldaman_branch.4.title: "A wierd mound in the ground..."
+ wwu_mission_a29_uldaman_branch.4.desc: "Sir as we navigate trough long tunnels we have stumbled uppon a wierd mound. Should we dig it up or move forward?"
+ wwu_mission_a29_uldaman_branch.4.option.a: "Let's dig! It's what we do best!"
+ wwu_mission_a29_uldaman_branch.4.option.b: "Don't get distracted by wierd things!"
+
+ wwu_mission_a29_uldaman_branch.4b.title: "Empty Cavern"
+ wwu_mission_a29_uldaman_branch.4b.desc: "There seems to be recent excavations on the ground but no one here."
+ wwu_mission_a29_uldaman_branch.4b.option.a: "Move on!"
+
+ wwu_mission_a29_uldaman_branch.4c.title: "Golden Statue!"
+ wwu_mission_a29_uldaman_branch.4c.desc: "Sir! We finished digging and after taking out the object it seems to resemble a dwarf."
+ wwu_mission_a29_uldaman_branch.4c.option.a: "Transport it outside the cave and place it for our nation to marvel!"
+
+ wwu_mission_a29_uldaman_branch.5.title: "RATS!"
+ wwu_mission_a29_uldaman_branch.5.desc: "Sir, there seems to be Kobolds ahead. How should we proceed?"
+ wwu_mission_a29_uldaman_branch.5.option.a: "What are you hesitating about? Charge!!!"
+ wwu_mission_a29_uldaman_branch.5.option.b: "Let's try to avoid unnecesary fighting..."
+
+ wwu_mission_a29_uldaman_branch.5b.title: "Empty Tunnels"
+ wwu_mission_a29_uldaman_branch.5b.desc: "There is nothing here."
+ wwu_mission_a29_uldaman_branch.5b.option.a: "Move on!"
+
+ wwu_mission_a29_uldaman_branch.6.title: "Opportunity!"
+ wwu_mission_a29_uldaman_branch.6.desc: "Sir, we spotted another band of dwarves sneaking their way past the kobolds. How should we procced?"
+ wwu_mission_a29_uldaman_branch.6.option.a: "Lets tip a barrel over so the Kobolds could hear. Those dwarf's will get their fair shake!"
+ wwu_mission_a29_uldaman_branch.6.option.b: "Let's follow their example..."
+
+ wwu_mission_a29_uldaman_branch.6b.title: "A fight!"
+ wwu_mission_a29_uldaman_branch.6b.desc: "Kobolds noticed us! We have to fight!"
+ wwu_mission_a29_uldaman_branch.6b.option.a: "Chaaaarge!!!"
+
+ wwu_mission_a29_uldaman_branch.6c.title: "We're Safe"
+ wwu_mission_a29_uldaman_branch.6c.desc: "The Kobolds rushed away towards a distant sound. We managed to stay undetected."
+ wwu_mission_a29_uldaman_branch.6c.option.a: "Good job lads!"
+
+ wwu_mission_a29_uldaman_branch.6d.title: "Success!"
+ wwu_mission_a29_uldaman_branch.6d.desc: "We managed to gain the upper hand and cause them to fight!"
+ wwu_mission_a29_uldaman_branch.6d.option.a: "Good job lads!"
+
+ wwu_mission_a29_uldaman_branch.7.title: "Success!"
+ wwu_mission_a29_uldaman_branch.7.desc: "We managed to go past the Kobolds undetected!"
+ wwu_mission_a29_uldaman_branch.7.option.a: "Great! Now get a move on!"
+
+ wwu_mission_a29_uldaman_branch.8.title: "A Chasm!"
+ wwu_mission_a29_uldaman_branch.8.desc: "Careful! There is a pit infront of us! But we can also see shining treasures on the other side."
+ wwu_mission_a29_uldaman_branch.8.option.a: "We have to get the treasure!"
+ wwu_mission_a29_uldaman_branch.8.option.b: "Let's not risk it and find another way around!"
+
+ wwu_mission_a29_uldaman_branch.8b.title: "LOOT!"
+ wwu_mission_a29_uldaman_branch.8b.desc: "We did it! W managed to safely cross the pit and found a pile of gold coins! Grab as much as you can carry! Now what to do next? Should we go back and explore more? Or push forward?"
+ wwu_mission_a29_uldaman_branch.8b.option.a: "Push forward!"
+ wwu_mission_a29_uldaman_branch.8b.option.b: "Let's take our time and explore more of this tunnel network."
+
+ wwu_mission_a29_uldaman_branch.8c.title: "FALL"
+ wwu_mission_a29_uldaman_branch.8c.desc: "Sir, we failed to cross the pit and a lot of men got injured. We have to return and start over."
+ wwu_mission_a29_uldaman_branch.8c.option.a: "Whelp. But I wanted the treasure...."
+
+ wwu_mission_a29_uldaman_branch.8d.title: "Empty Cavern"
+ wwu_mission_a29_uldaman_branch.8d.desc: "There is a pit infront of us and there is a convinient rope across it. Should we push forward or go back and explore more?"
+ wwu_mission_a29_uldaman_branch.8d.option.a: "Push onward!"
+ wwu_mission_a29_uldaman_branch.8d.option.b: "Let's take our time and explore more of this tunnel network."
+
+ wwu_mission_a29_uldaman_branch.9.title: "Lost Vikings!"
+ wwu_mission_a29_uldaman_branch.9.desc: "Sir as we explored the cavern we came across three dwarfs. Although they are a bit strange and claim to be some kind of Vikings. Apparently they are lost. They presented a medalion to us in order to be guided back to the surface. Who do you wish to talk to?"
+ wwu_mission_a29_uldaman_branch.9.option.a: "Speak with Baelog."
+ wwu_mission_a29_uldaman_branch.9.option.b: "Speak with Eric."
+ wwu_mission_a29_uldaman_branch.9.option.c: "Speak with Olaf."
+
+ wwu_mission_a29_uldaman_branch.9b.title: "Empty Cavern."
+ wwu_mission_a29_uldaman_branch.9b.desc: "There is nothing of interest here."
+ wwu_mission_a29_uldaman_branch.9b.option.a: "Move on!"
+
+ wwu_mission_a29_uldaman_branch.10.title: "Ancient Door!"
+ wwu_mission_a29_uldaman_branch.10.desc: "We found it sir! We have found an ancient door. It is surely going to lead us towards what we were looking for here. How do you wish to approach it sir? There seems to be an opening for a trinket of some sort and an interface."
+ wwu_mission_a29_uldaman_branch.10.option.a: "Let's take our time and examine the door to see how to open it."
+ wwu_mission_a29_uldaman_branch.10.option.b: "Blast it open boys!"
+ wwu_mission_a29_uldaman_branch.10.option.c: "We have it. Use the codes and the medalion! No need to waist our time!"
+
+ wwu_mission_a29_uldaman_branch.11.title: "Another Expedition"
+ wwu_mission_a29_uldaman_branch.11.desc: "Sir, we found it an ancient passage. But there is a problem another band of dwarfs is gathered around it. It looks like they are taking their sweet time to examine the door. What should we do?"
+ wwu_mission_a29_uldaman_branch.11.option.a: "Blow them up with their precious door! I don't care!"
+ wwu_mission_a29_uldaman_branch.11.option.b: "Let's keep watching for now."
+
+ wwu_mission_a29_uldaman_branch.12.title: "VAULT"
+ wwu_mission_a29_uldaman_branch.12.desc: "We are finaly inside the vault. Expediton leader quickly leads the group deeper into the vault. When a man from the back of the group shouts we've got company lads! Another expediotion was visibly following them. Our leader jumps inside a small room when a loud rumbling is heard. Stange, Ugly and Big figures appear speaking in a strange language which consisted of different variations of 'Trog'... They did not notice us instead they chased down the group that was following us. After some time our group decided to escape the vault seeing as the main squad of these strange creatures chased outside. We managed to escape unscratched and even with some artifacts."
+ wwu_mission_a29_uldaman_branch.12.option.a: "By my beard!"
+
+ wwu_mission_a29_uldaman_branch.13.title: "WAR!"
+ wwu_mission_a29_uldaman_branch.13.desc: "Emmerging monsters from the Badlands are chasing our expedition and they seem to be relentles. The only thing they say is trogg so I gues we'll call them Troggs..."
+ wwu_mission_a29_uldaman_branch.13.option.a: "To arms!"
+
+ wwu_mission_a29_uldaman_branch.14.title: "WAR!"
+ wwu_mission_a29_uldaman_branch.14.desc: "Emmerging monsters from the Badlands are chasing our expedition and they seem to be relentles. The only thing they say is trogg so I gues we'll call them Troggs..."
+ wwu_mission_a29_uldaman_branch.14.option.a: "To arms!"
+
+ wwu_mission_a29_uldaman_branch.15.title: ""WAR!"
+ wwu_mission_a29_uldaman_branch.15.desc: "Emmerging monsters from the Badlands are chasing our expedition and they seem to be relentles. The only thing they say is trogg so I gues we'll call them Troggs..."
+ wwu_mission_a29_uldaman_branch.15.option.a: "To arms!"
+
+ wwu_mission_a29_uldaman_branch.16.title: "Trogg's Unearthed!"
+ wwu_mission_a29_uldaman_branch.16.desc: "New's from the Badlands sounds bad as a new species errupted from the depths. We hear the dwarfs who are curently engaged with them call them Troggs."
+ wwu_mission_a29_uldaman_branch.16.option.a: "Hmm..."
+
+ uldaman_gold_statue_site: "Uldaman Statue"
+ uldaman_gold_statue_site_desc: ""
+
+ uldaman_eric_speed: "Erics Gift"
+ uldaman_eric_speed_desc: ""
+
+ uldaman_olaf_fort: "Olafs Gift"
+ uldaman_olaf_fort_desc: ""
