@@ -23,11 +23,13 @@ country_decisions = {
 			set_global_flag = uldaman_decision_taken
 			if = {
 				limit = { tag = A29 }
-				country_event = { id = wwu_uldaman.1 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 10 }
+				A30 = { country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 10 } }
 			}
 			else_if = {
 				limit = { tag = A30 }
-				country_event = { id = wwu_uldaman.2 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 10 }
+				A29 = { country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 10 } }
 			}
 		}
 		ai_will_do = {

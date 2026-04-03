@@ -195,7 +195,6 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	}
     option = {
         name = wwu_mission_a29_kot_responce.7.option.a
         ai_chance = {
@@ -213,7 +212,6 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	}
     option = {
         name = wwu_mission_a29_kot_responce.8.option.a
 		add_claim = 1971
@@ -232,10 +230,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	}
     option = {
         name = wwu_mission_a29_kot_responce.9.option.a
-		set_country_flag = kot_access_uldaman
         ai_chance = {
             factor = 10
         }
