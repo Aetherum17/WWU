@@ -582,6 +582,36 @@ A16_stromgarde_column_2 = {
             }
         }
     }
+
+    # 7. Tower District
+    A16_tower_district = {
+        icon = mission_titan_spirits
+        position = 8
+
+        required_missions = { A16_squares_development }
+
+        trigger = {
+            3000 = {
+                development = 15
+                has_tower_building_trigger = yes
+                has_building = wow_portal
+            }
+        }
+
+        provinces_to_highlight = {
+            province_id = 3000
+        }
+
+        effect = {
+            add_building_construction = {
+                building = wow_arcane_tower
+                speed = 0.1
+                cost = 0.1
+            }
+
+            add_base_production = 3
+        }
+    }
 }
 
 A16_stromgarde_column_3 = {

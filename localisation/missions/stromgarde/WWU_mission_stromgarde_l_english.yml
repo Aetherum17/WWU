@@ -17,13 +17,13 @@
  A16_flexible_diplomacy_desc: "Diplomacy is a tricky art that requires both bright minds and subtle artisty in the way of negociation. It is a path to many closed doors, allies and enemies alike. If we are trive in this age, we must remind ourselves that might doesn't always make us right. Some subjects require subtle actions."
 
  A16_stromgarde_development_title: "Stromgarde's Growth"
- A16_stromgarde_development_desc: "WIP"
+ A16_stromgarde_development_desc: "For many decades, city of Strom had seen a slow decline, loosing its enconomical, cultural and military importance. It is time we finally put an end to this decline and revive the once glorious city."
 
  A16_squares_development_title: "Expansion of Square Districts"
- A16_squares_development_desc: "WIP"
+ A16_squares_development_desc: "City of Strom is divided to the specific districts, often called Squares. Among them stands many markets, centers of production, culturally significant landmarks and shady places on can get what they desire. Still, for administration, we must ensure infractructure of these places is modern and ensure nothing will collapse should the distaster strike."
 
  A16_stromgarde_keep_dev_title: "The Stromgarde Keep"
- A16_stromgarde_keep_dev_desc: "WIP"
+ A16_stromgarde_keep_dev_desc: "Stromgarde Keep is the head of power for the whole Kingdom of Stromgarde, housing both military and administrative elite, as well as being the royal seat of power. From there many most important decisions come and go with the envoys of diplomats, uneasy commanders and ever so grumpy leaders of the people."
 
  # Column 2
  A16_dwarven_ties_title: "Dwarven Relations"
@@ -43,6 +43,9 @@
 
  A16_gilneas_subjegation_title: "Gilnean Subjegation"
  A16_gilneas_subjegation_desc: "The Gilneas Peninsula has been subjegated. While the remnants of the previous kings might still resist us, hoping their action can resolve in their direct rule, it is an important step in the direction of reunification of the Arathorian Empire."
+
+ A16_tower_district_title: "Development of the Tower District"
+ A16_tower_district_desc: "The Tower Distict houses the mages of Stromgarde, allowing them to study their magical arts within safery of the city. Here stands Tower of Arathor, one of the first mage towers across the seven kingdoms. While in recent time the importance of this location had withered away, with our intervention we will eventually be able to restore the nessesary institutions."
 
  # Column 3
  A16_claim_the_mantle_of_humanity_title: "Claim the Mantle of Humanity"
@@ -162,12 +165,12 @@
  wwu_mission_stromgarde.10.option.c: "I think we can negociate this in another way..."
 
  wwu_mission_stromgarde.11.title: "Ravenholdt Future"
- wwu_mission_stromgarde.11.desc: "WIP"
+ wwu_mission_stromgarde.11.desc: "Stromgarde demands our servitude. They desire our holds and our leaders to anwser to them alone. What will we do?"
  wwu_mission_stromgarde.11.option.a: "We can't possibly win this."
  wwu_mission_stromgarde.11.option.b: "Ravenholdt will not submit so easily."
 
  wwu_mission_stromgarde.20.title: "Military Reforms from Stromgarde Keep"
- wwu_mission_stromgarde.20.desc: "WIP"
+ wwu_mission_stromgarde.20.desc: "Recently, our military started to suffer from the lack of proper organization. Many commanders use different strategies, confusing each other in the wake of battle. For this, we have called few notable individuals to propose their ideas for our future tactics."
  wwu_mission_stromgarde.20.option.a: "We will go with Nilas's proposal."
  wwu_mission_stromgarde.20.option.b: "We will go with Wrenn's proposal."
  wwu_mission_stromgarde.20.option.c: "We will go with Valorcall's proposal."
