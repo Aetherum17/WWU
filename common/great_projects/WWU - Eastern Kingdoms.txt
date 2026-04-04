@@ -7108,7 +7108,7 @@ gp_greymane_wall = {
 #--------------------------------------
 # Greymane Manor
 #--------------------------------------
-#gp_greymane_manor = {
+gp_greymane_manor = {
     type = monument
     
 	start = 789
