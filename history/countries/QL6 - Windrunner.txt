@@ -40,8 +40,11 @@ historical_friend = A90
 
     heir = {
         name = "Alleria"
+        monarch_name = "Alleria"
         dynasty = "Windrunner"
         birth_date = 530.1.1
+        death_date = 999.1.1
+        claim = 100
         female = yes
         adm = 3
         dip = 2

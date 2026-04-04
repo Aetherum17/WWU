@@ -410,7 +410,7 @@ A97_ahn_qiraj_column_2 = {
 
     A97_incursion_into_dustfallew_marsh = {
         icon = mission_jaina
-        position = 10
+        position = 8
 
         required_missions = { A97_dominate_thousand_needles }
 
@@ -438,7 +438,7 @@ A97_ahn_qiraj_column_2 = {
 
     A97_subjegation_of_onyxia = {
         icon = mission_black_dragonflight
-        position = 11
+        position = 9
 
         required_missions = { A97_incursion_into_dustfallew_marsh }
 
@@ -766,7 +766,7 @@ A97_ahn_qiraj_column_3 = {
 
     A97_dominate_thousand_needles = {
         icon = mission_runestone
-        position = 9
+        position = 7
 
         trigger = {
             num_of_owned_provinces_with = {
@@ -790,7 +790,7 @@ A97_ahn_qiraj_column_3 = {
 
     A97_incursion_into_south_barrens = {
         icon = mission_orc_female
-        position = 11
+        position = 9
 
         required_missions = { A97_dominate_thousand_needles }
 
@@ -813,7 +813,7 @@ A97_ahn_qiraj_column_3 = {
 
     A97_new_war_of_the_shifting_sands = {
         icon = mission_orbital_strike
-        position = 12
+        position = 10
 
         required_missions = { 
             A97_subjegation_of_onyxia 
@@ -1077,7 +1077,7 @@ A97_ahn_qiraj_column_4 = {
 
     A97_incursion_into_mulgore = {
         icon = mission_tauren_male
-        position = 10
+        position = 8
 
         required_missions = { A97_devouring_of_feralas }
 
@@ -1100,7 +1100,7 @@ A97_ahn_qiraj_column_4 = {
 
     A97_defilement_of_mulgore = {
         icon = mission_emerald_nightmare
-        position = 11
+        position = 9
 
         required_missions = { A97_incursion_into_mulgore }
 
@@ -1162,7 +1162,7 @@ A97_ahn_qiraj_column_5 = {
         }
 
         effect = {
-            country_event = { id = wwu_mission_ahnqiraj.1 }
+            country_event = { id = wwu_mission_ahnqiraj.2 } 
 
 			hidden_effect = {
 				if = {
@@ -1171,7 +1171,7 @@ A97_ahn_qiraj_column_5 = {
 						exists = GD2
 						NOT = { is_subject = yes }
 					}
-					country_event = { id = wwu_aqir.201 days = 180 }
+					country_event = { id = wwu_mission_ahnqiraj.1 days = 180 }
 				}
 			}
         }
@@ -1235,11 +1235,9 @@ A97_ahn_qiraj_column_5 = {
                     }  
                 }
                 area_diremaul = {
-                    #type = all
                     add_devastation = 75
                 }
                 area_diremaul_interior = {
-                    #type = all
                     add_devastation = 75
                 }
                 add_country_modifier = {
@@ -1427,7 +1425,7 @@ A97_ahn_qiraj_column_5 = {
 
     A97_breach_domain_of_wind = {
         icon = mission_portal
-        position = 12
+        position = 10
 
         trigger = {
             army_size = 75
@@ -1468,7 +1466,7 @@ A97_ahn_qiraj_column_5 = {
 
     A97_resubjegate_alakir = {
         icon = mission_elemental_fury
-        position = 13
+        position = 11
 
         required_missions = { A97_breach_domain_of_wind }
 

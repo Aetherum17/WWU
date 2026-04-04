@@ -803,7 +803,7 @@ gp_nighthold = {
 		}
 		country_modifiers = {
             technology_cost = -0.05
-            yearly_innovativeness = 1.0
+            yearly_innovativeness = 0.25
 		}
 		on_upgraded = {
 			owner = { add_prestige = 10 }

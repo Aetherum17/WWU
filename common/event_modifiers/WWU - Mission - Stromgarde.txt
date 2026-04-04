@@ -96,7 +96,7 @@ mission_fate_of_alterac_own = {
 # Set Modifiers
 #--------------------
 
-stromgarde_ornery_diplomacy = {
+A16_ornery_diplomacy = { 
     province_warscore_cost = 0.25
     ae_impact = 0.15
     diplomatic_reputation = -1
