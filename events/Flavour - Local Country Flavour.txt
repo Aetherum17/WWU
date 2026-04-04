@@ -6204,9 +6204,9 @@ country_event = {
 		
 		add_country_modifier = {
 			name = the_sound_of_music
-			duration = 365
+			duration = 3650
 		}
-		add_adm_power = -10
+		add_adm_power = -25
 		add_years_of_income = -0.1
 	}
 	option = {
