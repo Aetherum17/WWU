@@ -1739,6 +1739,9 @@ country_event = {
             artifact = shield_of_the_deathlord
         }
     }
+    option = {
+        name = wwu_artifact_heist.8.option.noartifact
+    }
 }
 
 #---------------------------
