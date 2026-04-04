@@ -1,8 +1,8 @@
 namespace = wwu_mission_a29_uldaman_branch
  
 # ===================================================
-# EVENT 1 - FORK IN THE PATH
-# Fired for the nation WITH initiative (initiator)
+# EVENT 1 - START OF CHAIN
+# Fired once to begin the chain
 # ===================================================
  
 country_event = {
@@ -12,8 +12,14 @@ country_event = {
 	picture = FORGOTTEN_TORCH_eventPicture
  
 	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_global_flag = uldaman_chain_active }
+	}
  
 	immediate = {
+		set_global_flag = uldaman_chain_active
+		set_country_flag = uldaman_joined_chain
 		set_country_flag = has_initiative
 		clr_country_flag = uldaman_on_centre_path
 		clr_country_flag = uldaman_on_left_path
@@ -23,20 +29,31 @@ country_event = {
 		if = {
 			limit = {
 				tag = A29
-				A30 = { NOT = { has_country_flag = dont_care_for_uldaman } }
+				A30 = {
+					NOT = { has_country_flag = dont_care_for_uldaman }
+					NOT = { has_country_flag = uldaman_joined_chain }
+				}
 			}
-			A30 = { country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 2 } }
+			A30 = {
+				set_country_flag = uldaman_joined_chain
+				country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 2 }
+			}
 		}
 		else_if = {
 			limit = {
 				tag = A30
-				A29 = { NOT = { has_country_flag = dont_care_for_uldaman } }
+				A29 = {
+					NOT = { has_country_flag = dont_care_for_uldaman }
+					NOT = { has_country_flag = uldaman_joined_chain }
+				}
 			}
-			A29 = { country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 2 } }
+			A29 = {
+				set_country_flag = uldaman_joined_chain
+				country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 2 }
+			}
 		}
 	}
  
-	# Centre passage
 	option = {
 		name = wwu_mission_a29_uldaman_branch.1.option.a
 		set_country_flag = uldaman_on_centre_path
@@ -45,7 +62,6 @@ country_event = {
 		country_event = { id = wwu_mission_a29_uldaman_branch.3 days = 5 }
 	}
  
-	# Left passage
 	option = {
 		name = wwu_mission_a29_uldaman_branch.1.option.b
 		set_country_flag = uldaman_on_left_path
@@ -60,7 +76,64 @@ country_event = {
 		}
 	}
  
-	# Right tunnel
+	option = {
+		name = wwu_mission_a29_uldaman_branch.1.option.c
+		set_country_flag = uldaman_on_right_path
+		clr_country_flag = uldaman_on_centre_path
+		clr_country_flag = uldaman_on_left_path
+		if = {
+			limit = { has_global_flag = uldaman_kobolds_cleared }
+			country_event = { id = wwu_mission_a29_uldaman_branch.5b days = 5 }
+		}
+		else = {
+			country_event = { id = wwu_mission_a29_uldaman_branch.5 days = 5 }
+		}
+	}
+}
+ 
+# ===================================================
+# EVENT 1b - RESTART / RE-ENTER PATH CHOICE
+# Used when the chain loops back during exploration
+# ===================================================
+ 
+country_event = {
+	id = wwu_mission_a29_uldaman_branch.1b
+	title = wwu_mission_a29_uldaman_branch.1.title
+	desc = wwu_mission_a29_uldaman_branch.1.desc
+	picture = FORGOTTEN_TORCH_eventPicture
+ 
+	is_triggered_only = yes
+ 
+	immediate = {
+		set_country_flag = has_initiative
+		clr_country_flag = uldaman_on_centre_path
+		clr_country_flag = uldaman_on_left_path
+		clr_country_flag = uldaman_on_right_path
+		clr_country_flag = uldaman_at_kobolds
+	}
+ 
+	option = {
+		name = wwu_mission_a29_uldaman_branch.1.option.a
+		set_country_flag = uldaman_on_centre_path
+		clr_country_flag = uldaman_on_left_path
+		clr_country_flag = uldaman_on_right_path
+		country_event = { id = wwu_mission_a29_uldaman_branch.3 days = 5 }
+	}
+ 
+	option = {
+		name = wwu_mission_a29_uldaman_branch.1.option.b
+		set_country_flag = uldaman_on_left_path
+		clr_country_flag = uldaman_on_centre_path
+		clr_country_flag = uldaman_on_right_path
+		if = {
+			limit = { has_global_flag = uldaman_gold_statue_taken }
+			country_event = { id = wwu_mission_a29_uldaman_branch.4b days = 5 }
+		}
+		else = {
+			country_event = { id = wwu_mission_a29_uldaman_branch.4 days = 5 }
+		}
+	}
+ 
 	option = {
 		name = wwu_mission_a29_uldaman_branch.1.option.c
 		set_country_flag = uldaman_on_right_path
@@ -78,7 +151,6 @@ country_event = {
  
 # ===================================================
 # EVENT 2 - FORK IN THE ROAD (nation WITHOUT initiative)
-# Always behind the leading nation
 # ===================================================
  
 country_event = {
@@ -101,14 +173,12 @@ country_event = {
 		clr_country_flag = uldaman_at_kobolds
 	}
  
-	# Centre passage
 	option = {
 		name = wwu_mission_a29_uldaman_branch.2.option.a
 		set_country_flag = uldaman_on_centre_path
 		country_event = { id = wwu_mission_a29_uldaman_branch.3 days = 7 }
 	}
  
-	# Left passage
 	option = {
 		name = wwu_mission_a29_uldaman_branch.2.option.b
 		set_country_flag = uldaman_on_left_path
@@ -121,7 +191,6 @@ country_event = {
 		}
 	}
  
-	# Right tunnel
 	option = {
 		name = wwu_mission_a29_uldaman_branch.2.option.c
 		set_country_flag = uldaman_on_right_path
@@ -159,7 +228,7 @@ country_event = {
 			limit = { tag = A29 }
 			A30 = {
 				set_country_flag = has_initiative
-				country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 5 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 			}
 			if = {
 				limit = { NOT = { has_country_flag = dont_care_for_uldaman } }
@@ -170,7 +239,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = {
 				set_country_flag = has_initiative
-				country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 5 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 			}
 			if = {
 				limit = { NOT = { has_country_flag = dont_care_for_uldaman } }
@@ -192,7 +261,6 @@ country_event = {
  
 	is_triggered_only = yes
  
-	# Dig out the statue - lose initiative, get reward event
 	option = {
 		name = wwu_mission_a29_uldaman_branch.4.option.a
 		set_global_flag = uldaman_gold_statue_taken
@@ -211,7 +279,6 @@ country_event = {
 		}
 	}
  
-	# Skip the statue - keep initiative
 	option = {
 		name = wwu_mission_a29_uldaman_branch.4.option.b
 		country_event = { id = wwu_mission_a29_uldaman_branch.8 days = 5 }
@@ -291,7 +358,6 @@ country_event = {
 		set_country_flag = uldaman_at_kobolds
 	}
  
-	# Fight the kobolds - lose 2000 manpower, gain 2 professionalism, 50/50 chance to lose initiative
 	option = {
 		name = wwu_mission_a29_uldaman_branch.5.option.a
 		set_global_flag = uldaman_kobolds_cleared
@@ -332,7 +398,6 @@ country_event = {
 		}
 	}
  
-	# Sneak past kobolds
 	option = {
 		name = wwu_mission_a29_uldaman_branch.5.option.b
 		trigger = {
@@ -404,7 +469,6 @@ country_event = {
  
 # ===================================================
 # EVENT 6 - KOBOLD SABOTAGE OPPORTUNITY
-# Fired on nation WITHOUT initiative when lead nation tries to sneak by
 # ===================================================
  
 country_event = {
@@ -415,7 +479,6 @@ country_event = {
  
 	is_triggered_only = yes
  
-	# Attract the kobolds attention
 	option = {
 		name = wwu_mission_a29_uldaman_branch.6.option.a
 		random_list = {
@@ -427,13 +490,6 @@ country_event = {
 					A30 = {
 						clr_country_flag = has_initiative
 						country_event = { id = wwu_mission_a29_uldaman_branch.6b days = 1 }
-						if = {
-							limit = { has_global_flag = uldaman_vikings_met }
-							country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 7 }
-						}
-						else = {
-							country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 7 }
-						}
 					}
 					set_country_flag = has_initiative
 					country_event = { id = wwu_mission_a29_uldaman_branch.6d days = 1 }
@@ -443,13 +499,6 @@ country_event = {
 					A29 = {
 						clr_country_flag = has_initiative
 						country_event = { id = wwu_mission_a29_uldaman_branch.6b days = 1 }
-						if = {
-							limit = { has_global_flag = uldaman_vikings_met }
-							country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 7 }
-						}
-						else = {
-							country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 7 }
-						}
 					}
 					set_country_flag = has_initiative
 					country_event = { id = wwu_mission_a29_uldaman_branch.6d days = 1 }
@@ -474,7 +523,6 @@ country_event = {
 		}
 	}
  
-	# Do nothing
 	option = {
 		name = wwu_mission_a29_uldaman_branch.6.option.b
 		clr_country_flag = uldaman_at_kobolds
@@ -494,7 +542,6 @@ country_event = {
  
 # ===================================================
 # EVENT 6b - KOBOLD FIGHT NOTIFICATION
-# Fired for the nation that was forced to fight the kobolds
 # ===================================================
  
 country_event = {
@@ -522,7 +569,6 @@ country_event = {
  
 # ===================================================
 # EVENT 6c - SABOTAGE FAILED NOTIFICATION
-# Fired for the nation that tried to sneak past and was not caught
 # ===================================================
  
 country_event = {
@@ -535,7 +581,6 @@ country_event = {
  
 	option = {
 		name = wwu_mission_a29_uldaman_branch.6c.option.a
-
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
 			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
@@ -548,7 +593,6 @@ country_event = {
  
 # ===================================================
 # EVENT 6d - SABOTAGE SUCCESS NOTIFICATION
-# Fired for the nation whose sabotage succeeded
 # ===================================================
  
 country_event = {
@@ -561,7 +605,6 @@ country_event = {
  
 	option = {
 		name = wwu_mission_a29_uldaman_branch.6d.option.a
-
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
 			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
@@ -573,8 +616,7 @@ country_event = {
 }
  
 # ===================================================
-# EVENT 7 - SABOTAGE RESULT NOTIFICATION
-# Notifies lead nation that no sabotage was attempted
+# EVENT 7 - NO SABOTAGE NOTIFICATION
 # ===================================================
  
 country_event = {
@@ -587,7 +629,6 @@ country_event = {
  
 	option = {
 		name = wwu_mission_a29_uldaman_branch.7.option.a
-
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
 			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
@@ -600,7 +641,6 @@ country_event = {
  
 # ===================================================
 # EVENT 8 - THE CHASM
-# Reached after left passage (statue) path
 # ===================================================
  
 country_event = {
@@ -611,7 +651,6 @@ country_event = {
  
 	is_triggered_only = yes
  
-	# Attempt to cross the chasm
 	option = {
 		name = wwu_mission_a29_uldaman_branch.8.option.a
 		random_list = {
@@ -630,7 +669,6 @@ country_event = {
 		}
 	}
  
-	# Do not risk it - return to start and lose initiative
 	option = {
 		name = wwu_mission_a29_uldaman_branch.8.option.b
 		clr_country_flag = has_initiative
@@ -642,7 +680,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 	}
 }
  
@@ -682,7 +720,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 		ai_chance = {
 			factor = 3
 		}
@@ -715,7 +753,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 	}
 }
  
@@ -750,7 +788,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 		ai_chance = {
 			factor = 3
 		}
@@ -824,7 +862,7 @@ country_event = {
 }
  
 # ===================================================
-# EVENT 9b - EMPTY CAVE (second nation arrives after vikings already met)
+# EVENT 9b - EMPTY CAVE
 # ===================================================
  
 country_event = {
@@ -857,7 +895,6 @@ country_event = {
  
 	is_triggered_only = yes
  
-	# Option 1 - Slow careful entry (can be sabotaged)
 	option = {
 		name = wwu_mission_a29_uldaman_branch.10.option.a
 		trigger = {
@@ -885,7 +922,6 @@ country_event = {
 		}
 	}
  
-	# Option 2 - Rush inside
 	option = {
 		name = wwu_mission_a29_uldaman_branch.10.option.b
  
@@ -911,7 +947,6 @@ country_event = {
 		}
 	}
  
-	# Option 3 - Hidden safe entry (codes + medallion)
 	option = {
 		name = wwu_mission_a29_uldaman_branch.10.option.c
 		trigger = {
@@ -941,7 +976,6 @@ country_event = {
  
 # ===================================================
 # EVENT 11 - SABOTAGE CHECK
-# Fired on nation WITHOUT initiative
 # ===================================================
  
 country_event = {
@@ -952,7 +986,6 @@ country_event = {
  
 	is_triggered_only = yes
  
-	# Sabotage
 	option = {
 		name = wwu_mission_a29_uldaman_branch.11.option.a
  
@@ -978,7 +1011,6 @@ country_event = {
 		}
 	}
  
-	# Do nothing -> leader succeeds as if option 3 was chosen
 	option = {
 		name = wwu_mission_a29_uldaman_branch.11.option.b
  
@@ -1033,8 +1065,6 @@ country_event = {
  
 # ===================================================
 # EVENT 12 - END OF CHAIN
-# Nation enters the vault, gains reward, and causes
-# the Troggs to emerge against the rival nation
 # ===================================================
  
 country_event = {
@@ -1049,9 +1079,6 @@ country_event = {
 		name = wwu_mission_a29_uldaman_branch.12.option.a
  
 		# PLACEHOLDER - reward for successfully entering the vault
-		# add_prestige = 10
-		# add_innovativeness = 10
-		# add_adm_power = 100
  
 		if = {
 			limit = { tag = A29 }
@@ -1062,7 +1089,10 @@ country_event = {
 			A29 = { country_event = { id = wwu_mission_a29_uldaman_branch.13 days = 1 } }
 		}
  
+		clr_global_flag = uldaman_chain_active
+ 
 		clr_country_flag = has_initiative
+		clr_country_flag = uldaman_joined_chain
 		clr_country_flag = uldaman_on_centre_path
 		clr_country_flag = uldaman_on_left_path
 		clr_country_flag = uldaman_on_right_path
@@ -1077,6 +1107,7 @@ country_event = {
 			limit = { tag = A29 }
 			A30 = {
 				clr_country_flag = has_initiative
+				clr_country_flag = uldaman_joined_chain
 				clr_country_flag = uldaman_on_centre_path
 				clr_country_flag = uldaman_on_left_path
 				clr_country_flag = uldaman_on_right_path
@@ -1092,6 +1123,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = {
 				clr_country_flag = has_initiative
+				clr_country_flag = uldaman_joined_chain
 				clr_country_flag = uldaman_on_centre_path
 				clr_country_flag = uldaman_on_left_path
 				clr_country_flag = uldaman_on_right_path
@@ -1108,14 +1140,13 @@ country_event = {
  
 # ===================================================
 # EVENT 13 - TROGGS EMERGE - ATTACK A29
-# Fired for A29
 # ===================================================
  
 country_event = {
 	id = wwu_mission_a29_uldaman_branch.13
 	title = wwu_mission_a29_uldaman_branch.13.title
 	desc = wwu_mission_a29_uldaman_branch.13.desc
-	picture = TROGG_eventPicture
+	picture = TUNNEL_TROGG_eventPicture
  
 	is_triggered_only = yes
  
@@ -1124,76 +1155,57 @@ country_event = {
  
 		release = P57
  
-		11968 = {
+		1968 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1970 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1972 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1973 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1978 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1974 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1979 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1967 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
-
+ 
 		P57 = {
-			capital = 1968
-			add_treasury = 600
-			add_manpower = 20
-			create_general = {
-				fire = 7
-				shock = 7
-				manuever = 3
-				siege = 2
-			}
-		capital_scope = {
-			spawn_infantry = { AMOUNT = 10 TAG = P57 }
-		}
+			
 			declare_war_with_cb = {
 				who = A29
 				cb = cb_conquest
@@ -1206,7 +1218,7 @@ country_event = {
 					subcontinent = ek_khaz_modan_superregion
 				}
 			}
-			country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.17 days = 1 }
 		}
 	}
  
@@ -1217,14 +1229,13 @@ country_event = {
  
 # ===================================================
 # EVENT 14 - TROGGS EMERGE - ATTACK A30
-# Fired for A30
 # ===================================================
  
 country_event = {
 	id = wwu_mission_a29_uldaman_branch.14
 	title = wwu_mission_a29_uldaman_branch.14.title
 	desc = wwu_mission_a29_uldaman_branch.14.desc
-	picture = TROGG_eventPicture
+	picture = TUNNEL_TROGG_eventPicture
  
 	is_triggered_only = yes
  
@@ -1235,80 +1246,60 @@ country_event = {
  
 		1968 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1970 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1972 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1973 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1978 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1974 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1979 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1967 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
-
 		P57 = {
-			capital = 1968
-			add_treasury = 600
-			add_manpower = 20
-			create_general = {
-				fire = 7
-				shock = 7
-				manuever = 3
-				siege = 2
-			}
-		capital_scope = {
-			spawn_infantry = { AMOUNT = 10 TAG = P57 }
-		}
+			
+			
 			declare_war_with_cb = {
 				who = A30
 				cb = cb_conquest
 			}
 		}
- 
 		every_country = {
 			limit = {
 				capital_scope = {
@@ -1326,90 +1317,71 @@ country_event = {
  
 # ===================================================
 # EVENT 15 - TROGGS EMERGE - ATTACK BOTH
-# Setup event, then notifies both A29 and A30
 # ===================================================
  
 country_event = {
 	id = wwu_mission_a29_uldaman_branch.15
 	title = wwu_mission_a29_uldaman_branch.15.title
 	desc = wwu_mission_a29_uldaman_branch.15.desc
-	picture = TROGG_eventPicture
+	picture = TUNNEL_TROGG_eventPicture
  
 	is_triggered_only = yes
  
 	immediate = {
+		set_global_flag = trogg_historical
 		release = P57
  
 		1968 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1970 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1972 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1973 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1978 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1974 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1979 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
 		1967 = {
 			cede_province = P57
-			change_culture = trogg
+			change_culture = culture_trogg
 			change_religion = earth
 			add_core = P57
-			add_base_manpower = 3
 		}
-
+ 
 		P57 = {
-			capital = 1968
-			add_treasury = 600
-			add_manpower = 20
-			create_general = {
-				fire = 7
-				shock = 7
-				manuever = 3
-				siege = 2
-			}
-		capital_scope = {
-			spawn_infantry = { AMOUNT = 10 TAG = P57 }
-		}
+			
 			declare_war_with_cb = {
 				who = A29
 				cb = cb_conquest
@@ -1418,7 +1390,6 @@ country_event = {
 				who = A30
 				cb = cb_conquest
 			}
-		}
  
 		every_country = {
 			limit = {
@@ -1428,9 +1399,6 @@ country_event = {
 			}
 			country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
 		}
- 
-		A29 = { country_event = { id = wwu_mission_a29_uldaman_branch.13 days = 1 } }
-		A30 = { country_event = { id = wwu_mission_a29_uldaman_branch.14 days = 1 } }
 	}
  
 	option = {
@@ -1453,5 +1421,29 @@ country_event = {
  
 	option = {
 		name = wwu_mission_a29_uldaman_branch.16.option.a
+		
+		
+		add_treasury = 600
+		add_manpower = 20
+		}
+		1968 = { add_base_manpower = 3 }
+		1970 = { add_base_manpower = 3 }
+		1972 = { add_base_manpower = 3 }
+		1973 = { add_base_manpower = 3 }
+		1978 = { add_base_manpower = 3 }
+		1974 = { add_base_manpower = 3 }
+		1979 = { add_base_manpower = 3 }
+		1967 = { add_base_manpower = 3 }
+ 
+		create_general = {
+			fire = 7
+			shock = 7
+			manuever = 3
+			siege = 2
+		}
+ 
+		1968 = {
+			spawn_infantry = { AMOUNT = 10 TAG = P57 }
+		}
 	}
 }
