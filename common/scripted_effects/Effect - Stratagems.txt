@@ -1772,6 +1772,58 @@ compromise_stratagem = {
                 province_event = { id = wwu_stratagems.60 days = 1 } # Rebel Occupation Clear
             }
         }
+		# Level 6
+        else_if = {
+            limit = {
+                FROM = {
+                    is_variable_equal = {
+                        which = insurrection_compromise_stratagem_level
+                        value = 6
+                    }
+                }
+            }
+            
+            if = {
+                limit = {
+                    FROM = {
+                        NOT = { corruption = 100 }
+                    }
+                }
+                
+                FROM = {
+                    add_corruption = 1.0
+                }
+            
+                province_event = { id = wwu_stratagems.57 days = 1 } # Rebel Kill 45
+                province_event = { id = wwu_stratagems.60 days = 1 } # Rebel Occupation Clear
+            }
+        }
+		# Level 7
+        else_if = {
+            limit = {
+                FROM = {
+                    is_variable_equal = {
+                        which = insurrection_compromise_stratagem_level
+                        value = 7
+                    }
+                }
+            }
+            
+            if = {
+                limit = {
+                    FROM = {
+                        NOT = { corruption = 100 }
+                    }
+                }
+                
+                FROM = {
+                    add_corruption = 1.0
+                }
+            
+                province_event = { id = wwu_stratagems.58 days = 1 } # Rebel Kill 50
+                province_event = { id = wwu_stratagems.60 days = 1 } # Rebel Occupation Clear
+            }
+        }
     }
 }
 
