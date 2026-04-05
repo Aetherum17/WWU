@@ -1,107 +1,108 @@
-namespace = wwu_setup_elemental_nations
-
-# Maraudon - Vanilla
-country_event = {
-    id = wwu_setup_elemental_nations.1
-    title = wwu_setup_elemental_nations.1.title
-    desc = wwu_setup_elemental_nations.1.desc
-    picture = EARTH_ELEMENTAL_eventPicture
-    goto = 3667
-
-    is_triggered_only = yes
-
-    major = yes
-
-    trigger = {
-        NOT = { has_global_flag = maraduon_vanilla_setup }
-        NOT = { exists = B75 }
-        is_at_war = no # Prevent the event if it might mess up a ongoing war
-        
-        current_age = age_trouble_in_azeroth
-
-        if = {
-            limit = {
-                area_inner_maraudon = {
-                    owner = {
-                        ai = yes
-                    }
-                }
-                area_inner_maraudon = {
-                    owner = {
-                        ai = no
-                    }
-                }
-            }
-            
-            ai = no
-        }
-
-        area_inner_maraudon = {
-            owned_by = ROOT
-        }
-    }
-
-    mean_time_to_happen = { 
-        days = 1
-    }
-
-    immediate = {
-        hidden_effect = {
-            set_global_flag = maraduon_vanilla_setup
-            B75 = {
-                save_event_target_as = spawned_nation
-            }
-        }
-    }
-
-    option = {
-        name = wwu_setup_elemental_nations.1.option.a
-
-        custom_tooltip = B75_FULL_SETUP_TT
-
-        hidden_effect = {
-            spawn_nation_by_area = { area = area_inner_maraudon tag = B75 culture = culture_earth religion = earth }
-        }
-
-        ai_chance = {
-            factor = 100
-        }
-    }
-
-    option = {
-        name = wwu_setup_elemental_nations.1.option.b
-
-        add_dip_power = -100
-
-        custom_tooltip = B75_PARTIAL_SETUP_TT
-
-        hidden_effect = {
-            spawn_nation_by_area_conditional = { area = area_inner_maraudon tag = B75 culture = culture_earth religion = earth }
-        }
-
-        ai_chance = {
-            factor = 0
-        }
-    }
-
-    option = {
-        name = wwu_setup_elemental_nations.1.option.c
-
-        add_dip_power = -250
-
-        hidden_effect = {
-            spawn_nation_by_area_core_only = { area = area_inner_maraudon tag = B75 }
-        }
-
-        ai_chance = {
-            factor = 0
-        }
-    }
-
-    after = {
-        B75 = {
-            country_event = { id = wwu_general_nation_setup.1 days = 7 }
-            country_event = { id = wwu_discovery.2 days = 3 }
-        }
-    }
-}
+# NOT USED ANYWHERE
+#namespace = wwu_setup_elemental_nations
+#
+## Maraudon - Vanilla
+#country_event = {
+#    id = wwu_setup_elemental_nations.1
+#    title = wwu_setup_elemental_nations.1.title
+#    desc = wwu_setup_elemental_nations.1.desc
+#    picture = EARTH_ELEMENTAL_eventPicture
+#    goto = 3667
+#
+#    is_triggered_only = yes
+#
+#    major = yes
+#
+#    trigger = {
+#        NOT = { has_global_flag = maraduon_vanilla_setup }
+#        NOT = { exists = B75 }
+#        is_at_war = no # Prevent the event if it might mess up a ongoing war
+#        
+#        current_age = age_trouble_in_azeroth
+#
+#        if = {
+#            limit = {
+#                area_inner_maraudon = {
+#                    owner = {
+#                        ai = yes
+#                    }
+#                }
+#                area_inner_maraudon = {
+#                    owner = {
+#                        ai = no
+#                    }
+#                }
+#            }
+#            
+#            ai = no
+#        }
+#
+#        area_inner_maraudon = {
+#            owned_by = ROOT
+#        }
+#    }
+#
+#    mean_time_to_happen = { 
+#        days = 1
+#    }
+#
+#    immediate = {
+#        hidden_effect = {
+#            set_global_flag = maraduon_vanilla_setup
+#            B75 = {
+#                save_event_target_as = spawned_nation
+#            }
+#        }
+#    }
+#
+#    option = {
+#        name = wwu_setup_elemental_nations.1.option.a
+#
+#        custom_tooltip = B75_FULL_SETUP_TT
+#
+#        hidden_effect = {
+#            spawn_nation_by_area = { area = area_inner_maraudon tag = B75 culture = culture_earth religion = earth }
+#        }
+#
+#        ai_chance = {
+#            factor = 100
+#        }
+#    }
+#
+#    option = {
+#        name = wwu_setup_elemental_nations.1.option.b
+#
+#        add_dip_power = -100
+#
+#        custom_tooltip = B75_PARTIAL_SETUP_TT
+#
+#        hidden_effect = {
+#            spawn_nation_by_area_conditional = { area = area_inner_maraudon tag = B75 culture = culture_earth religion = earth }
+#        }
+#
+#        ai_chance = {
+#            factor = 0
+#        }
+#    }
+#
+#    option = {
+#        name = wwu_setup_elemental_nations.1.option.c
+#
+#        add_dip_power = -250
+#
+#        hidden_effect = {
+#            spawn_nation_by_area_core_only = { area = area_inner_maraudon tag = B75 }
+#        }
+#
+#        ai_chance = {
+#            factor = 0
+#        }
+#    }
+#
+#    after = {
+#        B75 = {
+#            country_event = { id = wwu_general_nation_setup.1 days = 7 }
+#            country_event = { id = wwu_discovery.2 days = 3 }
+#        }
+#    }
+#}
