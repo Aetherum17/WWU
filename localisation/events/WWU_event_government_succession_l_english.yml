@@ -113,6 +113,9 @@
  wwu_government_succession.29.option.c: "A member of the Direweb shall ascend"
  wwu_government_succession.29.option.d: "A member of the Dreadstrike shall ascend"
  
+ wwu_government_succession.30.title: "Empire of Azj-Kahet"
+ wwu_government_succession.30.desc: "MISSING LOCALISATION"
+ 
  # --- Tooltips
  FATE_RULER_TT: "A random ruler shall be generated, with potentially divine gifts."
 
