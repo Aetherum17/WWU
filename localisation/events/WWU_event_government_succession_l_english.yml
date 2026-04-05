@@ -114,7 +114,7 @@
  wwu_government_succession.29.option.d: "A member of the Dreadstrike shall ascend"
  
  wwu_government_succession.30.title: "Empire of Azj-Kahet"
- wwu_government_succession.30.desc: "MISSING LOCALISATION"
+ wwu_government_succession.30.desc: "From the Earth, Shadow Emerges..."
  
  # --- Tooltips
  FATE_RULER_TT: "A random ruler shall be generated, with potentially divine gifts."
