@@ -164,7 +164,7 @@ country_decisions = {
 		}
 		
 		effect = {
-			country_event = { id = wwu_gilneas.14 }
+			#country_event = { id = wwu_gilneas.14 }
 			
 			add_mil_power = -100
 			add_legitimacy = -20
@@ -195,7 +195,7 @@ country_decisions = {
 		}
 		
 		effect = {
-			country_event = { id = wwu_gilneas.12 }
+			#country_event = { id = wwu_gilneas.12 }
 			
 			add_dip_power = -100
 			add_spy_network_in = {
