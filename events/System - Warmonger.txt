@@ -1,90 +1,92 @@
-namespace = wwu_warmonger_system
-
-# AI - Warmonger System Handler
-country_event = {
-	id = wwu_warmonger_system.1
-	title = wwu_warmonger_system.1.title
-	desc = wwu_warmonger_system.1.desc
-	picture = ADRENALINE_RUSH_eventPicture
-    
-    is_triggered_only = yes
-    hidden = yes
-    
-	trigger = { 
-        ai = yes
-        has_global_flag = enabled_warmonger_system
-        is_at_war = no
-        
-        # These tags should declare wars anywhere
-        if = {
-            limit = {
-                OR = {
-                    tag = B92
-                    tag = P24
-                    tag = P26
-                    tag = P27
-                    tag = P28
-                }
-            }
-            
-            any_country = {
-                NOT = { alliance_with = ROOT }
-                NOT = { truce_with = ROOT }
-            }
-        }
-        # Otherwise only target neighbors
-        else = {
-            any_neighbor_country = {
-                NOT = { alliance_with = ROOT }
-                NOT = { truce_with = ROOT }
-            }
-        }
-    }
-    
-    mean_time_to_happen = {
-		days = 1
-	}
-    
-    immediate = {
-        # These tags should declare wars anywhere
-        if = {
-            limit = {
-                OR = {
-                    tag = B92
-                    tag = P24
-                    tag = P26
-                    tag = P27
-                    tag = P28
-                }
-            }
-            
-            random_country = {
-                limit = { 
-                    NOT = { alliance_with = ROOT }
-                    NOT = { truce_with = ROOT } 
-                }
-                save_event_target_as = victim
-            }
-        }
-        # Otherwise only target neighbors
-        else = {
-            random_neighbor_country = {
-                limit = {
-                    NOT = { alliance_with = ROOT }
-                    NOT = { truce_with = ROOT }
-                }
-                
-                save_event_target_as = victim
-            }
-        }
-    }
-
-	option = {
-		name = wwu_warmonger_system.1.option.a
-        
-        declare_war_with_cb = {
-            who = event_target:victim
-            casus_belli = cb_war_of_aggression
-        }
-	}
-}
+# NOT USED ANYWHERE
+#namespace = wwu_warmonger_system
+#
+## AI - Warmonger System Handler
+#country_event = {
+#	id = wwu_warmonger_system.1
+#	title = wwu_warmonger_system.1.title
+#	desc = wwu_warmonger_system.1.desc
+#	picture = ADRENALINE_RUSH_eventPicture
+#    
+#    is_triggered_only = yes
+#    hidden = yes
+#    
+#	trigger = { 
+#        ai = yes
+#        has_global_flag = enabled_warmonger_system
+#        is_at_war = no
+#        
+#        # These tags should declare wars anywhere
+#        if = {
+#            limit = {
+#                OR = {
+#                    tag = B92
+#                    tag = P24
+#                    tag = P26
+#                    tag = P27
+#                    tag = P28
+#                }
+#            }
+#            
+#            any_country = {
+#                NOT = { alliance_with = ROOT }
+#                NOT = { truce_with = ROOT }
+#            }
+#        }
+#        # Otherwise only target neighbors
+#        else = {
+#            any_neighbor_country = {
+#                NOT = { alliance_with = ROOT }
+#                NOT = { truce_with = ROOT }
+#            }
+#        }
+#    }
+#    
+#    mean_time_to_happen = {
+#		days = 1
+#	}
+#    
+#    immediate = {
+#        # These tags should declare wars anywhere
+#        if = {
+#            limit = {
+#                OR = {
+#                    tag = B92
+#                    tag = P24
+#                    tag = P26
+#                    tag = P27
+#                    tag = P28
+#                }
+#            }
+#            
+#            random_country = {
+#                limit = { 
+#                    NOT = { alliance_with = ROOT }
+#                    NOT = { truce_with = ROOT } 
+#                }
+#                save_event_target_as = victim
+#            }
+#        }
+#        # Otherwise only target neighbors
+#        else = {
+#            random_neighbor_country = {
+#                limit = {
+#                    NOT = { alliance_with = ROOT }
+#                    NOT = { truce_with = ROOT }
+#                }
+#                
+#                save_event_target_as = victim
+#            }
+#        }
+#    }
+#
+#	option = {
+#		name = wwu_warmonger_system.1.option.a
+#        
+#        declare_war_with_cb = {
+#            who = event_target:victim
+#            casus_belli = cb_war_of_aggression
+#        }
+#	}
+#}
+#
