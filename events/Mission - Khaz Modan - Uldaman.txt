@@ -223,7 +223,7 @@ country_event = {
     immediate = {
         set_country_flag = km_was_attacked
         capital_scope = {
-            every_state_province = {
+            every_province_in_state = {
                 add_devastation = 40
             }
         }
@@ -234,7 +234,7 @@ country_event = {
         add_adm_power = -200
 
         capital_scope = {
-            every_state_province = {
+            every_province_in_state = {
                 add_devastation = 20
             }
         }
@@ -248,14 +248,14 @@ country_event = {
         name = wwu_mission_a29_uldaman.4.option.b
 
         capital_scope = {
-            every_state_province = {
+            every_province_in_state = {
                 add_devastation = 40
             }
 		}
 		add_casus_belli = {
             type = cb_insult
             target = A30
-            days = 3650
+            months = 120
         }
 
         ai_chance = {
@@ -273,14 +273,14 @@ country_event = {
         add_casus_belli = {
             type = cb_insult
             target = A30
-            days = 3650
+            months = 120
         }
         add_adm_power = -100
         add_dip_power = -100
         add_treasury = -100
 
         capital_scope = {
-            every_state_province = {
+            every_province_in_state = {
                 add_devastation = 30
             }
         }
@@ -314,7 +314,7 @@ country_event = {
     immediate = {
         set_country_flag = km_was_attacked
         capital_scope = {
-            every_state_province = {
+            every_province_in_state = {
                 add_devastation = 40
             }
         }
@@ -325,7 +325,7 @@ country_event = {
         add_adm_power = -200
 
         capital_scope = {
-            every_state_province = {
+            every_province_in_state = {
                 add_devastation = -20
             }
         }
@@ -341,7 +341,7 @@ country_event = {
         add_casus_belli = {
             type = cb_insult
             target = A30
-            days = 3650
+            months = 120
         }
 
         ai_chance = {
@@ -359,14 +359,14 @@ country_event = {
         add_casus_belli = {
             type = cb_insult
             target = A30
-            days = 3650
+            months = 120
         }
         add_adm_power = -100
         add_dip_power = -100
         add_treasury = -500
 
         capital_scope = {
-            every_state_province = {
+            every_province_in_state = {
                 add_devastation = -30
             }
         }
