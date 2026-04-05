@@ -116,7 +116,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "wwu_mission_ahnqiraj.a"
+		name = "wwu_mission_ahnqiraj.4.option.a"
 	}
 
 }
