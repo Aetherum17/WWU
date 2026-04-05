@@ -10,9 +10,7 @@
  
 # Interface
 - Added a visual indicator of the Ring of Peace spell usage in the diplomacy view, allowing the player to more easily notice if a country has war declaration blocked by the spell.
-
 - Added a visual indicator of the Civilization process in the diplomacy view, allowing the player to notice if a country is transitioning from Uncivilized to Civilized.
-
 - Added a visual icon for Civilized and Uncivilized countries in the diplomacy view.
 
 #--------------------------------------
@@ -28,5 +26,4 @@ Faction Issues:
 
 # Requests (SzredeR + Community )
 -Any way of tracking other countries magical information (less important)
--Civilization progress for uncivilized nations undergoing the process
 -Modifier or 3D Prop indicator on provinces with active canals

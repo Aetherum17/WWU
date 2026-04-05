@@ -344,3 +344,61 @@ defined_text = {
     }
 }
 
+defined_text = {
+    name = GetCurrentEnergy
+	
+    text = {
+        localisation_key = ENERGY_0
+        trigger = {
+            is_variable_equal = {
+                which = ruler_energy
+                value = 0
+            }
+        }
+    }
+    text = {
+        localisation_key = ENERGY_1
+        trigger = {
+            is_variable_equal = {
+                which = ruler_energy
+                value = 1
+            }
+        }
+    }
+    text = {
+        localisation_key = ENERGY_2
+        trigger = {
+            is_variable_equal = {
+                which = ruler_energy
+                value = 2
+            }
+        }
+    }
+    text = {
+        localisation_key = ENERGY_3
+        trigger = {
+            is_variable_equal = {
+                which = ruler_energy
+                value = 3
+            }
+        }
+    }
+    text = {
+        localisation_key = ENERGY_4
+        trigger = {
+            is_variable_equal = {
+                which = ruler_energy
+                value = 4
+            }
+        }
+    }
+    text = {
+        localisation_key = ENERGY_5
+        trigger = {
+            is_variable_equal = {
+                which = ruler_energy
+                value = 5
+            }
+        }
+    }
+}
