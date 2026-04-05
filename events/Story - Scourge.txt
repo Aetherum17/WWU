@@ -987,12 +987,11 @@ country_event = {
         ai = yes
         tag = P11
         has_country_flag = scourge_invasion # Only do this if Scourge has entered the EK invasion stage
+        
         NOT = {
-            any_country = { 
-                ai = no
-                any_owned_province = {
-                    is_north_eastern_kingdoms = yes
-                }
+            any_province = {
+                is_north_eastern_kingdoms = yes
+                owner = { ai = no }
             }
         }
     }
