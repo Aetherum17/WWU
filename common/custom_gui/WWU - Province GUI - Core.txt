@@ -287,3 +287,21 @@ custom_button = {
         nerubian_tunnel_effect = yes
     }
 }
+
+# Scry
+custom_button = {
+    name = scry_button
+    tooltip = SCRY_TT
+    
+    potential = {
+        scry_button_potential = yes
+    }
+    
+    trigger = { 
+        always = yes
+    }
+    
+    effect = { 
+        scry_button_effect = yes
+    }
+}

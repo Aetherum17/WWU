@@ -330,7 +330,6 @@ guiTypes = {
 
 
 
-
 		iconType =
 		{
 			name ="trade_icon"
@@ -369,7 +368,6 @@ guiTypes = {
 			spriteType = "GFX_combat_terrain_hills"
 			position = { x = 58 y = -23 }
 		}
-
 
 		windowType = {
 			name = "top_section_window"
@@ -565,7 +563,18 @@ guiTypes = {
 			fullScreen = no
 			moveable = 0
 			Orientation = "UPPER_LEFT"
-            
+                
+            #--------------
+            # Scry
+            #--------------
+            guiButtonType = {
+                name ="scry_button"
+                position = { x= 60 y = -20 }
+                quadTextureSprite ="GFX_province_gui_scry_button"
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+
             #--------------
             # Actions
             #--------------
@@ -4804,13 +4813,13 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 		
+		
 		iconType = 
 		{
 			name ="great_project_pic"
 			spriteType = "GFX_great_project_place_holder"
 			position = { x = 0 y = 0 }
 		}
-		
 
 		instantTextBoxType = {
 			name = "name_label"
@@ -4994,6 +5003,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 		}
+        
 	}
 	
 	### UNIQUE BUILDING ENTRY

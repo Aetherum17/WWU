@@ -12,6 +12,8 @@
 - Added a visual indicator of the Ring of Peace spell usage in the diplomacy view, allowing the player to more easily notice if a country has war declaration blocked by the spell.
 - Added a visual indicator of the Civilization process in the diplomacy view, allowing the player to notice if a country is transitioning from Uncivilized to Civilized.
 - Added a visual icon for Civilized and Uncivilized countries in the diplomacy view.
+- Added more information on the ruler's class and spellcaster stats/mana when hovering over the class/spellcaster icons in the diplomacy view.
+- Added a Scry button in the province view. This allows the player to open an event that lets them focus the connected provinces that are part of a non-visible canal if applicable.
 
 #--------------------------------------
 # TODO
@@ -25,5 +27,4 @@ Faction Issues:
 - Alliance can spawn independant of Horde
 
 # Requests (SzredeR + Community )
--Any way of tracking other countries magical information (less important)
 -Modifier or 3D Prop indicator on provinces with active canals

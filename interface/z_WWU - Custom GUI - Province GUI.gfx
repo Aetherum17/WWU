@@ -91,4 +91,9 @@ spriteTypes = {
 		name = "GFX_province_gui_fungarian_buff_defensive_button"
 		texturefile = "gfx/custom_gui/province_gui/fungarian_buff_defensive_button.dds"
 	}
+    
+    spriteType = {
+		name = "GFX_province_gui_scry_button"
+		texturefile = "gfx/custom_gui/province_gui/scry.dds"
+	}
 }

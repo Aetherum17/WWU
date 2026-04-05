@@ -4,3 +4,15 @@
  #----------------------------------------
  NERUBIAN_TUNNEL_TT: "Increase the tunnel depth within the §Y[Root.GetName]§!."
  
+ # Scry
+ SCRY_TT: "Press to open the Scry menu to view the connection provinces for this rift."
+ 
+ #----------------------------------------
+ # Scry Event
+ #----------------------------------------
+ wwu_scry.1.title: "Scry"
+ wwu_scry.1.desc: "Scry the connections that link to this province."
+ wwu_scry.1.option.a: "[target_province_1.GetName]"
+ wwu_scry.1.option.b: "[target_province_2.GetName]"
+ wwu_scry.1.option.x: "Exit"
+ 

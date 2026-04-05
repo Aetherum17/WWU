@@ -1,0 +1,25 @@
+namespace = wwu_scry
+
+country_event = {
+	id = wwu_scry.1
+	title = wwu_scry.1.title
+	desc = wwu_scry.1.desc
+    picture = RED_PORTAL_eventPicture
+    
+	is_triggered_only = yes
+
+    option = {
+        name = wwu_scry.1.option.a
+        goto = target_province_1
+    }
+    
+    option = {
+        name = wwu_scry.1.option.b
+        goto = target_province_2
+    }
+    
+    option = {
+        name = wwu_scry.1.option.x
+
+    }
+}

@@ -1,0 +1,144 @@
+#-----------------------------
+# Mechanics
+#-----------------------------
+# ROOT = province
+# FROM = viewer nation
+# owner = province owner
+
+scry_button_potential = {
+    OR = {
+        # Deeprun Tram
+        province_id = 2505
+        province_id = 3049
+        # Dark Portal Outland
+        province_id = 1586
+        province_id = 1035
+        # Dark Portal Draenor
+        province_id = 3792
+        province_id = 1035
+        # Deepholm Rift Feralas
+        province_id = 2535
+        province_id = 1487
+        # Deepholm Rift Arathi
+        province_id = 2539
+        province_id = 1931
+        # Deepholm Rift Howling Fjord
+        province_id = 2532
+        province_id = 3304
+        # Deepholm Rift Kunlai
+        province_id = 3160
+        province_id = 2610
+        # Abyssal Maw Rift Vashjir
+        province_id = 2548
+        province_id = 3177
+        # Abyssal Maw Rift Stonetalon
+        province_id = 2557
+        province_id = 1362
+        # Abyssal Maw Rift Sholazar
+        province_id = 2564
+        province_id = 1263
+        # Abyssal Maw Rift Krasarang Wilds
+        province_id = 2552
+        province_id = 1788
+        # Firelands Rift Blackrock
+        province_id = 2576
+        province_id = 3155
+        # Firelands Rift Hyjal
+        province_id = 2593
+        province_id = 1342
+        # Firelands Rift Boreal Tundra
+        province_id = 2585
+        province_id = 3274
+        # Firelands Rift Townlong Steppes
+        province_id = 2581
+        province_id = 1862
+        # Skywall Rift Uldum
+        province_id = 2523
+        province_id = 1566
+        # Skywall Rift Westfall
+        province_id = 2527
+        province_id = 2154
+        # Skywall Rift Dragonblight
+        province_id = 2530
+        province_id = 2408
+        # Skywall Rift Jade Forest
+        province_id = 2525
+        province_id = 1806
+        # Argus Rift Icecrown
+        province_id = 2764
+        province_id = 1268
+        # Argus Rift Hyjal
+        province_id = 2773
+        province_id = 1335
+        # Argus Rift Throne Of Kiljaeden
+        province_id = 2769
+        province_id = 1593
+        # Argus Rift Throne Of Kiljaeden Draenor
+        province_id = 2765
+        province_id = 3805
+        # Argus Rift Tomb Of Sargeras
+        province_id = 2772
+        province_id = 2667
+        # Oribos Rift Icecrown
+        province_id = 4808
+        province_id = 1268
+        # Frozen Rift Brill
+        province_id = 3220
+        province_id = 931
+        # Frozen Rift Stratholme
+        province_id = 3221
+        province_id = 642
+        # Frozen Rift Andorhal
+        province_id = 3227
+        province_id = 688
+        # Mistfall Tunnel
+        province_id = 1813
+        province_id = 1795
+        # Coreway
+        province_id = 5985
+        province_id = 6062
+        # Demonic Rift Conflagration
+        province_id = 1665
+        province_id = 3256
+        # Deep Sea Current 1
+        province_id = 617
+        province_id = 4919
+        # Deep Sea Current 2
+        province_id = 4923
+        province_id = 4930
+        # Deep Sea Current 3
+        province_id = 4933
+        province_id = 3176
+        # Deep Sea Current 4
+        province_id = 4925
+        province_id = 4941
+        # Deep Sea Current 5
+        province_id = 3174
+        province_id = 4941
+        # Deep Sea Current 6
+        province_id = 577
+        province_id = 4892
+        # Deep Sea Current 7
+        province_id = 4893
+        province_id = 4891
+        # Deep Sea Current 8
+        province_id = 4889
+        province_id = 579
+        # Deep Sea Current 9
+        province_id = 573
+        province_id = 4897
+        # Deep Sea Current 10
+        province_id = 4908
+        province_id = 4916
+        # Deep Sea Current 11
+        province_id = 4901
+        province_id = 4911
+        # Deep Sea Current 12
+        province_id = 4912
+        province_id = 4900
+        # Deep Sea Current 13
+        province_id = 4926
+        province_id = 3177
+        
+    }
+}

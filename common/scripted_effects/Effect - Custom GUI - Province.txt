@@ -1,0 +1,541 @@
+#-----------------------------------
+# Mechanics
+#-----------------------------------
+scry_button_effect = {
+    # Deeprun Tram
+    if = {
+        limit = {
+            OR = {
+                province_id = 2505
+                province_id = 3049
+            }
+        }
+        2505 = { save_event_target_as = target_province_1 }
+        3049 = { save_event_target_as = target_province_2 }
+    }
+
+    # Dark Portal Outland
+    if = {
+        limit = {
+            OR = {
+                province_id = 1586
+                province_id = 1035
+            }
+        }
+        1586 = { save_event_target_as = target_province_1 }
+        1035 = { save_event_target_as = target_province_2 }
+    }
+
+    # Dark Portal Draenor
+    if = {
+        limit = {
+            OR = {
+                province_id = 3792
+                province_id = 1035
+            }
+        }
+        3792 = { save_event_target_as = target_province_1 }
+        1035 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deepholm Rift Feralas
+    if = {
+        limit = {
+            OR = {
+                province_id = 2535
+                province_id = 1487
+            }
+        }
+        2535 = { save_event_target_as = target_province_1 }
+        1487 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deepholm Rift Arathi
+    if = {
+        limit = {
+            OR = {
+                province_id = 2539
+                province_id = 1931
+            }
+        }
+        2539 = { save_event_target_as = target_province_1 }
+        1931 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deepholm Rift Howling Fjord
+    if = {
+        limit = {
+            OR = {
+                province_id = 2532
+                province_id = 3304
+            }
+        }
+        2532 = { save_event_target_as = target_province_1 }
+        3304 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deepholm Rift Kunlai
+    if = {
+        limit = {
+            OR = {
+                province_id = 3160
+                province_id = 2610
+            }
+        }
+        3160 = { save_event_target_as = target_province_1 }
+        2610 = { save_event_target_as = target_province_2 }
+    }
+
+    # Abyssal Maw Rift Vashjir
+    if = {
+        limit = {
+            OR = {
+                province_id = 2548
+                province_id = 3177
+            }
+        }
+        2548 = { save_event_target_as = target_province_1 }
+        3177 = { save_event_target_as = target_province_2 }
+    }
+
+    # Abyssal Maw Rift Stonetalon
+    if = {
+        limit = {
+            OR = {
+                province_id = 2557
+                province_id = 1362
+            }
+        }
+        2557 = { save_event_target_as = target_province_1 }
+        1362 = { save_event_target_as = target_province_2 }
+    }
+
+    # Abyssal Maw Rift Sholazar
+    if = {
+        limit = {
+            OR = {
+                province_id = 2564
+                province_id = 1263
+            }
+        }
+        2564 = { save_event_target_as = target_province_1 }
+        1263 = { save_event_target_as = target_province_2 }
+    }
+
+    # Abyssal Maw Rift Krasarang Wilds
+    if = {
+        limit = {
+            OR = {
+                province_id = 2552
+                province_id = 1788
+            }
+        }
+        2552 = { save_event_target_as = target_province_1 }
+        1788 = { save_event_target_as = target_province_2 }
+    }
+
+    # Firelands Rift Blackrock
+    if = {
+        limit = {
+            OR = {
+                province_id = 2576
+                province_id = 3155
+            }
+        }
+        2576 = { save_event_target_as = target_province_1 }
+        3155 = { save_event_target_as = target_province_2 }
+    }
+
+    # Firelands Rift Hyjal
+    if = {
+        limit = {
+            OR = {
+                province_id = 2593
+                province_id = 1342
+            }
+        }
+        2593 = { save_event_target_as = target_province_1 }
+        1342 = { save_event_target_as = target_province_2 }
+    }
+
+    # Firelands Rift Boreal Tundra
+    if = {
+        limit = {
+            OR = {
+                province_id = 2585
+                province_id = 3274
+            }
+        }
+        2585 = { save_event_target_as = target_province_1 }
+        3274 = { save_event_target_as = target_province_2 }
+    }
+
+    # Firelands Rift Townlong Steppes
+    if = {
+        limit = {
+            OR = {
+                province_id = 2581
+                province_id = 1862
+            }
+        }
+        2581 = { save_event_target_as = target_province_1 }
+        1862 = { save_event_target_as = target_province_2 }
+    }
+
+    # Skywall Rift Uldum
+    if = {
+        limit = {
+            OR = {
+                province_id = 2523
+                province_id = 1566
+            }
+        }
+        2523 = { save_event_target_as = target_province_1 }
+        1566 = { save_event_target_as = target_province_2 }
+    }
+
+    # Skywall Rift Westfall
+    if = {
+        limit = {
+            OR = {
+                province_id = 2527
+                province_id = 2154
+            }
+        }
+        2527 = { save_event_target_as = target_province_1 }
+        2154 = { save_event_target_as = target_province_2 }
+    }
+
+    # Skywall Rift Dragonblight
+    if = {
+        limit = {
+            OR = {
+                province_id = 2530
+                province_id = 2408
+            }
+        }
+        2530 = { save_event_target_as = target_province_1 }
+        2408 = { save_event_target_as = target_province_2 }
+    }
+
+    # Skywall Rift Jade Forest
+    if = {
+        limit = {
+            OR = {
+                province_id = 2525
+                province_id = 1806
+            }
+        }
+        2525 = { save_event_target_as = target_province_1 }
+        1806 = { save_event_target_as = target_province_2 }
+    }
+
+    # Argus Rift Icecrown
+    if = {
+        limit = {
+            OR = {
+                province_id = 2764
+                province_id = 1268
+            }
+        }
+        2764 = { save_event_target_as = target_province_1 }
+        1268 = { save_event_target_as = target_province_2 }
+    }
+
+    # Argus Rift Hyjal
+    if = {
+        limit = {
+            OR = {
+                province_id = 2773
+                province_id = 1335
+            }
+        }
+        2773 = { save_event_target_as = target_province_1 }
+        1335 = { save_event_target_as = target_province_2 }
+    }
+
+    # Argus Rift Throne Of Kiljaeden
+    if = {
+        limit = {
+            OR = {
+                province_id = 2769
+                province_id = 1593
+            }
+        }
+        2769 = { save_event_target_as = target_province_1 }
+        1593 = { save_event_target_as = target_province_2 }
+    }
+
+    # Argus Rift Throne Of Kiljaeden Draenor
+    if = {
+        limit = {
+            OR = {
+                province_id = 2765
+                province_id = 3805
+            }
+        }
+        2765 = { save_event_target_as = target_province_1 }
+        3805 = { save_event_target_as = target_province_2 }
+    }
+
+    # Argus Rift Tomb Of Sargeras
+    if = {
+        limit = {
+            OR = {
+                province_id = 2772
+                province_id = 2667
+            }
+        }
+        2772 = { save_event_target_as = target_province_1 }
+        2667 = { save_event_target_as = target_province_2 }
+    }
+
+    # Oribos Rift Icecrown
+    if = {
+        limit = {
+            OR = {
+                province_id = 4808
+                province_id = 1268
+            }
+        }
+        4808 = { save_event_target_as = target_province_1 }
+        1268 = { save_event_target_as = target_province_2 }
+    }
+
+    # Frozen Rift Brill
+    if = {
+        limit = {
+            OR = {
+                province_id = 3220
+                province_id = 931
+            }
+        }
+        3220 = { save_event_target_as = target_province_1 }
+        931 = { save_event_target_as = target_province_2 }
+    }
+
+    # Frozen Rift Stratholme
+    if = {
+        limit = {
+            OR = {
+                province_id = 3221
+                province_id = 642
+            }
+        }
+        3221 = { save_event_target_as = target_province_1 }
+        642 = { save_event_target_as = target_province_2 }
+    }
+
+    # Frozen Rift Andorhal
+    if = {
+        limit = {
+            OR = {
+                province_id = 3227
+                province_id = 688
+            }
+        }
+        3227 = { save_event_target_as = target_province_1 }
+        688 = { save_event_target_as = target_province_2 }
+    }
+
+    # Mistfall Tunnel
+    if = {
+        limit = {
+            OR = {
+                province_id = 1813
+                province_id = 1795
+            }
+        }
+        1813 = { save_event_target_as = target_province_1 }
+        1795 = { save_event_target_as = target_province_2 }
+    }
+
+    # Coreway
+    if = {
+        limit = {
+            OR = {
+                province_id = 5985
+                province_id = 6062
+            }
+        }
+        5985 = { save_event_target_as = target_province_1 }
+        6062 = { save_event_target_as = target_province_2 }
+    }
+
+    # Demonic Rift Conflagration
+    if = {
+        limit = {
+            OR = {
+                province_id = 1665
+                province_id = 3256
+            }
+        }
+        1665 = { save_event_target_as = target_province_1 }
+        3256 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 1
+    if = {
+        limit = {
+            OR = {
+                province_id = 617
+                province_id = 4919
+            }
+        }
+        617 = { save_event_target_as = target_province_1 }
+        4919 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 2
+    if = {
+        limit = {
+            OR = {
+                province_id = 4923
+                province_id = 4930
+            }
+        }
+        4923 = { save_event_target_as = target_province_1 }
+        4930 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 3
+    if = {
+        limit = {
+            OR = {
+                province_id = 4933
+                province_id = 3176
+            }
+        }
+        4933 = { save_event_target_as = target_province_1 }
+        3176 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 4
+    if = {
+        limit = {
+            OR = {
+                province_id = 4925
+                province_id = 4941
+            }
+        }
+        4925 = { save_event_target_as = target_province_1 }
+        4941 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 5
+    if = {
+        limit = {
+            OR = {
+                province_id = 3174
+                province_id = 4941
+            }
+        }
+        3174 = { save_event_target_as = target_province_1 }
+        4941 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 6
+    if = {
+        limit = {
+            OR = {
+                province_id = 577
+                province_id = 4892
+            }
+        }
+        577 = { save_event_target_as = target_province_1 }
+        4892 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 7
+    if = {
+        limit = {
+            OR = {
+                province_id = 4893
+                province_id = 4891
+            }
+        }
+        4893 = { save_event_target_as = target_province_1 }
+        4891 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 8
+    if = {
+        limit = {
+            OR = {
+                province_id = 4889
+                province_id = 579
+            }
+        }
+        4889 = { save_event_target_as = target_province_1 }
+        579 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 9
+    if = {
+        limit = {
+            OR = {
+                province_id = 573
+                province_id = 4897
+            }
+        }
+        573 = { save_event_target_as = target_province_1 }
+        4897 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 10
+    if = {
+        limit = {
+            OR = {
+                province_id = 4908
+                province_id = 4916
+            }
+        }
+        4908 = { save_event_target_as = target_province_1 }
+        4916 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 11
+    if = {
+        limit = {
+            OR = {
+                province_id = 4901
+                province_id = 4911
+            }
+        }
+        4901 = { save_event_target_as = target_province_1 }
+        4911 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 12
+    if = {
+        limit = {
+            OR = {
+                province_id = 4912
+                province_id = 4900
+            }
+        }
+        4912 = { save_event_target_as = target_province_1 }
+        4900 = { save_event_target_as = target_province_2 }
+    }
+
+    # Deep Sea Current 13
+    if = {
+        limit = {
+            OR = {
+                province_id = 4926
+                province_id = 3177
+            }
+        }
+        4926 = { save_event_target_as = target_province_1 }
+        3177 = { save_event_target_as = target_province_2 }
+    }
+
+    if = {
+        limit = {
+            has_saved_event_target = target_province_1
+            has_saved_event_target = target_province_2
+        }
+        
+        FROM = { country_event = { id = wwu_scry.1 } }
+    }
+}
