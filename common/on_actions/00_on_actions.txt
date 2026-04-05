@@ -768,6 +768,7 @@ on_yearly_pulse = {
         wwu_monument_research.24                    # Research Complete! (Elemental Planes)
         wwu_monument_research.25                    # Research Complete! (Dragon Isles)
         wwu_monument_research.26                    # Research Complete! (Shadowlands)
+        wwu_monument_research.27                    # Research Complete! (Khaz Algar)
         
         # Player Switch
         wwu_player_switch.100                       # The Scourge
