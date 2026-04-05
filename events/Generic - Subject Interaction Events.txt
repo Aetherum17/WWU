@@ -216,7 +216,7 @@ country_event = {
 				}
 			}
             
-            save_event_target_as = incompetent_cousin_country
+            #save_event_target_as = incompetent_cousin_country - Not used anywhere
         }
 	}
 	
