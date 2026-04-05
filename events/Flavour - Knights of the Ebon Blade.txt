@@ -239,9 +239,9 @@ country_event = {
                     }
                 }
             }
-            add_permanent_claim = {
-                area = area_new_avalon
-            }
+			area_new_avalon = {
+				add_permanent_claim = ROOT
+			}
         }
         if = {
             limit = {
@@ -251,9 +251,9 @@ country_event = {
                     }
                 }
             }
-            add_permanent_claim = {
-                area = area_kings_harbor
-            }
+			area_kings_harbor = {
+				add_permanent_claim = ROOT
+			}
         }
         if = {
             limit = {
@@ -263,9 +263,9 @@ country_event = {
                     }
                 }
             }
-            add_permanent_claim = {
-                area = area_tuskhold
-            }
+			area_tuskhold = {
+				add_permanent_claim = ROOT
+			}
         }
     }
 
