@@ -1414,9 +1414,8 @@ A97_ahn_qiraj_column_5 = {
                 limit = {
                     NOT = { exists = B75 }
                 }
+                country_event = { id = wwu_mission_ahnqiraj.4 }
             }
-            country_event = { id = wwu_mission_ahnqiraj.4 }
-
             else = {
                 country_event = { id = wwu_mission_ahnqiraj.3 }
             }

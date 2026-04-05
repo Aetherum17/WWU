@@ -45,6 +45,9 @@ mission_flexible_diplomacy = {
     improve_relation_modifier = 0.1
 }
 
+# VAWSER: stub
+mission_stormic_civil_order = { }
+
 #---------------------
 # Local Modifiers
 #---------------------

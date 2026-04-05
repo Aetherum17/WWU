@@ -675,9 +675,11 @@ B03_red_dragonflight_column_5 = {
             owned_by = ROOT
         }
 		effect = {
-			#add_power_projection = { # Commented out because type = is missing
-			#	amount = 25
-			#}
+			add_power_projection = {
+                type = mission_rewards_power_projection
+				amount = 25
+			}
+            
 			add_country_modifier = {
                 name = mission_proto_drake_sepremacy_b03
                 duration = -1
