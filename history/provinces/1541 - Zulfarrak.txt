@@ -20,3 +20,13 @@ latent_trade_goods = {
 }
 
 center_of_trade = 1
+
+631.1.1 = {
+    owner = ---
+    controller = ---
+    remove_core = A73
+    
+    base_tax = 1
+    base_production = 1
+    base_manpower = 1
+}

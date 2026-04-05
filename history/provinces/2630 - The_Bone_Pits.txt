@@ -13,4 +13,10 @@ religion = avarice
 hre = no
 trade_goods = resource_fossils
 
-
+631.1.1 = {
+    owner = A73
+    controller = A73
+    add_core = A73
+    
+    culture = culture_sand_troll
+}

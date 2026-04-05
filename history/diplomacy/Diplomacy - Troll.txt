@@ -24,3 +24,11 @@ alliance = {
 	start_date = 598.1.1
 	end_date = 599.1.1
 }
+
+# Sandfury -> Zandalar
+alliance = {
+	first = A73
+	second = A78
+	start_date = 631.1.1
+	end_date = 632.1.1
+}

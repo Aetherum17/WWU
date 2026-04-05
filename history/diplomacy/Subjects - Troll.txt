@@ -172,3 +172,12 @@ dependency = {
 	start_date = 546.1.1
 	end_date = 592.1.1
 }
+
+# Zandalar-Sandfury
+dependency = {
+	subject_type = "tributary_vassal"
+	first = A78
+	second = A73
+	start_date = 632.1.1
+	end_date = 9999.1.1
+}
