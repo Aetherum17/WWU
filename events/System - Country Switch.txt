@@ -46,18 +46,18 @@ country_event = {
 	}
 }
 
-# Discovery
-country_event = {
-	id = wwu_country_switch.3
-	title = wwu_country_switch.3.title
-	desc = wwu_country_switch.3.desc
-	picture = SUMMONING_STONE_eventPicture
-
-	is_triggered_only = yes
-
-	option = {
-		name = wwu_country_switch.3.option.a
-        
-        setup_world_discovery = yes
-	}
-}
+# Discovery - EVENT NOT USED anywhere
+#country_event = {
+#	id = wwu_country_switch.3
+#	title = wwu_country_switch.3.title
+#	desc = wwu_country_switch.3.desc
+#	picture = SUMMONING_STONE_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = wwu_country_switch.3.option.a
+#        
+#        setup_world_discovery = yes
+#	}
+#}
