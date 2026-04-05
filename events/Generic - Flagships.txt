@@ -29,8 +29,7 @@ country_event = {
 		hidden_effect = {
 			random_country = {
 				limit = { has_country_flag = captured_flagship_country_flag }
-				# Audax Validator "." Ignore_NEXT
-				save_event_target_as = captured_flagship_country
+				# save_event_target_as = captured_flagship_country - Not used anywhere
 				clr_country_flag = captured_flagship_country_flag
 			}
 		}
