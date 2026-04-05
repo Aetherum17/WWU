@@ -50,7 +50,7 @@
 #        hidden_effect = {
 #            set_global_flag = maraduon_vanilla_setup
 #            B75 = {
-#                save_event_target_as = spawned_nation
+#                # save_event_target_as = spawned_nation - Not Used Anywhere
 #            }
 #        }
 #    }

@@ -70,7 +70,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_twilights_hammer
             A43 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -210,7 +210,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_orgrimmar
             A48 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -324,7 +324,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_warsong
             A35 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -478,7 +478,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_black_tooth_grin
             P98 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -583,7 +583,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_dragonmaw
             A45 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -722,7 +722,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_frostwolf
             A46 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -832,7 +832,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = thrallmar_setup 
             A50 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
