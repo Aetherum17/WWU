@@ -1,19 +1,21 @@
-namespace = wwu_makgora
-
-country_event = {
-	id = wwu_makgora.1
-	title = wwu_makgora.1.title
-	desc = wwu_makgora.1.desc
-    picture = HORDE_BATTLE_CRY_eventPicture
-    
-	is_triggered_only = yes
-
-    immediate = {
-        
-    }
-	
-    option = {
-        name = wwu_makgora.1.option.a
-        
-    }
-}
+# NOT Used anywhere
+#namespace = wwu_makgora
+#
+#country_event = {
+#	id = wwu_makgora.1
+#	title = wwu_makgora.1.title
+#	desc = wwu_makgora.1.desc
+#    picture = HORDE_BATTLE_CRY_eventPicture
+#    
+#	is_triggered_only = yes
+#
+#    immediate = {
+#        
+#    }
+#	
+#    option = {
+#        name = wwu_makgora.1.option.a
+#        
+#    }
+#}
+#
