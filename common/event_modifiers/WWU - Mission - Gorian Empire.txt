@@ -45,7 +45,7 @@ mission_power_of_the_imperator_OGR = {
     yearly_absolutism = 0.5
 }
 mission_surprise_attack_OGR = {
-	infantry_shock = 1
+	infantry_shock = 0.33
 	siege_ability = 0.15
 	infantry_power = 0.1
 }

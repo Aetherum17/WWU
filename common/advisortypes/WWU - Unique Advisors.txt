@@ -502,7 +502,7 @@ unique_tabetha = {
 	
 	# Bonus
     land_morale = 0.2
-	infantry_fire = 1 
+	infantry_fire = 0.25
     
 	skill_scaled_modifier = { 
         trigger = {

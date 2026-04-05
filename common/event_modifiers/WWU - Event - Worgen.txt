@@ -32,7 +32,7 @@ worgen_fury_dalaran = {
 }
 
 worgen_fury_night_elf = {
-    infantry_shock = 1.0
+    infantry_shock = 0.33
 }
 
 purge_the_worgen = {

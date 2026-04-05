@@ -1314,7 +1314,7 @@ ice_troll_ideas = {
     # Silent as Snow
 	ice_troll_ideas_5 = {
         leader_land_manuever = 1
-		infantry_shock = 0.5
+		infantry_shock = 0.15
 	}
     # Scrapping the Barrel
 	ice_troll_ideas_6 = {
@@ -1382,7 +1382,7 @@ sand_troll_ideas = {
 # Blood Troll
 blood_troll_ideas = {
 	start = {
-		infantry_shock = 0.5
+		infantry_shock = 0.2
         reinforce_speed = 0.1
 	}
 
@@ -2636,7 +2636,7 @@ titan_ideas = {
 	}
     # Halls of Lightning
 	titan_ideas_2 = {
-		infantry_fire = 1.0
+		infantry_fire = 0.33
 	}
     # Halls of Stone
 	titan_ideas_3 = {
@@ -3471,7 +3471,7 @@ red_dragonflight_ideas = {
 	}
     # Destructive Flames
 	red_dragonflight_ideas_3 = {
-		infantry_fire = 1.0
+		infantry_fire = 0.33
 	}
     # Righteous Duty
 	red_dragonflight_ideas_4 = {
@@ -4140,7 +4140,7 @@ ice_giant_ideas = {
 	}
     # Wanderers of the Peaks
 	ice_giant_ideas_2 = {
-        infantry_shock = 1.0
+        infantry_shock = 0.25
 	}
     # Innate Cruelty
 	ice_giant_ideas_3 = {
@@ -4551,7 +4551,7 @@ gorilla_ideas = {
  
     #Might of the Gorilla
     gorilla_ideas_1 = {
-        infantry_shock = 0.5
+        infantry_shock = 0.2
     }
     #Healthy Diet
     gorilla_ideas_2 = {

@@ -67,7 +67,7 @@ policy_archery_training = {
 	}
 	
 	# Modifier
-    infantry_fire = 0.5
+    infantry_fire = 0.25
     
     effect = {}
 	removed_effect = {}
@@ -102,7 +102,7 @@ policy_cavalry_training = {
 	}
 	
 	# Modifier
-    cavalry_shock = 0.5
+    cavalry_shock = 0.15
     
     effect = {}
 	removed_effect = {}

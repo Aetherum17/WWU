@@ -43,7 +43,7 @@ mission_king_k_rool = {
 
 mission_kaptain_k_rool = {
     morale_damage = 0.15
-    infantry_shock = 1.0
+    infantry_shock = 0.2
 }
 
 mission_kaos_acquired = {

@@ -283,7 +283,7 @@ zandalar_complex = {
 	}
     
     # Province
-	infantry_shock = 0.25
+	infantry_shock = 0.05
 	mil_tech_cost_modifier = -0.05
     
     #Province scope

@@ -23,7 +23,7 @@ mission_calling_of_the_desert_g15 = {
 
 mission_pygmy_raiding_teams_g15 = {
     cavalry_power = 0.10 
-	cavalry_shock = 1 
+	cavalry_shock = 0.2
 }
 
 mission_raiding_the_obelisks_g15 = {

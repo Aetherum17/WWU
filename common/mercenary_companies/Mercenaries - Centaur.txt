@@ -20,6 +20,6 @@ wwu_specialist_aratas = {
     modifier = {
 		discipline = 0.1
 		cavalry_power = 0.25
-		cavalry_shock = 1
+		cavalry_shock = 0.25
 	}
 }

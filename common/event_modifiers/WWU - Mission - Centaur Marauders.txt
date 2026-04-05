@@ -31,7 +31,7 @@ mission_thundering_hooves = {
 }
 
 mission_apocalypse = {
-    cavalry_shock = 0.5
+    cavalry_shock = 0.25
 }
 
 mission_war_on_tauren = {

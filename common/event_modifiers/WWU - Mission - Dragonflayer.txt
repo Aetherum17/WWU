@@ -73,8 +73,8 @@ decision_B08_gjalerborn_citadel = {
 }
 
 decision_B08_harpoon_tech_unlocked = {
-    infantry_shock = 0.5
-    cavalry_shock = 0.5
+    infantry_shock = 0.2
+    cavalry_shock = 0.2
 }
 
 

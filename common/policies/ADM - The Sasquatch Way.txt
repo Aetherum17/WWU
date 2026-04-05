@@ -39,7 +39,7 @@ policy_ancient_might = {
 	}
 	
 	# Modifier
-    infantry_shock = 1 
+    infantry_shock = 0.2
     shock_damage_received = -0.05 
 	
     effect = {}

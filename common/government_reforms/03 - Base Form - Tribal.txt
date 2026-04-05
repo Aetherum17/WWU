@@ -265,7 +265,7 @@ gnoll_horde_reform = {
     modifiers = {
         global_manpower_modifier = 0.1
         province_warscore_cost = -0.1
-        infantry_shock = 1.0
+        infantry_shock = 0.33
         
         land_forcelimit_modifier = 0.1
         land_forcelimit = 3

@@ -140,7 +140,7 @@ warsong_ideas = {
 	}
     # Shock and Awe
 	warsong_ideas_6 = {
-		infantry_shock = 1
+		infantry_shock = 0.25
 	}
     # Worg Delivery
 	warsong_ideas_7 = {
@@ -458,7 +458,7 @@ shattered_hand_ideas = {
 	}
     # Shadows in the Highest Perches
 	shattered_hand_ideas_7 = { 
-        infantry_shock = 1.0
+        infantry_shock = 0.25
 	}
 }
 
@@ -1212,7 +1212,7 @@ karazhan_ideas = {
 	}
     # Power Overwhelming
 	karazhan_ideas_7 = {
-		infantry_fire = 1.0
+		infantry_fire = 0.33
 	}
 }
 
@@ -1520,7 +1520,7 @@ rustbolt_ideas = {
     
     # Mechacycle Fleets
 	rustbolt_ideas_6 = {
-        infantry_shock = 1.0
+        infantry_shock = 0.15
         movement_speed = 0.2
 	}
     
@@ -1614,7 +1614,7 @@ faldorei_ideas = {
     
     # Wild Transformation
 	faldorei_ideas_2 = {
-        infantry_shock = 1.0
+        infantry_shock = 0.33
 	}
     
     # Falanaar Nests
@@ -2574,7 +2574,7 @@ burning_blade_ideas = {
     # Blademasters
     burning_blade_ideas_4 = {
 		army_tradition_from_battle = 0.33
-		infantry_fire = 1
+		infantry_fire = 0.25
     }
     # Every Orc a Soldier
     burning_blade_ideas_5 = {
@@ -2774,7 +2774,7 @@ sons_of_lothar_ideas = {
 	}
     # Alleria’s Swiftness
 	sons_of_lothar_ideas_3 = {
-		infantry_shock = 0.5
+		infantry_shock = 0.15
 		leader_land_manuever = 1
 	}
     # Kurdran and Sky’ree ’s Ferocity
@@ -2861,7 +2861,7 @@ twilight_hammer_ideas = {
 drakkari_ideas = {
     start = {
         religious_unity = 0.15
-        infantry_shock = 0.5
+        infantry_shock = 0.2
     }
 	
     bonus = {
@@ -3624,7 +3624,7 @@ moknathal_ideas = {
 	}
     # Bane of Gronn
 	moknathal_ideas_7 = {
-		infantry_shock = 0.5
+		infantry_shock = 0.25
 	}
 }
 
@@ -3638,7 +3638,7 @@ thunderlord_ideas = {
 	}
 
 	bonus = {
-		infantry_shock = 0.5
+		infantry_shock = 0.2
 	}
 	
 	trigger = {

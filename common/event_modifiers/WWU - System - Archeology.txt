@@ -70,7 +70,7 @@ artifact_warswords_of_valarjar = {
 
 # Scythe of Elune
 artifact_scythe_of_elune = {
-    infantry_fire = 1.0
+    infantry_fire = 0.25
 }
 
 # Maw of the Damned
@@ -183,12 +183,12 @@ artifact_ulthalesh = {
 
 # Scepter of Sargeras
 artifact_scepter_of_sargeras = {
-    artillery_fire = 1.0
+    artillery_fire = 0.25
 }
 
 # Strom'kar
 artifact_stromkar = {
-    infantry_shock = 1.0
+    infantry_shock = 0.33
 }
 
 # Scale of the Earth-warder
@@ -402,12 +402,12 @@ artifact_pearl_of_pandaria = {
 
 # Sulfuras, Hand of Ragnaros
 artifact_sulfuras ={
-    infantry_fire = 1
+    infantry_fire = 0.25
 }
 
 # Shalamane
 artifact_shalamane ={
-    infantry_shock = 1
+    infantry_shock = 0.33
 }
 
 # Thunderfury, Blessed Blade of the Windseeker

@@ -39,8 +39,8 @@ policy_mountainous_guirella_tactics = {
 	}
 	
 	# Modifier
-    infantry_shock = 1
-	infantry_fire = 1 
+    infantry_shock = 0.2
+	infantry_fire = 0.33
     
     effect = {}
 	removed_effect = {}

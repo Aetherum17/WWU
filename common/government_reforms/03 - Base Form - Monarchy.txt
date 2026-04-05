@@ -1190,7 +1190,7 @@ mechagon_reform = {
 	modifiers = {
         technology_cost = -0.1
         province_warscore_cost = -0.1
-        infantry_shock = 1.0
+        infantry_shock = 0.2
         
         max_absolutism = 15
 	}

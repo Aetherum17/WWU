@@ -47,7 +47,7 @@ gained_leverage = {
 }
 
 enslaved_demonlord = {
-	artillery_fire = 1
+	artillery_fire = 0.25
 	artillery_levels_available_vs_fort = 1
     religion = yes
 }

@@ -334,7 +334,7 @@ wwu_armaments_ideas = {
     }
     # Unbreakable Lances
     wwu_armaments_ideas_4 = {
-        cavalry_shock = 0.5
+        cavalry_shock = 0.2
     }
     # Vambraces
     wwu_armaments_ideas_5 = {

@@ -41,7 +41,7 @@ wwu_specialist_stromgarde_snipers = {
         has_country_flag = unlocked_stromgarde_snipers
     }
     modifier = {
-        infantry_shock = 0.5
+        infantry_shock = 0.25
         military_tactics = 0.2
     }
     

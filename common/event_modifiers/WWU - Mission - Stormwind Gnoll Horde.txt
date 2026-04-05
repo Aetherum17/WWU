@@ -25,7 +25,7 @@ mission_stw_one_survival_of_humanity = {
     manpower_recovery_speed = 0.33
 }
 mission_stw_one_brotherhood_of_horse = {
-    cavalry_shock = 1
+    cavalry_shock = 0.25
     cavalry_power = 0.15
 }
 mission_stw_one_army_reform = {

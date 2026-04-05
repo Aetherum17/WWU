@@ -923,7 +923,7 @@ ctr_ideas = {
 	}
 
 	bonus = {
-		cavalry_shock = 1.0
+		cavalry_shock = 0.33
 	}
 	
 	trigger = {
@@ -1280,7 +1280,7 @@ dse_ideas = {
 drakkari_empire_ideas = {
     start = {
         religious_unity = 0.25
-        infantry_shock = 1
+        infantry_shock = 0.25
     }
 	
     bonus = {

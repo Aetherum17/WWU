@@ -1175,7 +1175,7 @@ gp_uldir_complex = {
             local_hostile_attrition = 2
 		}
 		country_modifiers = {
-            infantry_shock = 0.5
+            infantry_shock = 0.2
             mil_tech_cost_modifier = -0.05
 		}
 		on_upgraded = {

@@ -21,7 +21,7 @@ mission_adapting_to_circumstances_poa = {
 
 mission_terror_of_the_desert_a_poa = {
     cavalry_power = 0.2 
-	cavalry_shock = 1 
+	cavalry_shock = 0.2
 }
 
 mission_terror_of_the_desert_b_poa = {

@@ -53,7 +53,7 @@ harmonized_arcane = {
 }
 
 harmonized_titan_worship = {
-    infantry_shock = 0.25
+    infantry_shock = 0.15
     religion = yes
 }
 

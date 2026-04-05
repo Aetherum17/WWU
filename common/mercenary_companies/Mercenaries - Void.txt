@@ -74,7 +74,7 @@ wwu_cultural_specialist_voidwraith_1 = {
         }
 	}
 	modifier = {
-        infantry_shock = 0.35
+        infantry_shock = 0.2
 		movement_speed = 0.1
     }
 }
@@ -93,7 +93,7 @@ wwu_cultural_specialist_voidwraith_2 = {
         }
 	}
 	modifier = {
-        infantry_shock = 0.35
+        infantry_shock = 0.2
 		movement_speed = 0.1
     }
 }
@@ -112,7 +112,7 @@ wwu_cultural_specialist_voidwraith_3 = {
         }
 	}
 	modifier = {
-        infantry_shock = 0.35
+        infantry_shock = 0.2
 		movement_speed = 0.1
     }
 }

@@ -2142,7 +2142,7 @@ cawa_regiment = {
 
 # Troll - Hydras
 hussars_regiment = {
-	cavalry_shock = 1
+	cavalry_shock = 0.33
 	morale_damage = 0.5
 	reinforce_speed = -0.5
 }

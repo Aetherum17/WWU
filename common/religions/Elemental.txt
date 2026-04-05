@@ -79,11 +79,11 @@ elemental_group = {
 		allow_female_defenders_of_the_faith = yes
 		
 		country = {
-			infantry_fire = 1
+			infantry_fire = 0.2
             leader_land_fire = 1
 		}
         country_as_secondary = {	
-			infantry_fire = 1
+			infantry_fire = 0.2
             leader_land_fire = 1
 		}
 		province = {

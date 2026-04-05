@@ -167,7 +167,7 @@ deity_liquefying_spore = {
     }
 	removed_effect = { }
     
-    infantry_shock = 1
+    infantry_shock = 0.2
     land_morale = 0.1
     
 	ai_will_do = {
