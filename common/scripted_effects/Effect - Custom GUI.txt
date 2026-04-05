@@ -683,3 +683,4 @@ clear_shared_faction_view_flags = {
     clr_country_flag = gui_flag__dragon_aspects_gui_open
     
 }
+

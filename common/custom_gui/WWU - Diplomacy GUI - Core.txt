@@ -286,3 +286,15 @@ custom_icon = {
         is_dragon_aspects_member = yes
     }
 }
+
+#------------------------------------
+# War Block
+#------------------------------------
+custom_icon = {
+   name = target_nation_war_block_status__ring_of_peace
+   tooltip = DIPLO_VIEW_RING_OF_PEACE_WAR_BLOCK_TT
+   
+   potential = {
+        has_country_modifier = chi_prevent_war
+   }
+}

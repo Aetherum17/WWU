@@ -37,3 +37,7 @@
  FACTION_STATUS_DRAGON_ASPECTS_HEAD: "[Root.GetName] is the §YLeader§! of the §YDragon Aspects§!."
  FACTION_STATUS_DRAGON_ASPECTS_MEMBER: "[Root.GetName] is a member of the §YDragon Aspects§!."
  
+ #----------------------------------------
+ # War Block
+ #----------------------------------------
+ DIPLO_VIEW_RING_OF_PEACE_WAR_BLOCK_TT: "[Root.GetName] has used §YRing of Peace§!, which prevents war declaration against them."

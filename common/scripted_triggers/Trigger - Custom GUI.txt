@@ -120,3 +120,4 @@ is_viewing_own_faction = {
         }
     }
 }
+
