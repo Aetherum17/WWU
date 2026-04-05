@@ -530,6 +530,33 @@ on_yearly_pulse__faction = {
                     country_event = { id = wwu_faction_system_leader_assignment.10 }
                 }
             }
+            else_if = {
+                limit = {
+                    any_country = {
+                        has_country_modifier = member_of_alliance
+                        NOT = { has_country_modifier = head_of_alliance }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
+                    }
+                }
+                
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_alliance
+                        NOT = { has_country_modifier = head_of_alliance }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.10 }
+                }
+            }
             else
             {
                 random_country = {
@@ -585,6 +612,33 @@ on_yearly_pulse__faction = {
                         NOT = { has_country_modifier = head_of_horde }
                         
                         is_strong_player_for_faction_leader_assignement = yes
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.11 }
+                }
+            }
+            else_if = {
+                limit = {
+                    any_country = {
+                        has_country_modifier = member_of_horde
+                        NOT = { has_country_modifier = head_of_horde }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
+                    }
+                }
+                
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_horde
+                        NOT = { has_country_modifier = head_of_horde }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
                     }
                     
                     country_event = { id = wwu_faction_system_leader_assignment.11 }
@@ -652,6 +706,33 @@ on_yearly_pulse__faction = {
                     country_event = { id = wwu_faction_system_leader_assignment.13 }
                 }
             }
+            else_if = {
+                limit = {
+                    any_country = {
+                        has_country_modifier = member_of_trade_coalition
+                        NOT = { has_country_modifier = head_of_trade_coalition }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
+                    }
+                }
+                
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_trade_coalition
+                        NOT = { has_country_modifier = head_of_trade_coalition }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.13 }
+                }
+            }
             else
             {
                 random_country = {
@@ -707,6 +788,33 @@ on_yearly_pulse__faction = {
                         NOT = { has_country_modifier = head_of_dragon_aspects }
                         
                         is_strong_player_for_faction_leader_assignement = yes
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.14 }
+                }
+            }
+            else_if = {
+                limit = {
+                    any_country = {
+                        has_country_modifier = member_of_dragon_aspects
+                        NOT = { has_country_modifier = head_of_dragon_aspects }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
+                    }
+                }
+                
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_dragon_aspects
+                        NOT = { has_country_modifier = head_of_dragon_aspects }
+                        
+                        check_variable = {
+                            which = faction_renown
+                            value = 25
+                        }
                     }
                     
                     country_event = { id = wwu_faction_system_leader_assignment.14 }

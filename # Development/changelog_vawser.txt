@@ -23,7 +23,6 @@
 #--------------------------------------
 
 Faction Issues:
-- Randomness for leadership succession, should allow player the ability to more deterministically control leadership
 - Better info on faction point gain/loss
 - Horde: kalimdor invites shouldn't be allowed before the Horde has significant presence in EK
 - Horde: cannot invite non-Draenor members when on Draenor
