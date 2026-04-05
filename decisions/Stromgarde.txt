@@ -15,7 +15,7 @@ country_decisions = {
             A29 = {
                 exists = yes
                 is_subject = no
-                opinion = {
+                has_opinion = {
                     who = ROOT
                     value = 100
                 }
@@ -37,10 +37,8 @@ country_decisions = {
             factor = 1
         }
     }
-}
 
 # Resettle Southshore
-country_decisions = {
     resettle_southshore = {
         potential = {
             has_country_flag = unlock_resettle_southshore
@@ -76,10 +74,8 @@ country_decisions = {
             factor = 1
         }
     }
-}
 
 # Demand Ravenholdt Submission
-country_decisions = {
     ravenholdt_force_vassalize = {
         potential = {
             exists = A27
@@ -122,7 +118,7 @@ country_decisions = {
         ai_will_do = {
             factor = 1
 
-            modifers = {
+            modifier = {
                 factor = 0
                 is_at_war = yes
             }
