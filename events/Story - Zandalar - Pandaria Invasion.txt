@@ -400,32 +400,39 @@ country_event = {
 	}
     immediate = {
 		hidden_effect = {
-
-			random_country = {
+			if = {
 				limit = {
-					OR = {
-					culture_group = culture_group_jinyu
-                    culture_group = culture_group_hozen
-                    culture_group = culture_group_pandaren
+					any_country = {
+						OR = {
+						culture_group = culture_group_jinyu
+						culture_group = culture_group_hozen
+						culture_group = culture_group_pandaren
+						}
+						capital_scope = { 
+							superregion = pandaria_superregion
+						}
+						NOT = { tag = ROOT }
 					}
-					capital_scope = { 
-                        superregion = pandaria_superregion
-                    }
-					NOT = { tag = ROOT }
 				}
-				save_global_event_target_as = panda_target
+				random_country = {
+					limit = {
+						OR = {
+						culture_group = culture_group_jinyu
+						culture_group = culture_group_hozen
+						culture_group = culture_group_pandaren
+						}
+						capital_scope = { 
+							superregion = pandaria_superregion
+						}
+						NOT = { tag = ROOT }
+					}
+					save_global_event_target_as = panda_target
+				}
+				declare_war_with_cb = {
+					who = event_target:panda_target
+					casus_belli = cb_zandalar_war_against_pandaria
+				}
 			}
-			}
-		if = {
-			limit = {
-				exists = event_target:panda_target
-
-			}
-
-        declare_war_with_cb = {
-            who = event_target:panda_target
-            casus_belli = cb_zandalar_war_against_pandaria
-        }
 		}
     }
     option = {
