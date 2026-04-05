@@ -246,8 +246,8 @@ country_event = {
 # Delayed Event for Infantry Spawn
 country_event = {
 	id = wwu_setup_outland.10
-	title = wwu_setup_outland.10.title
-	desc = wwu_setup_outland.10.desc
+	title = wwu_setup_outland.2.title
+	desc = wwu_setup_outland.2.desc
 	picture = DARK_PORTAL_eventPicture
 
 	is_triggered_only = yes
@@ -264,7 +264,7 @@ country_event = {
 	}
     
 	option = {
-		name = wwu_setup_outland.10.option.a
+		name = wwu_setup_outland.2.option.a
         
         spawn_infantry_based_on_province_count = yes
 	}

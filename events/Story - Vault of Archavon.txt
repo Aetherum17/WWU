@@ -107,12 +107,12 @@ country_event = {
 
   option = {
     name = wwu_archavon.1.op1
-    custom_tooltip = event_1_archavon_tt
+    #custom_tooltip = event_1_archavon_tt # Not defined in localisation
 
-                change_variable = {
-                    which = archavon_titans_facility
-                    value = 10
-                }
+	change_variable = {
+		which = archavon_titans_facility
+		value = 10
+	}
 
   }
 }
