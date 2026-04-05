@@ -2,29 +2,14 @@
 # Changelog - Cryo
 #--------------------------------------
 # Country :
-- New TAGS : Moonrage, Wolfheart
-- Diplomacy adjustement for Shadowfang - Bloodmoon - Wolfcult - Silverbrook
+
 # Scourge :
-- Naxxramas can be moved by decisions as Scourge.
-- "Arrival of Naxxramas" events need the decision "construct the naxxramas necropolis" to be fire.
-- Fixing Icecrown area colonisation decision for no DLC user
+
 # Great Project :
-- Adding Silvershard Mines to Eastern Kingdom
-- Naxxramas is now located in Northrend by default. Except for 618 to 625 years.
+
 # Updated Portrait :
-- Sally Whitemane added  
-- Saidan Dathrohan added
-- Darion Mograine added
-- Arugal added
-- Ivar Bloodfang added
-- Liam Greymane added
-- Darius Crowley added with worgen variant
-- Vincent Godfrey and his undead variant added
-- Shade of Arugal added for Bloodmoon
-- Son of Arugal added for every worgen nation under Arugal control
-- Maxwell Tyrosus added
-- Alextrazsa and Ysera updated 
-# New Content 
+
+# New Content # Not included
  # Small Mission tree for :
  - Bloodfang
  - Shadowfang
@@ -34,7 +19,7 @@
 #----------------------------------------------------------------------------
 # TODO
 #----------------------------------------------------------------------------
--Silverpine (Tag: @X03): Currently unused but planned as a new formable for Bloodfang or other Worgen factions.)
+-Silverpine (Tag: @X03): Currently unused but planned as a new formable for Bloodfang or other Worgen factions.
 -Mission tree for :
 	- Bloodfang
 	- New Lordaeron

@@ -3,7 +3,6 @@
 #--------------------------------------
 
 # Fixes
--Fixed "Warlust" event, allowing it to happen
 -Fixed discovery setup preventing otherworldly nations from seeing Khaz Algar
 -Fixed Discovery event allowing humans to see Draenor upon orcish invasion
 -Fixed Green Dragons provinces starting as incorrect faith, making them start with 0 religious unity

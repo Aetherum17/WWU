@@ -1,27 +1,6 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
-#Azjol Nerub changes
--Reduced the cost of upgrading caves while locking the player to only being able to upgrade them in the Azjol-Nerub region. The ability to upgrade to level 3 throughout Northrend is unlocked after completing the final mission.
--Two provinces in the Icecrown region were removed from possession due to units being unable to return to Azjol Nerub after teleporting.
--Fixed bug with ability to instantly develop caves. Also now requires amount of development in province.
--Fixed bug with incorrect assignment of modifiers in the Nerubian Wisdom event.
--Changed cave modifier icons to be more user-friendly.
--Changed the required province for the first mission so you don't have to wait for the Vrykul to colonize it.
--Added a graphical map transition to Sholazar Basin.
--Changed rewards and requirements for some missions to be more balanced. Describing rewards from events in the mission tree.
--Added ability for ai to upgrade caves.
-
-#Zandalar changes
--War for the Pandaria has been changed. Now, after winning the war, Zul Expedition will change into ~~East British Company~~ Zandalari Enterprise, which you will be able to expand by countries you defeated during the war.
--Disaster with a major civil war is easier to achieve
--Balancing multiple numbers in events and fixing bugs
-
-#Vault of Archavon changes
--Changing this country to a preferred country for vassalization thanks to the mission rewards available to the overlord.
--Adding repeatable missions that allow you to upgrade the main modifier on the capital.
--Added a decision allowing for the improvement of the unique trap system that is triggered when enemy units are besieging capitals.
-
 
 #----------------------------------------------------------------------------
 # TODO

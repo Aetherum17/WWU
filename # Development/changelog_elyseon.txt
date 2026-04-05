@@ -2,44 +2,21 @@
 # Changelog
 #--------------------------------------
 NEW CULTURE GROUPS:
--Culture Group Sasquatch (Sasquatch/Yeti/Wendigo) (Yeti and Wendigo will be available only in Custom Designer)
 
 
 NAME CHANGES:
--Name Change Flavor for Cult of Lo'Gosh
--Name Change/Formation Flavor for Emerald Nightmare
--Name Change Flavor for Secret Society of Sasquatch
 
 
 MISSIONS:
--Secret Society of Sasquatch
 
 
 MAP CHANGES:
--Dragon Isles Colonial and Trade Node Map Update
--Tirisfal Node Outgoing to Tranquillien rather than Silvermoon City
--Broken Isles Colonial Update
--Andorhal Province Update
--Tirisfal Province Update
--Kul'tiras Province Update 2.0
--Farahlon Political Update
 
 
 POLITICAL CHANGES
--New Drustvar tags (Bonegnasher Troggs and the releasable Gol Koval)
--New Tanaan Jungle Tags (Zorammarsh Botani as the prime threat of the region in the expense of Bleeding Hollow, the Kranak Arrakkoa and the Dreanei of Shanaar)
--New Faralhon Tags (Arklon, Enkaat and Farahlon City Draenei)
--New Andorhal Tag (Secret Society of Sasquatch)
 
 
 GOVERNMENT REFORMS AND GAMEPLAY:
--Tribal Changes to Maruuk Centaurs
--Added Vanilla Reforms to support settling and more for maruuk new native mechanics
--Return of Federation Mechanic, update of it and proper support to accompany the Maruuk Centaur native playstyle
--Mage Class now adds 50% to monarch lifespawn 
--Whitebark now starts as historical friend with Quelthalas
--Quelthalas now protect guarantees Whitebark
--Now Noxious Podlings start as vassal of Everbloom
 
 
 FIXES
