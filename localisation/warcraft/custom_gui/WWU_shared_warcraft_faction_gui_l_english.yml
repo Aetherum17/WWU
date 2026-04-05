@@ -27,7 +27,7 @@
  TRADE_COALITION_FACTION_TT: "§YThe Trade Coalition§!\nSee who is the current Trade Prince and which countries are members of the Trade Coalition."
  DRAGON_ASPECTS_FACTION_TT: "§YThe Dragon Aspects§!\nSee who is the current Leader and which countries are members of the Dragon Aspects."
  
- TOPBAR_FACTION_LEADER_TT: "§Y[faction_leader.GetName]§! is the current leader of this faction."
+ TOPBAR_FACTION_LEADER_TT: "§Y[faction_leader.GetName]§! is the current leader of this faction.\n\nWhen a leadership crisis happens, a new country will become the leader.\n\n§YCrisis Events§!\n- Leader Annexed\n\n§YLeadership Assignment§!\nThere are three rounds to a leadership assignment.\nIf a leader is found in one round, the subsequent rounds do not occur.\n\n1. If the player has §Y300§! development or more, §Y25§! prestige or higher, less than §Y5§! corruption and §Y0§! stability or higher, then the player becomes the leader.\n\n2. A random selection from all renowned members of the faction. A renowned member is a country with §Y25§! or more faction renown.\n\n3. A random selection from all members of the faction."
  TOPBAR_FACTION_MEMBER_1_TT: "§Y[faction_member_1.GetName]§! is a member of this faction."
  TOPBAR_FACTION_MEMBER_2_TT: "§Y[faction_member_2.GetName]§! is a member of this faction."
  TOPBAR_FACTION_MEMBER_3_TT: "§Y[faction_member_3.GetName]§! is a member of this faction."

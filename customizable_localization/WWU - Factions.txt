@@ -75,4 +75,3 @@ defined_text = {
         }
     }
 }
-
