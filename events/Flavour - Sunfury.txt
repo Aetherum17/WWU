@@ -86,7 +86,7 @@ country_event = {
     id = wwu_sunfury_f.2
     title = wwu_sunfury_f.2.title
     desc = wwu_sunfury_f.2.desc
-    picture = pictureTEMPEST_KEEP
+    picture = TEMPEST_KEEP_eventPicture
 
     is_triggered_only = yes
 

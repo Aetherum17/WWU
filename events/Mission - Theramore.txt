@@ -1566,7 +1566,7 @@ country_event = {
     id = wwu_mission_theramore.33
     title = wwu_mission_theramore.33.title
     desc = wwu_mission_theramore.33.desc
-    picture = KUL_TIRAN_SHIP_eventPictur
+    picture = KUL_TIRAN_SHIP_eventPicture
 
 
     is_triggered_only = yes

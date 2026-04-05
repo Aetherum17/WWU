@@ -424,7 +424,7 @@ country_event = {
     id = wwu_mission_stw_main.9
     title = wwu_mission_stw_main.9.title
     desc = wwu_mission_stw_main.9.desc
-    picture = MOIRA_BRONZBEARD_eventPicture
+    picture = MOIRA_BRONZEBEARD_eventPicture
 
     is_triggered_only = yes
     mean_time_to_happen = {

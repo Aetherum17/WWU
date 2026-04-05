@@ -7221,6 +7221,11 @@ spriteTypes = {
         texturefile = "gfx/event_pictures//SHIPS_CANNON.dds"
         alwaystransparent = yes
     }
+	spriteType = {
+        name = "THRONE_OF_THE_ELEMENTS_eventPicture"
+        texturefile = "gfx/event_pictures//THRONE_OF_THE_ELEMENTS.dds"
+        alwaystransparent = yes
+    }
     spriteType = {
         name = "SHIP_SAILING_eventPicture"
         texturefile = "gfx/event_pictures//SHIP_SAILING.dds"
