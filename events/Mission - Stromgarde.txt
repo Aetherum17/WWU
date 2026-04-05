@@ -172,7 +172,7 @@ country_event = {
             casus_belli = cb_border_war
         }
 
-        all_ally = {
+        every_ally = {
             join_all_offensive_wars_of = ROOT
         }
 
