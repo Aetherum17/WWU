@@ -3303,9 +3303,9 @@ gp_gnomeregan = {
                 }
             }
         }
-        A32 = {
-            mission_completed = operation_gnomeregan
-        }
+        #A32 = {
+        #    mission_completed = operation_gnomeregan
+        #}
     }
     modifier = {
         global_unrest = -2

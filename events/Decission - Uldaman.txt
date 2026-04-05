@@ -1465,11 +1465,11 @@ country_event = {
 				limit = {
 					superregion = ek_khaz_modan_superregion
 				}
-				discover_province = P57
+				discover_country = P57
 			}
 			declare_war_with_cb = {
 				who = A29
-				cb = cb_no_cb
+				casus_belli = cb_annex
 			}
 		}
 	}
@@ -1510,11 +1510,11 @@ country_event = {
 				limit = {
 				superregion = ek_khaz_modan_superregion
 				}
-				discover_province = P57
+				discover_country = P57
 			}
 			declare_war_with_cb = {
 				who = A30
-				cb = cb_no_cb
+				casus_belli = cb_annex
 			}
 		}
 	}
@@ -1555,15 +1555,15 @@ country_event = {
 				limit = {
 					superregion = ek_khaz_modan_superregion
 				}
-				discover_province = P57
+				discover_country = P57
 			}
 			declare_war_with_cb = {
 				who = A29
-				cb = cb_no_cb
+				casus_belli = cb_annex
 			}
 			declare_war_with_cb = {
 				who = A30
-				cb = cb_no_cb
+				casus_belli = cb_annex
 			}
 		}
 	}
