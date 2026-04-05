@@ -1,0 +1,339 @@
+#-----------------------------------
+# Alliance
+#-----------------------------------
+alliance_rank_1 = {
+	potential = {
+        has_country_modifier = member_of_alliance
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 50
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 25
+        }
+	}
+    
+    development_cost = -0.025
+}
+
+alliance_rank_2 = {
+	potential = {
+        has_country_modifier = member_of_alliance
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 75
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 50
+        }
+	}
+    
+    development_cost = -0.05
+}
+
+alliance_rank_3 = {
+	potential = {
+        has_country_modifier = member_of_alliance
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 100
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 75
+        }
+	}
+    
+    development_cost = -0.075
+}
+
+alliance_rank_4 = {
+	potential = {
+        has_country_modifier = member_of_alliance
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+    
+    development_cost = -0.1
+}
+
+#-----------------------------------
+# Horde
+#-----------------------------------
+horde_rank_1 = {
+	potential = {
+        has_country_modifier = member_of_horde
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 50
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 25
+        }
+	}
+    
+    war_exhaustion = -0.025
+}
+
+horde_rank_2 = {
+	potential = {
+        has_country_modifier = member_of_horde
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 75
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 50
+        }
+	}
+    
+    war_exhaustion = -0.05
+}
+
+horde_rank_3 = {
+	potential = {
+        has_country_modifier = member_of_horde
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 100
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 75
+        }
+	}
+    
+    war_exhaustion = -0.075
+}
+
+horde_rank_4 = {
+	potential = {
+        has_country_modifier = member_of_horde
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+    
+    war_exhaustion = -0.1
+}
+
+#-----------------------------------
+# Trade Coalition
+#-----------------------------------
+trade_coalition_rank_1 = {
+	potential = {
+        has_country_modifier = member_of_trade_coalition
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 50
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 25
+        }
+	}
+    
+    merchants = 1
+}
+
+trade_coalition_rank_2 = {
+	potential = {
+        has_country_modifier = member_of_trade_coalition
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 75
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 50
+        }
+	}
+    
+    merchants = 2
+}
+
+trade_coalition_rank_3 = {
+	potential = {
+        has_country_modifier = member_of_trade_coalition
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 100
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 75
+        }
+	}
+    
+    merchants = 3
+}
+
+trade_coalition_rank_4 = {
+	potential = {
+        has_country_modifier = member_of_trade_coalition
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+    
+    merchants = 4
+}
+
+#-----------------------------------
+# Dragon Aspects
+#-----------------------------------
+dragon_aspects_rank_1 = {
+	potential = {
+        has_country_modifier = member_of_dragon_aspects
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 50
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 25
+        }
+	}
+    
+    diplomatic_reputation = 1
+}
+
+dragon_aspects_rank_2 = {
+	potential = {
+        has_country_modifier = member_of_dragon_aspects
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 75
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 50
+        }
+	}
+    
+    diplomatic_reputation = 2
+}
+
+dragon_aspects_rank_3 = {
+	potential = {
+        has_country_modifier = member_of_dragon_aspects
+        NOT = {
+            check_variable = {
+                which = faction_renown
+                value = 100
+            }
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 75
+        }
+	}
+    
+    diplomatic_reputation = 3
+}
+
+dragon_aspects_rank_4 = {
+	potential = {
+        has_country_modifier = member_of_dragon_aspects
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+
+	trigger = {
+        check_variable = {
+            which = faction_renown
+            value = 100
+        }
+	}
+    
+    diplomatic_reputation = 4
+}

@@ -10,6 +10,7 @@
  
 # Factions
 - When a faction leader assignment occurs, it will assign leadership to the player if they are not considered 'weak'. If they are considered weak, the assignment is random.
+- Added a scaling modifier based on faction renown (25, 50, 75, 100) for each faction.
 
 # Interface
 - Added a visual indicator of the Ring of Peace spell usage in the diplomacy view, allowing the player to more easily notice if a country has war declaration blocked by the spell.
