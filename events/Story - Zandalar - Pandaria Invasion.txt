@@ -673,14 +673,15 @@ country_event = {
 
 
 		hidden_effect = {
-		ZFC = {
-		every_owned_province = {
-		kill_units = {
-			who = ZFC   # optional, only affect <scope>'s units. Scopes enemy, owner and controller work here.
-			amount = 100
-		}
-		}
-		}
+		# ZFC - is not defined tag
+		#ZFC = {
+		#every_owned_province = {
+		#kill_units = {
+		#	who = ZFC   # optional, only affect <scope>'s units. Scopes enemy, owner and controller work here.
+		#	amount = 100
+		#}
+		#}
+		#}
 		# AE lokalna
 		if = {
 		limit = {
@@ -1216,14 +1217,15 @@ country_event = {
 
 		
 		hidden_effect = {
-		ZFC = {
-		every_owned_province = {
-		kill_units = {
-			who = ZFC   # optional, only affect <scope>'s units. Scopes enemy, owner and controller work here.
-			amount = 100
-		}
-		}
-		}
+		# ZFC - is not defined tag
+		#ZFC = {
+		#every_owned_province = {
+		#kill_units = {
+		#	who = ZFC   # optional, only affect <scope>'s units. Scopes enemy, owner and controller work here.
+		#	amount = 100
+		#}
+		#}
+		#}
 		if = {
 		limit = {
 		event_target:current_defender = {
@@ -1623,31 +1625,31 @@ country_event = {
 		add_republican_tradition = 100
 		set_government_rank = 2
 		}
-		custom_tooltip = zandalari_zfc_enterprise_claim
-		hidden_effect = {
-		every_province = {
-		limit = {
-		superregion = pandaria_superregion
-		NOT = {
-			owned_by = ROOT
-		}
-		}
-		add_permanent_claim = ZFC
-		}
-		}
-		}
+		# ZFC - is not defined tag
+		#custom_tooltip = zandalari_zfc_enterprise_claim
+		#hidden_effect = {
+		#every_province = {
+		#limit = {
+		#superregion = pandaria_superregion
+		#NOT = {
+		#	owned_by = ROOT
+		#}
+		#}
+		#add_permanent_claim = ZFC
+		#}
+		#}
+		#}
 		
-		ai_chance = { factor = 3 }
-		
-		hidden_effect = {
-		ZFC = {
-		every_owned_province = {
-		kill_units = {
-			who = ZFC   # optional, only affect <scope>'s units. Scopes enemy, owner and controller work here.
-			amount = 100
-		}
-		}
-		}
+		# ZFC - is not defined tag
+		#hidden_effect = {
+		#ZFC = {
+		#every_owned_province = {
+		#kill_units = {
+		#	who = ZFC   # optional, only affect <scope>'s units. Scopes enemy, owner and controller work here.
+		#	amount = 100
+		#}
+		#}
+		#}
 		}
 		if = {
 		limit = {
