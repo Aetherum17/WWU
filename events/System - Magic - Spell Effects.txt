@@ -36,25 +36,25 @@ country_event = {
 	}
 }
 
-# Polymorph Begins
-country_event = {
-	id = wwu_magic_effect.10
-	title = wwu_magic_effect.10.title
-	desc = wwu_magic_effect.10.desc
-	picture = POLYMORPH_BOAR_eventPicture
-    
-	is_triggered_only = yes
-
-    mean_time_to_happen = {
-		days = 1
-    }
-	
-	option = {
-		name = wwu_magic_effect.10.option.a
-		
-        custom_tooltip = POLYMORPH_BEGINS_TT
-	}
-}
+# Polymorph Begins - Not used anywhere
+#country_event = {
+#	id = wwu_magic_effect.10
+#	title = wwu_magic_effect.10.title
+#	desc = wwu_magic_effect.10.desc
+#	picture = POLYMORPH_BOAR_eventPicture
+#    
+#	is_triggered_only = yes
+#
+#    mean_time_to_happen = {
+#		days = 1
+#    }
+#	
+#	option = {
+#		name = wwu_magic_effect.10.option.a
+#		
+#        custom_tooltip = POLYMORPH_BEGINS_TT
+#	}
+#}
 
 
 # Polymorph in X

@@ -2446,6 +2446,12 @@ on_five_year_pulse_4 = {
         20 = wwu_magic.17              # Advancement of Aptitude
         20 = wwu_magic.18              # Advancement of Finesse
         20 = wwu_magic.19              # Advancement of Concentration
+        20 = wwu_magic.52              # Diminishment in Concentration 
+        20 = wwu_magic.51              # Diminishment in Finesse
+        20 = wwu_magic.50              # Diminishment in Aptitude 
+        20 = wwu_magic.42              # Improvement in Concentration
+        20 = wwu_magic.41              # Improvement in Finesse
+        20 = wwu_magic.40              # Improvement in Aptitude 
         
         1000 = 0
     }
