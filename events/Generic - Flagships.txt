@@ -47,7 +47,7 @@ country_event = {
 	id = wwu_flagship_events.3
 	title = wwu_flagship_events.3.title
 	desc = wwu_flagship_events.3.desc
-	picture = FLAGSHIP_SUNK_eventPicture
+	picture = SHIP_SAILING_eventPicture
 
 	is_triggered_only = yes
 
@@ -63,7 +63,7 @@ country_event = {
 	id = wwu_flagship_events.4
 	title = wwu_flagship_events.4.title
 	desc = wwu_flagship_events.4.desc
-	picture = FLAGSHIP_SUNK_eventPicture
+	picture = SHIP_SAILING_eventPicture
 
 	is_triggered_only = yes
     

@@ -137,7 +137,7 @@ country_event = {
     id = wwu_sunfury_f.3
     title = wwu_sunfury_f.3.title
     desc = wwu_sunfury_f.3.desc
-    picture = pictureTEMPEST_KEEP
+    picture = TEMPEST_KEEP_eventPicture
 
     is_triggered_only = yes
 
@@ -242,7 +242,7 @@ country_event = {
     id = wwu_sunfury_f.4
     title = wwu_sunfury_f.4.title
     desc = wwu_sunfury_f.4.desc
-    picture = pictureTEMPEST_KEEP
+    picture = TEMPEST_KEEP_eventPicture
 
     is_triggered_only = yes
 
@@ -332,7 +332,7 @@ country_event = {
     id = wwu_sunfury_f.5
     title = wwu_sunfury_f.5.title
     desc = wwu_sunfury_f.5.desc
-    picture = pictureTEMPEST_KEEP
+    picture = TEMPEST_KEEP_eventPicture
 
     is_triggered_only = yes
 
