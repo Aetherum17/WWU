@@ -139,6 +139,34 @@ custom_button = {
 }
 
 custom_button = {
+    name = warcraft_faction_support
+    tooltip = warcraft_faction_support_tt
+    
+    potential = {
+        is_viewing_own_faction = yes
+    }
+    
+    trigger = { 
+        years_of_manpower = 2
+        
+        hidden_trigger = {
+            NOT = {
+                check_variable = {
+                    which = faction_renown
+                    value = 100
+                }
+            }
+        }
+    }
+    
+    effect = { 
+        add_yearly_manpower = -2
+        
+        boost_faction_renown_small = yes
+    }
+}
+
+custom_button = {
     name = warcraft_faction_call_all_to_war
     tooltip = warcraft_faction_call_all_to_war_tt
     

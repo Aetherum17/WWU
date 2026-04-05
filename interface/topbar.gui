@@ -1843,9 +1843,20 @@ guiTypes = {
             }
             
             guiButtonType = {
-                name ="warcraft_faction_call_all_to_war"
+                name ="warcraft_faction_support"
                 quadTextureSprite = "GFX_short_button_icon"
                 position = { x= 440 y = 170 }
+                Orientation = "UPPER_LEFT"
+                buttonText="FACTION_SUPPORT"
+                buttonFont = "vic_18"
+                clicksound = click
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name ="warcraft_faction_call_all_to_war"
+                quadTextureSprite = "GFX_short_button_icon"
+                position = { x= 440 y = 210 }
                 Orientation = "UPPER_LEFT"
                 buttonText="FACTION_CALL_TO_WAR"
                 buttonFont = "vic_18"

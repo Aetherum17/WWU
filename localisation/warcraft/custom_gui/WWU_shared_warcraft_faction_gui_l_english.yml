@@ -19,6 +19,7 @@
  warcraft_faction_renown_label: "[Root.faction_renown.GetValue]"
  
  FACTION_INVEST: "Invest"
+ FACTION_SUPPORT: "Support"
  FACTION_CALL_TO_WAR: "Call to War"
  
  # Warcraft Factions
@@ -203,6 +204,9 @@
  
  warcraft_faction_invest: "Invest"
  warcraft_faction_invest_tt: "Invest gold to expand our influence over the faction"
+ 
+ warcraft_faction_support: "Support"
+ warcraft_faction_support_tt: "Support our faction by supplying labour, which in turn expands our influence."
  
  warcraft_faction_call_all_to_war: "Call to War"
  warcraft_faction_call_all_to_war_tt: "Call all faction members to war (if it is a defensive war)."

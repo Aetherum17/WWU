@@ -924,6 +924,29 @@ fill_faction_member_slot = {
     }
 }
 
+boost_faction_renown_small = {
+    hidden_effect = {
+        change_variable = {
+            which = faction_renown
+            value = 1
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = faction_renown
+                    value = 100
+                }
+            }
+            
+            set_variable = {
+                which = faction_renown
+                value = 100
+            }
+        }
+    }
+}
+
 boost_faction_renown = {
     hidden_effect = {
         change_variable = {
