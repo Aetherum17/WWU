@@ -1,0 +1,61 @@
+#--------------------------------------
+# Changelog
+#--------------------------------------
+
+MISSIONS:
+-New Mission for Khaz Modan in Uldaman branch.
+
+
+HISTORY:
+-All changes made inside Khaz Modan subregion and Kultriras continent leading up to warcraft 3 events.
+-Trogg nations removed.
+-Gnomeregan looses provinces in wetlands.
+-Gnomeregan gains provinces in Dun Morogh.
+-Badlands most provinces start uncolonized.
+-Khaz Modan and Tunnel Rat own removed Trogg lands.
+-Trogg land on Mechagnome island is uncolonized.
+
+DECISONS:
+-New decision available to Khaz Modan and Kingdom of Thaurissan to venture into Uldaman.
+
+EVENTS:
+-Khaz Modan starts an event chain from the new mission. Event leads up to new Uldaman decision.
+-Uldman intial event chain is interactable by two nations of Ironforge and Kingdom of Thaurissan which leads to a new decission to venture in Uldaman.
+-New event chain launched trough a decission which may grant new country and province modifiers as well as releases an initial trogg horde. Causing it to take over all uncolonized lands in the Badlands.
+
+#--------------------------------------------------------
+# TO NOT BE REPORTED IN NEXT UPDATE
+#--------------------------------------------------------
+- Flavour for the Khaz Modan and Kingdom of Thaurissan added with new event chains.
+- Troggs removed in early start dates.
+- Province rebalance for Gnomeregan, Khaz Modan, Tunnel Rat and Blue Gill.
+
+New Mission
+-Khaz Modan - Ironband's Excavation
+
+
+#--------------------------------------
+# TODO
+#--------------------------------------
+
+# General things for Troggs
+-Emerging nation of Stonevault Troggs needs to declare a war on either A29 or A30 or both simulating a Trogg invasion.
+-Write a historical proggression path of events for Troggs to take over historical lands and then splinter into samll tribes.
+-Write ahistorical proggression path of events for Troggs to take new lands and splinter into new small tribes.
+-Add new trogg culture that emerges in the Burning Steppes.
+-Create a mission tree for stonevault troggs
+-Add option for player to switch to playing troggs when they emmerge.
+
+# General for Gnomes
+-Rework Gnomeregan Disaster
+-Rework of Mission Tree
+-Add new Gnome tags
+-Create new mission trees for gnome tags.
+-Create custom mission trees for mechagnomes.
+-Create events and event chains for all gnome tags.
+-Create mission tree for Theermaplug Exiles.
+-Rework Great projects for Gnomeregan and Mechagnomes.
+-Posibly add new Great projects involving new gnome tags.
+
+#Fixes
+-Test New event changes made for dwarves that lead up to Troggs emergance
