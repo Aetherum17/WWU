@@ -95,22 +95,28 @@ country_event = {
     is_triggered_only = yes
 
     major = yes
+	
+	immediate = {
+		hidden_effect = {
+			B75 = {
+				country_event = { id = wwu_general_nation_setup.1 days = 1 }
+			}
 
-    area_inner_maraudon = {
-        cede_province = B75
-        add_core = B75
-        change_religion = cthun
-        change_culture = culture_earth
-    }
-
-    hidden_effect = {
-        B75 = {
-            country_event = { id = wwu_general_nation_setup.1 days = 1 }
-        }
-
-        A97 = {
-            country_event = { id = wwu_mission_ahnqiraj.3 days = 1 }
-        }
-    }
+			A97 = {
+				country_event = { id = wwu_mission_ahnqiraj.3 days = 1 }
+			}
+			
+			area_inner_maraudon = {
+				cede_province = B75
+				add_core = B75
+				change_religion = cthun
+				change_culture = culture_earth
+			}
+		}
+	}
+	
+	option = {
+		name = "wwu_mission_ahnqiraj.a"
+	}
 
 }
