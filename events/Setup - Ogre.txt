@@ -52,7 +52,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = crushridge_setup 
             P50 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -138,7 +138,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = dreadmaul_setup 
             P96 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -259,7 +259,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = splinterfist_setup 
             P97 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -366,7 +366,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = firegut_setup 
             P99 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -452,7 +452,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = mogrosh_setup 
             MGR = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -538,7 +538,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = dustbelcher_setup 
             DUB = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -624,7 +624,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = deadwind_setup 
             DDW = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -710,7 +710,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = bloodeye_setup 
             BOE = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -796,7 +796,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = moshogg_setup 
             F31 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -921,7 +921,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = dunemaul_setup 
             H05 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -1010,7 +1010,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = warmaul_setup 
             F83 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -1114,7 +1114,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = dire_maul_setup 
             DRM = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }

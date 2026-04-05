@@ -49,7 +49,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = ratchet_setup 
             RTC = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -150,7 +150,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = gadgetzan_setup 
             GDG = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }

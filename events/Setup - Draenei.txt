@@ -48,7 +48,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_umbrafen
             F65 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -152,7 +152,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_feralfen
             F66 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -256,7 +256,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_daggerfen
             F67 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -360,7 +360,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_kurenai
             F68 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -464,7 +464,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_dreghood
             F74 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -568,7 +568,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_wrekt
             F75 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -672,7 +672,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_murkblood
             F84 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -776,7 +776,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_windyreed
             F86 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }

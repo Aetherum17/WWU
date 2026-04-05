@@ -48,7 +48,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_consortium
             P18 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
@@ -152,7 +152,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = setup_ethereum
             F80 = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }

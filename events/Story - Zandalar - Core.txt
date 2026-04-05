@@ -1671,6 +1671,7 @@ country_event = {
 		name = wwu_zandalar.46.op1
 		if = {
 		limit = {
+		# Audax Validator "." Ignore_NEXT
 		event_target:expanded_infrastructure_target = {
 		NOT = { num_of_times_expanded_infrastructure = 2 }
 		num_of_times_expanded_infrastructure = 1
@@ -1678,12 +1679,14 @@ country_event = {
 		NOT = { has_active_triggered_province_modifier = zandalar_mine_1 }
 		}
 		}
+		# Audax Validator "." Ignore_NEXT
 		event_target:expanded_infrastructure_target = {
 		add_province_triggered_modifier = zandalar_mine_1
 		}
 		}
 		if = {
 		limit = {
+		# Audax Validator "." Ignore_NEXT
 		event_target:expanded_infrastructure_target = {
 		NOT = { num_of_times_expanded_infrastructure = 3 }
 		num_of_times_expanded_infrastructure = 2
@@ -1694,6 +1697,7 @@ country_event = {
 		}
 		}
 		}
+		# Audax Validator "." Ignore_NEXT
 		event_target:expanded_infrastructure_target = {
 		remove_province_triggered_modifier = zandalar_mine_1
 		add_province_triggered_modifier = zandalar_mine_2
@@ -1701,6 +1705,7 @@ country_event = {
 		}
 		if = {
 		limit = {
+		# Audax Validator "." Ignore_NEXT
 		event_target:expanded_infrastructure_target = {
 		num_of_times_expanded_infrastructure = 3
 		trade_goods = resource_treasure
@@ -1710,6 +1715,7 @@ country_event = {
 		}
 		}
 		}
+		# Audax Validator "." Ignore_NEXT
 		event_target:expanded_infrastructure_target = {
 		remove_province_triggered_modifier = zandalar_mine_2
 		add_province_triggered_modifier = zandalar_mine_3

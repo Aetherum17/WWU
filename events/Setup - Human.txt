@@ -37,7 +37,7 @@ country_event = {
         hidden_effect = {
             set_global_flag = blackthorn_setup 
             BTR = {
-                save_event_target_as = spawned_nation
+                # save_event_target_as = spawned_nation - Not Used Anywhere
             }
         }
     }
