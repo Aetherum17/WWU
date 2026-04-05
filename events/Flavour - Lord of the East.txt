@@ -5,7 +5,7 @@ country_event = {
 	id = wwu_lordeast.1
 	title = wwu_lordeast.1.title
 	desc = wwu_lordeast.1.desc
-	picture = ALARM_O_BOT
+	picture = ADRENALINE_RUSH_eventPicture
 	
 	hidden = yes
 	fire_only_once = yes
