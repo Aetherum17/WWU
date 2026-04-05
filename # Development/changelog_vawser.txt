@@ -8,6 +8,9 @@
  - Added two new options, one to spend some ADM power to weaken the rebel spawn, and another to spend MIL power to avoid the rebel spawn. 
  - Once 10 wwu_scourge.35 events have occurred, the Undead Plague stops.
  
+# Factions
+- When a faction leader assignment occurs, it will assign leadership to the player if they are not considered 'weak'. If they are considered weak, the assignment is random.
+
 # Interface
 - Added a visual indicator of the Ring of Peace spell usage in the diplomacy view, allowing the player to more easily notice if a country has war declaration blocked by the spell.
 - Added a visual indicator of the Civilization process in the diplomacy view, allowing the player to notice if a country is transitioning from Uncivilized to Civilized.
@@ -25,6 +28,3 @@ Faction Issues:
 - Horde: kalimdor invites shouldn't be allowed before the Horde has significant presence in EK
 - Horde: cannot invite non-Draenor members when on Draenor
 - Alliance can spawn independant of Horde
-
-# Requests (SzredeR + Community )
--Modifier or 3D Prop indicator on provinces with active canals

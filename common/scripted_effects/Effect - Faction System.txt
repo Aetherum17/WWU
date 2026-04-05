@@ -505,13 +505,41 @@ on_yearly_pulse__faction = {
             }
             
             set_global_flag = leader_assignment_in_progress
-            random_country = {
+            
+            # Prefer player if they are not weak
+            if = {
                 limit = {
-                    has_country_modifier = member_of_alliance
-                    NOT = { has_country_modifier = recent_leader_assignment }
+                    any_country = {
+                        ai = no
+                        has_country_modifier = member_of_alliance
+                        NOT = { has_country_modifier = head_of_alliance }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
                 }
                 
-                country_event = { id = wwu_faction_system_leader_assignment.10 }
+                random_country = {
+                    limit = {
+                        ai = no
+                        has_country_modifier = member_of_alliance
+                        NOT = { has_country_modifier = head_of_alliance }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.10 }
+                }
+            }
+            else
+            {
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_alliance
+                        NOT = { has_country_modifier = recent_leader_assignment }
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.10 }
+                }
             }
         }
         # Horde
@@ -537,14 +565,43 @@ on_yearly_pulse__faction = {
             }   
             
             set_global_flag = leader_assignment_in_progress
-            random_country = {
+            
+            # Prefer player if they are not weak
+            if = {
                 limit = {
-                    has_country_modifier = member_of_horde
-                    NOT = { has_country_modifier = recent_leader_assignment }
+                    any_country = {
+                        ai = no
+                        has_country_modifier = member_of_horde
+                        NOT = { has_country_modifier = head_of_horde }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
                 }
                 
-                country_event = { id = wwu_faction_system_leader_assignment.11 }
+                random_country = {
+                    limit = {
+                        ai = no
+                        has_country_modifier = member_of_horde
+                        NOT = { has_country_modifier = head_of_horde }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.11 }
+                }
             }
+            else
+            {
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_horde
+                        NOT = { has_country_modifier = recent_leader_assignment }
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.11 }
+                }
+            }
+            
         }
         # Trade Coalition
         if = {
@@ -569,13 +626,42 @@ on_yearly_pulse__faction = {
             }   
             
             set_global_flag = leader_assignment_in_progress
-            random_country = {
+            
+            
+            # Prefer player if they are not weak
+            if = {
                 limit = {
-                    has_country_modifier = member_of_trade_coalition
-                    NOT = { has_country_modifier = recent_leader_assignment }
+                    any_country = {
+                        ai = no
+                        has_country_modifier = member_of_trade_coalition
+                        NOT = { has_country_modifier = head_of_trade_coalition }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
                 }
                 
-                country_event = { id = wwu_faction_system_leader_assignment.13 }
+                random_country = {
+                    limit = {
+                        ai = no
+                        has_country_modifier = member_of_trade_coalition
+                        NOT = { has_country_modifier = head_of_trade_coalition }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.13 }
+                }
+            }
+            else
+            {
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_trade_coalition
+                        NOT = { has_country_modifier = recent_leader_assignment }
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.13 }
+                }
             }
         }
         # Dragon Aspects
@@ -601,13 +687,41 @@ on_yearly_pulse__faction = {
             }
             
             set_global_flag = leader_assignment_in_progress
-            random_country = {
+            
+            # Prefer player if they are not weak
+            if = {
                 limit = {
-                    has_country_modifier = member_of_dragon_aspects
-                    NOT = { has_country_modifier = recent_leader_assignment }
+                    any_country = {
+                        ai = no
+                        has_country_modifier = member_of_dragon_aspects
+                        NOT = { has_country_modifier = head_of_dragon_aspects }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
                 }
                 
-                country_event = { id = wwu_faction_system_leader_assignment.14 }
+                random_country = {
+                    limit = {
+                        ai = no
+                        has_country_modifier = member_of_dragon_aspects
+                        NOT = { has_country_modifier = head_of_dragon_aspects }
+                        
+                        is_strong_player_for_faction_leader_assignement = yes
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.14 }
+                }
+            }
+            else
+            {
+                random_country = {
+                    limit = {
+                        has_country_modifier = member_of_dragon_aspects
+                        NOT = { has_country_modifier = recent_leader_assignment }
+                    }
+                    
+                    country_event = { id = wwu_faction_system_leader_assignment.14 }
+                }
             }
         }
     }

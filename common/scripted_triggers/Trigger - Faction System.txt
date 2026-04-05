@@ -585,3 +585,13 @@ dragon_aspects_decision_trigger_4 = {
 dragon_aspects_decision_trigger_5 = {
     has_faction_renown_25 = yes
 }
+
+#--------------------------
+# Function
+#--------------------------
+is_strong_player_for_faction_leader_assignement = {
+    total_development = 300
+    prestige = 25
+    NOT = { corruption = 5 }
+    stability = 0
+}
