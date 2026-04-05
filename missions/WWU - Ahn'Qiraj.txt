@@ -1072,6 +1072,16 @@ A97_ahn_qiraj_column_4 = {
                     add_core = 1497
                     add_prestige = 10
             }
+			 hidden_effect = {
+                if = {
+                    limit = {
+                        ai = yes
+                        exists = GD2
+                        NOT = { is_subject = yes }
+                    }
+                    country_event = { id = wwu_aqir.201 days = 180 }
+                }
+            }
 		}
     }
 

@@ -433,66 +433,66 @@ country_event = {
 
 # Currently Inactive due to changes to mission tree
 # Fate of Cho'gall
-country_event = {
-    id = wwu_aqir.100
-    title = wwu_aqir.100.title
-    desc = wwu_aqir.100.desc
-    picture = CHOGALL_eventPicture
-
-    is_triggered_only = yes
-
-    mean_time_to_happen = {
-        days = 1
-    }
-
-    option = {
-        name = wwu_aqir.100.option.a
-        
-        A43 = {
-            define_ruler = {
-                name = "Cho'gall"
-                dynasty = "the Empowered"
-                age = 35
-                claim = 100
-                adm = 7
-                dip = 7
-                mil = 7
-                male = yes
-                culture = culture_twilight_cultist
-                religion = cthun
-            }
-        }
-
-        ai_chance = { factor = 90 }
-    }
-    option = {
-        name = wwu_aqir.100.option.b
-
-        define_advisor = {
-            type = commandant
-            name = "Cho'gall of Highmaul"
-            skill = 3
-            discount = yes
-            culture = culture_twilight_cultist
-            religion = cthun
-        }
-
-        A43 = {
-            define_ruler = {
-                name = "Twilight Father"
-                dynasty = "of Twilight"
-                claim = 100
-                adm = 5
-                dip = 5
-                mil = 5
-                male = yes
-                culture = culture_twilight_cultist
-                religion = twilight_cult
-            }
-        }
-        ai_chance = { factor = 10 }
-    }
-}
+#country_event = {
+#    id = wwu_aqir.100
+#    title = wwu_aqir.100.title
+#    desc = wwu_aqir.100.desc
+#    picture = CHOGALL_eventPicture
+#
+#    is_triggered_only = yes
+#
+#    mean_time_to_happen = {
+#        days = 1
+#    }
+#
+#    option = {
+#        name = wwu_aqir.100.option.a
+#        
+#        A43 = {
+#            define_ruler = {
+#                name = "Cho'gall"
+#                dynasty = "the Empowered"
+#                age = 35
+#                claim = 100
+#                adm = 7
+#                dip = 7
+#                mil = 7
+#                male = yes
+#                culture = culture_twilight_cultist
+#                religion = cthun
+#            }
+#        }
+#
+#        ai_chance = { factor = 90 }
+#    }
+#    option = {
+#        name = wwu_aqir.100.option.b
+#
+#        define_advisor = {
+#            type = commandant
+#            name = "Cho'gall of Highmaul"
+#            skill = 3
+#            discount = yes
+#            culture = culture_twilight_cultist
+#            religion = cthun
+#        }
+#
+#        A43 = {
+#            define_ruler = {
+#                name = "Twilight Father"
+#                dynasty = "of Twilight"
+#                claim = 100
+#                adm = 5
+#                dip = 5
+#                mil = 5
+#                male = yes
+#                culture = culture_twilight_cultist
+#                religion = twilight_cult
+#            }
+#        }
+#        ai_chance = { factor = 10 }
+#    }
+#}
 
 # Corruption of Caverns of Time
 # Called for KOT - Keepers of Time

@@ -72,7 +72,7 @@ country_event = {
 		clr_country_flag = uldaman_on_right_path
 		if = {
 			limit = { has_global_flag = uldaman_gold_statue_taken }
-			country_event = { id = wwu_mission_a29_uldaman_branch.4b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.402 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.4 days = 5 }
@@ -89,7 +89,7 @@ country_event = {
 		clr_country_flag = uldaman_on_left_path
 		if = {
 			limit = { has_global_flag = uldaman_kobolds_cleared }
-			country_event = { id = wwu_mission_a29_uldaman_branch.5b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.502 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.5 days = 5 }
@@ -101,12 +101,12 @@ country_event = {
 }
  
 # ===================================================
-# EVENT 1b - RESTART / RE-ENTER PATH CHOICE
+# EVENT 101 - RESTART / RE-ENTER PATH CHOICE
 # Used when the chain loops back during exploration
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.1b
+	id = wwu_mission_a29_uldaman_branch.101
 	title = wwu_mission_a29_uldaman_branch.1.title
 	desc = wwu_mission_a29_uldaman_branch.1.desc
 	picture = FORGOTTEN_TORCH_eventPicture
@@ -136,7 +136,7 @@ country_event = {
 		clr_country_flag = uldaman_on_right_path
 		if = {
 			limit = { has_global_flag = uldaman_gold_statue_taken }
-			country_event = { id = wwu_mission_a29_uldaman_branch.4b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.402 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.4 days = 5 }
@@ -150,7 +150,7 @@ country_event = {
 		clr_country_flag = uldaman_on_left_path
 		if = {
 			limit = { has_global_flag = uldaman_kobolds_cleared }
-			country_event = { id = wwu_mission_a29_uldaman_branch.5b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.502 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.5 days = 5 }
@@ -193,7 +193,7 @@ country_event = {
 		set_country_flag = uldaman_on_left_path
 		if = {
 			limit = { has_global_flag = uldaman_gold_statue_taken }
-			country_event = { id = wwu_mission_a29_uldaman_branch.4b days = 7 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.402 days = 7 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.4 days = 7 }
@@ -205,7 +205,7 @@ country_event = {
 		set_country_flag = uldaman_on_right_path
 		if = {
 			limit = { has_global_flag = uldaman_kobolds_cleared }
-			country_event = { id = wwu_mission_a29_uldaman_branch.5b days = 7 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.502 days = 7 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.5 days = 7 }
@@ -238,7 +238,7 @@ country_event = {
 
 			A30 = {
 				set_country_flag = has_initiative
-				country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.101 days = 5 }
 			}
 
 			if = {
@@ -253,7 +253,7 @@ country_event = {
 
 			A29 = {
 				set_country_flag = has_initiative
-				country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.101 days = 5 }
 			}
 
 			if = {
@@ -290,7 +290,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.4c days = 1 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.403 days = 1 }
 		ai_chance = {
 			factor = 5
 		}
@@ -310,7 +310,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.4b
+	id = wwu_mission_a29_uldaman_branch.402
 	title = wwu_mission_a29_uldaman_branch.4b.title
 	desc = wwu_mission_a29_uldaman_branch.4b.desc
 	picture = EARTHEN_STATUE_eventPicture
@@ -328,7 +328,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.4c
+	id = wwu_mission_a29_uldaman_branch.403
 	title = wwu_mission_a29_uldaman_branch.4c.title
 	desc = wwu_mission_a29_uldaman_branch.4c.desc
 	picture = EARTHEN_STATUE_eventPicture
@@ -343,6 +343,7 @@ country_event = {
 			1971 = {
 				add_permanent_province_modifier = {
 					name = uldaman_gold_statue_site
+					duration = -1
 				}
 			}
 		}
@@ -351,6 +352,7 @@ country_event = {
 			1969 = {
 				add_permanent_province_modifier = {
 					name = uldaman_gold_statue_site
+					duration = -1
 				}
 			}
 		}
@@ -385,7 +387,7 @@ country_event = {
 			50 = {
 				if = {
 					limit = { has_global_flag = uldaman_vikings_met }
-					country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
+					country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 5 }
 				}
 				else = {
 					country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 5 }
@@ -403,7 +405,7 @@ country_event = {
 				}
 				if = {
 					limit = { has_global_flag = uldaman_vikings_met }
-					country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 7 }
+					country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 7 }
 				}
 				else = {
 					country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 7 }
@@ -449,7 +451,7 @@ country_event = {
  
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
-			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 5 }
@@ -465,7 +467,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.5b
+	id = wwu_mission_a29_uldaman_branch.502
 	title = wwu_mission_a29_uldaman_branch.5b.title
 	desc = wwu_mission_a29_uldaman_branch.5b.desc
 	picture = KOBOLD_GEOMANCER_eventPicture
@@ -476,7 +478,7 @@ country_event = {
 		name = wwu_mission_a29_uldaman_branch.5b.option.a
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
-			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 5 }
@@ -506,32 +508,32 @@ country_event = {
 					limit = { tag = A29 }
 					A30 = {
 						clr_country_flag = has_initiative
-						country_event = { id = wwu_mission_a29_uldaman_branch.6b days = 1 }
+						country_event = { id = wwu_mission_a29_uldaman_branch.602 days = 1 }
 					}
 					set_country_flag = has_initiative
-					country_event = { id = wwu_mission_a29_uldaman_branch.6d days = 1 }
+					country_event = { id = wwu_mission_a29_uldaman_branch.604 days = 1 }
 				}
 				else_if = {
 					limit = { tag = A30 }
 					A29 = {
 						clr_country_flag = has_initiative
-						country_event = { id = wwu_mission_a29_uldaman_branch.6b days = 1 }
+						country_event = { id = wwu_mission_a29_uldaman_branch.602 days = 1 }
 					}
 					set_country_flag = has_initiative
-					country_event = { id = wwu_mission_a29_uldaman_branch.6d days = 1 }
+					country_event = { id = wwu_mission_a29_uldaman_branch.604 days = 1 }
 				}
 			}
 			40 = {
 				set_global_flag = uldaman_kobolds_cleared
 				clr_country_flag = uldaman_at_kobolds
-				country_event = { id = wwu_mission_a29_uldaman_branch.6b days = 1 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.602 days = 1 }
 				if = {
 					limit = { tag = A29 }
-					A30 = { country_event = { id = wwu_mission_a29_uldaman_branch.6c days = 1 } }
+					A30 = { country_event = { id = wwu_mission_a29_uldaman_branch.603 days = 1 } }
 				}
 				else_if = {
 					limit = { tag = A30 }
-					A29 = { country_event = { id = wwu_mission_a29_uldaman_branch.6c days = 1 } }
+					A29 = { country_event = { id = wwu_mission_a29_uldaman_branch.603 days = 1 } }
 				}
 			}
 		}
@@ -562,7 +564,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.6b
+	id = wwu_mission_a29_uldaman_branch.602
 	title = wwu_mission_a29_uldaman_branch.6b.title
 	desc = wwu_mission_a29_uldaman_branch.6b.desc
 	picture = NO_TAKE_CANDLE_eventPicture
@@ -576,7 +578,7 @@ country_event = {
 
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
-			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 5 }
@@ -589,7 +591,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.6c
+	id = wwu_mission_a29_uldaman_branch.603
 	title = wwu_mission_a29_uldaman_branch.6c.title
 	desc = wwu_mission_a29_uldaman_branch.6c.desc
 	picture = NO_TAKE_CANDLE_eventPicture
@@ -600,7 +602,7 @@ country_event = {
 		name = wwu_mission_a29_uldaman_branch.6c.option.a
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
-			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 5 }
@@ -613,7 +615,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.6d
+	id = wwu_mission_a29_uldaman_branch.604
 	title = wwu_mission_a29_uldaman_branch.6d.title
 	desc = wwu_mission_a29_uldaman_branch.6d.desc
 	picture = BARREL_TOSS_eventPicture
@@ -624,7 +626,7 @@ country_event = {
 		name = wwu_mission_a29_uldaman_branch.6d.option.a
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
-			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 5 }
@@ -648,7 +650,7 @@ country_event = {
 		name = wwu_mission_a29_uldaman_branch.7.option.a
 		if = {
 			limit = { has_global_flag = uldaman_vikings_met }
-			country_event = { id = wwu_mission_a29_uldaman_branch.9b days = 5 }
+			country_event = { id = wwu_mission_a29_uldaman_branch.901 days = 5 }
 		}
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.9 days = 5 }
@@ -674,14 +676,14 @@ country_event = {
 			20 = {
 				if = {
 					limit = { has_global_flag = uldaman_chasm_looted }
-					country_event = { id = wwu_mission_a29_uldaman_branch.8d days = 3 }
+					country_event = { id = wwu_mission_a29_uldaman_branch.804 days = 3 }
 				}
 				else = {
-					country_event = { id = wwu_mission_a29_uldaman_branch.8b days = 3 }
+					country_event = { id = wwu_mission_a29_uldaman_branch.802 days = 3 }
 				}
 			}
 			80 = {
-				country_event = { id = wwu_mission_a29_uldaman_branch.8c days = 3 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.803 days = 3 }
 			}
 		}
 	}
@@ -697,7 +699,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.101 days = 5 }
 	}
 }
  
@@ -706,7 +708,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.8b
+	id = wwu_mission_a29_uldaman_branch.802
 	title = wwu_mission_a29_uldaman_branch.8b.title
 	desc = wwu_mission_a29_uldaman_branch.8b.desc
 	picture = LOOT_HOARDER_eventPicture
@@ -737,7 +739,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.101 days = 5 }
 		ai_chance = {
 			factor = 3
 		}
@@ -749,7 +751,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.8c
+	id = wwu_mission_a29_uldaman_branch.803
 	title = wwu_mission_a29_uldaman_branch.8c.title
 	desc = wwu_mission_a29_uldaman_branch.8c.desc
 	picture = PIT_OF_SPIKES_eventPicture
@@ -770,7 +772,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.101 days = 5 }
 	}
 }
  
@@ -779,7 +781,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.8d
+	id = wwu_mission_a29_uldaman_branch.804
 	title = wwu_mission_a29_uldaman_branch.8d.title
 	desc = wwu_mission_a29_uldaman_branch.8d.desc
 	picture = PIT_OF_SPIKES_eventPicture
@@ -805,7 +807,7 @@ country_event = {
 			limit = { tag = A30 }
 			A29 = { set_country_flag = has_initiative }
 		}
-		country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
+		country_event = { id = wwu_mission_a29_uldaman_branch.101 days = 5 }
 		ai_chance = {
 			factor = 3
 		}
@@ -849,7 +851,7 @@ country_event = {
 		name = wwu_mission_a29_uldaman_branch.9.option.b
 		set_country_flag = uldaman_medallion
 		add_stability = 1
-		add_innovativeness = 5
+		change_innovativeness = 5
 		add_dip_power = 100
 		add_country_modifier = {
 			name = uldaman_eric_speed
@@ -883,7 +885,7 @@ country_event = {
 # ===================================================
  
 country_event = {
-	id = wwu_mission_a29_uldaman_branch.9b
+	id = wwu_mission_a29_uldaman_branch.901
 	title = wwu_mission_a29_uldaman_branch.9b.title
 	desc = wwu_mission_a29_uldaman_branch.9b.desc
 	picture = ULDAMAN_eventPicture
@@ -974,7 +976,7 @@ country_event = {
 			}
 		}
 		add_prestige = 20
-		add_innovativeness = 5
+		change_innovativeness = 5
 		country_event = { id = wwu_mission_a29_uldaman_branch.12 days = 1 }
  
 		ai_chance = {
@@ -1048,7 +1050,7 @@ country_event = {
 			A30 = {
 				clr_country_flag = uldaman_waiting_at_vault
 				add_prestige = 20
-				add_innovativeness = 5
+				change_innovativeness = 5
 				country_event = { id = wwu_mission_a29_uldaman_branch.12 days = 1 }
 			}
 		}
@@ -1069,7 +1071,7 @@ country_event = {
 			A29 = {
 				clr_country_flag = uldaman_waiting_at_vault
 				add_prestige = 20
-				add_innovativeness = 5
+				change_innovativeness = 5
 				country_event = { id = wwu_mission_a29_uldaman_branch.12 days = 1 }
 			}
 		}
@@ -1232,7 +1234,7 @@ country_event = {
 				limit = {
 					NOT = { tag = P57 }
 					capital_scope = {
-						subcontinent = ek_khaz_modan_superregion
+						superregion = ek_khaz_modan_superregion
 					}
 				}
 				country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
@@ -1318,7 +1320,7 @@ country_event = {
 				limit = {
 					NOT = { tag = P57 }
 					capital_scope = {
-						subcontinent = ek_khaz_modan_superregion
+						superregion = ek_khaz_modan_superregion
 					}
 				}
 				country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
@@ -1404,7 +1406,7 @@ country_event = {
 				limit = {
 					NOT = { tag = P57 }
 					capital_scope = {
-						subcontinent = ek_khaz_modan_superregion
+						superregion = ek_khaz_modan_superregion
 					}
 				}
 				country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
