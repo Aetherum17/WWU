@@ -56,7 +56,7 @@ country_event = {
     option = {
 		name = random_savage.1.option.b
 		
-		random = {
+		random_list = {
 			40 = {
 				add_stability = -1
             }
