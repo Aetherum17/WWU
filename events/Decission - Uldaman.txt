@@ -60,6 +60,9 @@ country_event = {
 		clr_country_flag = uldaman_on_left_path
 		clr_country_flag = uldaman_on_right_path
 		country_event = { id = wwu_mission_a29_uldaman_branch.3 days = 5 }
+		ai_chance = {
+            factor = 2
+        }
 	}
  
 	option = {
@@ -74,6 +77,9 @@ country_event = {
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.4 days = 5 }
 		}
+		ai_chance = {
+            factor = 2
+        }
 	}
  
 	option = {
@@ -88,6 +94,9 @@ country_event = {
 		else = {
 			country_event = { id = wwu_mission_a29_uldaman_branch.5 days = 5 }
 		}
+		ai_chance = {
+            factor = 8
+        }
 	}
 }
  
@@ -213,9 +222,9 @@ country_event = {
 	title = wwu_mission_a29_uldaman_branch.3.title
 	desc = wwu_mission_a29_uldaman_branch.3.desc
 	picture = ROCK_eventPicture
- 
+
 	is_triggered_only = yes
- 
+
 	option = {
 		name = wwu_mission_a29_uldaman_branch.3.option.a
 		add_prestige = -10
@@ -223,27 +232,35 @@ country_event = {
 		clr_country_flag = has_initiative
 		clr_country_flag = uldaman_on_centre_path
 		clr_country_flag = uldaman_at_kobolds
- 
+
 		if = {
 			limit = { tag = A29 }
+
 			A30 = {
 				set_country_flag = has_initiative
 				country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 			}
+
 			if = {
-				limit = { NOT = { has_country_flag = dont_care_for_uldaman } }
-				country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 7 }
+				limit = {
+					A30 = { NOT = { has_country_flag = dont_care_for_uldaman } }
+				}
+				A30 = { country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 7 } }
 			}
 		}
 		else_if = {
 			limit = { tag = A30 }
+
 			A29 = {
 				set_country_flag = has_initiative
 				country_event = { id = wwu_mission_a29_uldaman_branch.1b days = 5 }
 			}
+
 			if = {
-				limit = { NOT = { has_country_flag = dont_care_for_uldaman } }
-				country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 7 }
+				limit = {
+					A29 = { NOT = { has_country_flag = dont_care_for_uldaman } }
+				}
+				A29 = { country_event = { id = wwu_mission_a29_uldaman_branch.2 days = 7 } }
 			}
 		}
 	}
@@ -1139,311 +1156,415 @@ country_event = {
 }
  
 # ===================================================
-# EVENT 13 - TROGGS EMERGE - ATTACK A29
+# EVENT 13 - TROGGS EMERGE - TARGET A29
 # ===================================================
- 
+
 country_event = {
 	id = wwu_mission_a29_uldaman_branch.13
 	title = wwu_mission_a29_uldaman_branch.13.title
 	desc = wwu_mission_a29_uldaman_branch.13.desc
 	picture = TUNNEL_TROGG_eventPicture
- 
+
 	is_triggered_only = yes
- 
-	immediate = {
-		set_global_flag = trogg_historical
- 
-		release = P57
- 
-		1968 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1970 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1972 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1973 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1978 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1974 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1979 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1967 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
- 
-		P57 = {
-			
-			declare_war_with_cb = {
-				who = A29
-				cb = cb_conquest
-			}
-		}
- 
-		every_country = {
-			limit = {
-				capital_scope = {
-					subcontinent = ek_khaz_modan_superregion
-				}
-			}
-			country_event = { id = wwu_mission_a29_uldaman_branch.17 days = 1 }
-		}
-	}
- 
+
 	option = {
 		name = wwu_mission_a29_uldaman_branch.13.option.a
+
+		hidden_effect = {
+			set_global_flag = trogg_historical
+
+			release = P57
+
+			1968 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1970 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1972 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1973 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1978 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1974 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1979 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1967 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+
+			P57 = {
+				country_event = { id = wwu_mission_a29_uldaman_branch.18 days = 1 }
+			}
+
+			every_country = {
+				limit = {
+					NOT = { tag = P57 }
+					capital_scope = {
+						subcontinent = ek_khaz_modan_superregion
+					}
+				}
+				country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
+			}
+		}
 	}
 }
- 
+
 # ===================================================
-# EVENT 14 - TROGGS EMERGE - ATTACK A30
+# EVENT 14 - TROGGS EMERGE - TARGET A30
 # ===================================================
- 
+
 country_event = {
 	id = wwu_mission_a29_uldaman_branch.14
 	title = wwu_mission_a29_uldaman_branch.14.title
 	desc = wwu_mission_a29_uldaman_branch.14.desc
 	picture = TUNNEL_TROGG_eventPicture
- 
+
 	is_triggered_only = yes
- 
-	immediate = {
-		set_global_flag = trogg_ahistorical
- 
-		release = P57
- 
-		1968 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1970 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1972 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1973 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1978 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1974 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1979 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1967 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		P57 = {
-			
-			
-			declare_war_with_cb = {
-				who = A30
-				cb = cb_conquest
-			}
-		}
-		every_country = {
-			limit = {
-				capital_scope = {
-					subcontinent = ek_khaz_modan_superregion
-				}
-			}
-			country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
-		}
-	}
- 
+
 	option = {
 		name = wwu_mission_a29_uldaman_branch.14.option.a
+
+		hidden_effect = {
+			set_global_flag = trogg_ahistorical
+
+			release = P57
+
+			1968 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1970 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1972 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1973 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1978 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1974 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1979 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1967 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+
+			P57 = {
+				country_event = { id = wwu_mission_a29_uldaman_branch.19 days = 1 }
+			}
+
+			every_country = {
+				limit = {
+					NOT = { tag = P57 }
+					capital_scope = {
+						subcontinent = ek_khaz_modan_superregion
+					}
+				}
+				country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
+			}
+		}
 	}
 }
- 
+
 # ===================================================
-# EVENT 15 - TROGGS EMERGE - ATTACK BOTH
+# EVENT 15 - TROGGS EMERGE - TARGET BOTH
 # ===================================================
- 
+
 country_event = {
 	id = wwu_mission_a29_uldaman_branch.15
 	title = wwu_mission_a29_uldaman_branch.15.title
 	desc = wwu_mission_a29_uldaman_branch.15.desc
 	picture = TUNNEL_TROGG_eventPicture
- 
+
 	is_triggered_only = yes
- 
-	immediate = {
-		set_global_flag = trogg_historical
-		release = P57
- 
-		1968 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1970 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1972 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1973 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1978 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1974 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1979 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
-		1967 = {
-			cede_province = P57
-			change_culture = culture_trogg
-			change_religion = earth
-			add_core = P57
-		}
- 
-		P57 = {
-			
-			declare_war_with_cb = {
-				who = A29
-				cb = cb_conquest
-			}
-			declare_war_with_cb = {
-				who = A30
-				cb = cb_conquest
-			}
- 
-		every_country = {
-			limit = {
-				capital_scope = {
-					subcontinent = ek_khaz_modan_superregion
-				}
-			}
-			country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
-		}
-	}
- 
+
 	option = {
 		name = wwu_mission_a29_uldaman_branch.15.option.a
+
+		hidden_effect = {
+			set_global_flag = trogg_historical
+
+			release = P57
+
+			1968 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1970 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1972 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1973 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1978 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1974 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1979 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			1967 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+
+			P57 = {
+				country_event = { id = wwu_mission_a29_uldaman_branch.20 days = 1 }
+			}
+
+			every_country = {
+				limit = {
+					NOT = { tag = P57 }
+					capital_scope = {
+						subcontinent = ek_khaz_modan_superregion
+					}
+				}
+				country_event = { id = wwu_mission_a29_uldaman_branch.16 days = 1 }
+			}
+		}
 	}
 }
- 
+
 # ===================================================
 # EVENT 16 - TROGGS EMERGE NOTIFICATION
-# Fired for countries in Khaz Modan
 # ===================================================
- 
+
 country_event = {
 	id = wwu_mission_a29_uldaman_branch.16
 	title = wwu_mission_a29_uldaman_branch.16.title
 	desc = wwu_mission_a29_uldaman_branch.16.desc
 	picture = TUNNEL_TROGG_eventPicture
- 
+
 	is_triggered_only = yes
- 
+
 	option = {
 		name = wwu_mission_a29_uldaman_branch.16.option.a
-		
-		
+	}
+}
+
+# ===================================================
+# EVENT 18 - TROGGS DECLARE WAR ON A29
+# ===================================================
+
+country_event = {
+	id = wwu_mission_a29_uldaman_branch.18
+	title = wwu_mission_a29_uldaman_branch.18.title
+	desc = wwu_mission_a29_uldaman_branch.18.desc
+	picture = TUNNEL_TROGG_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = wwu_mission_a29_uldaman_branch.18.option.a
+
+		add_treasury = 400
+		add_army_tradition = 20
+
+		add_country_modifier = {
+			name = troggs_uldaman_war_fury
+			duration = 3650
+		}
+
+		capital_scope = {
+			add_province_modifier = {
+				name = troggs_uldaman_capital_muster
+				duration = 3650
+			}
+		}
+
+		hidden_effect = {
+			every_province = {
+				limit = {
+					superregion = ek_khaz_modan_superregion
+				}
+				discover_province = P57
+			}
+			declare_war_with_cb = {
+				who = A29
+				cb = cb_no_cb
+			}
+		}
+	}
+}
+
+# ===================================================
+# EVENT 19 - TROGGS DECLARE WAR ON A30
+# ===================================================
+
+country_event = {
+	id = wwu_mission_a29_uldaman_branch.19
+	title = wwu_mission_a29_uldaman_branch.19.title
+	desc = wwu_mission_a29_uldaman_branch.19.desc
+	picture = TUNNEL_TROGG_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = wwu_mission_a29_uldaman_branch.19.option.a
+
+		add_treasury = 400
+		add_army_tradition = 20
+
+		add_country_modifier = {
+			name = troggs_uldaman_war_fury
+			duration = 3650
+		}
+
+		capital_scope = {
+			add_province_modifier = {
+				name = troggs_uldaman_capital_muster
+				duration = 3650
+			}
+		}
+
+		hidden_effect = {
+			every_province = {
+				limit = {
+				superregion = ek_khaz_modan_superregion
+				}
+				discover_province = P57
+			}
+			declare_war_with_cb = {
+				who = A30
+				cb = cb_no_cb
+			}
+		}
+	}
+}
+
+# ===================================================
+# EVENT 20 - TROGGS DECLARE WAR ON BOTH
+# ===================================================
+
+country_event = {
+	id = wwu_mission_a29_uldaman_branch.20
+	title = wwu_mission_a29_uldaman_branch.20.title
+	desc = wwu_mission_a29_uldaman_branch.20.desc
+	picture = TUNNEL_TROGG_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = wwu_mission_a29_uldaman_branch.20.option.a
+
 		add_treasury = 600
-		add_manpower = 20
+		add_army_tradition = 20
+
+		add_country_modifier = {
+			name = troggs_uldaman_war_fury
+			duration = 3650
 		}
-		1968 = { add_base_manpower = 3 }
-		1970 = { add_base_manpower = 3 }
-		1972 = { add_base_manpower = 3 }
-		1973 = { add_base_manpower = 3 }
-		1978 = { add_base_manpower = 3 }
-		1974 = { add_base_manpower = 3 }
-		1979 = { add_base_manpower = 3 }
-		1967 = { add_base_manpower = 3 }
- 
-		create_general = {
-			fire = 7
-			shock = 7
-			manuever = 3
-			siege = 2
+
+		capital_scope = {
+			add_province_modifier = {
+				name = troggs_uldaman_capital_muster
+				duration = 3650
+			}
 		}
- 
-		1968 = {
-			spawn_infantry = { AMOUNT = 10 TAG = P57 }
+
+		hidden_effect = {
+			every_province = {
+				limit = {
+					superregion = ek_khaz_modan_superregion
+				}
+				discover_province = P57
+			}
+			declare_war_with_cb = {
+				who = A29
+				cb = cb_no_cb
+			}
+			declare_war_with_cb = {
+				who = A30
+				cb = cb_no_cb
+			}
 		}
 	}
 }

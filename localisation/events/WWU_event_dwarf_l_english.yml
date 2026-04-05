@@ -243,3 +243,21 @@
 
  uldaman_olaf_fort: "Olafs Gift"
  uldaman_olaf_fort_desc: ""
+ 
+ wwu_mission_a29_uldaman_branch.18.title: "Trogg Warpath!"
+ wwu_mission_a29_uldaman_branch.18.desc: "The newly emerged Troggs rally under a brutal war leader and descend upon the surface in search of plunder and slaughter. Their first target is Ironforge."
+ wwu_mission_a29_uldaman_branch.18.option.a: "Smash them!"
+
+ wwu_mission_a29_uldaman_branch.19.title: "Trogg Warpath!"
+ wwu_mission_a29_uldaman_branch.19.desc: "The newly emerged Troggs rally under a brutal war leader and descend upon the surface in search of plunder and slaughter. Their first target is the Kingdom of Thaurissan."
+ wwu_mission_a29_uldaman_branch.19.option.a: "Smash them!"
+
+ wwu_mission_a29_uldaman_branch.20.title: "Trogg Warpath!"
+ wwu_mission_a29_uldaman_branch.20.desc: "The Troggs burst forth from Uldaman in a frenzy of violence. With no diplomacy, no warning, and no restraint, they march against both dwarven powers."
+ wwu_mission_a29_uldaman_branch.20.option.a: "Smash them!"
+
+ troggs_uldaman_war_fury: "Trogg War Fury"
+ troggs_uldaman_war_fury_desc: "The Troggs have erupted from the depths in a frenzy of violence. Their crude but relentless warriors fight with terrifying force."
+
+ troggs_uldaman_capital_muster: "Trogg Muster Grounds"
+ troggs_uldaman_capital_muster_desc: "The capital has become the center of a savage mobilization. Fresh warriors constantly gather here for war."

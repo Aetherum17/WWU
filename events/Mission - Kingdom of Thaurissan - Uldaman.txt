@@ -7,13 +7,12 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.1.desc
     picture = DARK_IRON_SKULKER_eventPicture
 
-	is_triggered_only = yes
+    is_triggered_only = yes
 
     option = {
         name = wwu_mission_a29_kot_responce.1.option.a
-
         set_country_flag = dont_care_for_uldaman
-		
+
         ai_chance = {
             factor = 1
         }
@@ -21,9 +20,9 @@ country_event = {
 
     option = {
         name = wwu_mission_a29_kot_responce.1.option.b
-
-		set_country_flag = kot_wants_to_dig
+        set_country_flag = kot_wants_to_dig
         add_claim = 1956
+
         ai_chance = {
             factor = 5
         }
@@ -31,8 +30,8 @@ country_event = {
 
     option = {
         name = wwu_mission_a29_kot_responce.1.option.c
+        set_country_flag = kot_waiting_for_results
 
-		set_country_flag = kot_waiting_for_results
         ai_chance = {
             factor = 10
         }
@@ -46,21 +45,27 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.2.desc
     picture = DARK_IRON_SKULKER_eventPicture
 
-	is_triggered_only = yes
-	trigger = {
-		has_country_flag = kot_waiting_for_results
-		A29 = { has_country_flag = km_access_codes }
-	}
-	mean_time_to_happen = { days = 300 }
+    is_triggered_only = yes
+
     option = {
         name = wwu_mission_a29_kot_responce.2.option.a
-		add_mil_power = -700
-		add_dip_power = -700
-		add_manpower = -50
-		add_treasury = -600
-		
+        add_mil_power = -700
+        add_dip_power = -700
+        add_manpower = -5
+        add_treasury = -600
         set_country_flag = kot_plan_steal_and_burn_codes
-		
+
+        hidden_effect = {
+            if = {
+                limit = { A29 = { has_country_flag = km_codes_secured } }
+                country_event = { id = wwu_mission_a29_kot_responce.3 days = 60 }
+            }
+            else_if = {
+                limit = { A29 = { has_country_flag = km_codes_unguarded } }
+                country_event = { id = wwu_mission_a29_kot_responce.4 days = 60 }
+            }
+        }
+
         ai_chance = {
             factor = 1
         }
@@ -68,9 +73,21 @@ country_event = {
 
     option = {
         name = wwu_mission_a29_kot_responce.2.option.b
-		add_mil_power = -100
-		add_dip_power = -100
-		set_country_flag = kot_plans_copy_codes
+        add_mil_power = -100
+        add_dip_power = -100
+        set_country_flag = kot_plans_copy_codes
+
+        hidden_effect = {
+            if = {
+                limit = { A29 = { has_country_flag = km_codes_secured } }
+                country_event = { id = wwu_mission_a29_kot_responce.5 days = 60 }
+            }
+            else_if = {
+                limit = { A29 = { has_country_flag = km_codes_unguarded } }
+                country_event = { id = wwu_mission_a29_kot_responce.6 days = 60 }
+            }
+        }
+
         ai_chance = {
             factor = 7
         }
@@ -78,7 +95,8 @@ country_event = {
 
     option = {
         name = wwu_mission_a29_kot_responce.2.option.c
-		set_country_flag = kot_decides_to_wait
+        set_country_flag = kot_decides_to_wait
+
         ai_chance = {
             factor = 10
         }
@@ -92,16 +110,16 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.3.desc
     picture = DARK_IRON_SKULKER_eventPicture
 
-	is_triggered_only = yes
-	trigger = {
-		has_country_flag = kot_plan_steal_and_burn_codes
-		A29 = { has_country_flag = km_codes_secured }
-	}
-	mean_time_to_happen = { days = 60 }
+    is_triggered_only = yes
+
     option = {
         name = wwu_mission_a29_kot_responce.3.option.a
         set_country_flag = kot_access_codes
-		A29 = { country_event = wwu_mission_a29_uldaman.4 }
+
+        hidden_effect = {
+            A29 = { country_event = { id = wwu_mission_a29_uldaman.4 } }
+        }
+
         ai_chance = {
             factor = 10
         }
@@ -115,23 +133,26 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.4.desc
     picture = DARK_IRON_SKULKER_eventPicture
 
-	is_triggered_only = yes
-	trigger = {
-		has_country_flag = kot_plan_steal_and_burn_codes
-		A29 = { has_country_flag = km_codes_unguarded }
-	}
-	mean_time_to_happen = { days = 60 }
-	immediate = {
-		A29 = {
-			clr_country_flag = km_access_codes
-			clr_country_flag = km_codes_unguarded
-			set_country_flag = km_codes_destroyed
-		}
-	}
+    is_triggered_only = yes
+
+    immediate = {
+        hidden_effect = {
+            A29 = {
+                clr_country_flag = km_access_codes
+                clr_country_flag = km_codes_unguarded
+                set_country_flag = km_codes_destroyed
+            }
+        }
+    }
+
     option = {
         name = wwu_mission_a29_kot_responce.4.option.a
         set_country_flag = kot_access_codes
-		A29 = { country_event = wwu_mission_a29_uldaman.5 }
+
+        hidden_effect = {
+            A29 = { country_event = { id = wwu_mission_a29_uldaman.5 } }
+        }
+
         ai_chance = {
             factor = 10
         }
@@ -145,17 +166,12 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.5.desc
     picture = DARK_IRON_SKULKER_eventPicture
 
-	is_triggered_only = yes
-	trigger = {
-		has_country_flag = kot_plans_copy_codes
-		A29 = { has_country_flag = km_codes_secured }
-	}
-	mean_time_to_happen = { days = 60 }
-	
-	}
+    is_triggered_only = yes
+
     option = {
         name = wwu_mission_a29_kot_responce.5.option.a
-		set_country_flag = kot_decides_to_wait
+        set_country_flag = kot_decides_to_wait
+
         ai_chance = {
             factor = 10
         }
@@ -169,17 +185,12 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.6.desc
     picture = DARK_IRON_SKULKER_eventPicture
 
-	is_triggered_only = yes
-	trigger = {
-		has_country_flag = kot_plans_copy_codes
-		A29 = { has_country_flag = km_codes_unguarded }
-	}
-	mean_time_to_happen = { days = 60 }
-	
-	}
+    is_triggered_only = yes
+
     option = {
         name = wwu_mission_a29_kot_responce.6.option.a
-		set_country_flag = kot_access_codes
+        set_country_flag = kot_access_codes
+
         ai_chance = {
             factor = 10
         }
@@ -193,10 +204,11 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.7.desc
     picture = DESERT_CAMAL_eventPicture
 
-	is_triggered_only = yes
-	
+    is_triggered_only = yes
+
     option = {
         name = wwu_mission_a29_kot_responce.7.option.a
+
         ai_chance = {
             factor = 10
         }
@@ -210,11 +222,12 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.8.desc
     picture = SHIELD_BLOCK_eventPicture
 
-	is_triggered_only = yes
-	
+    is_triggered_only = yes
+
     option = {
         name = wwu_mission_a29_kot_responce.8.option.a
-		add_claim = 1971
+        add_claim = 1971
+
         ai_chance = {
             factor = 10
         }
@@ -228,10 +241,11 @@ country_event = {
     desc = wwu_mission_a29_kot_responce.9.desc
     picture = ULDAMAN_eventPicture
 
-	is_triggered_only = yes
-	
+    is_triggered_only = yes
+
     option = {
         name = wwu_mission_a29_kot_responce.9.option.a
+
         ai_chance = {
             factor = 10
         }
