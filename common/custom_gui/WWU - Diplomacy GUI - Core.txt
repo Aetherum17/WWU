@@ -288,14 +288,25 @@ custom_icon = {
 }
 
 #------------------------------------
-# Misc
+# Civilization
 #------------------------------------
 custom_icon = {
-   name = target_nation_war_block_status__ring_of_peace
-   tooltip = DIPLO_VIEW_RING_OF_PEACE_WAR_BLOCK_TT
+   name = target_nation_civilized_nation
+   tooltip = DIPLO_VIEW_IS_CIVILIZED_TT
    
    potential = {
-        has_country_modifier = chi_prevent_war
+        is_civilized = yes
+        NOT = { has_country_flag = civilization_process_active }
+   }
+}
+
+custom_icon = {
+   name = target_nation_uncivilized_nation
+   tooltip = DIPLO_VIEW_IS_UNCIVILIZED_TT
+   
+   potential = {
+        is_uncivilized = yes
+        NOT = { has_country_flag = civilization_process_active }
    }
 }
 
@@ -305,5 +316,17 @@ custom_icon = {
    
    potential = {
         has_country_flag = civilization_process_active
+   }
+}
+
+#------------------------------------
+# War Block
+#------------------------------------
+custom_icon = {
+   name = target_nation_war_block_status__ring_of_peace
+   tooltip = DIPLO_VIEW_RING_OF_PEACE_WAR_BLOCK_TT
+   
+   potential = {
+        has_country_modifier = chi_prevent_war
    }
 }

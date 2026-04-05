@@ -2,8 +2,8 @@
 # Modifiers
 #---------------------------------------
 uldaman_gold_statue_site = {
-	yearly_legitimacy = 0.25
-	yearly_prestige = 0.25
+    legitimacy = 0.25
+    prestige = 0.25
 }
 
 uldaman_eric_speed = {

@@ -95,14 +95,25 @@ spriteTypes = {
 		texturefile = "gfx/custom_gui/diplomacy_gui/faction_decision_icon.dds"
 	}
     
-    # Misc
+    # War Block
     spriteType = {
-		name = "GFX_war_block_icon_ring_of_peace"
-		texturefile = "gfx/custom_gui/diplomacy_gui/misc_icon/ring_of_peace.dds"
+		name = "GFX_ring_of_peace_icon"
+		texturefile = "gfx/custom_gui/diplomacy_gui/war_block_icon/ring_of_peace_icon.dds"
+	}
+    
+    # Civilization
+    spriteType = {
+		name = "GFX_civilized_icon"
+		texturefile = "gfx/custom_gui/diplomacy_gui/civilization_icon/civilized_icon.dds"
 	}
     
     spriteType = {
-		name = "GFX_icon_civilization_status"
-		texturefile = "gfx/custom_gui/diplomacy_gui/misc_icon/civilization_status.dds"
+		name = "GFX_civilizing_icon"
+		texturefile = "gfx/custom_gui/diplomacy_gui/civilization_icon/civilizing_icon.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_uncivilized_icon"
+		texturefile = "gfx/custom_gui/diplomacy_gui/civilization_icon/uncivilized_icon.dds"
 	}
 }

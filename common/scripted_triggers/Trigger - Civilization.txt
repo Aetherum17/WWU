@@ -10,6 +10,9 @@ is_civilized = {
     custom_trigger_tooltip = {
         tooltip = IS_CIVILIZED_TT
         
-        has_country_flag = is_civilized_nation
+        OR = { 
+            has_country_flag = is_civilized_nation # former unciv 
+            NOT = { has_country_flag = is_uncivilized_nation } # default civ
+        }
     }
 }
