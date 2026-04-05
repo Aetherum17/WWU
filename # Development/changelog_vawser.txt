@@ -22,7 +22,6 @@ Faction Issues:
 - Horde: cannot invite non-Draenor members when on Draenor
 - Alliance can spawn independant of Horde
 
-
 # Requests (SzredeR + Community )
 -Any way of tracking other countries magical information (less important)
 -Civilization progress for uncivilized nations undergoing the process

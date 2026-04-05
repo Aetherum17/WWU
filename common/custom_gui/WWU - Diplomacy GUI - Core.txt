@@ -288,7 +288,7 @@ custom_icon = {
 }
 
 #------------------------------------
-# War Block
+# Misc
 #------------------------------------
 custom_icon = {
    name = target_nation_war_block_status__ring_of_peace
@@ -296,5 +296,14 @@ custom_icon = {
    
    potential = {
         has_country_modifier = chi_prevent_war
+   }
+}
+
+custom_icon = {
+   name = target_nation_is_civilizing
+   tooltip = DIPLO_VIEW_IS_CIVILIZING_TT
+   
+   potential = {
+        has_country_flag = civilization_process_active
    }
 }

@@ -38,6 +38,8 @@
  FACTION_STATUS_DRAGON_ASPECTS_MEMBER: "[Root.GetName] is a member of the §YDragon Aspects§!."
  
  #----------------------------------------
- # War Block
+ # Misc
  #----------------------------------------
  DIPLO_VIEW_RING_OF_PEACE_WAR_BLOCK_TT: "[Root.GetName] has used §YRing of Peace§!, which prevents war declaration against them."
+ 
+ DIPLO_VIEW_IS_CIVILIZING_TT: "[Root.GetName] is currently §YCivilizing§!, after which they will transition from an §YUncivilized§! nation into a §YCivilized§! nation."

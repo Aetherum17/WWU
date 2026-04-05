@@ -1073,7 +1073,18 @@ guiTypes = {
         iconType = {
 			name ="target_nation_war_block_status__ring_of_peace"
 			spriteType = "GFX_war_block_icon_ring_of_peace"
-			position = { x= 300 y = 235 }
+			position = { x= 225 y = 198 }
+			Orientation = "UPPER_LEFT"
+            scripted = yes
+		}
+        
+        #------------------------------------
+        # Civilizing
+        #------------------------------------
+        iconType = {
+			name ="target_nation_is_civilizing"
+			spriteType = "GFX_icon_civilization_status"
+			position = { x= 195 y = 198 }
 			Orientation = "UPPER_LEFT"
             scripted = yes
 		}
