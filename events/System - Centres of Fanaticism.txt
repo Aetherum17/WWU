@@ -27,7 +27,7 @@ country_event = {
                     NOT = { religion = cthun }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -111,7 +111,7 @@ country_event = {
                     NOT = { religion = nzoth }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -195,7 +195,7 @@ country_event = {
                     NOT = { religion = yogg_saron }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -279,7 +279,7 @@ country_event = {
                     NOT = { religion = yshaarj }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -363,7 +363,7 @@ country_event = {
                     NOT = { religion = sha }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -447,7 +447,7 @@ country_event = {
                     NOT = { religion = twilight_cult }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -531,7 +531,7 @@ country_event = {
                     NOT = { religion = nightmare }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -615,7 +615,7 @@ country_event = {
                     NOT = { religion = void }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -699,7 +699,7 @@ country_event = {
                     NOT = { religion = cult_of_the_damned }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
@@ -783,7 +783,7 @@ country_event = {
                     NOT = { religion = decay }
                 }
                 
-                save_event_target_as = target_neighbor
+                # save_event_target_as = target_neighbor - Not Used anywhere
                 
                 hidden_effect = {
                     add_country_modifier = {
