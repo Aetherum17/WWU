@@ -636,8 +636,10 @@ estate_nobility_scarab_swarms = {
         total_development = 100
         calc_true_if = {
             any_subject_country = {
-                primary_culture = culture_silithid
-				primary_culture = culture_qiraji
+				OR = {
+					primary_culture = culture_silithid
+					primary_culture = culture_qiraji
+				}
             }
             amount = 3
         }
