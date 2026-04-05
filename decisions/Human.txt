@@ -28,7 +28,7 @@ country_decisions = {
                 factor = 0
                 NOT = { adm_power = 200 }
             }
-            modifers = {
+            modifier = {
                 factor = 0 
                 NOT = { mil_power = 200 }
             }
