@@ -1,0 +1,407 @@
+namespace = wwu_mission_a29_uldaman
+
+#Start Excavating
+country_event = {
+    id = wwu_mission_a29_uldaman.1
+    title = wwu_mission_a29_uldaman.1.title
+    desc = wwu_mission_a29_uldaman.1.desc
+    picture = EXPLORERS_HAT_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_a29_uldaman.1.option.a
+
+        add_treasury = -500
+        hidden_effect = {
+            country_event = {
+                id = wwu_mission_a29_uldaman.2 days = 90
+            }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 1
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.1.option.b
+
+        add_treasury = -100
+        hidden_effect = {
+            country_event = {
+                id = wwu_mission_a29_uldaman.2 days = 180
+            }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 5
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.1.option.c
+
+        hidden_effect = {
+            country_event = {
+                id = wwu_mission_a29_uldaman.2 days = 500
+            }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Uldaman hinted
+country_event = {
+    id = wwu_mission_a29_uldaman.2
+    title = wwu_mission_a29_uldaman.2.title
+    desc = wwu_mission_a29_uldaman.2.desc
+    picture = ULDAMAN_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_a29_uldaman.2.option.a
+
+        add_dip_power = -100
+        set_country_flag = km_access_codes
+        set_country_flag = km_codes_secured
+
+        hidden_effect = {
+            country_event = { id = wwu_mission_a29_uldaman.3 days = 1280 }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.2 days = 1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 5
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.2.option.b
+
+        set_country_flag = km_access_codes
+        set_country_flag = km_codes_unguarded
+
+        hidden_effect = {
+            country_event = { id = wwu_mission_a29_uldaman.3 days = 920 }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.2 days = 1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 5
+        }
+    }
+}
+
+#Seting up camp in Badlands
+country_event = {
+    id = wwu_mission_a29_uldaman.3
+    title = wwu_mission_a29_uldaman.3.title
+    desc = wwu_mission_a29_uldaman.3.desc
+    picture = DESERT_CAMAL_eventPicture
+
+    is_triggered_only = yes
+
+    immediate = {
+        hidden_effect = {
+            1971 = {
+                cede_province = A29
+                add_core = A29
+            }
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.3.option.a
+        add_mil_power = -50
+        add_treasury = -200
+
+        hidden_effect = {
+            1971 = {
+                add_building = wow_tower_1
+                add_base_manpower = 2
+                spawn_infantry = { AMOUNT = 2 TAG = A29 }
+            }
+            country_event = { id = wwu_mission_a29_uldaman.6 days = 180 }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.7 days = 1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 2
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.3.option.b
+
+        hidden_effect = {
+            country_event = { id = wwu_mission_a29_uldaman.6 days = 360 }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.7 days = 1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 4
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.3.option.c
+        trigger = {
+            has_country_flag = km_was_attacked
+        }
+
+        add_mil_power = -500
+        add_treasury = -300
+
+        hidden_effect = {
+            1971 = {
+                add_building = wow_fort_1
+                add_base_manpower = 4
+                add_base_tax = 4
+                add_base_production = 4
+                spawn_infantry = { AMOUNT = 6 TAG = A29 }
+                spawn_cavalry = { AMOUNT = 2 TAG = A29 }
+                spawn_artillery = { AMOUNT = 2 TAG = A29 }
+            }
+            country_event = { id = wwu_mission_a29_uldaman.6 days = 180 }
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.8 days = 1 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Copy of codes stolen in attack (codes guarded)
+country_event = {
+    id = wwu_mission_a29_uldaman.4
+    title = wwu_mission_a29_uldaman.4.title
+    desc = wwu_mission_a29_uldaman.4.desc
+    picture = BURROWING_MINE_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = km_codes_secured
+        A30 = { has_country_flag = kot_access_codes }
+    }
+
+    mean_time_to_happen = { days = 1 }
+
+    immediate = {
+        set_country_flag = km_was_attacked
+        capital_scope = {
+            every_state_province = {
+                add_devastation = 40
+            }
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.4.option.a
+        add_adm_power = -200
+
+        capital_scope = {
+            every_state_province = {
+                add_devastation = 20
+            }
+        }
+
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.4.option.b
+
+        capital_scope = {
+            every_state_province = {
+                add_devastation = 40
+            }
+		add_casus_belli = {
+            type = cb_insult
+            target = A30
+            days = 3650
+        }
+
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.4.option.c
+        trigger = {
+            adm = 4
+            dip = 4
+        }
+
+        add_casus_belli = {
+            type = cb_insult
+            target = A30
+            days = 3650
+        }
+        add_adm_power = -100
+        add_dip_power = -100
+        add_treasury = -100
+
+        capital_scope = {
+            every_state_province = {
+                add_devastation = 30
+            }
+        }
+
+        hidden_effect = {
+            country_event = { id = wwu_mission_a29_uldaman.3 days = 760 }
+        }
+
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Copy of codes stolen in attack (codes not guarded)
+country_event = {
+    id = wwu_mission_a29_uldaman.5
+    title = wwu_mission_a29_uldaman.5.title
+    desc = wwu_mission_a29_uldaman.5.desc
+    picture = BURROWING_MINE_eventPicture
+
+    is_triggered_only = yes
+
+    trigger = {
+        has_country_flag = km_codes_unguarded
+        A30 = { has_country_flag = kot_access_codes }
+    }
+
+    mean_time_to_happen = { days = 1 }
+
+    immediate = {
+        set_country_flag = km_was_attacked
+        capital_scope = {
+            every_state_province = {
+                add_devastation = 40
+            }
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.5.option.a
+        add_adm_power = -200
+
+        capital_scope = {
+            every_state_province = {
+                add_devastation = -20
+            }
+        }
+
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.5.option.b
+
+        add_casus_belli = {
+            type = cb_insult
+            target = A30
+            days = 3650
+        }
+
+        ai_chance = {
+            factor = 3
+        }
+    }
+
+    option = {
+        name = wwu_mission_a29_uldaman.5.option.c
+        trigger = {
+            adm = 4
+            dip = 4
+        }
+
+        add_casus_belli = {
+            type = cb_insult
+            target = A30
+            days = 3650
+        }
+        add_adm_power = -100
+        add_dip_power = -100
+        add_treasury = -500
+
+        capital_scope = {
+            every_state_province = {
+                add_devastation = -30
+            }
+        }
+
+        hidden_effect = {
+            country_event = { id = wwu_mission_a29_uldaman.3 days = 920 }
+        }
+
+        ai_chance = {
+            factor = 10
+        }
+    }
+}
+
+#Uldaman start
+country_event = {
+    id = wwu_mission_a29_uldaman.6
+    title = wwu_mission_a29_uldaman.6.title
+    desc = wwu_mission_a29_uldaman.6.desc
+    picture = ULDAMAN_eventPicture
+
+    is_triggered_only = yes
+
+    option = {
+        name = wwu_mission_a29_uldaman.6.option.a
+        set_country_flag = km_access_uldaman
+
+        hidden_effect = {
+            if = {
+                limit = { A30 = { exists = yes } }
+                A30 = { country_event = { id = wwu_mission_a29_kot_responce.9 days = 10 } }
+            }
+        }
+
+        ai_chance = {
+            factor = 5
+        }
+    }
+}

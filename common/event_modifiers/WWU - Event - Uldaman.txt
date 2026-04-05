@@ -1,0 +1,25 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+uldaman_gold_statue_site = {
+	yearly_legitimacy = 0.25
+	yearly_prestige = 0.25
+}
+
+uldaman_eric_speed = {
+	envoy_travel_time = -0.25
+}
+
+uldaman_olaf_fort = {
+	fort_maintenance_modifier = -0.10
+}
+
+troggs_uldaman_capital_muster = {
+	local_manpower_modifier = 0.50
+	local_manpower = 2
+}
+
+troggs_uldaman_war_fury = {
+	infantry_power = 0.15
+	land_morale = 0.10
+}

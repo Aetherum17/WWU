@@ -1,15 +1,14 @@
 
-is_city = yes
-owner = SRB
-controller = SRB
-add_core = SRB
+native_size = 10
+native_ferocity = 10
+native_hostileness = 10
 
 base_tax = 1
-base_production = 3
-base_manpower = 5
+base_production = 2
+base_manpower = 1
 
-culture = culture_trogg
-religion = earth
+culture = culture_kobold
+    religion = candle
 
 hre = no
 trade_goods = resource_treasure
@@ -18,5 +17,13 @@ latent_trade_goods = {
 	resource_azerite
 }
 
-
+# Rise of the Lich Kng
+605.1.1 = {
+    owner = SRB
+	controller = SRB
+	add_core = SRB
+    
+    culture = culture_trogg
+	religion = earth
+}
 

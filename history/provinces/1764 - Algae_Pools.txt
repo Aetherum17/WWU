@@ -1,19 +1,36 @@
-
-# Gnomeregan
+# Bluegill
 is_city = yes
-owner = A32
-controller = A32
-add_core = A32
+owner = B26
+controller = B26
+add_core = B26
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_gnome
-religion = technomancy
+culture = culture_murloc
+religion = deep_mother
 
 hre = no
 trade_goods = resource_common_fish
+
+598.1.1 = { 
+    # Steamwheedle
+    owner = A80
+    controller = A80
+    add_core = A80
+    
+    culture = culture_goblin 
+}
+
+605.1.1 = { 
+    # Gnomeregan
+    owner = A32
+    controller = A32
+    remove_core = A80
+    
+    culture = culture_gnome 
+}
 
 
 # Tunnel Rat
@@ -25,4 +42,3 @@ trade_goods = resource_common_fish
     culture = culture_kobold
     religion = candle
 }
-

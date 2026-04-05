@@ -1,16 +1,13 @@
 
 # Tunnel Rat
 is_city = yes
-owner = P53
-controller = P53
-add_core = P53
-
-base_tax = 3
-base_production = 3
-base_manpower = 3
-
-culture = culture_kobold
-religion = candle
+owner = A29
+    controller = A29
+    add_core = A29
+    remove_core = U03
+    
+    culture = culture_ironforge 
+    religion = holy_light
 
 hre = no
 trade_goods = resource_food

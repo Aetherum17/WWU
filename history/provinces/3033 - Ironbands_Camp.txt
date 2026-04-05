@@ -1,16 +1,16 @@
 
 is_city = yes
-
-owner = P54
-controller = P54
-add_core = P54
+owner = P53
+controller = P53
+add_core = P53
+add_claim = A29
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_trogg
-religion = earth
+culture = culture_kobold
+religion = candle
 
 hre = no
 trade_goods = resource_fossils

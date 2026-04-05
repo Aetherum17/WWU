@@ -1,0 +1,49 @@
+country_decisions = {
+
+	enter_uldaman = {
+		major = yes
+        potential = {
+			OR = {
+				AND = {
+					tag = A29
+					owns = 1971
+					has_country_flag = km_access_uldaman
+				}
+				AND = {
+					tag = A30
+					owns = 1969
+					has_country_flag = kot_access_uldaman
+				}
+			}
+			NOT = { 
+				has_global_flag = uldaman_decision_taken 
+			}
+		}
+		effect = {
+			set_global_flag = uldaman_decision_taken
+			if = {
+				limit = { tag = A29 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 10 }
+			}
+			else_if = {
+				limit = { tag = A30 }
+				country_event = { id = wwu_mission_a29_uldaman_branch.1 days = 10 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 5
+				tag = A29
+				has_country_flag = km_was_attacked
+			}
+			modifier = {
+				factor = 5
+				tag = A30
+				NOT = { 
+					has_country_flag = kot_decides_to_wait 
+				}
+			}
+		}
+	}
+}

@@ -31,3 +31,16 @@
  wwu_dwarf.11.desc: "As our fierce war against our enemies continues, dwarves around the globe, be they a mere peasant or a powerful noble, are doing their best to help our war effort. Recently, a group of adventuring guilds including Retired Mountaineers Society, The Three Hammers and Ironbeard Retinue united under one banner and rallied citizens to join the war."
  wwu_dwarf.11.option.a: "Praise the guilds!"
  
+ #-----------------------------------------------
+ # Uldaman
+ #-----------------------------------------------
+ wwu_mission_a29_uldaman.1.title: "Ironband's Excavation!"
+ wwu_mission_a29_uldaman.1.desc: "Our leading explorer Ironband claims that here in Loch Modan lies a lead towards a place of our origin. This excavation may lead us to the answers of our origin as well as give us access to technologies of our makers. Ironband is asking for a financial contribution to hasten the proccess."
+ wwu_mission_a29_uldaman.1.option.a: "We must find the answers! Give them everything!"
+ wwu_mission_a29_uldaman.1.option.b: "It is sounds interesting. Throw them a bone."
+ wwu_mission_a29_uldaman.1.option.c: "I don't care. Let him play in the dirt."
+ 
+ wwu_mission_a29_uldaman.2.title: "Ironband's Excavation Results"
+ wwu_mission_a29_uldaman.2.desc: "Ironband claims he has some kind of access codes and a map that could lead to a temple."
+ wwu_mission_a29_uldaman.2.option.a: "Make sure to hide it from the spies!"
+ wwu_mission_a29_uldaman.2.option.b: "Who cares what garbage they dug up?!"
