@@ -637,9 +637,9 @@ province_event = {
     trigger = {
         has_global_flag = undead_plague_active
         
-        NOT = { dominant_religion = cult_of_the_damned }
-        NOT = { has_harmonized_with = cult_of_the_damned }
-        NOT = { secondary_religion = cult_of_the_damned }
+        NOT = { owner = { dominant_religion = cult_of_the_damned } }
+        NOT = { owner = { has_harmonized_with = cult_of_the_damned } }
+        NOT = { owner = { secondary_religion = cult_of_the_damned } }
         NOT = { religion = cult_of_the_damned }
         
         OR = {

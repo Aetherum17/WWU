@@ -902,3 +902,33 @@ estate_nobility_trollbane_duty = {
 	}
 }
 
+# VAWSER: stub
+estate_nobility_stormic_power = {
+	icon = privilege_crown
+
+	# Cost
+    max_absolutism = 0
+    land_share = 0
+    loyalty = 0.0
+    influence = 0.0
+
+    is_valid = {
+        always = no
+    }
+
+    can_select = {
+        always = no
+    }
+
+    on_granted = {
+    
+    }
+
+	penalties = {
+    
+	}
+    
+	ai_will_do = {
+		factor = 0
+	}
+}

@@ -958,7 +958,7 @@ on_yearly_pulse = {
         wwu_hydraxia_waterlords.2                   # Weakness of Neptulon
         
         # Gilneas
-        wwu_gilneas.1                               # Build the Wall
+        # wwu_gilneas.1                               # Build the Wall
         
         # Forsaken
         wwu_forsaken.3                              # Confront Nathanos Blightcaller

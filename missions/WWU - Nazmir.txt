@@ -729,8 +729,8 @@ NAZ_nazmir_column_3 = {
         add_permanent_claim = ROOT
       }
       add_power_projection = {
-        type = 25_permanent_power_projection
-        amount = 25
+            type = mission_rewards_power_projection
+            amount = 25
       }
       custom_tooltip = nazmir_unlock_event_7_c
 	  hidden_effect = {
@@ -1216,8 +1216,8 @@ NAZ_nazmir_column_5 = {
       add_devotion = 25
       add_prestige = 25
       add_power_projection = {
-        type = mission_rewards_power_projection
-        amount = 15
+            type = mission_rewards_power_projection
+            amount = 15
       }
       country_event = {
         id = wwu_nazmir.3
