@@ -823,6 +823,7 @@ on_yearly_pulse = {
         wwu_great_projects.8                        # Icecrown Citadel
         wwu_great_projects.10                       # Shadow Vault
         wwu_great_projects.11                       # Corp'Rethar
+        wwu_great_projects.12                       # Uther's Tomb
         
         # Discovery
         wwu_discovery.1                             # Compendium of Azeroth
