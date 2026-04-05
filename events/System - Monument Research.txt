@@ -845,7 +845,7 @@ country_event = {
 	option = {
 		name = wwu_monument_research.27.option.a
         
-        custom_tooltip = FINISHED_RESEARCH_KHAZ_ALGAR
+        #custom_tooltip = FINISHED_RESEARCH_KHAZ_ALGAR - Not defined in localisation
         
         hidden_effect = {
             set_country_flag = monument_research_khaz_algar

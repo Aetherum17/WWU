@@ -780,6 +780,9 @@ on_yearly_pulse = {
         wwu_player_switch.106                       # Thermaplugg Exiles
         wwu_player_switch.107                       # Orgrimmar
         wwu_player_switch.110                       # Illidari
+        wwu_player_switch.111                       # Silver Hand
+        wwu_player_switch.112                       # Shadowfang
+        wwu_player_switch.113                       # Sons of Lothar
         
         # Raid
         wwu_raid.4                                  # Raid Failure
