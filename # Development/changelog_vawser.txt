@@ -8,6 +8,9 @@
  - Added two new options, one to spend some ADM power to weaken the rebel spawn, and another to spend MIL power to avoid the rebel spawn. 
  - Once 10 wwu_scourge.35 events have occurred, the Undead Plague stops.
  
+# Interface
+- Added a visual indicator of the Ring of Peace spell usage in the diplomacy view, allowing the player to more easily notice if a country has war declaration blocked by the spell.
+
 #--------------------------------------
 # TODO
 #--------------------------------------
@@ -21,7 +24,6 @@ Faction Issues:
 
 
 # Requests (SzredeR + Community )
--Ring of Peace modifer visual indicator
 -Any way of tracking other countries magical information (less important)
 -Civilization progress for uncivilized nations undergoing the process
 -Modifier or 3D Prop indicator on provinces with active canals
