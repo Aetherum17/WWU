@@ -48,4 +48,4 @@
  DIPLO_VIEW_IS_CIVILIZED_TT: "[Root.GetName] is a §YCivilized Nation§!."
  DIPLO_VIEW_IS_UNCIVILIZED_TT: "[Root.GetName] is a §YUncivilized Nation§!."
  
- DIPLO_VIEW_IS_CIVILIZING_TT: "[Root.GetName] is currently §YCivilizing§!, after which they will transition from an §YUncivilized§! nation into a §YCivilized§! nation."
+ DIPLO_VIEW_IS_CIVILIZING_TT: "[Root.GetName] is currently §YCivilizing§!, after which they will transition from an §YUncivilized§! nation into a §YCivilized§! nation.\n\nCurrent Civilization Progress: §Y[Root.civilization_progress.GetValue]/5§!"

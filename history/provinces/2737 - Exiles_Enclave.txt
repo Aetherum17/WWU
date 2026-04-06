@@ -23,4 +23,5 @@ latent_trade_goods = {
     add_core = A73
     
     culture = culture_sand_troll
-}
+}
+
