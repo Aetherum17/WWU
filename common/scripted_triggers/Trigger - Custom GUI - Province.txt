@@ -15,7 +15,6 @@ scry_button_potential = {
         province_id = 1035
         # Dark Portal Draenor
         province_id = 3792
-        province_id = 1035
         # Deepholm Rift Feralas
         province_id = 2535
         province_id = 1487
@@ -66,7 +65,6 @@ scry_button_potential = {
         province_id = 1806
         # Argus Rift Icecrown
         province_id = 2764
-        province_id = 1268
         # Argus Rift Hyjal
         province_id = 2773
         province_id = 1335
@@ -114,7 +112,6 @@ scry_button_potential = {
         province_id = 4941
         # Deep Sea Current 5
         province_id = 3174
-        province_id = 4941
         # Deep Sea Current 6
         province_id = 577
         province_id = 4892
@@ -137,8 +134,6 @@ scry_button_potential = {
         province_id = 4912
         province_id = 4900
         # Deep Sea Current 13
-        province_id = 4926
-        province_id = 3177
-        
+        province_id = 4926        
     }
 }
