@@ -212,7 +212,8 @@ custom_icon = {
     
     potential = {
         has_pirate_republic_clique = yes
-        faction_in_power = mr_buccaneers
+        always = no
+        #faction_in_power = mr_buccaneers
     }
 }
 custom_icon = {
@@ -221,7 +222,8 @@ custom_icon = {
     
     potential = {
         has_pirate_republic_clique = yes
-        NOT = { faction_in_power = mr_buccaneers }
+        always = no
+        #NOT = { faction_in_power = mr_buccaneers }
     }
 }
 custom_text_box = {
@@ -279,7 +281,8 @@ custom_icon = {
     
     potential = {
         has_pirate_republic_clique = yes
-        faction_in_power = mr_smugglers
+        always = no
+        #faction_in_power = mr_smugglers
     }
 }
 custom_icon = {
@@ -288,7 +291,8 @@ custom_icon = {
     
     potential = {
         has_pirate_republic_clique = yes
-        NOT = { faction_in_power = mr_smugglers }
+        always = no
+        #NOT = { faction_in_power = mr_smugglers }
     }
 }
 custom_text_box = {
@@ -346,7 +350,8 @@ custom_icon = {
     
     potential = {
         has_pirate_republic_clique = yes
-        faction_in_power = mr_captains
+        always = no
+        #faction_in_power = mr_captains
     }
 }
 custom_icon = {
@@ -355,7 +360,8 @@ custom_icon = {
     
     potential = {
         has_pirate_republic_clique = yes
-        NOT = { faction_in_power = mr_captains }
+		always = no
+        #NOT = { faction_in_power = mr_captains }
     }
 }
 custom_text_box = {
