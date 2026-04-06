@@ -14,28 +14,33 @@ scry_button_effect = {
         3049 = { save_event_target_as = target_province_2 }
     }
 
-    # Dark Portal Outland
+    # Dark Portal Outland / Draenor
     if = {
         limit = {
-            OR = {
-                province_id = 1586
-                province_id = 1035
-            }
+            province_id = 1035
         }
-        1586 = { save_event_target_as = target_province_1 }
-        1035 = { save_event_target_as = target_province_2 }
+        
+        1035 = { save_event_target_as = target_province_1 } # Dark Portal
+        1586 = { save_event_target_as = target_province_2 } # Outland
+        3792 = { save_event_target_as = target_province_3 } # Draenor
     }
-
-    # Dark Portal Draenor
+    # Dark Portal Outland / Draenor
     if = {
         limit = {
-            OR = {
-                province_id = 3792
-                province_id = 1035
-            }
+            province_id = 1586
         }
-        3792 = { save_event_target_as = target_province_1 }
-        1035 = { save_event_target_as = target_province_2 }
+        
+        1035 = { save_event_target_as = target_province_1 } # Dark Portal
+        1586 = { save_event_target_as = target_province_2 } # Outland
+    }
+    # Dark Portal Outland / Draenor
+    if = {
+        limit = {
+            province_id = 3792
+        }
+        
+        1035 = { save_event_target_as = target_province_1 } # Dark Portal
+        3792 = { save_event_target_as = target_province_3 } # Draenor
     }
 
     # Deepholm Rift Feralas
@@ -84,18 +89,6 @@ scry_button_effect = {
         }
         3160 = { save_event_target_as = target_province_1 }
         2610 = { save_event_target_as = target_province_2 }
-    }
-
-    # Abyssal Maw Rift Vashjir
-    if = {
-        limit = {
-            OR = {
-                province_id = 2548
-                province_id = 3177
-            }
-        }
-        2548 = { save_event_target_as = target_province_1 }
-        3177 = { save_event_target_as = target_province_2 }
     }
 
     # Abyssal Maw Rift Stonetalon
@@ -230,16 +223,33 @@ scry_button_effect = {
         1806 = { save_event_target_as = target_province_2 }
     }
 
-    # Argus Rift Icecrown
+    # Icecrown Rift
     if = {
         limit = {
-            OR = {
-                province_id = 2764
-                province_id = 1268
-            }
+            province_id = 1268
         }
-        2764 = { save_event_target_as = target_province_1 }
-        1268 = { save_event_target_as = target_province_2 }
+        
+        1268 = { save_event_target_as = target_province_1 } # Icecrown
+        2764 = { save_event_target_as = target_province_2 } # Argus
+        4808 = { save_event_target_as = target_province_3 } # Oribos
+    }
+    # Icecrown Rift - Argus
+    if = {
+        limit = {
+            province_id = 2764
+        }
+        
+        1268 = { save_event_target_as = target_province_1 } # Icecrown
+        2764 = { save_event_target_as = target_province_2 } # Argus
+    }
+    # Icecrown Rift - Oribos
+    if = {
+        limit = {
+            province_id = 4808
+        }
+        
+        1268 = { save_event_target_as = target_province_1 } # Icecrown
+        4808 = { save_event_target_as = target_province_2 } # Oribos
     }
 
     # Argus Rift Hyjal
@@ -289,19 +299,6 @@ scry_button_effect = {
         2772 = { save_event_target_as = target_province_1 }
         2667 = { save_event_target_as = target_province_2 }
     }
-
-    # Oribos Rift Icecrown
-    if = {
-        limit = {
-            OR = {
-                province_id = 4808
-                province_id = 1268
-            }
-        }
-        4808 = { save_event_target_as = target_province_1 }
-        1268 = { save_event_target_as = target_province_2 }
-    }
-
     # Frozen Rift Brill
     if = {
         limit = {
@@ -410,30 +407,37 @@ scry_button_effect = {
         3176 = { save_event_target_as = target_province_2 }
     }
 
-    # Deep Sea Current 4
+    # Deep Sea Current 4 / 5
     if = {
         limit = {
-            OR = {
-                province_id = 4925
-                province_id = 4941
-            }
+            province_id = 4941
         }
-        4925 = { save_event_target_as = target_province_1 }
-        4941 = { save_event_target_as = target_province_2 }
+        
+        4941 = { save_event_target_as = target_province_1 }
+        4925 = { save_event_target_as = target_province_2 }
+        3174 = { save_event_target_as = target_province_3 }
     }
-
-    # Deep Sea Current 5
+    
+    # Deep Sea Current 4 / 5
     if = {
         limit = {
-            OR = {
-                province_id = 3174
-                province_id = 4941
-            }
+            province_id = 3174
         }
-        3174 = { save_event_target_as = target_province_1 }
-        4941 = { save_event_target_as = target_province_2 }
+        
+        4941 = { save_event_target_as = target_province_1 }
+        3174 = { save_event_target_as = target_province_2 }
     }
-
+    
+    # Deep Sea Current 4 / 5
+    if = {
+        limit = {
+            province_id = 4925
+        }
+        
+        4941 = { save_event_target_as = target_province_1 }
+        4925 = { save_event_target_as = target_province_2 }
+    }
+    
     # Deep Sea Current 6
     if = {
         limit = {
@@ -518,17 +522,34 @@ scry_button_effect = {
         4900 = { save_event_target_as = target_province_2 }
     }
 
-    # Deep Sea Current 13
+    # Abyssal Maw Rift Vashjir
     if = {
         limit = {
-            OR = {
-                province_id = 4926
-                province_id = 3177
-            }
+            province_id = 3177
         }
-        4926 = { save_event_target_as = target_province_1 }
-        3177 = { save_event_target_as = target_province_2 }
+        
+        3177 = { save_event_target_as = target_province_1 }
+        2548 = { save_event_target_as = target_province_2 }
+        4926 = { save_event_target_as = target_province_3 }
     }
+    # Abyssal Maw Rift Vashjir
+    if = {
+        limit = {
+            province_id = 2548
+        }
+        3177 = { save_event_target_as = target_province_1 }
+        2548 = { save_event_target_as = target_province_2 }
+    }
+    # Abyssal Maw Rift Vashjir
+    if = {
+        limit = {
+            province_id = 4926
+        }
+        
+        3177 = { save_event_target_as = target_province_1 }
+        4926 = { save_event_target_as = target_province_2 }
+    }
+    
 
     if = {
         limit = {

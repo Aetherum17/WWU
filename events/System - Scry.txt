@@ -11,11 +11,28 @@ country_event = {
     option = {
         name = wwu_scry.1.option.a
         goto = target_province_1
+        
+        trigger = {
+            has_saved_event_target = target_province_1
+        }
     }
     
     option = {
         name = wwu_scry.1.option.b
         goto = target_province_2
+        
+        trigger = {
+            has_saved_event_target = target_province_2
+        }
+    }
+    
+    option = {
+        name = wwu_scry.1.option.c
+        goto = target_province_3
+        
+        trigger = {
+            has_saved_event_target = target_province_3
+        }
     }
     
     option = {

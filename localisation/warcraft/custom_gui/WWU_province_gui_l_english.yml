@@ -14,5 +14,6 @@
  wwu_scry.1.desc: "Scry the connections that link to this province."
  wwu_scry.1.option.a: "[target_province_1.GetName]"
  wwu_scry.1.option.b: "[target_province_2.GetName]"
+ wwu_scry.1.option.c: "[target_province_3.GetName]"
  wwu_scry.1.option.x: "Exit"
  
