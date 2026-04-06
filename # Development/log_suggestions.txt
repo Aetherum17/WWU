@@ -1,5 +1,4 @@
 1. Canals:
--Add some sort of information about their location, and something to show they are open
 -Somehow make sure Zone of Control will not block passing
 -Clicking on Canal GP still somethimes crashes the game
 
@@ -12,12 +11,7 @@ Eastern Kingdoms:
 -Sunveil Excursion(869) position is broken
 
 Kul'tiras:
--Divide one continent into 3 zones
--Divide trade zones to Mechagon and Kul'tiras(or into 3 zones like above)
--Islands of Tol Ronal(4109), Tol Dagor(4108) and Zul'Dare(691) could be moved around, so they have more strategic value(Optional)
-
-Mechagon - Broken Isles:
--Possibly adjust provinces to allow chain claiming(Optional)
+-Islands of Tol Ronal(4109), Tol Dagor(4108) and Zul'Dare(691) and Grimreach(6415) could be moved around, so they have more strategic value(Optional)
 
 Northrend:
 -Jorundall(4104) could be moved to border Sea of Halvarde. Alternativly, sea zones need to be adjusted, since nobody can claim it with normal way.
@@ -35,15 +29,6 @@ South Seas:
 Kalimdor:
 -Any way for countries on Azuermist/Bloodmist/Teldrassil to get to mainland?
 -Terra Incognita (3476) is not revealed for countries in Kalimdor, while being part of the mainland
-
-Isle of Dorn and The War Within Lands:
--At least add basic tags and reason to go down to their area (or from it)
-
-Firelands:
--Movement between left and right island was bugged, needs check and possible fix for pathing
-
-Terra Incognita:
--See bug-fix-balance For the record
 
 3. 3D Models
 -Fix whatever happened to Quillboar Artillery (see bug-fix-balance for that)

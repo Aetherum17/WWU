@@ -8,7 +8,7 @@ base_production = 1
 base_manpower = 1
 
 culture = culture_orc
-religion = fel
+religion = shamanism
 
 hre = no
 trade_goods = unknown
@@ -24,6 +24,8 @@ trade_goods = unknown
     base_production = 3
     base_manpower = 4
 
+    culture = culture_orc 
+    religion = fel
 
     trade_goods = resource_plate_armor
 }
