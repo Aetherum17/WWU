@@ -5,13 +5,14 @@ owner = A30
 controller = A30
 add_core = A30
 add_core = ANG
+add_core = A65
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_dark_iron
-religion = flame
+culture = culture_forest_troll
+religion = voodoo
 
 hre = no
 trade_goods = resource_beasts_of_burden

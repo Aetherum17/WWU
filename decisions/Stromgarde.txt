@@ -78,6 +78,7 @@ country_decisions = {
 # Demand Ravenholdt Submission
     ravenholdt_force_vassalize = {
         potential = {
+            tag = A16
             exists = A27
             A27 = {
                 NOT = {

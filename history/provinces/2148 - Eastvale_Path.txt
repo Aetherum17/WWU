@@ -2,13 +2,14 @@ is_city = yes
 owner = GHR
 controller = GHR
 add_core = GHR
+add_core = STW
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_gnoll
-religion = earth
+culture = culture_stormwindian
+religion = holy_light
 
 hre = no
 trade_goods = resource_common_cloth
@@ -19,9 +20,6 @@ trade_goods = resource_common_cloth
     controller = STW
 	add_core = STW
 	add_core = DED
-
-    culture = culture_stormwindian
-    religion = holy_light
 }
 
 # Second War

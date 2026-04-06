@@ -26,7 +26,7 @@
 -New Tags: Moonrage, Wolfheart, Drywisker
 -New Starting War: Arathi Conflict - War for the Arathi Highlands between Troll Tribes against Stromgarde and their human allies
 -Subjects and Diplomacy setup changes: Shadowfang - Bloodmoon - Wolfcult - Silverbrook/ Crestfall - Kul'tiras
--Changes in development values, cultures and religions across Hinterlands and Arathi Highlands
+-Changes in development values, cultures and religions across Hinterlands, Arathi Highlands, Elwynn Forest and Burning Steppes
 -Changed location of centers of trade and some cores in Isle of Quel'danas
 
 # Generic Category Developments:
