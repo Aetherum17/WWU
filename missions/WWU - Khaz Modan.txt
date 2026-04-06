@@ -749,14 +749,14 @@ A29_ironforge_column_5 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
-        provinces_to_highlight = {
-            province_id = 792
-            NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			province_id = 3033
-            NOT = { country_or_non_sovereign_subject_holds = ROOT }
-			province_id = 988
-            NOT = { country_or_non_sovereign_subject_holds = ROOT }
-        }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 792
+				province_id = 3033
+				province_id = 988
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
 		effect = {
 			country_event = { 
 				id = wwu_mission_a29_uldaman.1
