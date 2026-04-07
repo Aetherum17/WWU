@@ -17,6 +17,56 @@ on_startup__class = {
             value = 5.0
         }
     }
+    
+    # Starting progress points for each class
+    set_variable = {
+        which = institutional_knowledge__warrior
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__paladin
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__priest
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__rogue
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__mage
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__warlock
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__druid
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__hunter
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__shaman
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__death_knight
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__monk
+        value = 0.0
+    }
+    set_variable = {
+        which = institutional_knowledge__demon_hunter
+        value = 0.0
+    }
 }
 
 # ROOT = Countr
@@ -48,6 +98,7 @@ on_monthly_pulse__class = {
                 value = 100.0
             }
         }
+        
         
         complete_class_study = yes
         reset_class_study = yes
@@ -143,6 +194,127 @@ start_class_study = {
         reset_class_study = yes
         set_country_flag = class_study_progress_var_exists
         set_ruler_flag = training_as_$CLASS$
+        
+        if = {
+            limit = {
+                has_ruler_flag = training_as_warrior
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__warrior 
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_paladin
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__paladin
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_priest
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__priest
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_rogue
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__rogue
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_mage
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__mage
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_warlock
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__warlock
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_druid
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__druid
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_hunter
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__hunter
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_shaman
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__shaman
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_death_knight
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__death_knight
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_monk
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__monk
+            }
+        }
+        if = {
+            limit = {
+                has_ruler_flag = training_as_demon_hunter
+            }
+            
+            set_variable = { 
+                which = class_study_progress 
+                which = institutional_knowledge__demon_hunter
+            }
+        }
     }
 }
 
@@ -326,6 +498,26 @@ set_ruler_class = {
         }
         
         trained_as_warrior = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__warrior 
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__warrior
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__warrior 
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -333,6 +525,26 @@ set_ruler_class = {
         }
         
         trained_as_paladin = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__paladin
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__paladin
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__paladin
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -340,6 +552,26 @@ set_ruler_class = {
         }
         
         trained_as_priest = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__priest
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__priest
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__priest
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -347,6 +579,26 @@ set_ruler_class = {
         }
         
         trained_as_rogue = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__rogue
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__rogue
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__rogue
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -354,6 +606,26 @@ set_ruler_class = {
         }
         
         trained_as_mage = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__mage
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__mage
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__mage
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -361,6 +633,26 @@ set_ruler_class = {
         }
         
         trained_as_warlock = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__warlock
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__warlock
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__warlock
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -368,6 +660,26 @@ set_ruler_class = {
         }
         
         trained_as_druid = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__druid
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__druid
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__druid
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -375,6 +687,26 @@ set_ruler_class = {
         }
         
         trained_as_hunter = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__hunter
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__hunter
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__hunter
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -382,6 +714,26 @@ set_ruler_class = {
         }
         
         trained_as_shaman = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__shaman
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__shaman
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__shaman
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -389,6 +741,26 @@ set_ruler_class = {
         }
         
         trained_as_death_knight = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__death_knight
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__death_knight
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__death_knight
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -396,6 +768,26 @@ set_ruler_class = {
         }
         
         trained_as_monk = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__monk
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__monk
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__monk
+                which = 80
+            }
+        }
     }
     if = {
         limit = {
@@ -403,6 +795,26 @@ set_ruler_class = {
         }
         
         trained_as_demon_hunter = yes
+        
+        # Institution Knowledge
+        change_variable = { 
+            which = institutional_knowledge__demon_hunter
+            which = 20 
+        }
+        
+        if = {
+            limit = {
+                check_variable = {
+                    which = institutional_knowledge__demon_hunter
+                    value = 80
+                }
+            }
+            
+            set_variable = { 
+                which = institutional_knowledge__demon_hunter
+                which = 80
+            }
+        }
     }
 }
 

@@ -2,22 +2,11 @@
 # Changelog
 #--------------------------------------
 
-# Events
-- Increased the MTTH for wwu_gilneas.5 to 120 months (was 90 days)
-- Changed wwu_scourge.35 event (Undead Plague in [Root.GetName]). 
- - Added two new options, one to spend some ADM power to weaken the rebel spawn, and another to spend MIL power to avoid the rebel spawn. 
- - Once 10 wwu_scourge.35 events have occurred, the Undead Plague stops.
- 
-# Factions
-- When a faction leader assignment occurs, it will assign leadership to the player if they are not considered 'weak'. If they are considered weak, the assignment is random.
-- Added a scaling modifier based on faction renown (25, 50, 75, 100) for each faction.
+# Class System
+- Added 'Institutional Knowledge' mechanic: each time a ruler learns a class, future rulers learning the same class will learn it quicker by starting with more initial progress points. Each completed study increases the starting points by 20, capping at 80.
 
 # Interface
-- Added a visual indicator of the Ring of Peace spell usage in the diplomacy view, allowing the player to more easily notice if a country has war declaration blocked by the spell.
-- Added a visual indicator of the Civilization process in the diplomacy view, allowing the player to notice if a country is transitioning from Uncivilized to Civilized.
-- Added a visual icon for Civilized and Uncivilized countries in the diplomacy view.
-- Added more information on the ruler's class and spellcaster stats/mana when hovering over the class/spellcaster icons in the diplomacy view.
-- Added a Scry button in the province view. This allows the player to open an event that lets them focus the connected provinces that are part of a non-visible canal if applicable.
+- Added in-game encyclopedia that covers mod-specific mechanics and allows the player to view such information in a more comprehensive fashion.
 
 #--------------------------------------
 # TODO
@@ -30,16 +19,7 @@ Faction Issues:
 
 Class Study:
  - Add option to 'unlearn' class so a new class can be studied
- - Add a 'Institutional Knowledge' variable that increments when a class is learnt, future rulers that re-learn the class will automatically get a boost to their initial study value (cap at 80)
  
 
 Wiki:
-- Add Wiki tab on topbar
- - Hosts information on Class + Spellcaster systems
- 
- - Tab side (25%)
-  - Each section is a button (i..e Classes, Spellcasting, etc)
- - Info side (75%)
-  - Displays the info, include paganation support
-  
-  
+- Add magic information
