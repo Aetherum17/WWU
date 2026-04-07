@@ -19,4 +19,4 @@ trade_goods = unknown
     add_core = A73
     
     culture = culture_sand_troll
-}
+}

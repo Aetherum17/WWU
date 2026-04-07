@@ -603,13 +603,15 @@ A16_stromgarde_column_2 = {
         }
 
         effect = {
-            add_building_construction = {
-                building = wow_arcane_tower
-                speed = 0.1
-                cost = 0.1
-            }
+			3000 = {
+				add_building_construction = {
+					building = wow_arcane_tower
+					speed = 0.1
+					cost = 0.1
+				}
 
-            add_base_production = 3
+				add_base_production = 3
+			}
         }
     }
 }
