@@ -67,6 +67,10 @@ country_decisions = {
 			add_dip_power = -100
             add_mil_power = -100
             
+			country_event = {
+				id = wwu_flavour_nc_emp_arathor.1
+			}
+			
             # Switch
 			change_tag = FNA
 			change_primary_culture = culture_arathorian
