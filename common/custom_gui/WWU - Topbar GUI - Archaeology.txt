@@ -1759,6 +1759,38 @@ custom_button = {
         
     }
 }
+custom_button = {
+    name = primary_artifact__staff_of_antonidas
+    tooltip = ARTIFACT_INFO_staff_of_antonidas
+    
+    potential = {
+        is_archaeology_gui_open = yes
+        has_country_flag = primary_artifact_staff_of_antonidas
+    }
+    
+    trigger = { 
+    }
+    
+    effect = { 
+        
+    }
+}
+custom_button = {
+    name = primary_artifact__staff_of_antonidas_2
+    tooltip = ARTIFACT_INFO_staff_of_antonidas_2
+    
+    potential = {
+        is_archaeology_gui_open = yes
+        has_country_flag = primary_artifact_staff_of_antonidas_2
+    }
+    
+    trigger = { 
+    }
+    
+    effect = { 
+        
+    }
+}
 
 #--------------------------------------
 # Artifact Selection
@@ -4115,6 +4147,58 @@ custom_button = {
             }
             
             make_primary_artifact = { artifact = shield_of_the_deathlord }
+        }
+    }
+}
+custom_button = {
+    name = select_artifact__staff_of_antonidas
+    tooltip = ARTIFACT_INFO_staff_of_antonidas
+    
+    potential = {
+        is_archaeology_gui_open = yes
+        is_artifact_view_page_3 = yes
+    }
+    
+    trigger = { 
+        custom_trigger_tooltip = {
+            tooltip = ARCHAEOLOGY_HAS_ARTIFACT_staff_of_antonidas
+            has_country_flag = artifact_staff_of_antonidas
+        }
+    }
+    
+    effect = { 
+        if = {
+            limit = {
+                has_country_flag = artifact_staff_of_antonidas
+            }
+            
+            make_primary_artifact = { artifact = staff_of_antonidas }
+        }
+    }
+}
+custom_button = {
+    name = select_artifact__staff_of_antonidas_2
+    tooltip = ARTIFACT_INFO_staff_of_antonidas_2
+    
+    potential = {
+        is_archaeology_gui_open = yes
+        is_artifact_view_page_3 = yes
+    }
+    
+    trigger = { 
+        custom_trigger_tooltip = {
+            tooltip = ARCHAEOLOGY_HAS_ARTIFACT_staff_of_antonidas_2
+            has_country_flag = artifact_staff_of_antonidas_2
+        }
+    }
+    
+    effect = { 
+        if = {
+            limit = {
+                has_country_flag = artifact_staff_of_antonidas_2
+            }
+            
+            make_primary_artifact = { artifact = staff_of_antonidas_2 }
         }
     }
 }
