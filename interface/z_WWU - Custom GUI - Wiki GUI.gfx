@@ -1,0 +1,39 @@
+spriteTypes = {	
+    #----------------------------------------------
+    # Wiki GUI
+    #----------------------------------------------
+    spriteType = {
+		name = "GFX_wiki_gui_bg"
+		texturefile = "gfx/custom_gui/wiki_gui/wiki_gui_bg.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_wiki_info_option"
+		texturefile = "gfx/custom_gui/wiki_gui/info_button.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_wiki_topic_option"
+		texturefile = "gfx/custom_gui/wiki_gui/category_button.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_wiki_banner"
+		texturefile = "gfx/custom_gui/wiki_gui/banner.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_wiki_ability_banner"
+		texturefile = "gfx/custom_gui/wiki_gui/ability_banner.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_wiki_page_up"
+		texturefile = "gfx/custom_gui/wiki_gui/up_arrow.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_wiki_page_down"
+		texturefile = "gfx/custom_gui/wiki_gui/down_arrow.dds"
+	}
+}

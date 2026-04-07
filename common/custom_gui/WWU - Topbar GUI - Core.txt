@@ -325,6 +325,34 @@ custom_button = {
     }
 }
 
+
+# Button: Toggle Window: Wiki
+custom_button = {
+    name = wwu_menu_button_wiki
+    tooltip = WIKI_GUI_TT
+    
+    potential = {
+       always = yes
+    }
+    
+    trigger = { 
+       always = yes
+    }
+    
+    effect = { 
+        if = {
+            limit = {
+                NOT = { is_wiki_gui_open = yes }
+            }
+            close_all_topbar_windows = yes
+            open_wiki_gui = yes
+        }
+        else = {
+            close_all_topbar_windows = yes
+        }
+    }
+}
+
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 # National Identity
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------

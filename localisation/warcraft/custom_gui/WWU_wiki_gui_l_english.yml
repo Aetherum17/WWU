@@ -1,0 +1,242 @@
+﻿l_english:
+ #-----------------------------------
+ # Wiki GUI
+ #-----------------------------------
+ WIKI_GUI_TITLE: "Encyclopedia"
+ WIKI_GUI_TT: "§YEncyclopedia§!\nBrowse the in-game encyclopedia."
+ 
+ wiki_screen_category_title: "Categories"
+ WIKI_CATEGORY_TITLE_TT: "The list of categories covered by the library."
+ 
+ wiki_screen_class_title: "Classes"
+ WIKI_CLASS_TITLE_TT: "The list of classes."
+ 
+ wiki_screen_magic_title: "Magic"
+ WIKI_MAGIC_TITLE_TT: "The list of magic schools."
+ 
+ WIKI_EXIT: "Exit"
+ WIKI_EXIT_TT: "Close the menu."
+ 
+ WIKI_CATEGORY_RETURN: "Return"
+ WIKI_CATEGORY_RETURN_TT: "Return to the category list."
+ 
+ WIKI_CATEGORY_CLASS: "Class"
+ WIKI_CATEGORY_CLASS_TT: "Covers the mechanics of the ruler class system."
+ 
+ WIKI_CATEGORY_MAGIC: "Magic"
+ WIKI_CATEGORY_MAGIC_TT: "Covers the mechanics of the ruler magic system."
+ 
+ WIKI_PAGE_UP: "Page Up"
+ WIKI_PAGE_UP_TT: "Page up in the topic list."
+ 
+ WIKI_PAGE_DOWN: "Page Down"
+ WIKI_PAGE_DOWN_TT: "Page down in the topic list."
+ 
+ #----------------
+ # Class
+ #----------------
+ WIKI_TOPIC_CLASS_OVERVIEW: "Overview"
+ WIKI_TOPIC_CLASS_OVERVIEW_TT: "Covers the shared elements of the ruler class system."
+ 
+ WIKI_TOPIC_CLASS_WARRIOR: "Warrior"
+ WIKI_TOPIC_CLASS_WARRIOR_TT: "Covers the Warrior class information."
+ 
+ WIKI_TOPIC_CLASS_PALADIN: "Paladin"
+ WIKI_TOPIC_CLASS_PALADIN_TT: "Covers the Paladin class information."
+ 
+ WIKI_TOPIC_CLASS_PRIEST: "Priest"
+ WIKI_TOPIC_CLASS_PRIEST_TT: "Covers the Priest class information."
+ 
+ WIKI_TOPIC_CLASS_ROGUE: "Rogue"
+ WIKI_TOPIC_CLASS_ROGUE_TT: "Covers the Rogue class information."
+ 
+ WIKI_TOPIC_CLASS_MAGE: "Mage"
+ WIKI_TOPIC_CLASS_MAGE_TT: "Covers the Mage class information."
+ 
+ WIKI_TOPIC_CLASS_WARLOCK: "Warlock"
+ WIKI_TOPIC_CLASS_WARLOCK_TT: "Covers the Warlock class information."
+ 
+ WIKI_TOPIC_CLASS_DRUID: "Druid"
+ WIKI_TOPIC_CLASS_DRUID_TT: "Covers the Druid class information."
+ 
+ WIKI_TOPIC_CLASS_HUNTER: "Hunter"
+ WIKI_TOPIC_CLASS_HUNTER_TT: "Covers the Hunter class information."
+ 
+ WIKI_TOPIC_CLASS_SHAMAN: "Shaman"
+ WIKI_TOPIC_CLASS_SHAMAN_TT: "Covers the Shaman class information."
+ 
+ WIKI_TOPIC_CLASS_DEATH_KNIGHT: "Death Knight"
+ WIKI_TOPIC_CLASS_DEATH_KNIGHT_TT: "Covers the Death Knight class information."
+ 
+ WIKI_TOPIC_CLASS_MONK: "Monk"
+ WIKI_TOPIC_CLASS_MONK_TT: "Covers the Monk class information."
+ 
+ WIKI_TOPIC_CLASS_DEMON_HUNTER: "Demon Hunter"
+ WIKI_TOPIC_CLASS_DEMON_HUNTER_TT: "Covers the Demon Hunter class information."
+ 
+ # Overview
+ wiki_text_class_overview_top: "Overview"
+ wiki_text_class_overview_info: "A ruler may train into one of the twelve classes present in Azeroth.\n\nTo do this, they will need to undertake a §YClass Study§! within the §YCourt§! menu.\n\nEach month, the ruler has a chance to gain §Y0.1§! to §Y1.0§! progress point within their study.\nOnce this value reaches §Y100§!, they will be assigned the class.\n\nEach class will bestow the ruler with a passive modifier and three active abilities.\nThe active abilities cost §YEnergy§! to use.\n\n§YEnergy§! has a §Y5%§! chance to regenerate by §Y1§! each month, capping at a maximum of §Y5§!.\n\n§YInstitutional Knowledge§! for each class is built up when a ruler learns that class.\nThis adds §Y+20§! to the starting progress points of §YClass Study§! for future rulers that study that class.\nThe maximum starting progress points this can apply is §Y+80§!."
+ 
+ # Warrior
+ wiki_text_class_warrior_top: "Warrior"
+ wiki_text_class_warrior_info: "A ruler that has trained as a Warrior has the following passive modifier:\n\n§YWisdom of the Warrior§!\n+0.5 Army Tradition\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_warrior_ability_1_text: "Unrelenting Assault"
+ wiki_class_warrior_ability_2_text: "Second Wind"
+ wiki_class_warrior_ability_3_text: "Battle Shout"
+ 
+ # Paladin
+ wiki_text_class_paladin_top: "Paladin"
+ wiki_text_class_paladin_info: "A ruler that has trained as a Paladin has the following passive modifier:\n\n§YWisdom of the Paladin§!\n-0.03 War Exhaustion\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_paladin_ability_1_text: "Blade of Justice"
+ wiki_class_paladin_ability_2_text: "Long Arm of the Law"
+ wiki_class_paladin_ability_3_text: "Sanctified Wrath"
+ 
+ # Priest
+ wiki_text_class_priest_top: "Priest"
+ wiki_text_class_priest_info: "A ruler that has trained as a Priest has the following passive modifier:\n\n§YWisdom of the Priest§!\n+1% Global Missionary Strength\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_priest_ability_1_text: "Binding Prayers"
+ wiki_class_priest_ability_2_text: "Evangelism"
+ wiki_class_priest_ability_3_text: "Heavenly Voice"
+ 
+ # Rogue
+ wiki_text_class_rogue_top: "Rogue"
+ wiki_text_class_rogue_info: "A ruler that has trained as a Rogue has the following passive modifier:\n\n§YWisdom of the Rogue§!\n+5% Siege Ability\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_rogue_ability_1_text: "Combat Expertise"
+ wiki_class_rogue_ability_2_text: "Preparation"
+ wiki_class_rogue_ability_3_text: "Master of Subtlety"
+ 
+ # Mage
+ wiki_text_class_mage_top: "Mage"
+ wiki_text_class_mage_info: "A ruler that has trained as a Mage has the following passive modifier:\n\n§YWisdom of the Mage§!\n+5% Fire Damage\n+50% Monarch Lifespan\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_mage_ability_1_text: "Time Warp"
+ wiki_class_mage_ability_2_text: "Focusing Crystal"
+ wiki_class_mage_ability_3_text: "Rune of Power"
+ 
+ # Warlock
+ wiki_text_class_warlock_top: "Warlock"
+ wiki_text_class_warlock_info: "A ruler that has trained as a Warlock has the following passive modifier:\n\n§YWisdom of the Warlock§!\n-3 Years of Nationalism\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_warlock_ability_1_text: "Fire and Brimstone"
+ wiki_class_warlock_ability_2_text: "Jinx"
+ wiki_class_warlock_ability_3_text: "Grimoire of Command"
+ 
+ # Druid
+ wiki_text_class_druid_top: "Druid"
+ wiki_text_class_druid_info: "A ruler that has trained as a Druid has the following passive modifier:\n\n§YWisdom of the Druid§!\n+5% Movement Speed\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_druid_ability_1_text: "Flourish"
+ wiki_class_druid_ability_2_text: "Natural Perfection"
+ wiki_class_druid_ability_3_text: "Eclipse"
+ 
+ # Hunter
+ wiki_text_class_hunter_top: "Hunter"
+ wiki_text_class_hunter_info: "A ruler that has trained as a Hunter has the following passive modifier:\n\n§YWisdom of the Hunter§!\n-10% Land Attrition\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_hunter_ability_1_text: "Efficiency"
+ wiki_class_hunter_ability_2_text: "Master Tactitian"
+ wiki_class_hunter_ability_3_text: "Camouflage"
+ 
+ # Shaman
+ wiki_text_class_shaman_top: "Shaman"
+ wiki_text_class_shaman_info: "A ruler that has trained as a Shaman has the following passive modifier:\n\n§YWisdom of the Shaman§!\n+5% Morale Recovery Speed\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_shaman_ability_1_text: "Elemental Oath"
+ wiki_class_shaman_ability_2_text: "Echo of the Elements"
+ wiki_class_shaman_ability_3_text: "Astral Shift"
+ 
+ # Death Knight
+ wiki_text_class_death_knight_top: "Death Knight"
+ wiki_text_class_death_knight_info: "A ruler that has trained as a Death Knight has the following passive modifier:\n\n§YWisdom of the Death Knight§!\n+5% Global Manpower Modifier\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_death_knight_ability_1_text: "Necrotic Aura"
+ wiki_class_death_knight_ability_2_text: "Death Siphon"
+ wiki_class_death_knight_ability_3_text: "Icy Grip"
+ 
+ # Monk
+ wiki_text_class_monk_top: "Monk"
+ wiki_text_class_monk_info: "A ruler that has trained as a Monk has the following passive modifier:\n\n§YWisdom of the Monk§!\n-10% Stability Cost Modifier\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_monk_ability_1_text: "Guard"
+ wiki_class_monk_ability_2_text: "Power Strikes"
+ wiki_class_monk_ability_3_text: "Ironskin Brew"
+ 
+ # Demon Hunter
+ wiki_text_class_demon_hunter_top: "Demon Hunter"
+ wiki_text_class_demon_hunter_info: "A ruler that has trained as a Demon Hunter has the following passive modifier:\n\n§YWisdom of the Demon Hunter§!\n+5% Shock Damage\n\n\n\nAdditionally, they possess the following three abilities:"
+ 
+ wiki_class_demon_hunter_ability_1_text: "Demon Spikes"
+ wiki_class_demon_hunter_ability_2_text: "Soul Cleave"
+ wiki_class_demon_hunter_ability_3_text: "Spectral Sight"
+ 
+ #----------------
+ # Magic
+ #----------------
+ WIKI_TOPIC_MAGIC_OVERVIEW: "Overview"
+ WIKI_TOPIC_MAGIC_OVERVIEW_TT: "Covers the shared elements of the ruler magic system."
+ 
+ WIKI_TOPIC_MAGIC_ARCANE: "Arcane"
+ WIKI_TOPIC_MAGIC_ARCANE_TT: "Covers the Arcane magic information."
+ 
+ WIKI_TOPIC_MAGIC_HOLY: "Holy"
+ WIKI_TOPIC_MAGIC_HOLY_TT: "Covers the Holy magic information."
+ 
+ WIKI_TOPIC_MAGIC_CHI: "Chi"
+ WIKI_TOPIC_MAGIC_CHI_TT: "Covers the Chi magic information."
+ 
+ WIKI_TOPIC_MAGIC_VOODOO: "Voodoo"
+ WIKI_TOPIC_MAGIC_VOODOO_TT: "Covers the Voodoo magic information."
+ 
+ WIKI_TOPIC_MAGIC_NATURE: "Nature"
+ WIKI_TOPIC_MAGIC_NATURE_TT: "Covers the Nature magic information."
+ 
+ WIKI_TOPIC_MAGIC_NECROMANCY: "Necromancy"
+ WIKI_TOPIC_MAGIC_NECROMANCY_TT: "Covers the Necromancy magic information."
+ 
+ WIKI_TOPIC_MAGIC_SHAMANISM: "Shamanism"
+ WIKI_TOPIC_MAGIC_SHAMANISM_TT: "Covers the Shamanism magic information."
+ 
+ WIKI_TOPIC_MAGIC_FEL: "Fel"
+ WIKI_TOPIC_MAGIC_FEL_TT: "Covers the Fel magic information."
+ 
+ WIKI_TOPIC_MAGIC_DRACONIC: "Draconic"
+ WIKI_TOPIC_MAGIC_DRACONIC_TT: "Covers the Draconic magic information."
+ 
+ WIKI_TOPIC_MAGIC_CORRUPTION: "Corruption"
+ WIKI_TOPIC_MAGIC_CORRUPTION_TT: "Covers the Corruption magic information."
+ 
+ WIKI_TOPIC_MAGIC_SHADOW: "Shadow"
+ WIKI_TOPIC_MAGIC_SHADOW_TT: "Covers the Shadow magic information."
+ 
+ WIKI_TOPIC_MAGIC_TITANIC: "Titanic"
+ WIKI_TOPIC_MAGIC_TITANIC_TT: "Covers the Titanic magic information."
+ 
+ WIKI_TOPIC_MAGIC_RUNIC: "Runic"
+ WIKI_TOPIC_MAGIC_RUNIC_TT: "Covers the Runic magic information."
+ 
+ WIKI_TOPIC_MAGIC_NIGHTMARE: "Nightmare"
+ WIKI_TOPIC_MAGIC_NIGHTMARE_TT: "Covers the Nightmare magic information."
+ 
+ WIKI_TOPIC_MAGIC_EARTH: "Earth"
+ WIKI_TOPIC_MAGIC_EARTH_TT: "Covers the Earth magic information."
+ 
+ WIKI_TOPIC_MAGIC_FIRE: "Fire"
+ WIKI_TOPIC_MAGIC_FIRE_TT: "Covers the Fire magic information."
+ 
+ WIKI_TOPIC_MAGIC_WATER: "Water"
+ WIKI_TOPIC_MAGIC_WATER_TT: "Covers the Water magic information."
+ 
+ WIKI_TOPIC_MAGIC_WIND: "Wind"
+ WIKI_TOPIC_MAGIC_WIND_TT: "Covers the Wind magic information."
+ 
+ WIKI_TOPIC_MAGIC_DOMINATION: "Domination"
+ WIKI_TOPIC_MAGIC_DOMINATION_TT: "Covers the Domination magic information."
+ 
+ WIKI_TOPIC_MAGIC_SOUL: "Soul"
+ WIKI_TOPIC_MAGIC_SOUL_TT: "Covers the Soul magic information."
+ 
