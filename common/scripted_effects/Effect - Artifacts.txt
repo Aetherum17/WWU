@@ -91,7 +91,8 @@
 # necklace_of_burning_souls
 # soulfeast
 # shield_of_the_deathlord
-
+# staff_of_antonidas
+# staff_of_antonidas_2
 
 #-----------------------------------
 # On Actions
@@ -1256,7 +1257,31 @@ on_monthly_pulse__artifacts = {
                 duration = -1
             }
         }
+        # Staff of Antonidas
+        if = {
+            limit = {
+                has_country_flag = artifact_staff_of_antonidas
+                NOT = { has_country_modifier = artifact_staff_of_antonidas }
+            }
 
+            add_country_modifier = {
+                name = artifact_staff_of_antonidas
+                duration = -1
+            }
+        }
+		
+		# Staff of Antonidas 2
+        if = {
+            limit = {
+                has_country_flag = artifact_staff_of_antonidas_2
+                NOT = { has_country_modifier = artifact_staff_of_antonidas_2 }
+            }
+
+            add_country_modifier = {
+                name = artifact_staff_of_antonidas_2
+                duration = -1
+            }
+        }
 
         # Apocalypse
         if = {
@@ -2165,7 +2190,26 @@ on_monthly_pulse__artifacts = {
 
             remove_country_modifier = artifact_shield_of_the_deathlord
         }
+		
+        # Staff of Antonidas
+        if = {
+            limit = {
+			    NOT = { has_country_flag = artifact_staff_of_antonidas }
+                has_country_modifier = artifact_staff_of_antonidas
+            }
 
+            remove_country_modifier = artifact_staff_of_antonidas
+        }
+		
+		# Staff of Antonidas 2
+        if = {
+            limit = {
+			    NOT = { has_country_flag = artifact_staff_of_antonidas_2 }
+                has_country_modifier = artifact_staff_of_antonidas_2
+            }
+
+            remove_country_modifier = artifact_staff_of_antonidas_2
+        }
 
     }
     
@@ -2800,6 +2844,20 @@ on_monthly_pulse__artifacts = {
 		# Audax Validator "." Ignore_NEXT
         save_global_event_target_as = artifact_owner_shield_of_the_deathlord
     }
+	if = {
+        limit = {
+            has_country_flag = artifact_staff_of_antonidas
+        }
+		# Audax Validator "." Ignore_NEXT
+        save_global_event_target_as = artifact_owner_staff_of_antonidas
+    }
+	if = {
+        limit = {
+            has_country_flag = artifact_staff_of_antonidas_2
+        }
+		# Audax Validator "." Ignore_NEXT
+        save_global_event_target_as = artifact_owner_staff_of_antonidas
+    }
 }
 
 #-----------------------------------
@@ -2907,6 +2965,7 @@ init_artifact_defaults = {
         save_global_event_target_as = artifact_owner_necklace_of_burning_souls
         save_global_event_target_as = artifact_owner_soulfeast
         save_global_event_target_as = artifact_owner_shield_of_the_deathlord
+		save_global_event_target_as = artifact_owner_staff_of_antonidas
     }
 }
 
@@ -3227,6 +3286,7 @@ on_annexed__artifacts = {
     transfer_artifact = { artifact = necklace_of_burning_souls }
     transfer_artifact = { artifact = soulfeast }
     transfer_artifact = { artifact = shield_of_the_deathlord }
+	transfer_artifact = { artifact = staff_of_antonidas }
 }
 
 transfer_artifact = {
@@ -3374,6 +3434,8 @@ clear_current_primary_artifact = {
     clr_country_flag = primary_artifact_necklace_of_burning_souls
     clr_country_flag = primary_artifact_soulfeast
     clr_country_flag = primary_artifact_shield_of_the_deathlord
+	clr_country_flag = primary_artifact_staff_of_antonidas
+	clr_country_flag = primary_artifact_staff_of_antonidas_2
 }
 
 reset_heist__raider = {
@@ -4204,7 +4266,7 @@ reward_artifact = {
                 trigger = {
                     # Pandaria
                     has_country_flag = dig_in_eastern_kingdoms
-                    NOT = { has_global_flag = discovered_artifact_pshield_of_the_deathlord }
+                    NOT = { has_global_flag = discovered_artifact_shield_of_the_deathlord }
                 }
                 country_event = { id = wwu_archaeology.99 }
             }
@@ -7214,6 +7276,8 @@ clear_artifact_focus = {
     clr_country_flag = artifact_focus_necklace_of_burning_souls
     clr_country_flag = artifact_focus_soulfeast
     clr_country_flag = artifact_focus_shield_of_the_deathlords
+	clr_country_flag = artifact_focus_staff_of_antonidas
+	clr_country_flag = artifact_focus_staff_of_antonidas_2
 }
 
 advance_dig_action = {

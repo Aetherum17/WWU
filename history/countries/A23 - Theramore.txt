@@ -57,6 +57,9 @@ set_country_flag = theramore_missions_old_617
 	religion = holy_light
 	government = tribal
     add_government_reform = expeditionary_force_reform
+	
+	set_country_flag = artifact_staff_of_antonidas
+    set_country_flag = primary_artifact_staff_of_antonidas
 }
 
 #The Frozen Throne

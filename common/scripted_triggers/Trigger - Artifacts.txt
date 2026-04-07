@@ -93,6 +93,8 @@ has_any_artifact = {
             has_country_flag = artifact_necklace_of_burning_souls
             has_country_flag = artifact_soulfeast
             has_country_flag = artifact_shield_of_the_deathlord
+			has_country_flag = artifact_staff_of_antonidas
+			has_country_flag = artifact_staff_of_antonidas_2
         }
     }
 }

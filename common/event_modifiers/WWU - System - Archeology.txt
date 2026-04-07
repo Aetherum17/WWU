@@ -469,3 +469,16 @@ artifact_soulfeast = {
 artifact_shield_of_the_deathlord = {
     culture_conversion_cost = -0.25
 }
+
+# Staff of Antonidas
+artifact_staff_of_antonidas = {
+    movement_speed = 0.05
+	idea_cost = -0.05
+}
+
+# Empowered Staff of Antonidas
+artifact_staff_of_antonidas_2 = {
+    movement_speed = 0.10 
+	idea_cost = -0.1
+	artillery_barrage_cost = -0.25 
+}
