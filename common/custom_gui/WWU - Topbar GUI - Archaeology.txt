@@ -86,6 +86,8 @@
 # arcane_phial
 # vision_of_demise
 # pearl_of_pandaria
+# staff_of_antonidas
+# staff_of_antonidas_2
 
 custom_text_box = {
     name = archaeology_title
