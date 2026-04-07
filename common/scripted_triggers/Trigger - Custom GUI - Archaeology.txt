@@ -110,4 +110,6 @@ has_no_primary_artifact = {
     NOT = { has_country_flag = primary_artifact_necklace_of_burning_souls }
     NOT = { has_country_flag = primary_artifact_soulfeast }
     NOT = { has_country_flag = primary_artifact_shield_of_the_deathlord }
+	NOT = { has_country_flag = primary_artifact_staff_of_antonidas }
+	NOT = { has_country_flag = primary_artifact_staff_of_antonidas_2 }
 }
