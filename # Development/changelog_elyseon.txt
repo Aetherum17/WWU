@@ -4,6 +4,9 @@
 NAME CHANGE:
 -Empire of Arathor Flavour Name Change
 
+FORMABLES:
+-Now formables dont require tech or mana points to form
+
 ARTIFACTS:
 -Staff of Antonidas
 -Empowered Staff of Antonidas

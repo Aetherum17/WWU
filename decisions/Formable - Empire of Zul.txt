@@ -41,21 +41,12 @@ country_decisions = {
 			owns_core_province = 1951   # Frostmane Hold
 			
 			# General
-			mil_tech = 20
 			is_at_war = no	
 			stability = 2
 			total_development = 750
             
-            # Cost
-            adm_power = 500
-			dip_power = 500
-			mil_power = 500
 		}
 		effect = {
-            # Cost
-			add_adm_power = -400
-			add_dip_power = -400
-            add_mil_power = -400
             
             # Switch
 			change_tag = ZUL

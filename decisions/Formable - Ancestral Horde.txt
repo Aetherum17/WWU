@@ -34,20 +34,10 @@ country_decisions = {
 			
             # General
 			is_at_war = no	
-			stability = 2
-            
-            # Cost
-            adm_power = 150
-			dip_power = 150
-			mil_power = 150
+			stability = 2           
 		}
         
-		effect = {  
-            # Cost
-			add_adm_power = -150
-			add_dip_power = -150
-            add_mil_power = -150
-            
+		effect = {           
             # Switch
 			change_tag = ANH
 			set_government_rank = 3
