@@ -1,27 +1,11 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
-NEW CULTURE GROUPS:
+ARTIFACTS:
+-Staff of Antonidas
+-Empowered Staff of Antonidas
 
-
-NAME CHANGES:
-
-
-MISSIONS:
-
-
-MAP CHANGES:
-
-
-POLITICAL CHANGES
-
-
-GOVERNMENT REFORMS AND GAMEPLAY:
-
-
-FIXES
--Adjasted missplaced trade region and node province locations
--Smolderhide tech and gfx fix
+Staff of Antonidas is given to Dalaran up to 615.1.1 and then to Theramore from 617 onwards.
 
 
 #--------------------------------------------------------
@@ -40,7 +24,6 @@ New Mission Trees
 
 # General things for Theramore
 -Add an event chain for Jaina and Aegwynn mentor as Theramore
--Add Jaina's staff as an artifact
 -Add an event for buffing Jainas staff if you control Throne of Thunder
 -Make Tabetha re-hirable after she dies as an advisor
 -Tabetha advisor events will now give 3 different versions of Tabetha based on Warcraft Rumble map mechanic_type
