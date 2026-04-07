@@ -112,6 +112,9 @@
  sasquatch_counter_attack: "Sasquatch Counter-Attack"
  desc_sasquatch_counter_attack: "We won't stand around watching our secret been made public!"
  
+ true_heirs_of_arathor: "True Heirs of Arathor"
+ desc_true_heirs_of_arathor: "We are the true heirs of Arathor and our bloodline will protect it for the eons to come!"
+ 
  # Civilized
  ruler_education_adm_1_civilized: "Architecture"
  desc_ruler_education_adm_1_civilized: "Our ruler favoured the administrative lessons about architecture."
