@@ -5788,6 +5788,20 @@ guiTypes = {
                 Orientation = "UPPER_LEFT"
                 scripted = yes
             }
+			guiButtonType = {
+                name ="select_artifact__staff_of_antonidas"
+                spriteType = "GFX_active_artifact_staff_of_antonidas"
+                position = { x= 680 y = 155 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+			guiButtonType = {
+                name ="select_artifact__staff_of_antonidas_2"
+                spriteType = "GFX_active_artifact_staff_of_antonidas_2"
+                position = { x= 680 y = 155 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
             
             #-------
             # Lower Section
@@ -6470,6 +6484,20 @@ guiTypes = {
                 name ="select_artifact__shield_of_the_deathlord"
                 spriteType = "GFX_active_artifact_shield_of_the_deathlord"
                 position = { x= 770 y = 340 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+			guiButtonType = {
+                name ="select_artifact__staff_of_antonidas"
+                spriteType = "GFX_active_artifact_staff_of_antonidas"
+                position = { x= 50 y = 420 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+			guiButtonType = {
+                name ="select_artifact__staff_of_antonidas_2"
+                spriteType = "GFX_active_artifact_staff_of_antonidas_2"
+                position = { x= 130 y = 420 }
                 Orientation = "UPPER_LEFT"
                 scripted = yes
             }
