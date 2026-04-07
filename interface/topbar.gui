@@ -5789,14 +5789,14 @@ guiTypes = {
                 scripted = yes
             }
 			guiButtonType = {
-                name ="select_artifact__staff_of_antonidas"
+                name ="primary_artifact__staff_of_antonidas"
                 spriteType = "GFX_active_artifact_staff_of_antonidas"
                 position = { x= 680 y = 155 }
                 Orientation = "UPPER_LEFT"
                 scripted = yes
             }
 			guiButtonType = {
-                name ="select_artifact__staff_of_antonidas_2"
+                name ="primary_artifact__staff_of_antonidas_2"
                 spriteType = "GFX_active_artifact_staff_of_antonidas_2"
                 position = { x= 680 y = 155 }
                 Orientation = "UPPER_LEFT"
