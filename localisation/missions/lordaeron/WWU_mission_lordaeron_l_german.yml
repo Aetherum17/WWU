@@ -55,6 +55,9 @@
 
  A08_dalaran_diplomacy_title: "Dalaran Diplomacy"
  A08_dalaran_diplomacy_desc: "Dalaran long since stood as important center of wisdom, and second most important center of magical reasearch on the continent. However, over the years, arguments and political decisions led to situation being different, that it was many years ago. We must rethink our apporoach to Dalaran, and act accordingly."
+
+ A08_cull_the_beasts_title: "Cull the Beasts"
+ A08_cull_the_beasts_desc: "Region of Andorhal has been plagued by the invasion of beastfolk like Gnolls and Trolls for far too long. With the purge of this foul creatures we can unite the region in the common faith and administration, allowing for its stability and prosperity."
  
  # --- Modifiers ---
  mission_vadermar_elites: "Vandermar Elites"

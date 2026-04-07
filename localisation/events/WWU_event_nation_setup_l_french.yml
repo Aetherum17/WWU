@@ -487,3 +487,17 @@
  BLD_FULL_SETUP_TT: "Owned provinces in the §YNorth Teldrassiln§! area will be ceded to §Y[spawned_nation.GetName]§!, become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!."
 
  BLD_PARTIAL_SETUP_TT: "Empty provinces in the §YNorth Teldrassil§! area will be ceded to §Y[spawned_nation.GetName]§!.\n\nOwned provinces in the §YGadgetzan§! area that are not §Y[Root.Culture.GetName]§! culture will become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!.\n\nOwned provinces in the §YNorth Teldrassil§! area that are §Y[Root.Culture.GetName]§! will be given a §Y[spawned_nation.GetName]§! core."
+
+ #----------------------------------------------
+ # Elemental Nations
+ #----------------------------------------------
+ wwu_setup_elemental_nations.1.title: "Maraudon Rises!"
+ wwu_setup_elemental_nations.1.desc: "From the deep caverns of Maraudon emerges a force of ancient malice. Stone giants, elementals, abomination of twisted life and beasts of ancient legends all come under the watch of Theradras, the daughter of the Stonemother, one never bound by the titan keepers during the ordering of the world. She who drained life from Mashan'she, transforming it into Desolace we know today. Tremble mortals, in despair. The enemy of old emerges!"
+ wwu_setup_elemental_nations.1.option.a: "Oh no!"
+ wwu_setup_elemental_nations.1.option.b: "We still control the land, so its not the worst thing..."
+ wwu_setup_elemental_nations.1.option.c: "Contain them, now!"
+
+ B75_FULL_SETUP_TT: "§YInner Maraudon Area§! will succumb to control of §Y[spawned_nation.GetName]§!, become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!."
+
+ B75_PARTIAL_SETUP_TT: "Empty provinces in the §YInner Maraudon Area§! area will be ceded to §Y[spawned_nation.GetName]§!.\n\nOwned provinces in the §YInner Maraudon§! area that are not §Y[Root.Culture.GetName]§! culture will become §Y[spawned_nation.Culture.GetName]§! and follow §Y[spawned_nation.Religion.GetName]§!.\n\nOwned provinces in the §YInner Maraudon Area§ area that are §Y[Root.Culture.GetName]§! will be given a §Y[spawned_nation.GetName]§! core."
+ 

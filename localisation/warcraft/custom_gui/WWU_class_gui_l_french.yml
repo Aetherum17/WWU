@@ -169,6 +169,13 @@
  ENERGY_LOSS_4: "[Root.Monarch.GetName] will lose four point of §YEnergy§!."
  ENERGY_LOSS_5: "[Root.Monarch.GetName] will lose five point of §YEnergy§!."
  
+ ENERGY_0: "0"
+ ENERGY_1: "1"
+ ENERGY_2: "2"
+ ENERGY_3: "3"
+ ENERGY_4: "4"
+ ENERGY_5: "5"
+ 
  # Custom Loc
  CLASS_STUDY_PROGRESS_VAR: "[Root.class_study_progress.GetValue] %"
  CLASS_STUDY_PROGRESS_DEFAULT: "0 %"

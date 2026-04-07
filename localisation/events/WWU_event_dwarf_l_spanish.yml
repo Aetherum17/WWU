@@ -41,6 +41,223 @@
  wwu_mission_a29_uldaman.1.option.c: "I don't care. Let him play in the dirt."
  
  wwu_mission_a29_uldaman.2.title: "Ironband's Excavation Results"
- wwu_mission_a29_uldaman.2.desc: "Ironband claims he has some kind of access codes and a map that could lead to a temple."
- wwu_mission_a29_uldaman.2.option.a: "Make sure to hide it from the spies!"
- wwu_mission_a29_uldaman.2.option.b: "Who cares what garbage they dug up?!"
+ wwu_mission_a29_uldaman.2.desc: "Ironband claims he has some kind of access codes and a map that could lead to a temple. It will take some time to follow the map."
+ wwu_mission_a29_uldaman.2.option.a: "Make sure to hide it from the spies, and make sure they are supervised!"
+ wwu_mission_a29_uldaman.2.option.b: "Who cares what garbage they dug up?! Let them do what ever they want."
+ 
+ wwu_mission_a29_kot_responce.1.title: "Bronzbeard Excavation"
+ wwu_mission_a29_kot_responce.1.desc: "My Emperor! Our spies in Loch Modan tell us that the Bronzbeards started to dig inside ruins. Does your highness wish to do anything?"
+ wwu_mission_a29_kot_responce.1.option.a: "Who cares? We have our own things to deal with!"
+ wwu_mission_a29_kot_responce.1.option.b: "We can start our own excavation! I know a place!"
+ wwu_mission_a29_kot_responce.1.option.c: "Let our spies continue to monitor the Bronzebeards."
+ 
+ wwu_mission_a29_kot_digs.1.title: "Start Digging"
+ wwu_mission_a29_kot_digs.1.desc: "My Emperor, we finally secured the dig site but we lack the manpower to start the excavation."
+ wwu_mission_a29_kot_digs.1.option.a: "Send everyone to start diggin!"
+ wwu_mission_a29_kot_digs.1.option.b: "Nothing we can do... Just figure something on your own."
+ 
+ wwu_mission_a29_kot_digs.2.title: "Excavation Reustls"
+ wwu_mission_a29_kot_digs.2.desc: "My Emperor our lead archeologist says that he found some kind of a code and a crude map! It will take some time to follow the map."
+ wwu_mission_a29_kot_digs.2.option.a: "Great! Let me know when we will know where the map leads to."
+ 
+ wwu_mission_a29_kot_responce.2.title: "Bronzbeard Excavation Finished"
+ wwu_mission_a29_kot_responce.2.desc: "My Emperor! Our spies in Loch Modan tell us that the Bronzbeards have finished digging and are bringing something to Ironforge! We believe it is important to try and steal it to hinder the Bronzbeards advances in whatever they have found!"
+ wwu_mission_a29_kot_responce.2.option.a: "Create a diversion to make it look like we set out to destroy it as our spies steal it!"
+ wwu_mission_a29_kot_responce.2.option.b: "Have our spies try to steal it or copy it!"
+ wwu_mission_a29_kot_responce.2.option.c: "Let our spies watch over what the Bronzebeards are going to do with their new find."
+ 
+ wwu_mission_a29_kot_responce.3.title: "We got the codes..."
+ wwu_mission_a29_kot_responce.3.desc: "My Emperor! The operation to steal and burn the Bronzbeards findings was half success. They had tight security and trough the sacrifice of our men we managed to get a coppy of some kind of code without arising suspicion, they think we failed. It also looks like the Bronzbeards are insulted by our actions."
+ wwu_mission_a29_kot_responce.3.option.a: "Bah! The Bronzbeard Clan is too soft to do anything about it. Lets see where they planned to use the codes."
+ 
+ wwu_mission_a29_uldaman.3.title: "Badlands Camp"
+ wwu_mission_a29_uldaman.3.desc: "Sir, Ironband expedition sends a word that they set up camp in Badlands.They claim they are on the brink of some large discovery. They also request aid to fortify their possitions as they are near to the fortress bellonging to Shadowforge. "
+ wwu_mission_a29_uldaman.3.option.a: "Great! Aid them with soldiers and build them a rampart to divert anyone with ill intentions!"
+ wwu_mission_a29_uldaman.3.option.b: "Tell him that we have no resources to spare!"
+ wwu_mission_a29_uldaman.3.option.c: "Fortify their possition, build a proper outpost and supply them with the might of Ironforge!"
+ 
+ wwu_mission_a29_uldaman.4.title: "Disaster!"
+ wwu_mission_a29_uldaman.4.desc: "My King our capital was devastated in a planned attack led by the Shadowforge! We managed to deflect them but the damage was still inflicted to Ironforge. Commonfolk find their property and possesions looted or destroyed. Guards report that some spies of the Shadowforge tried to enter the vault unsuccessfuly. Other guards report that the vault guards took part in reflecting the attack on Ironforge. What shall we do?"
+ wwu_mission_a29_uldaman.4.option.a: "We must help our people first and then deal with the whelps of Shadowforge!"
+ wwu_mission_a29_uldaman.4.option.b: "How dare those banished whelps attack our city?! Send them a warning and plan for retaliation!"
+ wwu_mission_a29_uldaman.4.option.c: "This won't do! Send a warning to Shadowforge. In the meant time I assign our advisors to oversee aid to the people of Ironforge. As well as aid Ironband in his findings, looks like Thaurissan took interest in his work."
+ 
+ wwu_mission_a29_uldaman.5.title: "Disaster"
+ wwu_mission_a29_uldaman.5.desc: "My King our capital was devastated in a planned attack led by the Shadowforge! We managed to deflect them but the damage was still inflicted to Ironforge. Commonfolk find their property and possesions looted or destroyed. Ironband also reports that his office was set on fire. What shall we do?"
+ wwu_mission_a29_uldaman.5.option.a: "We must help our people first and then deal with the whelps of Shadowforge!"
+ wwu_mission_a29_uldaman.5.option.b: "How dare those banished whelps attack our city?! Send them a warning and plan for retaliation!"
+ wwu_mission_a29_uldaman.5.option.c: "This won't do! Send a warning to Shadowforge. In the meant time I assign our advisors to oversee aid to the people of Ironforge. As well as aid Ironband in his findings, looks like Thaurissan took interest in his work."
+ 
+ wwu_mission_a29_kot_responce.4.title: "Mission Success!"
+ wwu_mission_a29_kot_responce.4.desc: "My Emperor! The mission to destroy the findings of the Bronzbeards in Ironforge was a success.In Ironband's office in Ironforge we found codes of some sort. It looks like they did not care to secure the codes they have found. Our spies stole the codes during the diversion that we planned. Though the Bronzbeards are now warry of our actions."
+ wwu_mission_a29_kot_responce.4.option.a: "Great! Glory to the Shadow Forge. As for the Bronzbeards those drunkards can be warry of their own shadows for all I care!"
+ 
+ wwu_mission_a29_kot_responce.5.title: "Mission Failed!"
+ wwu_mission_a29_kot_responce.5.desc: "My Emperor! Our spies failed to get in the vaults of Ironforge.The good news is that our presence remained undetected. Yet the fact remains that it looks like what ever the Bronzbeards dug up in Loch Modan they intend to guard it."
+ wwu_mission_a29_kot_responce.5.option.a: "Baaah! Hang the spies who failed and keep a close eye on what those wretches in Ironforge are planning to do!"
+ 
+ wwu_mission_a29_kot_responce.6.title: "Mission Success!"
+ wwu_mission_a29_kot_responce.6.desc: "My Emperor! Our spies managed to copy the codes Ironforge has unearthed in Loch Modan. To our surpise those fools did not think to guard their findings and kept them in the Ironband's office."
+ wwu_mission_a29_kot_responce.6.option.a: "Hahaha! Those fools! Great job, try to decode the codes and keep a look out on what they plan to use the codes for."
+ 
+ wwu_mission_a29_kot_responce.7.title: "Ironforge Camp"
+ wwu_mission_a29_kot_responce.7.desc: "My Emperor! Ironforge set up a camp in Badlands next to Angor! It seems to be a small expeditionary force."
+ wwu_mission_a29_kot_responce.7.option.a: "Let them settle for now, and continue to monitor their movements!"
+ 
+ wwu_mission_a29_kot_responce.8.title: "Ironforge Camp"
+ wwu_mission_a29_kot_responce.8.desc: "My Emperor! Ironforge set up a capm in Badlands next to Angor! They have brought an army with them and it looks like they are reinforcing it!"
+ wwu_mission_a29_kot_responce.8.option.a: "Those wretches! We must seeze a moment and destroy that camp!"
+ 
+ wwu_mission_a29_kot_responce.9.title: "Ironforge on the move!"
+ wwu_mission_a29_kot_responce.9.desc: "My Emperor! Ironforge expedition started to prepare to move into the caves where they were digging trough some sort of ruins. It looks like they are taking most of their supplies with them. Should we move in before them?"
+ wwu_mission_a29_kot_responce.9.option.a: "Let me think about it..."
+ 
+ wwu_mission_a29_uldaman.6.title: "Badlands Expedition"
+ wwu_mission_a29_uldaman.6.desc: "My King, Ironband report that they found entrance to the ruins they were excavating in Badlands. He is prepared to move in as soon as you give your blessing. It is crucial we have keep our camp in Badlands to move into the ruins."
+ wwu_mission_a29_uldaman.6.option.a: "Great news! I will announce the start of the expedition when I am ready!"
+ 
+ wwu_mission_a29_uldaman_branch.1.title: "Fork in the path!"
+ wwu_mission_a29_uldaman_branch.1.desc: "There are three paths in front of the expedition. Right path is emiting a subtle glow. Left path on the other hand is filled with rustling sounds. Meanwhile the centre path is completely dark and quiet. Which path shall the expedition take?"
+ wwu_mission_a29_uldaman_branch.1.option.a: "Down the centre path we go!"
+ wwu_mission_a29_uldaman_branch.1.option.b: "Let's tale the left path!"
+ wwu_mission_a29_uldaman_branch.1.option.c: "Let's take the right path!"
+ 
+ wwu_mission_a29_uldaman_branch.2.title: "Fork in the path!"
+ wwu_mission_a29_uldaman_branch.2.desc: "There are three paths in front of the expedition. Right path is emiting a subtle glow. Left path on the other hand is filled with rustling sounds. Meanwhile the centre path is completely dark and quiet. Which path shall the expedition take?""
+ wwu_mission_a29_uldaman_branch.2.option.a: "Down the centre path we go!"
+ wwu_mission_a29_uldaman_branch.2.option.b: "Let's tale the left path!"
+ wwu_mission_a29_uldaman_branch.2.option.c: "Let's take the right path!"
+
+ wwu_mission_a29_uldaman_branch.3.title: "DEAD END!"
+ wwu_mission_a29_uldaman_branch.3.desc: "Sir it appears we have arrived to a dead end."
+ wwu_mission_a29_uldaman_branch.3.option.a: "Agh! How can this be. Alright lets go back and start over!"
+
+ wwu_mission_a29_uldaman_branch.4.title: "A wierd mound in the ground..."
+ wwu_mission_a29_uldaman_branch.4.desc: "Sir as we navigate trough long tunnels we have stumbled uppon a wierd mound. Should we dig it up or move forward?"
+ wwu_mission_a29_uldaman_branch.4.option.a: "Let's dig! It's what we do best!"
+ wwu_mission_a29_uldaman_branch.4.option.b: "Don't get distracted by wierd things!"
+
+ wwu_mission_a29_uldaman_branch.4b.title: "Empty Cavern"
+ wwu_mission_a29_uldaman_branch.4b.desc: "There seems to be recent excavations on the ground but no one here."
+ wwu_mission_a29_uldaman_branch.4b.option.a: "Move on!"
+
+ wwu_mission_a29_uldaman_branch.4c.title: "Golden Statue!"
+ wwu_mission_a29_uldaman_branch.4c.desc: "Sir! We finished digging and after taking out the object it seems to resemble a dwarf."
+ wwu_mission_a29_uldaman_branch.4c.option.a: "Transport it outside the cave and place it for our nation to marvel!"
+
+ wwu_mission_a29_uldaman_branch.5.title: "RATS!"
+ wwu_mission_a29_uldaman_branch.5.desc: "Sir, there seems to be Kobolds ahead. How should we proceed?"
+ wwu_mission_a29_uldaman_branch.5.option.a: "What are you hesitating about? Charge!!!"
+ wwu_mission_a29_uldaman_branch.5.option.b: "Let's try to avoid unnecesary fighting..."
+
+ wwu_mission_a29_uldaman_branch.5b.title: "Empty Tunnels"
+ wwu_mission_a29_uldaman_branch.5b.desc: "There is nothing here."
+ wwu_mission_a29_uldaman_branch.5b.option.a: "Move on!"
+
+ wwu_mission_a29_uldaman_branch.6.title: "Opportunity!"
+ wwu_mission_a29_uldaman_branch.6.desc: "Sir, we spotted another band of dwarves sneaking their way past the kobolds. How should we procced?"
+ wwu_mission_a29_uldaman_branch.6.option.a: "Lets tip a barrel over so the Kobolds could hear. Those dwarf's will get their fair shake!"
+ wwu_mission_a29_uldaman_branch.6.option.b: "Let's follow their example..."
+
+ wwu_mission_a29_uldaman_branch.6b.title: "A fight!"
+ wwu_mission_a29_uldaman_branch.6b.desc: "Kobolds noticed us! We have to fight!"
+ wwu_mission_a29_uldaman_branch.6b.option.a: "Chaaaarge!!!"
+
+ wwu_mission_a29_uldaman_branch.6c.title: "We're Safe"
+ wwu_mission_a29_uldaman_branch.6c.desc: "The Kobolds rushed away towards a distant sound. We managed to stay undetected."
+ wwu_mission_a29_uldaman_branch.6c.option.a: "Good job lads!"
+
+ wwu_mission_a29_uldaman_branch.6d.title: "Success!"
+ wwu_mission_a29_uldaman_branch.6d.desc: "We managed to gain the upper hand and cause them to fight!"
+ wwu_mission_a29_uldaman_branch.6d.option.a: "Good job lads!"
+
+ wwu_mission_a29_uldaman_branch.7.title: "Success!"
+ wwu_mission_a29_uldaman_branch.7.desc: "We managed to go past the Kobolds undetected!"
+ wwu_mission_a29_uldaman_branch.7.option.a: "Great! Now get a move on!"
+
+ wwu_mission_a29_uldaman_branch.8.title: "A Chasm!"
+ wwu_mission_a29_uldaman_branch.8.desc: "Careful! There is a pit infront of us! But we can also see shining treasures on the other side."
+ wwu_mission_a29_uldaman_branch.8.option.a: "We have to get the treasure!"
+ wwu_mission_a29_uldaman_branch.8.option.b: "Let's not risk it and find another way around!"
+
+ wwu_mission_a29_uldaman_branch.8b.title: "LOOT!"
+ wwu_mission_a29_uldaman_branch.8b.desc: "We did it! W managed to safely cross the pit and found a pile of gold coins! Grab as much as you can carry! Now what to do next? Should we go back and explore more? Or push forward?"
+ wwu_mission_a29_uldaman_branch.8b.option.a: "Push forward!"
+ wwu_mission_a29_uldaman_branch.8b.option.b: "Let's take our time and explore more of this tunnel network."
+
+ wwu_mission_a29_uldaman_branch.8c.title: "FALL"
+ wwu_mission_a29_uldaman_branch.8c.desc: "Sir, we failed to cross the pit and a lot of men got injured. We have to return and start over."
+ wwu_mission_a29_uldaman_branch.8c.option.a: "Whelp. But I wanted the treasure...."
+
+ wwu_mission_a29_uldaman_branch.8d.title: "Empty Cavern"
+ wwu_mission_a29_uldaman_branch.8d.desc: "There is a pit infront of us and there is a convinient rope across it. Should we push forward or go back and explore more?"
+ wwu_mission_a29_uldaman_branch.8d.option.a: "Push onward!"
+ wwu_mission_a29_uldaman_branch.8d.option.b: "Let's take our time and explore more of this tunnel network."
+
+ wwu_mission_a29_uldaman_branch.9.title: "Lost Vikings!"
+ wwu_mission_a29_uldaman_branch.9.desc: "Sir as we explored the cavern we came across three dwarfs. Although they are a bit strange and claim to be some kind of Vikings. Apparently they are lost. They presented a medalion to us in order to be guided back to the surface. Who do you wish to talk to?"
+ wwu_mission_a29_uldaman_branch.9.option.a: "Speak with Baelog."
+ wwu_mission_a29_uldaman_branch.9.option.b: "Speak with Eric."
+ wwu_mission_a29_uldaman_branch.9.option.c: "Speak with Olaf."
+
+ wwu_mission_a29_uldaman_branch.9b.title: "Empty Cavern."
+ wwu_mission_a29_uldaman_branch.9b.desc: "There is nothing of interest here."
+ wwu_mission_a29_uldaman_branch.9b.option.a: "Move on!"
+
+ wwu_mission_a29_uldaman_branch.10.title: "Ancient Door!"
+ wwu_mission_a29_uldaman_branch.10.desc: "We found it sir! We have found an ancient door. It is surely going to lead us towards what we were looking for here. How do you wish to approach it sir? There seems to be an opening for a trinket of some sort and an interface."
+ wwu_mission_a29_uldaman_branch.10.option.a: "Let's take our time and examine the door to see how to open it."
+ wwu_mission_a29_uldaman_branch.10.option.b: "Blast it open boys!"
+ wwu_mission_a29_uldaman_branch.10.option.c: "We have it. Use the codes and the medalion! No need to waist our time!"
+
+ wwu_mission_a29_uldaman_branch.11.title: "Another Expedition"
+ wwu_mission_a29_uldaman_branch.11.desc: "Sir, we found it an ancient passage. But there is a problem another band of dwarfs is gathered around it. It looks like they are taking their sweet time to examine the door. What should we do?"
+ wwu_mission_a29_uldaman_branch.11.option.a: "Blow them up with their precious door! I don't care!"
+ wwu_mission_a29_uldaman_branch.11.option.b: "Let's keep watching for now."
+
+ wwu_mission_a29_uldaman_branch.12.title: "VAULT"
+ wwu_mission_a29_uldaman_branch.12.desc: "We are finaly inside the vault. Expediton leader quickly leads the group deeper into the vault. When a man from the back of the group shouts we've got company lads! Another expediotion was visibly following them. Our leader jumps inside a small room when a loud rumbling is heard. Stange, Ugly and Big figures appear speaking in a strange language which consisted of different variations of 'Trog'... They did not notice us instead they chased down the group that was following us. After some time our group decided to escape the vault seeing as the main squad of these strange creatures chased outside. We managed to escape unscratched and even with some artifacts."
+ wwu_mission_a29_uldaman_branch.12.option.a: "By my beard!"
+
+ wwu_mission_a29_uldaman_branch.13.title: "WAR!"
+ wwu_mission_a29_uldaman_branch.13.desc: "Emmerging monsters from the Badlands are chasing our expedition and they seem to be relentles. The only thing they say is trogg so I gues we'll call them Troggs..."
+ wwu_mission_a29_uldaman_branch.13.option.a: "To arms!"
+
+ wwu_mission_a29_uldaman_branch.14.title: "WAR!"
+ wwu_mission_a29_uldaman_branch.14.desc: "Emmerging monsters from the Badlands are chasing our expedition and they seem to be relentles. The only thing they say is trogg so I gues we'll call them Troggs..."
+ wwu_mission_a29_uldaman_branch.14.option.a: "To arms!"
+
+ wwu_mission_a29_uldaman_branch.15.title: ""WAR!"
+ wwu_mission_a29_uldaman_branch.15.desc: "Emmerging monsters from the Badlands are chasing our expedition and they seem to be relentles. The only thing they say is trogg so I gues we'll call them Troggs..."
+ wwu_mission_a29_uldaman_branch.15.option.a: "To arms!"
+
+ wwu_mission_a29_uldaman_branch.16.title: "Trogg's Unearthed!"
+ wwu_mission_a29_uldaman_branch.16.desc: "New's from the Badlands sounds bad as a new species errupted from the depths. We hear the dwarfs who are curently engaged with them call them Troggs."
+ wwu_mission_a29_uldaman_branch.16.option.a: "Hmm..."
+
+ uldaman_gold_statue_site: "Uldaman Statue"
+ uldaman_gold_statue_site_desc: ""
+
+ uldaman_eric_speed: "Erics Gift"
+ uldaman_eric_speed_desc: ""
+
+ uldaman_olaf_fort: "Olafs Gift"
+ uldaman_olaf_fort_desc: ""
+ 
+ wwu_mission_a29_uldaman_branch.18.title: "Trogg Warpath!"
+ wwu_mission_a29_uldaman_branch.18.desc: "The newly emerged Troggs rally under a brutal war leader and descend upon the surface in search of plunder and slaughter. Their first target is Ironforge."
+ wwu_mission_a29_uldaman_branch.18.option.a: "Smash them!"
+
+ wwu_mission_a29_uldaman_branch.19.title: "Trogg Warpath!"
+ wwu_mission_a29_uldaman_branch.19.desc: "The newly emerged Troggs rally under a brutal war leader and descend upon the surface in search of plunder and slaughter. Their first target is the Kingdom of Thaurissan."
+ wwu_mission_a29_uldaman_branch.19.option.a: "Smash them!"
+
+ wwu_mission_a29_uldaman_branch.20.title: "Trogg Warpath!"
+ wwu_mission_a29_uldaman_branch.20.desc: "The Troggs burst forth from Uldaman in a frenzy of violence. With no diplomacy, no warning, and no restraint, they march against both dwarven powers."
+ wwu_mission_a29_uldaman_branch.20.option.a: "Smash them!"
+
+ troggs_uldaman_war_fury: "Trogg War Fury"
+ troggs_uldaman_war_fury_desc: "The Troggs have erupted from the depths in a frenzy of violence. Their crude but relentless warriors fight with terrifying force."
+
+ troggs_uldaman_capital_muster: "Trogg Muster Grounds"
+ troggs_uldaman_capital_muster_desc: "The capital has become the center of a savage mobilization. Fresh warriors constantly gather here for war."

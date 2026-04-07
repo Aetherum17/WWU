@@ -139,6 +139,7 @@
  wwu_artifact_heist.8.option.necklace_of_burning_souls: "Necklace of Burning Souls"
  wwu_artifact_heist.8.option.soulfeast: "Soulfeast the Devourer"
  wwu_artifact_heist.8.option.shield_of_the_deathlord: "Shield of the Deathlord"
+ wwu_artifact_heist.8.option.noartifact: "Actually, I am not interested."
  
  # Artifact Unlock
  wwu_artifact_heist.10.title: "Loss of Apocalypse"

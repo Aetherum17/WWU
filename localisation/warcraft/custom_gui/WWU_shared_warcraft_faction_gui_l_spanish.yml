@@ -19,6 +19,7 @@
  warcraft_faction_renown_label: "[Root.faction_renown.GetValue]"
  
  FACTION_INVEST: "Invest"
+ FACTION_SUPPORT: "Support"
  FACTION_CALL_TO_WAR: "Call to War"
  
  # Warcraft Factions
@@ -27,7 +28,7 @@
  TRADE_COALITION_FACTION_TT: "§YThe Trade Coalition§!\nSee who is the current Trade Prince and which countries are members of the Trade Coalition."
  DRAGON_ASPECTS_FACTION_TT: "§YThe Dragon Aspects§!\nSee who is the current Leader and which countries are members of the Dragon Aspects."
  
- TOPBAR_FACTION_LEADER_TT: "§Y[faction_leader.GetName]§! is the current leader of this faction."
+ TOPBAR_FACTION_LEADER_TT: "§Y[faction_leader.GetName]§! is the current leader of this faction.\n\nWhen a leadership crisis happens, a new country will become the leader.\n\n§YCrisis Events§!\n- Leader Annexed\n\n§YLeadership Assignment§!\nThere are three rounds to a leadership assignment.\nIf a leader is found in one round, the subsequent rounds do not occur.\n\n1. If the player has §Y300§! development or more, §Y25§! prestige or higher, less than §Y5§! corruption and §Y0§! stability or higher, then the player becomes the leader.\n\n2. A random selection from all renowned members of the faction. A renowned member is a country with §Y25§! or more faction renown.\n\n3. A random selection from all members of the faction."
  TOPBAR_FACTION_MEMBER_1_TT: "§Y[faction_member_1.GetName]§! is a member of this faction."
  TOPBAR_FACTION_MEMBER_2_TT: "§Y[faction_member_2.GetName]§! is a member of this faction."
  TOPBAR_FACTION_MEMBER_3_TT: "§Y[faction_member_3.GetName]§! is a member of this faction."
@@ -69,16 +70,46 @@
  
  TOPBAR_DECISIONS_HINT_TT: "These are decisions unique to §Y[Root.GetName]'s§! membership of this faction.\n\nSpend §YRenown§! to make use of these decisions."
  
+ FACTION_RENOWN_COST_5: "Has §Y5§! Faction Renown."
+ FACTION_RENOWN_COST_10: "Has §Y10§! Faction Renown."
+ FACTION_RENOWN_COST_15: "Has §Y15§! Faction Renown."
  FACTION_RENOWN_COST_20: "Has §Y20§! Faction Renown."
+ FACTION_RENOWN_COST_25: "Has §Y25§! Faction Renown."
+ FACTION_RENOWN_COST_30: "Has §Y30§! Faction Renown."
+ FACTION_RENOWN_COST_35: "Has §Y35§! Faction Renown."
  FACTION_RENOWN_COST_40: "Has §Y40§! Faction Renown."
+ FACTION_RENOWN_COST_45: "Has §Y45§! Faction Renown."
+ FACTION_RENOWN_COST_50: "Has §Y50§! Faction Renown."
+ FACTION_RENOWN_COST_55: "Has §Y55§! Faction Renown."
  FACTION_RENOWN_COST_60: "Has §Y60§! Faction Renown."
+ FACTION_RENOWN_COST_65: "Has §Y65§! Faction Renown."
+ FACTION_RENOWN_COST_70: "Has §Y70§! Faction Renown."
+ FACTION_RENOWN_COST_75: "Has §Y75§! Faction Renown."
  FACTION_RENOWN_COST_80: "Has §Y80§! Faction Renown."
+ FACTION_RENOWN_COST_85: "Has §Y85§! Faction Renown."
+ FACTION_RENOWN_COST_90: "Has §Y90§! Faction Renown."
+ FACTION_RENOWN_COST_95: "Has §Y95§! Faction Renown."
  FACTION_RENOWN_COST_100: "Has §Y100§! Faction Renown."
  
+ REDUCE_FACTION_RENOWN_5_TT: "Lose §R5§! Faction Renown."
+ REDUCE_FACTION_RENOWN_10_TT: "Lose §R10§! Faction Renown."
+ REDUCE_FACTION_RENOWN_15_TT: "Lose §R15§! Faction Renown."
  REDUCE_FACTION_RENOWN_20_TT: "Lose §R20§! Faction Renown."
+ REDUCE_FACTION_RENOWN_25_TT: "Lose §R25§! Faction Renown."
+ REDUCE_FACTION_RENOWN_30_TT: "Lose §R30§! Faction Renown."
+ REDUCE_FACTION_RENOWN_35_TT: "Lose §R35§! Faction Renown."
  REDUCE_FACTION_RENOWN_40_TT: "Lose §R40§! Faction Renown."
+ REDUCE_FACTION_RENOWN_45_TT: "Lose §R45§! Faction Renown."
+ REDUCE_FACTION_RENOWN_50_TT: "Lose §R50§! Faction Renown."
+ REDUCE_FACTION_RENOWN_55_TT: "Lose §R55§! Faction Renown."
  REDUCE_FACTION_RENOWN_60_TT: "Lose §R60§! Faction Renown."
+ REDUCE_FACTION_RENOWN_65_TT: "Lose §R65§! Faction Renown."
+ REDUCE_FACTION_RENOWN_70_TT: "Lose §R70§! Faction Renown."
+ REDUCE_FACTION_RENOWN_75_TT: "Lose §R75§! Faction Renown."
  REDUCE_FACTION_RENOWN_80_TT: "Lose §R80§! Faction Renown."
+ REDUCE_FACTION_RENOWN_85_TT: "Lose §R85§! Faction Renown."
+ REDUCE_FACTION_RENOWN_90_TT: "Lose §R90§! Faction Renown."
+ REDUCE_FACTION_RENOWN_95_TT: "Lose §R95§! Faction Renown."
  REDUCE_FACTION_RENOWN_100_TT: "Lose §R100§! Faction Renown."
  
  ALLIANCE_FAVORS_50_TT: "We gain §G50§! favors with all §YAlliance§! members."
@@ -173,6 +204,9 @@
  
  warcraft_faction_invest: "Invest"
  warcraft_faction_invest_tt: "Invest gold to expand our influence over the faction"
+ 
+ warcraft_faction_support: "Support"
+ warcraft_faction_support_tt: "Support our faction by supplying labour, which in turn expands our influence."
  
  warcraft_faction_call_all_to_war: "Call to War"
  warcraft_faction_call_all_to_war_tt: "Call all faction members to war (if it is a defensive war)."

@@ -4,7 +4,8 @@
  #-----------------------------------
  wwu_land_purchase.1.title: "Selection List"
  wwu_land_purchase.1.desc: "Below is a list of provinces that the target owns.\n\nSelect the province that you want to purchase."
- wwu_land_purchase.1.option.exit: "Exit"
+ wwu_land_purchase.1.option.reroll: "Reroll"
+ wwu_land_purchase.1.option.quit: "Quit"
  wwu_land_purchase.1.option.1: "[land_purchase_option_1.GetName]"
  wwu_land_purchase.1.option.2: "[land_purchase_option_2.GetName]"
  wwu_land_purchase.1.option.3: "[land_purchase_option_3.GetName]"

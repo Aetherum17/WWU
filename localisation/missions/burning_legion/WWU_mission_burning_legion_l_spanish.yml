@@ -45,6 +45,9 @@
  B92_burn_the_world_tree_desc: "The Keepers of the Grove are attempting to defend their precious world tree. Let us burn it to ash."
  
  BURN_WORLD_TREE_FREE_TT: "The §YBurn Nordrassil§! decision is now free to enact."
+
+ B92_demon_armies_title: "Demonic Armies"
+ B92_demon_armies_desc: "We must unite Argus before we move on."
  
  # --- Modifiers ---
  mission_forges_of_destruction: "Forges of Destruction"
@@ -67,3 +70,6 @@
 
  mission_demonic_footholds: "Demonic Footholds"
  desc_mission_demonic_footholds: ""
+
+ # --- Custom Tooltips ---
+ legion_invasion_reward_tt: "§GRewards:§!\nGain §Y500§! Military Power.\nGain all empty provinces in §YEredath§! and make them our cores.\nUnlock the §YDemonic Invasion§! Casus Belli."
