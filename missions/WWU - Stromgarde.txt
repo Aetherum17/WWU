@@ -603,13 +603,15 @@ A16_stromgarde_column_2 = {
         }
 
         effect = {
-            add_building_construction = {
-                building = wow_arcane_tower
-                speed = 0.1
-                cost = 0.1
-            }
+            3000 = {
+                add_building_construction = {
+                    building = wow_arcane_tower
+                    speed = 0.1
+                    cost = 0.1
+                }
 
-            add_base_production = 3
+                add_base_production = 3
+            }
         }
     }
 }
@@ -1011,17 +1013,22 @@ A16_stromgarde_column_4 = {
         required_missions = { A16_secure_the_stromic_coast }
 
         trigger = {
-            custom_trigger_tooltip = {
+            custom_trigger_tooltip = { 
                 tooltip = stromgarde_countryside_militarization_trigger_tt
 
                 owns_all_provinces = {
                     region = region_arathi_highlands
                 }
-                all_owned_province = {
-                    region = region_arathi_highlands
+
+                calc_true_if = {
+                    amount = 30
+
+                    all_owned_province = {
+                        region = region_arathi_highlands
                         has_manpower_building_trigger = yes
                         has_forcelimit_building_trigger = yes
                         has_recruitment_building_trigger = yes
+                    }
                 }
             }
         }
@@ -1197,38 +1204,18 @@ A16_stromgarde_column_5 = {
                     has_tower_building_trigger = yes
                     base_manpower = 5
                 }
-                1772 = {
+                area_arathi_strand = {
                     owned_by = ROOT
-                }
-                1771 = {
-                    owned_by = ROOT
-                }
-                3005 = {
-                    owned_by = ROOT
-                }
-                1700 = {
-                    owned_by = ROOT
-                }
-                1769 = {
-                    owned_by = ROOT
-                }            
-                OR = {
-                    1772 = { has_fort_building_trigger = yes } # Revantusk Outpost
-                    1771 = { has_fort_building_trigger = yes } # Trollden
-                    3005 = { has_fort_building_trigger = yes } # Arathi Strand
-                    1770 = { has_fort_building_trigger = yes } # Thickets of Askar
-                    1769 = { has_fort_building_trigger = yes } # Northstar Outpost
-                }
-		    }
+                    any_province_in_state = {
+                        has_fort_building_trigger = yes
+                    }
+                }        
+            }
         }
 
 		provinces_to_highlight = {
             OR = {
-                province_id = 1772 # Revantusk Outpost
-                province_id = 1771 # Trollden
-                province_id = 3005 # Arathi Strand
-                province_id = 1770 # Thickets of Askar
-                province_id = 1769 # Northstar Outpost
+                area = area_arathi_strand
                 province_id = 3047 # Arathi Basin
             }
 		}

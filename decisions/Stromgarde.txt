@@ -85,6 +85,11 @@ country_decisions = {
                     truce_with = ROOT
                 }
             }
+            A27 = {
+                NOT = {
+                    is_subject_of = ROOT
+                }
+            }
             OR = {
                 A27 = {
                     num_of_allies = 3
