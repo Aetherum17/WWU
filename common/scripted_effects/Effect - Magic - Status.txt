@@ -10,14 +10,35 @@ start_magical_study = {
     hidden_effect = {
         set_variable = {
             which = magical_study_progress
-            value = 0.0
+            which = ruler_magic_institutional_knowledge
         }
+        
         set_country_flag = magical_study_progress_var_exists
     }
 }
 
 complete_magical_study = {
     remove_country_modifier = magical_training
+    
+    change_variable = {
+        which = ruler_magic_institutional_knowledge
+        value = 5
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                which = ruler_magic_institutional_knowledge
+                value = 80
+            }
+        }
+        
+        set_variable = {
+            which = ruler_magic_institutional_knowledge
+            value = 80
+        }
+    }
+    
     clr_country_flag = gui_flag__magic_study_gui_open
 }
 
