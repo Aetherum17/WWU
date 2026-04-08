@@ -1,0 +1,19 @@
+﻿l_french:
+ #-----------------------------------------------
+ # Empire of Arathor
+ #----------------------------------------------- 
+ wwu_flavour_nc_emp_arathor.1.title: "Empire's Identity Crisis"
+ wwu_flavour_nc_emp_arathor.1.desc: "Now that we solidified the Seven Kingdoms we need to give us a name that represents our standing and heritage. What name will we give to our empire?"
+ wwu_flavour_nc_emp_arathor.1.a: "We are the Empire of Arathor!"
+ wwu_flavour_nc_emp_arathor.1.b: "We are the Seven Kingdoms!"
+ wwu_flavour_nc_emp_arathor.1.c: "We are Arathor!"
+ wwu_flavour_nc_emp_arathor.1.d: "We are the Arathi Empire!"
+ 
+
+ # Name Change
+ THE_SEVEN_KINGDOMS: "The Seven Kingdoms"
+ THE_SEVEN_KINGDOMS_ADJ: "Kingdom's"
+ ARATHOR: "Arathor"
+ ARATHOR_ADJ: "Arathi"
+ ARATHI_EMPIRE: "Arathi Empire"
+ ARATHI_EMPIRE_ADJ: "Arathi"

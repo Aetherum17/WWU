@@ -67,11 +67,9 @@ country_decisions = {
 			is_at_war = no
 			stability = 0
             
-            adm_power = 100
 		}
         
-		effect = { 
-            add_adm_power = -100
+		effect = {
             
 			change_tag = NAR
 			set_government_rank = 3

@@ -106,4 +106,10 @@
  
  estate_nobility_dark_ranger_elitism: "Dark Ranger Elitism"
  estate_nobility_dark_ranger_elitism_desc: "Let us grant more power to the Dark Rangers. With their mastery and experience, the army will grow stronger, and we could benefit even more from their skills."
+
+ estate_nobility_trollbane_duty: "Trollbane Duty"
+ estate_nobility_trollbane_duty_desc: "The nobility takes it upon themselves to purge Troll influence from our lands, enforcing cultural conformity and strengthening our realm."
+ estate_nobility_trollbane_duty_tooltip: "§YOn Grant:§!\nConvert a random Troll culture province to our primary culture and religion.\n\n§YWhile Active:§!\nProvinces of the §YTroll§! culture group have reduced Culture Conversion Cost, Time and are less resistant to our conversion."
  
+ estate_nobility_stormic_power: "Stormic Power"
+ estate_nobility_stormic_power_desc: " "

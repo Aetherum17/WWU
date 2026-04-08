@@ -1,0 +1,72 @@
+#-------------------------------
+# Common
+#-------------------------------
+view_wiki_category = {
+    set_country_flag = wiki_category__$CATEGORY$
+}
+
+view_wiki_topic = {
+    set_country_flag = wiki_topic__$CATEGORY$__$TOPIC$
+}
+
+clear_wiki_category_selection = {
+    clr_country_flag = wiki_category__class
+    clr_country_flag = wiki_category__magic
+}
+
+clear_wiki_topic_selection = {
+    # Class
+    clr_country_flag = wiki_topic__class__overview
+    clr_country_flag = wiki_topic__class__warrior
+    clr_country_flag = wiki_topic__class__paladin
+    clr_country_flag = wiki_topic__class__priest
+    clr_country_flag = wiki_topic__class__rogue
+    clr_country_flag = wiki_topic__class__mage
+    clr_country_flag = wiki_topic__class__warlock
+    clr_country_flag = wiki_topic__class__druid
+    clr_country_flag = wiki_topic__class__hunter
+    clr_country_flag = wiki_topic__class__shaman
+    clr_country_flag = wiki_topic__class__death_knight
+    clr_country_flag = wiki_topic__class__monk
+    clr_country_flag = wiki_topic__class__demon_hunter
+    
+    # Magic Schools
+    clr_country_flag = wiki_topic__magic__overview
+    clr_country_flag = wiki_topic__magic__generic
+    clr_country_flag = wiki_topic__magic__arcane
+    clr_country_flag = wiki_topic__magic__holy
+    clr_country_flag = wiki_topic__magic__chi
+    clr_country_flag = wiki_topic__magic__voodoo
+    clr_country_flag = wiki_topic__magic__nature
+    clr_country_flag = wiki_topic__magic__necromancy
+    clr_country_flag = wiki_topic__magic__shamanism
+    clr_country_flag = wiki_topic__magic__fel
+    clr_country_flag = wiki_topic__magic__draconic
+    clr_country_flag = wiki_topic__magic__corruption
+    clr_country_flag = wiki_topic__magic__shadow
+    clr_country_flag = wiki_topic__magic__titanic
+    clr_country_flag = wiki_topic__magic__runic
+    clr_country_flag = wiki_topic__magic__nightmare
+    clr_country_flag = wiki_topic__magic__earth
+    clr_country_flag = wiki_topic__magic__fire
+    clr_country_flag = wiki_topic__magic__water
+    clr_country_flag = wiki_topic__magic__wind
+    clr_country_flag = wiki_topic__magic__domination
+    clr_country_flag = wiki_topic__magic__soul
+}
+
+# Topic Pagination
+view_wiki_topic_page_1 = {
+    clr_country_flag = wiki_topic_page_2
+    set_country_flag = wiki_topic_page_1
+}
+
+view_wiki_topic_page_2 = {
+    clr_country_flag = wiki_topic_page_1
+    set_country_flag = wiki_topic_page_2
+}
+
+clear_wiki_topic_page_selection = {
+    clr_country_flag = wiki_topic_page_1
+    clr_country_flag = wiki_topic_page_2
+}

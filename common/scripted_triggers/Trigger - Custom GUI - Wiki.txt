@@ -1,0 +1,46 @@
+#-----------------------------
+# Window
+#-----------------------------
+is_wiki_gui_open = {
+    has_country_flag = gui_flag__wiki_gui_open
+}
+
+is_viewing_wiki_category = {
+    has_country_flag = wiki_category__$CATEGORY$
+}
+
+is_viewing_no_wiki_category = {
+    NOT = { has_country_flag = wiki_category__class }
+    NOT = { has_country_flag = wiki_category__magic }
+}
+
+is_viewing_any_wiki_category = {
+    OR = {
+        has_country_flag = wiki_category__class
+        has_country_flag = wiki_category__magic
+    }
+}
+
+is_viewing_wiki_topic = {
+    has_country_flag = wiki_category__$CATEGORY$
+    has_country_flag = wiki_topic__$CATEGORY$__$TOPIC$
+}
+
+has_not_selected_topic = {
+    NOT = { has_country_flag = wiki_topic__$CATEGORY$__$TOPIC$ }
+}
+
+# Topic Pagination
+is_paginated_topic_list = {
+    OR = {
+        has_country_flag = wiki_category__magic
+    }
+}
+
+is_wiki_topic_page_1 = {
+    has_country_flag = wiki_topic_page_1
+}
+
+is_wiki_topic_page_2 = {
+    has_country_flag = wiki_topic_page_2
+}

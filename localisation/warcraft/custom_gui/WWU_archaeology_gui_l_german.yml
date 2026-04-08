@@ -212,6 +212,10 @@
  
  ARTIFACT_INFO_shield_of_the_deathlord: "§YName§!:\nShield of the Deathlord\n\n§YEffect§!:\n§G-25%§! Culture Conversion Cost\n\n§YDescription§!:\nAn ancient shield once possessed by an eldritch deathlord, imbued with potent death magic. Attempts to sway its wielder towards evil.\n\n§YCurrent Owner§!:\n[artifact_owner_shield_of_the_deathlord.GetName]"
  
+ ARTIFACT_INFO_staff_of_antonidas: "§YName§!:\nStaff of Antonidas\n\n§YEffect§!:\n§G+5%§! Movement Speed\n§G-5%§! Idea Cost\n\n§YDescription§!:\nThe Staff of Antonidas is an ornate wooden staff formerly wielded by Archmage Antonidas. He gifted it to his most promising apprentice, Lady Jaina Proudmoore.\n\n§YCurrent Owner§!:\n[artifact_owner_staff_of_antonidas.GetName]"
+ 
+ ARTIFACT_INFO_staff_of_antonidas_2: "§YName§!:\nEmpowered Staff of Antonidas\n\n§YEffect§!:\n§G+10%§! Movement Speed\n§G-10%§! Idea Cost\n§G-25%§! Artillery Barrage Cost\n\n§YDescription§!:\nA great staff that was empowered by the powers of the Thunder King.\n\n§YCurrent Owner§!:\n[artifact_owner_staff_of_antonidas_2.GetName]"
+ 
  PRIMARY_ARTIFACT_TT: "Our primary artifact is a chosen artifact that is utilized by [Root.GetName] for its benefits.\n\nOnly one artifact may be our primary artifact at any one time."
 
  ARCHAEOLOGY_HAS_ARTIFACT_apocalypse: "[Root.GetName] owns §YApocalypse§!."
@@ -304,3 +308,5 @@
  ARCHAEOLOGY_HAS_ARTIFACT_necklace_of_burning_souls: "[Root.GetName] owns §YNecklace of Burning Souls§!"
  ARCHAEOLOGY_HAS_ARTIFACT_soulfeast: "[Root.GetName] owns §YSoulfeast the Devourer§!"
  ARCHAEOLOGY_HAS_ARTIFACT_shield_of_the_deathlord: "[Root.GetName] owns §YShield of the Deathlord§!"
+ ARCHAEOLOGY_HAS_ARTIFACT_staff_of_antonidas: "[Root.GetName] owns §YStaff of Antonidas§!"
+ ARCHAEOLOGY_HAS_ARTIFACT_staff_of_antonidas_2: "[Root.GetName] owns §YEmpowered Staff of Antonidas§!"

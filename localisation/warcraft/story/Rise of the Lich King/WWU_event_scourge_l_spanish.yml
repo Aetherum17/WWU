@@ -74,7 +74,9 @@
  
  wwu_scourge.35.title: "Undead Plague in [Root.GetName]"
  wwu_scourge.35.desc: "£scourge_banner£\nA mysterious plague has appeared in [Root.GetName]. Victims of the plague rise again as undead beings. We must vanquish this blight before it spreads further."
- wwu_scourge.35.option.a: "Purify!"
+ wwu_scourge.35.option.a: "Oh no..."
+ wwu_scourge.35.option.b: "Isolate the blight"
+ wwu_scourge.35.option.c: "Purify!"
  
  wwu_scourge.36.title: "Prince Arthas"
  wwu_scourge.36.desc: "£scourge_banner£\nThe young paladin known as Prince Arthas has been appointed as the primary heir of Lordaeron."

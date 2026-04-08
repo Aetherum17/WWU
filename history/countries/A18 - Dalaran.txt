@@ -28,6 +28,9 @@ religious_school = the_conclave
         arcane = yes
     }
     set_ruler_flag = mage_personality
+	
+	set_country_flag = artifact_staff_of_antonidas
+    set_country_flag = primary_artifact_staff_of_antonidas
 } 
 
 591.1.1 = {
@@ -40,6 +43,11 @@ religious_school = the_conclave
         name = member_of_alliance
         duration = -1
 	}
+}
+
+615.1.1 = {
+    clr_country_flag = artifact_staff_of_antonidas
+    clr_country_flag = primary_artifact_staff_of_antonidas
 }
 
 618.1.1 = { 

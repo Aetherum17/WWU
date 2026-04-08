@@ -660,7 +660,21 @@ defined_text = {
         trigger = {
             has_country_flag = primary_artifact_shield_of_the_deathlord
         }
-}
+    }
+	text = {
+        localisation_key = artifact_icon_staff_of_antonidas
+
+        trigger = {
+            has_country_flag = primary_artifact_staff_of_antonidas
+        }
+    }
+	text = {
+        localisation_key = artifact_icon_staff_of_antonidas_2
+
+        trigger = {
+            has_country_flag = primary_artifact_staff_of_antonidas_2
+        }
+    }
 
     text = {
         localisation_key = artifact_icon_unknown
@@ -1299,6 +1313,20 @@ defined_text = {
 
         trigger = {
             has_country_flag = primary_artifact_shield_of_the_deathlord
+        }
+    }
+	text = {
+        localisation_key = artifact_name_staff_of_antonidas
+
+        trigger = {
+            has_country_flag = primary_artifact_staff_of_antonidas
+        }
+    }
+	text = {
+        localisation_key = artifact_name_staff_of_antonidas_2
+
+        trigger = {
+            has_country_flag = primary_artifact_staff_of_antonidas_2
         }
     }
 

@@ -3,21 +3,21 @@
  # Diplomacy GUI - Core
  #----------------------------------------
  DIPLO_VIEW_NO_CLASS: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is not any class."
- DIPLO_VIEW_CLASS_DEATH_KNIGHT: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDeath Knight§!"
- DIPLO_VIEW_CLASS_DEMON_HUNTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDemon Hunter§!"
- DIPLO_VIEW_CLASS_DRUID: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDruid§!"
- DIPLO_VIEW_CLASS_HUNTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YHunter§!"
- DIPLO_VIEW_CLASS_MAGE: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YMage§!"
- DIPLO_VIEW_CLASS_MONK: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YMonk§!"
- DIPLO_VIEW_CLASS_PALADIN: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YPaladin§!"
- DIPLO_VIEW_CLASS_PRIEST: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YPriest§!"
- DIPLO_VIEW_CLASS_ROGUE: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YRogue§!"
- DIPLO_VIEW_CLASS_SHAMAN: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YShaman§!"
- DIPLO_VIEW_CLASS_WARLOCK: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YWarlock§!"
- DIPLO_VIEW_CLASS_WARRIOR: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YWarrior§!"
+ DIPLO_VIEW_CLASS_DEATH_KNIGHT: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDeath Knight§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_DEMON_HUNTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDemon Hunter§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_DRUID: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YDruid§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_HUNTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YHunter§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_MAGE: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YMage§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_MONK: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YMonk§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_PALADIN: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YPaladin§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_PRIEST: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YPriest§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_ROGUE: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YRogue§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_SHAMAN: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YShaman§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_WARLOCK: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YWarlock§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
+ DIPLO_VIEW_CLASS_WARRIOR: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YWarrior§!\n\nEnergy: §Y[Root.GetCurrentEnergy]§! out of §Y5§!"
  
  DIPLO_VIEW_NO_SPELLCASTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] has no magical ability."
- DIPLO_VIEW_SPELLCASTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YSpellcaster§!, following the §Y[Root.GetMagicSchool]§! school."
+ DIPLO_VIEW_SPELLCASTER: "[Root.Monarch.GetName] [Root.Monarch.Dynasty.GetName] is a §YSpellcaster§!, following the §Y[Root.GetMagicSchool]§! school.\n\nAptitude: §Y[Root.GetAptitudeRank]§!\nFinesse: §Y[Root.GetFinesseRank]§!\nConcentration: §Y[Root.GetConcentrationRank]§!\n\nMana: §Y[Root.GetCurrentMana]§!"
  
  DIPLO_VIEW_FACTION_ALLIANCE: "[Root.GetAllianceStatus]"
  DIPLO_VIEW_FACTION_OLD_HORDE: "[Root.GetOldHordeStatus]"
@@ -37,3 +37,15 @@
  FACTION_STATUS_DRAGON_ASPECTS_HEAD: "[Root.GetName] is the §YLeader§! of the §YDragon Aspects§!."
  FACTION_STATUS_DRAGON_ASPECTS_MEMBER: "[Root.GetName] is a member of the §YDragon Aspects§!."
  
+ #----------------------------------------
+ # War Block
+ #----------------------------------------
+ DIPLO_VIEW_RING_OF_PEACE_WAR_BLOCK_TT: "[Root.GetName] has used §YRing of Peace§!, which prevents war declaration against them."
+ 
+ #----------------------------------------
+ # Civilization
+ #----------------------------------------
+ DIPLO_VIEW_IS_CIVILIZED_TT: "[Root.GetName] is a §YCivilized Nation§!."
+ DIPLO_VIEW_IS_UNCIVILIZED_TT: "[Root.GetName] is a §YUncivilized Nation§!."
+ 
+ DIPLO_VIEW_IS_CIVILIZING_TT: "[Root.GetName] is currently §YCivilizing§!, after which they will transition from an §YUncivilized§! nation into a §YCivilized§! nation.\n\nCurrent Civilization Progress: §Y[Root.civilization_progress.GetValue]/5§!"

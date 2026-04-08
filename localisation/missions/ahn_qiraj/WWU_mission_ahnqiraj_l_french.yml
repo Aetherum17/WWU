@@ -78,8 +78,8 @@
  A97_feralas_incursion_title: "Feralas Incursion"
  A97_feralas_incursion_desc: "Having secured Silithus, we shall expand into the lands of Feralas, where new lands await for the silithid to feast upon."
 
- A97_inflirtrate_dire_maul_title: "Plunder of Dire Maul"
- A97_inflirtrate_dire_maul_desc: "Dire Maul, formerly prosperous city of the highborn, still holds many riches and leftover powerful items, that we could easily repurpuse for our needs."
+ A97_plunder_dire_maul_title: "Plunder of Dire Maul"
+ A97_plunder_dire_maul_desc: "Dire Maul, formerly prosperous city of the highborn, still holds many riches and leftover powerful items, that we could easily repurpuse for our needs."
  
  A97_destruction_of_feathermoon_title: "Destruction of Feathermoon"
  A97_destruction_of_feathermoon_desc: "The Feralas Sentinels are the minions of our enemy in the north, the Night Elven Sentinels. Its time we deal with them, by destroying one of the major outposts in the region, cutting them from northern mainland."
@@ -87,8 +87,8 @@
  A97_incursion_into_desolace_title: "Incursion into Desolace"
  A97_incursion_into_desolace_desc: "Desolace has once been a prosperous land, filled with great vegetation, and variety of fauna and flora. Today, its an empty, dusty desert. Its also target of our next conquest."
  
- A97_powers_of_marudaron_title: "Powers of Maraudon"
- A97_powers_of_marudaron_desc: "Maraudon is an ancient complex of caves. From it, or rather, what sleeps within it, the natural power of desolace has withered, and the race of barbaric beast called centaurs emerged. However, its is a place of great power, one we should take over."
+ #A97_powers_of_marudaron_title: "Powers of Maraudon"
+ #A97_powers_of_marudaron_desc: "Maraudon is an ancient complex of caves. From it, or rather, what sleeps within it, the natural power of desolace has withered, and the race of barbaric beast called centaurs emerged. However, its is a place of great power, one we should take over."
  
  A97_breach_domain_of_wind_title: "Breach in Domain of Wind"
  A97_breach_domain_of_wind_desc: "The Skywall, the domain of wind, is the prison for the air elementals. Constructed by the titans, it houses Al'Akir, the Windlord. One of our former generals. As we hold keys to the domain of wind, via rift in Ruins of Ammon, we should make sure to regain control of our former subject."
@@ -116,6 +116,15 @@
 
  A97_defilement_of_mulgore_title: "Defilement of Mulgore"
  A97_defilement_of_mulgore_desc: "Death, carnage, slaughter. The Mulgore has seen it all. The Grasslands of Mulgore, stained with blood, home to the Qiraji breeding grouns. The true heart of darkness in the middle of the Kalimdor."
+
+ A97_develop_ahnqiraj_title: "Expansion of Inner Sanctum"
+ A97_develop_ahnqiraj_desc: "The Inner Sanctum of Anh'Qiraj represents both home and seat of control for the Qiraji caste, from which the rest of the servants of our master take order. We are in need of expanding those places."
+
+ A97_seat_of_cthun_title: "The Vault of the God"
+ A97_seat_of_cthun_desc: "Beneath the scorching deserts and endless corridors in the earth, rests a being whose comining will consume this very world, altering it to fit its mad image of reality. As its servants, we must make his seat glorious before he even awakens."
+
+ A97_subjegation_of_maraudon_title: "Subjegation of Maraudon"
+ A97_subjegation_of_maraudon_desc: "Placeholder"
 
 
  # --- Modifiers ---
@@ -175,6 +184,9 @@
 
  mission_ai_colonist_unlock: "AI colonist"
  desc_mission_ai_colonist_unlock: ""
+
+ mission_qiraji_sanctuary: "Qiraji Sanctum"
+ desc_mission_qiraji_sanctuary: ""
  
  # --- Tooltips ---
  MAY_FORM_THE_BLACK_EMPIRE: "Unlocks §YRestore the Black Empire§! decision."
@@ -182,3 +194,21 @@
  AWAKEN_CTHUN: "You must use the §YAwaken C'Thun§! decision."
  
  MAY_CONSTRUCT_SCARAB_WALL: "You may restore the §YScarab Wall§!."
+
+ # --- Events ---
+
+ wwu_mission_ahnqiraj.1.title: "Dark Submission"
+ wwu_mission_ahnqiraj.1.desc: "As they burst through the grounds of Writhing Deeps, the silithid drones are reminded of their mission, their sense of being. With a dark whisper and pulse of power, they all learn the meaning of their existence."
+ wwu_mission_ahnqiraj.1.option.a: "To serve their master."
+
+ wwu_mission_ahnqiraj.2.title: "Arrival of Hive Zukk'ash"
+ wwu_mission_ahnqiraj.2.desc: "With out presence growing into the lush forest of Feralas, the new hive colony has been established, the Hive of Zukk'ash emerged from the earth, aiding its masters in devouring all that oppose the Aqir."
+ wwu_mission_ahnqiraj.2.option.a: "Rise, Sevants of C'thun."
+
+ wwu_mission_ahnqiraj.3.title: "Stone Princess Pact"
+ wwu_mission_ahnqiraj.3.desc: "Placeholder"
+ wwu_mission_ahnqiraj.3.option.a: "Joining the right master."
+
+ wwu_mission_ahnqiraj.4.title: "The Whispers of Maraudon"
+ wwu_mission_ahnqiraj.4.desc: "Placeholder"
+ wwu_mission_ahnqiraj.4.option.a: "She awakens..."

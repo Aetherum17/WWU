@@ -1,0 +1,3458 @@
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Wiki
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+custom_window = {
+   name = custom_window_wiki_screen
+   
+   potential = {
+        is_wiki_gui_open = yes
+   }
+}
+
+custom_text_box = {
+    name = wiki_screen_category_title
+    tooltip = WIKI_CATEGORY_TITLE_TT
+    
+    potential = { 
+        is_viewing_no_wiki_category = yes
+    }
+}
+
+custom_text_box = {
+    name = wiki_screen_class_title
+    tooltip = WIKI_CLASS_TITLE_TT
+    
+    potential = { 
+        has_country_flag = wiki_category__class
+    }
+}
+
+custom_text_box = {
+    name = wiki_screen_magic_title
+    tooltip = WIKI_MAGIC_TITLE_TT
+    
+    potential = { 
+        has_country_flag = wiki_category__magic
+    }
+}
+
+custom_icon = {
+   name = wiki_screen_info_banner
+   potential = { 
+        is_viewing_any_wiki_category = yes
+   }
+}
+
+custom_button = {
+    name = button_exit
+    tooltip = WIKI_EXIT_TT
+    
+    potential = {
+        is_viewing_no_wiki_category = yes
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_no_wiki_category = yes
+        }
+    }
+    
+    effect = { 
+        close_wiki_gui = yes
+    }
+}
+
+custom_button = {
+    name = button_clear_current_category
+    tooltip = WIKI_CATEGORY_RETURN_TT
+    
+    potential = {
+        is_viewing_any_wiki_category = yes
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_any_wiki_category = yes
+        }
+    }
+    
+    effect = { 
+        clear_wiki_category_selection = yes
+        clear_wiki_topic_selection = yes
+        
+        clear_wiki_topic_page_selection = yes
+        view_wiki_topic_page_1 = yes
+    }
+}
+
+custom_button = {
+    name = button_page_up
+    tooltip = WIKI_PAGE_UP_TT
+    
+    potential = {
+        is_paginated_topic_list = yes
+        is_wiki_topic_page_2 = yes
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_wiki_topic_page_2 = yes
+        }
+    }
+    
+    effect = { 
+        view_wiki_topic_page_1 = yes
+    }
+}
+
+custom_button = {
+    name = button_page_down
+    tooltip = WIKI_PAGE_DOWN_TT
+    
+    potential = {
+        is_paginated_topic_list = yes
+        is_wiki_topic_page_1 = yes
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_wiki_topic_page_1 = yes
+        }
+    }
+    
+    effect = { 
+        view_wiki_topic_page_2 = yes
+    }
+}
+
+#----------------------------------------
+# Categories
+#----------------------------------------
+custom_button = {
+    name = button_category_class
+    tooltip = WIKI_CATEGORY_CLASS_TT
+    
+    potential = {
+        NOT = { is_viewing_any_wiki_category = yes }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            NOT = { is_viewing_any_wiki_category = yes }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_category_selection = yes
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_category = { CATEGORY = class }
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = overview
+        }
+        
+        clear_wiki_topic_page_selection = yes
+        view_wiki_topic_page_1 = yes
+    }
+}
+
+custom_button = {
+    name = button_category_magic
+    tooltip = WIKI_CATEGORY_MAGIC_TT
+    
+    potential = {
+        NOT = { is_viewing_any_wiki_category = yes }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            NOT = { is_viewing_any_wiki_category = yes }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_category_selection = yes
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_category = { CATEGORY = magic }
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = overview
+        }
+        
+        clear_wiki_topic_page_selection = yes
+        view_wiki_topic_page_1 = yes
+    }
+}
+
+#----------------------------------------
+# Topics
+#----------------------------------------
+# Classes
+custom_button = {
+    name = button_topic_class_overview
+    tooltip = WIKI_TOPIC_CLASS_OVERVIEW_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = overview
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = overview
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_warrior
+    tooltip = WIKI_TOPIC_CLASS_WARRIOR_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = warrior
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_paladin
+    tooltip = WIKI_TOPIC_CLASS_PALADIN_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = paladin
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_priest
+    tooltip = WIKI_TOPIC_CLASS_PRIEST_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = priest
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_rogue
+    tooltip = WIKI_TOPIC_CLASS_ROGUE_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = rogue
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_mage
+    tooltip = WIKI_TOPIC_CLASS_MAGE_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = mage
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_warlock
+    tooltip = WIKI_TOPIC_CLASS_WARLOCK_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = warlock
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_druid
+    tooltip = WIKI_TOPIC_CLASS_DRUID_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = druid
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_hunter
+    tooltip = WIKI_TOPIC_CLASS_HUNTER_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = hunter
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_shaman
+    tooltip = WIKI_TOPIC_CLASS_SHAMAN_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = shaman
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_death_knight
+    tooltip = WIKI_TOPIC_CLASS_DEATH_KNIGHT_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = death_knight
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_monk
+    tooltip = WIKI_TOPIC_CLASS_MONK_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = monk
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_class_demon_hunter
+    tooltip = WIKI_TOPIC_CLASS_DEMON_HUNTER_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = class }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = demon_hunter
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+    }
+}
+
+# Magic
+custom_button = {
+    name = button_topic_magic_overview
+    tooltip = WIKI_TOPIC_MAGIC_OVERVIEW_TT
+    
+    potential = {
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = overview
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = overview
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_generic
+    tooltip = WIKI_TOPIC_MAGIC_GENERIC_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = generic
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_arcane
+    tooltip = WIKI_TOPIC_MAGIC_ARCANE_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = arcane
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_holy
+    tooltip = WIKI_TOPIC_MAGIC_HOLY_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = holy
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_chi
+    tooltip = WIKI_TOPIC_MAGIC_CHI_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = chi
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_voodoo
+    tooltip = WIKI_TOPIC_MAGIC_VOODOOW_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = voodoo
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_nature
+    tooltip = WIKI_TOPIC_MAGIC_NATURE_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = nature
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_necromancy
+    tooltip = WIKI_TOPIC_MAGIC_NECROMANCY_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = necromancy
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_shamanism
+    tooltip = WIKI_TOPIC_MAGIC_SHAMANISM_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = shamanism
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_fel
+    tooltip = WIKI_TOPIC_MAGIC_FEL_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = fel
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_draconic
+    tooltip = WIKI_TOPIC_MAGIC_DRACONIC_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = draconic
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_corruption
+    tooltip = WIKI_TOPIC_MAGIC_CORRUPTION_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = corruption
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_shadow
+    tooltip = WIKI_TOPIC_MAGIC_SHADOW_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = shadow
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_titanic
+    tooltip = WIKI_TOPIC_MAGIC_TITANIC_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = titanic
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_runic
+    tooltip = WIKI_TOPIC_MAGIC_RUNIC_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = runic
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_nightmare
+    tooltip = WIKI_TOPIC_MAGIC_NIGHTMARE_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = nightmare
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_earth
+    tooltip = WIKI_TOPIC_MAGIC_EARTH_TT
+    
+    potential = {
+        is_wiki_topic_page_2 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = earth
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_fire
+    tooltip = WIKI_TOPIC_MAGIC_FIRE_TT
+    
+    potential = {
+        is_wiki_topic_page_2 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = fire
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_water
+    tooltip = WIKI_TOPIC_MAGIC_WATER_TT
+    
+    potential = {
+        is_wiki_topic_page_2 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = water
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_wind
+    tooltip = WIKI_TOPIC_MAGIC_WIND_TT
+    
+    potential = {
+        is_wiki_topic_page_2 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = wind
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_domination
+    tooltip = WIKI_TOPIC_MAGIC_DOMINATION_TT
+    
+    potential = {
+        is_wiki_topic_page_2 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = domination
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+    }
+}
+
+custom_button = {
+    name = button_topic_magic_soul
+    tooltip = WIKI_TOPIC_MAGIC_SOUL_TT
+    
+    potential = {
+        is_wiki_topic_page_2 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = soul
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+    }
+}
+
+#----------------------------------------
+# Class: Information
+#----------------------------------------
+
+# Class: Overview
+custom_text_box = {
+   name = wiki_text_class_overview_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = overview
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_overview_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = overview
+        }
+   }
+}
+
+# Class: Warrior
+custom_text_box = {
+   name = wiki_text_class_warrior_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_warrior_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_warrior_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_warrior_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_warrior_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_WARRIOR_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__warrior_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_warrior_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_warrior_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_warrior_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_WARRIOR_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__warrior_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_warrior_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_warrior_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_warrior_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_WARRIOR_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warrior
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__warrior_3 = yes
+        }
+    }
+}
+
+# Class: Paladin
+custom_text_box = {
+   name = wiki_text_class_paladin_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_paladin_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_paladin_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_paladin_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_paladin_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_PALADIN_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__paladin_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_paladin_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_paladin_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_paladin_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_PALADIN_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__paladin_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_paladin_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_paladin_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_paladin_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_PALADIN_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = paladin
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__paladin_3 = yes
+        }
+    }
+}
+
+# Class: Priest
+custom_text_box = {
+   name = wiki_text_class_priest_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_priest_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_priest_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_priest_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_priest_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_PRIEST_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__priest_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_priest_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_priest_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_priest_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_PRIEST_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__priest_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_priest_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_priest_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_priest_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_PRIEST_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = priest
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__priest_3 = yes
+        }
+    }
+}
+
+# Class: Rogue
+custom_text_box = {
+   name = wiki_text_class_rogue_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_rogue_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_rogue_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_rogue_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_rogue_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_ROGUE_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__rogue_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_rogue_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_rogue_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_rogue_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_ROGUE_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__rogue_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_rogue_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_rogue_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_rogue_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_ROGUE_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = rogue
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__rogue_3 = yes
+        }
+    }
+}
+
+# Class: Mage
+custom_text_box = {
+   name = wiki_text_class_mage_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_mage_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_mage_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_mage_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_mage_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_MAGE_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__mage_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_mage_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_mage_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_mage_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_MAGE_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__mage_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_mage_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_mage_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_mage_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_MAGE_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = mage
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__mage_3 = yes
+        }
+    }
+}
+
+# Class: Warlock
+custom_text_box = {
+   name = wiki_text_class_warlock_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_warlock_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_warlock_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_warlock_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_warlock_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_WARLOCK_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__warlock_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_warlock_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_warlock_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_warlock_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_WARLOCK_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__warlock_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_warlock_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_warlock_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_warlock_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_WARLOCK_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = warlock
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__warlock_3 = yes
+        }
+    }
+}
+
+# Class: Druid
+custom_text_box = {
+   name = wiki_text_class_druid_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_druid_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_druid_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_druid_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_druid_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_DRUID_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__druid_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_druid_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_druid_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_druid_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_DRUID_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__druid_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_druid_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_druid_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_druid_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_DRUID_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = druid
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__druid_3 = yes
+        }
+    }
+}
+
+# Class: Hunter
+custom_text_box = {
+   name = wiki_text_class_hunter_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_hunter_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_hunter_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_hunter_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_hunter_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_HUNTER_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__hunter_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_hunter_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_hunter_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_hunter_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_HUNTER_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__hunter_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_hunter_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_hunter_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_hunter_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_HUNTER_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = hunter
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__hunter_3 = yes
+        }
+    }
+}
+
+# Class: Shaman
+custom_text_box = {
+   name = wiki_text_class_shaman_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_shaman_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_shaman_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_shaman_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_shaman_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_SHAMAN_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__shaman_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_shaman_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_shaman_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_shaman_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_SHAMAN_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__shaman_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_shaman_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_shaman_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_shaman_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_SHAMAN_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = shaman
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__shaman_3 = yes
+        }
+    }
+}
+
+# Class: Death Knight
+custom_text_box = {
+   name = wiki_text_class_death_knight_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_death_knight_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_death_knight_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_death_knight_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_death_knight_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_DEATH_KNIGHT_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__death_knight_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_death_knight_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_death_knight_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_death_knight_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_DEATH_KNIGHT_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__death_knight_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_death_knight_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_death_knight_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_death_knight_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_DEATH_KNIGHT_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = death_knight
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__death_knight_3 = yes
+        }
+    }
+}
+
+# Class: Monk
+custom_text_box = {
+   name = wiki_text_class_monk_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_monk_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_monk_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_monk_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_monk_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_MONK_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__monk_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_monk_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_monk_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_monk_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_MONK_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__monk_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_monk_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_monk_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_monk_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_MONK_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = monk
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__monk_3 = yes
+        }
+    }
+}
+
+# Class: Demon Hunter
+custom_text_box = {
+   name = wiki_text_class_demon_hunter_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_class_demon_hunter_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_class_demon_hunter_ability_1_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_demon_hunter_ability_1_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_demon_hunter_ability_1_button
+    tooltip = RULER_CLASS_ABILITY_DEMON_HUNTER_1_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__demon_hunter_1 = yes
+        }
+    }
+}
+
+custom_icon = {
+   name = wiki_class_demon_hunter_ability_2_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_demon_hunter_ability_2_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_demon_hunter_ability_2_button
+    tooltip = RULER_CLASS_ABILITY_DEMON_HUNTER_2_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__demon_hunter_2 = yes
+        }
+    }
+}
+
+
+
+custom_icon = {
+   name = wiki_class_demon_hunter_ability_3_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_class_demon_hunter_ability_3_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_class_demon_hunter_ability_3_button
+    tooltip = RULER_CLASS_ABILITY_DEMON_HUNTER_3_HOVER_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = class 
+            TOPIC = demon_hunter
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ability_effect__demon_hunter_3 = yes
+        }
+    }
+}
+
+#----------------------------------------
+# Magic: Information
+#----------------------------------------
+# Magic: Overview
+custom_text_box = {
+   name = wiki_text_magic_overview_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = overview
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_overview_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = overview
+        }
+   }
+}
+
+# Magic: Generic
+custom_text_box = {
+   name = wiki_text_magic_generic_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_generic_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_generic_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_generic_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_1
+    tooltip = GENERIC_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            conjure_gold_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_2
+    tooltip = GENERIC_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            inspire_glory_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_3
+    tooltip = GENERIC_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            purge_opponents_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_4
+    tooltip = GENERIC_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            splendiferous_show_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_5
+    tooltip = GENERIC_SPELL_5_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            arouse_support_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_6
+    tooltip = GENERIC_SPELL_6_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            soothe_population_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_7
+    tooltip = GENERIC_SPELL_7_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            quell_fear_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_8
+    tooltip = GENERIC_SPELL_8_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            rally_soldiers_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_9
+    tooltip = GENERIC_SPELL_9_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            rally_sailors_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_10
+    tooltip = GENERIC_SPELL_10_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            galvinize_creativity_preview = yes
+        }
+    }
+}
+
+# Magic: Arcane
+custom_text_box = {
+   name = wiki_text_magic_arcane_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_arcane_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_arcane_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_arcane_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_1
+    tooltip = ARCANE_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            polymorph_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_2
+    tooltip = ARCANE_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            presence_of_mind_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_3
+    tooltip = ARCANE_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            touch_of_the_magi_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_4
+    tooltip = ARCANE_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            alter_time_preview = yes
+        }
+    }
+}
+
+# Magic: Holy
+
+# Magic: Chi
+
+# Magic: Voodoo
+
+# Magic: Nature
+
+# Magic: Necromancy
+
+# Magic: Shamanism
+
+# Magic: Fel
+
+# Magic: Draconic
+
+# Magic: Corruption
+
+# Magic: Shadow
+
+# Magic: Titanic
+
+# Magic: Runic
+
+# Magic: Nightmare
+
+# Magic: Earth
+
+# Magic: Fire
+
+# Magic: Water
+
+# Magic: Wind
+
+# Magic: Domination
+
+# Magic: Soul

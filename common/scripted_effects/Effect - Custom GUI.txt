@@ -358,6 +358,8 @@ close_all_topbar_windows = {
     close_dragon_aspects_gui = yes
     
     close_faction_dropdown_menu = yes
+    
+    close_wiki_gui = yes
 }
 
 # Faction Dropdown Menu
@@ -682,5 +684,15 @@ clear_shared_faction_view_flags = {
     clr_country_flag = gui_flag__trade_coalition_gui_open
     clr_country_flag = gui_flag__dragon_aspects_gui_open
     
+}
+
+
+# Wiki
+open_wiki_gui = {
+    hidden_effect = { set_country_flag = gui_flag__wiki_gui_open }
+}
+
+close_wiki_gui = {
+    hidden_effect = { clr_country_flag = gui_flag__wiki_gui_open }
 }
 

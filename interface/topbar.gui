@@ -295,6 +295,19 @@ guiTypes = {
             scripted = yes
 		}
         
+        # Button: Wiki
+        guiButtonType = {
+			name = "wwu_menu_button_wiki"
+			position = { x = 780 y = 60 }
+			quadTextureSprite ="GFX_menu_buttom_wiki"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			clicksound = macro_build
+            scripted = yes
+		}
+        
         # Agents: Merchants
 		guiButtonType = {
 			name ="icon_merchant"
@@ -1662,6 +1675,2271 @@ guiTypes = {
             }
         }
         
+        # Window: Wiki
+        windowType = {
+            name = "custom_window_wiki_screen"
+            backGround=""
+            position = { x=-456 y=-380 }	
+            size = { x=512 y=100 }
+            moveable = 0
+            dontRender = ""
+            horizontalBorder= ""
+            verticalBorder= ""
+            Orientation = "CENTER"
+            fullscreen = no
+            scripted = yes
+            
+            iconType = {
+                name ="wiki_screen_bg"
+                spriteType = "GFX_wiki_gui_bg"
+                position = { x= 0 y = 0 }
+                Orientation = "UPPER_LEFT"
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_screen_title"
+                position = { x = 148 y = 52 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = centre
+				text = "WIKI_GUI_TITLE"
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_screen_category_title"
+                position = { x = 40 y = 100 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_screen_info_banner"
+                spriteType = "GFX_wiki_banner"
+                position = { x= 224 y = 114 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_exit"
+                position = { x = 30 y = 650 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                Orientation = "UPPER_LEFT"
+                buttonText = "WIKI_EXIT"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_clear_current_category"
+                position = { x = 30 y = 650 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                Orientation = "UPPER_LEFT"
+                buttonText = "WIKI_CATEGORY_RETURN"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_page_up"
+                position = { x = 93 y = 699 }
+                quadTextureSprite ="GFX_wiki_page_left"
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_page_down"
+                position = { x = 93 y = 699 }
+                quadTextureSprite ="GFX_wiki_page_right"
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            #----------------------
+            # Topic List Titles
+            #----------------------
+            instantTextBoxType = {
+                name = "wiki_screen_class_title"
+                position = { x = 40 y = 100 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes
+            }
+            
+            # Magic Title
+            instantTextBoxType = {
+                name = "wiki_screen_magic_title"
+                position = { x = 40 y = 100 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes
+            }
+            
+            #----------------------
+            # Categories
+            #----------------------
+            guiButtonType = {
+                name = "button_category_class"
+                position = { x = 30 y = 140 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                Orientation = "UPPER_LEFT"
+                buttonText = "WIKI_CATEGORY_CLASS"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_category_magic"
+                position = { x = 30 y = 170 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                Orientation = "UPPER_LEFT"
+                buttonText = "WIKI_CATEGORY_MAGIC"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            #----------------------
+            # Topics
+            #----------------------
+            # Class
+            guiButtonType = {
+                name = "button_topic_class_overview"
+                position = { x = 30 y = 140 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_OVERVIEW"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_warrior"
+                position = { x = 30 y = 170 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_WARRIOR"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_paladin"
+                position = { x = 30 y = 200 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_PALADIN"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_priest"
+                position = { x = 30 y = 230 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_PRIEST"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_rogue"
+                position = { x = 30 y = 260 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_ROGUE"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_mage"
+                position = { x = 30 y = 290 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_MAGE"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_warlock"
+                position = { x = 30 y = 320 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_WARLOCK"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_druid"
+                position = { x = 30 y = 350 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_DRUID"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_hunter"
+                position = { x = 30 y = 380 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_HUNTER"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_shaman"
+                position = { x = 30 y = 410 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_SHAMAN"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_death_knight"
+                position = { x = 30 y = 440 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_DEATH_KNIGHT"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_monk"
+                position = { x = 30 y = 470 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_MONK"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_class_demon_hunter"
+                position = { x = 30 y = 500 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_CLASS_DEMON_HUNTER"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Magic: First Page
+            guiButtonType = {
+                name = "button_topic_magic_overview"
+                position = { x = 30 y = 140 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_OVERVIEW"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_generic"
+                position = { x = 30 y = 170 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_GENERIC"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_arcane"
+                position = { x = 30 y = 200 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_ARCANE"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_holy"
+                position = { x = 30 y = 230 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_HOLY"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_chi"
+                position = { x = 30 y = 260 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_CHI"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_voodoo"
+                position = { x = 30 y = 290 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_VOODOO"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_nature"
+                position = { x = 30 y = 320 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_NATURE"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_necromancy"
+                position = { x = 30 y = 350 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_NECROMANCY"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_shamanism"
+                position = { x = 30 y = 380 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_SHAMANISM"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_fel"
+                position = { x = 30 y = 410 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_FEL"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_draconic"
+                position = { x = 30 y = 440 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_DRACONIC"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_corruption"
+                position = { x = 30 y = 470 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_CORRUPTION"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_shadow"
+                position = { x = 30 y = 500 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_SHADOW"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_titanic"
+                position = { x = 30 y = 530 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_TITANIC"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_runic"
+                position = { x = 30 y = 560 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_RUNIC"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_nightmare"
+                position = { x = 30 y = 590 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_NIGHTMARE"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Magic: Second Page
+            guiButtonType = {
+                name = "button_topic_magic_earth"
+                position = { x = 30 y = 140 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_EARTH"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_fire"
+                position = { x = 30 y = 170 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_FIRE"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_water"
+                position = { x = 30 y = 200 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_WATER"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_wind"
+                position = { x = 30 y = 230 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_WIND"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_domination"
+                position = { x = 30 y = 260 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_DOMINATION"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_soul"
+                position = { x = 30 y = 290 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_SOUL"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            #----------------------
+            # Information: Class
+            #----------------------
+            # Overview
+            instantTextBoxType = {
+                name = "wiki_text_class_overview_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_overview_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            # Warrior
+            instantTextBoxType = {
+                name = "wiki_text_class_warrior_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_warrior_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_warrior_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_warrior_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_warrior_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_warrior_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_warrior_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_warrior_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_warrior_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_warrior_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_warrior_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_warrior_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_warrior_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_warrior_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Paladin
+            instantTextBoxType = {
+                name = "wiki_text_class_paladin_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_paladin_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_paladin_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_paladin_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_paladin_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_paladin_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_paladin_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_paladin_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 300
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_paladin_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_paladin_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_paladin_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_paladin_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_paladin_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_paladin_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Priest
+            instantTextBoxType = {
+                name = "wiki_text_class_priest_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_priest_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_priest_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_priest_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_priest_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_priest_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_priest_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_priest_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_priest_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_priest_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_priest_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_priest_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_priest_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_priest_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Rogue
+            instantTextBoxType = {
+                name = "wiki_text_class_rogue_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_rogue_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_rogue_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_rogue_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_rogue_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_rogue_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_rogue_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_rogue_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_rogue_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_rogue_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_rogue_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_rogue_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_rogue_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_rogue_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Mage
+            instantTextBoxType = {
+                name = "wiki_text_class_mage_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_mage_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_mage_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_mage_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_mage_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_mage_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_mage_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_mage_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_mage_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_mage_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_mage_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_mage_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_mage_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_mage_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Warlock
+            instantTextBoxType = {
+                name = "wiki_text_class_warlock_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_warlock_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_warlock_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_warlock_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_warlock_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_warlock_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_warlock_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_warlock_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_warlock_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_warlock_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_warlock_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_warlock_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 300
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_warlock_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_warlock_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Druid
+            instantTextBoxType = {
+                name = "wiki_text_class_druid_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_druid_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_druid_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_druid_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_druid_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_druid_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_druid_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_druid_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_druid_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_druid_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_druid_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_druid_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_druid_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_druid_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Hunter
+            instantTextBoxType = {
+                name = "wiki_text_class_hunter_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_hunter_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_hunter_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_hunter_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_hunter_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_hunter_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_hunter_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_hunter_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_hunter_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_hunter_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_hunter_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_hunter_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_hunter_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_hunter_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Shaman
+            instantTextBoxType = {
+                name = "wiki_text_class_shaman_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_shaman_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_shaman_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_shaman_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_shaman_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_shaman_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_shaman_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_shaman_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_shaman_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_shaman_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_shaman_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_shaman_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_shaman_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_shaman_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Death Knight
+            instantTextBoxType = {
+                name = "wiki_text_class_death_knight_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_death_knight_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_death_knight_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_death_knight_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_death_knight_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_death_knight_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_death_knight_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_death_knight_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_death_knight_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_death_knight_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_death_knight_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_death_knight_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_death_knight_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_death_knight_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Monk
+            instantTextBoxType = {
+                name = "wiki_text_class_monk_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_monk_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_monk_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_monk_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_monk_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_monk_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_monk_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_monk_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_monk_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_monk_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_monk_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_monk_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_monk_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_monk_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Demon Hunter
+            instantTextBoxType = {
+                name = "wiki_text_class_demon_hunter_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_class_demon_hunter_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_class_demon_hunter_ability_1_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 320 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_demon_hunter_ability_1_text"
+                position = { x = 230 y = 320 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_demon_hunter_ability_1_button"
+                position = { x = 240 y = 360 }
+                quadTextureSprite ="GFX_class_ability_demon_hunter_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_demon_hunter_ability_2_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 440 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_demon_hunter_ability_2_text"
+                position = { x = 230 y = 440 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_demon_hunter_ability_2_button"
+                position = { x = 240 y = 480 }
+                quadTextureSprite ="GFX_class_ability_demon_hunter_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            iconType = {
+                name ="wiki_class_demon_hunter_ability_3_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 560 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_class_demon_hunter_ability_3_text"
+                position = { x = 230 y = 560 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_class_demon_hunter_ability_3_button"
+                position = { x = 240 y = 600 }
+                quadTextureSprite ="GFX_class_ability_demon_hunter_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            #----------------------
+            # Information: Magic
+            #----------------------
+            # Overview
+            instantTextBoxType = {
+                name = "wiki_text_magic_overview_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_overview_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            # Generic
+            instantTextBoxType = {
+                name = "wiki_text_magic_generic_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_generic_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_generic_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_generic_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_5"
+                position = { x = 480 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_5"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_6"
+                position = { x = 540 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_6"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_7"
+                position = { x = 600 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_7"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_8"
+                position = { x = 660 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_8"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_9"
+                position = { x = 720 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_9"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_10"
+                position = { x = 780 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_10"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # Arcane
+            instantTextBoxType = {
+                name = "wiki_text_magic_arcane_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_arcane_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_arcane_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_arcane_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            # holy
+            
+            # Chi
+            
+            # Voodoo
+            
+            # Nature
+            
+            # Necromancy
+            
+            # Shamanism
+            
+            # Fel
+            
+            # Draconic
+            
+            # Corruption
+            
+            # Shadow
+            
+            # Titanic
+            
+            # Runic
+            
+            # Nightmare
+            
+            # Earth
+            
+            # Fire
+            
+            # Water
+            
+            # Wind
+            
+            # Domination
+            
+            # Soul
+        }
         
         # Window: Shared Faction View
         windowType = {
@@ -5788,6 +8066,20 @@ guiTypes = {
                 Orientation = "UPPER_LEFT"
                 scripted = yes
             }
+			guiButtonType = {
+                name ="primary_artifact__staff_of_antonidas"
+                spriteType = "GFX_active_artifact_staff_of_antonidas"
+                position = { x= 680 y = 155 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+			guiButtonType = {
+                name ="primary_artifact__staff_of_antonidas_2"
+                spriteType = "GFX_active_artifact_staff_of_antonidas_2"
+                position = { x= 680 y = 155 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
             
             #-------
             # Lower Section
@@ -6470,6 +8762,20 @@ guiTypes = {
                 name ="select_artifact__shield_of_the_deathlord"
                 spriteType = "GFX_active_artifact_shield_of_the_deathlord"
                 position = { x= 770 y = 340 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+			guiButtonType = {
+                name ="select_artifact__staff_of_antonidas"
+                spriteType = "GFX_active_artifact_staff_of_antonidas"
+                position = { x= 50 y = 420 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+			guiButtonType = {
+                name ="select_artifact__staff_of_antonidas_2"
+                spriteType = "GFX_active_artifact_staff_of_antonidas_2"
+                position = { x= 130 y = 420 }
                 Orientation = "UPPER_LEFT"
                 scripted = yes
             }

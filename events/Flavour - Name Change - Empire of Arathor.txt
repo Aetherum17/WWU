@@ -1,0 +1,48 @@
+namespace = wwu_flavour_nc_new_arathor
+
+# Pick a name for Empire of Arathor
+country_event = {
+	id = wwu_flavour_nc_emp_arathor.1
+	title = wwu_flavour_nc_emp_arathor.1.title
+	desc = wwu_flavour_nc_emp_arathor.1.desc
+	picture = STORMWIND_DOCK_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_nc_emp_arathor.1.a
+		
+		# Keep the Name
+		
+		ai_chance = {		
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_emp_arathor.1.b
+		
+		override_country_name = THE_SEVEN_KINGDOMS
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_emp_arathor.1.c
+		
+		override_country_name = ARATHOR
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_nc_emp_arathor.1.d
+		
+		override_country_name = ARATHI_EMPIRE
+		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}

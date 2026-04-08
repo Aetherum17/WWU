@@ -1,0 +1,55 @@
+﻿l_french:
+ #-----------------------------------------------
+ # Triggered Modifiers
+ #-----------------------------------------------
+ # Alliance
+ alliance_rank_1: "Knight"
+ desc_alliance_rank_1: ""
+ 
+ alliance_rank_2: "Commander"
+ desc_alliance_rank_2: ""
+ 
+ alliance_rank_3: "Marshal"
+ desc_alliance_rank_3: ""
+ 
+ alliance_rank_4: "Grand Marshal"
+ desc_alliance_rank_4: ""
+ 
+ # Horde
+ horde_rank_1: "Legionnaire"
+ desc_horde_rank_1: ""
+ 
+ horde_rank_2: "Champion"
+ desc_horde_rank_2: ""
+ 
+ horde_rank_3: "General"
+ desc_horde_rank_3: ""
+ 
+ horde_rank_4: "High Warlord"
+ desc_horde_rank_4: ""
+ 
+ # Trade Coalition
+ trade_coalition_rank_1: "Merchant"
+ desc_trade_coalition_rank_1: ""
+ 
+ trade_coalition_rank_2: "Princeling"
+ desc_trade_coalition_rank_2: ""
+ 
+ trade_coalition_rank_3: "Vizier"
+ desc_trade_coalition_rank_3: ""
+ 
+ trade_coalition_rank_4: "Trade Prince"
+ desc_trade_coalition_rank_4: ""
+ 
+ # Dragon Aspects
+ dragon_aspects_rank_1: "Whelp"
+ desc_dragon_aspects_rank_1: ""
+ 
+ dragon_aspects_rank_2: "Drake"
+ desc_dragon_aspects_rank_2: ""
+ 
+ dragon_aspects_rank_3: "Dragon"
+ desc_dragon_aspects_rank_3: ""
+ 
+ dragon_aspects_rank_4: "Aspect"
+ desc_dragon_aspects_rank_4: ""

@@ -121,3 +121,7 @@ is_viewing_own_faction = {
     }
 }
 
+# Wiki
+is_wiki_gui_open = {
+    has_country_flag = gui_flag__wiki_gui_open
+}

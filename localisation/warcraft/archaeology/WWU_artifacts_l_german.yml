@@ -139,6 +139,9 @@
  wwu_artifact_heist.8.option.necklace_of_burning_souls: "Necklace of Burning Souls"
  wwu_artifact_heist.8.option.soulfeast: "Soulfeast the Devourer"
  wwu_artifact_heist.8.option.shield_of_the_deathlord: "Shield of the Deathlord"
+ wwu_artifact_heist.8.option.staff_of_antonidas: "Staff of Antonidas"
+ wwu_artifact_heist.8.option.staff_of_antonidas_2: "Empowered Staff of Antonidas"
+ wwu_artifact_heist.8.option.noartifact: "Actually, I am not interested."
  
  # Artifact Unlock
  wwu_artifact_heist.10.title: "Loss of Apocalypse"
@@ -501,6 +504,14 @@
  wwu_artifact_heist.99.desc: "\n[Root.GetArtifactUnlockSpacer]£shield_of_the_deathlord_icon£\n\n\nAn ancient shield once possessed by an eldritch deathlord, imbued with potent death magic. Attempts to sway its wielder towards evil."
  wwu_artifact_heist.99.option.a: "Curses!"
  
+ wwu_artifact_heist.100.title: "Loss of Staff of Antonidas"
+ wwu_artifact_heist.100.desc: "\n[Root.GetArtifactUnlockSpacer]£staff_of_antonidas_icon£\n\n\nA staff that was given as a gift by a great mage of Dalaran, Antonidas."
+ wwu_artifact_heist.100.option.a: "Curses!"
+ 
+ wwu_artifact_heist.101.title: "Loss of Empowered Staff of Antonidas"
+ wwu_artifact_heist.101.desc: "\n[Root.GetArtifactUnlockSpacer]£staff_of_antonidas_2_icon£\n\n\nThe staff of Antonidas after it was fused with the powers of the Thunder King!"
+ wwu_artifact_heist.101.option.a: "Curses!"
+ 
  # Variables
  artifact_catalogue_carved_figurine: "Carved Figurines"
  artifact_catalogue_golden_tankard: "Golden Tankards"
@@ -601,6 +612,8 @@
  artifact_icon_necklace_of_burning_souls: "£necklace_of_burning_souls_icon£"
  artifact_icon_soulfeast: "£soulfeast_icon£"
  artifact_icon_shield_of_the_deathlord: "£shield_of_the_deathlord_icon£"
+ artifact_icon_staff_of_antonidas: "£staff_of_antonidas_icon£"
+ artifact_icon_staff_of_antonidas_2: "£staff_of_antonidas_2_icon£"
  
  artifact_name_unknown: "None"
  artifact_name_apocalypse: "Apocalypse"
@@ -693,6 +706,8 @@
  artifact_name_necklace_of_burning_souls: "Necklace of Burning Souls"
  artifact_name_soulfeast: "Soulfeast the Devourer"
  artifact_name_shield_of_the_deathlord: "Shield of the Deathlord"
+ artifact_name_staff_of_antonidas: "Staff of Antonidas"
+ artifact_name_staff_of_antonidas_2: "Empowered Staff of Antonidas"
  
  UNLOCK_ARTIFACT_apocalypse: "You have gained the artifact §YApocalypse§!."
  UNLOCK_ARTIFACT_twinblades_of_the_deceiver: "You have gained the artifact §YTwinblades of the Deceiver§!."
@@ -784,6 +799,8 @@
  UNLOCK_ARTIFACT_necklace_of_burning_souls: "You have gained the artifact §YNecklace of Burning Souls§!"
  UNLOCK_ARTIFACT_soulfeast: "You have gained the artifact §YSoulfeast the Devourer§!"
  UNLOCK_ARTIFACT_shield_of_the_deathlord: "You have gained the artifact §YShield of the Deathlord§!"
+ UNLOCK_ARTIFACT_staff_of_antonidas: "You have gained the artifact §YStaff of Antonidas§!"
+ UNLOCK_ARTIFACT_staff_of_antonidas_2: "You have gained the artifact §YEmpowered Staff of Antonidas§!"
 
  MAKE_PRIMARY_ARTIFACT_apocalypse: "Make your primary artifact §YApocalypse§!."
  MAKE_PRIMARY_ARTIFACT_twinblades_of_the_deceiver: "Make your primary artifact §YTwinblades of the Deceiver§!."
@@ -875,6 +892,8 @@
  MAKE_PRIMARY_ARTIFACT_necklace_of_burning_souls: "Make your primary artifact §YNecklace of Burning Souls§!"
  MAKE_PRIMARY_ARTIFACT_soulfeast: "Make your primary artifact §YSoulfeast the Devourer§!"
  MAKE_PRIMARY_ARTIFACT_shield_of_the_deathlord: "Make your primary artifact §YShield of the Deathlord§!"
+ MAKE_PRIMARY_ARTIFACT_staff_of_antonidas: "Make your primary artifact §YStaff of Antonidas§!"
+ MAKE_PRIMARY_ARTIFACT_staff_of_antonidas_2: "Make your primary artifact §YEmpowered Staff of Antonidas§!"
  
  IS_PRIMARY_ARTIFACT_apocalypse: "§YApocalypse§! is primary artifact."
  IS_PRIMARY_ARTIFACT_twinblades_of_the_deceiver: "§YTwinblades of the Deceiver§! is primary artifact."
@@ -966,6 +985,8 @@
  IS_PRIMARY_ARTIFACT_necklace_of_burning_souls: "§YNecklace of Burning Souls§! is primary artifact."
  IS_PRIMARY_ARTIFACT_soulfeast: "§YSoulfeast the Devourer§! is primary artifact."
  IS_PRIMARY_ARTIFACT_shield_of_the_deathlord: "§YShield of the Deathlord§! is primary artifact."
+ IS_PRIMARY_ARTIFACT_staff_of_antonidas: "§YStaff of Antonidas§! is primary artifact."
+ IS_PRIMARY_ARTIFACT_staff_of_antonidas_2: "§YEmpowered Staff of Antonidas§! is primary artifact."
 
  NOT_DISCOVERED_apocalypse: "§YApocalypse§! has not been discovered yet."
  NOT_DISCOVERED_twinblades_of_the_deceiver: "§YTwinblades of the Deceiver§! has not been discovered yet."
@@ -1057,6 +1078,8 @@
  NOT_DISCOVERED_necklace_of_burning_souls: "§YNecklace of Burning Souls§! has not been discovered yet."
  NOT_DISCOVERED_soulfeast: "§YSoulfeast the Devourer§! has not been discovered yet."
  NOT_DISCOVERED_shield_of_the_deathlord: "§YShield of the Deathlord§! has not been discovered yet."
+ NOT_DISCOVERED_staff_of_antonidas: "§YStaff of Antonidas§! has not been discovered yet."
+ NOT_DISCOVERED_staff_of_antonidas_2: "§YEmpowered Staff of Antonidas§! has not been discovered yet."
  
  STEAL_ARTIFACT_apocalypse: "Steal §YApocalypse§! from [artifact_heist_target.GetName]."
  STEAL_ARTIFACT_twinblades_of_the_deceiver: "Steal §YTwinblades of the Deceiver§! from [artifact_heist_target.GetName]."
@@ -1148,6 +1171,8 @@
  STEAL_ARTIFACT_necklace_of_burning_souls: "Steal §YNecklace of Burning Souls§! from [artifact_heist_target.GetName]."
  STEAL_ARTIFACT_soulfeast: "Steal §YSoulfeast the Devourer§! from [artifact_heist_target.GetName]."
  STEAL_ARTIFACT_shield_of_the_deathlord: "Steal §YShield of the Deathlord§! from [artifact_heist_target.GetName]."
+ STEAL_ARTIFACT_staff_of_antonidas: "Steal §YStaff of Antonidas§! from [artifact_heist_target.GetName]."
+ STEAL_ARTIFACT_staff_of_antonidas_2: "Steal §YEmpowered Staff of Antonidas§! from [artifact_heist_target.GetName]."
 
  # Artifacts
  artifact_apocalypse: "Apocalypse"
@@ -1423,3 +1448,8 @@
  artifact_shield_of_the_deathlord: "Shield of the Deathlord"
  desc_artifact_shield_of_the_deathlord: ""
 
+ artifact_staff_of_antonidas: "Staff of Antonidas"
+ desc_artifact_staff_of_antonidas: ""
+
+ artifact_staff_of_antonidas_2: "Empowered Staff of Antonidas"
+ desc_artifact_staff_of_antonidas_2: ""

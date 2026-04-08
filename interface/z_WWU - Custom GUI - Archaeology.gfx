@@ -434,7 +434,15 @@ spriteTypes = {
         name = "GFX_shield_of_the_deathlord_icon"
         texturefile = "gfx/custom_gui/archaeology/artifacts/active/shield_of_the_deathlord.dds"
     }
-
+    spriteType = {
+        name = "GFX_staff_of_antonidas_icon"
+        texturefile = "gfx/custom_gui/archaeology/artifacts/active/staff_of_antonidas.dds"
+    }
+	spriteType = {
+        name = "GFX_staff_of_antonidas_2_icon"
+        texturefile = "gfx/custom_gui/archaeology/artifacts/active/staff_of_antonidas_2.dds"
+    }
+	
 
     # Active
     spriteType = {
@@ -797,7 +805,15 @@ spriteTypes = {
         name = "GFX_active_artifact_shield_of_the_deathlord"
         texturefile = "gfx/custom_gui/archaeology/artifacts/active/shield_of_the_deathlord.dds"
     }
-    
+    spriteType = {
+        name = "GFX_active_artifact_staff_of_antonidas"
+        texturefile = "gfx/custom_gui/archaeology/artifacts/active/staff_of_antonidas.dds"
+    }
+	spriteType = {
+        name = "GFX_active_artifact_staff_of_antonidas_2"
+        texturefile = "gfx/custom_gui/archaeology/artifacts/active/staff_of_antonidas_2.dds"
+    }
+	
     # Inactive
     spriteType = {
 		name = "GFX_inactive_artifact_apocalypse"
@@ -1158,5 +1174,13 @@ spriteTypes = {
     spriteType = {
         name = "GFX_inactive_artifact_shield_of_the_deathlord"
         texturefile = "gfx/custom_gui/archaeology/artifacts/inactive/shield_of_the_deathlord.dds"
+    }
+	spriteType = {
+        name = "GFX_inactive_artifact_staff_of_antonidas"
+        texturefile = "gfx/custom_gui/archaeology/artifacts/inactive/staff_of_antonidas.dds"
+    }
+	spriteType = {
+        name = "GFX_inactive_artifact_staff_of_antonidas_2"
+        texturefile = "gfx/custom_gui/archaeology/artifacts/inactive/staff_of_antonidas_2.dds"
     }
 }

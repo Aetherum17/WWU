@@ -23,22 +23,11 @@ country_decisions = {
 			}
 			
 			# General
-			adm_tech = 10
-			dip_tech = 10
 			is_at_war = no	
 			stability = 1
 			total_development = 500
-            
-            # Cost
-            adm_power = 400
-			dip_power = 400
-			mil_power = 400
 		}
 		effect = {
-            # Cost
-			add_adm_power = -400
-			add_dip_power = -400
-            add_mil_power = -400
             
             # Switch
 			change_tag = DSE

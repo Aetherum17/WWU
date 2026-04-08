@@ -18,22 +18,12 @@ country_decisions = {
 			is_at_war = no	
 			stability = 2
             total_development = 300
-            
-            # Cost
-            adm_power = 100
-			dip_power = 100
-			mil_power = 100
 		}
 		effect = {
 		    country_event = {
 				id = wwu_flavour_nc_cult_of_lg.1
 			}
 			
-            # Cost
-			add_adm_power = -100
-			add_dip_power = -100
-            add_mil_power = -100
-            
             # Switch
 			change_tag = CLG
 			change_government = theocracy

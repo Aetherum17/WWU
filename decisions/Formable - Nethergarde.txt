@@ -49,16 +49,8 @@ country_decisions = {
 				}
 			}
 			
-            # Cost
-            adm_power = 100
-			dip_power = 100
-			mil_power = 100
 		}
 		effect = {
-            # Cost
-			add_adm_power = -100
-			add_dip_power = -100
-            add_mil_power = -100
             
             # Switch
 			change_tag = NTG

@@ -1739,6 +1739,32 @@ country_event = {
             artifact = shield_of_the_deathlord
         }
     }
+	option = {
+        name = wwu_artifact_heist.8.option.staff_of_antonidas
+
+        trigger = {
+            event_target:artifact_heist_target = {
+                has_country_flag = artifact_staff_of_antonidas
+            }
+        }
+
+        steal_artifact = {
+            artifact = staff_of_antonidas
+        }
+    }
+	option = {
+        name = wwu_artifact_heist.8.option.staff_of_antonidas_2
+
+        trigger = {
+            event_target:artifact_heist_target = {
+                has_country_flag = artifact_staff_of_antonidas_2
+            }
+        }
+
+        steal_artifact = {
+            artifact = staff_of_antonidas_2
+        }
+    }
     option = {
         name = wwu_artifact_heist.8.option.noartifact
     }
@@ -4035,5 +4061,55 @@ country_event = {
 
 	option = {
 		name = wwu_artifact_heist.99.option.a
+	}
+}
+# Staff of Antonidas
+country_event = {
+	id = wwu_artifact_heist.100
+	title = wwu_artifact_heist.100.title
+	desc = wwu_artifact_heist.100.desc
+	picture = TREASURE_VAULT_eventPicture
+
+	trigger = {
+        has_country_flag = artifact_staff_of_antonidas_stolen
+    }
+
+    immediate = {
+        hidden_effect = {
+            clr_country_flag = artifact_staff_of_antonidas_stolen
+        }
+    }
+
+    mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = wwu_artifact_heist.100.option.a
+	}
+}
+# Staff of Antonidas 2
+country_event = {
+	id = wwu_artifact_heist.101
+	title = wwu_artifact_heist.101.title
+	desc = wwu_artifact_heist.101.desc
+	picture = TREASURE_VAULT_eventPicture
+
+	trigger = {
+        has_country_flag = artifact_staff_of_antonidas_2_stolen
+    }
+
+    immediate = {
+        hidden_effect = {
+            clr_country_flag = artifact_staff_of_antonidas_2_stolen
+        }
+    }
+
+    mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = wwu_artifact_heist.101.option.a
 	}
 }

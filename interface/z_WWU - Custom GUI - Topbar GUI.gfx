@@ -105,4 +105,8 @@ spriteTypes = {
 		texturefile = "gfx/custom_gui/topbar/topbar_button_dragon_aspects.dds"
 	}
     
+    spriteType = {
+		name = "GFX_menu_buttom_wiki"
+		texturefile = "gfx/custom_gui/topbar/topbar_wiki.dds"
+	}
 }

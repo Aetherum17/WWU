@@ -34,23 +34,12 @@ country_decisions = {
 			owns_core_province = 882
             
             # General
-			adm_tech = 8
 			is_at_war = no	
 			stability = 2
 			total_development = 250
-            
-			# Cost
-            adm_power = 250
-			dip_power = 250
-			mil_power = 250
 		}
         
 		effect = {
-            # Cost
-			add_adm_power = -250
-			add_dip_power = -250
-            add_mil_power = -250
-            
             # Switch
 			change_tag = COS
 			change_government = republic  

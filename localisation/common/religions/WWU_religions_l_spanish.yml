@@ -808,19 +808,19 @@
  # Light
  #-----------------------------------------------
  dogma_flexible: "Flexible Dogma"
- dogma_flexible_desc: "Costs §R50§! ADM, DIP and MIL Power."
+ dogma_flexible_desc: "Costs §R30§! ADM, DIP and MIL Power."
  
  dogma_appeasing: "Appeasing Dogma"
- dogma_appeasing_desc: "Costs §R50§! ADM, DIP and MIL Power."
+ dogma_appeasing_desc: "Costs §R30§! ADM, DIP and MIL Power."
  
  dogma_mercantile: "Mercantile Dogma"
- dogma_mercantile_desc: "Costs §R50§! ADM, DIP and MIL Power."
+ dogma_mercantile_desc: "Costs §R30§! ADM, DIP and MIL Power."
  
  dogma_bellicose: "Bellicose Dogma"
  dogma_bellicose_desc: "Costs §R50§! ADM, DIP and MIL Power."
  
  dogma_hostile: "Hostile Dogma"
- dogma_hostile_desc: "Costs §R50§! ADM, DIP and MIL Power."
+ dogma_hostile_desc: "Costs §R30§! ADM, DIP and MIL Power."
  
  dogma_placating: "Placating Dogma"
  dogma_placating_desc: "Costs §R50§! ADM, DIP and MIL Power."
@@ -829,7 +829,7 @@
  dogma_ferverous_desc: "Costs §R50§! ADM, DIP and MIL Power."
  
  dogma_enlightened: "Enlightened Dogma"
- dogma_enlightened_desc: "Costs §R50§! ADM, DIP and MIL Power."
+ dogma_enlightened_desc: "Costs §R25§! ADM, DIP and MIL Power."
  
  #-----------------------------------------------
  # Sha

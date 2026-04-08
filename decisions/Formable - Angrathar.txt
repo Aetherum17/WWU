@@ -33,23 +33,12 @@ country_decisions = {
 			owns_core_province = 2407
             
             # General
-			adm_tech = 8
 			is_at_war = no	
 			stability = 1
-			total_development = 150
-            
-			# Cost
-            adm_power = 200
-			dip_power = 200
-			mil_power = 200
+			total_development = 150           
 		}
         
-		effect = {
-            # Cost
-			add_adm_power = -200
-			add_dip_power = -200
-            add_mil_power = -200
-            
+		effect = {            
             # Switch
 			change_tag = ANR
 			change_government = monarchy

@@ -1,27 +1,17 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
-NEW CULTURE GROUPS:
+NAME CHANGE:
+-Empire of Arathor Flavour Name Change
 
+FORMABLES:
+-Now formables dont require tech or mana points to form
 
-NAME CHANGES:
+ARTIFACTS:
+-Staff of Antonidas
+-Empowered Staff of Antonidas
 
-
-MISSIONS:
-
-
-MAP CHANGES:
-
-
-POLITICAL CHANGES
-
-
-GOVERNMENT REFORMS AND GAMEPLAY:
-
-
-FIXES
--Adjasted missplaced trade region and node province locations
--Smolderhide tech and gfx fix
+Staff of Antonidas is given to Dalaran up to 615.1.1 and then to Theramore from 617 onwards.
 
 
 #--------------------------------------------------------
@@ -40,7 +30,6 @@ New Mission Trees
 
 # General things for Theramore
 -Add an event chain for Jaina and Aegwynn mentor as Theramore
--Add Jaina's staff as an artifact
 -Add an event for buffing Jainas staff if you control Throne of Thunder
 -Make Tabetha re-hirable after she dies as an advisor
 -Tabetha advisor events will now give 3 different versions of Tabetha based on Warcraft Rumble map mechanic_type
@@ -62,4 +51,3 @@ New Mission Trees
 -Some heavy modifiers regarding the bad quality wood of the marsh and the bad soil for agriculture, in relations as well to the theramorean displeasure event above (production debuffs etc)
 -In relation above maybe events for drainage of the swamp, solving both of the above issues
 -Some extra events regarding the crusades if you have adopted their faiths before your return
--Something about uniting the 7 kingdoms (or making it 8+)(name change)

@@ -569,6 +569,11 @@
  migratory_centaur_legacy: "Nomadic Khanate"
  migratory_centaur_legacy_desc: ""
  
+ settled_centaur_legacy: "Settled Khanate"
+ settled_centaur_legacy_desc: ""
+ maruuk_centaur_horde_legacy: "Maruuk Khanate"
+ maruuk_centaur_horde_legacy_desc: ""
+ 
  giant_tribe_reform: "Giant Tribe"
  giant_tribe_reform_desc: ""
  giant_tribe_legacy: "Giant Tribe"

@@ -11,6 +11,11 @@ on_startup__magic = {
         
         set_country_flag = setup_magic_system
         
+        set_variable = {
+            which = ruler_magic_institutional_knowledge
+            value = 0
+        }
+        
         reset_magical_study = yes
     }
     

@@ -87,6 +87,20 @@
  wwu_aqir.105.desc: "Today, we awaken. Today, we arise. Today, the twilight shadow of the Black Empire returns. The Empire of the Shifting Sands, the Bane of Elves, Trolls, and all others. The Heir to the Black Empire awakens. In the name of C'thun, The God of Madness and Chaos!"
  wwu_aqir.105.option.a: "Arise"
 
+ wwu_aqir.106.title: "Arrival of Hive Zukk'ash"
+ wwu_aqir.106.desc: "With out presence growing into the lush forest of Feralas, the new hive colony has been established, the Hive of Zukk'ash emerged from the earth, aiding its masters in devouring all that oppose the Aqir."
+ wwu_aqir.106.optiona.a: "Rise, Sevants of C'thun."
+
+ wwu_aqir.107.title: "Dark Submission"
+ wwu_aqir.107.desc: "As they burst through the grounds of Writhing Deeps, the silithid drones are reminded of their mission, their sense of being. With a dark whisper and pulse of power, they all learn the meaning of their existence."
+ wwu_aqir.107.option.a: "To serve their master."
+
+ wwu_aqir.108.title: "Silitihd Descend"
+ wwu_aqir.108.desc: "Upon called, the whisper has spread from within the dark depths of Ahn'Qiraj, invoking unimaginable rage and desire to cause chaos and devastation. From every hive that anwsers to us willingly, the swarms of silithid rush out forward, ready to kill those cursed to be our targets."
+ wwu_aqir.108.option.a: "Death is close..."
+ call_qiraji_minions_cd: "Called Qiraji Minions"
+ desc_call_qiraji_minions_cd: ""
+
  wwu_aqir.200.title: "AI Skip - KOT"
  wwu_aqir.200.desc: "AI SKIP"
  wwu_aqir.200.option.a: "I love coding"

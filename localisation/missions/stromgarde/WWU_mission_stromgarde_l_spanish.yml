@@ -5,59 +5,95 @@
  A16_stromgarde_column_3: ""
  A16_stromgarde_column_4: ""
  A16_stromgarde_column_5: ""
- 
+
+ # Column 1
  A16_establish_lordaeron_connections_title: "Establish Lordaeron Connections"
- A16_establish_lordaeron_connections_desc: ""
- 
- A16_proclaim_the_might_of_stromgarde_title: "Proclaim the Might of Stromgarde"
- A16_proclaim_the_might_of_stromgarde_desc: ""
- 
- A16_restore_the_empire_of_arathor_title: "Restore the Empire of Arathor"
- A16_restore_the_empire_of_arathor_desc: ""
- 
+ A16_establish_lordaeron_connections_desc: "While we have received help from the noble king of Lordaeron in the dire times, we have not previously established proper diplomatic ties or relations with the largest of the human kingdoms. It is time we correct our mistake and establish a friendly relations."
+
+ A16_dalaran_ties_title: "Dalaran Ties"
+ A16_dalaran_ties_desc: "Dalaran stands as the first of the human nations emergind from the fractures of old Arathorian Empire. Being the first major city and the capital of mages to study and practice magic, Dalaran had become a major political entity and important center of magical discovery. We should establish good relations with them so that we might one day benefit from their ways."
+
+ A16_flexible_diplomacy_title: "Flexible Diplomacy"
+ A16_flexible_diplomacy_desc: "Diplomacy is a tricky art that requires both bright minds and subtle artisty in the way of negociation. It is a path to many closed doors, allies and enemies alike. If we are trive in this age, we must remind ourselves that might doesn't always make us right. Some subjects require subtle actions."
+
+ A16_stromgarde_development_title: "Stromgarde's Growth"
+ A16_stromgarde_development_desc: "For many decades, city of Strom had seen a slow decline, loosing its enconomical, cultural and military importance. It is time we finally put an end to this decline and revive the once glorious city."
+
+ A16_squares_development_title: "Expansion of Square Districts"
+ A16_squares_development_desc: "City of Strom is divided to the specific districts, often called Squares. Among them stands many markets, centers of production, culturally significant landmarks and shady places on can get what they desire. Still, for administration, we must ensure infractructure of these places is modern and ensure nothing will collapse should the distaster strike."
+
+ A16_stromgarde_keep_dev_title: "The Stromgarde Keep"
+ A16_stromgarde_keep_dev_desc: "Stromgarde Keep is the head of power for the whole Kingdom of Stromgarde, housing both military and administrative elite, as well as being the royal seat of power. From there many most important decisions come and go with the envoys of diplomats, uneasy commanders and ever so grumpy leaders of the people."
+
+ # Column 2
+ A16_dwarven_ties_title: "Dwarven Relations"
+ A16_dwarven_ties_desc: "The Dwarven Kingdom of Ironforge emerged many years ago and we have on occasion visited one another during relevant political events. However, to the west of our own capital lies the old dwarven fortress, populated by the notable numbers of ironforge dwarves. Due to this, and many other political factors we should open a diplomatic channel between Stromgarde and Ironforge."
+
  A16_insult_the_alteraci_title: "Insult the Alteraci"
- A16_insult_the_alteraci_desc: ""
+ A16_insult_the_alteraci_desc: "With history between Stormic and Alteraci kingdom is not particuralty long, its is tale of continous conflict of noble titles, trade disagreements and spheres of influence. While we went back and forward on many occasions, the times call for us to let the embers rise once, so that we may put down the fire once and for all."
  
- A16_punish_the_alteraci_title: "Punish the Alteraci"
- A16_punish_the_alteraci_desc: ""
- 
- A16_mete_out_stromic_justice_title: "Mete out Stromic Justice"
- A16_mete_out_stromic_justice_desc: ""
+ A16_punish_the_alteraci_title: "Humiliate Alterac"
+ A16_punish_the_alteraci_desc: "With our show of force over Kingdom of Alterac and their presumptuous noble elites, we have proven our superiority. With the Altarac humiliated, it is time we break their fragile crown and become the rulers of their realm."
+
+ A16_alterac_war_title: "Alterac War"
+ A16_alterac_war_desc: "Our advances cannot be stopped. The fragile realm crumbles under our forces, its soldiers either slain, captured or deserted. The seat of their fleeing royal power has already been captured, and its only a matter of time before all of their lands surrender to our direct control. Its time to sit at the table of winners, and make sure our demands are heard. Loud and clear."
+
+ A16_gilneas_invasion_title: "Invasion of Gilneas"
+ A16_gilneas_invasion_desc: "With our landing on the Tempest and Purgation isles, we have managed to create a foothold, a comfortable beachhead for our soldiers. While the kingdoms of Gilneas and Stromgarde had a history of both alliances and rivalries, the tides of history show that we are on the path of reunification of our realms. All human kingdoms have risen from the decline of our previous empire, and now it's time we bring some of them back under our control."
+
+ A16_gilneas_subjegation_title: "Gilnean Subjegation"
+ A16_gilneas_subjegation_desc: "The Gilneas Peninsula has been subjegated. While the remnants of the previous kings might still resist us, hoping their action can resolve in their direct rule, it is an important step in the direction of reunification of the Arathorian Empire."
+
+ A16_tower_district_title: "Development of the Tower District"
+ A16_tower_district_desc: "The Tower Distict houses the mages of Stromgarde, allowing them to study their magical arts within safery of the city. Here stands Tower of Arathor, one of the first mage towers across the seven kingdoms. While in recent time the importance of this location had withered away, with our intervention we will eventually be able to restore the nessesary institutions."
+
+ # Column 3
+ A16_claim_the_mantle_of_humanity_title: "Claim the Mantle of Humanity"
+ A16_claim_the_mantle_of_humanity_desc: "Protection of Humanity is a mission that had formed the first of the human empire. We are the earls to that quest, destined to embrace it and ensure humanity as it stands will endure."
  
  A16_protect_the_western_flank_title: "Protect the Western Flank"
- A16_protect_the_western_flank_desc: ""
- 
- A16_restore_stromic_hearthland_title: "Restore the Stromic Hearthland"
- A16_restore_stromic_hearthland_desc: ""
- 
- A16_secure_the_stromic_coast_title: "Secure the Stromic Coast"
- A16_secure_the_stromic_coast_desc: ""
- 
- A16_establish_hinterland_outpost_title: "Establish Hinterlands Outpost"
- A16_establish_hinterland_outpost_desc: ""
- 
- A16_oust_the_trolls_title: "Oust the Trolls"
- A16_oust_the_trolls_desc: ""
- 
- A16_protect_the_eastern_flank_title: "Protect the Eastern Flank"
- A16_protect_the_eastern_flank_desc: ""
- 
- A16_establish_wetland_outpost_title: "Establish Wetlands Outpost"
- A16_establish_wetland_outpost_desc: ""
- 
- A16_claim_grim_batol_title: "Plunder Grim Batol"
- A16_claim_grim_batol_desc: ""
- 
+ A16_protect_the_western_flank_desc: "Even with the shoreline under our control, we must ensure our enemies will not be able to easily cross and invade our realm. We must protect this border!"
+
+ A16_southshore_control_title: "Southshore Control"
+ A16_southshore_control_desc: "Southshore stands as important center of commerce and strategic control. Tarren Mill and Southshore has been subject of many diplomatic and noble issues over the years, and while issue of Tarren Mill is important to us, Southshore requires our supervision as well."
+
+ A16_baradin_isles_title: "Baradin Isles Lordship"
+ A16_baradin_isles_desc: "To control the Baradin Bay, we must control the strategic isles. Many have been ruled by lesser nobles who have not managed to create any opposition to us, making it easy to call those lands ours."
+
  A16_dominate_baradin_bay_title: "Dominate Baradin Bay"
- A16_dominate_baradin_bay_desc: ""
+ A16_dominate_baradin_bay_desc: "Our strategic objective is secured. The Baradin Bay, upon which stands city of Stromgarde and many of our important lands is now under our grasp. With a powerful naval presence and coastal defences, we will make sure our people can live in peace upon those shores."
+
+ # Column 4
+ A16_restore_stromic_hearthland_title: "Restore the Stromic Hearthland"
+ A16_restore_stromic_hearthland_desc: "With the current times whispering about great shift in power, we, the stormic people must act once more. While our current situation is but a shadow of the once proud Empire of Arathor, we must not forget that we are still their rightful heirs. Stromgarde sits upon Strom, the first of humanity great cities. But we are surrounded at all sides by those who want to see our precious kingdom burn. We will never all this! Glory to Stromgarde, may our enemies fear our might!"
  
- A16_claim_the_mantle_of_humanity_title: "Claim the Mantle of Humanity"
- A16_claim_the_mantle_of_humanity_desc: ""
+ A16_secure_the_stromic_coast_title: "Secure the Coast"
+ A16_secure_the_stromic_coast_desc: "Our efforts in fighting off the enemy forces and the inhuman creatures we tolerated far too long finally showed up efforts. Arathi Highlands are secured, at least for now. To our west, there are human kingdoms who can be both allies and enemies, so we must approach carefully. To the East, the enemy of our kind, Trolls call the lands their homes. Both have to be evaluated and reinforced. We must grow in strenght when enemies are so close."
+
+ A16_country_militarization_title: "Countryside Militarization"
+ A16_country_militarization_desc: "Stormic people have a long history of war. We were the first to unite humanity in the past, due to both our wisdom and strenght. Now, the time has come for us to do so again. Every man and woman, every elder and child, all must understand value of our might!"
+
+ A16_proclaim_the_might_of_stromgarde_title: "Proclaim the Might of Stromgarde"
+ A16_proclaim_the_might_of_stromgarde_desc: "Once more, we are on top. The long path from the Stromgarde Keep continues far and wide. We were not broken, instread breaking them. The power, the might, the glory is the tale that has once name. Stromgarde, the heir of Arathor!"
+
+ # Column 5
+ A16_restore_the_empire_of_arathor_title: "Restore the Empire of Arathor"
+ A16_restore_the_empire_of_arathor_desc: "At long last, the unity is once more. The Seven Kingdoms of Men stand united under one banner. One people. One mission. No longer we just claim. Now, we are one! We are the Arathor reborn!"
+
+ A16_protect_the_eastern_flank_title: "Protect the Eastern Flank"
+ A16_protect_the_eastern_flank_desc: "While we have reclaimed our home territories, the menace of the forest trolls is right at our borders, mocking us from their temple-cities. Before we enter the enemy lands, we must prepare our defences, so that our people will not suffer the raids and pillages."
+
+ A16_establish_hinterland_outpost_title: "Establish Hinterlands Outpost"
+ A16_establish_hinterland_outpost_desc: "With the sword and shield in hand, hundreds of our brave warriors crossed the borders and conquered the first of many places that those primitives call civilization. The first spearhead is done, now we must prepare to destroy their resistance."
+
+ A16_defeat_hinterlands_trolls_title: "Defeat of Hinterlands Trolls"
+ A16_defeat_hinterlands_trolls_desc: "One by one they failed. Witherbark, Revantusk, Vilebranch. Names that only achivisits and bards will remember as reminders of the threat that once was. No more do they post any. The wooden palisades crumbled, the temples collapsed and their people surrendered or died. Jintha'alor, the holy temple-city now burns in blaze in glory. Stormic Glory."
+
+ A16_trollbane_legacy_title: "Trollbane Legacy" 
+ A16_trollbane_legacy_desc: "One does not simply abandon their legacy. Even with the forest beast put down all around Hinterlands, the trolls are not yet defeated. They could rise and become the issue once more. But Trollbanes do not give up easily. We will continue our mission to eradicate them, now not only near our border, but all acorss Lordaeron and Quel'thalas!"
  
  # --- Modifiers ---
  insulted_alterac: "Insulted Alterac"
- 
- stromic_lordaeron_connections: "Lordaeron Connections"
  
  mission_might_of_stromgarde: "Might of Stromgarde"
  desc_mission_might_of_stromgarde: ""
@@ -74,14 +110,92 @@
  mission_trollbane_blood: "Trollbane Blood"
  desc_mission_trollbane_blood: ""
  
- mission_treasures_of_grim_batol: "Treasures of Grim Batol"
- desc_mission_treasures_of_grim_batol: ""
- 
  mission_dominance_of_baradin_bay: "Dominance of Baradin Bay"
  desc_mission_dominance_of_baradin_bay: ""
  
  mission_mantle_of_humanity: "Mantle of Humanity"
  desc_mission_mantle_of_humanity: ""
+
+ mission_flexible_diplomacy: "Flexible Diplomacy"
+ desc_mission_flexible_diplomacy: ""
+
+ mission_fate_of_alterac_own: "Wartime Negociation"
+ desc_mission_fate_of_alterac_own: ""
+
+ mission_altar_of_kings: "Altar of Kings"
+ desc_mission_altar_of_kings: ""
+
+ mission_stromgarde_dev: "Stromgarde Development Plan"
+ desc_mission_stromgarde_dev: ""
+
+ mission_stromgarde_reform_nilas: "Nilas's Military Reform"
+ desc_mission_stromgarde_reform_nilas: ""
+
+ mission_stromgarde_reform_wrenn: "Wrenn's Military Reform"
+ desc_mission_stromgarde_reform_wrenn: ""
+
+ mission_stromgarde_reform_valorcall: "Valorcall's Military Reform"
+ desc_mission_stromgarde_reform_valorcall: ""
+
+ # --- Other Modifers ---
+
+ A16_ornery_diplomacy: "Ornery Diplomacy"
+ desc_A16_ornery_diplomacy: ""
+
+ # --- Opinion Modifiers ---
+ stromic_lordaeron_connections: "Lordaeron Connections"
+ stromic_ironforge_connections: "Ironforge Connections"
+ stromic_dalaran_connections: "Dalaran Connections"
+ rejected_stromic_deal: "Rejected Stromic Deal"
  
  # --- Events ---
+ wwu_mission_stromgarde.1.title: "Foreign Claim - Gun Darok"
+ wwu_mission_stromgarde.1.desc: "Recently, a diplomat from the human kingdom of Stromgarde had arrived to our gates with a proposition. They see our old fortress of Gun Darok, located on the border of Hillsbrad and Arathi region as a strategic location. Within the message from the Stromic monarch, they consider paying us a generous price if we decide to abandon our desires to reclaim it, allowing them to settle the old hold. While having the strategic fortress in the area would be always beneficial, we could consider if our relations with them are more valuable than a place we have abandoned before?"
+ wwu_mission_stromgarde.1.option.a: "We can accept such offer."
+ wwu_mission_stromgarde.1.option.b: "We are not interested."
+
+ wwu_mission_stromgarde.2.title: "Rejection of Gun Darok Deal"
+ wwu_mission_stromgarde.2.desc: "Our deal has been rejected by the ruler of the dwarven kingdom."
+ wwu_mission_stromgarde.2.option.a: "We will have it another way, sooner or later."
+
+ wwu_mission_stromgarde.10.title: "Fate of Alterac"
+ wwu_mission_stromgarde.10.desc: "With their realm under our occupation, its time we end their crown once and for all. Alterac and Stromgarde will reunite once more, one way or another."
+ wwu_mission_stromgarde.10.option.a: "They shall serve under the end of days."
+ wwu_mission_stromgarde.10.option.b: "Let them be our loyal dogs for now. In time, they will become one with us."
+ wwu_mission_stromgarde.10.option.c: "I think we can negociate this in another way..."
+
+ wwu_mission_stromgarde.11.title: "Ravenholdt Future"
+ wwu_mission_stromgarde.11.desc: "Stromgarde demands our servitude. They desire our holds and our leaders to anwser to them alone. What will we do?"
+ wwu_mission_stromgarde.11.option.a: "We can't possibly win this."
+ wwu_mission_stromgarde.11.option.b: "Ravenholdt will not submit so easily."
+
+ wwu_mission_stromgarde.20.title: "Military Reforms from Stromgarde Keep"
+ wwu_mission_stromgarde.20.desc: "Recently, our military started to suffer from the lack of proper organization. Many commanders use different strategies, confusing each other in the wake of battle. For this, we have called few notable individuals to propose their ideas for our future tactics."
+ wwu_mission_stromgarde.20.option.a: "We will go with Nilas's proposal."
+ wwu_mission_stromgarde.20.option.b: "We will go with Wrenn's proposal."
+ wwu_mission_stromgarde.20.option.c: "We will go with Valorcall's proposal."
+
+ # --- Tooltips ---
+
+ SPECIALIST_STROMGARDE_SNIPERS_TT: "Unlock the §YStromgarde Sniper Company§! Mercenary Company.\nCompany bonuses are:\n§G+0.5§! Infantry Shock\n§G+0.2%§! Military Tactics"
+
+ stormgarde_flexible_diplomacy_tt: "§YStromgarde§! gets §Y'Flexible Diplomacy'§! until the end of the game, giving:\n- Diplomatic Relations: §G+1§!\n- Aggressive Expansion Impact: §G-10.0%§!\n- Improve Relations: §G+10.0%§!\n\nAdditionally, unlocks the following decisions:\n- §YSettle Claim - Gun Darok§!\n- §YResettlement of Southshore§! \n\n Removes §Y'Ornery Diplomacy'§! modifer from Stromgarde."
+
+ stromgarde_countryside_militarization_trigger_tt: "Every province in §YArathi Highlands§! is owned by Stromgarde and has:\n- Barracks\n- Arsenal\n- Training Grounds"
+
+ stromgarde_no_trolls_tt: "All provinces in §YThe Hinterlands§! are liberated from the §YTroll§! primitive rule."
+
+ stromgarde_troll_defeat_mission_tt: "§GRewards:§!\nUnlock the Nobility Privilege §YTrollbane Duty§! which can be activated if we have any troll presence within our lands.\nGain §Y25§! Prestige or Monarch Power.\nGain §Y10§! Power Projection."
+
+ trollbane_legacy_mission_tt: "All trolls within §YLordaeron§! and §YQuel'thalas§! are eradicated. The era of trolls shall be over."
+
+ STROMKAR_RECOVERY_TT: "If  §RStrom'kar the Warbreaker§! was not recovered by anyone, we will discovery its location immidietly."
+
+ arathi_basin_fortification_tt: "Fortify the Arathi Basin:\n\n• §YArathi Basin§! has a Fort and §Y5 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of above provinces has a Fort."
+
+ unlock_settlement_decisions_tt: "§GUnlock the following Decisions:§!\n• §YSettle Claim - Gun Darok§!\n• §YSettle Claim - Dalaran Southshore§!\n• §YSettle Claim - Lordaeron Southshore§!"
+
+ # === Other Modifiers ---
+ trollbane_conversion_drive: "Trollbane Conversion Drive"
+ trollbane_conversion_drive_desc: "The Nobility is actively working to eradicate Troll cultural influence from our territories."
  
