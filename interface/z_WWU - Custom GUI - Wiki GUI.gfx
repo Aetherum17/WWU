@@ -28,12 +28,12 @@ spriteTypes = {
 	}
     
     spriteType = {
-		name = "GFX_wiki_page_up"
-		texturefile = "gfx/custom_gui/wiki_gui/up_arrow.dds"
+		name = "GFX_wiki_page_left"
+		texturefile = "gfx/custom_gui/wiki_gui/left_arrow_button.dds"
 	}
     
     spriteType = {
-		name = "GFX_wiki_page_down"
-		texturefile = "gfx/custom_gui/wiki_gui/down_arrow.dds"
+		name = "GFX_wiki_page_right"
+		texturefile = "gfx/custom_gui/wiki_gui/right_arrow_button.dds"
 	}
 }

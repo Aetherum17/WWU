@@ -52,7 +52,9 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_no_wiki_category = yes
+        hidden_trigger = {
+            is_viewing_no_wiki_category = yes
+        }
     }
     
     effect = { 
@@ -69,7 +71,9 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_any_wiki_category = yes
+        hidden_trigger = {
+            is_viewing_any_wiki_category = yes
+        }
     }
     
     effect = { 
@@ -91,7 +95,9 @@ custom_button = {
     }
     
     trigger = { 
-        is_wiki_topic_page_2 = yes
+        hidden_trigger = {
+            is_wiki_topic_page_2 = yes
+        }
     }
     
     effect = { 
@@ -109,7 +115,9 @@ custom_button = {
     }
     
     trigger = { 
-        is_wiki_topic_page_1 = yes
+        hidden_trigger = {
+            is_wiki_topic_page_1 = yes
+        }
     }
     
     effect = { 
@@ -129,7 +137,9 @@ custom_button = {
     }
     
     trigger = { 
-        NOT = { is_viewing_any_wiki_category = yes }
+        hidden_trigger = {
+            NOT = { is_viewing_any_wiki_category = yes }
+        }
     }
     
     effect = { 
@@ -156,7 +166,9 @@ custom_button = {
     }
     
     trigger = { 
-        NOT = { is_viewing_any_wiki_category = yes }
+        hidden_trigger = {
+            NOT = { is_viewing_any_wiki_category = yes }
+        }
     }
     
     effect = { 
@@ -187,10 +199,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = overview
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = overview
+            }
         }
     }
     
@@ -213,10 +227,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = warrior
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = warrior
+            }
         }
     }
     
@@ -239,10 +255,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = paladin
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = paladin
+            }
         }
     }
     
@@ -265,10 +283,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = priest
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = priest
+            }
         }
     }
     
@@ -291,10 +311,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = rogue
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = rogue
+            }
         }
     }
     
@@ -317,10 +339,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = mage
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = mage
+            }
         }
     }
     
@@ -343,10 +367,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = warlock
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = warlock
+            }
         }
     }
     
@@ -369,10 +395,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = druid
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = druid
+            }
         }
     }
     
@@ -395,10 +423,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = hunter
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = hunter
+            }
         }
     }
     
@@ -421,10 +451,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = shaman
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = shaman
+            }
         }
     }
     
@@ -447,10 +479,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = death_knight
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = death_knight
+            }
         }
     }
     
@@ -473,10 +507,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = monk
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = monk
+            }
         }
     }
     
@@ -499,10 +535,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = class }
-        has_not_selected_topic = {
-            CATEGORY = class 
-            TOPIC = demon_hunter
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = class }
+            has_not_selected_topic = {
+                CATEGORY = class 
+                TOPIC = demon_hunter
+            }
         }
     }
     
@@ -526,10 +564,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = overview
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = overview
+            }
         }
     }
     
@@ -544,6 +584,35 @@ custom_button = {
 }
 
 custom_button = {
+    name = button_topic_magic_generic
+    tooltip = WIKI_TOPIC_MAGIC_GENERIC_TT
+    
+    potential = {
+        is_wiki_topic_page_1 = yes
+        is_viewing_wiki_category = { CATEGORY = magic }
+    }
+    
+    trigger = { 
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = generic
+            }
+        }
+    }
+    
+    effect = { 
+        clear_wiki_topic_selection = yes
+        
+        view_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+}
+
+custom_button = {
     name = button_topic_magic_arcane
     tooltip = WIKI_TOPIC_MAGIC_ARCANE_TT
     
@@ -553,10 +622,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = arcane
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = arcane
+            }
         }
     }
     
@@ -580,10 +651,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = holy
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = holy
+            }
         }
     }
     
@@ -607,10 +680,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = chi
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = chi
+            }
         }
     }
     
@@ -634,10 +709,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = voodoo
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = voodoo
+            }
         }
     }
     
@@ -661,10 +738,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = nature
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = nature
+            }
         }
     }
     
@@ -688,10 +767,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = necromancy
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = necromancy
+            }
         }
     }
     
@@ -715,10 +796,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = shamanism
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = shamanism
+            }
         }
     }
     
@@ -742,10 +825,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = fel
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = fel
+            }
         }
     }
     
@@ -769,10 +854,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = draconic
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = draconic
+            }
         }
     }
     
@@ -796,10 +883,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = corruption
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = corruption
+            }
         }
     }
     
@@ -823,10 +912,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = shadow
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = shadow
+            }
         }
     }
     
@@ -850,10 +941,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = titanic
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = titanic
+            }
         }
     }
     
@@ -877,10 +970,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = runic
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = runic
+            }
         }
     }
     
@@ -904,10 +999,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = nightmare
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = nightmare
+            }
         }
     }
     
@@ -931,10 +1028,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = earth
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = earth
+            }
         }
     }
     
@@ -958,10 +1057,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = fire
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = fire
+            }
         }
     }
     
@@ -985,10 +1086,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = water
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = water
+            }
         }
     }
     
@@ -1012,10 +1115,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = wind
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = wind
+            }
         }
     }
     
@@ -1039,10 +1144,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = domination
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = domination
+            }
         }
     }
     
@@ -1066,10 +1173,12 @@ custom_button = {
     }
     
     trigger = { 
-        is_viewing_wiki_category = { CATEGORY = magic }
-        has_not_selected_topic = {
-            CATEGORY = magic 
-            TOPIC = soul
+        hidden_trigger = {
+            is_viewing_wiki_category = { CATEGORY = magic }
+            has_not_selected_topic = {
+                CATEGORY = magic 
+                TOPIC = soul
+            }
         }
     }
     
@@ -1161,7 +1270,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1203,7 +1312,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1247,7 +1356,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1310,7 +1419,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1352,7 +1461,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1396,7 +1505,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1459,7 +1568,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1501,7 +1610,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1545,7 +1654,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1608,7 +1717,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1650,7 +1759,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1694,7 +1803,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1757,7 +1866,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1799,7 +1908,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1843,7 +1952,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1906,7 +2015,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1948,7 +2057,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -1992,7 +2101,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2055,7 +2164,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2097,7 +2206,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2141,7 +2250,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2204,7 +2313,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2246,7 +2355,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2290,7 +2399,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2353,7 +2462,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2395,7 +2504,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2439,7 +2548,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2502,7 +2611,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2544,7 +2653,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2588,7 +2697,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2651,7 +2760,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2693,7 +2802,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2737,7 +2846,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2800,7 +2909,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2842,7 +2951,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2886,7 +2995,7 @@ custom_button = {
     }
     
     trigger = { 
-        always = yes
+        hidden_trigger = { always = yes }
     }
     
     effect = { 
@@ -2900,8 +3009,415 @@ custom_button = {
 # Magic: Information
 #----------------------------------------
 # Magic: Overview
+custom_text_box = {
+   name = wiki_text_magic_overview_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = overview
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_overview_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = overview
+        }
+   }
+}
+
+# Magic: Generic
+custom_text_box = {
+   name = wiki_text_magic_generic_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_generic_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_generic_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_generic_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_1
+    tooltip = GENERIC_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            conjure_gold_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_2
+    tooltip = GENERIC_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            inspire_glory_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_3
+    tooltip = GENERIC_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            purge_opponents_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_4
+    tooltip = GENERIC_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            splendiferous_show_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_5
+    tooltip = GENERIC_SPELL_5_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            arouse_support_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_6
+    tooltip = GENERIC_SPELL_6_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            soothe_population_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_7
+    tooltip = GENERIC_SPELL_7_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            quell_fear_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_8
+    tooltip = GENERIC_SPELL_8_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            rally_soldiers_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_9
+    tooltip = GENERIC_SPELL_9_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            rally_sailors_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_generic_spell_10
+    tooltip = GENERIC_SPELL_10_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = generic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            galvinize_creativity_preview = yes
+        }
+    }
+}
 
 # Magic: Arcane
+custom_text_box = {
+   name = wiki_text_magic_arcane_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_arcane_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_arcane_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_arcane_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_1
+    tooltip = ARCANE_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            polymorph_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_2
+    tooltip = ARCANE_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            presence_of_mind_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_3
+    tooltip = ARCANE_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            touch_of_the_magi_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_arcane_spell_4
+    tooltip = ARCANE_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = arcane
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            alter_time_preview = yes
+        }
+    }
+}
 
 # Magic: Holy
 

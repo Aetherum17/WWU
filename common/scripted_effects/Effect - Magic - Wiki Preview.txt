@@ -1,0 +1,629 @@
+#-----------------------------------
+# Previews
+#-----------------------------------
+# Remember to sync any spell changes here
+
+# Generic
+conjure_gold_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_treasury = 500
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_treasury = 400
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_treasury = 300
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_treasury = 200
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_treasury = 100
+}
+
+inspire_glory_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_1 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_prestige = 25
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_prestige = 20
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_prestige = 15
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_prestige = 10
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_prestige = 5
+}
+
+purge_opponents_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_corruption = -5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_corruption = -4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_corruption = -3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_corruption = -2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_corruption = -1
+}
+
+splendiferous_show_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_splendor = 100
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_splendor = 80
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_splendor = 60
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_splendor = 40
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_splendor = 20
+}
+
+arouse_support_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_legitimacy = 25
+    add_republican_tradition = 25
+    add_devotion = 25
+    add_horde_unity = 25
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_legitimacy = 20
+    add_republican_tradition = 20
+    add_devotion = 20
+    add_horde_unity = 20
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_legitimacy = 15
+    add_republican_tradition = 15
+    add_devotion = 15
+    add_horde_unity = 15
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_legitimacy = 10
+    add_republican_tradition = 10
+    add_devotion = 10
+    add_horde_unity = 10
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_legitimacy = 5
+    add_republican_tradition = 5
+    add_devotion = 5
+    add_horde_unity = 5
+}
+
+soothe_population_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = SOOTHE_POP_STAB_BOOST_LEGENDARY_MET
+    add_stability = 2
+    custom_tooltip = SOOTHE_POP_STAB_BOOST_LEGENDARY_MISSED
+    add_stability = 1
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = SOOTHE_POP_STAB_BOOST_EPIC_MET
+    add_stability = 2
+    custom_tooltip = SOOTHE_POP_STAB_BOOST_EPIC_MISSED
+    add_stability = 1
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = SOOTHE_POP_STAB_BOOST_RARE_MET
+    add_stability = 2
+    custom_tooltip = SOOTHE_POP_STAB_BOOST_RARE_MISSED
+    add_stability = 1
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_stability = 1
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_stability = 1
+}
+
+quell_fear_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_war_exhaustion = -5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_war_exhaustion = -4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_war_exhaustion = -3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_war_exhaustion = -2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_war_exhaustion = -1
+}
+
+rally_soldiers_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_yearly_manpower = 5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_yearly_manpower = 4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_yearly_manpower = 3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_yearly_manpower = 2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_yearly_manpower = 1
+}
+
+rally_sailors_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_2 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_3 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_yearly_sailors = 5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_yearly_sailors = 4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_yearly_sailors = 3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_yearly_sailors = 2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_yearly_sailors = 1
+}
+
+galvinize_creativity_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    change_government_reform_progress = 100
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    change_government_reform_progress = 80
+    
+    custom_tooltip = AT_RARE_FINESSE
+    change_government_reform_progress = 60
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    change_government_reform_progress = 40
+    
+    custom_tooltip = AT_POOR_FINESSE
+    change_government_reform_progress = 20
+}
+
+# Arcane
+polymorph_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = AFFECTS_5_PROVINCES
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = AFFECTS_4_PROVINCES
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = AFFECTS_3_PROVINCES
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = AFFECTS_2_PROVINCES
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = AFFECTS_1_PROVINCES
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = EXACT_POLYMORPH_EFFECT
+    capital_scope = {
+        add_province_modifier = {
+            name = polymorph_modifier
+            duration = 3650
+        }
+    }
+}
+
+presence_of_mind_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_7 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_7 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_8 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_8 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_adm_power = 100
+    add_dip_power = 100
+    add_mil_power = 100
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_adm_power = 80
+    add_dip_power = 80
+    add_mil_power = 80
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_adm_power = 60
+    add_dip_power = 60
+    add_mil_power = 60
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_adm_power = 40
+    add_dip_power = 40
+    add_mil_power = 40
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_adm_power = 20
+    add_dip_power = 20
+    add_mil_power = 20
+}
+
+touch_of_the_magi_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_CONCENTRATION
+    custom_tooltip = AT_LEGENDARY_DURATION
+    
+    custom_tooltip = AT_EPIC_CONCENTRATION
+    custom_tooltip = AT_EPIC_DURATION
+    
+    custom_tooltip = AT_RARE_CONCENTRATION
+    custom_tooltip = AT_RARE_DURATION
+    
+    custom_tooltip = AT_COMMON_CONCENTRATION
+    custom_tooltip = AT_COMMON_DURATION
+    
+    custom_tooltip = AT_POOR_CONCENTRATION
+    custom_tooltip = AT_POOR_DURATION
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_country_modifier = {
+        name = touch_of_the_magi_legendary
+        duration = -1
+    }
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_country_modifier = {
+        name = touch_of_the_magi_epic
+        duration = -1
+    }
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_country_modifier = {
+        name = touch_of_the_magi_rare
+        duration = -1
+    }
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_country_modifier = {
+        name = touch_of_the_magi_common
+        duration = -1
+    }
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_country_modifier = {
+        name = touch_of_the_magi_poor
+        duration = -1
+    }
+}
+
+alter_time_preview = {
+    custom_tooltip = AT_LEGENDARY_APTITUDE
+    lose_mana_4 = yes
+    
+    custom_tooltip = AT_EPIC_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_RARE_APTITUDE
+    lose_mana_5 = yes
+    
+    custom_tooltip = AT_COMMON_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = AT_POOR_APTITUDE
+    lose_mana_6 = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_CONCENTRATION
+    custom_tooltip = AT_LEGENDARY_DURATION
+    
+    custom_tooltip = AT_EPIC_CONCENTRATION
+    custom_tooltip = AT_EPIC_DURATION
+    
+    custom_tooltip = AT_RARE_CONCENTRATION
+    custom_tooltip = AT_RARE_DURATION
+    
+    custom_tooltip = AT_COMMON_CONCENTRATION
+    custom_tooltip = AT_COMMON_DURATION
+    
+    custom_tooltip = AT_POOR_CONCENTRATION
+    custom_tooltip = AT_POOR_DURATION
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_country_modifier = {
+        name = alter_time_legendary
+        duration = -1
+    }
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_country_modifier = {
+        name = alter_time_epic
+        duration = -1
+    }
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_country_modifier = {
+        name = alter_time_rare
+        duration = -1
+    }
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_country_modifier = {
+        name = alter_time_common
+        duration = -1
+    }
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_country_modifier = {
+        name = alter_time_poor
+        duration = -1
+    }
+    
+}
+
+# Holy
+
+# Chi
+
+# Voodoo
+
+# Nature
+
+# Necromancy
+
+# Shamanism
+
+# Fel
+
+# Draconic
+
+# Corruption
+
+# Shadow
+
+# Titanic
+
+# Runic
+
+# Nightmare
+
+# Earth
+
+# Fire
+
+# Water
+
+# Wind
+
+# Domination
+
+# Soul

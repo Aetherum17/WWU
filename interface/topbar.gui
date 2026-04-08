@@ -1750,16 +1750,16 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_page_up"
-                position = { x = 205 y = 140 }
-                quadTextureSprite ="GFX_wiki_page_up"
+                position = { x = 93 y = 699 }
+                quadTextureSprite ="GFX_wiki_page_left"
                 Orientation = "UPPER_LEFT"
                 scripted = yes
             }
             
             guiButtonType = {
                 name = "button_page_down"
-                position = { x = 205 y = 620 }
-                quadTextureSprite ="GFX_wiki_page_down"
+                position = { x = 93 y = 699 }
+                quadTextureSprite ="GFX_wiki_page_right"
                 Orientation = "UPPER_LEFT"
                 scripted = yes
             }
@@ -1947,8 +1947,17 @@ guiTypes = {
             }
             
             guiButtonType = {
-                name = "button_topic_magic_arcane"
+                name = "button_topic_magic_generic"
                 position = { x = 30 y = 170 }
+                quadTextureSprite ="GFX_wiki_topic_option"
+                buttonText = "WIKI_TOPIC_MAGIC_GENERIC"
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "button_topic_magic_arcane"
+                position = { x = 30 y = 200 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_ARCANE"
                 buttonFont = "vic_18"
@@ -1957,7 +1966,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_holy"
-                position = { x = 30 y = 200 }
+                position = { x = 30 y = 230 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_HOLY"
                 buttonFont = "vic_18"
@@ -1966,7 +1975,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_chi"
-                position = { x = 30 y = 230 }
+                position = { x = 30 y = 260 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_CHI"
                 buttonFont = "vic_18"
@@ -1975,7 +1984,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_voodoo"
-                position = { x = 30 y = 260 }
+                position = { x = 30 y = 290 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_VOODOO"
                 buttonFont = "vic_18"
@@ -1984,7 +1993,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_nature"
-                position = { x = 30 y = 290 }
+                position = { x = 30 y = 320 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_NATURE"
                 buttonFont = "vic_18"
@@ -1993,7 +2002,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_necromancy"
-                position = { x = 30 y = 320 }
+                position = { x = 30 y = 350 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_NECROMANCY"
                 buttonFont = "vic_18"
@@ -2002,7 +2011,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_shamanism"
-                position = { x = 30 y = 350 }
+                position = { x = 30 y = 380 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_SHAMANISM"
                 buttonFont = "vic_18"
@@ -2011,7 +2020,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_fel"
-                position = { x = 30 y = 380 }
+                position = { x = 30 y = 410 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_FEL"
                 buttonFont = "vic_18"
@@ -2020,7 +2029,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_draconic"
-                position = { x = 30 y = 410 }
+                position = { x = 30 y = 440 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_DRACONIC"
                 buttonFont = "vic_18"
@@ -2029,7 +2038,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_corruption"
-                position = { x = 30 y = 440 }
+                position = { x = 30 y = 470 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_CORRUPTION"
                 buttonFont = "vic_18"
@@ -2038,7 +2047,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_shadow"
-                position = { x = 30 y = 470 }
+                position = { x = 30 y = 500 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_SHADOW"
                 buttonFont = "vic_18"
@@ -2047,7 +2056,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_titanic"
-                position = { x = 30 y = 500 }
+                position = { x = 30 y = 530 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_TITANIC"
                 buttonFont = "vic_18"
@@ -2056,7 +2065,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_runic"
-                position = { x = 30 y = 530 }
+                position = { x = 30 y = 560 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_RUNIC"
                 buttonFont = "vic_18"
@@ -2065,7 +2074,7 @@ guiTypes = {
             
             guiButtonType = {
                 name = "button_topic_magic_nightmare"
-                position = { x = 30 y = 560 }
+                position = { x = 30 y = 590 }
                 quadTextureSprite ="GFX_wiki_topic_option"
                 buttonText = "WIKI_TOPIC_MAGIC_NIGHTMARE"
                 buttonFont = "vic_18"
@@ -3611,8 +3620,287 @@ guiTypes = {
             # Information: Magic
             #----------------------
             # Overview
+            instantTextBoxType = {
+                name = "wiki_text_magic_overview_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_overview_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            # Generic
+            instantTextBoxType = {
+                name = "wiki_text_magic_generic_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_generic_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_generic_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_generic_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_5"
+                position = { x = 480 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_5"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_6"
+                position = { x = 540 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_6"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_7"
+                position = { x = 600 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_7"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_8"
+                position = { x = 660 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_8"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_9"
+                position = { x = 720 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_9"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_generic_spell_10"
+                position = { x = 780 y = 280 }
+                quadTextureSprite ="GFX_spell_generic_10"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Arcane
+            instantTextBoxType = {
+                name = "wiki_text_magic_arcane_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_arcane_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_arcane_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_arcane_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_arcane_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_arcane_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # holy
             

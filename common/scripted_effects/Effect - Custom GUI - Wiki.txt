@@ -32,6 +32,7 @@ clear_wiki_topic_selection = {
     
     # Magic Schools
     clr_country_flag = wiki_topic__magic__overview
+    clr_country_flag = wiki_topic__magic__generic
     clr_country_flag = wiki_topic__magic__arcane
     clr_country_flag = wiki_topic__magic__holy
     clr_country_flag = wiki_topic__magic__chi

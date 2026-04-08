@@ -76,7 +76,7 @@
  
  # Overview
  wiki_text_class_overview_top: "Overview"
- wiki_text_class_overview_info: "A ruler may train into one of the twelve classes present in Azeroth.\n\nTo do this, they will need to undertake a §YClass Study§! within the §YCourt§! menu.\n\nEach month, the ruler has a chance to gain §Y0.1§! to §Y1.0§! progress point within their study.\nOnce this value reaches §Y100§!, they will be assigned the class.\n\nEach class will bestow the ruler with a passive modifier and three active abilities.\nThe active abilities cost §YEnergy§! to use.\n\n§YEnergy§! has a §Y5%§! chance to regenerate by §Y1§! each month, capping at a maximum of §Y5§!.\n\n§YInstitutional Knowledge§! for each class is built up when a ruler learns that class.\nThis adds §Y+20§! to the starting progress points of §YClass Study§! for future rulers that study that class.\nThe maximum starting progress points this can apply is §Y+80§!."
+ wiki_text_class_overview_info: "A ruler may train into one of the twelve classes present in Azeroth.\n\nTo do this, they will need to undertake a §YClass Study§! within the §YCourt§! menu.\n\nEach month, the ruler has a chance to gain §Y0.1§! to §Y1.0§! progress points within their study.\nOnce this value reaches §Y100§!, they will be assigned the class.\n\nEach class will bestow the ruler with a passive modifier and three active abilities.\nThe active abilities cost §YEnergy§! to use.\n\n§YEnergy§! has a §Y5%§! chance to regenerate by §Y1§! each month, capping at a maximum of §Y5§!.\n\n§YInstitutional Knowledge§! for each class is built up when a ruler learns that class.\nThis adds §Y+20§! to the starting progress points of §YClass Study§! for future rulers that study that class.\nThe maximum starting progress points this can apply is §Y+80§!."
  
  # Warrior
  wiki_text_class_warrior_top: "Warrior"
@@ -180,6 +180,9 @@
  WIKI_TOPIC_MAGIC_OVERVIEW: "Overview"
  WIKI_TOPIC_MAGIC_OVERVIEW_TT: "Covers the shared elements of the ruler magic system."
  
+ WIKI_TOPIC_MAGIC_GENERIC: "Generic"
+ WIKI_TOPIC_MAGIC_GENERIC_TT: "Covers the Generic magic information."
+ 
  WIKI_TOPIC_MAGIC_ARCANE: "Arcane"
  WIKI_TOPIC_MAGIC_ARCANE_TT: "Covers the Arcane magic information."
  
@@ -240,3 +243,99 @@
  WIKI_TOPIC_MAGIC_SOUL: "Soul"
  WIKI_TOPIC_MAGIC_SOUL_TT: "Covers the Soul magic information."
  
+ PREVIEW_SPACER: "---------------"
+ 
+ AT_LEGENDARY_FINESSE: "§YLegendary Finesse:§!"
+ AT_EPIC_FINESSE: "§YEpic Finesse:§!"
+ AT_RARE_FINESSE: "§YRare Finesse:§!"
+ AT_COMMON_FINESSE: "§YCommon Finesse:§!"
+ AT_POOR_FINESSE: "§YPoor Finesse:§!"
+ 
+ AT_LEGENDARY_APTITUDE: "§YLegendary Aptitude:§!"
+ AT_EPIC_APTITUDE: "§YEpic Aptitude:§!"
+ AT_RARE_APTITUDE: "§YRare Aptitude:§!"
+ AT_COMMON_APTITUDE: "§YCommon Aptitude:§!"
+ AT_POOR_APTITUDE: "§YPoor Aptitude:§!"
+ 
+ AT_LEGENDARY_CONCENTRATION: "§YLegendary Concentration:§!"
+ AT_EPIC_CONCENTRATION: "§YEpic Concentration:§!"
+ AT_RARE_CONCENTRATION: "§YRare Concentration:§!"
+ AT_COMMON_CONCENTRATION: "§YCommon Concentration:§!"
+ AT_POOR_CONCENTRATION: "§YPoor Concentration:§!"
+ 
+ AFFECTS_5_PROVINCES: "Affects §Y5§! Provinces."
+ AFFECTS_4_PROVINCES: "Affects §Y4§! Provinces."
+ AFFECTS_3_PROVINCES: "Affects §Y3§! Provinces."
+ AFFECTS_2_PROVINCES: "Affects §Y2§! Provinces."
+ AFFECTS_1_PROVINCES: "Affects §Y1§! Provinces."
+ 
+ AT_LEGENDARY_DURATION: "Modifier lasts for §Y3650§! days."
+ AT_EPIC_DURATION: "Modifier lasts for §Y2920§! days."
+ AT_RARE_DURATION: "Modifier lasts for §Y2190§! days."
+ AT_COMMON_DURATION: "Modifier lasts for §Y1460§! days."
+ AT_POOR_DURATION: "Modifier lasts for §Y730§! days."
+ 
+ # Overview
+ wiki_text_magic_overview_top: "Overview"
+ wiki_text_magic_overview_info: "A ruler may train as a spellcaster within one of the twenty schools of magic.\n\nTo do this, they will need to undertake a §YMagical Study§! within the §YCourt§! menu.\n\nEach month, the ruler has a chance to gain §Y0.1§! to §Y1.0§! progress points within their study.\nOnce this value reaches §Y100§!, they will be become a spellcaster, gaining access to ten generic spells.\n\nThe school the ruler chose will grant additional school-specific spells.\nEach spell costs §YMana§! to use.\n\n§YMana§! has a §Y5%§! chance to regenerate by §Y1§! each month, capping at a maximum of §Y10§!.\n\n§YInstitutional Knowledge§! is built up when a ruler learns to become a spellcaster.\nThis adds §Y+5§! to the starting progress points of §YMagical Study§! for future rulers that study spellcasting.\nThe maximum starting progress points this can apply is §Y+80§!.\n\nEach spellcaster has three stats:\n\n§YAptitude§!\nReduces the amount of mana each spell costs.\n\n§YFinesse§!\nIncreases the potency of each spell.\n\n§YConcentration§!\nIncreases the duration of spells that apply modifiers over a duration."
+ 
+ # Generic
+ wiki_text_magic_generic_top: "Generic"
+ wiki_text_magic_generic_info: "These are the spells given to a spellcaster, no matter which school they belong to."
+ 
+ wiki_text_magic_generic_spell_banner_text: "Spells"
+ 
+ SOOTHE_POP_STAB_BOOST_LEGENDARY_MET: "If Stability is below 0:"
+ SOOTHE_POP_STAB_BOOST_LEGENDARY_MISSED: "If Stability is above 0:"
+ 
+ SOOTHE_POP_STAB_BOOST_EPIC_MET: "If Stability is below -1:"
+ SOOTHE_POP_STAB_BOOST_EPIC_MISSED: "If Stability is above -1:"
+ 
+ SOOTHE_POP_STAB_BOOST_RARE_MET: "If Stability is below -2:"
+ SOOTHE_POP_STAB_BOOST_RARE_MISSED: "If Stability is above -2:"
+ 
+ # Arcane
+ wiki_text_magic_arcane_top: "Arcane"
+ wiki_text_magic_arcane_info: "These are the spells given to a spellcaster that belongs to the Arcane school."
+ 
+ wiki_text_magic_arcane_spell_banner_text: "Spells"
+ 
+ EXACT_POLYMORPH_EFFECT: "Applies the following modifier to a random province with non-primary culture or religion:"
+ 
+ # Holy
+ 
+ # Chi
+ 
+ # Voodoo
+ 
+ # Nature
+ 
+ # Necromancy
+ 
+ # Shamanism
+ 
+ # Fel
+ 
+ # Draconic
+ 
+ # Corruption
+ 
+ # Shadow
+ 
+ # Titanic
+ 
+ # Runic
+ 
+ # Nightmare
+ 
+ # Earth
+ 
+ # Fire
+ 
+ # Water
+ 
+ # Wind
+ 
+ # Domination
+ 
+ # Soul
