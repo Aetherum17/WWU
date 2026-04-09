@@ -5,6 +5,10 @@
  wwu_federation_adv_options.1.title: "Birth of the Maruuk Horde"
  wwu_federation_adv_options.1.desc: "At the time of our greatest moment as a federation, we have to make an important decision as its leader!"
  wwu_federation_adv_options.1.a: "Rise of the Maruuk Horde!"
- wwu_federation_adv_options.1.b: "WE ARE THE MARUUK HORDE! Assemble the allies!"
- wwu_federation_adv_options.1.c: "We will stay tribal"
- wwu_federation_adv_options.1.d: "We will stay tribal but our allies own us... their freedom!"
+ wwu_federation_adv_options.1.b: "We will stay tribal"
+ wwu_federation_adv_options.1.c: "We will stay tribal but our allies own us... their freedom!"
+ 
+ wwu_federation_adv_options.2.title: "The Return of a Horde or Reassurance of the Federation?"
+ wwu_federation_adv_options.2.desc: "We finally brought forth the symbol of our people, but will we lead to protect the federation or to declare a war to conquer the world?"
+ wwu_federation_adv_options.2.a: "Rise of the Maruuk Horde!"
+ wwu_federation_adv_options.2.b: "The Maruuk will lead the federation!"

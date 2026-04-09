@@ -1245,7 +1245,7 @@ wwu_native_settle_down_reform = {
 	}
 
 	ai = {
-		factor = 1
+		factor = 2
 	}
 }
 
