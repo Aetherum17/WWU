@@ -17,10 +17,22 @@ country_event = {
 		    limit = {			    
 				has_reform = settled_centaur_reform
 			}
-		    every_tribal_land_province = {
-			    limit = { NOT = { owner = { exists = yes } } }
-			    settle_province = ROOT
-			}
+			
+			every_federation_member = {
+			    remove_government_reform = migratory_centaur_reform
+				add_government_reform = settled_centaur_reform
+                every_tribal_land_province = {
+                    limit = {
+                        tribal_land_of = PREV
+                    }
+                    cede_province = PREV
+                    add_core = PREV
+                }
+				every_tribal_land_province = {
+			        limit = { NOT = { owner = { exists = yes } } }
+			        settle_province = ROOT
+			    }
+            }			
 		}
 		
 		change_tag = MC8
@@ -52,10 +64,22 @@ country_event = {
 		    limit = {			    
 				has_reform = settled_centaur_reform
 			}
-		    every_tribal_land_province = {
-			    limit = { NOT = { owner = { exists = yes } } }
-			    settle_province = ROOT
-			}
+
+		    every_federation_member = {
+			    remove_government_reform = migratory_centaur_reform
+				add_government_reform = settled_centaur_reform
+                every_tribal_land_province = {
+                    limit = {
+                        tribal_land_of = PREV
+                    }
+                    cede_province = PREV
+                    add_core = PREV
+                }
+				every_tribal_land_province = {
+			        limit = { NOT = { owner = { exists = yes } } }
+			        settle_province = ROOT
+			    }
+            }
 		}
 		
 		change_tag = MC8
@@ -99,24 +123,30 @@ country_event = {
 		name = wwu_federation_adv_options.1.d
 		#Stay Tribal but Diplo Vassalize Members
 		
-		add_country_modifier = {
-			name = mission_one_tribe_to_rule_them_all
-			duration = -1
-		}
-		every_federation_member = {
-            limit = {
-                has_opinion = {
-				    who = ROOT
-					value = 100
-				}
-            }
-			ROOT = {
-                create_subject = {
-                    subject_type = tributary_vassal
-                    subject = PREV
+		if = {
+		    limit = {			    
+				has_reform = migratory_centaur_reform
+			}
+			
+		    add_country_modifier = {
+			    name = mission_one_tribe_to_rule_them_all
+			    duration = -1
+		    }
+		    every_federation_member = {
+                limit = {
+                    has_opinion = {
+			    	    who = ROOT
+			    		value = 100
+			    	}
                 }
-            }
-        } 
+		    	ROOT = {
+                    create_subject = {
+                        subject_type = tributary_vassal
+                        subject = PREV
+                    }
+                }
+			}
+        }
 		ai_chance = {
 			factor = 3
 		}

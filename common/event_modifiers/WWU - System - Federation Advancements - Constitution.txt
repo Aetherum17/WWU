@@ -3,12 +3,12 @@
 #---------------------------------------
 mission_loyalty_to_the_federation = {
 	monthly_federation_favor_growth = 0.05 
-	tribal_development_growth = 0.02
+	tribal_development_growth = 0.04
 	diplomatic_reputation = 2
 }
 
 mission_one_tribe_to_rule_them_all = {
-	liberty_desire_from_subject_development = -0.25
+	development_cost_in_primary_culture = -0.2 
 	monarch_power_tribute = 1 
-	governing_capacity = 100 
+	tribal_development_growth = 0.08
 }
