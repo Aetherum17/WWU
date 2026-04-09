@@ -14,11 +14,11 @@ custom_button = {
         is_federation_leader = yes
         NOT = { has_country_modifier = increased_federation_standing }
         
-        dip_power = 200
+        dip_power = 150
     }
     
     effect = { 
-        add_dip_power = -200
+        add_dip_power = -150
         
         add_country_modifier = {
             name = increased_federation_standing
@@ -64,11 +64,11 @@ custom_button = {
         is_federation_leader = yes
         NOT = { has_country_modifier = increased_federation_influence }
         
-        mil_power = 250
+        mil_power = 180
     }
     
     effect = { 
-        add_mil_power = -250
+        add_mil_power = -180
         
         add_country_modifier = {
             name = increased_federation_influence
