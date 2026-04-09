@@ -14,17 +14,17 @@ country_event = {
 		# Re-establish the Maruuk Horde and Unify the Federation
 		
 		trigger = {
-		    has_reform = settled_centaur_reform
+		    has_reform = wwu_native_settle_down_reform
 		}
 		
 		if = {
 		    limit = {			    
-				has_reform = settled_centaur_reform
+				has_reform = wwu_native_settle_down_reform
 			}
 			
 			every_federation_member = {
-			    remove_government_reform = migratory_centaur_reform
-				add_government_reform = settled_centaur_reform
+			    remove_government_reform = wwu_native_seasonal_travel_reform
+				add_government_reform = wwu_native_settle_down_reform
                 every_tribal_land_province = {
                     limit = {
                         tribal_land_of = PREV
@@ -65,17 +65,17 @@ country_event = {
 		# Re-establish the Maruuk Horde and Federation Diplo Depedancy 
 		
 		trigger = {
-		    has_reform = settled_centaur_reform
+		    has_reform = wwu_native_settle_down_reform
 		}
 		
 		if = {
 		    limit = {			    
-				has_reform = settled_centaur_reform
+				has_reform = wwu_native_settle_down_reform
 			}
 
 		    every_federation_member = {
-			    remove_government_reform = migratory_centaur_reform
-				add_government_reform = settled_centaur_reform
+			    remove_government_reform = wwu_native_seasonal_travel_reform
+				add_government_reform = wwu_native_settle_down_reform
                 every_tribal_land_province = {
                     limit = {
                         tribal_land_of = PREV
@@ -115,12 +115,12 @@ country_event = {
 		#Stay Tribal but Diplo Vassalize Members
 		
 		trigger = {
-		    has_reform = migratory_centaur_reform
+		    has_reform = wwu_native_seasonal_travel_reform
 		}
 		
 		if = {
 		    limit = {			    
-				has_reform = migratory_centaur_reform
+				has_reform = wwu_native_seasonal_travel_reform
 			}
 			
 		    add_country_modifier = {
