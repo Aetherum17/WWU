@@ -9,9 +9,13 @@ FORMABLES:
 
 ARTIFACTS:
 -Staff of Antonidas
--Empowered Staff of Antonidas
+-Empowered Staff of Antonidas (Staff of Antonidas is given to Dalaran up to 615.1.1 and then to Theramore from 617 onwards.)
 
-Staff of Antonidas is given to Dalaran up to 615.1.1 and then to Theramore from 617 onwards.
+
+GAMEPLAY:
+MARUUK FEDERATION:
+-Balanced Federation Advancement bonuses
+-Twicked the way with which the horde is formed by the final advancement, fixing firing issues and cleaner options
 
 
 #--------------------------------------------------------
