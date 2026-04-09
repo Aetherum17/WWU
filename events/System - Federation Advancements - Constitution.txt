@@ -13,6 +13,10 @@ country_event = {
 		name = wwu_federation_adv_options.1.a
 		# Re-establish the Maruuk Horde and Unify the Federation
 		
+		trigger = {
+		    has_reform = settled_centaur_reform
+		}
+		
 		if = {
 		    limit = {			    
 				has_reform = settled_centaur_reform
@@ -60,6 +64,10 @@ country_event = {
 		name = wwu_federation_adv_options.1.b
 		# Re-establish the Maruuk Horde and Federation Diplo Depedancy 
 		
+		trigger = {
+		    has_reform = settled_centaur_reform
+		}
+		
 		if = {
 		    limit = {			    
 				has_reform = settled_centaur_reform
@@ -83,24 +91,7 @@ country_event = {
 		}
 		
 		change_tag = MC8
-		trigger_ni_switch = yes
-		
-		add_government_reform = maruuk_centaur_horde_reform
-		
-		every_federation_member = {
-            limit = {
-                has_opinion = {
-				    who = ROOT
-					value = 100
-				}
-            }
-            ROOT = {
-                create_subject = {
-                    subject_type = tributary_vassal
-                    subject = PREV
-                }
-            }
-        } 
+		trigger_ni_switch = yes			
 		
 		ai_chance = {
 			factor = 1
@@ -122,6 +113,10 @@ country_event = {
 	option = {
 		name = wwu_federation_adv_options.1.d
 		#Stay Tribal but Diplo Vassalize Members
+		
+		trigger = {
+		    has_reform = migratory_centaur_reform
+		}
 		
 		if = {
 		    limit = {			    
