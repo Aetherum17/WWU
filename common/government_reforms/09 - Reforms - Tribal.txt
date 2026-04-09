@@ -679,7 +679,7 @@ wwu_native_oral_tradition_reform = {
 	modifiers = {
 		monthly_reform_progress_modifier = 0.25
 		tolerance_heathen = 1
-		tribal_development_growth = 0.01
+		tribal_development_growth = 0.04
 	}
 
 	ai = {
@@ -1200,7 +1200,7 @@ wwu_tribal_structure_nomadic_kinship = {
 wwu_native_seasonal_travel_reform = {
 	icon = "tour_of_duty"
 	fixed_rank = 0
-	lock_level_when_selected    = yes
+	lock_level_when_selected    = no
 	
 	potential = {
         has_reform = migratory_centaur_reform
@@ -1211,7 +1211,7 @@ wwu_native_seasonal_travel_reform = {
 	}
 	modifiers = {
 		migration_cost = -0.25
-		tribal_development_growth = 0.02
+		tribal_development_growth = 0.04
 	}
     allow_migration = yes
 
