@@ -17,20 +17,11 @@ federal_constitution = {
 	effect = {		
 		if = {
 		    limit = {
-			    has_reform = migratory_centaur_reform
+			    OR = {
+			        has_reform = migratory_centaur_reform
+				    has_reform = settled_centaur_reform
+				}
 			}
-		    
-            # Each member gets their current tribal land as proper land
-            every_federation_member = {
-                every_tribal_land_province = {
-                    limit = {
-                        tribal_land_of = PREV
-                    }
-                    cede_province = PREV
-                    add_core = PREV
-                }
-            }
-            
 			country_event = {
 			    id = wwu_federation_adv_options.1
             }
@@ -89,7 +80,7 @@ joint_grain_depots = {
 	}
 
 	modifier = {
-		tribal_development_growth = 0.04
+		tribal_development_growth = 0.08
 		add_tribal_land_cost = -0.25 
 	}
 
