@@ -11,7 +11,10 @@ federal_constitution = {
 	can_pick = {
 		# Need all other advancements
 		num_federation_advancements = 7
-		is_migratory_tribe = no
+		OR = {
+			has_reform = wwu_civilization_the_old_way
+		    has_reform = wwu_civilization_synthesis_of_experience
+		}
 	}
 
 	effect = {		
