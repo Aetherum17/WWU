@@ -20,6 +20,7 @@ religious_school = the_lightforged
         birth_date = 100.1.1
  	} 
     
+    set_ruler_flag = priest_personality
     set_ruler_flag = ruler_portrait_velen
     set_ruler_flag = is_immortal
     
@@ -42,6 +43,7 @@ religious_school = the_lightforged
         birth_date = 210.1.1
 	}  
     
+    set_ruler_flag = priest_personality
     clr_ruler_flag = ruler_portrait_velen
     set_ruler_flag = is_immortal
     
@@ -69,6 +71,7 @@ religious_school = the_lightforged
         birth_date = 350.1.1
 	}  
     
+    set_ruler_flag = priest_personality
     set_ruler_flag = is_immortal
     
     setup_spellcaster_history = {

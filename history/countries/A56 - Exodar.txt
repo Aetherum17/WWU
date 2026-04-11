@@ -26,6 +26,10 @@ historical_friend = STW
         MANA = 5
         holy = yes
     }
+    
+    set_ruler_flag = priest_personality
+    set_ruler_flag = ruler_portrait_velen
+    set_ruler_flag = is_immortal
 } 
 
 597.1.1 = {

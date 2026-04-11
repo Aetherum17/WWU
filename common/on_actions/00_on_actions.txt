@@ -1176,6 +1176,9 @@ on_yearly_pulse = {
         # Dwarf
         100 = wwu_dwarf.11                                # Dwarves At War
         
+        # Exodar (AI only)
+        500 = wwu_exodar.10
+        
         # None
         1000 = 0
     }

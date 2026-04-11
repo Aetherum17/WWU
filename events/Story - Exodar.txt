@@ -196,3 +196,252 @@ country_event = {
 		}
     }
 }
+
+
+# The Exodar (AI only)
+country_event = {
+	id = wwu_exodar.10
+	title = wwu_exodar.10.title
+	desc = wwu_exodar.10.desc
+	picture = PRIDE_OF_EXODAR_eventPicture
+    
+	major = yes
+    
+    trigger = {
+        ai = yes
+        
+        NOT = { exists = A56 }
+        NOT = { has_global_flag = exodar_escaped }
+        
+        # Only occur once Outland exists
+        has_global_flag = setup_outland
+        
+        # Less than 10 provinces have a Draenei owner in Outland
+        NOT = {
+            calc_true_if = {
+                any_province = {
+                    continent = continent_outland
+                    owner = {
+                        culture_group = culture_group_draenei
+                    }
+                }
+                
+                amount = 10
+            }
+        }
+    }
+
+    immediate = {
+        set_global_flag = exodar_escaped
+        
+        hidden_effect = {
+            random_province = {
+                limit = {
+                    OR = {
+                        superregion = ek_lordaeron_superregion
+                        superregion = ek_khaz_modan_superregion
+                        superregion = ek_azeroth_superregion
+                    }
+                    
+                    owner = {
+                        ai = yes
+                    }
+                }
+                
+                save_event_target_as = east_province
+            }
+            random_province = {
+                limit = {
+                    OR = {
+                        superregion = northern_kalimdor_superregion
+                        superregion = central_kalimdor_superregion
+                        superregion = southern_kalimdor_superregion
+                    }
+                    
+                    owner = {
+                        ai = yes
+                    }
+                }
+                
+                save_event_target_as = west_province
+            }
+            random_province = {
+                limit = {
+                    superregion = northrend_superregion
+                    
+                    owner = {
+                        ai = yes
+                    }
+                }
+                
+                save_event_target_as = north_province
+            }
+            random_province = {
+                limit = {
+                    superregion = pandaria_superregion
+                    
+                    owner = {
+                        ai = yes
+                    }
+                }
+                
+                save_event_target_as = south_province
+            }
+        }
+    }
+
+	option = {
+		name = wwu_exodar.10.option.a
+		goto = 1087
+        
+		area_exodar = {
+			cede_province = A56
+			add_core = A56
+			change_culture = culture_draenei
+			change_religion = light_of_the_naaru
+			set_province_flag = exodar_ship
+		}
+        
+        # Exodar
+        1087 = {
+            set_base_tax = 6
+			set_base_production = 4
+			set_base_manpower = 6
+        }
+        
+        ai_chance = {
+            factor = 80
+        }
+	}
+   
+    # East
+	option = {
+		name = wwu_exodar.10.option.b
+		goto = east_province
+        
+		event_target:east_province = {
+			set_base_tax = 6
+			set_base_production = 4
+			set_base_manpower = 6
+            
+            area = {
+                cede_province = A56
+                add_core = A56
+                change_culture = culture_draenei
+                change_religion = light_of_the_naaru
+                set_province_flag = exodar_ship
+            }
+		}
+        
+        ai_chance = {
+            factor = 10
+        }
+	}
+    
+    # North
+	option = {
+		name = wwu_exodar.10.option.c
+		goto = north_province
+        
+		event_target:north_province = {
+			set_base_tax = 6
+			set_base_production = 4
+			set_base_manpower = 6
+            
+            area = {
+                cede_province = A56
+                add_core = A56
+                change_culture = culture_draenei
+                change_religion = light_of_the_naaru
+                set_province_flag = exodar_ship
+            }
+		}
+        
+        ai_chance = {
+            factor = 10
+        }
+	}
+    
+    # West
+	option = {
+		name = wwu_exodar.10.option.d
+		goto = west_province
+        
+		event_target:west_province = {
+			set_base_tax = 6
+			set_base_production = 4
+			set_base_manpower = 6
+            
+            area = {
+                cede_province = A56
+                add_core = A56
+                change_culture = culture_draenei
+                change_religion = light_of_the_naaru
+                set_province_flag = exodar_ship
+            }
+		}
+        
+        ai_chance = {
+            factor = 10
+        }
+	}
+    
+    # South
+	option = {
+		name = wwu_exodar.10.option.e
+        goto = south_province
+		
+		event_target:south_province = {
+			set_base_tax = 6
+			set_base_production = 4
+			set_base_manpower = 6
+            
+            area = {
+                cede_province = A56
+                add_core = A56
+                change_culture = culture_draenei
+                change_religion = light_of_the_naaru
+                set_province_flag = exodar_ship
+            }
+		}
+        
+        ai_chance = {
+            factor = 10
+        }
+	}
+    
+    after = {
+        A56 = {
+            add_stability = 3
+            
+            add_country_modifier = {
+                name = draenei_resilience
+                duration = 10950
+            }
+            
+            define_ruler = {
+                name = "Velen" 
+                dynasty = "of Argus"
+                age = 500
+                change_adm = 5
+                change_dip = 7
+                change_mil = 3
+                culture = culture_draenei
+                religion = light_of_the_naaru
+                claim = 100
+            }
+            
+            set_ruler_flag = priest_personality
+            set_ruler_flag = ruler_portrait_velen
+            set_ruler_flag = is_immortal
+    
+            setup_spellcaster_history = {
+                APTITUDE = 5
+                FINESSE = 5
+                CONCENTRATION = 5
+                MANA = 5
+                holy = yes
+            }
+        }
+    }
+}

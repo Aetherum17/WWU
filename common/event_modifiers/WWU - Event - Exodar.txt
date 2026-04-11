@@ -1,0 +1,10 @@
+#---------------------------------------
+# Modifiers
+#---------------------------------------
+draenei_resilience = {
+    manpower_recovery_speed = 0.33
+    
+    defensiveness = 1.0
+    hostile_attrition = 3
+}
+
