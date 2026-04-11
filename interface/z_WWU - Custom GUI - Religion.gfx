@@ -1,0 +1,468 @@
+spriteTypes = {	
+    #----------------------------------------------
+    # Religion GUI
+    #----------------------------------------------
+    # Backgrounds
+    spriteType = {
+		name = "GFX_religion_omen_bg"
+		texturefile = "gfx/custom_gui/religion_gui/omen/omen_bg.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_button"
+		texturefile = "gfx/custom_gui/religion_gui/omen/omen_button.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_religion_omen_banner"
+		texturefile = "gfx/custom_gui/religion_gui/omen/omen_banner.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_name_button"
+		texturefile = "gfx/custom_gui/religion_gui/omen/omen_name_button.dds"
+	}
+    
+    # Actions
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_1"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_1.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_2"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_2.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_3"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_3.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_4"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_4.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_5"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_5.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_6"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_6.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_7"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_7.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_omen_tuskarr_8"
+		texturefile = "gfx/custom_gui/religion_gui/omen/actions/tuskarr_8.dds"
+	}
+    
+    # Progress Bar
+    spriteType = {
+		name = "GFX_omen_progress_bar"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_omen_progress_bar_0"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_0.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_1"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_1.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_2"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_2.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_3"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_3.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_4"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_4.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_5"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_5.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_6"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_6.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_7"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_7.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_8"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_8.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_9"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_9.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_10"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_10.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_11"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_11.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_12"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_12.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_13"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_13.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_14"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_14.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_15"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_15.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_16"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_16.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_17"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_17.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_18"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_18.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_19"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_19.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_20"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_20.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_21"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_21.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_22"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_22.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_23"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_23.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_24"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_24.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_25"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_25.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_26"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_26.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_27"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_27.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_28"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_28.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_29"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_29.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_30"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_30.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_31"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_31.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_32"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_32.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_33"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_33.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_34"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_34.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_35"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_35.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_36"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_36.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_37"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_37.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_38"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_38.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_39"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_39.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_40"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_40.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_41"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_41.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_42"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_42.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_43"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_43.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_44"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_44.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_45"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_45.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_46"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_46.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_47"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_47.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_48"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_48.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_49"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_49.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_50"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_50.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_51"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_51.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_52"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_52.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_53"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_53.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_54"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_54.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_55"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_55.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_56"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_56.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_57"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_57.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_58"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_58.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_59"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_59.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_60"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_60.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_61"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_61.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_62"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_62.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_63"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_63.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_64"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_64.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_65"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_65.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_66"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_66.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_67"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_67.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_68"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_68.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_69"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_69.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_70"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_70.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_71"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_71.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_72"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_72.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_73"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_73.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_74"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_74.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_75"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_75.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_76"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_76.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_77"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_77.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_78"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_78.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_79"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_79.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_80"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_80.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_81"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_81.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_82"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_82.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_83"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_83.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_84"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_84.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_85"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_85.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_86"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_86.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_87"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_87.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_88"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_88.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_89"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_89.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_90"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_90.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_91"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_91.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_92"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_92.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_93"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_93.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_94"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_94.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_95"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_95.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_96"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_96.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_97"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_97.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_98"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_98.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_99"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_99.dds"
+	}
+    spriteType = {
+		name = "GFX_omen_progress_bar_100"
+		texturefile = "gfx/custom_gui/religion_gui/omen/progress/omen_progress_bar_100.dds"
+	}
+}

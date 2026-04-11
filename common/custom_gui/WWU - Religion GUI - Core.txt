@@ -1,0 +1,1470 @@
+#----------------------------------------
+# Custom GUI
+#----------------------------------------
+custom_button = {
+    name = omen_button
+    tooltip = OMEN_BUTTON_TT
+    
+    potential = {
+        is_omen_menu_available = yes
+    }
+    
+    trigger = { 
+        is_omen_menu_available = yes
+    }
+    
+    effect = { 
+        toggle_omen_menu = yes
+    }
+}
+
+#--------------
+# Omens: Window
+#--------------
+custom_icon = {
+   name = omen_menu_bg
+   potential = { 
+        is_omen_menu_open = yes
+   }
+}
+
+custom_icon = {
+   name = omen_menu_banner
+   potential = { 
+        is_omen_menu_open = yes
+   }
+}
+
+custom_text_box = {
+   name = omen_menu_banner_title
+   tooltip = OMEN_PROGRESS_TT
+    
+   potential = { 
+        is_omen_menu_open = yes
+   }
+}
+
+#--------------
+# Omens: Actions
+#--------------
+# Tuskarr
+
+# Ritual of Bounty
+custom_button = {
+    name = tuskarr_omen_icon_1
+    tooltip = TUSKARR_OMEN_TT_1
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_bounty_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_bounty_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_1
+    tooltip = TUSKARR_OMEN_TT_1
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_bounty_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_bounty_effect = yes
+    }
+}
+
+# Ritual of Peace
+custom_button = {
+    name = tuskarr_omen_icon_2
+    tooltip = TUSKARR_OMEN_TT_2
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_peace_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_peace_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_2
+    tooltip = TUSKARR_OMEN_TT_2
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_peace_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_peace_effect = yes
+    }
+}
+
+# Ritual of Calm
+custom_button = {
+    name = tuskarr_omen_icon_3
+    tooltip = TUSKARR_OMEN_TT_3
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_calm_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_calm_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_3
+    tooltip = TUSKARR_OMEN_TT_3
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_calm_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_calm_effect = yes
+    }
+}
+
+# Ritual of Purity
+custom_button = {
+    name = tuskarr_omen_icon_4
+    tooltip = TUSKARR_OMEN_TT_4
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_purity_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_purity_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_4
+    tooltip = TUSKARR_OMEN_TT_4
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_purity_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_purity_effect = yes
+    }
+}
+
+# Ritual of Anger
+custom_button = {
+    name = tuskarr_omen_icon_5
+    tooltip = TUSKARR_OMEN_TT_5
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_anger_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_anger_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_5
+    tooltip = TUSKARR_OMEN_TT_5
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_anger_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_anger_effect = yes
+    }
+}
+
+# Ritual of Haste
+custom_button = {
+    name = tuskarr_omen_icon_6
+    tooltip = TUSKARR_OMEN_TT_6
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_haste_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_haste_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_6
+    tooltip = TUSKARR_OMEN_TT_6
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_haste_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_haste_effect = yes
+    }
+}
+
+# Ritual of Life
+custom_button = {
+    name = tuskarr_omen_icon_7
+    tooltip = TUSKARR_OMEN_TT_7
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_life_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_life_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_7
+    tooltip = TUSKARR_OMEN_TT_7
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_life_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_life_effect = yes
+    }
+}
+
+# Ritual of Hope
+custom_button = {
+    name = tuskarr_omen_icon_8
+    tooltip = TUSKARR_OMEN_TT_8
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_hope_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_hope_effect = yes
+    }
+}
+custom_button = {
+    name = tuskarr_omen_button_8
+    tooltip = TUSKARR_OMEN_TT_8
+    
+    potential = {
+        is_omen_menu_open = yes
+        religion = tuskarr_idolatry
+    }
+    
+    trigger = { 
+        ritual_of_hope_trigger = yes
+    }
+    
+    effect = { 
+        ritual_of_hope_effect = yes
+    }
+}
+
+#--------------
+# Omens: Progress Bar
+#--------------
+custom_icon = {
+   name = omen_progress_bar
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        is_omen_menu_open = yes
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_0
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 0
+            END = 1
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_1
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 1
+            END = 2
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_2
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 2
+            END = 3
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_3
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 3
+            END = 4
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_4
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 4
+            END = 5
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_5
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 5
+            END = 6
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_6
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 6
+            END = 7
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_7
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 7
+            END = 8
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_8
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 8
+            END = 9
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_9
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 9
+            END = 10
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_10
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 10
+            END = 11
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_11
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 11
+            END = 12
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_12
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 12
+            END = 13
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_13
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 13
+            END = 14
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_14
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 14
+            END = 15
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_15
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 15
+            END = 16
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_16
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 16
+            END = 17
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_17
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 17
+            END = 18
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_18
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 18
+            END = 19
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_19
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 19
+            END = 20
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_20
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 20
+            END = 21
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_21
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 21
+            END = 22
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_22
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 22
+            END = 23
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_23
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 23
+            END = 24
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_24
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 24
+            END = 25
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_25
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 25
+            END = 26
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_26
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 26
+            END = 27
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_27
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 27
+            END = 28
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_28
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 28
+            END = 29
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_29
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 29
+            END = 30
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_30
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 30
+            END = 31
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_31
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 31
+            END = 32
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_32
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 32
+            END = 33
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_33
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 33
+            END = 34
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_34
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 34
+            END = 35
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_35
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 35
+            END = 36
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_36
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 36
+            END = 37
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_37
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 37
+            END = 38
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_38
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 38
+            END = 39
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_39
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 39
+            END = 40
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_40
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 40
+            END = 41
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_41
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 41
+            END = 42
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_42
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 42
+            END = 43
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_43
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 43
+            END = 44
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_44
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 44
+            END = 45
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_45
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 45
+            END = 46
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_46
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 46
+            END = 47
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_47
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 47
+            END = 48
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_48
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 48
+            END = 49
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_49
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 49
+            END = 50
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_50
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 50
+            END = 51
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_51
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 51
+            END = 52
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_52
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 52
+            END = 53
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_53
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 53
+            END = 54
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_54
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 54
+            END = 55
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_55
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 55
+            END = 56
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_56
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 56
+            END = 57
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_57
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 57
+            END = 58
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_58
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 58
+            END = 59
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_59
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 59
+            END = 60
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_60
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 60
+            END = 61
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_61
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 61
+            END = 62
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_62
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 62
+            END = 63
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_63
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 63
+            END = 64
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_64
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 64
+            END = 65
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_65
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 65
+            END = 66
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_66
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 66
+            END = 67
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_67
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 67
+            END = 68
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_68
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 68
+            END = 69
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_69
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 69
+            END = 70
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_70
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 70
+            END = 71
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_71
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 71
+            END = 72
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_72
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 72
+            END = 73
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_73
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 73
+            END = 74
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_74
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 74
+            END = 75
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_75
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 75
+            END = 76
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_76
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 76
+            END = 77
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_77
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 77
+            END = 78
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_78
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 78
+            END = 79
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_79
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 79
+            END = 80
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_80
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 80
+            END = 81
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_81
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 81
+            END = 82
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_82
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 82
+            END = 83
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_83
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 83
+            END = 84
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_84
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 84
+            END = 85
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_85
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 85
+            END = 86
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_86
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 86
+            END = 87
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_87
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 87
+            END = 88
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_88
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 88
+            END = 89
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_89
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 89
+            END = 90
+        }
+   }
+}
+
+custom_icon = {
+   name = omen_progress_bar_90
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 90
+            END = 91
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_91
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 91
+            END = 92
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_92
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 92
+            END = 93
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_93
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 93
+            END = 94
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_94
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 94
+            END = 95
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_95
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 95
+            END = 96
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_96
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 96
+            END = 97
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_97
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 97
+            END = 98
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_98
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 98
+            END = 99
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_99
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 99
+            END = 100
+        }
+   }
+}
+custom_icon = {
+   name = omen_progress_bar_100
+   tooltip = OMEN_PROGRESS_TT
+   
+   potential = { 
+        current_omen_score = {
+            START = 100
+            END = 101
+        }
+   }
+}

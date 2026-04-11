@@ -444,7 +444,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_changereligion"
 		}
-		
+        
 		iconType =
 		{
 			name ="current_religion_icon"
@@ -547,9 +547,21 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			format = centre
 		}
-		
-############## ORTHODOX PATRIARCH AUTHORITY	###### 
-
+        
+        #------------------
+        # Omen Button
+        #------------------
+		guiButtonType = {
+			name ="omen_button"
+			quadTextureSprite = "GFX_religion_omen_button"
+			position = { x= 10 y = 160 }
+			Orientation = "UPPER_LEFT"
+            scripted = yes
+		}
+        
+        #------------------
+        # Orthodox Patriarchy
+        #------------------
 		windowType = {
 			name = "orthodox_specific_window"
 			backGround =""
@@ -655,8 +667,9 @@ guiTypes = {
 			
 		}
 
-		############## SHINTO ISOLATIONISM ###### 
-
+        #------------------
+        # Shinto Isolationism
+        #------------------
 		windowType = {
 			name = "shinto_specific_window"
 			backGround =""
@@ -769,7 +782,9 @@ guiTypes = {
 			}
 		}
 	
-		############## CONFUCIANISM HARMONY ##############
+        #------------------
+        # Confucianism
+        #------------------
 		windowType = {
 			name = "confucianism_specific_window"
 			backGround =""
@@ -931,8 +946,9 @@ guiTypes = {
 			}
 		}
 
-############## COPTIC HOLY SITES	###### 
-
+        #------------------
+        # Coptic Holy Sites
+        #------------------
 		windowType = {
 			name = "coptic_specific_window"
 			backGround =""
@@ -1075,8 +1091,9 @@ guiTypes = {
 			}
 		}
 		
-		
-################# MUSLIM PIETY		
+        #------------------
+        # Muslim Piety
+        #------------------
 		windowType = {
 			name = "muslim_specific_window"
 			backGround =""
@@ -1173,7 +1190,10 @@ guiTypes = {
 
 
 		}
-################# BUDDHIST KARMA		
+        
+        #------------------
+        # Buddhism Karma
+        #------------------
 		windowType = {
 			name = "buddhist_specific_window"
 			backGround =""
@@ -1263,7 +1283,9 @@ guiTypes = {
 			}
 		}
 		
-		################# personal deity		
+        #------------------
+        # Hindu Deities
+        #------------------
 		windowType = {
 			name = "personal_deity"
 			backGround =""
@@ -1337,7 +1359,9 @@ guiTypes = {
 			}
 		}
 
-		################# Fetishist cults	
+        #------------------
+        # Fetishist Cults
+        #------------------
 		windowType = {
 			name = "fetishist_cult"
 			backGround =""
@@ -1404,7 +1428,9 @@ guiTypes = {
 			}
 		}
 
-		################# Sikh Gurus	
+        #------------------
+        # Sikh Gurus
+        #------------------
 		windowType = {
 			name = "sikh_guru_window"
 			backGround =""
@@ -1512,7 +1538,9 @@ guiTypes = {
 			}
 		}
 
-		############## TOTEMISM ANCESTORS ##############
+        #------------------
+        # Totemism Ancestors
+        #------------------
 		windowType = {
 			name = "totemism_ancestor_window"
 			backGround =""
@@ -1564,9 +1592,9 @@ guiTypes = {
 		
 		}
 		
-		
-		
-		
+        #------------------
+        # Catholic
+        #------------------
 		###Religion specific datafield
 		windowType = {
 			name = "catholic_specific_window"
@@ -1699,6 +1727,9 @@ guiTypes = {
 			}			
 		}
 		
+        #------------------
+        # Protestant
+        #------------------
 		###Religion specific datafield
 		windowType = {
 			name = "protestant_specific_window"
@@ -1760,6 +1791,9 @@ guiTypes = {
 			}
 		}
 
+        #------------------
+        # Jewish
+        #------------------
 		windowType = {
 			name = "jewish_specific_window"
 			backGround =""
@@ -1841,6 +1875,9 @@ guiTypes = {
 			}
 		}
 
+        #------------------
+        # Anglican
+        #------------------
 		windowType = { # Used when religion can't unlock aspects, only one-time fire them
 			name = "anglican_specific_window"
 			backGround =""
@@ -1882,6 +1919,9 @@ guiTypes = {
 			}
 		}
 		
+        #------------------
+        # Fervor
+        #------------------
 		windowType = {
 			name = "fervor_specific_window"
 			backGround =""
@@ -1981,8 +2021,6 @@ guiTypes = {
 			}
 			
 		}
-		
-		
 		
 		###Religious unity
 
@@ -2653,6 +2691,917 @@ guiTypes = {
 				buttonFont = "vic_18"
 			}
 		}
+        
+        #------------------
+        # Omen Window
+        #------------------
+		iconType = {
+			name ="omen_menu_bg"
+			spriteType = "GFX_religion_omen_bg"
+            position = { x= 3 y = 231 }
+			Orientation = "UPPER_LEFT"
+            scripted = yes
+		}
+        
+		iconType = {
+			name ="omen_menu_banner"
+			spriteType = "GFX_religion_omen_banner"
+            position = { x= 125 y = 260 }
+			Orientation = "UPPER_LEFT"
+            scripted = yes
+		}
+        
+		instantTextBoxType = {
+			name = "omen_menu_banner_title"
+            position = { x= 125 y = 268 }
+			font = "vic_18"
+			borderSize = {x = 0 y = 0}
+			text = "OMEN_TITLE"	
+			maxWidth = 300
+			maxHeight = 64
+			Orientation = "UPPER_LEFT"
+			format = center
+            scripted = yes
+		}
+        
+        #-----------------------
+        # Actions
+        #-----------------------
+        # Tuskarr
+        guiButtonType = {
+            name = "tuskarr_omen_icon_1"
+            position = { x = 140 y = 350 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_1"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_1"
+            position = { x = 105 y = 420 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_1"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_icon_2"
+            position = { x = 340 y = 350 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_2"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_2"
+            position = { x = 305 y = 420 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_2"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_icon_3"
+            position = { x = 140 y = 460 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_3"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_3"
+            position = { x = 105 y = 530 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_3"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_icon_4"
+            position = { x = 340 y = 460 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_4"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_4"
+            position = { x = 305 y = 530 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_4"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_icon_5"
+            position = { x = 140 y = 570 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_5"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_5"
+            position = { x = 105 y = 640 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_5"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_icon_6"
+            position = { x = 340 y = 570 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_6"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_6"
+            position = { x = 305 y = 640 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_6"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_icon_7"
+            position = { x = 140 y = 680 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_7"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_7"
+            position = { x = 105 y = 750 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_7"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_icon_8"
+            position = { x = 340 y = 680 }
+            quadTextureSprite ="GFX_religion_omen_tuskarr_8"
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        guiButtonType = {
+            name = "tuskarr_omen_button_8"
+            position = { x = 305 y = 750 }
+            quadTextureSprite ="GFX_religion_omen_name_button"
+            Orientation = "UPPER_LEFT"
+            buttonText = "TUSKARR_OMEN_8"
+            buttonFont = "vic_18"
+            scripted = yes
+        }
+        
+        #-----------------------
+        # Progress Bar
+        #-----------------------
+		iconType = {
+			name ="omen_progress_bar_0"
+			spriteType = "GFX_omen_progress_bar_0"
+            position = { x= 126 y = 306 }
+			Orientation = "UPPER_LEFT"
+            scripted = yes
+		}
+        iconType = {
+            name ="omen_progress_bar_1"
+            spriteType = "GFX_omen_progress_bar_1"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_2"
+            spriteType = "GFX_omen_progress_bar_2"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_3"
+            spriteType = "GFX_omen_progress_bar_3"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_4"
+            spriteType = "GFX_omen_progress_bar_4"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_5"
+            spriteType = "GFX_omen_progress_bar_5"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_6"
+            spriteType = "GFX_omen_progress_bar_6"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_7"
+            spriteType = "GFX_omen_progress_bar_7"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_8"
+            spriteType = "GFX_omen_progress_bar_8"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_9"
+            spriteType = "GFX_omen_progress_bar_9"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_10"
+            spriteType = "GFX_omen_progress_bar_10"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_11"
+            spriteType = "GFX_omen_progress_bar_11"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_12"
+            spriteType = "GFX_omen_progress_bar_12"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_13"
+            spriteType = "GFX_omen_progress_bar_13"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_14"
+            spriteType = "GFX_omen_progress_bar_14"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_15"
+            spriteType = "GFX_omen_progress_bar_15"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_16"
+            spriteType = "GFX_omen_progress_bar_16"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_17"
+            spriteType = "GFX_omen_progress_bar_17"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_18"
+            spriteType = "GFX_omen_progress_bar_18"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_19"
+            spriteType = "GFX_omen_progress_bar_19"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        iconType = {
+            name ="omen_progress_bar_20"
+            spriteType = "GFX_omen_progress_bar_20"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_21"
+            spriteType = "GFX_omen_progress_bar_21"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_22"
+            spriteType = "GFX_omen_progress_bar_22"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_23"
+            spriteType = "GFX_omen_progress_bar_23"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_24"
+            spriteType = "GFX_omen_progress_bar_24"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_25"
+            spriteType = "GFX_omen_progress_bar_25"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_26"
+            spriteType = "GFX_omen_progress_bar_26"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_27"
+            spriteType = "GFX_omen_progress_bar_27"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_28"
+            spriteType = "GFX_omen_progress_bar_28"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_29"
+            spriteType = "GFX_omen_progress_bar_29"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        iconType = {
+            name ="omen_progress_bar_30"
+            spriteType = "GFX_omen_progress_bar_30"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_31"
+            spriteType = "GFX_omen_progress_bar_31"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_32"
+            spriteType = "GFX_omen_progress_bar_32"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_33"
+            spriteType = "GFX_omen_progress_bar_33"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_34"
+            spriteType = "GFX_omen_progress_bar_34"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_35"
+            spriteType = "GFX_omen_progress_bar_35"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_36"
+            spriteType = "GFX_omen_progress_bar_36"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_37"
+            spriteType = "GFX_omen_progress_bar_37"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_38"
+            spriteType = "GFX_omen_progress_bar_38"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_39"
+            spriteType = "GFX_omen_progress_bar_39"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        
+        iconType = {
+            name ="omen_progress_bar_40"
+            spriteType = "GFX_omen_progress_bar_40"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_41"
+            spriteType = "GFX_omen_progress_bar_41"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_42"
+            spriteType = "GFX_omen_progress_bar_42"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_43"
+            spriteType = "GFX_omen_progress_bar_43"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_44"
+            spriteType = "GFX_omen_progress_bar_44"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_45"
+            spriteType = "GFX_omen_progress_bar_45"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_46"
+            spriteType = "GFX_omen_progress_bar_46"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_47"
+            spriteType = "GFX_omen_progress_bar_47"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_48"
+            spriteType = "GFX_omen_progress_bar_48"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_49"
+            spriteType = "GFX_omen_progress_bar_49"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        
+        iconType = {
+            name ="omen_progress_bar_50"
+            spriteType = "GFX_omen_progress_bar_50"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_51"
+            spriteType = "GFX_omen_progress_bar_51"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_52"
+            spriteType = "GFX_omen_progress_bar_52"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_53"
+            spriteType = "GFX_omen_progress_bar_53"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_54"
+            spriteType = "GFX_omen_progress_bar_54"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_55"
+            spriteType = "GFX_omen_progress_bar_55"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_56"
+            spriteType = "GFX_omen_progress_bar_56"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_57"
+            spriteType = "GFX_omen_progress_bar_57"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_58"
+            spriteType = "GFX_omen_progress_bar_58"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_59"
+            spriteType = "GFX_omen_progress_bar_59"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        iconType = {
+            name ="omen_progress_bar_60"
+            spriteType = "GFX_omen_progress_bar_60"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_61"
+            spriteType = "GFX_omen_progress_bar_61"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_62"
+            spriteType = "GFX_omen_progress_bar_62"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_63"
+            spriteType = "GFX_omen_progress_bar_63"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_64"
+            spriteType = "GFX_omen_progress_bar_64"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_65"
+            spriteType = "GFX_omen_progress_bar_65"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_66"
+            spriteType = "GFX_omen_progress_bar_66"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_67"
+            spriteType = "GFX_omen_progress_bar_67"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_68"
+            spriteType = "GFX_omen_progress_bar_68"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_69"
+            spriteType = "GFX_omen_progress_bar_69"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        iconType = {
+            name ="omen_progress_bar_70"
+            spriteType = "GFX_omen_progress_bar_70"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_71"
+            spriteType = "GFX_omen_progress_bar_71"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_72"
+            spriteType = "GFX_omen_progress_bar_72"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_73"
+            spriteType = "GFX_omen_progress_bar_73"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_74"
+            spriteType = "GFX_omen_progress_bar_74"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_75"
+            spriteType = "GFX_omen_progress_bar_75"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_76"
+            spriteType = "GFX_omen_progress_bar_76"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_77"
+            spriteType = "GFX_omen_progress_bar_77"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_78"
+            spriteType = "GFX_omen_progress_bar_78"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_79"
+            spriteType = "GFX_omen_progress_bar_79"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        iconType = {
+            name ="omen_progress_bar_80"
+            spriteType = "GFX_omen_progress_bar_80"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_81"
+            spriteType = "GFX_omen_progress_bar_81"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_82"
+            spriteType = "GFX_omen_progress_bar_82"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_83"
+            spriteType = "GFX_omen_progress_bar_83"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_84"
+            spriteType = "GFX_omen_progress_bar_84"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_85"
+            spriteType = "GFX_omen_progress_bar_85"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_86"
+            spriteType = "GFX_omen_progress_bar_86"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_87"
+            spriteType = "GFX_omen_progress_bar_87"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_88"
+            spriteType = "GFX_omen_progress_bar_88"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_89"
+            spriteType = "GFX_omen_progress_bar_89"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        iconType = {
+            name ="omen_progress_bar_90"
+            spriteType = "GFX_omen_progress_bar_90"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_91"
+            spriteType = "GFX_omen_progress_bar_91"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_92"
+            spriteType = "GFX_omen_progress_bar_92"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_93"
+            spriteType = "GFX_omen_progress_bar_93"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_94"
+            spriteType = "GFX_omen_progress_bar_94"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_95"
+            spriteType = "GFX_omen_progress_bar_95"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_96"
+            spriteType = "GFX_omen_progress_bar_96"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_97"
+            spriteType = "GFX_omen_progress_bar_97"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_98"
+            spriteType = "GFX_omen_progress_bar_98"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_99"
+            spriteType = "GFX_omen_progress_bar_99"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        iconType = {
+            name ="omen_progress_bar_100"
+            spriteType = "GFX_omen_progress_bar_100"
+            position = { x= 126 y = 306 }
+            Orientation = "UPPER_LEFT"
+            scripted = yes
+        }
+        
+        # Progress Bar Frame
+		iconType = {
+			name ="omen_progress_bar"
+			spriteType = "GFX_omen_progress_bar"
+            position = { x= 112 y = 300 }
+			Orientation = "UPPER_LEFT"
+            scripted = yes
+		}
+        
 	}
 	
 	################# personal deity		

@@ -4,13 +4,25 @@
 
 # Class System
 - Added 'Institutional Knowledge' mechanic: each time a ruler learns a class, future rulers learning the same class will learn it quicker by starting with more initial progress points. Each completed study increases the starting points by 20, capping at 80.
-
-# Interface
-- Added in-game encyclopedia that covers mod-specific mechanics and allows the player to view such information in a more comprehensive fashion.
+- Added a fix for class assignment so rulers with only the ruler flag (i.e. priest_personality) are automatically assigned the correct ruler modifier too, allowing access to the class abilities.
 
 # Magic
 - Improved the Earth school's Enrichment spell: the token cast can now change a non-common ore/metal trade good into a common ore/metal good, rather than just upgrading common ore/metal to rare ore/metal.
 - Improved the Shadow school's Soothe Mind spell: the opinion modifier boost is now affected by Finesse (100/125/150/175/200).
+
+# Religion
+- Added a new custom religious mechanic: Omens
+ - For religions that are given access to Omens, they will slowly gain omen score each month.
+ - They can then spend that score on omens to invoke, with a variety of effects.
+ - The mechanic is localized differently for each religion (i.e. Tuskar Idolatry have 'Rituals', which is the Omen system but with a custom name).
+ 
+- Added omens (Rituals) to the Tuskarr Idolatry.
+ 
+# Event
+- Added an event that spawns the Exodar if Outland has occurred and there are less than 10 Draenei-owned provinces in Outland. Added a small temporary buff to the Exodar nation when spawned.
+
+# Interface
+- Added in-game encyclopedia that covers mod-specific mechanics and allows the player to view such information in a more comprehensive fashion.
 
 #--------------------------------------
 # TODO
@@ -21,3 +33,10 @@ Faction Issues:
 - Horde: cannot invite non-Draenor members when on Draenor
 - Alliance can spawn independant of Horde
 
+Omens:
+ - Given to the tribal religions
+ - Gain Omen point per month (cap at 100)
+  - Add progress bar in the Omen view
+  
+  - Omen view displays point bar + omens that can be invoked
+  - Omens are unique to each religion

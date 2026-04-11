@@ -1,0 +1,83 @@
+#AVIALABLE CUSTOM LOCALISATION KEYS
+#When adding new custom loc keys, add them to the appropriate category (or add a new one) and describe them. Name the strings "String_X" where x is its content.
+# To not display anything, you can use 'localisation_key = ""'
+# Please add one example sentence for each key.
+
+defined_text = {
+    name = GetOmenName
+
+    text = {
+        localisation_key = OMEN_NAME_TUSKARR
+        
+        trigger = {
+            religion = tuskarr_idolatry
+        }
+    }
+    text = {
+        localisation_key = OMEN_NAME_DEFAULT
+    }
+}
+defined_text = {
+    name = GetOmenNamePlural
+
+    text = {
+        localisation_key = OMEN_NAME_PLURAL_TUSKARR
+        
+        trigger = {
+            religion = tuskarr_idolatry
+        }
+    }
+    text = {
+        localisation_key = OMEN_NAME_PLURAL_DEFAULT
+    }
+}
+defined_text = {
+    name = GetOmenNameInline
+
+    text = {
+        localisation_key = OMEN_NAME_INLINE_TUSKARR
+        
+        trigger = {
+            religion = tuskarr_idolatry
+        }
+    }
+    text = {
+        localisation_key = OMEN_NAME_INLINE_DEFAULT
+    }
+}
+defined_text = {
+    name = GetOmenNameInlinePlural
+
+    text = {
+        localisation_key = OMEN_NAME_INLINE_PLURAL_TUSKARR
+        
+        trigger = {
+            religion = tuskarr_idolatry
+        }
+    }
+    text = {
+        localisation_key = OMEN_NAME_INLINE_PLURAL_DEFAULT
+    }
+}
+
+defined_text = {
+    name = GetOmenScoreName
+
+    text = {
+        localisation_key = OMEN_SCORE_NAME_DEFAULT
+    }
+}
+defined_text = {
+    name = GetOmenScoreNamePlural
+
+    text = {
+        localisation_key = OMEN_SCORE_NAME_PLURAL_DEFAULT
+    }
+}
+defined_text = {
+    name = GetOmenScoreNameInline
+
+    text = {
+        localisation_key = OMEN_SCORE_NAME_INLINE_DEFAULT
+    }
+}

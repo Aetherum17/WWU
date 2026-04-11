@@ -1,0 +1,104 @@
+#-----------------------------
+# Window
+#-----------------------------
+is_omen_menu_available = {
+    OR = {
+        religion = tuskarr_idolatry
+    }
+}
+
+is_omen_menu_open = {
+    has_country_flag = omen_menu_visible
+}
+
+# Costs
+has_omen_score = {
+    custom_trigger_tooltip = {
+        tooltip = OMEN_COST_$COST$
+        
+        check_variable = {
+            which = omen_score
+            value = $COST$
+        }
+    }
+}
+
+# Progress Bar
+current_omen_score = {
+    has_country_flag = omen_menu_visible
+            
+    check_variable = {
+        which = omen_score
+        value = $START$
+    }
+    NOT = {
+        check_variable = {
+            which = omen_score
+            value = $END$
+        }
+    }
+}
+
+#-------------
+# Tuskarr
+#-------------
+ritual_of_bounty_trigger = {
+    has_omen_score = {
+        COST = 80
+    }
+    
+    NOT = { has_country_modifier = ritual_of_bounty_mod }
+    NOT = { has_country_modifier = ritual_of_bounty_aftermath_mod }
+}
+
+ritual_of_peace_trigger = {
+    has_omen_score = {
+        COST = 60
+    }
+    
+    NOT = { has_country_modifier = ritual_of_peace_mod }
+}
+
+ritual_of_calm_trigger = {
+    has_omen_score = {
+        COST = 60
+    }
+
+    NOT = { has_country_modifier = ritual_of_calm_mod }
+}
+
+ritual_of_purity_trigger = {
+    has_omen_score = {
+        COST = 50
+    }
+}
+
+ritual_of_anger_trigger = {
+    has_omen_score = {
+        COST = 50
+    }
+
+    NOT = { has_country_modifier = ritual_of_anger_mod }
+}
+
+ritual_of_haste_trigger = {
+    has_omen_score = {
+        COST = 40
+    }
+
+    NOT = { has_country_modifier = ritual_of_haste_mod }
+}
+
+ritual_of_life_trigger= {
+    has_omen_score = {
+        COST = 80
+    }
+    
+}
+
+ritual_of_hope_trigger = {
+    has_omen_score = {
+        COST = 50
+    }
+    
+}

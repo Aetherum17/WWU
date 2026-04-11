@@ -15,6 +15,7 @@ on_startup = {
     on_startup__archavon = yes
 	#on_startup__gilneas = yes
 	##set_up_of_estate_privileges = yes
+    on_startup__omens = yes
 }
 
 # ROOT = Country
@@ -646,6 +647,7 @@ on_monthly_pulse = {
     on_monthly_pulse__government = yes
     on_monthly_pulse__custom_gui = yes
     on_monthly_pulse__decision = yes
+    on_monthly_pulse__omens = yes
     
     # Events
     events = {

@@ -1,0 +1,241 @@
+#-----------------------------------
+# On Actions
+#-----------------------------------
+on_startup__omens = {
+    if = {
+        limit = {
+            NOT = { has_country_flag = omen_setup }
+        }
+        
+        set_country_flag = omen_setup
+        
+        set_variable = {
+            which = omen_score
+            which = 25
+        }
+    }
+}
+
+on_monthly_pulse__omens = {
+    export_to_variable = {
+        which = omen_religious_unity
+        value = trigger_value:religious_unity
+    }
+    
+    change_variable = {
+        which = omen_score
+        which = omen_religious_unity
+    }
+    
+    if = {
+        limit = {
+            full_idea_group = wwu_religious_ideas
+        }
+        
+        change_variable = {
+            which = omen_score
+            which = 1
+        }
+    }
+    
+    clamp_omen_score = yes
+    
+    # Effects
+    if = {
+        limit = {
+            has_country_flag = apply_ritual_of_bounty_aftermath
+            NOT = { has_country_modifier = ritual_of_bounty_mod }
+        }
+        
+        clr_country_flag = apply_ritual_of_bounty_aftermath
+        
+        add_country_modifier = {
+            name = ritual_of_bounty_aftermath_mod
+            duration = 3650
+        }
+    }
+}
+
+#-----------------------------------
+# Mechanics
+#-----------------------------------
+toggle_omen_menu = {
+    if = {
+        limit = {
+            has_country_flag = omen_menu_visible
+        }
+    
+        clr_country_flag = omen_menu_visible
+    }
+    else
+    {
+        set_country_flag = omen_menu_visible
+    }
+}
+
+expend_omen_score = {
+    custom_tooltip = OMEN_SPEND_$COST$
+    
+    hidden_effect = {
+        remove_omen_score = {
+            AMOUNT = $COST$
+        }
+    }
+}
+
+add_omen_score = {
+    change_variable = {
+        which = omen_score
+        value = $AMOUNT$
+    }
+    
+    clamp_omen_score = yes
+}
+
+remove_omen_score = {
+    subtract_variable = {
+        which = omen_score
+        value = $AMOUNT$
+    }
+    
+    clamp_omen_score = yes
+}
+
+clamp_omen_score = {
+    if = {
+        limit = {
+            NOT = {
+                check_variable = {
+                    which = omen_score
+                    value = 0
+                }
+            }
+        }
+        
+        set_variable = {
+            which = omen_score
+            value = 0
+        }
+    }
+    
+    if = {
+        limit = {
+            check_variable = {
+                which = omen_score
+                value = 100
+            }
+        }
+        
+        set_variable = {
+            which = omen_score
+            value = 100
+        }
+    }
+}
+
+#-------------
+# Tuskarr
+#-------------
+ritual_of_bounty_effect = {
+    expend_omen_score = {
+        COST = 80
+    }
+    
+    add_country_modifier = {
+        name = ritual_of_bounty_mod
+        duration = 3650
+    }
+    
+    change_price = {
+        trade_goods = resource_common_fish
+        key = ritual_of_bounty_fish_mod
+        value = 3.0
+        duration = 3650
+    }
+    change_price = {
+        trade_goods = resource_rare_fish
+        key = ritual_of_bounty_fish_mod
+        value = 3.0
+        duration = 3650
+    }
+    
+    custom_tooltip = RITUAL_OF_BOUNTY_AFTERMATH_TT
+    hidden_effect = {
+        set_country_flag = apply_ritual_of_bounty_aftermath
+    }
+}
+
+ritual_of_peace_effect = {
+    expend_omen_score = {
+        COST = 60
+    }
+    
+    add_country_modifier = {
+        name = ritual_of_peace_mod
+        duration = 3650
+    }
+}
+
+ritual_of_calm_effect = {
+    expend_omen_score = {
+        COST = 60
+    }
+    
+    add_country_modifier = {
+        name = ritual_of_calm_mod
+        duration = 3650
+    }
+}
+
+ritual_of_purity_effect = {
+    expend_omen_score = {
+        COST = 50
+    }
+
+    add_corruption = -2
+}
+
+ritual_of_anger_effect = {
+    expend_omen_score = {
+        COST = 60
+    }
+    
+    add_country_modifier = {
+        name = ritual_of_anger_mod
+        duration = 3650
+    }
+}
+
+ritual_of_haste_effect = {
+    expend_omen_score = {
+        COST = 40
+    }
+    
+    add_country_modifier = {
+        name = ritual_of_haste_mod
+        duration = 3650
+    }
+}
+
+ritual_of_life_effect = {
+    expend_omen_score = {
+        COST = 80
+    }
+    
+    define_heir = {
+        adm = 3
+        dip = 3
+        mil = 3
+        claim = 100
+        dynasty = ROOT
+        hide_skills = yes
+    }
+}
+
+ritual_of_hope_effect = {
+    expend_omen_score = {
+        COST = 50
+    }
+    
+    add_war_exhaustion = -10
+}

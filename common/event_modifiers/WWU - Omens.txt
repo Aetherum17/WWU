@@ -1,0 +1,27 @@
+#------------------------
+# Tuskarr
+#------------------------
+ritual_of_bounty_mod = {
+    global_trade_goods_size_modifier = 0.05
+}
+ritual_of_bounty_aftermath_mod = {
+    global_trade_goods_size_modifier = -0.05
+}
+
+ritual_of_peace_mod = {
+    stability_cost_modifier = -0.25
+}
+
+ritual_of_calm_mod = {
+    global_unrest = -5
+}
+
+ritual_of_anger_mod = {
+    shock_damage = 0.2
+    fire_damage_received = 0.05
+    shock_damage_received = 0.05
+}
+
+ritual_of_haste_mod = {
+    build_time = -0.5
+}
