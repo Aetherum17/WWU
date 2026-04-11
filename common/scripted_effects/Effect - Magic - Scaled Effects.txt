@@ -1,6 +1,8 @@
 #------------------------
 # Scaled Effects
 #------------------------
+# REMEMBER to sync changes here to Wiki Preview
+
 # Adds modifier based on ruler Aptitude, with its duration determined by Concentration, and its potency by Finesse
 add_scaled_spell_modifier = {    
     scaled_magic_modifier_effect = {
@@ -107,6 +109,103 @@ apply_modifier_spell_province_effect = {
         MODIFIER_LEGENDARY  = $MODIFIER$_prov_legendary
     }
 }
+
+
+scaled_token_spell_effect = {
+    custom_tooltip = TOKEN_USAGE_TT
+    
+    # Legendary
+    if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        custom_tooltip = $NAME$_TOKEN_TT_$LEGENDARY_TOKEN$
+        custom_tooltip = $NAME$_NAME_TT
+        custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+        custom_tooltip = $NAME$_EFFECT_TT_5
+        
+        hidden_effect = {
+            change_variable = {
+                which = spell_$VAR_NAME$_token
+                value = $LEGENDARY_TOKEN$
+            }
+        }
+    }
+    # Epic
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        custom_tooltip = $NAME$_TOKEN_TT_$EPIC_TOKEN$
+        custom_tooltip = $NAME$_NAME_TT
+        custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+        custom_tooltip = $NAME$_EFFECT_TT_4
+        
+        hidden_effect = {
+            change_variable = {
+                which = spell_$VAR_NAME$_token
+                value = $EPIC_TOKEN$
+            }
+        }
+    }
+    # Rare
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        custom_tooltip = $NAME$_TOKEN_TT_$RARE_TOKEN$
+        custom_tooltip = $NAME$_NAME_TT
+        custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+        custom_tooltip = $NAME$_EFFECT_TT_3
+        
+        hidden_effect = {
+            change_variable = {
+                which = spell_$VAR_NAME$_token
+                value = $RARE_TOKEN$
+            }
+        }
+    }
+    # Common
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        custom_tooltip = $NAME$_TOKEN_TT_$COMMON_TOKEN$
+        custom_tooltip = $NAME$_NAME_TT
+        custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+        custom_tooltip = $NAME$_EFFECT_TT_2
+        
+        hidden_effect = {
+            change_variable = {
+                which = spell_$VAR_NAME$_token
+                value = $COMMON_TOKEN$
+            }
+        }
+    }
+    # Poor
+    else_if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        custom_tooltip = $NAME$_TOKEN_TT_$POOR_TOKEN$
+        custom_tooltip = $NAME$_NAME_TT
+        custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+        custom_tooltip = $NAME$_EFFECT_TT_1
+        
+        hidden_effect = {
+            change_variable = {
+                which = spell_$VAR_NAME$_token
+                value = $POOR_TOKEN$
+            }
+        }
+    }
+}
+
 
 # ROOT = province, FROM = caster
 scaled_magic_modifier_province_effect = {
@@ -2893,13 +2992,15 @@ scaled_spell_effect__ring_of_peace = {
 
 # Mass Hex
 scaled_spell_effect__mass_hex = {
+    custom_tooltip = MASS_HEX_NAME_TT
+        
     # Legendary
     if = {
         limit = {
             has_legendary_finesse = yes
         }
         
-        custom_tooltip = MASS_HEX_EFFECT_5_TT
+        custom_tooltip = MASS_HEX_EFFECT_TT_5
     }
     # Epic
     else_if = {
@@ -2907,7 +3008,7 @@ scaled_spell_effect__mass_hex = {
             has_epic_finesse = yes
         }
         
-        custom_tooltip = MASS_HEX_EFFECT_4_TT
+        custom_tooltip = MASS_HEX_EFFECT_TT_4
     }
     # Rare
     else_if = {
@@ -2915,7 +3016,7 @@ scaled_spell_effect__mass_hex = {
             has_rare_finesse = yes
         }
         
-        custom_tooltip = MASS_HEX_EFFECT_3_TT
+        custom_tooltip = MASS_HEX_EFFECT_TT_3
     }
     # Common
     else_if = {
@@ -2923,7 +3024,7 @@ scaled_spell_effect__mass_hex = {
             has_common_finesse = yes
         }
         
-        custom_tooltip = MASS_HEX_EFFECT_2_TT
+        custom_tooltip = MASS_HEX_EFFECT_TT_2
     }
     # Poor
     else_if = {
@@ -2931,7 +3032,7 @@ scaled_spell_effect__mass_hex = {
             has_poor_finesse = yes
         }
         
-        custom_tooltip = MASS_HEX_EFFECT_1_TT
+        custom_tooltip = MASS_HEX_EFFECT_TT_1
     }
 
     
@@ -3085,6 +3186,8 @@ scaled_spell_effect__big_bad_voodoo = {
         set_variable = { which = temp_counter value = 0 }
     }
     
+    custom_tooltip = BIG_BAD_VOODOO_NAME_TT
+    
     if = {
         limit = {
             has_legendary_aptitude = yes
@@ -3147,79 +3250,6 @@ scaled_spell_effect__big_bad_voodoo = {
     }
 }
 
-# Entangling Roots
-scaled_spell_effect__entangling_roots = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENTANGLING_ROOTS_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_entangling_roots_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENTANGLING_ROOTS_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_entangling_roots_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENTANGLING_ROOTS_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_entangling_roots_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENTANGLING_ROOTS_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_entangling_roots_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENTANGLING_ROOTS_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_entangling_roots_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__entangling_roots = {
     apply_modifier_spell_province_effect = {
         MODIFIER = entangling_roots
@@ -3235,79 +3265,6 @@ token_spell_effect__entangling_roots = {
     }
 }
 
-# Death and Decay
-scaled_spell_effect__death_and_decay = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_DEATH_AND_DECAY_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_death_and_decay_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_DEATH_AND_DECAY_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_death_and_decay_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_DEATH_AND_DECAY_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_death_and_decay_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_DEATH_AND_DECAY_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_death_and_decay_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_DEATH_AND_DECAY_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_death_and_decay_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__death_and_decay = {
     apply_modifier_spell_province_effect = {
         MODIFIER = death_and_decay
@@ -3324,78 +3281,6 @@ token_spell_effect__death_and_decay = {
 }
 
 # Pestilence
-scaled_spell_effect__pestilence = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PESTILENCE_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_pestilence_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PESTILENCE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_pestilence_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PESTILENCE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_pestilence_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PESTILENCE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_pestilence_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PESTILENCE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_pestilence_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__pestilence = {
     apply_modifier_spell_province_effect = {
         MODIFIER = pestilence
@@ -3491,78 +3376,6 @@ scaled_spell_effect__raise_undead = {
 }
 
 # Volcanic Rupture
-scaled_spell_effect__volcanic_rupture = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_VOLCANIC_RUPTURE_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_volcanic_rupture_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_VOLCANIC_RUPTURE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_volcanic_rupture_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_VOLCANIC_RUPTURE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_volcanic_rupture_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_VOLCANIC_RUPTURE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_volcanic_rupture_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_VOLCANIC_RUPTURE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_volcanic_rupture_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__volcanic_rupture = {
     add_devastation = 80
     area = {
@@ -3719,78 +3532,6 @@ static_charge_effect = {
 }
 
 # Earthquake
-scaled_spell_effect__earthquake = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_EARTHQUAKE_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_earthquake_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_EARTHQUAKE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_earthquake_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_EARTHQUAKE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_earthquake_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_EARTHQUAKE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_earthquake_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_EARTHQUAKE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_earthquake_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__earthquake = {
     area = {
         add_devastation = 50
@@ -3887,78 +3628,6 @@ token_spell_effect__earthquake = {
 }
 
 # Hellfire
-scaled_spell_effect__hellfire = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_HELLFIRE_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_hellfire_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_HELLFIRE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_hellfire_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_HELLFIRE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_hellfire_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_HELLFIRE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_hellfire_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_HELLFIRE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_hellfire_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__hellfire = {
     add_devastation = 25
 
@@ -3983,7 +3652,22 @@ scaled_spell_effect__howl_of_terror = {
             is_at_war = no
         }
         
-        custom_tooltip = HOWL_OF_TERROR_EFFECT_TT
+        custom_tooltip = HOWL_OF_TERROR_APPLY_TT
+        
+        custom_tooltip = AT_LEGENDARY_FINESSE
+        custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_5
+        
+        custom_tooltip = AT_EPIC_FINESSE
+        custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_4
+        
+        custom_tooltip = AT_RARE_FINESSE
+        custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_3
+        
+        custom_tooltip = AT_COMMON_FINESSE
+        custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_2
+        
+        custom_tooltip = AT_POOR_FINESSE
+        custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_1
     }
 
     every_war_enemy_country = {
@@ -4064,78 +3748,6 @@ scaled_spell_effect__banish = {
 }
 
 # Living Flame
-scaled_spell_effect__living_flame = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_LIVING_FLAME_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_living_flame_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_LIVING_FLAME_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_living_flame_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_LIVING_FLAME_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_living_flame_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_LIVING_FLAME_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_living_flame_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_LIVING_FLAME_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_living_flame_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__living_flame = {
     area = {
         apply_modifier_spell_province_effect = {
@@ -4159,78 +3771,6 @@ scaled_spell_effect__ephemeral_dream = {
 }
 
 # Whisper of Despair
-scaled_spell_effect__whisper_of_despair = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_whisper_of_despair_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_whisper_of_despair_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_whisper_of_despair_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_whisper_of_despair_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_whisper_of_despair_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__whisper_of_despair = {
     change_religion = FROM
 
@@ -4250,7 +3790,41 @@ token_spell_effect__whisper_of_despair = {
 
 # Call of the Faceless
 scaled_spell_effect__call_of_the_faceless = {
-    custom_tooltip = FACELESS_COMMANDER_TT
+    if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        custom_tooltip = FACELESS_COMMANDER_TT_5
+    }
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        custom_tooltip = FACELESS_COMMANDER_TT_4
+    }
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        custom_tooltip = FACELESS_COMMANDER_TT_3
+    }
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        custom_tooltip = FACELESS_COMMANDER_TT_2
+    }
+    else_if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        custom_tooltip = FACELESS_COMMANDER_TT_1
+    }
     
     hidden_effect = {
         if = {
@@ -4491,78 +4065,6 @@ scaled_spell_effect__corrupting_influence = {
 }
 
 # Mind Control
-scaled_spell_effect__mind_control = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_MIND_CONTROL_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_mind_control_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_MIND_CONTROL_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_mind_control_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_MIND_CONTROL_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_mind_control_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_MIND_CONTROL_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_mind_control_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_MIND_CONTROL_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_mind_control_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__mind_control = {
     area = {
         apply_modifier_spell_province_effect = {
@@ -4584,27 +4086,15 @@ token_spell_effect__mind_control = {
 
 # Soothe Mind
 scaled_spell_effect__soothe_mind = {
-    every_neighbor_country = {
-        add_opinion = {
-            who = ROOT
-            modifier = soothe_mind_opinion_mod
-        }
-    }
-}
-
-# Highfather's Will
-scaled_spell_effect__highfathers_will = {
     # Legendary
     if = {
         limit = {
             has_legendary_finesse = yes
         }
-        
-        custom_tooltip = GAIN_HIGHFATHERS_WILL_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_highfathers_will_token
-                value = 5
+        every_neighbor_country = {
+            add_opinion = {
+                who = ROOT
+                modifier = soothe_mind_opinion_mod_legendary
             }
         }
     }
@@ -4613,12 +4103,10 @@ scaled_spell_effect__highfathers_will = {
         limit = {
             has_epic_finesse = yes
         }
-        
-        custom_tooltip = GAIN_HIGHFATHERS_WILL_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_highfathers_will_token
-                value = 4
+        every_neighbor_country = {
+            add_opinion = {
+                who = ROOT
+                modifier = soothe_mind_opinion_mod_epic
             }
         }
     }
@@ -4627,12 +4115,10 @@ scaled_spell_effect__highfathers_will = {
         limit = {
             has_rare_finesse = yes
         }
-        
-        custom_tooltip = GAIN_HIGHFATHERS_WILL_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_highfathers_will_token
-                value = 4
+        every_neighbor_country = {
+            add_opinion = {
+                who = ROOT
+                modifier = soothe_mind_opinion_mod_rare
             }
         }
     }
@@ -4641,12 +4127,10 @@ scaled_spell_effect__highfathers_will = {
         limit = {
             has_common_finesse = yes
         }
-        
-        custom_tooltip = GAIN_HIGHFATHERS_WILL_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_highfathers_will_token
-                value = 3
+        every_neighbor_country = {
+            add_opinion = {
+                who = ROOT
+                modifier = soothe_mind_opinion_mod_common
             }
         }
     }
@@ -4655,16 +4139,17 @@ scaled_spell_effect__highfathers_will = {
         limit = {
             has_poor_finesse = yes
         }
-        
-        custom_tooltip = GAIN_HIGHFATHERS_WILL_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_highfathers_will_token
-                value = 3
+        every_neighbor_country = {
+            add_opinion = {
+                who = ROOT
+                modifier = soothe_mind_opinion_mod_poor
             }
         }
     }
+    
 }
+
+# Highfather's Will
 token_spell_effect__highfathers_will = {
     change_controller = FROM
 
@@ -4762,7 +4247,47 @@ scaled_spell_effect__runic_empowerment = {
 
 # Ice Barrage
 scaled_spell_effect__ice_barrage = {
-    custom_tooltip = ICE_BARRAGE_EFFECT_TT
+    if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        custom_tooltip = ICE_BARRAGE_APPLY_TT
+        custom_tooltip = ICE_BARRAGE_EFFECT_TT_5
+    }
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        custom_tooltip = ICE_BARRAGE_APPLY_TT
+        custom_tooltip = ICE_BARRAGE_EFFECT_TT_4
+    }
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        custom_tooltip = ICE_BARRAGE_APPLY_TT
+        custom_tooltip = ICE_BARRAGE_EFFECT_TT_3
+    }
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        custom_tooltip = ICE_BARRAGE_APPLY_TT
+        custom_tooltip = ICE_BARRAGE_EFFECT_TT_2
+    }
+    else_if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        custom_tooltip = ICE_BARRAGE_APPLY_TT
+        custom_tooltip = ICE_BARRAGE_EFFECT_TT_1
+    }
+    
     hidden_effect = {
         every_owned_province = {
             scaled_magic_modifier_country_province_effect = {
@@ -4774,7 +4299,41 @@ scaled_spell_effect__ice_barrage = {
 
 # Waking Nightmare
 scaled_spell_effect__waking_nightmare = {
-    custom_tooltip = WAKING_NIGHTMARE_EFFECT
+    if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_5
+    }
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_4
+    }
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_3
+    }
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_2
+    }
+    else_if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_1
+    }
 }
 
 waking_nightmare_effect = {
@@ -4931,78 +4490,6 @@ scaled_spell_effect__beckon_the_horrors = {
 }
 
 # Nightmare Rift
-scaled_spell_effect__nightmare_rift = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_NIGHTMARE_RIFT_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_nightmare_rift_token
-                value = 5
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_NIGHTMARE_RIFT_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_nightmare_rift_token
-                value = 4
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_NIGHTMARE_RIFT_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_nightmare_rift_token
-                value = 4
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_NIGHTMARE_RIFT_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_nightmare_rift_token
-                value = 3
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_NIGHTMARE_RIFT_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_nightmare_rift_token
-                value = 3
-            }
-        }
-    }
-}
 token_spell_effect__nightmare_rift = {
     change_controller = FROM
     
@@ -5021,78 +4508,6 @@ token_spell_effect__nightmare_rift = {
 }
 
 # Enrichment
-scaled_spell_effect__enrichment = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENRICHMENT_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_enrichment_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENRICHMENT_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_enrichment_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENRICHMENT_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_enrichment_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENRICHMENT_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_enrichment_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_ENRICHMENT_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_enrichment_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__enrichment = {
     if = {
         limit = {
@@ -5101,13 +4516,40 @@ token_spell_effect__enrichment = {
         
         change_trade_goods = resource_rare_ores
     }
-    
-    if = {
+    else_if = {
         limit = {
             trade_goods = resource_common_metals
         }
         
         change_trade_goods = resource_rare_metals
+    }
+    else = {
+        if = {
+            limit = {
+                OR = {
+                    has_country_flag = random_flag_0
+                    has_country_flag = random_flag_1
+                    has_country_flag = random_flag_2
+                    has_country_flag = random_flag_3
+                    has_country_flag = random_flag_4
+                }
+            }
+            
+            change_trade_goods = resource_common_ores
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    has_country_flag = random_flag_5
+                    has_country_flag = random_flag_6
+                    has_country_flag = random_flag_7
+                    has_country_flag = random_flag_8
+                    has_country_flag = random_flag_9
+                }
+            }
+            
+            change_trade_goods = resource_common_metals
+        }
     }
 
     hidden_effect = {
@@ -5121,78 +4563,6 @@ token_spell_effect__enrichment = {
 }
 
 # Purged by Fire
-scaled_spell_effect__purged_by_fire = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PURGED_BY_FIRE_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_purged_by_fire_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PURGED_BY_FIRE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_purged_by_fire_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PURGED_BY_FIRE_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_purged_by_fire_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PURGED_BY_FIRE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_purged_by_fire_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_PURGED_BY_FIRE_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_purged_by_fire_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__purged_by_fire = {
     change_religion = FROM
     add_core = FROM
@@ -5208,78 +4578,6 @@ token_spell_effect__purged_by_fire = {
 }
 
 # Touch of Purification
-scaled_spell_effect__touch_of_purification = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_touch_of_purification_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_touch_of_purification_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_touch_of_purification_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_touch_of_purification_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_touch_of_purification_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__touch_of_purification = {
     area = {
         change_religion = FROM
@@ -5392,78 +4690,6 @@ reduce_rebel_faction_size = {
 }
 
 # Tornado
-scaled_spell_effect__tornado = {
-    # Legendary
-    if = {
-        limit = {
-            has_legendary_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TORNADO_TOKEN_TT_3
-        hidden_effect = {
-            change_variable = {
-                which = spell_tornado_token
-                value = 3
-            }
-        }
-    }
-    # Epic
-    else_if = {
-        limit = {
-            has_epic_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TORNADO_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_tornado_token
-                value = 2
-            }
-        }
-    }
-    # Rare
-    else_if = {
-        limit = {
-            has_rare_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TORNADO_TOKEN_TT_2
-        hidden_effect = {
-            change_variable = {
-                which = spell_tornado_token
-                value = 2
-            }
-        }
-    }
-    # Common
-    else_if = {
-        limit = {
-            has_common_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TORNADO_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_tornado_token
-                value = 1
-            }
-        }
-    }
-    # Poor
-    else_if = {
-        limit = {
-            has_poor_finesse = yes
-        }
-        
-        custom_tooltip = GAIN_TORNADO_TOKEN_TT_1
-        hidden_effect = {
-            change_variable = {
-                which = spell_tornado_token
-                value = 1
-            }
-        }
-    }
-}
 token_spell_effect__tornado = {
     apply_modifier_spell_province_effect = {
         MODIFIER = tornado
@@ -5481,7 +4707,46 @@ token_spell_effect__tornado = {
 
 # Chains of Domination
 scaled_spell_effect__chains_of_domination = {
-    custom_tooltip = CHAINS_OF_DOMINATION_EFFECT_TT
+    if = {
+        limit = {
+            has_legendary_finesse = yes
+        }
+        
+        custom_tooltip = CHAINS_OF_DOMINATION_APPLY_TT
+        custom_tooltip = CHAINS_OF_DOMINATION_EFFECT_TT_5
+    }
+    else_if = {
+        limit = {
+            has_epic_finesse = yes
+        }
+        
+        custom_tooltip = CHAINS_OF_DOMINATION_APPLY_TT
+        custom_tooltip = CHAINS_OF_DOMINATION_EFFECT_TT_4
+    }
+    else_if = {
+        limit = {
+            has_rare_finesse = yes
+        }
+        
+        custom_tooltip = CHAINS_OF_DOMINATION_APPLY_TT
+        custom_tooltip = CHAINS_OF_DOMINATION_EFFECT_TT_3
+    }
+    else_if = {
+        limit = {
+            has_common_finesse = yes
+        }
+        
+        custom_tooltip = CHAINS_OF_DOMINATION_APPLY_TT
+        custom_tooltip = CHAINS_OF_DOMINATION_EFFECT_TT_2
+    }
+    else_if = {
+        limit = {
+            has_poor_finesse = yes
+        }
+        
+        custom_tooltip = CHAINS_OF_DOMINATION_APPLY_TT
+        custom_tooltip = CHAINS_OF_DOMINATION_EFFECT_TT_1
+    }
     
     hidden_effect = {
         every_owned_province = {

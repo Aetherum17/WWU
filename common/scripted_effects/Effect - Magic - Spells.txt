@@ -16,6 +16,8 @@ on_yearly_pulse__spells = {
 #------------------------
 # General
 #------------------------
+# REMEMBER to sync changes here to Wiki Preview
+
 lose_scaled_mana_cost = {
     if = {
         limit = {
@@ -432,7 +434,15 @@ spell_effect__entangling_roots = {
         BASE = 5
     }
     
-    scaled_spell_effect__entangling_roots = yes
+    scaled_token_spell_effect = {
+        NAME = ENTANGLING_ROOTS
+        VAR_NAME = entangling_roots
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Tranquility
@@ -493,7 +503,15 @@ spell_effect__death_and_decay = {
         BASE = 4
     }
     
-    scaled_spell_effect__death_and_decay = yes
+    scaled_token_spell_effect = {
+        NAME = DEATH_AND_DECAY
+        VAR_NAME = death_and_decay
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Lichborne
@@ -521,7 +539,15 @@ spell_effect__pestilence = {
         BASE = 6
     }
     
-    scaled_spell_effect__pestilence = yes
+    scaled_token_spell_effect = {
+        NAME = PESTILENCE
+        VAR_NAME = pestilence
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Raise Undead
@@ -550,7 +576,15 @@ spell_effect__volcanic_rupture = {
         BASE = 5
     }
     
-    scaled_spell_effect__volcanic_rupture = yes
+    scaled_token_spell_effect = {
+        NAME = VOLCANIC_RUPTURE
+        VAR_NAME = volcanic_rupture
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Healing Rain
@@ -593,7 +627,15 @@ spell_effect__earthquake = {
         BASE = 5
     }
     
-    scaled_spell_effect__earthquake = yes
+    scaled_token_spell_effect = {
+        NAME = EARTHQUAKE
+        VAR_NAME = earthquake
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 #------------------------
@@ -609,7 +651,15 @@ spell_effect__hellfire = {
         BASE = 4
     }
     
-    scaled_spell_effect__hellfire = yes
+    scaled_token_spell_effect = {
+        NAME = HELLFIRE
+        VAR_NAME = hellfire
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Howl of Terror
@@ -666,7 +716,15 @@ spell_effect__living_flame = {
         BASE = 5
     }
     
-    scaled_spell_effect__living_flame = yes
+    scaled_token_spell_effect = {
+        NAME = LIVING_FLAME
+        VAR_NAME = living_flame
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Azure Wisdom
@@ -744,7 +802,15 @@ spell_effect__whisper_of_despair = {
         BASE = 5
     }
     
-    scaled_spell_effect__whisper_of_despair = yes
+    scaled_token_spell_effect = {
+        NAME = WHISPER_OF_DESPAIR
+        VAR_NAME = whisper_of_despair
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Call of the Faceless
@@ -801,7 +867,15 @@ spell_effect__mind_control = {
         BASE = 7
     }
     
-    scaled_spell_effect__mind_control = yes
+    scaled_token_spell_effect = {
+        NAME = MIND_CONTROL
+        VAR_NAME = mind_control
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Soothe Mind
@@ -860,7 +934,15 @@ spell_effect__highfathers_will = {
         BASE = 8
     }
     
-    scaled_spell_effect__highfathers_will = yes
+    scaled_token_spell_effect = {
+        NAME = HIGHFATHERS_WILL
+        VAR_NAME = highfathers_will
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Order Above All
@@ -1025,7 +1107,15 @@ spell_effect__nightmare_rift = {
         BASE = 5
     }
     
-    scaled_spell_effect__nightmare_rift = yes
+    scaled_token_spell_effect = {
+        NAME = NIGHTMARE_RIFT
+        VAR_NAME = nightmare_rift
+        LEGENDARY_TOKEN = 5
+        EPIC_TOKEN = 4
+        RARE_TOKEN = 4
+        COMMON_TOKEN = 3
+        POOR_TOKEN = 3
+    }
 }
 
 #------------------------
@@ -1041,7 +1131,15 @@ spell_effect__enrichment = {
         BASE = 5
     }
     
-    scaled_spell_effect__enrichment = yes
+    scaled_token_spell_effect = {
+        NAME = ENRICHMENT
+        VAR_NAME = enrichment
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Earthquake (in Shamanism section)
@@ -1106,7 +1204,15 @@ spell_effect__purged_by_fire = {
         BASE = 6
     }
     
-    scaled_spell_effect__purged_by_fire = yes
+    scaled_token_spell_effect = {
+        NAME = PURGED_BY_FIRE
+        VAR_NAME = purged_by_fire
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Unstable Combustion
@@ -1154,7 +1260,15 @@ spell_effect__touch_of_purification = {
         BASE = 6
     }
     
-    scaled_spell_effect__touch_of_purification = yes
+    scaled_token_spell_effect = {
+        NAME = TOUCH_OF_PURIFICATION
+        VAR_NAME = touch_of_purification
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 # Abyssal Tides
@@ -1228,7 +1342,15 @@ spell_effect__tornado = {
         BASE = 5
     }
     
-    scaled_spell_effect__tornado = yes
+    scaled_token_spell_effect = {
+        NAME = TORNADO_
+        VAR_NAME = tornado
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN = 2
+        RARE_TOKEN = 2
+        COMMON_TOKEN = 1
+        POOR_TOKEN = 1
+    }
 }
 
 #------------------------

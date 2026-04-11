@@ -3420,39 +3420,2474 @@ custom_button = {
 }
 
 # Magic: Holy
+custom_text_box = {
+   name = wiki_text_magic_holy_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_holy_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_holy_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_holy_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_holy_spell_1
+    tooltip = HOLY_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            judgment_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_holy_spell_2
+    tooltip = HOLY_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            divine_tempest_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_holy_spell_3
+    tooltip = HOLY_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            fortifying_aura_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_holy_spell_4
+    tooltip = HOLY_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = holy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            avatar_of_the_light_preview = yes
+        }
+    }
+}
 
 # Magic: Chi
+custom_text_box = {
+   name = wiki_text_magic_chi_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_chi_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_chi_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_chi_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_chi_spell_1
+    tooltip = CHI_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ring_of_peace_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_chi_spell_2
+    tooltip = CHI_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            renewing_mist_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_chi_spell_3
+    tooltip = CHI_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            secret_infusion_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_chi_spell_4
+    tooltip = CHI_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = chi
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            mists_of_wisdom_preview = yes
+        }
+    }
+}
 
 # Magic: Voodoo
+custom_text_box = {
+   name = wiki_text_magic_voodoo_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_voodoo_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_voodoo_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_voodoo_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_voodoo_spell_1
+    tooltip = VOODOO_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            mass_hex_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_voodoo_spell_2
+    tooltip = VOODOO_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            zombify_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_voodoo_spell_3
+    tooltip = VOODOO_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            healing_wave_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_voodoo_spell_4
+    tooltip = VOODOO_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = voodoo
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            big_bad_voodoo_preview = yes
+        }
+    }
+}
 
 # Magic: Nature
+custom_text_box = {
+   name = wiki_text_magic_nature_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_nature_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_nature_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_nature_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_nature_spell_1
+    tooltip = NATURE_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            entangling_roots_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_nature_spell_2
+    tooltip = NATURE_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            tranquility_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_nature_spell_3
+    tooltip = NATURE_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            regrowth_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_nature_spell_4
+    tooltip = NATURE_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nature
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            force_of_nature_preview = yes
+        }
+    }
+}
 
 # Magic: Necromancy
+custom_text_box = {
+   name = wiki_text_magic_necromancy_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_necromancy_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_necromancy_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_necromancy_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_necromancy_spell_1
+    tooltip = NECROMANCY_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            death_and_decay_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_necromancy_spell_2
+    tooltip = NECROMANCY_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            lichborne_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_necromancy_spell_3
+    tooltip = NECROMANCY_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            pestilence_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_necromancy_spell_4
+    tooltip = NECROMANCY_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = necromancy
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            raise_undead_preview = yes
+        }
+    }
+}
 
 # Magic: Shamanism
+custom_text_box = {
+   name = wiki_text_magic_shamanism_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_shamanism_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_shamanism_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_shamanism_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_shamanism_spell_1
+    tooltip = SHAMANISM_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            volcanic_rupture_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_shamanism_spell_2
+    tooltip = SHAMANISM_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            healing_rain_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_shamanism_spell_3
+    tooltip = SHAMANISM_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            static_charge_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_shamanism_spell_4
+    tooltip = SHAMANISM_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shamanism
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            earthquake_preview = yes
+        }
+    }
+}
 
 # Magic: Fel
+custom_text_box = {
+   name = wiki_text_magic_fel_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_fel_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_fel_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_fel_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_fel_spell_1
+    tooltip = FEL_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            hellfire_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_fel_spell_2
+    tooltip = FEL_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            howl_of_terror_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_fel_spell_3
+    tooltip = FEL_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            banish_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_fel_spell_4
+    tooltip = FEL_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fel
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            demonic_empowerment_preview = yes
+        }
+    }
+}
 
 # Magic: Draconic
+custom_text_box = {
+   name = wiki_text_magic_draconic_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_draconic_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_draconic_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_draconic_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_draconic_spell_1
+    tooltip = DRACONIC_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            living_flame_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_draconic_spell_2
+    tooltip = DRACONIC_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            azure_wisdom_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_draconic_spell_3
+    tooltip = DRACONIC_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            temporal_haste_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_draconic_spell_4
+    tooltip = DRACONIC_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ephemeral_dream_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_draconic_spell_5
+    tooltip = DRACONIC_SPELL_5_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = draconic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            obsidian_skin_preview = yes
+        }
+    }
+}
 
 # Magic: Corruption
+custom_text_box = {
+   name = wiki_text_magic_corruption_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_corruption_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_corruption_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_corruption_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_corruption_spell_1
+    tooltip = CORRUPTION_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            whisper_of_despair_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_corruption_spell_2
+    tooltip = CORRUPTION_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            call_of_the_faceless_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_corruption_spell_3
+    tooltip = CORRUPTION_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            corrupting_influence_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_corruption_spell_4
+    tooltip = CORRUPTION_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = corruption
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            mindworms_preview = yes
+        }
+    }
+}
 
 # Magic: Shadow
+custom_text_box = {
+   name = wiki_text_magic_shadow_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_shadow_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_shadow_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_shadow_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_shadow_spell_1
+    tooltip = SHADOW_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            mind_control_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_shadow_spell_2
+    tooltip = SHADOW_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            soothe_mind_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_shadow_spell_3
+    tooltip = SHADOW_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            mind_blast_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_shadow_spell_4
+    tooltip = SHADOW_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = shadow
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            dark_whispers_preview = yes
+        }
+    }
+}
 
 # Magic: Titanic
+custom_text_box = {
+   name = wiki_text_magic_titanic_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_titanic_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_titanic_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_titanic_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_titanic_spell_1
+    tooltip = TITANIC_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            highfathers_will_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_titanic_spell_2
+    tooltip = TITANIC_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            order_above_all_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_titanic_spell_3
+    tooltip = TITANIC_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            blessing_of_the_titans_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_titanic_spell_4
+    tooltip = TITANIC_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = titanic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            power_from_beyond_preview = yes
+        }
+    }
+}
 
 # Magic: Runic
+custom_text_box = {
+   name = wiki_text_magic_runic_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_runic_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_runic_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_runic_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_runic_spell_1
+    tooltip = RUNIC_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            forbidden_rune_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_runic_spell_2
+    tooltip = RUNIC_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            runic_empowerment_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_runic_spell_3
+    tooltip = RUNIC_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ice_barrage_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_runic_spell_4
+    tooltip = RUNIC_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = runic
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ancestral_knowledge_preview = yes
+        }
+    }
+}
 
 # Magic: Nightmare
+custom_text_box = {
+   name = wiki_text_magic_nightmare_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_nightmare_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_nightmare_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_nightmare_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_nightmare_spell_1
+    tooltip = NIGHTMARE_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            waking_nightmare_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_nightmare_spell_2
+    tooltip = NIGHTMARE_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            corrupting_aura_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_nightmare_spell_3
+    tooltip = NIGHTMARE_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            beckon_the_horrors_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_nightmare_spell_4
+    tooltip = NIGHTMARE_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = nightmare
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            nightmare_rift_preview = yes
+        }
+    }
+}
 
 # Magic: Earth
+custom_text_box = {
+   name = wiki_text_magic_earth_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_earth_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_earth_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_earth_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_earth_spell_1
+    tooltip = EARTH_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            enrichment_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_earth_spell_2
+    tooltip = EARTH_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            earthquake_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_earth_spell_3
+    tooltip = EARTH_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            riches_of_the_earth_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_earth_spell_4
+    tooltip = EARTH_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = earth
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            living_stone_preview = yes
+        }
+    }
+}
 
 # Magic: Fire
+custom_text_box = {
+   name = wiki_text_magic_fire_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_fire_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_fire_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_fire_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_fire_spell_1
+    tooltip = FIRE_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            volcanic_rupture_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_fire_spell_2
+    tooltip = FIRE_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            everlasting_flame_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_fire_spell_3
+    tooltip = FIRE_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            purged_by_fire_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_fire_spell_4
+    tooltip = FIRE_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = fire
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            unstable_combustion_preview = yes
+        }
+    }
+}
 
 # Magic: Water
+custom_text_box = {
+   name = wiki_text_magic_water_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_water_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_water_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_water_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_water_spell_1
+    tooltip = WATER_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            healing_rain_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_water_spell_2
+    tooltip = WATER_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            primordial_swell_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_water_spell_3
+    tooltip = WATER_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            touch_of_purification_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_water_spell_4
+    tooltip = WATER_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = water
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            abyssal_tides_preview = yes
+        }
+    }
+}
 
 # Magic: Wind
+custom_text_box = {
+   name = wiki_text_magic_wind_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_wind_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_wind_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_wind_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_wind_spell_1
+    tooltip = WIND_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            winds_of_change_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_wind_spell_2
+    tooltip = WIND_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            slicing_wind_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_wind_spell_3
+    tooltip = WIND_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            windwalk_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_wind_spell_4
+    tooltip = WIND_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = wind
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            tornado_preview = yes
+        }
+    }
+}
 
 # Magic: Domination
+custom_text_box = {
+   name = wiki_text_magic_domination_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_domination_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_domination_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_domination_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_domination_spell_1
+    tooltip = DOMINATION_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            chains_of_domination_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_domination_spell_2
+    tooltip = DOMINATION_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            soul_sacrifice_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_domination_spell_3
+    tooltip = DOMINATION_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            shadowsteel_embers_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_domination_spell_4
+    tooltip = DOMINATION_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = domination
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            crushing_dread_preview = yes
+        }
+    }
+}
 
 # Magic: Soul
+custom_text_box = {
+   name = wiki_text_magic_soul_top
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_soul_info
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+   }
+}
+
+custom_icon = {
+   name = wiki_text_magic_soul_spell_banner
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+   }
+}
+
+custom_text_box = {
+   name = wiki_text_magic_soul_spell_banner_text
+   potential = { 
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+   }
+}
+
+custom_button = {
+    name = wiki_text_magic_soul_spell_1
+    tooltip = SOUL_SPELL_1_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            ascension_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_soul_spell_2
+    tooltip = SOUL_SPELL_2_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            accelerated_incubation_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_soul_spell_3
+    tooltip = SOUL_SPELL_3_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            noxious_spores_preview = yes
+        }
+    }
+}
+
+custom_button = {
+    name = wiki_text_magic_soul_spell_4
+    tooltip = SOUL_SPELL_4_TT
+    
+    potential = {
+        is_viewing_wiki_topic = { 
+            CATEGORY = magic 
+            TOPIC = soul
+        }
+    }
+    
+    trigger = { 
+        hidden_trigger = { always = yes }
+    }
+    
+    effect = { 
+        tooltip = {
+            burden_of_sin_preview = yes
+        }
+    }
+}

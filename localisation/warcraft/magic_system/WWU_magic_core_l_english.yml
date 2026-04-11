@@ -878,7 +878,11 @@
  dark_whispers_legendary: "Dark Whispers: Legendary"
  desc_dark_whispers_legendary: ""
  
- soothe_mind_opinion_mod: "Soothed Mind"
+ soothe_mind_opinion_mod_legendary: "Soothed Mind (Legendary)"
+ soothe_mind_opinion_mod_epic: "Soothed Mind (Epic)"
+ soothe_mind_opinion_mod_rare: "Soothed Mind (Rare)"
+ soothe_mind_opinion_mod_common: "Soothed Mind (Common)"
+ soothe_mind_opinion_mod_poor: "Soothed Mind (Poor)"
  
  # Titanic
  highfathers_will_prov_poor: "Highfather's Will: Poor"
@@ -1081,20 +1085,20 @@
  desc_unstable_combustion_legendary: ""
  
  # Water
- priomordial_swell_poor: "Priomordial Swell: Poor"
- desc_priomordial_swell_poor: ""
+ primordial_swell_poor: "Priomordial Swell: Poor"
+ desc_primordial_swell_poor: ""
  
- priomordial_swell_common: "Priomordial Swell: Common"
- desc_priomordial_swell_common: ""
+ primordial_swell_common: "Priomordial Swell: Common"
+ desc_primordial_swell_common: ""
  
- priomordial_swell_rare: "Priomordial Swell: Rare"
- desc_priomordial_swell_rare: ""
+ primordial_swell_rare: "Priomordial Swell: Rare"
+ desc_primordial_swell_rare: ""
  
- priomordial_swell_epic: "Priomordial Swell: Epic"
- desc_priomordial_swell_epic: ""
+ primordial_swell_epic: "Priomordial Swell: Epic"
+ desc_primordial_swell_epic: ""
  
- priomordial_swell_legendary: "Priomordial Swell: Legendary"
- desc_priomordial_swell_legendary: ""
+ primordial_swell_legendary: "Priomordial Swell: Legendary"
+ desc_primordial_swell_legendary: ""
  
  abyssal_tides_poor: "Abyssal Tides: Poor"
  desc_abyssal_tides_poor: ""

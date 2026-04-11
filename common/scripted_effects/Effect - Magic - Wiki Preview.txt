@@ -3,22 +3,146 @@
 #-----------------------------------
 # Remember to sync any spell changes here
 
-# Generic
-conjure_gold_preview = {
+scaled_mana_cost_preview = {
     custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_2 = yes
+    lose_mana_$LEGENDARY$ = yes
     
     custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_3 = yes
+    lose_mana_$EPIC$ = yes
     
     custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_3 = yes
+    lose_mana_$RARE$ = yes
     
     custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_4 = yes
+    lose_mana_$COMMON$ = yes
     
     custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_4 = yes
+    lose_mana_$BASE$ = yes
+}
+
+scaled_modifier_preview = {
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_country_modifier = {
+        name = $MODIFIER$_legendary
+        duration = -1
+    }
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_country_modifier = {
+        name = $MODIFIER$_epic
+        duration = -1
+    }
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_country_modifier = {
+        name = $MODIFIER$_rare
+        duration = -1
+    }
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_country_modifier = {
+        name = $MODIFIER$_common
+        duration = -1
+    }
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_country_modifier = {
+        name = $MODIFIER$_poor
+        duration = -1
+    }
+}
+
+scaled_province_modifier_preview = {
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_province_modifier = {
+        name = $MODIFIER$_legendary
+        duration = -1
+    }
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_province_modifier = {
+        name = $MODIFIER$_epic
+        duration = -1
+    }
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_province_modifier = {
+        name = $MODIFIER$_rare
+        duration = -1
+    }
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_province_modifier = {
+        name = $MODIFIER$_common
+        duration = -1
+    }
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_province_modifier = {
+        name = $MODIFIER$_poor
+        duration = -1
+    }
+}
+
+scaled_modifier_duration_preview = {
+    custom_tooltip = AT_LEGENDARY_CONCENTRATION
+    custom_tooltip = AT_LEGENDARY_DURATION
+    
+    custom_tooltip = AT_EPIC_CONCENTRATION
+    custom_tooltip = AT_EPIC_DURATION
+    
+    custom_tooltip = AT_RARE_CONCENTRATION
+    custom_tooltip = AT_RARE_DURATION
+    
+    custom_tooltip = AT_COMMON_CONCENTRATION
+    custom_tooltip = AT_COMMON_DURATION
+    
+    custom_tooltip = AT_POOR_CONCENTRATION
+    custom_tooltip = AT_POOR_DURATION
+}
+
+scaled_token_effect_preview = {
+    custom_tooltip = TOKEN_USAGE_TT
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = $NAME$_TOKEN_TT_$LEGENDARY_TOKEN$
+    custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+    custom_tooltip = $NAME$_EFFECT_TT_5
+    custom_tooltip = SPELL_SPACER
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = $NAME$_TOKEN_TT_$EPIC_TOKEN$
+    custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+    custom_tooltip = $NAME$_EFFECT_TT_4
+    custom_tooltip = SPELL_SPACER
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = $NAME$_TOKEN_TT_$RARE_TOKEN$
+    custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+    custom_tooltip = $NAME$_EFFECT_TT_3
+    custom_tooltip = SPELL_SPACER
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = $NAME$_TOKEN_TT_$COMMON_TOKEN$
+    custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+    custom_tooltip = $NAME$_EFFECT_TT_2
+    custom_tooltip = SPELL_SPACER
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = $NAME$_TOKEN_TT_$POOR_TOKEN$
+    custom_tooltip = APPLY_TARGETED_SPELL_PROV_EFFECT_TT
+    custom_tooltip = $NAME$_EFFECT_TT_1
+}
+
+# Generic
+conjure_gold_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -39,20 +163,13 @@ conjure_gold_preview = {
 }
 
 inspire_glory_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_1 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_2 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_2 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_3 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 1
+        EPIC = 2
+        RARE = 2
+        COMMON = 3
+        BASE = 3
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -73,20 +190,13 @@ inspire_glory_preview = {
 }
 
 purge_opponents_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_5 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -107,20 +217,13 @@ purge_opponents_preview = {
 }
 
 splendiferous_show_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_2 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_4 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -141,20 +244,13 @@ splendiferous_show_preview = {
 }
 
 arouse_support_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_2 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_4 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -190,20 +286,13 @@ arouse_support_preview = {
 }
 
 soothe_population_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_5 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -233,20 +322,13 @@ soothe_population_preview = {
 }
 
 quell_fear_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_2 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_4 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -267,20 +349,13 @@ quell_fear_preview = {
 }
 
 rally_soldiers_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_2 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_4 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -301,20 +376,13 @@ rally_soldiers_preview = {
 }
 
 rally_sailors_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_2 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_3 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_4 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -335,20 +403,13 @@ rally_sailors_preview = {
 }
 
 galvinize_creativity_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_6 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_6 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -370,20 +431,13 @@ galvinize_creativity_preview = {
 
 # Arcane
 polymorph_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_6 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_6 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -414,20 +468,13 @@ polymorph_preview = {
 }
 
 presence_of_mind_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_6 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_7 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_7 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_8 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_8 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
@@ -458,172 +505,1819 @@ presence_of_mind_preview = {
 }
 
 touch_of_the_magi_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_6 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_6 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
-    custom_tooltip = AT_LEGENDARY_CONCENTRATION
-    custom_tooltip = AT_LEGENDARY_DURATION
-    
-    custom_tooltip = AT_EPIC_CONCENTRATION
-    custom_tooltip = AT_EPIC_DURATION
-    
-    custom_tooltip = AT_RARE_CONCENTRATION
-    custom_tooltip = AT_RARE_DURATION
-    
-    custom_tooltip = AT_COMMON_CONCENTRATION
-    custom_tooltip = AT_COMMON_DURATION
-    
-    custom_tooltip = AT_POOR_CONCENTRATION
-    custom_tooltip = AT_POOR_DURATION
+    scaled_modifier_duration_preview = yes
     
     custom_tooltip = PREVIEW_SPACER
     
-    custom_tooltip = AT_LEGENDARY_FINESSE
-    add_country_modifier = {
-        name = touch_of_the_magi_legendary
-        duration = -1
-    }
-    
-    custom_tooltip = AT_EPIC_FINESSE
-    add_country_modifier = {
-        name = touch_of_the_magi_epic
-        duration = -1
-    }
-    
-    custom_tooltip = AT_RARE_FINESSE
-    add_country_modifier = {
-        name = touch_of_the_magi_rare
-        duration = -1
-    }
-    
-    custom_tooltip = AT_COMMON_FINESSE
-    add_country_modifier = {
-        name = touch_of_the_magi_common
-        duration = -1
-    }
-    
-    custom_tooltip = AT_POOR_FINESSE
-    add_country_modifier = {
-        name = touch_of_the_magi_poor
-        duration = -1
+    scaled_modifier_preview = {
+        MODIFIER = touch_of_the_magi
     }
 }
 
 alter_time_preview = {
-    custom_tooltip = AT_LEGENDARY_APTITUDE
-    lose_mana_4 = yes
-    
-    custom_tooltip = AT_EPIC_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_RARE_APTITUDE
-    lose_mana_5 = yes
-    
-    custom_tooltip = AT_COMMON_APTITUDE
-    lose_mana_6 = yes
-    
-    custom_tooltip = AT_POOR_APTITUDE
-    lose_mana_6 = yes
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
-    custom_tooltip = AT_LEGENDARY_CONCENTRATION
-    custom_tooltip = AT_LEGENDARY_DURATION
+    scaled_modifier_duration_preview = yes
     
-    custom_tooltip = AT_EPIC_CONCENTRATION
-    custom_tooltip = AT_EPIC_DURATION
+    custom_tooltip = PREVIEW_SPACER
     
-    custom_tooltip = AT_RARE_CONCENTRATION
-    custom_tooltip = AT_RARE_DURATION
+    scaled_modifier_preview = {
+        MODIFIER = alter_time
+    }
+}
+
+# Holy
+judgment_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
     
-    custom_tooltip = AT_COMMON_CONCENTRATION
-    custom_tooltip = AT_COMMON_DURATION
+    custom_tooltip = PREVIEW_SPACER
     
-    custom_tooltip = AT_POOR_CONCENTRATION
-    custom_tooltip = AT_POOR_DURATION
+    custom_tooltip = AT_ANY_FINESSE
+    custom_tooltip = JUDGEMENT_KILL_EFFECT_TT
+}
+
+divine_tempest_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = divine_tempest
+    }
+}
+
+fortifying_aura_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = fortifying_aura
+    }
+}
+
+avatar_of_the_light_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_ANY_FINESSE
+    define_general = {
+        name = "Avatar of the Light"
+        fire = 6
+        shock = 6
+        manuever = 6
+        siege = 6
+    }
+    
+    country_event = { id = wwu_magic_effect.2 days = 9125 } # 25 years
+}
+
+# Chi
+ring_of_peace_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
     
     custom_tooltip = PREVIEW_SPACER
     
     custom_tooltip = AT_LEGENDARY_FINESSE
-    add_country_modifier = {
-        name = alter_time_legendary
-        duration = -1
+    custom_tooltip = PREVENT_WAR_TT_10
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = PREVENT_WAR_TT_8
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = PREVENT_WAR_TT_6
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = PREVENT_WAR_TT_4
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = PREVENT_WAR_TT_2
+}
+
+renewing_mist_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = renewing_mist
+    }
+}
+
+secret_infusion_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = secret_infusion
+    }
+}
+
+mists_of_wisdom_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 8
+        EPIC = 9
+        RARE = 9
+        COMMON = 10
+        BASE = 10
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_ANY_FINESSE
+    random_list = {
+        33 = {
+            add_adm_tech = 1
+        }
+        33 = {
+            add_dip_tech = 1
+        }
+        33 = {
+            add_mil_tech = 1
+        }
+    }
+}
+
+# Voodoo
+mass_hex_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = MASS_HEX_EFFECT_TT_5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = MASS_HEX_EFFECT_TT_4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = MASS_HEX_EFFECT_TT_3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = MASS_HEX_EFFECT_TT_2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = MASS_HEX_EFFECT_TT_1
+}
+
+zombify_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = zombify
+    }
+}
+
+healing_wave_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = healing_wave
+    }
+}
+
+big_bad_voodoo_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 8
+        EPIC = 9
+        RARE = 9
+        COMMON = 10
+        BASE = 10
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = BIG_BAD_VOODOO_EFFECT_TT_1
+}
+
+# Nature
+entangling_roots_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = ENTANGLING_ROOTS
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+tranquility_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = tranquility
+    }
+}
+
+regrowth_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = regrowth
+    }
+}
+
+force_of_nature_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = force_of_nature
+    }
+}
+
+# Necromancy
+death_and_decay_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = DEATH_AND_DECAY
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+lichborne_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = lichborne
+    }
+}
+
+pestilence_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = PESTILENCE
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+raise_undead_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_100_PERCENT_TT
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_95_PERCENT_TT
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_90_PERCENT_TT
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_85_PERCENT_TT
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_80_PERCENT_TT
+}
+
+# Shamanism
+volcanic_rupture_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = VOLCANIC_RUPTURE
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+healing_rain_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_100_PERCENT_TT
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_95_PERCENT_TT
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_90_PERCENT_TT
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_85_PERCENT_TT
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_80_PERCENT_TT
+}
+
+static_charge_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = STATIC_CHARGE_ENEMY_EFFECT_TT
+    
+    scaled_modifier_preview = {
+        MODIFIER = static_charge
+    }
+}
+
+earthquake_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = EARTHQUAKE
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+# Fel
+hellfire_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 2
+        EPIC = 3
+        RARE = 3
+        COMMON = 4
+        BASE = 4
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = HELLFIRE
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+howl_of_terror_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 5
+        EPIC = 6
+        RARE = 6
+        COMMON = 7
+        BASE = 7
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = HOWL_OF_TERROR_APPLY_TT
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = HOWL_OF_TERROR_EFFECT_TT_1
+}
+
+banish_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_ANY_FINESSE
+    custom_tooltip = BANISH_EFFECT_TT
+    
+    custom_tooltip = ANY_WAR_ENEMY_COUNTRY
+    custom_tooltip = BANISH_ENEMY_ARMY_TT
+}
+
+demonic_empowerment_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 8
+        EPIC = 9
+        RARE = 9
+        COMMON = 10
+        BASE = 10
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = demonic_empowerment
+    }
+}
+
+# Draconic
+living_flame_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = LIVING_FLAME
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+azure_wisdom_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = azure_wisdom
+    }
+}
+
+temporal_haste_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = temporal_haste
+    }
+}
+
+ephemeral_dream_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = ENEMY_WAR_BLOCKED_TT
+    
+    scaled_modifier_preview = {
+        MODIFIER = ephemeral_dream
+    }
+}
+
+obsidian_skin_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = obsidian_skin
+    }
+}
+
+# Corruption
+whisper_of_despair_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = WHISPER_OF_DESPAIR
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+call_of_the_faceless_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 5
+        EPIC = 6
+        RARE = 6
+        COMMON = 7
+        BASE = 7
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    random_list = {
+        50 = {
+            define_general = {
+                name = "C'Thraxi Herald"
+                shock = 6
+                fire = 6
+                manuever = 4
+                siege = 10
+            }
+        }
+        50 = {
+            create_general = {
+                tradition = 100
+            }
+        }
     }
     
     custom_tooltip = AT_EPIC_FINESSE
-    add_country_modifier = {
-        name = alter_time_epic
-        duration = -1
+    random_list = {
+        40 = {
+            define_general = {
+                name = "C'Thraxi Herald"
+                shock = 6
+                fire = 6
+                manuever = 4
+                siege = 10
+            }
+        }
+        60 = {
+            create_general = {
+                tradition = 95
+            }
+        }
     }
     
     custom_tooltip = AT_RARE_FINESSE
-    add_country_modifier = {
-        name = alter_time_rare
-        duration = -1
+    random_list = {
+        30 = {
+            define_general = {
+                name = "C'Thraxi Herald"
+                shock = 6
+                fire = 6
+                manuever = 4
+                siege = 10
+            }
+        }
+        70 = {
+            create_general = {
+                tradition = 90
+            }
+        }
     }
     
     custom_tooltip = AT_COMMON_FINESSE
-    add_country_modifier = {
-        name = alter_time_common
-        duration = -1
+    random_list = {
+        20 = {
+            define_general = {
+                name = "C'Thraxi Herald"
+                shock = 6
+                fire = 6
+                manuever = 4
+                siege = 10
+            }
+        }
+        80 = {
+            create_general = {
+                tradition = 85
+            }
+        }
     }
     
     custom_tooltip = AT_POOR_FINESSE
-    add_country_modifier = {
-        name = alter_time_poor
-        duration = -1
+    random_list = {
+        10 = {
+            define_general = {
+                name = "C'Thraxi Herald"
+                shock = 6
+                fire = 6
+                manuever = 4
+                siege = 10
+            }
+        }
+        90 = {
+            create_general = {
+                tradition = 80
+            }
+        }
     }
-    
 }
 
-# Holy
 
-# Chi
+corrupting_influence_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 5
+        EPIC = 6
+        RARE = 6
+        COMMON = 7
+        BASE = 7
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_1
+}
 
-# Voodoo
-
-# Nature
-
-# Necromancy
-
-# Shamanism
-
-# Fel
-
-# Draconic
-
-# Corruption
+mindworms_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = mindworms
+    }
+}
 
 # Shadow
+mind_control_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 5
+        EPIC = 6
+        RARE = 6
+        COMMON = 7
+        BASE = 7
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = MIND_CONTROL
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+soothe_mind_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_1
+}
+
+mind_blast_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 8
+        EPIC = 9
+        RARE = 9
+        COMMON = 10
+        BASE = 10
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = mind_blast
+    }
+}
+
+dark_whispers_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = dark_whispers
+    }
+}
 
 # Titanic
+highfathers_will_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = HIGHFATHERS_WILL
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+order_above_all_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 8
+        EPIC = 9
+        RARE = 9
+        COMMON = 10
+        BASE = 10
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_ANY_FINESSE
+    custom_tooltip = ORDER_ABOVE_ALL_EFFECT_TT
+}
+
+blessing_of_the_titans_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_spell_effect__blessing_of_the_titans = yes
+    
+    scaled_modifier_preview = {
+        MODIFIER = blessing_of_the_titans
+    }
+}
+
+power_from_beyond_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 8
+        EPIC = 9
+        RARE = 9
+        COMMON = 10
+        BASE = 10
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = power_from_beyond
+    }
+}
 
 # Runic
+forbidden_rune_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 5
+        EPIC = 6
+        RARE = 6
+        COMMON = 7
+        BASE = 7
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = forbidden_rune
+    }
+}
+
+runic_empowerment_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    create_general = {
+        tradition = 100
+    }
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    create_general = {
+        tradition = 95
+    }
+    
+    custom_tooltip = AT_RARE_FINESSE
+    create_general = {
+        tradition = 90
+    }
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    create_general = {
+        tradition = 85
+    }
+    
+    custom_tooltip = AT_POOR_FINESSE
+    create_general = {
+        tradition = 80
+    }
+}
+
+ice_barrage_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = ICE_BARRAGE_APPLY_TT
+    
+    scaled_province_modifier_preview = {
+        MODIFIER = ice_barrage_prov
+    }
+}
+
+ancestral_knowledge_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = ancestral_knowledge
+    }
+}
 
 # Nightmare
+waking_nightmare_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = waking_nightmare
+    }
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_5
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_4
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_3
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_2
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = WAKING_NIGHTMARE_EFFECT_TT_1
+}
+
+corrupting_aura_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = corrupting_aura
+    }
+}
+
+beckon_the_horrors_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_100_PERCENT_TT
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_95_PERCENT_TT
+    
+    custom_tooltip = AT_RARE_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_90_PERCENT_TT
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_85_PERCENT_TT
+    
+    custom_tooltip = AT_POOR_FINESSE
+    custom_tooltip = RESTORE_MANPOWER_TO_80_PERCENT_TT
+}
+
+nightmare_rift_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = NIGHTMARE_RIFT
+        LEGENDARY_TOKEN = 5
+        EPIC_TOKEN      = 4
+        RARE_TOKEN      = 4
+        COMMON_TOKEN    = 3
+        POOR_TOKEN      = 3
+    }
+}
 
 # Earth
+enrichment_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = ENRICHMENT
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+riches_of_the_earth_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = riches_of_the_earth
+    }
+}
+
+living_stone_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = living_stone
+    }
+}
 
 # Fire
+everlasting_flame_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = everlasting_flame
+    }
+}
+
+purged_by_fire_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = PURGED_BY_FIRE
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+unstable_combustion_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = unstable_combustion
+    }
+}
 
 # Water
+primordial_swell_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = primordial_swell
+    }
+}
+
+touch_of_purification_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = TOUCH_OF_PURIFICATION
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
+
+abyssal_tides_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = abyssal_tides
+    }
+}
 
 # Wind
+winds_of_change_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_stability = 3
+    
+    # Rebels
+    reduce_rebel_faction_size = { TYPE = anti_tax_rebels SIZE = -80 }
+    reduce_rebel_faction_size = { TYPE = nationalist_rebels SIZE = -80 }
+    reduce_rebel_faction_size = { TYPE = noble_rebels SIZE = -80 }
+    reduce_rebel_faction_size = { TYPE = pretender_rebels SIZE = -80 }
+    reduce_rebel_faction_size = { TYPE = tribal_rebels SIZE = -80 }
+    reduce_rebel_faction_size = { TYPE = heretic_rebels SIZE = -80 }
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_stability = 2
+    
+    # Rebels
+    reduce_rebel_faction_size = { TYPE = anti_tax_rebels SIZE = -60 }
+    reduce_rebel_faction_size = { TYPE = nationalist_rebels SIZE = -60 }
+    reduce_rebel_faction_size = { TYPE = noble_rebels SIZE = -60 }
+    reduce_rebel_faction_size = { TYPE = pretender_rebels SIZE = -60 }
+    reduce_rebel_faction_size = { TYPE = tribal_rebels SIZE = -60 }
+    reduce_rebel_faction_size = { TYPE = heretic_rebels SIZE = -60 }
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_stability = 2
+    
+    # Rebels
+    reduce_rebel_faction_size = { TYPE = anti_tax_rebels SIZE = -40 }
+    reduce_rebel_faction_size = { TYPE = nationalist_rebels SIZE = -40 }
+    reduce_rebel_faction_size = { TYPE = noble_rebels SIZE = -40 }
+    reduce_rebel_faction_size = { TYPE = pretender_rebels SIZE = -40 }
+    reduce_rebel_faction_size = { TYPE = tribal_rebels SIZE = -40 }
+    reduce_rebel_faction_size = { TYPE = heretic_rebels SIZE = -40 }
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_stability = 1
+    
+    # Rebels
+    reduce_rebel_faction_size = { TYPE = anti_tax_rebels SIZE = -30 }
+    reduce_rebel_faction_size = { TYPE = nationalist_rebels SIZE = -30 }
+    reduce_rebel_faction_size = { TYPE = noble_rebels SIZE = -30 }
+    reduce_rebel_faction_size = { TYPE = pretender_rebels SIZE = -30 }
+    reduce_rebel_faction_size = { TYPE = tribal_rebels SIZE = -30 }
+    reduce_rebel_faction_size = { TYPE = heretic_rebels SIZE = -30 }
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_stability = 1
+    
+    # Rebels
+    reduce_rebel_faction_size = { TYPE = anti_tax_rebels SIZE = -20 }
+    reduce_rebel_faction_size = { TYPE = nationalist_rebels SIZE = -20 }
+    reduce_rebel_faction_size = { TYPE = noble_rebels SIZE = -20 }
+    reduce_rebel_faction_size = { TYPE = pretender_rebels SIZE = -20 }
+    reduce_rebel_faction_size = { TYPE = tribal_rebels SIZE = -20 }
+    reduce_rebel_faction_size = { TYPE = heretic_rebels SIZE = -20 }
+}
+
+slicing_wind_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = slicing_wind
+    }
+}
+
+windwalk_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 8
+        EPIC = 9
+        RARE = 9
+        COMMON = 10
+        BASE = 10
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = windwalk
+    }
+}
+
+tornado_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 3
+        EPIC = 4
+        RARE = 4
+        COMMON = 5
+        BASE = 5
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_token_effect_preview = {
+        NAME            = TORNADO
+        LEGENDARY_TOKEN = 3
+        EPIC_TOKEN      = 2
+        RARE_TOKEN      = 2
+        COMMON_TOKEN    = 1
+        POOR_TOKEN      = 1
+    }
+}
 
 # Domination
+chains_of_domination_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = CHAINS_OF_DOMINATION_APPLY_TT
+    
+    scaled_province_modifier_preview = {
+        MODIFIER = chains_of_domination_prov
+    }
+}
+
+soul_sacrifice_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    kill_advisor = random
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    add_adm_power = 250
+    add_dip_power = 250
+    add_mil_power = 250
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    add_adm_power = 200
+    add_dip_power = 200
+    add_mil_power = 200
+    
+    custom_tooltip = AT_RARE_FINESSE
+    add_adm_power = 150
+    add_dip_power = 150
+    add_mil_power = 150
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    add_adm_power = 100
+    add_dip_power = 100
+    add_mil_power = 100
+    
+    custom_tooltip = AT_POOR_FINESSE
+    add_adm_power = 50
+    add_dip_power = 50
+    add_mil_power = 50
+}
+
+shadowsteel_embers_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = shadowsteel_embers
+    }
+}
+
+crushing_dread_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = crushing_dread
+    }
+}
 
 # Soul
+ascension_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_LEGENDARY_FINESSE
+    create_general = {
+        tradition = 100
+    }
+    
+    custom_tooltip = AT_EPIC_FINESSE
+    create_general = {
+        tradition = 95
+    }
+    
+    custom_tooltip = AT_RARE_FINESSE
+    create_general = {
+        tradition = 90
+    }
+    
+    custom_tooltip = AT_COMMON_FINESSE
+    create_general = {
+        tradition = 85
+    }
+    
+    custom_tooltip = AT_POOR_FINESSE
+    create_general = {
+        tradition = 80
+    }
+}
+
+accelerated_incubation_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 6
+        EPIC = 7
+        RARE = 7
+        COMMON = 8
+        BASE = 8
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = accelerated_incubation
+    }
+}
+
+noxious_spores_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_duration_preview = yes
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    scaled_modifier_preview = {
+        MODIFIER = noxious_spores
+    }
+}
+
+burden_of_sin_preview = {
+    scaled_mana_cost_preview = { 
+        LEGENDARY = 4
+        EPIC = 5
+        RARE = 5
+        COMMON = 6
+        BASE = 6
+    }
+    
+    custom_tooltip = PREVIEW_SPACER
+    
+    custom_tooltip = AT_ANY_FINESSE
+    custom_tooltip = BURDEN_OF_SIN_EFFECT_TT
+}

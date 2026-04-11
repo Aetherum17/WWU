@@ -20,16 +20,16 @@ forbidden_rune_legendary = {
 
 # Ice Barrage
 ice_barrage_prov_poor = {
-    local_hostile_movement_speed = -0.5
+    local_hostile_movement_speed = -0.6
 }
 ice_barrage_prov_common = {
-    local_hostile_movement_speed = -0.6
+    local_hostile_movement_speed = -0.65
 }
 ice_barrage_prov_rare = {
     local_hostile_movement_speed = -0.7
 }
 ice_barrage_prov_epic = {
-    local_hostile_movement_speed = -0.8
+    local_hostile_movement_speed = -0.75
 }
 ice_barrage_prov_legendary = {
     local_hostile_movement_speed = -0.8

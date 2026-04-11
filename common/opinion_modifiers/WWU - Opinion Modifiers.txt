@@ -481,7 +481,27 @@ tribal_unity_tribal_connections = {
 #--------------------------------------
 # Spells
 #--------------------------------------
-soothe_mind_opinion_mod = {
+soothe_mind_opinion_mod_legendary = {
+    opinion = 200
+    yearly_decay = -1
+}
+
+soothe_mind_opinion_mod_epic = {
+    opinion = 175
+    yearly_decay = -1
+}
+
+soothe_mind_opinion_mod_rare = {
+    opinion = 150
+    yearly_decay = -1
+}
+
+soothe_mind_opinion_mod_common = {
+    opinion = 125
+    yearly_decay = -1
+}
+
+soothe_mind_opinion_mod_poor = {
     opinion = 100
     yearly_decay = -1
 }

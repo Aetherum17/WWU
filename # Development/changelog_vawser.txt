@@ -8,6 +8,10 @@
 # Interface
 - Added in-game encyclopedia that covers mod-specific mechanics and allows the player to view such information in a more comprehensive fashion.
 
+# Magic
+- Improved the Earth school's Enrichment spell: the token cast can now change a non-common ore/metal trade good into a common ore/metal good, rather than just upgrading common ore/metal to rare ore/metal.
+- Improved the Shadow school's Soothe Mind spell: the opinion modifier boost is now affected by Finesse (100/125/150/175/200).
+
 #--------------------------------------
 # TODO
 #--------------------------------------
@@ -17,9 +21,6 @@ Faction Issues:
 - Horde: cannot invite non-Draenor members when on Draenor
 - Alliance can spawn independant of Horde
 
-Class Study:
- - Add option to 'unlearn' class so a new class can be studied
- 
 
 Wiki:
 - Add magic information

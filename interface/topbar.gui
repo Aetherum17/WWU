@@ -3902,43 +3902,1800 @@ guiTypes = {
                 scripted = yes
             }
             
-            # holy
+            # Holy
+            instantTextBoxType = {
+                name = "wiki_text_magic_holy_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_holy_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_holy_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_holy_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_holy_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_holy_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_holy_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_holy_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_holy_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_holy_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_holy_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_holy_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Chi
+            instantTextBoxType = {
+                name = "wiki_text_magic_chi_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_chi_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_chi_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_chi_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_chi_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_chi_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_chi_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_chi_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_chi_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_chi_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_chi_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_chi_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Voodoo
+            instantTextBoxType = {
+                name = "wiki_text_magic_voodoo_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_voodoo_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_voodoo_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_voodoo_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_voodoo_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_voodoo_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_voodoo_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_voodoo_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_voodoo_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_voodoo_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_voodoo_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_voodoo_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Nature
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_nature_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_nature_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_nature_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_nature_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nature_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_nature_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nature_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_nature_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nature_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_nature_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nature_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_nature_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Necromancy
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_necromancy_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_necromancy_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_necromancy_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_necromancy_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_necromancy_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_necromancy_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_necromancy_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_necromancy_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_necromancy_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_necromancy_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_necromancy_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_necromancy_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Shamanism
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_shamanism_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_shamanism_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_shamanism_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_shamanism_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shamanism_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_shamanism_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shamanism_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_shamanism_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shamanism_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_shamanism_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shamanism_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_shamanism_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Fel
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_fel_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_fel_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_fel_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_fel_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fel_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_fel_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fel_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_fel_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fel_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_fel_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fel_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_fel_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Draconic
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_draconic_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_draconic_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_draconic_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_draconic_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_draconic_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_draconic_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_draconic_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_draconic_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_draconic_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_draconic_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_draconic_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_draconic_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_draconic_spell_5"
+                position = { x = 500 y = 280 }
+                quadTextureSprite ="GFX_spell_draconic_5"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Corruption
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_corruption_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_corruption_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_corruption_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_corruption_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_corruption_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_corruption_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_corruption_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_corruption_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_corruption_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_corruption_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_corruption_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_corruption_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Shadow
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_shadow_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_shadow_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_shadow_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_shadow_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shadow_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_shadow_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shadow_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_shadow_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shadow_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_shadow_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_shadow_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_shadow_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Titanic
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_titanic_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_titanic_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_titanic_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_titanic_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_titanic_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_titanic_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_titanic_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_titanic_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_titanic_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_titanic_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_titanic_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_titanic_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Runic
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_runic_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_runic_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_runic_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_runic_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_runic_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_runic_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_runic_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_runic_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_runic_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_runic_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_runic_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_runic_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Nightmare
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_nightmare_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_nightmare_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_nightmare_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_nightmare_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nightmare_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_nightmare_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nightmare_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_nightmare_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nightmare_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_nightmare_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_nightmare_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_nightmare_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Earth
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_earth_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_earth_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_earth_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_earth_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_earth_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_earth_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_earth_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_earth_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_earth_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_earth_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_earth_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_earth_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Fire
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_fire_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_fire_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_fire_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_fire_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fire_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_fire_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fire_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_fire_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fire_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_fire_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_fire_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_fire_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Water
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_water_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_water_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_water_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_water_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_water_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_water_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_water_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_water_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_water_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_water_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_water_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_water_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Wind
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_wind_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_wind_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_wind_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_wind_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_wind_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_wind_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_wind_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_wind_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_wind_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_wind_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_wind_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_wind_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
             
             # Domination
             
+            instantTextBoxType = {
+                name = "wiki_text_magic_domination_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_domination_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_domination_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_domination_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_domination_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_domination_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_domination_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_domination_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_domination_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_domination_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_domination_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_domination_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
             # Soul
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_soul_top"
+                position = { x = 230 y = 114 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 240
+                format = left
+                scripted = yes		
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_soul_info"
+                position = { x = 230 y = 160 }
+                textureFile = ""
+                font = "vic_18"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 600
+                maxHeight = 600
+                format = left
+                scripted = yes		
+            }
+            
+            iconType = {
+                name ="wiki_text_magic_soul_spell_banner"
+                spriteType = "GFX_wiki_ability_banner"
+                position = { x= 224 y = 220 }
+                Orientation = "UPPER_LEFT"
+                scripted = yes
+            }
+            
+            instantTextBoxType = {
+                name = "wiki_text_magic_soul_spell_banner_text"
+                position = { x = 230 y = 220 }
+                textureFile = ""
+                font = "vic_29s"
+                borderSize = {x = 4 y = 4}
+                maxWidth = 200
+                maxHeight = 32
+                format = left
+                scripted = yes		
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_soul_spell_1"
+                position = { x = 240 y = 280 }
+                quadTextureSprite ="GFX_spell_soul_1"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_soul_spell_2"
+                position = { x = 300 y = 280 }
+                quadTextureSprite ="GFX_spell_soul_2"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_soul_spell_3"
+                position = { x = 360 y = 280 }
+                quadTextureSprite ="GFX_spell_soul_3"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
+            
+            guiButtonType = {
+                name = "wiki_text_magic_soul_spell_4"
+                position = { x = 420 y = 280 }
+                quadTextureSprite ="GFX_spell_soul_4"	
+                tooltip = ""
+                tooltipText =""
+                delayedTooltipText = ""
+                buttonText = ""
+                buttonFont = "vic_18"
+                scripted = yes
+            }
         }
         
         # Window: Shared Faction View

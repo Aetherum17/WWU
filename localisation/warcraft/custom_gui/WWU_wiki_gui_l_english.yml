@@ -245,6 +245,8 @@
  
  PREVIEW_SPACER: "---------------"
  
+ AT_ANY_FINESSE: "§YAny Finesse:§!"
+ 
  AT_LEGENDARY_FINESSE: "§YLegendary Finesse:§!"
  AT_EPIC_FINESSE: "§YEpic Finesse:§!"
  AT_RARE_FINESSE: "§YRare Finesse:§!"
@@ -277,7 +279,7 @@
  
  # Overview
  wiki_text_magic_overview_top: "Overview"
- wiki_text_magic_overview_info: "A ruler may train as a spellcaster within one of the twenty schools of magic.\n\nTo do this, they will need to undertake a §YMagical Study§! within the §YCourt§! menu.\n\nEach month, the ruler has a chance to gain §Y0.1§! to §Y1.0§! progress points within their study.\nOnce this value reaches §Y100§!, they will be become a spellcaster, gaining access to ten generic spells.\n\nThe school the ruler chose will grant additional school-specific spells.\nEach spell costs §YMana§! to use.\n\n§YMana§! has a §Y5%§! chance to regenerate by §Y1§! each month, capping at a maximum of §Y10§!.\n\n§YInstitutional Knowledge§! is built up when a ruler learns to become a spellcaster.\nThis adds §Y+5§! to the starting progress points of §YMagical Study§! for future rulers that study spellcasting.\nThe maximum starting progress points this can apply is §Y+80§!.\n\nEach spellcaster has three stats:\n\n§YAptitude§!\nReduces the amount of mana each spell costs.\n\n§YFinesse§!\nIncreases the potency of each spell.\n\n§YConcentration§!\nIncreases the duration of spells that apply modifiers over a duration."
+ wiki_text_magic_overview_info: "A ruler may train as a spellcaster within one of the twenty schools of magic.\n\nTo do this, they will need to undertake a §YMagical Study§! within the §YCourt§! menu.\n\nEach month, the ruler has a chance to gain §Y0.1§! to §Y1.0§! progress points within their study.\nOnce this value reaches §Y100§!, they will be become a spellcaster, gaining access to ten generic spells.\n\nThe school the ruler chose will grant additional school-specific spells.\nSome spells grant charges, which are activated within the §YProvince§! menu, allowing for province-specific spell targets.\nEach spell costs §YMana§! to use.\n\n§YMana§! has a §Y5%§! chance to regenerate by §Y1§! each month, capping at a maximum of §Y10§!.\n\n§YInstitutional Knowledge§! is built up when a ruler learns to become a spellcaster.\nThis adds §Y+5§! to the starting progress points of §YMagical Study§! for future rulers that study spellcasting.\nThe maximum starting progress points this can apply is §Y+80§!.\n\nEach spellcaster has three stats:\n\n§YAptitude§!\nReduces the amount of mana each spell costs.\n§YFinesse§!\nIncreases the potency of each spell.\n§YConcentration§!\nIncreases the duration of spells that apply modifiers over a duration."
  
  # Generic
  wiki_text_magic_generic_top: "Generic"
@@ -303,39 +305,131 @@
  EXACT_POLYMORPH_EFFECT: "Applies the following modifier to a random province with non-primary culture or religion:"
  
  # Holy
+ wiki_text_magic_holy_top: "Holy"
+ wiki_text_magic_holy_info: "These are the spells given to a spellcaster that belongs to the Holy school."
+ 
+ wiki_text_magic_holy_spell_banner_text: "Spells"
+ 
+ JUDGEMENT_KILL_EFFECT_TT: "Applies to all owned provinces: all §Renemy§! units are killed."
  
  # Chi
+ wiki_text_magic_chi_top: "Chi"
+ wiki_text_magic_chi_info: "These are the spells given to a spellcaster that belongs to the Chi school."
+ 
+ wiki_text_magic_chi_spell_banner_text: "Spells"
  
  # Voodoo
+ wiki_text_magic_voodoo_top: "Voodoo"
+ wiki_text_magic_voodoo_info: "These are the spells given to a spellcaster that belongs to the Voodoo school."
+ 
+ wiki_text_magic_voodoo_spell_banner_text: "Spells"
  
  # Nature
+ wiki_text_magic_nature_top: "Nature"
+ wiki_text_magic_nature_info: "These are the spells given to a spellcaster that belongs to the Nature school."
+ 
+ wiki_text_magic_nature_spell_banner_text: "Spells"
  
  # Necromancy
+ wiki_text_magic_necromancy_top: "Necromancy"
+ wiki_text_magic_necromancy_info: "These are the spells given to a spellcaster that belongs to the Necromancy school."
+ 
+ wiki_text_magic_necromancy_spell_banner_text: "Spells"
  
  # Shamanism
+ wiki_text_magic_shamanism_top: "Shamanism"
+ wiki_text_magic_shamanism_info: "These are the spells given to a spellcaster that belongs to the Shamanism school."
+ 
+ wiki_text_magic_shamanism_spell_banner_text: "Spells"
  
  # Fel
+ wiki_text_magic_fel_top: "Fel"
+ wiki_text_magic_fel_info: "These are the spells given to a spellcaster that belongs to the Fel school."
+ 
+ wiki_text_magic_fel_spell_banner_text: "Spells"
+ 
+ ANY_WAR_ENEMY_COUNTRY: "Applies to any enemy country we are at war with:"
  
  # Draconic
+ wiki_text_magic_draconic_top: "Draconic"
+ wiki_text_magic_draconic_info: "These are the spells given to a spellcaster that belongs to the Draconic school."
+ 
+ wiki_text_magic_draconic_spell_banner_text: "Spells"
  
  # Corruption
+ wiki_text_magic_corruption_top: "Corruption"
+ wiki_text_magic_corruption_info: "These are the spells given to a spellcaster that belongs to the Corruption school."
+ 
+ wiki_text_magic_corruption_spell_banner_text: "Spells"
+ 
+ EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_5: "Applies §R10§! Corruption to all neighbouring countries that have a opinion of us that is less than §Y50§!."
+ EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_4: "Applies §R8§! Corruption to all neighbouring countries that have a opinion of us that is less than §Y50§!."
+ EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_3: "Applies §R6§! Corruption to all neighbouring countries that have a opinion of us that is less than §Y50§!."
+ EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_2: "Applies §R4§! Corruption to all neighbouring countries that have a opinion of us that is less than §Y50§!."
+ EVERY_NEIGHBOUR_COUNTRY_LOW_OPINION_CORRUPTION_1: "Applies §R2§! Corruption to all neighbouring countries that have a opinion of us that is less than §Y50§!."
  
  # Shadow
+ wiki_text_magic_shadow_top: "Shadow"
+ wiki_text_magic_shadow_info: "These are the spells given to a spellcaster that belongs to the Shadow school."
+ 
+ wiki_text_magic_shadow_spell_banner_text: "Spells"
+ 
+ EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_5: "All neighbouring countries gain a §G+200§! Opinion Modifier towards us."
+ EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_4: "All neighbouring countries gain a §G+175§! Opinion Modifier towards us."
+ EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_3: "All neighbouring countries gain a §G+150§! Opinion Modifier towards us."
+ EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_2: "All neighbouring countries gain a §G+125§! Opinion Modifier towards us."
+ EVERY_NEIGHBOUR_COUNTRY_SOOTHE_MIND_1: "All neighbouring countries gain a §G+100§! Opinion Modifier towards us."
  
  # Titanic
+ wiki_text_magic_titanic_top: "Titanic"
+ wiki_text_magic_titanic_info: "These are the spells given to a spellcaster that belongs to the Titanic school."
+ 
+ wiki_text_magic_titanic_spell_banner_text: "Spells"
  
  # Runic
+ wiki_text_magic_runic_top: "Runic"
+ wiki_text_magic_runic_info: "These are the spells given to a spellcaster that belongs to the Runic school."
+ 
+ wiki_text_magic_runic_spell_banner_text: "Spells"
  
  # Nightmare
+ wiki_text_magic_nightmare_top: "Nightmare"
+ wiki_text_magic_nightmare_info: "These are the spells given to a spellcaster that belongs to the Nightmare school."
+ 
+ wiki_text_magic_nightmare_spell_banner_text: "Spells"
  
  # Earth
+ wiki_text_magic_earth_top: "Earth"
+ wiki_text_magic_earth_info: "These are the spells given to a spellcaster that belongs to the Earth school."
+ 
+ wiki_text_magic_earth_spell_banner_text: "Spells"
  
  # Fire
+ wiki_text_magic_fire_top: "Fire"
+ wiki_text_magic_fire_info: "These are the spells given to a spellcaster that belongs to the Fire school."
+ 
+ wiki_text_magic_fire_spell_banner_text: "Spells"
  
  # Water
+ wiki_text_magic_water_top: "Water"
+ wiki_text_magic_water_info: "These are the spells given to a spellcaster that belongs to the Water school."
+ 
+ wiki_text_magic_water_spell_banner_text: "Spells"
  
  # Wind
+ wiki_text_magic_wind_top: "Wind"
+ wiki_text_magic_wind_info: "These are the spells given to a spellcaster that belongs to the Wind school."
+ 
+ wiki_text_magic_wind_spell_banner_text: "Spells"
  
  # Domination
+ wiki_text_magic_domination_top: "Domination"
+ wiki_text_magic_domination_info: "These are the spells given to a spellcaster that belongs to the Domination school."
+ 
+ wiki_text_magic_domination_spell_banner_text: "Spells"
  
  # Soul
+ wiki_text_magic_soul_top: "Soul"
+ wiki_text_magic_soul_info: "These are the spells given to a spellcaster that belongs to the Soul school."
+ 
+ wiki_text_magic_soul_spell_banner_text: "Spells"
