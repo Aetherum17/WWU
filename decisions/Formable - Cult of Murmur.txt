@@ -15,6 +15,12 @@ country_decisions = {
 		}
 		
 		allow = {
+			# Religion
+			OR = {
+				religion = shadow
+				religion = void
+			}
+
             # General
 			is_at_war = no	
 			stability = 2

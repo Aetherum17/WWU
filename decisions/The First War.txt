@@ -3,6 +3,13 @@ country_decisions = {
     establish_foothold_in_outland = {
 		potential = {
             has_country_modifier = member_of_alliance
+
+            # Not capital in outland
+			capital_scope = {
+				NOT = {
+					superregion = outland_superregion
+				}
+			}
 		}
 		allow =  {
 			has_country_modifier = member_of_alliance

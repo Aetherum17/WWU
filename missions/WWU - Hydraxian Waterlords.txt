@@ -14,7 +14,7 @@ P25_hydraxian_waterlords_column_4 = {
     has_country_shield = yes
 
     P25_abyssal_maw_relations = {
-        icon = mission_titan_spirits
+        icon = mission_blue_essence
         position = 2
 
         required_missions = { P25_summon_the_hydraxian_army }
@@ -34,8 +34,7 @@ P25_hydraxian_waterlords_column_4 = {
             }
 
             add_stability = 1
-            add_adm_power = 50
-            add_dip_power = 50
+            add_dip_power = 100
 
             area_blackrock_mountain = {
                 add_permanent_claim = ROOT
@@ -46,7 +45,7 @@ P25_hydraxian_waterlords_column_4 = {
         }
     }
     P25_deal_with_ragnaros_allies = {
-        icon = mission_titan_spirits
+        icon = mission_dark_iron_crest
         position = 3
 
         required_missions = { P25_abyssal_maw_relations }
@@ -61,7 +60,6 @@ P25_hydraxian_waterlords_column_4 = {
             OR = {
                 province_id = 3155
                 province_id = 1962
-                owned_by = A30
             }
             NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
@@ -69,10 +67,14 @@ P25_hydraxian_waterlords_column_4 = {
         effect = {
             add_mil_power = 100
             add_prestige = 20
+
+            region_firelands = {
+                add_claim = ROOT
+            }
         }
     }
     P25_end_of_ragnaros = {
-        icon = mission_titan_spirits
+        icon = mission_ragnaros
         position = 4
 
         required_missions = { P25_deal_with_ragnaros_allies }
@@ -98,20 +100,18 @@ P25_hydraxian_waterlords_column_4 = {
         }
         effect = {
             add_stability = 1
-            add_prestige = 25
-
-            add_adm_power = 100
-            add_dip_power = 100
-            add_mil_power = 200
+            add_prestige_or_monarch_power = {
+                amount = 50
+            }
 
             add_country_modifier = {
                 name = victory_over_ragnaros
-                duration = 7300
+                duration = -1
             }
         }
     }
     P25_the_tomb_of_tides = {
-        icon = mission_titan_spirits
+        icon = mission_ship_8
         position = 5
 
         trigger = {
@@ -128,12 +128,12 @@ P25_hydraxian_waterlords_column_4 = {
 
             add_country_modifier = {
                 name = power_of_sunken_isles
-                duration = 7300
+                duration = 18250
             }
         }
     }
     P25_the_isle_of_mechagon = {
-        icon = mission_titan_spirits
+        icon = mission_ship_3
         position = 6
 
         trigger = {
@@ -150,12 +150,12 @@ P25_hydraxian_waterlords_column_4 = {
 
             add_country_modifier = {
                 name = control_of_mechagon
-                duration = 7300
+                duration = 18250
             }
         }
     }
     P25_rule_of_tol_barad = {
-        icon = mission_titan_spirits
+        icon = mission_ship_1
         position = 7
 
         trigger = {
@@ -172,7 +172,7 @@ P25_hydraxian_waterlords_column_4 = {
 
             add_country_modifier = {
                 name = dominance_of_tol_barad
-                duration = 7300
+                duration = 18250
             }
         }
     }
@@ -191,7 +191,7 @@ P25_hydraxian_waterlords_column_5 = {
 	has_country_shield = yes
 	
 	P25_summon_the_hydraxian_army = {
-		icon = mission_titan_spirits
+		icon = mission_thunderstrike
         position = 1
         
 		required_missions = { }
@@ -218,25 +218,19 @@ P25_hydraxian_waterlords_column_5 = {
             region_vashjir = {
                 add_permanent_claim = ROOT
             }
-            area_balor = {
-                add_permanent_claim = ROOT
-            }			
-            area_frostsabre = {
-                add_permanent_claim = ROOT
-            }
 
             define_general = {
                 shock = 4
-                fire = 2
+                fire = 4
                 manuever = 3
-                siege = 1
+                siege = 2
                 name = "Champion Aquaclease"
                 female = no
             }
         }
 	}
     P25_crush_the_vashjir_naga = {
-        icon = mission_titan_spirits
+        icon = mission_zan_naga
         position = 2
 
         required_missions = { P25_summon_the_hydraxian_army }
@@ -244,10 +238,10 @@ P25_hydraxian_waterlords_column_5 = {
         trigger = {
             NOT = { exists = VHJ }
 		}
+
         provinces_to_highlight = {
             owned_by = VHJ
         }
-
 
         effect = {
             add_stability = 1
@@ -269,7 +263,7 @@ P25_hydraxian_waterlords_column_5 = {
         }
     }
     P25_crush_the_hatecoil_naga = {
-        icon = mission_titan_spirits
+        icon = mission_azshara
         position = 3
 
         required_missions = { P25_crush_the_vashjir_naga }
@@ -278,10 +272,7 @@ P25_hydraxian_waterlords_column_5 = {
             NOT = { exists = HAT }
             
             area_eye_of_the_storm = {
-                owned_by = ROOT
-            }
-            area_oceanus_cove = {
-                owned_by = ROOT
+                country_or_non_sovereign_subject_holds = ROOT
             }
         }
         provinces_to_highlight = {
@@ -290,25 +281,20 @@ P25_hydraxian_waterlords_column_5 = {
 
         effect = {
             add_prestige = 10
-            add_adm_power = 50
-            add_dip_power = 50
-            add_mil_power = 50
+            add_mil_power = 100
 
             add_country_modifier = {
                 name = victory_over_hatecoil
                 duration = 7300
             }
 
-            region_nazjatar = {
-                add_permanent_claim = ROOT
-            }
-            region_zanmere = {
+            underwater_superregion = {
                 add_permanent_claim = ROOT
             }
         }
     }
     P25_to_the_depths_of_madness = {
-        icon = mission_titan_spirits
+        icon = mission_nzoth
         position = 4
 
         required_missions = { P25_crush_the_hatecoil_naga }
@@ -327,11 +313,9 @@ P25_hydraxian_waterlords_column_5 = {
 
         effect = {
             add_stability = 1
-            add_prestige = 20
-
-            add_adm_power = 100
-            add_dip_power = 100
-            add_mil_power = 100
+            add_prestige_or_monarch_power = {
+                amount = 50
+            }
 
             add_accepted_culture = culture_vashjari
             add_accepted_culture = culture_azsharan
@@ -344,29 +328,21 @@ P25_hydraxian_waterlords_column_5 = {
         }
     }
     P25_consolidate_vashjir_holdings = {
-        icon = mission_titan_spirits
+        icon = mission_mirror_of_elune
         position = 5
 
         trigger = {
             region_vashjir = {
                 type = all
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
             }
 
             # Abyssal Maw
             3175 = {
-                country_or_non_sovereign_subject_holds = ROOT
-                development = 20
+                owned_by = ROOT
+                num_of_times_improved = 5
 
                 has_fort_building_trigger = yes
-            }
-
-            P25 = {
-                stability = 1
-                prestige = 50
-                devotion = 90
-                army_size_percentage = 0.9
-                navy_size_percentage = 0.9
             }
         }
         provinces_to_highlight = {
@@ -374,13 +350,13 @@ P25_hydraxian_waterlords_column_5 = {
                 province_id = 3175
                 region = region_vashjir
             }
-            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+            NOT = { owned_by = ROOT }
         }
         effect = {
             3175 = {
-                add_base_tax = 1
-                add_base_production = 1
-                add_base_manpower = 1
+                add_base_tax = 3
+                add_base_production = 3
+                add_base_manpower = 3
             }
 
             add_country_modifier = {
@@ -388,19 +364,22 @@ P25_hydraxian_waterlords_column_5 = {
                 duration = -1
             }
 
-            612 = {
+            4107 = {
                 add_permanent_claim = ROOT
             }
-            815 = {
+            962 = {
                 add_permanent_claim = ROOT
             }
-            2154 = {
+            4110 = {
+                add_permanent_claim = ROOT
+            }
+            area_havenswood = {
                 add_permanent_claim = ROOT
             }
         }
     }
     P25_control_eastern_kingdom_islands = {
-        icon = mission_titan_spirits
+        icon = mission_map_eastern_kingdoms
         position = 6
 
         required_missions = { P25_consolidate_vashjir_holdings }
@@ -423,6 +402,10 @@ P25_hydraxian_waterlords_column_5 = {
                     type = all
                     country_or_non_sovereign_subject_holds = ROOT
                 }
+                area_havenswood = {
+                    type = all
+                    country_or_non_sovereign_subject_holds = ROOT
+                }
             }
         }
         provinces_to_highlight = {
@@ -431,17 +414,23 @@ P25_hydraxian_waterlords_column_5 = {
                 area = area_frostsabre
                 area = area_drisburg
                 area = area_purgation_isle
+                area = area_havenswood
             }
             NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
         effect = {
-            add_mil_power = 50
-            add_dip_power = 50
-            add_navy_tradition = 15
+            add_dip_power = 100
+
+            add_sailors = 5000
+            create_admiral = {
+                tradition = 90
+            }
+
             add_country_modifier = {
                 name = control_of_baradin_entry
-                duration = 3650
+                duration = 18250
             }
+
             area_zul_dare = {
                 add_permanent_claim = ROOT
             }
@@ -451,7 +440,7 @@ P25_hydraxian_waterlords_column_5 = {
         }
     }
     P25_control_of_tirasian_isles = {
-        icon = mission_titan_spirits
+        icon = mission_proumoore_crest
         position = 7
 
         required_missions = { P25_control_eastern_kingdom_islands }
@@ -476,22 +465,17 @@ P25_hydraxian_waterlords_column_5 = {
             NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
         effect = {
-            add_dip_power = 150
-            add_navy_tradition = 15
+            add_dip_power = 100
+            add_power_projection = {
+                type = mission_rewards_power_projection
+                amount = 10
+            }
+
             add_country_modifier = {
                 name = control_of_tirasian_isles
-                duration = 3650
+                duration = 18250
             }
-            area_vigil_hill = {
-                add_claim = ROOT
-            }
-            area_freehold = {
-                add_claim = ROOT
-            } 
-            area_boralus = {
-                add_claim = ROOT
-            }
-            area_sagehold = {
+            region_kul_tiras = {
                 add_claim = ROOT
             }
         }

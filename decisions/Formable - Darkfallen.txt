@@ -9,7 +9,11 @@ country_decisions = {
             # Exclusions
             NOT = { exists = DFL }
             # Requisites
-            tag = F21
+            OR = {
+                culture_group = culture_group_scourge
+                primary_culture = culture_darkfallen
+                primary_culture = culture_wretched
+            }
         }
 
         provinces_to_highlight = {
@@ -39,12 +43,11 @@ country_decisions = {
             # General
             is_at_war = no
             stability = 1
-            total_development = 300
         }
         effect = {
             #Switch
             change_tag = DFL
-            set_government_rank = 3
+            set_government_rank = 2
             change_government = monarchy
             add_government_reform = scourge_domain_reform
 

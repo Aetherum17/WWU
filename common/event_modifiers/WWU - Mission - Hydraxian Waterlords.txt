@@ -1,74 +1,57 @@
 victory_in_vashjir = {
-    prestige = 0.5
-    legitimacy = 0.5
-    land_morale = 0.05
-    shock_damage = 0.05
-    fire_damage = 0.05
-    global_unrest = -1
+    prestige = 1
+    land_morale = 0.1
 }
 
 victory_over_hatecoil = {
-    prestige = 0.5
-    land_morale = 0.05
-    shock_damage = 0.05
-    fire_damage = 0.05
-    movement_speed = 0.1
-    global_unrest = -1
+    prestige = 1
+    production_efficiency = 0.15
+    global_trade_goods_size_modifier = 0.1
 }
 
 conqueror_of_nazjatar = {
-    land_morale = 0.05
-    army_tradition = 0.5
-    navy_tradition = 0.5
-    naval_morale = 0.05
-    movement_speed_in_fleet_modifier = 1
+    land_morale = 0.1
+    prestige_decay = -0.03
+    max_absolutism = 20
 }
 
 victory_over_ragnaros = {
-    prestige = 1.5
-    land_morale = 0.01
-    discipline = 0.05
-    stability_cost_modifier = -0.2
-    global_unrest = -2
+    prestige = 1
+    land_morale = 0.15
 }
 
 control_of_baradin_entry = {
-    trade_efficiency = 0.2
-    blockade_efficiency = 0.2
-    naval_morale = 0.1
-    naval_maintenance_modifier = -0.1
-    global_ship_repair = 0.1
+    power_projection_from_insults = 0.5
+    global_ship_trade_power = 0.25
+    navy_tradition = 1
 }
 
 control_of_tirasian_isles = {
-    trade_efficiency = 0.2
-    blockade_efficiency = 0.2
-    naval_morale = 0.1
-    naval_maintenance_modifier = -0.1
-    global_ship_repair = 0.1
+    blockade_efficiency = 0.33
+    naval_morale = 0.15
 }
 
 rule_of_vashjir = {
     colonists = 1
-    range = 0.1
-    may_explore = yes
-    global_colonial_growth = 15
+    own_territory_dice_roll_bonus = 1
+    defensiveness = 0.2
+    manpower_in_true_faith_provinces= 0.15
 }
 
 power_of_sunken_isles = {
-    mil_advisor_cost = -0.2
+    global_missionary_strength = 0.03
     all_power_cost = -0.03
-    fire_damage = 0.1
+    province_warscore_cost = -0.1
 }
 
 control_of_mechagon = {
-    technology_cost = -0.1
+    technology_cost = -0.05
     idea_cost = -0.1
-    global_institution_spread = 0.1
+    global_institution_spread = 0.33
 }
 
 dominance_of_tol_barad = {
     discipline = 0.05
-    infantry_power = 0.05
-    harsh_treatment_cost = -0.2
+    infantry_power = 0.1
+    harsh_treatment_cost = -0.5
 }

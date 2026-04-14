@@ -4,6 +4,7 @@ country_decisions = {
     settle_gun_darok_claim = {
         potential = {
             has_country_flag = unlock_settle_gun_darok
+            NOT = { has_country_flag = gun_darok_deal_passed }
 
             1931 = {
                 owned_by = A29
@@ -32,6 +33,10 @@ country_decisions = {
                     days = 7
                 }
             }
+
+            hidden_effect = {
+                set_country_flag = gun_darok_deal_passed
+            }
         }
         ai_will_do = {
             factor = 1
@@ -42,6 +47,7 @@ country_decisions = {
     resettle_southshore = {
         potential = {
             has_country_flag = unlock_resettle_southshore
+            NOT = { has_country_flag = resettle_southshore_passed }
 
             area_southshore = {
                 type = all
@@ -67,6 +73,10 @@ country_decisions = {
             area_southshore = {
                 change_culture = ROOT
                 add_base_tax = 1
+            }
+
+            hidden_effect = {
+                set_country_flag = resettle_southshore_passed
             }
         }
 

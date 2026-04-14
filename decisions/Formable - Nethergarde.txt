@@ -7,34 +7,33 @@ country_decisions = {
             NOT = { has_country_flag = enacted_final_tag_formation }
             
             # Exclusions
-			NOT = { exists = NTG }
+			NOT = { exists = NTG } 
 			NOT = { tag = KVA }
 			NOT = { tag = LTR }
             
             # Requisites
-			OR = {
-			    tag = SOL
-				tag = A18
-			}
+			culture_group = culture_group_human
             
-            any_owned_province = {
-                area = area_serpents_coil
-            }
+            630 = {
+				owned_by = ROOT
+			}
 		}
         
         provinces_to_highlight = {
 			NOT = { owned_by = ROOT }
 			OR = {
-                area = area_serpents_coil
-            }
+				region = region_blasted_lands
+			}
 		}
         
 		allow = {
             # Ownership
-		    area_serpents_coil = {
+		    region_blasted_lands = {
 				type = all
 				owned_by = ROOT
 			}
+
+			capital = 630
 			
             # General
 			is_at_war = no	
@@ -51,7 +50,6 @@ country_decisions = {
 			
 		}
 		effect = {
-            
             # Switch
 			change_tag = NTG
 			change_government = republic

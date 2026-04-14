@@ -14,6 +14,13 @@ country_decisions = {
             
             # Draenor
 			NOT = { controls = 3792 } 
+
+			# Not capital in Draenor
+			capital_scope = {
+				NOT = {
+					superregion = draenor_superregion
+				}
+			}
 		}
 		allow = {
 			# Azeroth
@@ -50,6 +57,13 @@ country_decisions = {
             
 			# Outland
 			NOT = { controls = 1586 }
+
+			# Not capital in outland
+			capital_scope = {
+				NOT = {
+					superregion = outland_superregion
+				}
+			}
 		}
 		allow = {
 			# Azeroth
