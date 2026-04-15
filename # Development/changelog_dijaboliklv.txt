@@ -33,8 +33,7 @@ New Mission
 #--------------------------------------
 Make change log true
 #MAP
-Change positions for Uldaman provinces
-Fix new provinces
+
 
 # General things for Troggs
 -Emerging nation of Stonevault Troggs needs to declare a war on either A29 or A30 or both simulating a Trogg invasion.

@@ -288,7 +288,7 @@ order_group = {
             local_missionary_strength = -0.03
         }
         
-		holy_sites = { 2495 1514 1573 1968 1122 }
+		holy_sites = { 2495 1514 1573 6449 1122 }
 		
 		blessings = {
 			titan_gift_of_the_stone
