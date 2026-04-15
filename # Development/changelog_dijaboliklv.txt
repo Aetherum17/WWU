@@ -17,6 +17,15 @@ B74 capital moved to new province 6449.
 TRADE GOODS
 Province 1968 changed trade good from artifacts to rare ores.
 
+GREAT PROJECTS
+Uldaman Complex moved to 6448
+
+RELIGIONS
+Order - Holy site moved from 1968 to 6449
+
+EVENTS
+Updated Trogg event chain to account for new provinces.
+
 #--------------------------------------------------------
 # TO NOT BE REPORTED IN NEXT UPDATE
 #--------------------------------------------------------
