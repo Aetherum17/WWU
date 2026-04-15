@@ -26,15 +26,13 @@ Order - Holy site moved from 1968 to 6449
 EVENTS
 Updated Trogg event chain to account for new provinces.
 
+MISSIONS
+Updated A29 missions regarding Uldaman chain.
+
 #--------------------------------------------------------
 # TO NOT BE REPORTED IN NEXT UPDATE
 #--------------------------------------------------------
-- Flavour for the Khaz Modan and Kingdom of Thaurissan added with new event chains.
-- Troggs removed in early start dates.
-- Province rebalance for Gnomeregan, Khaz Modan, Tunnel Rat and Blue Gill.
 
-New Mission
--Khaz Modan - Ironband's Excavation
 
 
 #--------------------------------------
