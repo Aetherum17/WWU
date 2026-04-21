@@ -749,14 +749,16 @@ A29_ironforge_column_5 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
-		provinces_to_highlight = {
-			OR = {
-				province_id = 792
-				province_id = 3033
-				province_id = 988
+        provinces_to_highlight = {
+			AND = {
+				OR = {
+					province_id = 792
+					province_id = 3033
+					province_id = 988
+				}
 			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
+            NOT = { country_or_non_sovereign_subject_holds = ROOT }
+        }
 		effect = {
 			country_event = { 
 				id = wwu_mission_a29_uldaman.1
@@ -769,13 +771,13 @@ A29_ironforge_column_5 = {
 		position = 3
 		
 		trigger = {
-			1968 = { 
+			6449 = { 
 				country_or_non_sovereign_subject_holds = ROOT
 				development = 30 
 			}
 		}
         provinces_to_highlight = {
-            province_id = 1968
+            province_id = 6449
             NOT = { country_or_non_sovereign_subject_holds = ROOT }
         }
 		effect = {
@@ -847,7 +849,7 @@ A29_ironforge_column_5 = {
                 name = mission_heal_curse_of_flesh_a29
                 duration = -1
             }
-			set_capital = 1968
+			set_capital = 6449
 		}
 	}
 	A29_glory_of_dwarvendom_a29 = {
