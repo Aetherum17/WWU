@@ -833,11 +833,15 @@ area_fuselight = {
 }
 
 area_uldaman = {
-    1968 1970 1971 1969
+    1968 6448 6449 6450
 }
 
 area_new_kargath = {
     1967 1979 1974
+}
+
+area_badlands_transit = {
+	1970 1971 1969
 }
 
 area_the_dustbowl = {

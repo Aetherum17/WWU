@@ -8,7 +8,7 @@ religion			= titan_worship
 primary_culture 	= culture_uldaman
 add_accepted_culture = culture_stone_earthen
 
-capital 			= 1968
+capital 			= 6449
 
 546.1.1 = { 
 	monarch = { 

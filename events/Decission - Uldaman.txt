@@ -1177,6 +1177,18 @@ country_event = {
 
 			release = P57
 
+			6450 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			6448 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
 			1968 = {
 				cede_province = P57
 				change_culture = culture_trogg
@@ -1263,6 +1275,18 @@ country_event = {
 
 			release = P57
 
+			6450 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			6448 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
 			1968 = {
 				cede_province = P57
 				change_culture = culture_trogg
@@ -1349,6 +1373,18 @@ country_event = {
 
 			release = P57
 
+			6450 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
+			6448 = {
+				cede_province = P57
+				change_culture = culture_trogg
+				change_religion = earth
+				add_core = P57
+			}
 			1968 = {
 				cede_province = P57
 				change_culture = culture_trogg

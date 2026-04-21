@@ -1,45 +1,65 @@
 #--------------------------------------
 # Changelog
 #--------------------------------------
+MAP
+Uldaman area added 3 new provinces.
+Split Uldaman area into two.
 
-MISSIONS:
--New Mission for Khaz Modan in Uldaman branch.
+NATIONS
+Uldaman capital moved deeper in Uldaman complex.
 
+GREAT PROJECTS
+Uldman Complex great project moved deeper to represent it true location.
 
-HISTORY:
--All changes made inside Khaz Modan subregion and Kultriras continent leading up to warcraft 3 events.
--Trogg nations removed.
--Gnomeregan looses provinces in wetlands.
--Gnomeregan gains provinces in Dun Morogh.
--Badlands most provinces start uncolonized.
--Khaz Modan and Tunnel Rat own removed Trogg lands.
--Trogg land on Mechagnome island is uncolonized.
+RELIGIONS
+Order - Holy sight moved with Uldaman capital.
 
-DECISONS:
--New decision available to Khaz Modan and Kingdom of Thaurissan to venture into Uldaman.
+EVENTS
+Trogg event chain now takes new provinces into scope.
 
-EVENTS:
--Khaz Modan starts an event chain from the new mission. Event leads up to new Uldaman decision.
--Uldman intial event chain is interactable by two nations of Ironforge and Kingdom of Thaurissan which leads to a new decission to venture in Uldaman.
--New event chain launched trough a decission which may grant new country and province modifiers as well as releases an initial trogg horde. Causing it to take over all uncolonized lands in the Badlands.
+MISSIONS
+Ironforge mission tree regarding Uldaman tweeked for new provinces.
+
 
 #--------------------------------------------------------
 # TO NOT BE REPORTED IN NEXT UPDATE
 #--------------------------------------------------------
-- Flavour for the Khaz Modan and Kingdom of Thaurissan added with new event chains.
-- Troggs removed in early start dates.
-- Province rebalance for Gnomeregan, Khaz Modan, Tunnel Rat and Blue Gill.
 
-New Mission
--Khaz Modan - Ironband's Excavation
+MAP
+Uldaman area added 3 new provinces.
+Split Uldaman area into two.
+Total Badlands got 3 new provinces and one area.
+Provinces 1006 and 1748 changed terrain to Underground from Glacial
+Provinces 1006 and 1748 renamed.
+Area  Frozen Shore renamed to Gnomeregan Depths.
 
+NATIONS
+B74 recieved control of 3 new provinces.
+B74 capital moved to new province 6449.
+
+TRADE GOODS
+Province 1968 changed trade good from artifacts to rare ores.
+
+GREAT PROJECTS
+Uldaman Complex moved to 6448
+
+RELIGIONS
+Order - Holy site moved from 1968 to 6449
+
+EVENTS
+Updated Trogg event chain to account for new provinces.
+
+MISSIONS
+Updated A29 missions regarding Uldaman chain.
 
 #--------------------------------------
 # TODO
 #--------------------------------------
+Make change log true
+#MAP
+
 
 # General things for Troggs
--Emerging nation of Stonevault Troggs needs to declare a war on either A29 or A30 or both simulating a Trogg invasion.
 -Write a historical proggression path of events for Troggs to take over historical lands and then splinter into samll tribes.
 -Write ahistorical proggression path of events for Troggs to take new lands and splinter into new small tribes.
 -Add new trogg culture that emerges in the Burning Steppes.

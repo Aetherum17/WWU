@@ -299,6 +299,7 @@ region_badlands = {
         area_uldaman
         area_new_kargath
         area_the_dustbowl
+		area_badlands_transit
     }
 }
 
