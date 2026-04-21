@@ -1,6 +1,29 @@
 #--------------------------------------
 # Changelog
 #--------------------------------------
+MAP
+Uldaman area added 3 new provinces.
+Split Uldaman area into two.
+
+NATIONS
+Uldaman capital moved deeper in Uldaman complex.
+
+GREAT PROJECTS
+Uldman Complex great project moved deeper to represent it true location.
+
+RELIGIONS
+Order - Holy sight moved with Uldaman capital.
+
+EVENTS
+Trogg event chain now takes new provinces into scope.
+
+MISSIONS
+Ironforge mission tree regarding Uldaman tweeked for new provinces.
+
+
+#--------------------------------------------------------
+# TO NOT BE REPORTED IN NEXT UPDATE
+#--------------------------------------------------------
 
 MAP
 Uldaman area added 3 new provinces.
@@ -29,12 +52,6 @@ Updated Trogg event chain to account for new provinces.
 MISSIONS
 Updated A29 missions regarding Uldaman chain.
 
-#--------------------------------------------------------
-# TO NOT BE REPORTED IN NEXT UPDATE
-#--------------------------------------------------------
-
-
-
 #--------------------------------------
 # TODO
 #--------------------------------------
@@ -43,7 +60,6 @@ Make change log true
 
 
 # General things for Troggs
--Emerging nation of Stonevault Troggs needs to declare a war on either A29 or A30 or both simulating a Trogg invasion.
 -Write a historical proggression path of events for Troggs to take over historical lands and then splinter into samll tribes.
 -Write ahistorical proggression path of events for Troggs to take new lands and splinter into new small tribes.
 -Add new trogg culture that emerges in the Burning Steppes.
