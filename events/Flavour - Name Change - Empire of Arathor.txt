@@ -1,4 +1,4 @@
-namespace = wwu_flavour_nc_new_arathor
+namespace = wwu_flavour_nc_emp_arathor
 
 # Pick a name for Empire of Arathor
 country_event = {
