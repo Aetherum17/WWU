@@ -11,7 +11,7 @@ country_decisions = {
             }
         }
         allow = {
-            treasury = 200
+            treasury = 100
             dip_power = 100
             A29 = {
                 exists = yes
@@ -24,7 +24,7 @@ country_decisions = {
         }
 
         effect = {
-            add_treasury = -200
+            add_treasury = -100
             add_dip_power = -100
 
             A29 = {
@@ -48,11 +48,6 @@ country_decisions = {
         potential = {
             has_country_flag = unlock_resettle_southshore
             NOT = { has_country_flag = resettle_southshore_passed }
-
-            area_southshore = {
-                type = all
-                owned_by = ROOT
-            }
         }
         allow = {
             area_southshore = {
@@ -60,19 +55,19 @@ country_decisions = {
                 owned_by = ROOT
                 religion = ROOT
             }
-            adm_power = 100
-            dip_power = 100
+            adm_power = 75
+            dip_power = 75
             treasury = 200
         }
 
         effect = {
             add_treasury = -200
-            add_adm_power = -100
-            add_dip_power = -100
+            add_adm_power = -75
+            add_dip_power = -75
 
             area_southshore = {
                 change_culture = ROOT
-                add_base_tax = 1
+                add_base_tax = 3
             }
 
             hidden_effect = {

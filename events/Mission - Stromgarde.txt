@@ -12,8 +12,8 @@ country_event = {
     option = {
         name = wwu_mission_stromgarde.1.option.a
         
-        add_treasury = 200
-        add_dip_power = 50
+        add_treasury = 100
+        add_dip_power = 100
 
         1931 = {
             add_base_manpower = -1
@@ -21,6 +21,7 @@ country_event = {
             add_base_tax = -1
             remove_core = A29
             add_core = A16
+            cede_province = A16
             change_culture = culture_arathi
         }
 

@@ -1,8 +1,4 @@
-1. Canals:
--Somehow make sure Zone of Control will not block passing
--Clicking on Canal GP still somethimes crashes the game
-
-2. Map Adjustments:
+1. Map Adjustments:
 Eastern Kingdoms:
 -Adjuste Crestfal(4107) to border sea zones between Tempest Swell and Sea of Menethil/Chilling Gulf
 -Make Crestfall(4107) into 3/4 provinces? Also, its state, Drisburg, doesn't make sense, since Drisburg is city in Kul'tiras. So, we can rename it to Crestfall
@@ -20,7 +16,7 @@ Zandalar - Pandaria:
 -Possible movement of islands/sea zones, to allow chain claiming. Alternativly, moving Isle of Bones area closer to Zandalar (and making it part of Zandalar continent)
 
 Kezan:
--Moving Mount Kaja(4088) and Volcanic Runoff(4087) closer to Island of Kezan? (Optional)
+-Moving Mount Kaja(4088) and Volcanic Runoff(4087) closer to Kezan
 
 South Seas:
 -Verdant Wilds(4071) could be moved closer to Tel'abim
@@ -30,11 +26,86 @@ Kalimdor:
 -Any way for countries on Azuermist/Bloodmist/Teldrassil to get to mainland?
 -Terra Incognita (3476) is not revealed for countries in Kalimdor, while being part of the mainland
 
-3. 3D Models
+2. 3D Models
 -Fix whatever happened to Quillboar Artillery (see bug-fix-balance for that)
 -Missing Models for races: Djaradin, Drogbar, Drust, Faceless, Fungarian, Ghost, Kyrian, Maldraxxi, Mawsworn, Night Fae, Ooze(why the fuck is this a culture in the first place) /n
 Pygmy, Rock Flayer, Saberon, Sha, Spiteling(tf is this), Titanic group, Earthen, Iron Dwarf, Venthyr, Virmen, Voidwalker(uses actual Faceless), Wolvar, Zangar
 
-4. Events
--Event: Cult of the Damned preview is broken (see bug-fix-balance for that)
+3. Class System Revisited:
+General:
+-Extend Class Energy to 10, with 5% chance to refresh (same as magic)
+
+Event:
+-Allow random events to influence class energy: +1 energy, -1 energy
+
+Potencial Rebalances or Reworks:
+Warrior:
+-Redesign: Unrelenting Assult costs 5 points, but applies the following: Every time you win a battle while the modifer is active, you lose 0.1 War Exaustion
+-Balance: Battle Shout costs 3 points
+
+Paladin:
+-Rework: Blade of Justice is replaced by Holy Bulwark: Defenisivenes +25%. Province with Light religion group additionally gain Sanctuary modifier, giving: local_monthly_devastation = -0.2 for 10y
+-Balance: Long Arm of the Law: Now costs 4 points, but on activation applies Russian Gov ability, making all revolt progress be reduced by 30%
+
+Priest:
+-Cosmetic Change: Evangelism rebranded to Benediction (there is a clergy privivlige called Evangelism, also could just rename that)
+
+Rogue:
+-Rework: Combat Expertise is replaced by Sudden Demise: Every Country that is currently spying on us gets their spy discovered and instantly reduce spy network by 50%.
+-Balance: Master of Subtlety costs 4 points, but also gives spy_action_cost_modifier = -0.15
+
+Mage:
+-Rework: Focusing Crystal is replaced by Combustion: Costs 5 points. Every provinces occupided by you gets Heat Zone modifer for 5y, giving: local_supply_limit -0.75 and attrition = 2
+-Redesign: Rune of Power now rolls from 3 possible modifers: Rune of Arcane: own_territory_dice_roll_bonus = 1 and reinforce speed = 0.1, Rune of Fire: global_attacker_dice_roll_bonus = 1 and siege_ability = 0.1, Rune of Frost: global_defender_dice_roll_bonus = 1 and shock_damage_received = -0.1
+
+Warlock:
+-Rework: Fire and Brimstone is replaced by Rain of Fire: Costs 4 points. For 5y, applies Rain of Fire modifier, giving siege_ability = 0.25
+-Balance: Jinx costs 5 points.
+-Redesign: Grimoire of Command: now gives libery_desire = -0.2 and global_autonomy = -0.1 for 10y
+
+Druid:
+-Balance: Natural Perfection costs 3 points.
+
+Hunter:
+-Balance: Efficiency costs 4 points
+-Balance: Master Tactician costs 5 points
+-Balance: Camouflage 20% modifer value changed to 15%
+
+Shaman:
+-Rework: Echo of the Elements is replcaed by Earthen Accord: now gives -0.1 development_cost. Additionally, if developed province is Shamanistic, gives a temorary local modifer on dev, Earthsurg for 10y, giving: -0.1 local_build_cost, -0.25 local_build_time and trade_goods_size_modifier = 0.1
+
+New Class - Evoker:
+Avalable to: culture_group = culture_group_dragonkin, religion = primalist or religion = dragon_aspects or religion = corrupt_dragon_aspect
+
+Ability 1: Grace Period: Costs 4 points: no_religion_penalty = yes for 10y
+Ability 2: Tomorrow, Today: Costs 5 points. ae_impact = -0.05 for 20y, on activation, removes 50 agressive expansion from all countries.
+Ability 3: Dragonrage: Costs 4 points: fire_damage = 0.1 for 10y.
+
+4. Encyclopedia:
+-Add Fire, Water, Air and Earth magic schools to the list
+-Draconic Magic page icon has a noticably larger gap than the others.
+
+5. Artifacts:
+
+Suggestion for additional artifacts to be added:
+
+Broken Isles:
+-Aegis of Aggramar: army_tradition_from_battle = 0.03 and prestige_from_land = 0.05
+-Tidestone of Golganneth: naval_attrition = -0.15
+-Hammer of Khaz'goroth: development_cost = -0.1
+-Tears of Elune: war_exhaustion_cost = -0.25
+
+Shadowlands:
+-Staff of the Primus: army_tradition_decay = -0.05
+-Remornia: manpower_in_true_faith_provinces = 0.2
+-Scroll of Aeons: same_religion_advisor_cost = -0.2
+-Fetish of Mueh'zala: global_regiment_recruit_speed = -0.15
+-Chains of Domination: liberty_desire_from_subject_development = -0.2
+
+Outland:
+-Essence of Sound: artillery_power = 0.15
+-Sultry Grimoire: heir_chance = 2, monarch_lifespan = 0.5
+-Voidfire Wand: culture_conversion_time = -0.25
+-Gorehowl: max_absolutism_effect = 0.15
+
 

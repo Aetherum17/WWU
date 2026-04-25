@@ -5,3 +5,46 @@ Fixed: No
 2. Crossing Crashes with canals: Game crashes upon many ussucessful attempts of forcing movement (right click), than province inspection (left click)
 Confirmed: Yes (multiple cases)
 Fixed: No
+
+3. Theramor Marines is localized for every military tech that upgrades units for every culture
+Confirmed: Yes
+
+4. Zandalar: Country X Refugees spawn for Zandalar events when countries of the same culture form their respective formables (ex. Drakkari Refugees arrive if Drakkari Empire forms)
+Confirmed: Yes
+Fixed: No
+
+5. Depose Heir peace deal option is avalable even if country is being annexed
+Confirmed: Yes
+Fixed: No
+
+6. Peasant Coup disaster icon is not visible
+Confirmed: Yes
+Fixed: No
+
+7. Estate Agenda: Increase Autonomy in X automatically always fails
+Confirmed: Yes
+Fixed: No
+
+8. Improvement of Aptitude, Finesse and Concentration can happen even if Magical Study has not been started
+Confirmed: Partically (Got the Improvement of Aptitude event out of nowhere)
+Fixed: No
+
+9. Event "Glory Road", randomly fires during exploration, even if province is not owned or being colonized
+Confirmed: Needs Confirmation (Might be a vanilla event?)
+Fixed: Needs Confirmation if fix is nessesary
+
+10. Exodar events fires before TBC age
+Confirmed: Yes (I am not sure if it was intentional or maybe stars alligned to allow it to trigger early)
+Fixed: Needs Confirmation if fix is nessesary
+
+11. Disrupt Alliance espionage action doesn't always work
+Confirmed: Partically (had a case that it just didn't do anything)
+Fixed: No
+
+12. Event: Cult of the Damned preview is broken
+Confirmed: Yes (sometimes)
+Fixed: No
+
+13. Diplomatic Action "Establish Diplomatic Links" cost tooltip doesn't show true value of the action
+Confirmed: Yes
+Fixed: No

@@ -15,11 +15,15 @@
 -Adjusted Dreaneor and Outland invasion Decisions to look for the placement of the capital
 -Adjusted Formables of Dalaran and Nethegarde allowing for infinite AI loop
 -Nethegarde Formable conditions adjusted
+-Adjusted Stromgarde mission tree decisions
 
 # Mission Trees:
 *Hydraxian Waterlords
 -Replaced old icons with unique ones
 -Overhauled mission rewards and some triggers
+
+*Stromgarde
+-Adjustments based on feedback
 
 # Flavour and others:
 *Formables:
