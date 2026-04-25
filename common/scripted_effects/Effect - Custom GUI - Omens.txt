@@ -67,8 +67,7 @@ toggle_omen_menu = {
     
         clr_country_flag = omen_menu_visible
     }
-    else
-    {
+    else = {
         set_country_flag = omen_menu_visible
     }
 }
