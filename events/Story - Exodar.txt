@@ -230,6 +230,10 @@ country_event = {
             }
         }
     }
+	
+	mean_time_to_happen = {
+		days = 365
+	}
 
     immediate = {
         set_global_flag = exodar_escaped
@@ -423,13 +427,14 @@ country_event = {
                 name = "Velen" 
                 dynasty = "of Argus"
                 age = 500
-                change_adm = 5
-                change_dip = 7
-                change_mil = 3
                 culture = culture_draenei
                 religion = light_of_the_naaru
                 claim = 100
             }
+			
+			change_adm = 5
+			change_dip = 7
+			change_mil = 3
             
             set_ruler_flag = priest_personality
             set_ruler_flag = ruler_portrait_velen
