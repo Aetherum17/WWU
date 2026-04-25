@@ -191,7 +191,7 @@
 
  STROMKAR_RECOVERY_TT: "If  §RStrom'kar the Warbreaker§! was not recovered by anyone, we will discovery its location immidietly."
 
- arathi_basin_fortification_tt: "Fortify the Arathi Basin:\n\n• §YArathi Basin§! has a Fort and §Y5 Base Manpower§!.\n• Control §YRevantusk Outpost§!, §YTrollden§!, §YArathi Strand§!, §YThickets of Askar§!, and §YNorthstar Outpost§!.\n• At least one of above provinces has a Fort."
+ arathi_basin_fortification_tt: "Fortify the Arathi Basin:\n\n• §YArathi Basin§! has a Fort, a Tower and §Y5 Base Manpower§!.\n• Control §YArathi Stand§! area.\n• At least one province in §YArathi Stand! has a Fort."
 
  unlock_settlement_decisions_tt: "§GUnlock the following Decisions:§!\n• §YSettle Claim - Gun Darok§!\n• §YSettle Claim - Dalaran Southshore§!\n• §YSettle Claim - Lordaeron Southshore§!"
 

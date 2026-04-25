@@ -149,12 +149,12 @@
  CLASS_ABILITIES_NOT_OPEN_TT: "Abilities window is not already open."
  CLASS_ALREADY_ASSIGNED_TT: "[Root.Monarch.GetName] has not been assigned a class."
  
- HAS_ENERGY_0: "[Root.Monarch.GetName] has zero points of §YEnergy§!."
- HAS_ENERGY_1: "[Root.Monarch.GetName] has one point of §YEnergy§!."
- HAS_ENERGY_2: "[Root.Monarch.GetName] has two points of §YEnergy§!."
- HAS_ENERGY_3: "[Root.Monarch.GetName] has three points of §YEnergy§!."
- HAS_ENERGY_4: "[Root.Monarch.GetName] has four points of §YEnergy§!."
- HAS_ENERGY_5: "[Root.Monarch.GetName] has five points of §YEnergy§!."
+ HAS_ENERGY_0: "[Root.Monarch.GetName] has §R0§! points of §YEnergy§!."
+ HAS_ENERGY_1: "[Root.Monarch.GetName] has §Y1§! point of §YEnergy§!."
+ HAS_ENERGY_2: "[Root.Monarch.GetName] has §Y2§! points of §YEnergy§!."
+ HAS_ENERGY_3: "[Root.Monarch.GetName] has §Y3§! points of §YEnergy§!."
+ HAS_ENERGY_4: "[Root.Monarch.GetName] has §Y4§! points of §YEnergy§!."
+ HAS_ENERGY_5: "[Root.Monarch.GetName] has §G5§! points of §YEnergy§!."
  
  # Effect Tooltips
  BOOST_CLASS_STUDY_BY_5_TT: "Increase §YStudy Progress§! by §G5§!."
@@ -163,11 +163,11 @@
  
  ENERGY_GAIN_1: "[Root.Monarch.GetName] will gain one point of §YEnergy§!."
  
- ENERGY_LOSS_1: "[Root.Monarch.GetName] will lose one point of §YEnergy§!."
- ENERGY_LOSS_2: "[Root.Monarch.GetName] will lose two points of §YEnergy§!."
- ENERGY_LOSS_3: "[Root.Monarch.GetName] will lose three point of §YEnergy§!."
- ENERGY_LOSS_4: "[Root.Monarch.GetName] will lose four point of §YEnergy§!."
- ENERGY_LOSS_5: "[Root.Monarch.GetName] will lose five point of §YEnergy§!."
+ ENERGY_LOSS_1: "[Root.Monarch.GetName] will lose §R1§! point of §YEnergy§!."
+ ENERGY_LOSS_2: "[Root.Monarch.GetName] will lose §R2§! points of §YEnergy§!."
+ ENERGY_LOSS_3: "[Root.Monarch.GetName] will lose §R3§! points of §YEnergy§!."
+ ENERGY_LOSS_4: "[Root.Monarch.GetName] will lose §R4§! points of §YEnergy§!."
+ ENERGY_LOSS_5: "[Root.Monarch.GetName] will lose §R5§! points of §YEnergy§!."
  
  ENERGY_0: "0"
  ENERGY_1: "1"

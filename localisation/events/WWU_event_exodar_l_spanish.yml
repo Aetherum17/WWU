@@ -10,3 +10,14 @@
  wwu_exodar.1.option.d: "Try and steer towards the west"
  wwu_exodar.1.option.e: "Try and steer towards the south"
  
+ wwu_exodar.10.title: "The Exodar"
+ wwu_exodar.10.desc: "AI ONLY"
+ wwu_exodar.10.option.a: "We are crashing!"
+ wwu_exodar.10.option.b: "Try and steer towards the east"
+ wwu_exodar.10.option.c: "Try and steer towards the north"
+ wwu_exodar.10.option.d: "Try and steer towards the west"
+ wwu_exodar.10.option.e: "Try and steer towards the south"
+ 
+ # Modifiers
+ draenei_resilience: "Draenei Resilience"
+ desc_draenei_resilience: ""

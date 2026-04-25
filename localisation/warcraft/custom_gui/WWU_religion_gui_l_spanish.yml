@@ -1,0 +1,109 @@
+﻿l_spanish:
+ #-----------------------------------
+ # Religion GUI
+ #-----------------------------------
+ # Custom Loc
+ OMEN_NAME_DEFAULT: "Omen"
+ OMEN_NAME_PLURAL_DEFAULT: "Omens"
+ OMEN_NAME_INLINE_DEFAULT: "omen"
+ OMEN_NAME_INLINE_PLURAL_DEFAULT: "omens"
+ 
+ OMEN_NAME_TUSKARR: "Ritual"
+ OMEN_NAME_PLURAL_TUSKARR: "Rituals"
+ OMEN_NAME_INLINE_TUSKARR: "ritual"
+ OMEN_NAME_INLINE_PLURAL_TUSKARR: "rituals"
+ 
+ OMEN_SCORE_NAME_DEFAULT: "Favour"
+ OMEN_SCORE_NAME_PLURAL_DEFAULT: "Favours"
+ OMEN_SCORE_NAME_INLINE_DEFAULT: "favour"
+ 
+ # Shared Elements
+ OMEN_BUTTON_TT: "Open the §Y[Root.GetOmenName]§! menu."
+ omen_menu_banner_title: "[Root.GetOmenNamePlural]"
+ 
+ omen_score: "[Root.GetOmenScoreName]"
+ 
+ OMEN_PROGRESS_TT: "§Y[Root.GetOmenScoreName]§!\nRepresents the amount of [Root.GetOmenScoreNameInline] we have with our gods.\n\nYou currently have §Y[Root.omen_score.GetValue]§! [Root.GetOmenScoreNameInline] out of §Y100§!.\n\n§YSources§!\n- Gain up to §Y1§! [Root.GetOmenScoreNameInline] per month, scaled by the current amount of Religious Unity (minimum is §Y0.1§!).\n- Gain §Y1§! [Root.GetOmenScoreNameInline] per month if the §YReligious§! ideagroup has been completed."
+ 
+ OMEN_COST_5: "This [Root.GetOmenNameInline] will cost §Y5§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_10: "This [Root.GetOmenNameInline] will cost §Y10§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_15: "This [Root.GetOmenNameInline] will cost §Y15§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_20: "This [Root.GetOmenNameInline] will cost §Y20§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_25: "This [Root.GetOmenNameInline] will cost §Y25§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_30: "This [Root.GetOmenNameInline] will cost §Y30§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_35: "This [Root.GetOmenNameInline] will cost §Y35§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_40: "This [Root.GetOmenNameInline] will cost §Y40§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_45: "This [Root.GetOmenNameInline] will cost §Y45§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_50: "This [Root.GetOmenNameInline] will cost §Y50§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_55: "This [Root.GetOmenNameInline] will cost §Y55§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_60: "This [Root.GetOmenNameInline] will cost §Y60§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_65: "This [Root.GetOmenNameInline] will cost §Y65§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_70: "This [Root.GetOmenNameInline] will cost §Y70§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_75: "This [Root.GetOmenNameInline] will cost §Y75§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_80: "This [Root.GetOmenNameInline] will cost §Y80§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_85: "This [Root.GetOmenNameInline] will cost §Y85§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_90: "This [Root.GetOmenNameInline] will cost §Y90§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_95: "This [Root.GetOmenNameInline] will cost §Y95§! [Root.GetOmenScoreName] to invoke."
+ OMEN_COST_100: "This [Root.GetOmenNameInline] will cost §Y100§! [Root.GetOmenScoreName] to invoke."
+ 
+ OMEN_SPEND_5: "Expend §R5§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_10: "Expend §R10§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_15: "Expend §R15§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_20: "Expend §R20§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_25: "Expend §R25§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_30: "Expend §R30§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_35: "Expend §R35§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_40: "Expend §R40§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_45: "Expend §R45§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_50: "Expend §R50§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_55: "Expend §R55§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_60: "Expend §R60§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_65: "Expend §R65§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_70: "Expend §R70§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_75: "Expend §R75§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_80: "Expend §R80§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_85: "Expend §R85§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_90: "Expend §R90§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_95: "Expend §R95§! [Root.GetOmenScoreName]."
+ OMEN_SPEND_100: "Expend §R100§! [Root.GetOmenScoreName]."
+ 
+ # Tuskarr
+ TUSKARR_OMEN_1: "Ritual of Bounty"
+ TUSKARR_OMEN_2: "Ritual of Peace"
+ TUSKARR_OMEN_3: "Ritual of Calm"
+ TUSKARR_OMEN_4: "Ritual of Purity"
+ TUSKARR_OMEN_5: "Ritual of Anger"
+ TUSKARR_OMEN_6: "Ritual of Haste"
+ TUSKARR_OMEN_7: "Ritual of Life"
+ TUSKARR_OMEN_8: "Ritual of Hope"
+ 
+ TUSKARR_OMEN_TT_1: "Ritual of Bounty"
+ TUSKARR_OMEN_TT_2: "Ritual of Peace"
+ TUSKARR_OMEN_TT_3: "Ritual of Calm"
+ TUSKARR_OMEN_TT_4: "Ritual of Purity"
+ TUSKARR_OMEN_TT_5: "Ritual of Anger"
+ TUSKARR_OMEN_TT_6: "Ritual of Haste"
+ TUSKARR_OMEN_TT_7: "Ritual of Life"
+ TUSKARR_OMEN_TT_8: "Ritual of Hope"
+ 
+ ritual_of_bounty_fish_mod: "Ritual of Bounty (Fish)"
+ 
+ ritual_of_bounty_mod: "Ritual of Bounty"
+ desc_ritual_of_bounty_mod: ""
+ 
+ ritual_of_bounty_aftermath_mod: "Fish Stocks Depleted"
+ desc_ritual_of_bounty_aftermath_mod: ""
+ 
+ RITUAL_OF_BOUNTY_AFTERMATH_TT: "After the §YRitual of Bounty§! expires, our fish stocks will be depleted for a while afterwards."
+ 
+ ritual_of_peace_mod: "Ritual of Peace"
+ desc_ritual_of_peace_mod: ""
+ 
+ ritual_of_calm_mod: "Ritual of Calm"
+ desc_ritual_of_calm_mod: ""
+ 
+ ritual_of_anger_mod: "Ritual of Anger"
+ desc_ritual_of_anger_mod: ""
+ 
+ ritual_of_haste_mod: "Ritual of Haste"
+ desc_ritual_of_haste_mod: ""

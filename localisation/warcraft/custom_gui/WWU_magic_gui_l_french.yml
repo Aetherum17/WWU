@@ -14,6 +14,7 @@
  MAGIC_GUI_STUDY_NOT_OPEN_TT: "Magical Study window is not already open."
  MAGIC_GUI_USAGE_NOT_OPEN_TT: "Spellbook window is not already open."
  
+ 
  #----------------------------------------
  # Magic GUI - Magical Study
  #----------------------------------------
@@ -84,6 +85,24 @@
  RULER_SCHOOL_DOMINATION: "Domination"
  RULER_SCHOOL_SOUL: "Soul"
  
+ #------------------
+ # Shared Tooltips
+ #------------------
+ SPELL_SPACER: " "
+ 
+ TOKEN_USAGE_TT: "Used within the §YProvince§! window."
+ 
+ APPLY_TARGETED_SPELL_PROV_EFFECT_TT: "This targeted spell applies the following:"
+ 
+ RESTORE_MANPOWER_TO_80_PERCENT_TT: "Restore manpower to §G80%§!."
+ RESTORE_MANPOWER_TO_85_PERCENT_TT: "Restore manpower to §G85%§!."
+ RESTORE_MANPOWER_TO_90_PERCENT_TT: "Restore manpower to §G90%§!."
+ RESTORE_MANPOWER_TO_95_PERCENT_TT: "Restore manpower to §G95%§!."
+ RESTORE_MANPOWER_TO_100_PERCENT_TT: "Restore manpower to §G100%§!."
+ 
+ #------------------
+ # Generic
+ #------------------
  GENERIC_SPELL_1_TT: "Conjure Gold"
  GENERIC_SPELL_2_TT: "Inspire Glory"
  GENERIC_SPELL_3_TT: "Purge Opponents"
@@ -95,25 +114,47 @@
  GENERIC_SPELL_9_TT: "Imbue Sailors"
  GENERIC_SPELL_10_TT: "Galvinize Creativity"
  
+ #------------------
+ # Arcane
+ #------------------
  ARCANE_SPELL_1_TT: "Polymorph"
  ARCANE_SPELL_2_TT: "Presence of Mind"
  ARCANE_SPELL_3_TT: "Touch of the Magi"
  ARCANE_SPELL_4_TT: "Alter Time"
  
+ #------------------
+ # Holy
+ #------------------
  HOLY_SPELL_1_TT: "Judgment"
  HOLY_SPELL_2_TT: "Divine Tempest"
  HOLY_SPELL_3_TT: "Fortifying Aura"
  HOLY_SPELL_4_TT: "Avatar of the Light"
  
+ #------------------
+ # Chi
+ #------------------
  CHI_SPELL_1_TT: "Ring of Peace"
  CHI_SPELL_2_TT: "Renewing Mists"
  CHI_SPELL_3_TT: "Secret Infusion"
  CHI_SPELL_4_TT: "Mists of Wisdom"
  
+ #------------------
+ # Voodoo
+ #------------------
  VOODOO_SPELL_1_TT: "Mass Hex"
  VOODOO_SPELL_2_TT: "Zombify"
  VOODOO_SPELL_3_TT: "Healing Wave"
  VOODOO_SPELL_4_TT: "Big Bad Voodoo"
+ 
+ MASS_HEX_NAME_TT: "§YMass Hex§!"
+ 
+ MASS_HEX_EFFECT_TT_5: "Up to §Y5§! random owned provinces with the wrong religion to §Y[Root.Religion.GetName]§!."
+ MASS_HEX_EFFECT_TT_4: "Up to §Y4§! random owned provinces with the wrong religion to §Y[Root.Religion.GetName]§!."
+ MASS_HEX_EFFECT_TT_3: "Up to §Y3§! random owned provinces with the wrong religion to §Y[Root.Religion.GetName]§!."
+ MASS_HEX_EFFECT_TT_2: "Up to §Y2§! random owned provinces with the wrong religion to §Y[Root.Religion.GetName]§!."
+ MASS_HEX_EFFECT_TT_1: "Up to §Y1§! random owned provinces with the wrong religion to §Y[Root.Religion.GetName]§!."
+ 
+ BIG_BAD_VOODOO_NAME_TT: "§YBig Bad Voodoo§!"
  
  BIG_BAD_VOODOO_EFFECT_TT_5: "Up to §Y25§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
  BIG_BAD_VOODOO_EFFECT_TT_4: "Up to §Y20§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
@@ -121,48 +162,95 @@
  BIG_BAD_VOODOO_EFFECT_TT_2: "Up to §Y10§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
  BIG_BAD_VOODOO_EFFECT_TT_1: "Up to §Y5§! owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
  
+ #------------------
+ # Nature
+ #------------------
  NATURE_SPELL_1_TT: "Entangling Roots"
  NATURE_SPELL_2_TT: "Tranquility"
  NATURE_SPELL_3_TT: "Regrowth"
  NATURE_SPELL_4_TT: "Force of Nature"
  
- GAIN_ENTANGLING_ROOTS_TOKEN_TT_3: "Gain §Y3§! Entangling Roots charges.\nUsed within the §YProvince§! window.\n\n§YEntangling Roots:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R-100%§! Local Hostile Movement Speed"
- GAIN_ENTANGLING_ROOTS_TOKEN_TT_2: "Gain §Y2§! Entangling Roots charges.\nUsed within the §YProvince§! window.\n\n§YEntangling Roots:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R-100%§! Local Hostile Movement Speed"
- GAIN_ENTANGLING_ROOTS_TOKEN_TT_1: "Gain §Y1§! Entangling Roots charges.\nUsed within the §YProvince§! window.\n\n§YEntangling Roots:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R-100%§! Local Hostile Movement Speed"
+ ENTANGLING_ROOTS_NAME_TT: "§YEntangling Roots§!"
+ 
+ ENTANGLING_ROOTS_TOKEN_TT_5: "Gain §G5§! Entangling Roots charges."
+ ENTANGLING_ROOTS_TOKEN_TT_4: "Gain §G4§! Entangling Roots charges."
+ ENTANGLING_ROOTS_TOKEN_TT_3: "Gain §G3§! Entangling Roots charges."
+ ENTANGLING_ROOTS_TOKEN_TT_2: "Gain §G2§! Entangling Roots charges."
+ ENTANGLING_ROOTS_TOKEN_TT_1: "Gain §G1§! Entangling Roots charges."
+ 
+ ENTANGLING_ROOTS_EFFECT_TT_5: "§R-100%§! Local Hostile Movement Speed"
+ ENTANGLING_ROOTS_EFFECT_TT_4: "§R-95%§! Local Hostile Movement Speed"
+ ENTANGLING_ROOTS_EFFECT_TT_3: "§R-90%§! Local Hostile Movement Speed"
+ ENTANGLING_ROOTS_EFFECT_TT_2: "§R-85%§! Local Hostile Movement Speed"
+ ENTANGLING_ROOTS_EFFECT_TT_1: "§R-80%§! Local Hostile Movement Speed"
+ 
  ENTANGLING_ROOTS_COST_TT: "Has atleast §Y1§! Entangling Roots charges stored."
  ENTANGLING_ROOTS_SPELL_TT: "Cast §YEntangling Roots§! in this province."
  
+ #------------------
+ # Necromancy
+ #------------------
  NECROMANCY_SPELL_1_TT: "Death and Decay"
  NECROMANCY_SPELL_2_TT: "Lichborne"
  NECROMANCY_SPELL_3_TT: "Pestilence"
  NECROMANCY_SPELL_4_TT: "Raise Undead"
  
- GAIN_DEATH_AND_DECAY_TOKEN_TT_3: "Gain §Y3§! Death and Decay charges.\nUsed within the §YProvince§! window.\n\n§YDeath and Decay:§!\nApplies the following modifiers at maximum Finesse:\n§R+5%§! Max Attrition\n§R+5%§! Attrition"
- GAIN_DEATH_AND_DECAY_TOKEN_TT_2: "Gain §Y2§! Death and Decay charges.\nUsed within the §YProvince§! window.\n\n§YDeath and Decay:§!\nApplies the following modifiers at maximum Finesse:\n§R+5%§! Max Attrition\n§R+5%§! Attrition"
- GAIN_DEATH_AND_DECAY_TOKEN_TT_1: "Gain §Y1§! Death and Decay charges.\nUsed within the §YProvince§! window.\n\n§YDeath and Decay:§!\nApplies the following modifiers at maximum Finesse:\n§R+5%§! Max Attrition\n§R+5%§! Attrition"
+ DEATH_AND_DECAY_NAME_TT: "§YDeath and Decay§!"
+ 
+ DEATH_AND_DECAY_TOKEN_TT_5: "Gain §G5§! Death and Decay charges."
+ DEATH_AND_DECAY_TOKEN_TT_4: "Gain §G4§! Death and Decay charges."
+ DEATH_AND_DECAY_TOKEN_TT_3: "Gain §G3§! Death and Decay charges."
+ DEATH_AND_DECAY_TOKEN_TT_2: "Gain §G2§! Death and Decay charges."
+ DEATH_AND_DECAY_TOKEN_TT_1: "Gain §G1§! Death and Decay charges."
+ 
+ DEATH_AND_DECAY_EFFECT_TT_5: "§R+6%§! Max Attrition\n§R+6%§! Attrition"
+ DEATH_AND_DECAY_EFFECT_TT_4: "§R+5%§! Max Attrition\n§R+5%§! Attrition"
+ DEATH_AND_DECAY_EFFECT_TT_3: "§R+4%§! Max Attrition\n§R+4%§! Attrition"
+ DEATH_AND_DECAY_EFFECT_TT_2: "§R+3%§! Max Attrition\n§R+3%§! Attrition"
+ DEATH_AND_DECAY_EFFECT_TT_1: "§R+2%§! Max Attrition\n§R+2%§! Attrition"
+ 
  DEATH_AND_DECAY_COST_TT: "Has atleast §Y1§! Death and Decay charges stored."
  DEATH_AND_DECAY_SPELL_TT: "Cast §YDeath and Decay§! in this province."
  
- GAIN_PESTILENCE_TOKEN_TT_3: "Gain §Y3§! Pestilence charges.\nUsed within the §YProvince§! window.\n\n§YPestilence:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+95%§! Local Minimum Autonomy\n§R-25%§! Local Supply Limit\n\nAllows the §YPestilence§! province event to occur."
- GAIN_PESTILENCE_TOKEN_TT_2: "Gain §Y2§! Pestilence charges.\nUsed within the §YProvince§! window.\n\n§YPestilence:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+95%§! Local Minimum Autonomy\n§R-25%§! Local Supply Limit\n\nAllows the §YPestilence§! province event to occur."
- GAIN_PESTILENCE_TOKEN_TT_1: "Gain §Y1§! Pestilence charges.\nUsed within the §YProvince§! window.\n\n§YPestilence:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+95%§! Local Minimum Autonomy\n§R-25%§! Local Supply Limit\n\nAllows the §YPestilence§! province event to occur."
+ PESTILENCE_NAME_TT: "§YPestilence§!"
+ 
+ PESTILENCE_TOKEN_TT_5: "Gain §G5§! Pestilence charges."
+ PESTILENCE_TOKEN_TT_4: "Gain §G4§! Pestilence charges."
+ PESTILENCE_TOKEN_TT_3: "Gain §G3§! Pestilence charges."
+ PESTILENCE_TOKEN_TT_2: "Gain §G2§! Pestilence charges."
+ PESTILENCE_TOKEN_TT_1: "Gain §G1§! Pestilence charges."
+ 
+ PESTILENCE_EFFECT_TT_5: "§R+75%§! Local Minimum Autonomy\n§R-5%§! Local Supply Limit"
+ PESTILENCE_EFFECT_TT_4: "§R+80%§! Local Minimum Autonomy\n§R-10%§! Local Supply Limit"
+ PESTILENCE_EFFECT_TT_3: "§R+85%§! Local Minimum Autonomy\n§R-15%§! Local Supply Limit"
+ PESTILENCE_EFFECT_TT_2: "§R+90%§! Local Minimum Autonomy\n§R-20%§! Local Supply Limit"
+ PESTILENCE_EFFECT_TT_1: "§R+95%§! Local Minimum Autonomy\n§R-25%§! Local Supply Limit"
+ 
  PESTILENCE_COST_TT: "Has atleast §Y1§! Pestilence charges stored."
  PESTILENCE_SPELL_TT: "Cast §YPestilence§! in this province."
  
- RESTORE_MANPOWER_TO_80_PERCENT_TT: "Restore manpower to §G80%§!."
- RESTORE_MANPOWER_TO_85_PERCENT_TT: "Restore manpower to §G85%§!."
- RESTORE_MANPOWER_TO_90_PERCENT_TT: "Restore manpower to §G90%§!."
- RESTORE_MANPOWER_TO_95_PERCENT_TT: "Restore manpower to §G95%§!."
- RESTORE_MANPOWER_TO_100_PERCENT_TT: "Restore manpower to §G100%§!."
- 
+ #------------------
+ # Shamanism
+ #------------------
  SHAMANISM_SPELL_1_TT: "Volcanic Rupture"
  SHAMANISM_SPELL_2_TT: "Healing Rain"
  SHAMANISM_SPELL_3_TT: "Static Charge"
  SHAMANISM_SPELL_4_TT: "Earthquake"
  
- GAIN_VOLCANIC_RUPTURE_TOKEN_TT_3: "Gain §Y3§! Volcanic Rupture charges.\nUsed within the §YProvince§! window.\n\n§YVolcanic Rupture:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+0.1%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
- GAIN_VOLCANIC_RUPTURE_TOKEN_TT_2: "Gain §Y2§! Volcanic Rupture charges.\nUsed within the §YProvince§! window.\n\n§YVolcanic Rupture:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+0.1%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
- GAIN_VOLCANIC_RUPTURE_TOKEN_TT_1: "Gain §Y1§! Volcanic Rupture charges.\nUsed within the §YProvince§! window.\n\n§YVolcanic Rupture:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+0.1%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
+ VOLCANIC_RUPTURE_NAME_TT: "§YVolcanic Rupture§!"
+ 
+ VOLCANIC_RUPTURE_TOKEN_TT_5: "Gain §G5§! Volcanic Rupture charges."
+ VOLCANIC_RUPTURE_TOKEN_TT_4: "Gain §G4§! Volcanic Rupture charges."
+ VOLCANIC_RUPTURE_TOKEN_TT_3: "Gain §G3§! Volcanic Rupture charges."
+ VOLCANIC_RUPTURE_TOKEN_TT_2: "Gain §G2§! Volcanic Rupture charges."
+ VOLCANIC_RUPTURE_TOKEN_TT_1: "Gain §G1§! Volcanic Rupture charges."
+ 
+ VOLCANIC_RUPTURE_EFFECT_TT_5: "§R+0.1%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
+ VOLCANIC_RUPTURE_EFFECT_TT_4: "§R+0.08%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
+ VOLCANIC_RUPTURE_EFFECT_TT_3: "§R+0.06%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
+ VOLCANIC_RUPTURE_EFFECT_TT_2: "§R+0.04%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
+ VOLCANIC_RUPTURE_EFFECT_TT_1: "§R+0.02%§! Monthly Devastation\n\nTarget province gains §R80§! devastation and loses §R1§! Base Tax, Production and Manpower.\nProvinces within the area gain §R25§! devastation."
+ 
  VOLCANIC_RUPTURE_COST_TT: "Has atleast §Y1§! Volcanic Rupture charges stored."
  VOLCANIC_RUPTURE_SPELL_TT: "Cast §YVolcanic Rupture§! in this province."
  
@@ -170,75 +258,165 @@
  
  EARTHQUAKE_EFFECT_TT: "May destroy all buildings within the target province."
  
- GAIN_EARTHQUAKE_TOKEN_TT_3: "Gain §Y3§! Earthquake charges.\nUsed within the §YProvince§! window.\n\n§YEarthquake:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+300%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
- GAIN_EARTHQUAKE_TOKEN_TT_2: "Gain §Y2§! Earthquake charges.\nUsed within the §YProvince§! window.\n\n§YEarthquake:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+300%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
- GAIN_EARTHQUAKE_TOKEN_TT_1: "Gain §Y1§! Earthquake charges.\nUsed within the §YProvince§! window.\n\n§YEarthquake:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+300%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
+ EARTHQUAKE_NAME_TT: "§YEarthquake§!"
+ 
+ EARTHQUAKE_TOKEN_TT_5: "Gain §G5§! Earthquake charges."
+ EARTHQUAKE_TOKEN_TT_4: "Gain §G4§! Earthquake charges."
+ EARTHQUAKE_TOKEN_TT_3: "Gain §G3§! Earthquake charges."
+ EARTHQUAKE_TOKEN_TT_2: "Gain §G2§! Earthquake charges."
+ EARTHQUAKE_TOKEN_TT_1: "Gain §G1§! Earthquake charges."
+ 
+ EARTHQUAKE_EFFECT_TT_5: "§R+300%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
+ EARTHQUAKE_EFFECT_TT_4: "§R+250%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
+ EARTHQUAKE_EFFECT_TT_3: "§R+200%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
+ EARTHQUAKE_EFFECT_TT_2: "§R+150%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
+ EARTHQUAKE_EFFECT_TT_1: "§R+100%§! Construction Time\n\nTarget province may lose §Rall§! buildings.\nProvinces within the area gain §R50§! devastation."
+ 
  EARTHQUAKE_COST_TT: "Has atleast §Y1§! Earthquake charges stored."
  EARTHQUAKE_SPELL_TT: "Cast §YEarthquake§! in this province."
  
+ #------------------
+ # Fel
+ #------------------
  FEL_SPELL_1_TT: "Hellfire"
  FEL_SPELL_2_TT: "Howl of Terror"
  FEL_SPELL_3_TT: "Banish"
  FEL_SPELL_4_TT: "Demonic Empowerment"
  
- GAIN_HELLFIRE_TOKEN_TT_3: "Gain §Y3§! Hellfire charges.\nUsed within the §YProvince§! window.\n\n§YHellfire:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+5%§! Local Hostile Attrition\n§R+5%§! Max Attrition\n§R-50%§! Local Hostile Movement Speed\n§R-50%§! Supply Limit Modifier"
- GAIN_HELLFIRE_TOKEN_TT_2: "Gain §Y2§! Hellfire charges.\nUsed within the §YProvince§! window.\n\n§YHellfire:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+5%§! Local Hostile Attrition\n§R+5%§! Max Attrition\n§R-50%§! Local Hostile Movement Speed\n§R-50%§! Supply Limit Modifier"
- GAIN_HELLFIRE_TOKEN_TT_1: "Gain §Y1§! Hellfire charges.\nUsed within the §YProvince§! window.\n\n§YHellfire:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R+5%§! Local Hostile Attrition\n§R+5%§! Max Attrition\n§R-50%§! Local Hostile Movement Speed\n§R-50%§! Supply Limit Modifier"
+ HELLFIRE_NAME_TT: "§YHellfire§!"
+ 
+ HELLFIRE_TOKEN_TT_5: "Gain §G5§! Hellfire charges."
+ HELLFIRE_TOKEN_TT_4: "Gain §G4§! Hellfire charges."
+ HELLFIRE_TOKEN_TT_3: "Gain §G3§! Hellfire charges."
+ HELLFIRE_TOKEN_TT_2: "Gain §G2§! Hellfire charges."
+ HELLFIRE_TOKEN_TT_1: "Gain §G1§! Hellfire charges."
+ 
+ HELLFIRE_EFFECT_TT_5: "§R+5%§! Local Hostile Attrition\n§R+5%§! Max Attrition\n§R-50%§! Local Hostile Movement Speed\n§R-50%§! Supply Limit Modifier"
+ HELLFIRE_EFFECT_TT_4: "§R+4%§! Local Hostile Attrition\n§R+4%§! Max Attrition\n§R-40%§! Local Hostile Movement Speed\n§R-40%§! Supply Limit Modifier"
+ HELLFIRE_EFFECT_TT_3: "§R+3%§! Local Hostile Attrition\n§R+3%§! Max Attrition\n§R-30%§! Local Hostile Movement Speed\n§R-30%§! Supply Limit Modifier"
+ HELLFIRE_EFFECT_TT_2: "§R+2%§! Local Hostile Attrition\n§R+2%§! Max Attrition\n§R-20%§! Local Hostile Movement Speed\n§R-20%§! Supply Limit Modifier"
+ HELLFIRE_EFFECT_TT_1: "§R+1%§! Local Hostile Attrition\n§R+1%§! Max Attrition\n§R-10%§! Local Hostile Movement Speed\n§R-10%§! Supply Limit Modifier"
+ 
  HELLFIRE_COST_TT: "Has atleast §Y1§! Hellfire charges stored."
  HELLFIRE_SPELL_TT: "Cast §YHellfire§! in this province."
  
- HOWL_OF_TERROR_EFFECT_TT: "All warring enemy countries will be given a penalty, applying the following modifiers at maximum Finesse:\n§R-15%§! Land Morale\n§R-10%§! Discipline\n§R+20%§! Morale Damange Received\n§R-25%§! Movement Speed"
- 
+ HOWL_OF_TERROR_APPLY_TT: "All warring enemy countries will be given the following country modifiers:"
+ HOWL_OF_TERROR_EFFECT_TT_5: "§R-15%§! Land Morale\n§R-10%§! Discipline\n§R+20%§! Morale Damange Received\n§R-25%§! Movement Speed"
+ HOWL_OF_TERROR_EFFECT_TT_4: "§R-12.5%§! Land Morale\n§R-8%§! Discipline\n§R+17.5%§! Morale Damange Received\n§R-20%§! Movement Speed"
+ HOWL_OF_TERROR_EFFECT_TT_3: "§R-10%§! Land Morale\n§R-6%§! Discipline\n§R+15%§! Morale Damange Received\n§R-15%§! Movement Speed"
+ HOWL_OF_TERROR_EFFECT_TT_2: "§R-7.5%§! Land Morale\n§R-4%§! Discipline\n§R+12.5%§! Morale Damange Received\n§R-10%§! Movement Speed"
+ HOWL_OF_TERROR_EFFECT_TT_1: "§R-5%§! Land Morale\n§R-2%§! Discipline\n§R+10%§! Morale Damange Received\n§R-5%§! Movement Speed"
+
  BANISH_EFFECT_TT: "All warring enemy countries will have a random army send back to their capital (if the army is within our nation)."
  
  BANISH_ENEMY_ARMY_TT: "An enemy army will be returned to their capital."
  
+ #------------------
+ # Draconic
+ #------------------
  DRACONIC_SPELL_1_TT: "Living Flame"
  DRACONIC_SPELL_2_TT: "Azure Wisdom"
  DRACONIC_SPELL_3_TT: "Temporal Haste"
  DRACONIC_SPELL_4_TT: "Ephemeral Dream"
  DRACONIC_SPELL_5_TT: "Obisidan Skin"
  
- GAIN_LIVING_FLAME_TOKEN_TT_3: "Gain §Y3§! Living Flame charges.\nUsed within the §YProvince§! window.\n\n§YLiving Flame:§!\nApplies the following modifiers at maximum Finesse to all provinces within an area:\n§G100%§! Defensiveness\n§G+5%§! Hostile Attrition"
- GAIN_LIVING_FLAME_TOKEN_TT_2: "Gain §Y2§! Living Flame charges.\nUsed within the §YProvince§! window.\n\n§YLiving Flame:§!\nApplies the following modifiers at maximum Finesse all provinces within an area:\n§G100%§! Defensiveness\n§G+5%§! Hostile Attrition"
- GAIN_LIVING_FLAME_TOKEN_TT_1: "Gain §Y1§! Living Flame charges.\nUsed within the §YProvince§! window.\n\n§YLiving Flame:§!\nApplies the following modifiers at maximum Finesse all provinces within an area:\n§G100%§! Defensiveness\n§G+5%§! Hostile Attrition"
+ LIVING_FLAME_NAME_TT: "§YLiving Flame§!"
+ 
+ LIVING_FLAME_TOKEN_TT_5: "Gain §G5§! Living Flame charges."
+ LIVING_FLAME_TOKEN_TT_4: "Gain §G4§! Living Flame charges."
+ LIVING_FLAME_TOKEN_TT_3: "Gain §G3§! Living Flame charges."
+ LIVING_FLAME_TOKEN_TT_2: "Gain §G2§! Living Flame charges."
+ LIVING_FLAME_TOKEN_TT_1: "Gain §G1§! Living Flame charges."
+ 
+ LIVING_FLAME_EFFECT_TT_5: "§G100%§! Defensiveness\n§G+5%§! Hostile Attrition"
+ LIVING_FLAME_EFFECT_TT_4: "§G80%§! Defensiveness\n§G+4%§! Hostile Attrition"
+ LIVING_FLAME_EFFECT_TT_3: "§G60%§! Defensiveness\n§G+3%§! Hostile Attrition"
+ LIVING_FLAME_EFFECT_TT_2: "§G40%§! Defensiveness\n§G+2%§! Hostile Attrition"
+ LIVING_FLAME_EFFECT_TT_1: "§G20%§! Defensiveness\n§G+1%§! Hostile Attrition"
+ 
  LIVING_FLAME_COST_TT: "Has atleast §Y1§! Living Flame charges stored."
  LIVING_FLAME_SPELL_TT: "Cast §YLiving Flame§! in this province."
  
  ENEMY_WAR_BLOCKED_TT: "Whilst §YEphemeral Dream§! is active, enemy nations cannot declare war upon us, and we cannot declare war upon others."
  
+ #------------------
+ # Corruption
+ #------------------
  CORRUPTION_SPELL_1_TT: "Whisper of Despair"
  CORRUPTION_SPELL_2_TT: "Call of the Faceless"
  CORRUPTION_SPELL_3_TT: "Corrupting Influence"
  CORRUPTION_SPELL_4_TT: "Mindworms"
  
- GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_3: "Gain §Y3§! Whisper of Despair charges.\nUsed within the §YProvince§! window.\n\n§YWhisper of Despair:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R16§! Local Unrest\n§R-10%§! Local Missionary Strength"
- GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_2: "Gain §Y2§! Whisper of Despair charges.\nUsed within the §YProvince§! window.\n\n§YWhisper of Despair:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R16§! Local Unrest\n§R-10%§! Local Missionary Strength"
- GAIN_WHISPER_OF_DESPAIR_TOKEN_TT_1: "Gain §Y1§! Whisper of Despair charges.\nUsed within the §YProvince§! window.\n\n§YWhisper of Despair:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R16§! Local Unrest\n§R-10%§! Local Missionary Strength"
+ WHISPER_OF_DESPAIR_NAME_TT: "§YWhisper of Despair§!"
+ 
+ WHISPER_OF_DESPAIR_TOKEN_TT_5: "Gain §G5§! Whisper of Despair charges."
+ WHISPER_OF_DESPAIR_TOKEN_TT_4: "Gain §G4§! Whisper of Despair charges."
+ WHISPER_OF_DESPAIR_TOKEN_TT_3: "Gain §G3§! Whisper of Despair charges."
+ WHISPER_OF_DESPAIR_TOKEN_TT_2: "Gain §G2§! Whisper of Despair charges."
+ WHISPER_OF_DESPAIR_TOKEN_TT_1: "Gain §G1§! Whisper of Despair charges."
+ 
+ WHISPER_OF_DESPAIR_EFFECT_TT_5: "§R16§! Local Unrest\n§R-2%§! Local Missionary Strength\nChanges the province religion to §Y[From.Religion.GetName]§!."
+ WHISPER_OF_DESPAIR_EFFECT_TT_4: "§R14§! Local Unrest\n§R-4%§! Local Missionary Strength\nChanges the province religion to §Y[From.Religion.GetName]§!."
+ WHISPER_OF_DESPAIR_EFFECT_TT_3: "§R12§! Local Unrest\n§R-6%§! Local Missionary Strength\nChanges the province religion to §Y[From.Religion.GetName]§!."
+ WHISPER_OF_DESPAIR_EFFECT_TT_2: "§R10§! Local Unrest\n§R-8%§! Local Missionary Strength\nChanges the province religion to §Y[From.Religion.GetName]§!."
+ WHISPER_OF_DESPAIR_EFFECT_TT_1: "§R8§! Local Unrest\n§R-10%§! Local Missionary Strength\nChanges the province religion to §Y[From.Religion.GetName]§!."
+ 
  WHISPER_OF_DESPAIR_COST_TT: "Has atleast §Y1§! Whisper of Despair charges stored."
  WHISPER_OF_DESPAIR_SPELL_TT: "Cast §YWhisper of Despair§! in this province."
  
- FACELESS_COMMANDER_TT: "Generate a powerful general to lead our armies.\n\nWill rarely produce a §YC'Thraxi Herald§!, an uniquely powerful general."
+ FACELESS_COMMANDER_TT_5: "Generate a powerful general with §Y100§! tradition to lead our armies.\nHas a 50% chance to produce a §YC'Thraxi Herald§!, an uniquely powerful general."
+ FACELESS_COMMANDER_TT_4: "Generate a powerful general with §Y95§! tradition to lead our armies.\nHas a 40% chance to produce a §YC'Thraxi Herald§!, an uniquely powerful general."
+ FACELESS_COMMANDER_TT_3: "Generate a powerful general with §Y90§! tradition to lead our armies.\nHas a 30% chance to produce a §YC'Thraxi Herald§!, an uniquely powerful general."
+ FACELESS_COMMANDER_TT_2: "Generate a powerful general with §Y85§! tradition to lead our armies.\nHas a 20% chance to produce a §YC'Thraxi Herald§!, an uniquely powerful general."
+ FACELESS_COMMANDER_TT_1: "Generate a powerful general with §Y80§! tradition to lead our armies.\nHas a 10% chance to produce a §YC'Thraxi Herald§!, an uniquely powerful general."
  
+ #------------------
+ # Shadow
+ #------------------
  SHADOW_SPELL_1_TT: "Mind Control"
  SHADOW_SPELL_2_TT: "Soothe Mind"
  SHADOW_SPELL_3_TT: "Mind Blast"
  SHADOW_SPELL_4_TT: "Dark Whispers"
  
- GAIN_MIND_CONTROL_TOKEN_TT_3: "Gain §Y3§! Mind Control charges.\nUsed within the §YProvince§! window.\n\n§YMind Control:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R16§! Local Unrest\n§R-10%§! Local Missionary Strength\n\nProvinces within the area change their religion to §Y[Root.Religion.GetName]§!."
- GAIN_MIND_CONTROL_TOKEN_TT_2: "Gain §Y2§! Mind Control charges.\nUsed within the §YProvince§! window.\n\n§YMind Control:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R16§! Local Unrest\n§R-10%§! Local Missionary Strength\n\nProvinces within the area change their religion to §Y[Root.Religion.GetName]§!."
- GAIN_MIND_CONTROL_TOKEN_TT_1: "Gain §Y1§! Mind Control charges.\nUsed within the §YProvince§! window.\n\n§YMind Control:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R16§! Local Unrest\n§R-10%§! Local Missionary Strength\n\nProvinces within the area change their religion to §Y[Root.Religion.GetName]§!."
+ MIND_CONTROL_NAME_TT: "§YMind Control§!"
+ 
+ MIND_CONTROL_TOKEN_TT_5: "Gain §G5§! Mind Control charges."
+ MIND_CONTROL_TOKEN_TT_4: "Gain §G4§! Mind Control charges."
+ MIND_CONTROL_TOKEN_TT_3: "Gain §G3§! Mind Control charges."
+ MIND_CONTROL_TOKEN_TT_2: "Gain §G2§! Mind Control charges."
+ MIND_CONTROL_TOKEN_TT_1: "Gain §G1§! Mind Control charges."
+ 
+ MIND_CONTROL_EFFECT_TT_5: "§R-10%§! Local Missionary Strength\nProvinces within the area change their religion to §Y[From.Religion.GetName]§!."
+ MIND_CONTROL_EFFECT_TT_4: "§R-8%§! Local Missionary Strength\nProvinces within the area change their religion to §Y[From.Religion.GetName]§!."
+ MIND_CONTROL_EFFECT_TT_3: "§R-6%§! Local Missionary Strength\nProvinces within the area change their religion to §Y[From.Religion.GetName]§!."
+ MIND_CONTROL_EFFECT_TT_2: "§R-4%§! Local Missionary Strength\nProvinces within the area change their religion to §Y[From.Religion.GetName]§!."
+ MIND_CONTROL_EFFECT_TT_1: "§R-2%§! Local Missionary Strength\nProvinces within the area change their religion to §Y[From.Religion.GetName]§!."
+ 
  MIND_CONTROL_COST_TT: "Has atleast §Y1§! Mind Control charges stored."
  MIND_CONTROL_SPELL_TT: "Cast §YMind Control§! in this province."
  
+ #------------------
+ # Titanic
+ #------------------
  TITANIC_SPELL_1_TT: "Highfather's Will"
  TITANIC_SPELL_2_TT: "Order Above All"
  TITANIC_SPELL_3_TT: "Blessing of the Titans"
  TITANIC_SPELL_4_TT: "Power from Beyond"
  
- GAIN_HIGHFATHERS_WILL_TOKEN_TT_3: "Gain §Y3§! Highfather's Will charges.\nUsed within the §YProvince§! window.\n\n§YHighfather's Will:§!\nApplies the following modifiers at maximum Finesse to a province:\n§G-100%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.Religion.GetName]§!."
- GAIN_HIGHFATHERS_WILL_TOKEN_TT_2: "Gain §Y2§! Highfather's Will charges.\nUsed within the §YProvince§! window.\n\n§YHighfather's Will:§!\nApplies the following modifiers at maximum Finesse to a province:\n§G-100%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.Religion.GetName]§!."
- GAIN_HIGHFATHERS_WILL_TOKEN_TT_1: "Gain §Y1§! Highfather's Will charges.\nUsed within the §YProvince§! window.\n\n§YHighfather's Will:§!\nApplies the following modifiers at maximum Finesse to a province:\n§G-100%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.Religion.GetName]§!."
+ HIGHFATHERS_WILL_NAME_TT: "§YHighfather's Will§!"
+ 
+ HIGHFATHERS_WILL_TOKEN_TT_5: "Gain §G5§! Highfather's Will charges."
+ HIGHFATHERS_WILL_TOKEN_TT_4: "Gain §G4§! Highfather's Will charges."
+ HIGHFATHERS_WILL_TOKEN_TT_3: "Gain §G3§! Highfather's Will charges."
+ HIGHFATHERS_WILL_TOKEN_TT_2: "Gain §G2§! Highfather's Will charges."
+ HIGHFATHERS_WILL_TOKEN_TT_1: "Gain §G1§! Highfather's Will charges."
+ 
+ HIGHFATHERS_WILL_EFFECT_TT_5: "§G-100%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ HIGHFATHERS_WILL_EFFECT_TT_4: "§G-90%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ HIGHFATHERS_WILL_EFFECT_TT_3: "§G-80%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ HIGHFATHERS_WILL_EFFECT_TT_2: "§G-70%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ HIGHFATHERS_WILL_EFFECT_TT_1: "§G-60%§! Local Warscore Cost\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ 
  HIGHFATHERS_WILL_COST_TT: "Has atleast §Y1§! Highfather's Will charges stored."
  HIGHFATHERS_WILL_SPELL_TT: "Cast §YHighfather's Will§! in this province."
  
@@ -246,70 +424,155 @@
  
  ORDER_ABOVE_ALL_EFFECT_TT: "All owned provinces without a core will be given a §Y[Root.GetName]§! core for free."
  
+ #------------------
+ # Runic
+ #------------------
  RUNIC_SPELL_1_TT: "Forbidden Rune"
  RUNIC_SPELL_2_TT: "Runic Empowerment"
  RUNIC_SPELL_3_TT: "Ice Barrage"
  RUNIC_SPELL_4_TT: "Ancestral Knowledge"
  
- ICE_BARRAGE_EFFECT_TT: "Every owned province gains the §YIce Barrage§! province modifier, applying the following modifiers at maximum Finesse:\n§R-80%§! Local Hostile Movement Speed"
+ ICE_BARRAGE_APPLY_TT: "Every owned province gains the §YIce Barrage§! province modifiers:"
+ ICE_BARRAGE_EFFECT_TT_5: "§R-80%§! Local Hostile Movement Speed"
+ ICE_BARRAGE_EFFECT_TT_4: "§R-75%§! Local Hostile Movement Speed"
+ ICE_BARRAGE_EFFECT_TT_3: "§R-70%§! Local Hostile Movement Speed"
+ ICE_BARRAGE_EFFECT_TT_2: "§R-65%§! Local Hostile Movement Speed"
+ ICE_BARRAGE_EFFECT_TT_1: "§R-60%§! Local Hostile Movement Speed"
  
+ #------------------
+ # Nightmare
+ #------------------
  NIGHTMARE_SPELL_1_TT: "Waking Nightmare"
  NIGHTMARE_SPELL_2_TT: "Corrupting Aura"
  NIGHTMARE_SPELL_3_TT: "Beckon the Horrors"
  NIGHTMARE_SPELL_4_TT: "Nightmare Rift"
  
- GAIN_NIGHTMARE_RIFT_TOKEN_TT_3: "Gain §Y3§! Nightmare Rift charges.\nUsed within the §YProvince§! window.\n\n§YNightmare Rift:§!\nApplies the following modifiers at maximum Finesse to a province:\n§G+300%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
- GAIN_NIGHTMARE_RIFT_TOKEN_TT_2: "Gain §Y2§! Nightmare Rift charges.\nUsed within the §YProvince§! window.\n\n§YNightmare Rift:§!\nApplies the following modifiers at maximum Finesse to a province:\n§G+300%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
- GAIN_NIGHTMARE_RIFT_TOKEN_TT_1: "Gain §Y1§! Nightmare Rift charges.\nUsed within the §YProvince§! window.\n\n§YNightmare Rift:§!\nApplies the following modifiers at maximum Finesse to a province:\n§G+300%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ NIGHTMARE_RIFT_NAME_TT: "§YNightmare Rift§!"
+ 
+ NIGHTMARE_RIFT_TOKEN_TT_5: "Gain §G5§! Nightmare Rift charges."
+ NIGHTMARE_RIFT_TOKEN_TT_4: "Gain §G4§! Nightmare Rift charges."
+ NIGHTMARE_RIFT_TOKEN_TT_3: "Gain §G3§! Nightmare Rift charges."
+ NIGHTMARE_RIFT_TOKEN_TT_2: "Gain §G2§! Nightmare Rift charges."
+ NIGHTMARE_RIFT_TOKEN_TT_1: "Gain §G1§! Nightmare Rift charges."
+ 
+ NIGHTMARE_RIFT_EFFECT_TT_5: "§G+300%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ NIGHTMARE_RIFT_EFFECT_TT_4: "§G+250%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ NIGHTMARE_RIFT_EFFECT_TT_3: "§G+200%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ NIGHTMARE_RIFT_EFFECT_TT_2: "§G+1500%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ NIGHTMARE_RIFT_EFFECT_TT_1: "§G+100%§! Local Friendly Movement Speed\n\nTarget province controller is changed to §Y[From.GetName]§!."
+ 
  NIGHTMARE_RIFT_COST_TT: "Has atleast §Y1§! Nightmare Rift charges stored."
  NIGHTMARE_RIFT_SPELL_TT: "Cast §YNightmare Rift§! in this province."
  
- WAKING_NIGHTMARE_EFFECT: "Whilst §YWaking Nightmare§! is active, successful sieges will convert the province religion to Nightmare and cause [Root.GetName] to gain manpower."
+ WAKING_NIGHTMARE_EFFECT_TT_5: "Whilst §YWaking Nightmare§! is active, successful sieges will convert the province religion to §YNightmare§! and cause [Root.GetName] to gain §G5,000§! manpower."
+ WAKING_NIGHTMARE_EFFECT_TT_4: "Whilst §YWaking Nightmare§! is active, successful sieges will convert the province religion to §YNightmare§! and cause [Root.GetName] to gain §G4,000§! manpower."
+ WAKING_NIGHTMARE_EFFECT_TT_3: "Whilst §YWaking Nightmare§! is active, successful sieges will convert the province religion to §YNightmare§! and cause [Root.GetName] to gain §G3,000§! manpower."
+ WAKING_NIGHTMARE_EFFECT_TT_2: "Whilst §YWaking Nightmare§! is active, successful sieges will convert the province religion to §YNightmare§! and cause [Root.GetName] to gain §G2,000§! manpower."
+ WAKING_NIGHTMARE_EFFECT_TT_1: "Whilst §YWaking Nightmare§! is active, successful sieges will convert the province religion to §YNightmare§! and cause [Root.GetName] to gain §G1,000§! manpower."
  
+ #------------------
+ # Earth
+ #------------------
  EARTH_SPELL_1_TT: "Enrichment"
  EARTH_SPELL_2_TT: "Earthquake"
  EARTH_SPELL_3_TT: "Riches of the Earth"
  EARTH_SPELL_4_TT: "Living Stone"
  
- GAIN_ENRICHMENT_TOKEN_TT_3: "Gain §Y3§! Enrichment charges.\nUsed within the §YProvince§! window.\n\n§YEnrichment:§!\nChange §YCommon§! Ores or Metals into §YRare§! Ores or Metals."
- GAIN_ENRICHMENT_TOKEN_TT_2: "Gain §Y2§! Enrichment charges.\nUsed within the §YProvince§! window.\n\n§YEnrichment:§!\nChange §YCommon§! Ores or Metals into §YRare§! Ores or Metals."
- GAIN_ENRICHMENT_TOKEN_TT_1: "Gain §Y1§! Enrichment charges.\nUsed within the §YProvince§! window.\n\n§YEnrichment:§!\nChange §YCommon§! Ores or Metals into §YRare§! Ores or Metals."
+ ENRICHMENT_NAME_TT: "§YEnrichment§!"
+ 
+ ENRICHMENT_TOKEN_TT_5: "Gain §G5§! Enrichment charges."
+ ENRICHMENT_TOKEN_TT_4: "Gain §G4§! Enrichment charges."
+ ENRICHMENT_TOKEN_TT_3: "Gain §G3§! Enrichment charges."
+ ENRICHMENT_TOKEN_TT_2: "Gain §G2§! Enrichment charges."
+ ENRICHMENT_TOKEN_TT_1: "Gain §G1§! Enrichment charges."
+ 
+ ENRICHMENT_EFFECT_TT_5: "If province has §YOres§!, upgrade the trade good into §YRarified Ores§!.\nIf province has §YMetals§!, upgrade the trade good into §YRarified Metals§!.\nIf province has neither, randomly change the trade good into §YOres§! or §YMetals§!."
+ ENRICHMENT_EFFECT_TT_4: "If province has §YOres§!, upgrade the trade good into §YRarified Ores§!.\nIf province has §YMetals§!, upgrade the trade good into §YRarified Metals§!.\nIf province has neither, randomly change the trade good into §YOres§! or §YMetals§!."
+ ENRICHMENT_EFFECT_TT_3: "If province has §YOres§!, upgrade the trade good into §YRarified Ores§!.\nIf province has §YMetals§!, upgrade the trade good into §YRarified Metals§!.\nIf province has neither, randomly change the trade good into §YOres§! or §YMetals§!."
+ ENRICHMENT_EFFECT_TT_2: "If province has §YOres§!, upgrade the trade good into §YRarified Ores§!.\nIf province has §YMetals§!, upgrade the trade good into §YRarified Metals§!.\nIf province has neither, randomly change the trade good into §YOres§! or §YMetals§!."
+ ENRICHMENT_EFFECT_TT_1: "If province has §YOres§!, upgrade the trade good into §YRarified Ores§!.\nIf province has §YMetals§!, upgrade the trade good into §YRarified Metals§!.\nIf province has neither, randomly change the trade good into §YOres§! or §YMetals§!."
+ 
  ENRICHMENT_COST_TT: "Has atleast §Y1§! Enrichment charges stored."
  ENRICHMENT_SPELL_TT: "Cast §YEnrichment§! in this province."
  
+ #------------------
+ # Fire
+ #------------------
  FIRE_SPELL_1_TT: "Volcanic Rupture"
  FIRE_SPELL_2_TT: "Everlasting Flame"
  FIRE_SPELL_3_TT: "Purged by Fire"
  FIRE_SPELL_4_TT: "Unstable Combustion"
  
- GAIN_PURGED_BY_FIRE_TOKEN_TT_3: "Gain §Y3§! Purged by Fire charges.\nUsed within the §YProvince§! window.\n\n§YPurged by Fire:§!\nChange province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
- GAIN_PURGED_BY_FIRE_TOKEN_TT_2: "Gain §Y2§! Purged by Fire charges.\nUsed within the §YProvince§! window.\n\n§YPurged by Fire:§!\nChange province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
- GAIN_PURGED_BY_FIRE_TOKEN_TT_1: "Gain §Y1§! Purged by Fire charges.\nUsed within the §YProvince§! window.\n\n§YPurged by Fire:§!\nChange province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
+ PURGED_BY_FIRE_NAME_TT: "§YPurged by Fire§!"
+ 
+ PURGED_BY_FIRE_TOKEN_TT_5: "Gain §G5§! Purged by Fire charges."
+ PURGED_BY_FIRE_TOKEN_TT_4: "Gain §G4§! Purged by Fire charges."
+ PURGED_BY_FIRE_TOKEN_TT_3: "Gain §G3§! Purged by Fire charges."
+ PURGED_BY_FIRE_TOKEN_TT_2: "Gain §G2§! Purged by Fire charges."
+ PURGED_BY_FIRE_TOKEN_TT_1: "Gain §G1§! Purged by Fire charges."
+ 
+ PURGED_BY_FIRE_EFFECT_TT_5: "Change province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
+ PURGED_BY_FIRE_EFFECT_TT_4: "Change province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
+ PURGED_BY_FIRE_EFFECT_TT_3: "Change province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
+ PURGED_BY_FIRE_EFFECT_TT_2: "Change province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
+ PURGED_BY_FIRE_EFFECT_TT_1: "Change province religion to §Y[From.Religion.GetName]§!.\nAdd core in province for §Y[From.Religion.GetName]§!."
+ 
  PURGED_BY_FIRE_COST_TT: "Has atleast §Y1§! Purged by Fire charges stored."
  PURGED_BY_FIRE_SPELL_TT: "Cast §YPurged by Fire§! in this province."
  
+ #------------------
+ # Water
+ #------------------
  WATER_SPELL_1_TT: "Healing Rain"
  WATER_SPELL_2_TT: "Primordial Swell"
  WATER_SPELL_3_TT: "Touch of Purification"
  WATER_SPELL_4_TT: "Abyssal Tides"
  
- GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_3: "Gain §Y3§! Touch of Purification charges.\nUsed within the §YProvince§! window.\n\n§YTouch of Purification:§!\nChange province religion for the area to §Y[From.Religion.GetName]§!."
- GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_2: "Gain §Y2§! Touch of Purification charges.\nUsed within the §YProvince§! window.\n\n§YTouch of Purification:§!\nChange province religion for the area to §Y[From.Religion.GetName]§!."
- GAIN_TOUCH_OF_PURIFICATION_TOKEN_TT_1: "Gain §Y1§! Touch of Purification charges.\nUsed within the §YProvince§! window.\n\n§YTouch of Purification:§!\nChange province religion for the area to §Y[From.Religion.GetName]§!."
+ TOUCH_OF_PURIFICATION_NAME_TT: "§YTouch of Purification§!"
+ 
+ TOUCH_OF_PURIFICATION_TOKEN_TT_5: "Gain §G5§! Touch of Purification charges."
+ TOUCH_OF_PURIFICATION_TOKEN_TT_4: "Gain §G4§! Touch of Purification charges."
+ TOUCH_OF_PURIFICATION_TOKEN_TT_3: "Gain §G3§! Touch of Purification charges."
+ TOUCH_OF_PURIFICATION_TOKEN_TT_2: "Gain §G2§! Touch of Purification charges."
+ TOUCH_OF_PURIFICATION_TOKEN_TT_1: "Gain §G1§! Touch of Purification charges."
+ 
+ TOUCH_OF_PURIFICATION_EFFECT_TT_5: "Change province religion for the area to §Y[From.Religion.GetName]§!."
+ TOUCH_OF_PURIFICATION_EFFECT_TT_4: "Change province religion for the area to §Y[From.Religion.GetName]§!."
+ TOUCH_OF_PURIFICATION_EFFECT_TT_3: "Change province religion for the area to §Y[From.Religion.GetName]§!."
+ TOUCH_OF_PURIFICATION_EFFECT_TT_2: "Change province religion for the area to §Y[From.Religion.GetName]§!."
+ TOUCH_OF_PURIFICATION_EFFECT_TT_1: "Change province religion for the area to §Y[From.Religion.GetName]§!."
+ 
  TOUCH_OF_PURIFICATION_COST_TT: "Has atleast §Y1§! Touch of Purification charges stored."
  TOUCH_OF_PURIFICATION_SPELL_TT: "Cast §YTouch of Purification§! in this province."
  
+ #------------------
+ # Wind
+ #------------------
  WIND_SPELL_1_TT: "Winds of Change"
  WIND_SPELL_2_TT: "Slicing Wind"
  WIND_SPELL_3_TT: "Windwalk"
  WIND_SPELL_4_TT: "Tornado"
  
- GAIN_TORNADO_TOKEN_TT_3: "Gain §Y3§! Tornado charges.\nUsed within the §YProvince§! window.\n\n§YTornado:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R-50%§! Local Hostile Movement Speed\n§R+5%§! Local Hostile Attrition"
- GAIN_TORNADO_TOKEN_TT_2: "Gain §Y2§! Tornado charges.\nUsed within the §YProvince§! window.\n\n§YTornado:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R-50%§! Local Hostile Movement Speed\n§R+5%§! Local Hostile Attrition"
- GAIN_TORNADO_TOKEN_TT_1: "Gain §Y1§! Tornado charges.\nUsed within the §YProvince§! window.\n\n§YTornado:§!\nApplies the following modifiers at maximum Finesse to a province:\n§R-50%§! Local Hostile Movement Speed\n§R+5%§! Local Hostile Attrition"
+ TORNADO_NAME_TT: "§YTornado§!"
+ 
+ TORNADO_TOKEN_TT_5: "Gain §G5§! Tornado charges."
+ TORNADO_TOKEN_TT_4: "Gain §G4§! Tornado charges."
+ TORNADO_TOKEN_TT_3: "Gain §G3§! Tornado charges."
+ TORNADO_TOKEN_TT_2: "Gain §G2§! Tornado charges."
+ TORNADO_TOKEN_TT_1: "Gain §G1§! Tornado charges."
+ 
+ TORNADO_EFFECT_TT_5: "§R-50%§! Local Hostile Movement Speed\n§R+5%§! Local Hostile Attrition"
+ TORNADO_EFFECT_TT_4: "§R-40%§! Local Hostile Movement Speed\n§R+4%§! Local Hostile Attrition"
+ TORNADO_EFFECT_TT_3: "§R-30%§! Local Hostile Movement Speed\n§R+3%§! Local Hostile Attrition"
+ TORNADO_EFFECT_TT_2: "§R-20%§! Local Hostile Movement Speed\n§R+2%§! Local Hostile Attrition"
+ TORNADO_EFFECT_TT_1: "§R-10%§! Local Hostile Movement Speed\n§R+1%§! Local Hostile Attrition"
+ 
  TORNADO_COST_TT: "Has atleast §Y1§! Tornado charges stored."
  TORNADO_SPELL_TT: "Cast §YTornado§! in this province."
  
+ #------------------
+ # Domination
+ #------------------
  DOMINATION_SPELL_1_TT: "Chains of Domination"
  DOMINATION_SPELL_2_TT: "Soul Sacrifice"
  DOMINATION_SPELL_3_TT: "Shadowsteel Embers"
@@ -317,6 +580,16 @@
  
  CHAINS_OF_DOMINATION_EFFECT_TT: "Every owned province gains the §YChains of Domination§! province modifier, applying the following modifiers at maximum Finesse:\n§R-90%§! Local Hostile Movement Speed\n§R+5%§! Local Hostile Attrition"
  
+ CHAINS_OF_DOMINATION_APPLY_TT: "Every owned province gains the §YChains of Domination§! province modifiers:"
+ CHAINS_OF_DOMINATION_EFFECT_TT_5: "§R-90%§! Local Hostile Movement Speed\n§R+5%§! Local Hostile Attrition"
+ CHAINS_OF_DOMINATION_EFFECT_TT_4: "§R-85%§! Local Hostile Movement Speed\n§R+4%§! Local Hostile Attrition"
+ CHAINS_OF_DOMINATION_EFFECT_TT_3: "§R-80%§! Local Hostile Movement Speed\n§R+3%§! Local Hostile Attrition"
+ CHAINS_OF_DOMINATION_EFFECT_TT_2: "§R-75%§! Local Hostile Movement Speed\n§R+2%§! Local Hostile Attrition"
+ CHAINS_OF_DOMINATION_EFFECT_TT_1: "§R-70%§! Local Hostile Movement Speed\n§R+1%§! Local Hostile Attrition"
+ 
+ #------------------
+ # Soul
+ #------------------
  SOUL_SPELL_1_TT: "Ascension"
  SOUL_SPELL_2_TT: "Accelerated Incubation"
  SOUL_SPELL_3_TT: "Noxious Spores"
@@ -324,7 +597,9 @@
  
  BURDEN_OF_SIN_EFFECT_TT: "All active rebel armies will lose between §R4§! to §R20§! regiments, based on our ruler's Finesse."
  
+ #------------------
  # Hover Tooltips
+ #------------------
  RULER_ATTRIBUTE_APTITUDE_HOVER_TT: "Aptitude reduces the amount of mana each spell costs."
  RULER_ATTRIBUTE_FINESSE_HOVER_TT: "Finesse increases the potency of each spell."
  RULER_ATTRIBUTE_CONCENTRATION_HOVER_TT: "Concentration increases the duration of spells that apply modifiers over a duration."
@@ -390,11 +665,15 @@
  RULER_MAGIC_SPECIALIZATION_HOVER_DOMINATION_TT: "Specialize into Domination magic."
  RULER_MAGIC_SPECIALIZATION_HOVER_SOUL_TT: "Specialize into Soul magic."
  
+ #------------------
  # Modifiers
+ #------------------
  recently_changed_magic_specalization: "Recently changed Magic School Specialization"
  desc_recently_changed_magic_specalization: ""
  
+ #------------------
  # Flags
+ #------------------
  ruler_learnt_magic_school_arcane: "Specialized into Arcane previously."
  ruler_learnt_magic_school_holy: "Specialized into Holy previously."
  ruler_learnt_magic_school_chi: "Specialized into Chi previously."
@@ -437,7 +716,9 @@
  MAGIC_SPECIALIZED_INTO_DOMINATION: "Specialized into Domination."
  MAGIC_SPECIALIZED_INTO_SOUL: "Specialized into Soul."
  
+ #------------------
  # Events
+ #------------------
  wwu_spell_necromancy.1.title: "Pestilence - Manager"
  wwu_spell_necromancy.1.desc: ""
  wwu_spell_necromancy.1.option.a: ""

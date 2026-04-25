@@ -212,10 +212,11 @@
  area_icewind_passage: "Icewind Passage"
  area_brewstall: "Brewstall"
  area_new_tinkertown: "New Tinkertown"
- area_frozen_shore: "Frozen Shore"
+ area_frozen_shore: "Gnomeregan Depths"
  area_frostsabre: "Frostsabre"
  
  area_fuselight: "Fuselight"
+ area_badlands_transit: "Badlands Transit"
  area_uldaman: "Uldaman"
  area_new_kargath: "New Kargath"
  area_the_dustbowl: "The Dustbowl"
