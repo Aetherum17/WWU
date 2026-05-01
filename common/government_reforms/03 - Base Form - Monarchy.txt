@@ -69,7 +69,7 @@ feudalism_reform = {
 	ai = { factor = 1 }
 }
 
-# Generic / Kul Tiras
+# Generic
 admiralty_reform = {
 	icon                        = "admiral_hat"
     legacy_equivalent           = admiralty_legacy
@@ -107,6 +107,61 @@ admiralty_reform = {
             primary_culture = culture_kul_tiran
             has_country_flag = allow_admirality_reform
         }
+	}
+    
+    factions = {
+		faction_lichs
+		faction_darkfallen
+		faction_death_knights
+	}
+    
+	ai = { factor = 0 }
+}
+
+# Generic
+kul_tiras_admiralty_reform = {
+	icon                        = "admiral_hat"
+    legacy_equivalent           = kul_tiras_admiralty_legacy
+    valid_for_new_country       = no 
+    allow_normal_conversion     = no 
+	allow_convert               = no 
+    valid_for_nation_designer   = yes
+	nation_designer_cost        = 0
+    
+	modifiers = {
+        navy_tradition = 1
+        global_ship_cost = -0.15
+        allowed_marine_fraction = 0.2
+        
+        naval_forcelimit_modifier = 0.2
+        naval_forcelimit = 25
+
+        max_absolutism = 5
+	}
+	
+    conditional = {
+        allow = {
+            has_dlc = "Domination"
+        }
+        
+        government_abilities = {
+            naval_acumen_mechanic
+        }
+    }
+    
+    potential = {
+        primary_culture = culture_kul_tiran
+	}
+    
+    custom_attributes = {
+		locked_government_type = yes
+	}
+    
+    factions = {
+		faction_house_proudmoore
+		faction_house_stormsong
+		faction_house_ashvane
+		faction_house_waycrest
 	}
     
 	ai = { factor = 0 }

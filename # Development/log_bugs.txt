@@ -1,7 +1,3 @@
-1. Kul'tiras Factions are removed upon passing any other gov.reform
-Confirmed: Yes
-Fixed: No
-
 2. Crossing Crashes with canals: Game crashes upon many ussucessful attempts of forcing movement (right click), than province inspection (left click)
 Confirmed: Yes (multiple cases)
 Fixed: No

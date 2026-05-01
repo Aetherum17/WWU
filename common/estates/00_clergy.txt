@@ -9,7 +9,10 @@ estate_clergy = {
     custom_name = {
         desc = estate_clergy_tidesages
         trigger = {
-            has_reform = admiralty_reform
+            OR = {
+                has_reform = admiralty_reform
+                has_reform = kul_tiras_admiralty_reform
+            }
         }
     }
     custom_name = {

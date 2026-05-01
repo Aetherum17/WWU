@@ -543,6 +543,29 @@ gov_admiralty = {
         has_reform = admiralty_reform
 	}
 }
+gov_kul_tiras_admiralty = {
+	rank = {
+		1 = GOV_GRAND_ADMIRALTY
+        2 = GOV_GRAND_ADMIRALTY
+        3 = GOV_GRAND_ADMIRALTY
+	}
+	
+	ruler_male = {
+		1 = GOV_ADMIRAL
+        2 = GOV_ADMIRAL
+        3 = GOV_ADMIRAL
+	}
+	
+	ruler_female = {
+		1 = GOV_ADMIRAL
+        2 = GOV_ADMIRAL
+        3 = GOV_ADMIRAL
+	}
+	
+	trigger = {
+        has_reform = kul_tiras_admiralty_reform
+	}
+}
 gov_kingdom_of_magic = {
 	rank = {
 		1 = GOV_KINGDOM_OF_MAGIC

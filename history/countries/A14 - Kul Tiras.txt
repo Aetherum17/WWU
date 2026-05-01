@@ -1,7 +1,7 @@
 
 # Kul Tiras
 government 			= monarchy
-add_government_reform = admiralty_reform
+add_government_reform = kul_tiras_admiralty_reform
 mercantilism 		= 20
 technology_group 	= tech_human
 religion			= tidemother

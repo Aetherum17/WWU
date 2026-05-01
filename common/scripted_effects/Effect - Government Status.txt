@@ -45,6 +45,7 @@ clear_previous_governments = {
 	clr_country_flag = previous_government__gilneas_kingdom_reform
 	clr_country_flag = previous_government__lordaeron_kingdom_reform
 	clr_country_flag = previous_government__alterac_kingdom_reform
+	clr_country_flag = previous_government__kul_tiras_admiralty_reform
     
     # Republic
 	clr_country_flag = previous_government__noble_republic_reform
@@ -141,6 +142,13 @@ save_previous_government = {
         }
         
         set_country_flag = previous_government__admiralty_reform
+    }
+    if = {
+        limit = {
+            has_reform = kul_tiras_admiralty_reform
+        }
+        
+        set_country_flag = previous_government__kul_tiras_admiralty_reform
     }
     if = {
         limit = {
@@ -919,6 +927,14 @@ restore_previous_government = {
         
         change_government = monarchy
         add_government_reform = admiralty_reform
+    }
+    if = {
+        limit = {
+            has_country_flag = previous_government__kul_tiras_admiralty_reform
+        }
+        
+        change_government = monarchy
+        add_government_reform = kul_tiras_admiralty_reform
     }
     if = {
         limit = {

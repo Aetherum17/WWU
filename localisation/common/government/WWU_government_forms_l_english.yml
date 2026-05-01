@@ -81,6 +81,11 @@
  admiralty_legacy: "Admiralty"
  admiralty_legacy_desc: ""
  
+ kul_tiras_admiralty_reform: "Grand Admiralty"
+ kul_tiras_admiralty_reform_desc: ""
+ kul_tiras_admiralty_legacy: "Grand Admiralty"
+ kul_tiras_admiralty_legacy_desc: ""
+ 
  kingdom_of_magic_reform: "Kingdom of Magic"
  kingdom_of_magic_reform_desc: ""
  kingdom_of_magic_legacy: "Kingdom of Magic"
