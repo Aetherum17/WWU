@@ -69,6 +69,7 @@ azerothian_group = {
             
 		}
 		
+        # Omens
 		personal_deity = yes
 		
 		on_convert = {
