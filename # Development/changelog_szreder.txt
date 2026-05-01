@@ -3,7 +3,6 @@
 #--------------------------------------
 
 # Fixes:
--Fixed reported Stromgarde bugs
 
 # General Gameplay:
 
@@ -12,23 +11,10 @@
 # Events:
 
 # Decisions:
--Adjusted Dreaneor and Outland invasion Decisions to look for the placement of the capital
--Adjusted Formables of Dalaran and Nethegarde allowing for infinite AI loop
--Nethegarde Formable conditions adjusted
--Adjusted Stromgarde mission tree decisions
 
 # Mission Trees:
-*Hydraxian Waterlords
--Replaced old icons with unique ones
--Overhauled mission rewards and some triggers
-
-*Stromgarde
--Adjustments based on feedback
 
 # Flavour and others:
-*Formables:
--Cult of Murmur formable adjusted
--Darkfallen formable adjusted
 
 ###########################################################################################################################################################################
 # Development Stash
@@ -52,3 +38,4 @@ TODO:
 # Internal Commentary
 -Disabled all gilneas events for the time, reenable once fixed
 -Removed Gilneas, Lord of the East from the mission tree list, reenable once fixed
+-Removed "Has Mission Tree flag" from the display for Gilneas

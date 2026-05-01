@@ -48,3 +48,15 @@ Fixed: No
 13. Diplomatic Action "Establish Diplomatic Links" cost tooltip doesn't show true value of the action
 Confirmed: Yes
 Fixed: No
+
+14. Teleport Army doesn't locate the province of the different portal, yet lists it as empty localization. On attempt of teleportation, army is deleted.
+Confirmed: Yes (one case)
+Fixed: No
+
+15. Localization strings for spawning nations never state the tag, culture and religion.
+Confirmed: Yes
+Fixed: No
+
+16. Naxxramas keeps on duplicating
+Confirmed: Yes
+Fixed: No

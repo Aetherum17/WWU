@@ -65,7 +65,6 @@ mission_tree_yes = {
                 tag = ARL # Army of the Light
                 tag = A14 # Kul Tiras
                 tag = P56 # Thorium Brotherhood
-				tag = A12 # Gilneas
 				tag = X02 # Lord of the East
                 tag = B08 # Dragonflayer
                 tag = P26 # Firelands
