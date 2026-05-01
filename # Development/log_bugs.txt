@@ -1,15 +1,13 @@
 2. Crossing Crashes with canals: Game crashes upon many ussucessful attempts of forcing movement (right click), than province inspection (left click)
 Confirmed: Yes (multiple cases)
 Fixed: No
+Note: probably not fixable. Due to internal logic for canals.
 
 3. Theramor Marines is localized for every military tech that upgrades units for every culture
 Confirmed: Yes
+Note: not fixable, the popup displays all potential units without conditional checks.
 
 4. Zandalar: Country X Refugees spawn for Zandalar events when countries of the same culture form their respective formables (ex. Drakkari Refugees arrive if Drakkari Empire forms)
-Confirmed: Yes
-Fixed: No
-
-5. Depose Heir peace deal option is avalable even if country is being annexed
 Confirmed: Yes
 Fixed: No
 

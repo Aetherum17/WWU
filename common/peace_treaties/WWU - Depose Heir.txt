@@ -26,6 +26,16 @@ po_depose_heir = {
 	is_visible = {
 		FROM = {
             has_heir = yes
+            
+            # If the player is the overlord, and the target is a subject under them, don't allow this action
+            if = {
+                limit = {
+                    is_subject = yes
+                }
+                overlord = {
+                    ai = yes
+                }
+            }
         }
         
         # ROOT is the attacker, FROM is the defender
