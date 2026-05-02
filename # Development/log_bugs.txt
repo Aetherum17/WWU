@@ -11,10 +11,6 @@ Note: not fixable, the popup displays all potential units without conditional ch
 Confirmed: Yes
 Fixed: No
 
-10. Exodar events fires before TBC age
-Confirmed: Yes (I am not sure if it was intentional or maybe stars alligned to allow it to trigger early)
-Fixed: Needs Confirmation if fix is nessesary
-
 11. Disrupt Alliance espionage action doesn't always work
 Confirmed: Partically (had a case that it just didn't do anything)
 Fixed: No
