@@ -7,10 +7,6 @@ Note: probably not fixable. Due to internal logic for canals.
 Confirmed: Yes
 Note: not fixable, the popup displays all potential units without conditional checks.
 
-6. Peasant Coup disaster icon is not visible
-Confirmed: Yes
-Fixed: No
-
 7. Estate Agenda: Increase Autonomy in X automatically always fails
 Confirmed: Yes
 Fixed: No

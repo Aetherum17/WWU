@@ -66,6 +66,12 @@ spriteTypes = {
         loadType = "INGAME"
 	}
     spriteType = {
+        name = "GFX_disaster_estate_coup_peasants"
+        texturefile = "gfx//interface//disasters//estate_coup.dds"
+        noOfFrames = 3
+        loadType = "INGAME"
+	}
+    spriteType = {
         name = "GFX_disaster_estate_coup_tribals"
         texturefile = "gfx//interface//disasters//estate_coup.dds"
         noOfFrames = 3
