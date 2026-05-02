@@ -515,6 +515,13 @@ country_event = {
 	picture = ANCIENT_TEACHINGS_eventPicture
     
 	is_triggered_only = yes
+    
+    trigger = {
+        OR = {
+            has_country_modifier = magical_training
+            has_country_modifier = spellcaster_capabilities
+        }
+    }
 	
 	option = {
 		name = wwu_magic.40.option.a
@@ -531,6 +538,13 @@ country_event = {
 	picture = ANCIENT_TEACHINGS_eventPicture
     
 	is_triggered_only = yes
+    
+    trigger = {
+        OR = {
+            has_country_modifier = magical_training
+            has_country_modifier = spellcaster_capabilities
+        }
+    }
 	
 	option = {
 		name = wwu_magic.41.option.a
@@ -547,6 +561,13 @@ country_event = {
 	picture = ANCIENT_TEACHINGS_eventPicture
     
 	is_triggered_only = yes
+    
+    trigger = {
+        OR = {
+            has_country_modifier = magical_training
+            has_country_modifier = spellcaster_capabilities
+        }
+    }
 	
 	option = {
 		name = wwu_magic.42.option.a
@@ -563,6 +584,13 @@ country_event = {
 	picture = ANGRY_CHICKEN_eventPicture
     
 	is_triggered_only = yes
+    
+    trigger = {
+        OR = {
+            has_country_modifier = magical_training
+            has_country_modifier = spellcaster_capabilities
+        }
+    }
 	
 	option = {
 		name = wwu_magic.50.option.a
@@ -579,6 +607,13 @@ country_event = {
 	picture = ANGRY_CHICKEN_eventPicture
     
 	is_triggered_only = yes
+    
+    trigger = {
+        OR = {
+            has_country_modifier = magical_training
+            has_country_modifier = spellcaster_capabilities
+        }
+    }
 	
 	option = {
 		name = wwu_magic.51.option.a
@@ -595,6 +630,13 @@ country_event = {
 	picture = ANGRY_CHICKEN_eventPicture
     
 	is_triggered_only = yes
+    
+    trigger = {
+        OR = {
+            has_country_modifier = magical_training
+            has_country_modifier = spellcaster_capabilities
+        }
+    }
 	
 	option = {
 		name = wwu_magic.52.option.a
