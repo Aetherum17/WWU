@@ -1,36 +1,36 @@
-2. Crossing Crashes with canals: Game crashes upon many ussucessful attempts of forcing movement (right click), than province inspection (left click)
+#0. Crossing Crashes with canals: Game crashes upon many ussucessful attempts of forcing movement (right click), than province inspection (left click)
 Confirmed: Yes (multiple cases)
 Fixed: No
 Note: probably not fixable. Due to internal logic for canals.
 
-3. Theramor Marines is localized for every military tech that upgrades units for every culture
+#0. Theramor Marines is localized for every military tech that upgrades units for every culture
 Confirmed: Yes
 Note: not fixable, the popup displays all potential units without conditional checks.
 
-7. Estate Agenda: Increase Autonomy in X automatically always fails
+1. Estate Agenda: Increase Autonomy in X automatically always fails
 Confirmed: Yes
 Fixed: No
 
-11. Disrupt Alliance espionage action doesn't always work
+2. Disrupt Alliance espionage action doesn't always work
 Confirmed: Partically (had a case that it just didn't do anything)
 Fixed: No
 
-12. Event: Cult of the Damned preview is broken
+3. Event: Cult of the Damned preview is broken
 Confirmed: Yes (sometimes)
 Fixed: No
 
-13. Diplomatic Action "Establish Diplomatic Links" cost tooltip doesn't show true value of the action
+4. Diplomatic Action "Establish Diplomatic Links" cost tooltip doesn't show true value of the action
 Confirmed: Yes
 Fixed: No
 
-14. Teleport Army doesn't locate the province of the different portal, yet lists it as empty localization. On attempt of teleportation, army is deleted.
+5. Teleport Army doesn't locate the province of the different portal, yet lists it as empty localization. On attempt of teleportation, army is deleted.
 Confirmed: Yes (one case)
 Fixed: No
 
-15. Localization strings for spawning nations never state the tag, culture and religion.
+6. Localization strings for spawning nations never state the tag, culture and religion.
 Confirmed: Yes
 Fixed: No
 
-16. Naxxramas keeps on duplicating
+7. Naxxramas keeps on duplicating
 Confirmed: Yes
 Fixed: No
