@@ -7,10 +7,6 @@ Note: probably not fixable. Due to internal logic for canals.
 Confirmed: Yes
 Note: not fixable, the popup displays all potential units without conditional checks.
 
-4. Zandalar: Country X Refugees spawn for Zandalar events when countries of the same culture form their respective formables (ex. Drakkari Refugees arrive if Drakkari Empire forms)
-Confirmed: Yes
-Fixed: No
-
 6. Peasant Coup disaster icon is not visible
 Confirmed: Yes
 Fixed: No

@@ -580,7 +580,11 @@ country_event = {
 	trigger = {
         NOT = { has_global_flag = amani_destroyed }
         tag = A78 # Zandalar
-        NOT = { exists = A58 } # Amani
+        
+        AND = {
+            NOT = { exists = A58 } # Amani
+            NOT = { exists = AME } # Amani Empire
+        }
         
         NOT = {
             any_owned_province = {
@@ -694,7 +698,11 @@ country_event = {
     trigger = {
         NOT = { has_global_flag = gurubashi_destroyed }
         tag = A78 # Zandalar
-        NOT = { exists = A66 } # Gurubashi
+        
+        AND = {
+            NOT = { exists = A66 } # Gurubashi
+            NOT = { exists = FNG } # Gurubashi Empire
+        }
         
         NOT = {
             any_owned_province = {
@@ -807,7 +815,11 @@ country_event = {
     trigger = {
         NOT = { has_global_flag = drakkari_destroyed }
         tag = A78 # Zandalar
-        NOT = { exists = A74 } # Drakkari
+        
+        AND = {
+            NOT = { exists = A74 } # Drakkari
+            NOT = { exists = DRE } # Drakkari Empire
+        }
         
         NOT = {
             any_owned_province = {
@@ -917,7 +929,11 @@ country_event = {
     trigger = {
         NOT = { has_global_flag = farraki_destroyed }
         tag = A78 # Zandalar
-        NOT = { exists = A73 } # Sandfury
+        
+        AND = {
+            NOT = { exists = A73 } # Sandfury
+            NOT = { exists = SAN } # Sandfury Empire
+        }
         
         NOT = {
             any_owned_province = {
@@ -1311,215 +1327,266 @@ country_event = {
     is_triggered_only = yes
 	
 	major = yes
+    
 	major_trigger = { 
-	OR = {
-	tag = NZM
-	tag = NTV
-	tag = AMK
-	tag = NAZ
-	}
+        OR = {
+            tag = NZM
+            tag = NTV
+            tag = AMK
+            tag = NAZ
+        }
 	}
     
     option = {
         name = "wwu_zandalar.43.op1"
+        
         custom_tooltip = zandalar_pay_tribute
 		
 		hidden_effect = {
-		if = {
-		limit = {
-		NZM = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		NZM = {
-						country_event = { 
-			id = wwu_zandalar.45
+            if = {
+                limit = {
+                    NZM = {
+                        exists = yes
+                        NOT = {has_country_flag = zandalari_tribute_reject}
+                    }
+                }
+                
+                NZM = {
+                    country_event = { 
+                        id = wwu_zandalar.45
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        war_with = NZM
+                    }
+                    
+                    white_peace = NZM
+                }
 			}
+            
+            if = {
+                limit = {
+                    NTV = {
+                        exists = yes
+                        NOT = {
+                            has_country_flag = zandalari_tribute_reject
+                        }
+                    }
+                }
+                
+                NTV = {
+                    country_event = { 
+                        id = wwu_zandalar.45
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        war_with = NTV
+                    }
+                    
+                    white_peace = NTV
+                }
 			}
-			if = {
-			limit = {
-			war_with = NZM
+            
+            if = {
+                limit = {
+                    AMK = {
+                        exists = yes
+                        NOT = {
+                            has_country_flag = zandalari_tribute_reject
+                        }
+                    }
+                }
+                
+                AMK = {
+                    country_event = { 
+                        id = wwu_zandalar.45
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        war_with = AMK
+                    }
+                    
+                    white_peace = AMK
+                }
 			}
-			white_peace = NZM
+            
+            if = {
+                limit = {
+                    NAZ = {
+                        exists = yes
+                        NOT = {
+                            has_country_flag = zandalari_tribute_reject
+                        }
+                    }
+                }
+                
+                NAZ = {
+                    country_event = { 
+                        id = wwu_zandalar.45
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        war_with = NAZ
+                    }
+                    
+                    white_peace = NAZ
+                }
 			}
-			}
-		if = {
-		limit = {
-		NTV = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		NTV = {
-						country_event = { 
-			id = wwu_zandalar.45
-			}
-			}
-			if = {
-			limit = {
-			war_with = NTV
-			}
-			white_peace = NTV
-			}
-			}
-		if = {
-		limit = {
-		AMK = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		AMK = {
-						country_event = { 
-			id = wwu_zandalar.45
-			}
-			}
-			if = {
-			limit = {
-			war_with = AMK
-			}
-			white_peace = AMK
-			}
-			}
-		if = {
-		limit = {
-		NAZ = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		NAZ = {
-						country_event = { 
-			id = wwu_zandalar.45
-			}
-			}
-			if = {
-			limit = {
-			war_with = NAZ
-			}
-			white_peace = NAZ
-			}
-			}
-				country_event = { 
-			id = wwu_zandalar.44
+            
+            country_event = { 
+                id = wwu_zandalar.44
 				days = 100
 			}
-			}
+        }
+        
 		ai_chance = { 
 			factor = 10 
 		}
-
     }
     
     option = {
         name = "wwu_zandalar.43.op2"
+        
 		if = {
-		limit = {
-		has_disaster = rusty_empire
-		}
-        custom_tooltip = zandalar_cant_stop_tribute
-		hidden_effect = {
-		if = {
-		limit = {
-		NZM = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		NZM = {
+            limit = {
+                has_disaster = rusty_empire
+            }
+            
+            custom_tooltip = zandalar_cant_stop_tribute
+            
+            hidden_effect = {
+                if = {
+                    limit = {
+                        NZM = {
+                            exists = yes
+                            NOT = {
+                                has_country_flag = zandalari_tribute_reject
+                            }
+                        }
+                    }
+                    
+                    NZM = {
 						country_event = { 
-			id = wwu_zandalar.45
-			}
-			}
-			if = {
-			limit = {
-			war_with = NZM
-			}
-			white_peace = NZM
-			}
-			}
-		if = {
-		limit = {
-		NTV = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		NTV = {
+                            id = wwu_zandalar.45
+                        }
+                    }
+                    
+                    if = {
+                        limit = {
+                            war_with = NZM
+                        }
+                        
+                        white_peace = NZM
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        NTV = {
+                            exists = yes
+                            NOT = {
+                                has_country_flag = zandalari_tribute_reject
+                            }
+                        }
+                    }
+                    
+                    NTV = {
 						country_event = { 
-			id = wwu_zandalar.45
-			}
-			}
-			if = {
-			limit = {
-			war_with = NTV
-			}
-			white_peace = NTV
-			}
-			}
-		if = {
-		limit = {
-		AMK = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		AMK = {
+                            id = wwu_zandalar.45
+                        }
+                    }
+                    
+                    if = {
+                        limit = {
+                            war_with = NTV
+                        }
+                        
+                        white_peace = NTV
+                    }
+                }
+                
+                if = {
+                    limit = {
+                        AMK = {
+                            exists = yes
+                            NOT = {
+                                has_country_flag = zandalari_tribute_reject
+                            }
+                        }
+                    }
+                    
+                    AMK = {
 						country_event = { 
-			id = wwu_zandalar.45
-			}
-			}
-			if = {
-			limit = {
-			war_with = AMK
-			}
-			white_peace = AMK
-			}
-			}
-		if = {
-		limit = {
-		NAZ = {
-		exists = yes
-		NOT = {has_country_flag = zandalari_tribute_reject}
-		}
-		}
-		NAZ = {
+                            id = wwu_zandalar.45
+                        }
+                    }
+                        
+                    if = {
+                        limit = {
+                            war_with = AMK
+                        }
+                        
+                        white_peace = AMK
+                    }
+                }
+            
+                if = {
+                    limit = {
+                        NAZ = {
+                            exists = yes
+                            NOT = {
+                                has_country_flag = zandalari_tribute_reject
+                            }
+                        }
+                    }
+                    
+                    NAZ = {
 						country_event = { 
-			id = wwu_zandalar.45
-			}
-			}
-			if = {
-			limit = {
-			war_with = NAZ
-			}
-			white_peace = NAZ
-			}
-			}
+                            id = wwu_zandalar.45
+                        }
+                    }
+                    
+                    if = {
+                        limit = {
+                            war_with = NAZ
+                        }
+                        
+                        white_peace = NAZ
+                    }
+                }  
+                
 				country_event = { 
-			id = wwu_zandalar.44
-				days = 100
-			}
+                    id = wwu_zandalar.44
+                    days = 100
+                }
 			}
 		}
+        
 		if = {
-		limit = {
-		NOT = {
-		has_disaster = rusty_empire}
-		}
-        custom_tooltip = zandalar_stop_tribute
-
+            limit = {
+                NOT = {
+                    has_disaster = rusty_empire}
+                }
+                
+                custom_tooltip = zandalar_stop_tribute
 		}
 		
 		ai_chance = { 
 			factor = 75 
+            
 			modifier = {
 				factor = 0
 				has_disaster = rusty_empire
 			}
 		}
-        
-
     }
 }
 
