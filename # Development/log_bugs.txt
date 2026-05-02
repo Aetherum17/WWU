@@ -11,14 +11,6 @@ Note: not fixable, the popup displays all potential units without conditional ch
 Confirmed: Yes
 Fixed: No
 
-8. Improvement of Aptitude, Finesse and Concentration can happen even if Magical Study has not been started
-Confirmed: Partically (Got the Improvement of Aptitude event out of nowhere)
-Fixed: No
-
-9. Event "Glory Road", randomly fires during exploration, even if province is not owned or being colonized
-Confirmed: Needs Confirmation (Might be a vanilla event?)
-Fixed: Needs Confirmation if fix is nessesary
-
 10. Exodar events fires before TBC age
 Confirmed: Yes (I am not sure if it was intentional or maybe stars alligned to allow it to trigger early)
 Fixed: Needs Confirmation if fix is nessesary
