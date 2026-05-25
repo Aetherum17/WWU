@@ -1,6 +1,8 @@
-native_size = 3
-native_ferocity = 3
-native_hostileness = 3
+is_city = yes
+
+owner = PL7
+controller = PL7
+add_core = PL7
 
 base_tax = 2
 base_production = 2
@@ -13,13 +15,5 @@ hre = no
 trade_goods = unknown
 
 617.1.1 = {
-    is_city = yes
-    
-    owner = PL7
-    controller = PL7
-    add_core = PL7
-    
-    culture = culture_murloc
-    religion = fel
+	religion = fel
 }
-

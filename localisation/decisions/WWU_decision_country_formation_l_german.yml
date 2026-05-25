@@ -859,3 +859,12 @@
  #-----------------------------------------------
  form_broken_isles_nation_title: "[DI_golden_crown] Form Broken Isles"
  form_broken_isles_nation_desc: "This is an §YFlavour§! decision.\n"
+ 
+ #-----------------------------------------------
+ # Form Alt Troll Formables
+ #-----------------------------------------------
+ form_gillijim_title: "[DI_golden_crown] Form Gillijim"
+ form_gillijim_desc: "This is an §YFlavour§! decision.\n"
+ 
+ form_lapidis_title: "[DI_golden_crown] Form Lapidis"
+ form_lapidis_desc: "This is an §YFlavour§! decision.\n"

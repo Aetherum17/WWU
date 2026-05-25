@@ -2788,6 +2788,119 @@ silverpine_ideas = {
 	}
 }
 
+#-----------------------------------------------
+# Gillijim
+#-----------------------------------------------
+GIL_ideas = {
+	start = {
+		legitimacy = 1
+		republican_tradition = 1
+		devotion = 1
+		horde_unity = 1 
+		meritocracy = 1
+		
+		army_tradition = 1
+	}
+
+	bonus = {
+		heavy_ship_power = 0.2
+	}
+	
+	trigger = {
+		tag = GIL
+	}
+	free = yes		
+	
+    # Islandic Expansion
+	GIL_ideas_1 = {
+		colonists = 1
+		global_colonial_growth = 15
+	}
+    # Colonial Investments
+	GIL_ideas_2 = {
+		colony_development_boost = 1 
+	}
+    # Call of the Sea
+	GIL_ideas_3 = {
+		navy_tradition = 1 
+		light_ship_power = 0.1 
+	}
+    # Guerilla Warfare
+	GIL_ideas_4 = {
+		hostile_attrition = 1 
+		land_attrition = -0.10  
+	}
+	# Primitive Armaments
+	GIL_ideas_5 = {
+		land_maintenance_modifier = -0.15
+	}
+	# Shadow Hunters
+	GIL_ideas_6 = {
+		land_morale = 0.1
+	}
+	# Witch Doctors
+	GIL_ideas_7 = {
+		advisor_cost = -0.2
+	}
+}
+
+#-----------------------------------------------
+# Lapidis
+#-----------------------------------------------
+LAP_ideas = {
+	start = {
+		legitimacy = 1
+		republican_tradition = 1
+		devotion = 1
+		horde_unity = 1 
+		meritocracy = 1
+		
+		army_tradition = 1
+	}
+
+	bonus = {
+		galley_power = 0.2 
+	}
+	
+	trigger = {
+		tag = LAP
+	}
+	free = yes		
+	
+    # Islandic Expansion
+	LAP_ideas_1 = {
+		may_establish_frontier = yes
+		move_capital_cost_modifier = -0.2 
+	}
+    # Colonial Investments
+	LAP_ideas_2 = {
+		colony_development_boost = 1
+	}
+    # Call of the Sea
+	LAP_ideas_3 = {
+		navy_tradition = 1 
+		light_ship_power = 0.1 
+	}
+    # Guerilla Warfare
+	LAP_ideas_4 = {
+		hostile_attrition = 1 
+		land_attrition = -0.10  
+	}
+    # 
+	# Primitive Armaments
+	LAP_ideas_5 = {
+		land_maintenance_modifier = -0.15
+	}
+	# Shadow Hunters
+	LAP_ideas_6 = {
+		land_morale = 0.1
+	}
+	# Witch Doctors
+	LAP_ideas_7 = {
+		advisor_cost = -0.2
+	}
+}
+
 #-----------------------------
 # TODO
 #-----------------------------
