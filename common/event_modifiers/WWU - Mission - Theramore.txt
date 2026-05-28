@@ -292,7 +292,7 @@ mission_a_grand_fleet_a23 = {
 
 mission_landing_in_lordaeron_a23 = {
 	ae_impact = -0.3
-	province_warscore_cost = -0.2 
+	province_warscore_cost = -0.1 
 }
 
 mission_cleansing_lordaeron_a23 = {

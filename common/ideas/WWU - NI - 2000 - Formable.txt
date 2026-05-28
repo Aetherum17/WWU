@@ -193,7 +193,7 @@ black_empire_ideas = {
 	}
     # Enemies of the Titans
 	black_empire_ideas_2 = {
-		province_warscore_cost = -0.25
+		province_warscore_cost = -0.15
 	}
     # Corrupting Influence
 	black_empire_ideas_3 = {
@@ -207,7 +207,7 @@ black_empire_ideas = {
 	}
     # Maddening Visions
 	black_empire_ideas_5 = {
-		warscore_cost_vs_other_religion = -0.25
+		warscore_cost_vs_other_religion = -0.15
         war_exhaustion = -0.05
 	}
     # Crushing Tendrils
@@ -520,7 +520,7 @@ draenor_ideas = {
 	}
     # Orcish Savagery
 	draenor_ideas_4 = {
-        province_warscore_cost = -0.1
+        province_warscore_cost = -0.05
         unjustified_demands = -0.1
 	}
     # Strength of Unity
@@ -622,7 +622,7 @@ apexis_empire_ideas = {
 	}
     # Scourge of the Sky
 	apexis_empire_ideas_3 = {
-        province_warscore_cost = -0.33
+        province_warscore_cost = -0.15
 	}
     # Winged Assaults
 	apexis_empire_ideas_4 = {
@@ -681,7 +681,7 @@ argent_crusade_ideas = {
 	}
     # Purge the Scourge
 	argent_crusade_ideas_4 = {
-        warscore_cost_vs_other_religion = -0.5
+        warscore_cost_vs_other_religion = -0.1
         missionary_maintenance_cost = -0.1
 	}
     # Tests of Faith
@@ -1553,7 +1553,7 @@ ehl_ideas = {
 		global_unrest = -2
 	}
 	ehl_ideas_3 = {
-		warscore_cost_vs_other_religion = -0.1
+		warscore_cost_vs_other_religion = -0.05
 	}
 	ehl_ideas_4 = {
 		land_morale = 0.10
@@ -1853,7 +1853,7 @@ htd_ideas = {
 	free = yes		
 	
 	htd_ideas_1 = {
-		province_warscore_cost = -0.1
+		province_warscore_cost = -0.05
 		core_creation = -0.15
 	}
 	htd_ideas_2 = {
@@ -1869,7 +1869,7 @@ htd_ideas = {
         leader_land_shock = 1
 	}
 	htd_ideas_5 = {
-		warscore_cost_vs_other_religion = -0.15
+		warscore_cost_vs_other_religion = -0.075
 	}
 	htd_ideas_6 = {
 		shock_damage = 0.1
@@ -1886,7 +1886,7 @@ htd_ideas = {
 u04_ideas = {
 	start = {
 		core_creation = -0.33
-		warscore_cost_vs_other_religion = -0.33
+		warscore_cost_vs_other_religion = -0.15
 	}
 	
 	bonus = {
@@ -2058,7 +2058,7 @@ moe_ideas = {
 		global_manpower_modifier = 0.15
 	}
 	moe_ideas_6 = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.1
 	}
 	moe_ideas_7 = {
 		discipline = 0.025
@@ -2454,7 +2454,7 @@ com_ideas = {
 		missionary_maintenance_cost = -0.1
 	}
 	com_ideas_3 = {
-		warscore_cost_vs_other_religion = -0.33
+		warscore_cost_vs_other_religion = -0.1
 	}
 	com_ideas_4 = {
 		spy_offence = 0.1
@@ -2700,7 +2700,7 @@ old_horde_ideas = {
     #Relentless Conquests
     old_horde_ideas_2 = {
         core_creation = -0.2
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.15
     }
     #Demonic Supremacy
     old_horde_ideas_3 = {

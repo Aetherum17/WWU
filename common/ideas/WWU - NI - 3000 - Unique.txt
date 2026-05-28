@@ -401,7 +401,7 @@ blackrock_ideas = {
 	}
     # Blackrock Militarism
 	blackrock_ideas_6 = { 
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.1
 	}
     # Horde Domination
 	blackrock_ideas_7 = {
@@ -562,7 +562,7 @@ scarlet_ideas = {
     # Glorious Crusade
     scarlet_ideas_6 = {
         prestige = 1.0
-		warscore_cost_vs_other_religion = -0.25
+		warscore_cost_vs_other_religion = -0.1
     }
     # Scarlet Dawn
     scarlet_ideas_7 = {
@@ -850,7 +850,7 @@ niuzao_ideas = {
 #-----------------------------------------------
 chiji_ideas = {
 	start = {
-		warscore_cost_vs_other_religion = -0.15
+		warscore_cost_vs_other_religion = -0.075
         global_autonomy = -0.05
 	}
 
@@ -1095,7 +1095,7 @@ nazjatar_ideas = {
 	}
     # Relentless Assault
 	nazjatar_ideas_4 = {
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.075
 	}
     # Land Thralls
 	nazjatar_ideas_5 = {
@@ -2043,7 +2043,7 @@ auchenai_ideas = {
     }
     # Divine Mission
     auchenai_ideas_3 = {
-        warscore_cost_vs_other_religion = -0.25
+        warscore_cost_vs_other_religion = -0.1
     }
     # Auchenai Crypts
     auchenai_ideas_4 = {
@@ -2468,7 +2468,7 @@ felhorde_ideas = {
 	}
     # Agression against weak
 	felhorde_ideas_4 = {
-		province_warscore_cost = -0.15
+		province_warscore_cost = -0.1
 	}
     # United by Demons
 	felhorde_ideas_5 = {
@@ -3615,7 +3615,7 @@ moknathal_ideas = {
 	}
     # The Sons of Nath
 	moknathal_ideas_5 = {
-		province_warscore_cost = -0.1
+		province_warscore_cost = -0.05
 		prestige = 1
 	}
     # Traditional People
@@ -3649,7 +3649,7 @@ thunderlord_ideas = {
     # Conquerors of Lands
 	thunderlord_ideas_1 = {
 		core_creation = -0.1
-		province_warscore_cost = -0.1
+		province_warscore_cost = -0.05
 	}
     # Mentality of Domination
 	thunderlord_ideas_2 = {

@@ -24,7 +24,7 @@ wisdom_of_the_paladin = {
 }
 
 class_ability_paladin_blade_of_justice = {
-    warscore_cost_vs_other_religion = -0.2
+    warscore_cost_vs_other_religion = -0.15
 }
 # Long
 class_ability_paladin_long_arm_of_the_law = {

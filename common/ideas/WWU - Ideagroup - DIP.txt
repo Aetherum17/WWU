@@ -720,7 +720,7 @@ wwu_subjugation_ideas = {
     }
     # Conquest
     wwu_subjugation_ideas_1 = {
-        province_warscore_cost = -0.1
+        province_warscore_cost = -0.05
     }
     # Intimidation
     wwu_subjugation_ideas_2 = {

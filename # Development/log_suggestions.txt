@@ -107,5 +107,3 @@ Outland:
 -Sultry Grimoire: heir_chance = 2, monarch_lifespan = 0.5
 -Voidfire Wand: culture_conversion_time = -0.25
 -Gorehowl: max_absolutism_effect = 0.15
-
-

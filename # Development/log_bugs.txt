@@ -7,6 +7,9 @@ Note: probably not fixable. Due to internal logic for canals.
 Confirmed: Yes
 Note: not fixable, the popup displays all potential units without conditional checks.
 
+Reply Note:
+-Couldn't that be just handled by Theramore having its own tech group? It would remove the issue from localization.
+
 1. Estate Agenda: Increase Autonomy in X automatically always fails
 Confirmed: Yes
 Fixed: No
@@ -34,3 +37,12 @@ Fixed: No
 7. Naxxramas keeps on duplicating
 Confirmed: Yes
 Fixed: No
+
+8. Extended Issue: AI seems to break more frequently(more frequently than vanilla). Problem happens regardless of assigned roles.
+Confirmed: Yes (all games)
+Fixed: No
+
+9. Assignment of Faction Leaders sometimes breaks on ruler's death, resulting in being assigned to different factions.
+Confirmed: Reported on WU-Bugs (message pinned)
+Fixed: No
+Note: I suspect since the report mention it happening during Crysis Event, the faction renown calculation might not be limited to one faction and checks for any faction renown? That or maybe the 3rd option, random, doesn't also properly check for own faction limit?

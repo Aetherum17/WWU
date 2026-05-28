@@ -212,7 +212,7 @@ dark_iron_ideas = {
 	
 	# Forged with Vengeance
 	dark_iron_ideas_1 = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.1
 	}
     # Fire Resistance
 	dark_iron_ideas_2 = {
@@ -1471,7 +1471,7 @@ goblin_ideas = {
 	}
     # Promises and Bargains
 	goblin_ideas_7 = {
-        province_warscore_cost = -0.15
+        province_warscore_cost = -0.075
 	}
 }
 
@@ -2043,7 +2043,7 @@ human_ideas = {
     # Bastion of The Light
 	human_ideas_3 = { 
 		missionaries = 1
-        warscore_cost_vs_other_religion = -0.15
+        warscore_cost_vs_other_religion = -0.05
 	}
     # Seven Kingdoms
 	human_ideas_4 = {  
@@ -2150,7 +2150,7 @@ mantid_ideas = {
     # The Kunchong Cycle
 	mantid_ideas_5 = {
 		unjustified_demands = -0.1
-        province_warscore_cost = -0.1
+        province_warscore_cost = -0.05
 	}
     # Sonic Technology
 	mantid_ideas_6 = { 
@@ -2865,7 +2865,7 @@ saurok_ideas = {
 	}
 
 	bonus = {
-        province_warscore_cost = -0.2
+        province_warscore_cost = -0.1
 	}
 	
 	trigger = {
@@ -3091,7 +3091,7 @@ mogu_ideas = {
 	}
     # Reclaim Pandaria
 	mogu_ideas_6 = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.05
 	}
     # Servants of Lei Shen
 	mogu_ideas_7 = {
@@ -3178,7 +3178,7 @@ kobold_ideas = {
 	}
     # Supremacy of the Candle
 	kobold_ideas_4 = {
-		warscore_cost_vs_other_religion = -0.25
+		warscore_cost_vs_other_religion = -0.1
 	}
     # Geomantic Order
 	kobold_ideas_5 = {
@@ -3376,7 +3376,7 @@ gorloc_ideas = {
 	}
     # Defend the Crystals
 	gorloc_ideas_4 = {
-		province_warscore_cost = -0.2
+		province_warscore_cost = -0.1
 	}
     # Gorloc Exchanges
 	gorloc_ideas_5 = {
@@ -3480,7 +3480,7 @@ red_dragonflight_ideas = {
     # Draconic Reputation
 	red_dragonflight_ideas_5 = {
         monthly_favor_modifier = 0.2
-		province_warscore_cost = -0.1
+		province_warscore_cost = -0.05
 	}
     # Protectors of Life
 	red_dragonflight_ideas_6 = {
@@ -4388,7 +4388,7 @@ broken_draenei_ideas = {
 	}
     # Draenei Rejection
 	broken_draenei_ideas_3 = {
-        province_warscore_cost = -0.15
+        province_warscore_cost = -0.075
 	}
     # Shamanistic Affinity
 	broken_draenei_ideas_4 = {

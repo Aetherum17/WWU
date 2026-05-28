@@ -28,11 +28,11 @@ event_resist_whispers_poa = {
 event_embrace_whispers_poa = {
     missionaries = 1
 	global_missionary_strength = 0.02
-	warscore_cost_vs_other_religion = -0.15
+	warscore_cost_vs_other_religion = -0.1
 }
 
 event_emptyness_of_void_poa = {
-    warscore_cost_vs_other_religion = -0.25
+    warscore_cost_vs_other_religion = -0.1
 	global_missionary_strength = 0.02
 	morale_damage = 0.025
 }
@@ -43,7 +43,7 @@ event_friends_with_benefits_poa = {
 }
 
 event_faith_in_our_gods_poa = {
-    warscore_cost_vs_other_religion = -0.25
+    warscore_cost_vs_other_religion = -0.1
 	global_missionary_strength = 0.02
 	diplomatic_reputation = 2
 	relation_with_same_religion = 15

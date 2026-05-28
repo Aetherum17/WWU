@@ -72,6 +72,8 @@ mission_tree_yes = {
                 tag = A34 # Shadowmoon
                 tag = A41 # Blackrock
                 tag = H04 # Centaur Marauders
+                tag = G15 # Oogah
+                tag = POA # Protectors of Amon
 			}
 		}
 	}

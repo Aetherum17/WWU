@@ -27,7 +27,7 @@ mission_pygmy_raiding_teams_g15 = {
 }
 
 mission_raiding_the_obelisks_g15 = {
-    warscore_cost_vs_other_religion = -0.25 
+    warscore_cost_vs_other_religion = -0.1 
 }
 
 mission_trading_routes_g15 = {

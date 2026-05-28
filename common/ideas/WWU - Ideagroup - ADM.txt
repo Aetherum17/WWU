@@ -106,7 +106,7 @@ wwu_religious_ideas = {
 	# Deus Vult
     wwu_religious_ideas_7 = {
         cb_on_religious_enemies = yes
-		warscore_cost_vs_other_religion = -0.1
+		warscore_cost_vs_other_religion = -0.05
     }
 
     
@@ -776,7 +776,7 @@ wwu_theocracy_ideas = {
     }
     # Holy Wars
     wwu_theocracy_ideas_6 = {
-        warscore_cost_vs_other_religion = -0.1
+        warscore_cost_vs_other_religion = -0.05
     }
     # Realm of Law and Faith
     wwu_theocracy_ideas_7 = {
@@ -832,7 +832,7 @@ wwu_tribal_ideas = {
     }
     # Conquest First, Rights Later
     wwu_tribal_ideas_6 = {
-        province_warscore_cost = -0.1
+        province_warscore_cost = -0.05
     }
     # Fury of the Fearless
     wwu_tribal_ideas_7 = {

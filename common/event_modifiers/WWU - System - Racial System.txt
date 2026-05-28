@@ -736,7 +736,7 @@ jinyu_administration = {
     religious_unity = 0.25
     
     # Debuffs
-    province_warscore_cost = 0.15
+    province_warscore_cost = 0.05
     culture_conversion_cost = 0.15
 }
 # Jinyu Military
@@ -909,7 +909,7 @@ orc_administration = {
     # Buffs
     production_efficiency = 0.05
     core_creation = -0.075
-    province_warscore_cost = -0.15
+    province_warscore_cost = -0.1
     
     # Debuffs
     ae_impact = 0.05
@@ -1756,7 +1756,7 @@ blood_troll_administration = {
     # Buffs
     tolerance_own = 1
     global_missionary_strength = 0.02
-    warscore_cost_vs_other_religion = -0.125
+    warscore_cost_vs_other_religion = -0.1
     
     # Debuffs
     technology_cost = 0.05

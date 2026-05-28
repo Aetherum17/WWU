@@ -15,7 +15,7 @@ mission_arakkoa_knowledge_OGR = {
 	 technology_cost = -0.05
 }
 mission_Ogre_Prosperity_OGR = {
-	province_warscore_cost = -0.2
+	province_warscore_cost = -0.1
 }
 mission_aggresive_expansion_OGRs = {
 	ae_impact = -0.15

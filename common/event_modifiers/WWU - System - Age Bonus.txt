@@ -252,7 +252,7 @@ age_bonus_diplomatic_annexation_cost = {
     diplomatic_annexation_cost = -0.1
 }
 age_bonus_province_warscore_cost = {
-    province_warscore_cost = -0.1
+    province_warscore_cost = -0.05
 }
 age_bonus_unjustified_demands = {
     unjustified_demands = -0.1

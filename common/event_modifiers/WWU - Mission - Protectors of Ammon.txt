@@ -25,7 +25,7 @@ mission_terror_of_the_desert_a_poa = {
 }
 
 mission_terror_of_the_desert_b_poa = {
-    province_warscore_cost = -0.2
+    province_warscore_cost = -0.1
 }
 
 mission_duty_in_death_poa = {

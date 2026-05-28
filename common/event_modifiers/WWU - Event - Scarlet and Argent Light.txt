@@ -9,7 +9,7 @@ event_scarlet_tolerance_sl = {
 
 event_scarlet_dominance_sl = {
     global_missionary_strength = 0.01
-	warscore_cost_vs_other_religion = -0.15
+	warscore_cost_vs_other_religion = -0.1
 }
 
 event_trust_in_our_memories_sl = {
@@ -25,7 +25,7 @@ event_argent_honor_ad = {
 
 event_argent_glory_ad = {
     diplomatic_reputation = 1
-	warscore_cost_vs_other_religion = -0.15
+	warscore_cost_vs_other_religion = -0.1
 	promote_culture_cost = -0.1
 }
 

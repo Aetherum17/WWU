@@ -92,7 +92,7 @@ mission_leader_of_the_legion = {
 	governing_capacity_modifier = 0.1
 	liberty_desire = -25
 	ae_impact = -0.20
-	province_warscore_cost = -0.25
+	province_warscore_cost = -0.15
 }
 
 mission_rejection_of_non_fel = {

@@ -623,7 +623,7 @@ country_event = {
             add_base_manpower = 3
         }
         
-        ai_chance = { factor = 50 }
+        ai_chance = { factor = 5 }
     }
 
     option = {
@@ -650,7 +650,7 @@ country_event = {
             name = "Gazh'rilla the Hydra Demigod"
         }
         
-        ai_chance = { factor = 30 }
+        ai_chance = { factor = 3 }
     }
 
     option = {
@@ -686,7 +686,7 @@ country_event = {
         add_mil_power = -200
         add_prestige = 10
         
-        ai_chance = { factor = 20 }
+        ai_chance = { factor = 2 }
     }
 }
 
@@ -724,10 +724,6 @@ country_event = {
                 }
 
                 white_peace = A97
-            }
-                
-        ai_chance = {
-            factor = 100
         }
     }
 }

@@ -115,7 +115,7 @@ event_B08_ulduar_secreats_conversion = {
 
 event_B08_ulduar_secreats_yogg = {
     global_missionary_strength = 0.02
-    warscore_cost_vs_other_religion = -0.15
+    warscore_cost_vs_other_religion = -0.1
     spy_offence = 0.25
     manpower_recovery_speed = 0.25
     shock_damage_received = -0.1

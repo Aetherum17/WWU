@@ -140,7 +140,7 @@ mission_securing_our_lands_svh = {
 }
 
 mission_death_of_alex_mograine_svh = {
-    province_warscore_cost = -0.2
+    province_warscore_cost = -0.1
 }
 
 mission_question_of_composition_svh = {

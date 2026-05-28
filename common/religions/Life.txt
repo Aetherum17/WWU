@@ -168,10 +168,12 @@ life_group = {
 		allow_female_defenders_of_the_faith = yes
 		
 		country = {
-        
+        	same_religion_advisor_cost = -0.1
+			stability_cost_modifier = -0.1
 		}
         country_as_secondary = {
-        
+        	same_religion_advisor_cost = -0.05
+			stability_cost_modifier = -0.05
 		}
         province = {
 			

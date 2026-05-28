@@ -149,7 +149,7 @@ mission_end_of_sourge_of_lordaeron_a_a22 = {
 }
 
 mission_end_of_sourge_of_lordaeron_b_a22 = {
-    province_warscore_cost = -0.2
+    province_warscore_cost = -0.1
 }
 
 mission_scarlet_supremacy_a22 = {

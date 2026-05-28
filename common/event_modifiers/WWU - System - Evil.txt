@@ -2,7 +2,7 @@
 # Modifiers
 #---------------------------------------
 is_evil = {
-    province_warscore_cost = -0.25
+    province_warscore_cost = -0.15
     diplomatic_reputation = -2
     ae_impact = 0.25
 }

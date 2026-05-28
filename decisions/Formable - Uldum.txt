@@ -14,7 +14,6 @@ country_decisions = {
 			    tag = G10
 				tag = B72
 				tag = G09
-				tag = G15
 			}
             
             any_owned_province = {

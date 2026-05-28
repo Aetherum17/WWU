@@ -152,7 +152,7 @@ artifact_lights_wrath = {
 
 # T'uure
 artifact_tuure = {
-    warscore_cost_vs_other_religion = -0.25
+    warscore_cost_vs_other_religion = -0.15
 }
 
 # Kingslayers
@@ -168,7 +168,7 @@ artifact_fangs_of_the_devourer = {
 
 # Fist of Ra-den
 artifact_fist_of_raden = {
-    province_warscore_cost = -0.2
+    province_warscore_cost = -0.1
 }
 
 # Sharas'dal

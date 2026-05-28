@@ -3,18 +3,23 @@
  wwu_gnoll_generic_column_4: ""
  wwu_gnoll_generic_column_5: ""
  
+ # Column 4
  wwu_finding_a_place_in_the_world_glg_title: "Finding a Place in the World"
  wwu_finding_a_place_in_the_world_glg_desc: ""
  
- wwu_form_axis_of_awful_glg_title: "Form Axis of Awful"
- wwu_form_axis_of_awful_glg_desc: ""
- 
- wwu_join_horde_or_alliance_glg_title: "Join Horde/Alliance"
- wwu_join_horde_or_alliance_glg_desc: ""
- 
  wwu_gnolls_against_the_world_glg_title: "Gnolls Against the World"
  wwu_gnolls_against_the_world_glg_desc: ""
+
+ wwu_gnolls_gnoll_empire_glg_title: "The Gnoll Empire"
+ wwu_gnolls_gnoll_empire_glg_desc: ""
+
+ wwu_vassal_swarm_glg_title: "Subjects of the Gnolls"
+ wwu_vassal_swarm_glg_desc: ""
  
+ # Column 5
+ wwu_rise_of_the_gnolls_glg_title: "Rise of the Gnolls"
+ wwu_rise_of_the_gnolls_glg_desc: ""
+
  wwu_regional_aspirations_glg_title: "Regional Aspirations"
  wwu_regional_aspirations_glg_desc: ""
  
@@ -27,33 +32,38 @@
  wwu_azerothian_aspirations_glg_title: "Azerothian Aspirations"
  wwu_azerothian_aspirations_glg_desc: ""
  
- wwu_vassal_swarm_glg_title: "Vassal Swarm"
- wwu_vassal_swarm_glg_desc: ""
- 
  # --- Modifiers ---
- mission_we_are_important_boys_now_glg: "We Are Important Boys Now"
- desc_mission_we_are_important_boys_now_glg: ""
- 
- mission_axis_glg: "Axis"
- desc_mission_axis_glg: ""
- 
- mission_join_horde_or_alliance_glg: "Join Horde/Alliance"
- desc_mission_join_horde_or_alliance_glg: ""
- 
- mission_gnolls_vs_world_glg: "Gnolls vs World"
- desc_mission_gnolls_vs_world_glg: ""
- 
- mission_regional_scale_challenge_glg: "Regional Scale Challenge"
+ # Column 4M
+ mission_glg_finding_our_place: "Our place in this world"
+ desc_mission_glg_finding_our_place: ""
+
+ mission_glg_beastmen_of_war: "Beastmen of War"
+ desc_mission_glg_beastmen_of_war: ""
+
+ mission_glg_gnoll_empire: "Gnoll Empire Achieved"
+ desc_mission_glg_gnoll_empire: ""
+
+ mission_glg_vassal_swarm_master: "Masters of the Swarm"
+ desc_mission_glg_vassal_swarm_master: ""
+
+ # Column 5M
+ mission_glg_cheap_claims: "Cheap Claims"
+ desc_mission_glg_cheap_claims: ""
+
+ mission_local_scale_challenge_glg: "Threat: Local"
+ desc_mission_local_scale_challenge_glg: ""
+
+ mission_regional_scale_challenge_glg: "Threat: Regional"
  desc_mission_regional_scale_challenge_glg: ""
- 
- mission_multi_regional_scale_challenge_glg: "Multi-Regional Scale Challenge"
+
+ mission_multi_regional_scale_challenge_glg: "Threat: Multiregional"
  desc_mission_multi_regional_scale_challenge_glg: ""
- 
- mission_continental_scale_challenge_glg: "Continental Scale Challenge"
+
+ mission_continental_scale_challenge_glg: "Threat: Continental"
  desc_mission_continental_scale_challenge_glg: ""
- 
- mission_planetery_scale_challenge_glg: "Planetery Scale Challenge"
- desc_mission_planetery_scale_challenge_glg: ""
- 
- mission_vassal_swarm_master_glg: "Vassal Swarm Master"
- desc_mission_vassal_swarm_master_glg: ""
+
+ mission_global_scale_challenge_glg: "Threat: Global"
+ desc_mission_global_scale_challenge_glg: ""
+
+ mission_multidimentional_scale_challenge_glg: "Threat: Multidimentional"
+ desc_mission_multidimentional_scale_challenge_glg: ""

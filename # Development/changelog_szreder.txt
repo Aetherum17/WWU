@@ -5,6 +5,8 @@
 # Fixes:
 
 # General Gameplay:
+-Given Cult of the Sun religion a religion modifier
+-Reduced values of Warscore Cost + WS Cost Vs across the board
 
 # History + map:
 
@@ -13,8 +15,20 @@
 # Decisions:
 
 # Mission Trees:
+* Anh'Qiraj:
+-Reduced AI desire values for mission tree events, leading to AI picking different options more often
+
+* Gnoll Generic:
+-Updated 5th mission column to scale with mission progression (WIP)
+-Added new missions to 4th column, removing those no longer possible to do and adding a 'big goals' missions (WIP)
 
 # Flavour and others:
+
+###########################################################################################################################################################################
+
+Internal:
+-Updated log_bugs.txt
+-Updated log_suggestions.txt
 
 ###########################################################################################################################################################################
 # Development Stash

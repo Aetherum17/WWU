@@ -22,5 +22,5 @@ mission_wildhammer_clan = {
 }
 
 mission_higlands = {
-    province_warscore_cost = -0.15
+    province_warscore_cost = -0.1
 }
