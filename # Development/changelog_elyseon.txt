@@ -1,22 +1,19 @@
 ﻿#--------------------------------------
 # Changelog
 #--------------------------------------
-NAME CHANGE:
--Empire of Arathor Flavour Name Change
-
 FORMABLES:
--Now formables dont require tech or mana points to form
+-Jungle Troll Alternate History Formables
+    -Gillijim
+	-Lapidis
 
-ARTIFACTS:
--Staff of Antonidas
--Empowered Staff of Antonidas (Staff of Antonidas is given to Dalaran up to 615.1.1 and then to Theramore from 617 onwards.)
+NAME CHANGE:
+-Gillijim and Lapidis Flavour Name Change
 
+NEW NATIONS:
+-Sandscalp (Sand Trolls - South Sea)
 
-GAMEPLAY:
-MARUUK FEDERATION:
--Balanced Federation Advancement bonuses
--Twicked the way with which the horde is formed by the final advancement, fixing firing issues and cleaner options
-
+COUNTRY CHANGES:
+-Plunder Isle Murlocs are now present since the 1st date
 
 #--------------------------------------------------------
 # TO NOT BE REPORTED IN NEXT UPLOADS BEFORE ULDUM UPDATE

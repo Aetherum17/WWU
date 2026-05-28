@@ -1,0 +1,9 @@
+
+# Lapidis - Zul'Hazu
+government 			    = republic
+add_government_reform   = troll_republic_reform
+mercantilism 		= 10
+technology_group 	= tech_jungle_troll
+religion			= voodoo
+primary_culture 	= culture_jungle_troll
+capital 			= 131

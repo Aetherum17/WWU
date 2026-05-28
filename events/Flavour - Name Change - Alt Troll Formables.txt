@@ -1,0 +1,57 @@
+namespace = wwu_flavour_gillijim
+
+# Pick a name for Gillijim
+country_event = {
+	id = wwu_flavour_gillijim.1
+	title = wwu_flavour_gillijim.1.title
+	desc = wwu_flavour_gillijim.1.desc
+	picture = ARTHAS_MENETHIL_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_gillijim.1.a
+		#Go by the standard name
+		
+		ai_chance = {		
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_gillijim.1.b
+		override_country_name = ZUL_RAZAR
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+}
+
+namespace = wwu_flavour_lapidis
+
+# Pick a name for Lapidis
+country_event = {
+	id = wwu_flavour_lapidis.1
+	title = wwu_flavour_lapidis.1.title
+	desc = wwu_flavour_lapidis.1.desc
+	picture = ARTHAS_MENETHIL_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {		
+		name = wwu_flavour_lapidis.1.a
+		#Go by the standard name
+		
+		ai_chance = {		
+			factor = 1
+		}
+	}
+	option = {
+		name = wwu_flavour_lapidis.1.b
+		override_country_name = ZUL_HAZU
+		
+		ai_chance = {
+			factor = 3
+		}
+	}
+}

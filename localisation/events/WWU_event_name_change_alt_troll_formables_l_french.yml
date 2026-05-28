@@ -1,0 +1,23 @@
+﻿l_french:
+ #-----------------------------------------------
+ # Gillijim
+ #----------------------------------------------- 
+ wwu_flavour_gillijim.1.title: "Islandic Lifestyle"
+ wwu_flavour_gillijim.1.desc: "Time to establish a new base on the ruins of this ancient tribe!"
+ wwu_flavour_gillijim.1.a: "We are Gillijim Tribe!"
+ wwu_flavour_gillijim.1.b: "We are Zul'Razar!"
+ 
+#-----------------------------------------------
+ # Lapidis
+ #----------------------------------------------- 
+ wwu_flavour_lapidis.1.title: "Islandic Lifestyle"
+ wwu_flavour_lapidis.1.desc: "Time to establish a new base on the ruins of this ancient tribe!"
+ wwu_flavour_lapidis.1.a: "We are Lapidis Tribe!"
+ wwu_flavour_lapidis.1.b: "We are Zul'Hazu!"
+ 
+
+ # Name Change
+ ZUL_RAZAR: "Zul'Razar"
+ ZUL_RAZAR_ADJ: "Razar's"
+ ZUL_HAZU: "Zul'Hazu"
+ ZUL_HAZU_ADJ: "Hazu's"

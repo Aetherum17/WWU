@@ -1,0 +1,114 @@
+country_decisions = {
+    form_gillijim = {
+	    major = yes
+        ai_importance = 0
+		
+		potential = { 
+            NOT = { has_country_flag = enacted_final_tag_formation }
+            
+            # Exclusions
+			NOT = { tag = A66 }
+			NOT = { tag = FNG }
+            NOT = { tag = GIL }
+			NOT = { tag = LAP }
+			
+            # Requisites
+			primary_culture = culture_jungle_troll
+
+            any_owned_province = {
+                area = area_spirthowl
+            }
+		}
+        
+        provinces_to_highlight = {
+            NOT = { owned_by = ROOT }
+			area = area_spirthowl
+		}
+        
+		allow = {
+            # Ownership
+            owns_core_province = 150 
+            
+            # General
+			is_at_war = no	
+			stability = 1
+            
+		}
+		effect = {
+            
+            # Switch
+			change_tag = GIL
+            set_capital = 150
+			
+			country_event = {
+				id = wwu_flavour_gillijim.1
+			}
+			
+			# Bonus
+            add_formable_bonus = yes
+            trigger_ni_switch = yes
+            #trigger_mission_switch = yes
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+
+country_decisions = {
+    form_lapidis = {
+	    major = yes
+        ai_importance = 0
+		
+		potential = { 
+            NOT = { has_country_flag = enacted_final_tag_formation }
+            
+            # Exclusions
+			NOT = { tag = A66 }
+			NOT = { tag = FNG }
+            NOT = { exists = GIL }
+			NOT = { exists = LAP }
+			
+            # Requisites
+			primary_culture = culture_jungle_troll
+
+            any_owned_province = {
+                area = area_cinderwood
+            }
+		}
+        
+        provinces_to_highlight = {
+            NOT = { owned_by = ROOT }
+			area = area_cinderwood
+		}
+        
+		allow = {
+            # Ownership
+            owns_core_province = 131 
+            
+            # General
+			is_at_war = no	
+			stability = 1
+            
+		}
+		effect = {            
+            # Switch
+			change_tag = LAP
+            set_capital = 131
+			
+			country_event = {
+				id = wwu_flavour_lapidis.1
+			}
+			
+			# Bonus
+            add_formable_bonus = yes
+            trigger_ni_switch = yes
+            #trigger_mission_switch = yes
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

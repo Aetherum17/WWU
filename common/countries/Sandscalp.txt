@@ -1,6 +1,6 @@
 graphical_culture = sand_troll_gfx
 
-color = { 190 198 167 }
+color = { 193 161 87 }
 
 monarch_names = {
 	"Daakara" = 1
@@ -2210,16 +2210,16 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	sand_troll_inf_a_1
-	sand_troll_cav_a_1
-	sand_troll_inf_a_2
-	sand_troll_cav_a_2
-	sand_troll_inf_a_3
-	sand_troll_cav_a_3
-	sand_troll_inf_a_4
-	sand_troll_cav_a_4
-	sand_troll_inf_a_5
-	sand_troll_cav_a_5
+	jungle_troll_inf_a_1
+	jungle_troll_cav_a_1
+	jungle_troll_inf_a_2
+	jungle_troll_cav_a_2
+	jungle_troll_inf_a_3
+	jungle_troll_cav_a_3
+	jungle_troll_inf_a_4
+	jungle_troll_cav_a_4
+	jungle_troll_inf_a_5
+	jungle_troll_cav_a_5
 }
 
 

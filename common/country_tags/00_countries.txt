@@ -385,14 +385,17 @@ A71 = "countries/Atalai.txt"                    # - A71
 A72 = "countries/Hakkari.txt"                   # - A72
 P58 = "countries/Zanzil.txt"                    # - P58
 JEL = "countries/Jellyneck.txt"                 # JEL - F09
-F63 = "countries/Zabrajin.txt"                 # - F63
+F63 = "countries/Zabrajin.txt"                  # - F63
 G37 = "countries/Echo Isles.txt"                # - G37
+GIL = "countries/Gillijim.txt"                  # - GIL
+LAP = "countries/Lapidis.txt"                   # - LAP
 
 #-------------------------------------
 # Sand Troll
 #-------------------------------------
 A73 = "countries/Sandfury.txt"                  # - A73
 SAN = "countries/Sandfury Empire.txt"           # - SAN
+SAD = "countries/Sandscalp.txt"                 # - SAD
 
 #-------------------------------------
 # Frost Troll

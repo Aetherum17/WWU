@@ -3,6 +3,10 @@ add_government_reform = pirate_republic_reform
 
 mercantilism 		= 10
 technology_group 	= tech_murloc
-religion			= fel
+religion			= deep_mother
 primary_culture 	= culture_murloc
-capital 			= 4761
+capital 			= 75
+
+617.1.1 = {
+religion            = fel
+}
