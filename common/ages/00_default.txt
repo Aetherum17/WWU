@@ -128,7 +128,11 @@ age_frozen_throne = {
 		custom_trigger_tooltip = {
 			tooltip = age_rise_of_the_horde_condition
             
+            NOT = { has_global_flag = stop_age_frozen_throne }
+            
             OR = {
+                has_global_flag = force_age_frozen_throne
+                
                 is_year = 650
                 # Orcish Horde was spawned (U03 or own tag)
                 had_global_flag = {
@@ -344,9 +348,11 @@ age_trouble_in_azeroth = {
 		custom_trigger_tooltip = {
 			tooltip = age_frozen_throne_condition
             
-            has_global_flag = scourge_has_spawned
+            NOT = { has_global_flag = stop_age_trouble_in_azeroth }
             
             OR = {
+                has_global_flag = force_age_trouble_in_azeroth
+                
                 is_year = 700
                 # Scourge is wiped out
                 AND = {
@@ -500,7 +506,11 @@ age_burning_crusade = {
 		custom_trigger_tooltip = {
 			tooltip = age_trouble_in_azeroth_condition
 
+            NOT = { has_global_flag = stop_age_burning_crusade }
+            
             OR = {
+                has_global_flag = force_age_burning_crusade
+                
                 is_year = 750
                 had_global_flag = {
                     flag = the_missing_diplomat
@@ -645,7 +655,11 @@ age_wrath_of_the_lich_king = {
 		custom_trigger_tooltip = {
 			tooltip = age_burning_crusade_condition
 
+            NOT = { has_global_flag = stop_age_wrath_of_the_lich_king }
+            
             OR = {
+                has_global_flag = force_age_wrath_of_the_lich_king
+                
                 is_year = 780
                 has_global_flag = before_the_storm
                 has_global_flag = the_burning_crusade
@@ -775,7 +789,11 @@ age_cataclysm = {
 		custom_trigger_tooltip = {
 			tooltip = age_wrath_of_the_lich_king_condition
             
+            NOT = { has_global_flag = stop_age_cataclysm }
+            
             OR = {
+                has_global_flag = force_age_cataclysm
+                
                 is_year = 810
                 has_global_flag = echoes_of_doom
                 has_global_flag = wrath_of_the_lich_king
@@ -907,7 +925,11 @@ age_mists_of_pandaria = {
 		custom_trigger_tooltip = {
 			tooltip = age_cataclysm_condition
             
+            NOT = { has_global_flag = stop_age_mists_of_pandaria }
+            
             OR = {
+                has_global_flag = force_age_mists_of_pandaria
+                
                 is_year = 840
                 has_global_flag = the_shattering
                 has_global_flag = rise_of_the_zandalari
@@ -1035,7 +1057,11 @@ age_eternal_conflict = {
 		custom_trigger_tooltip = {
 			tooltip = age_mists_of_pandaria_condition
             
+            NOT = { has_global_flag = stop_age_eternal_conflict }
+            
             OR = {
+                has_global_flag = force_age_eternal_conflict
+                
                 is_year = 870
                 has_global_flag = mists_of_pandaria
                 has_global_flag = landfall

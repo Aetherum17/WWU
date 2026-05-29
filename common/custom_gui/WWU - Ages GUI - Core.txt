@@ -1,0 +1,337 @@
+#----------------------------------------
+# Custom GUI - For non-specific elements
+#----------------------------------------
+custom_button = {
+    name = stop_age_progression_button
+    tooltip = stop_age_progression_tt
+    
+    potential = {
+        always = yes
+    }
+    
+    trigger = { 
+        if = {
+            limit = {
+                current_age = age_rise_of_the_horde
+            }
+            NOT = { has_global_flag = stop_age_frozen_throne }
+        }
+        else_if = {
+            limit = {
+                current_age = age_frozen_throne
+            }
+            NOT = { has_global_flag = stop_age_trouble_in_azeroth }
+        }
+        else_if = {
+            limit = {
+                current_age = age_trouble_in_azeroth
+            }
+            NOT = { has_global_flag = stop_age_burning_crusade }
+        }
+        else_if = {
+            limit = {
+                current_age = age_burning_crusade
+            }
+            NOT = { has_global_flag = stop_age_wrath_of_the_lich_king }
+        }
+        else_if = {
+            limit = {
+                current_age = age_wrath_of_the_lich_king
+            }
+            NOT = { has_global_flag = stop_age_cataclysm }
+        }
+        else_if = {
+            limit = {
+                current_age = age_cataclysm
+            }
+            NOT = { has_global_flag = stop_age_mists_of_pandaria }
+        }
+        else_if = {
+            limit = {
+                current_age = age_mists_of_pandaria
+            }
+            NOT = { has_global_flag = stop_age_eternal_conflict }
+        }
+        else = {
+            always = no
+        }
+    }
+    
+    effect = { 
+        if = {
+            limit = {
+                current_age = age_rise_of_the_horde
+            }
+            
+            set_global_flag = stop_age_frozen_throne
+        }
+        else_if = {
+            limit = {
+                current_age = age_frozen_throne
+            }
+           
+            set_global_flag = stop_age_trouble_in_azeroth
+        }
+        else_if = {
+            limit = {
+                current_age = age_trouble_in_azeroth
+            }
+            
+            set_global_flag = stop_age_burning_crusade
+        }
+        else_if = {
+            limit = {
+                current_age = age_burning_crusade
+            }
+            
+            set_global_flag = stop_age_wrath_of_the_lich_king
+        }
+        else_if = {
+            limit = {
+                current_age = age_wrath_of_the_lich_king
+            }
+            
+            set_global_flag = force_age_cataclysm
+        }
+        else_if = {
+            limit = {
+                current_age = age_cataclysm
+            }
+            
+            set_global_flag = stop_age_mists_of_pandaria
+        }
+        else_if = {
+            limit = {
+                current_age = age_mists_of_pandaria
+            }
+            
+            set_global_flag = stop_age_eternal_conflict
+        }
+    }
+}
+custom_button = {
+    name = allow_age_progression_button
+    tooltip = allow_age_progression_tt
+    
+    potential = {
+        always = yes
+    }
+    
+    trigger = { 
+        if = {
+            limit = {
+                current_age = age_rise_of_the_horde
+            }
+            has_global_flag = stop_age_frozen_throne
+        }
+        else_if = {
+            limit = {
+                current_age = age_frozen_throne
+            }
+            has_global_flag = stop_age_trouble_in_azeroth
+        }
+        else_if = {
+            limit = {
+                current_age = age_trouble_in_azeroth
+            }
+            has_global_flag = stop_age_burning_crusade
+        }
+        else_if = {
+            limit = {
+                current_age = age_burning_crusade
+            }
+            has_global_flag = stop_age_wrath_of_the_lich_king
+        }
+        else_if = {
+            limit = {
+                current_age = age_wrath_of_the_lich_king
+            }
+            has_global_flag = stop_age_cataclysm
+        }
+        else_if = {
+            limit = {
+                current_age = age_cataclysm
+            }
+            has_global_flag = stop_age_mists_of_pandaria
+        }
+        else_if = {
+            limit = {
+                current_age = age_mists_of_pandaria
+            }
+            has_global_flag = stop_age_eternal_conflict
+        }
+        else = {
+            always = no
+        }
+    }
+    
+    effect = { 
+        if = {
+            limit = {
+                current_age = age_rise_of_the_horde
+            }
+            
+            clr_global_flag = stop_age_frozen_throne
+        }
+        else_if = {
+            limit = {
+                current_age = age_frozen_throne
+            }
+           
+            clr_global_flag = stop_age_trouble_in_azeroth
+        }
+        else_if = {
+            limit = {
+                current_age = age_trouble_in_azeroth
+            }
+            
+            clr_global_flag = stop_age_burning_crusade
+        }
+        else_if = {
+            limit = {
+                current_age = age_burning_crusade
+            }
+            
+            clr_global_flag = stop_age_wrath_of_the_lich_king
+        }
+        else_if = {
+            limit = {
+                current_age = age_wrath_of_the_lich_king
+            }
+            
+            clr_global_flag = force_age_cataclysm
+        }
+        else_if = {
+            limit = {
+                current_age = age_cataclysm
+            }
+            
+            clr_global_flag = stop_age_mists_of_pandaria
+        }
+        else_if = {
+            limit = {
+                current_age = age_mists_of_pandaria
+            }
+            
+            set_global_flag = stop_age_eternal_conflict
+        }
+        
+        hidden_effect = {
+            clr_global_flag = stop_age_frozen_throne
+            clr_global_flag = stop_age_trouble_in_azeroth
+            clr_global_flag = stop_age_burning_crusade
+            clr_global_flag = stop_age_wrath_of_the_lich_king
+            clr_global_flag = force_age_cataclysm
+            clr_global_flag = stop_age_mists_of_pandaria
+            set_global_flag = stop_age_eternal_conflict
+        }
+    }
+}
+custom_button = {
+    name = force_age_progression_button
+    tooltip = force_age_progression_tt
+    
+    potential = {
+        always = yes
+    }
+    
+    trigger = { 
+        if = {
+            limit = {
+                current_age = age_rise_of_the_horde
+            }
+            NOT = { has_global_flag = force_age_frozen_throne }
+        }
+        else_if = {
+            limit = {
+                current_age = age_frozen_throne
+            }
+            NOT = { has_global_flag = force_age_trouble_in_azeroth }
+        }
+        else_if = {
+            limit = {
+                current_age = age_trouble_in_azeroth
+            }
+            NOT = { has_global_flag = force_age_burning_crusade }
+        }
+        else_if = {
+            limit = {
+                current_age = age_burning_crusade
+            }
+            NOT = { has_global_flag = force_age_wrath_of_the_lich_king }
+        }
+        else_if = {
+            limit = {
+                current_age = age_wrath_of_the_lich_king
+            }
+            NOT = { has_global_flag = force_age_cataclysm }
+        }
+        else_if = {
+            limit = {
+                current_age = age_cataclysm
+            }
+            NOT = { has_global_flag = force_age_mists_of_pandaria }
+        }
+        else_if = {
+            limit = {
+                current_age = age_mists_of_pandaria
+            }
+            NOT = { has_global_flag = force_age_eternal_conflict }
+        }
+        else = {
+            always = no
+        }
+    }
+    
+    effect = { 
+        if = {
+            limit = {
+                current_age = age_rise_of_the_horde
+            }
+            
+            set_global_flag = force_age_frozen_throne
+        }
+        else_if = {
+            limit = {
+                current_age = age_frozen_throne
+            }
+           
+            set_global_flag = force_age_trouble_in_azeroth
+        }
+        else_if = {
+            limit = {
+                current_age = age_trouble_in_azeroth
+            }
+            
+            set_global_flag = force_age_burning_crusade
+        }
+        else_if = {
+            limit = {
+                current_age = age_burning_crusade
+            }
+            
+            set_global_flag = force_age_wrath_of_the_lich_king
+        }
+        else_if = {
+            limit = {
+                current_age = age_wrath_of_the_lich_king
+            }
+            
+            set_global_flag = force_age_cataclysm
+        }
+        else_if = {
+            limit = {
+                current_age = age_cataclysm
+            }
+            
+            set_global_flag = force_age_mists_of_pandaria
+        }
+        else_if = {
+            limit = {
+                current_age = age_mists_of_pandaria
+            }
+            
+            set_global_flag = force_age_eternal_conflict
+        }
+    }
+}

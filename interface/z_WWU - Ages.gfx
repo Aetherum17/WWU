@@ -22,6 +22,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/age_indicator.dds"
 	}
     
+    spriteType = {
+		name = "GFX_allow_age_progression"
+		texturefile = "gfx/custom_gui/ages/allow_age_progression.dds"
+	}
+    spriteType = {
+		name = "GFX_force_age_progression"
+		texturefile = "gfx/custom_gui/ages/force_age_progression.dds"
+	}
+    spriteType = {
+		name = "GFX_stop_age_progression"
+		texturefile = "gfx/custom_gui/ages/stop_age_progression.dds"
+	}
+    
     #------------------------------------
     # Age Images
     #------------------------------------

@@ -379,6 +379,46 @@
  etcf_ability_11: "Card XI"
  
  #-----------------------------------
+ # Age Progression Actions
+ #-----------------------------------
+ stop_age_progression: "Stop Age Progression"
+ stop_age_progression_tt: "When activated, ages will not progress any more."
+ 
+ allow_age_progression: "Allow Age Progression"
+ allow_age_progression_tt: "When activated, ages will progress naturally again."
+ 
+ force_age_progression: "Force Age Progression"
+ force_age_progression_tt: "When activated, the next age will start."
+ 
+ # 605
+ stop_age_frozen_throne: "Prevent progression to the next age (The Frozen Throne)."
+ force_age_frozen_throne: "Force progression to the next age (The Frozen Throne)."
+ 
+ # 622
+ stop_age_trouble_in_azeroth: "Prevent progression to the next age (Trouble in Azeroth)."
+ force_age_trouble_in_azeroth: "Force progression to the next age (Trouble in Azeroth)."
+ 
+ # 625
+ stop_age_burning_crusade: "Prevent progression to the next age (Burning Crusade)."
+ force_age_burning_crusade: "Force progression to the next age (Burning Crusade)."
+ 
+ # 626
+ stop_age_wrath_of_the_lich_king: "Prevent progression to the next age (Wrath of the Lich King)."
+ force_age_wrath_of_the_lich_king: "Force progression to the next age (Wrath of the Lich King)."
+ 
+ # 631
+ stop_age_cataclysm: "Prevent progression to the next age (Cataclysm)."
+ force_age_cataclysm: "Force progression to the next age (Cataclysm)."
+ 
+ # 632
+ stop_age_mists_of_pandaria: "Prevent progression to the next age (Mists of Pandaria)."
+ force_age_mists_of_pandaria: "Force progression to the next age (Mists of Pandaria)."
+ 
+ # 635
+ stop_age_eternal_conflict: "Prevent progression to the next age (Eternal Conflict)."
+ force_age_eternal_conflict: "Force progression to the next age (Eternal Conflict)."
+ 
+ #-----------------------------------
  # Age Bonus Events
  #-----------------------------------
  wwu_age_bonus.100.title: "Age Ability: Handle State"
