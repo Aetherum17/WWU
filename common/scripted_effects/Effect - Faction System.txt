@@ -886,6 +886,12 @@ reset_faction_slot_flags = {
 
 fill_faction_leader_slot = {
     # Should always only be one country
+    
+    # Set REB as the default, so if no leader is found, the GUI element just displays REB rather than weirdly displaying whatever factions were previously viewed
+    REB = {
+        save_global_event_target_as = faction_leader
+    }
+    
     every_country = {
         limit = {
             has_country_modifier = head_of_$FACTION$
