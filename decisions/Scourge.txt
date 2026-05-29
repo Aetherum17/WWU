@@ -5,6 +5,8 @@ country_decisions = {
     # Malykriss
     construct_the_malykriss_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 2369
             tag = P11
             2369 = {
@@ -56,6 +58,8 @@ country_decisions = {
     # Naxxanar
     construct_the_naxxanar_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 2344
             tag = P11
             2344 = {
@@ -107,6 +111,8 @@ country_decisions = {
     # Talramas
     construct_the_talramas_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 2118
             tag = P11
             2118 = {
@@ -158,6 +164,8 @@ country_decisions = {
     # Naxxramas
     construct_the_naxxramas_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 599
             tag = P11
             599 = {
@@ -210,6 +218,8 @@ country_decisions = {
     # Zeramas
     construct_the_zeramas_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 649
             tag = P11
             649 = {
@@ -261,6 +271,8 @@ country_decisions = {
     # Voltarus
     construct_the_voltarus_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 598
             tag = P11
             598 = {
@@ -318,6 +330,8 @@ country_decisions = {
     # Kolramas
     construct_the_kolramas_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 2428
             tag = P11
             2428 = {
@@ -367,6 +381,8 @@ country_decisions = {
     # Acherus
     construct_the_acherus_necropolis = {
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			owns = 992
             tag = P11
             992 = {
@@ -420,7 +436,11 @@ country_decisions = {
     #--------------------------------------
     # Resurrect the Lich King
     resurrect_the_lich_king = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions
+            
             tag = P11
 			if = {
                 limit = {
@@ -516,7 +536,11 @@ country_decisions = {
     # Move Naxxramas
     #--------------------------------------
 	move_naxxramas_to = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions
+            
 			tag = P11
 			has_global_flag = arrival_of_naxxramas
 			any_owned_province = {
@@ -674,7 +698,11 @@ country_decisions = {
 		}
 	}
 	move_naxxramas_to_for_ai = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions
+            
 			tag = P11
 			has_global_flag = arrival_of_naxxramas
 			3075 = {

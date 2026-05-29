@@ -4,6 +4,7 @@ country_decisions = {
     #-----------------------------------------
     enforce_tolerance = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = enforced_tolerance }
             religion = rationalism
 		}
@@ -30,6 +31,7 @@ country_decisions = {
     #-----------------------------------------
     deface_sethraliss_monuments = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = defaced_monuments }
             religion = faithless
 		}
@@ -56,6 +58,7 @@ country_decisions = {
     #-----------------------------------------
     spread_equality_through_technology = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = technological_nirvana }
             religion = technomancy
 		}
@@ -82,6 +85,7 @@ country_decisions = {
     #-----------------------------------------
     encourage_internal_competition = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = internal_competition }
             religion = avarice
 		}

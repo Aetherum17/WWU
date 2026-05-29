@@ -4,6 +4,8 @@ country_decisions = {
         ai_importance = 0
 		
 		potential = {
+            has_country_flag = display_major_decisions
+            
 			863 = {
 				has_province_modifier = ruined_dalaran
 			}
@@ -52,6 +54,8 @@ country_decisions = {
 		color = { 156 158 33 }
 		
 		potential = {
+            has_country_flag = display_major_decisions
+            
             culture_group = culture_group_human
             
 			557 = {

@@ -4,7 +4,9 @@ country_decisions = {
 		major = yes
         ai_importance = 0
         
-		potential = {          
+		potential = {        
+            has_country_flag = display_formable_decisions
+            
 			NOT = { exists = A08 }
 			NOT = { tag = SVH }
 			NOT = { tag = A24 }

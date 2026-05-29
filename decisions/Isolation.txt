@@ -3,6 +3,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_minor_decisions
+            
             has_global_flag = enabled_isolation_mechanics
             # VAWSER: groups that may use the Isolation mechanic
 			OR = {
@@ -50,6 +52,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_minor_decisions
+            
             has_global_flag = enabled_isolation_mechanics
 			# VAWSER: groups that may use the Isolation mechanic
 			OR = {

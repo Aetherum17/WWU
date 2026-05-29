@@ -1,6 +1,8 @@
 country_decisions = {
     offering_to_the_elements = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
 			uses_karma = yes
             OR = {  
                 religion = tauren_shamanism
@@ -36,6 +38,8 @@ country_decisions = {
     }
     offering_to_ragnaros = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
 			uses_karma = yes
             religion = flame
             NOT = { has_country_modifier = blessing_of_ragnaros }
@@ -65,6 +69,8 @@ country_decisions = {
     }
     offering_to_therazane = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
 			uses_karma = yes
             religion = earth
             NOT = { has_country_modifier = blessing_of_therazane }
@@ -94,6 +100,8 @@ country_decisions = {
     }
     offering_to_neptulon = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
 			uses_karma = yes
             religion = water
             NOT = { has_country_modifier = blessing_of_neptulon }
@@ -123,6 +131,8 @@ country_decisions = {
     }
     offering_to_al_akir = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
 			uses_karma = yes
             religion = wind
             NOT = { has_country_modifier = blessing_of_al_akir }

@@ -1,6 +1,7 @@
 country_decisions = {
     initiate_guerilla_warfare = {
 		potential = {
+            has_country_flag = display_cultural_decisions
 			is_troll_culture_group = yes
             NOT = { has_country_modifier = initiate_guerilla_warfare }
 		}
@@ -25,6 +26,7 @@ country_decisions = {
     
     sacrifice_prisoners = {
 		potential = {
+            has_country_flag = display_cultural_decisions
 			is_troll_culture_group = yes
             religion = hakkari
             NOT = { has_country_modifier = sacrificed_prisoners }
@@ -53,6 +55,7 @@ country_decisions = {
     
 	sacrifice_loa = {
 		potential = {
+            has_country_flag = display_cultural_decisions
             NOT = { tag = A78 }
 			has_any_loa = yes
             NOT = { has_ruler_flag = sacrificed_loa }

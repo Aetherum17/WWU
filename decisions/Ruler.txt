@@ -1,6 +1,8 @@
 country_decisions = {
 	raise_heir = {
 		potential = {
+            has_country_flag = display_minor_decisions
+            
             can_be_hereditary = yes
 			has_wrong_dynasty = yes
             NOT = { has_ruler_flag = raised_heir_during_ruler_lifetime }

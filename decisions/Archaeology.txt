@@ -2,6 +2,8 @@ country_decisions = {
     # AI Only - Allows the AI nations to collect artifacts
     start_archeological_project = {
         potential = {
+            has_country_flag = display_system_decisions
+            
             ai = yes
             has_global_flag = enabled_archaeology_mechanics
             

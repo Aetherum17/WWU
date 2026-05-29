@@ -2,6 +2,8 @@
 country_decisions = {
     colonize_vengance = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             tag = B08
             has_country_flag = unlock_colonize_vengance
             NOT = { has_country_flag = colonized_vengance }
@@ -46,6 +48,8 @@ country_decisions = {
 	# Restore Gjalerbron
     restore_gjalerborn_citadel = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             tag = B08
             has_country_flag = unlock_restore_gjalerborn
             NOT = { has_country_flag = restored_gjalerborn }
@@ -91,6 +95,8 @@ country_decisions = {
 	# Restore Vrykul Cities
     restore_vrykul_cities = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             tag = B08
             primary_culture = culture_vrykul
             has_country_flag = unlock_restore_vrykul_cities
@@ -143,6 +149,8 @@ country_decisions = {
 	# Settle Strand of the Ancients
     settle_strand_of_the_ancients = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             tag = B08
             has_country_flag = unlock_colonize_sota
             NOT = { has_country_flag = colonized_sota }
@@ -193,6 +201,8 @@ country_decisions = {
     # Harpoon Research Technology
     harpoon_research_tech = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             tag = B08
             has_country_flag = unlock_harpoon_research
             NOT = { has_country_flag = has_unlock_harpoon_research}

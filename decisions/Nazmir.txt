@@ -4,6 +4,8 @@ country_decisions = {
         color = { 144 34 42 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
+            
 		OR = {
             tag = NZM
             tag = AMK
@@ -70,6 +72,8 @@ country_decisions = {
         color = { 144 34 42 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
+            
 		OR = {
             tag = NZM
             tag = AMK
@@ -110,6 +114,8 @@ country_decisions = {
         color = { 144 34 42 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
+            
 		NOT = { has_country_flag = blood_totem_menu_open }
 		OR = {
             tag = NZM
@@ -154,6 +160,8 @@ country_decisions = {
 	nazmir_colonize_fungarians_decision = {
         
         potential = {
+            has_country_flag = display_cultural_decisions
+            
 		has_country_flag = nazmir_unlock_colonization_1
 
 		region_nazmir = {

@@ -1,6 +1,8 @@
 country_decisions = {
     encourage_bloodlust = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             culture_group = culture_group_orc
             NOT = { has_ruler_modifier = warlust }
         }
@@ -26,6 +28,8 @@ country_decisions = {
     
     turn_to_shamanism = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             culture_group = culture_group_orc
             religion = fel
             

@@ -4,6 +4,8 @@ country_decisions = {
     #-----------------------------------------
     construct_void_portals = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
             NOT = { has_ruler_modifier = void_portals }
             or = {
                 religion = shadow
@@ -30,6 +32,7 @@ country_decisions = {
     
     draw_upon_the_shadows = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = shadow
             uses_church_aspects = yes
 		}
@@ -51,6 +54,7 @@ country_decisions = {
     #-----------------------------------------
     spread_the_lessons_of_natalie_seline = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = lessons_of_natalie_seline }
             religion = forgotten_shadow
 		}
@@ -74,6 +78,7 @@ country_decisions = {
     
     tip_the_scales_forgotten_shadow = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = forgotten_shadow
             uses_church_aspects = yes
 		}
@@ -96,6 +101,7 @@ country_decisions = {
     #-----------------------------------------
     entice_cthun = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = cthun_gift }
             religion = cthun
 		}
@@ -119,6 +125,7 @@ country_decisions = {
     
     incite_worshippers_cthun = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = cthun
             uses_church_aspects = yes
             any_neighbor_country = {
@@ -147,6 +154,7 @@ country_decisions = {
     #-----------------------------------------
     entice_nzoth = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = nzoth_gift }
             religion = nzoth
 		}
@@ -170,6 +178,7 @@ country_decisions = {
     
     incite_worshippers_nzoth = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = nzoth
             uses_church_aspects = yes
             any_neighbor_country = {
@@ -198,6 +207,7 @@ country_decisions = {
     #-----------------------------------------
     entice_yogg_saron = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = yogg_saron_gift }
             religion = yogg_saron
 		}
@@ -221,6 +231,7 @@ country_decisions = {
     
     incite_worshippers_yogg_saron = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = yogg_saron
             uses_church_aspects = yes
             any_neighbor_country = {
@@ -249,6 +260,7 @@ country_decisions = {
     #-----------------------------------------
     entice_yshaarj = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = yshaarj_gift }
             religion = yshaarj
 		}
@@ -272,6 +284,7 @@ country_decisions = {
     
     incite_worshippers_yshaarj = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = yshaarj
             uses_church_aspects = yes
             any_neighbor_country = {
@@ -300,6 +313,7 @@ country_decisions = {
     #-----------------------------------------
     herald_the_end = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = prophecy_of_the_end }
             religion = twilight_cult
 		}
@@ -323,6 +337,7 @@ country_decisions = {
     
     incite_worshippers_twilight = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = twilight_cult
             uses_church_aspects = yes
             any_neighbor_country = {
@@ -351,6 +366,7 @@ country_decisions = {
     #-----------------------------------------
     corrupt_the_dream = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = dream_corruption }
             religion = nightmare
 		}
@@ -374,6 +390,7 @@ country_decisions = {
     
     incite_worshippers_nightmare = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = nightmare
             uses_church_aspects = yes
             any_neighbor_country = {
@@ -402,6 +419,7 @@ country_decisions = {
     #-----------------------------------------
     siphon_unused_anima = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = anima_silos }
             religion = anima
 		}
@@ -428,6 +446,7 @@ country_decisions = {
     #-----------------------------------------
     draw_upon_the_void = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = void
             uses_church_aspects = yes
 		}
@@ -446,6 +465,7 @@ country_decisions = {
     
     incite_worshippers_void = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = void
             uses_church_aspects = yes
             any_neighbor_country = {

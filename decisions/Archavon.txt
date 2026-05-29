@@ -4,6 +4,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_minor_decisions
+            
         NOT = {
             has_country_flag = archavon_upgrade_trap_decision_open
         }

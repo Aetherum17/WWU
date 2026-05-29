@@ -1,6 +1,7 @@
 country_decisions = {
     start_banana_timewarp = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = banana
             has_country_flag = unlock_banana_switch_decision
 		}
@@ -20,6 +21,7 @@ country_decisions = {
     
     imbibe_volcano_cocktail = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = banana
             has_country_flag = unlock_volcano_banana_decision
             NOT = { has_ruler_modifier = volcano_cocktail }

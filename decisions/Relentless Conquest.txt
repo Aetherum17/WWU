@@ -1,6 +1,8 @@
 country_decisions = {
     enable_relentless_conquest = {
         potential = {
+            has_country_flag = display_system_decisions
+            
             # Nations that can use Relentless Conquest
             OR = {
                 has_country_flag = can_use_relentless_conqueror

@@ -1,7 +1,10 @@
 country_decisions = {
     # Allow Alliance members to jump into Outland
     establish_foothold_in_outland = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions
             has_country_modifier = member_of_alliance
 
             # Not capital in outland
@@ -54,7 +57,10 @@ country_decisions = {
     
     # Open Dimensional Portals
     open_dimensional_portals = {
+        major = yes
+        
 		potential = {   
+            has_country_flag = display_major_decisions
             NOT = { has_global_flag = opened_dimensional_portals }
             
             # Not in the Rise of the Horde age

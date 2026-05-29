@@ -2,6 +2,8 @@ country_decisions = {
 
 	encourage_worship_murloc = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_murloc
             NOT = { has_country_modifier = encouraged_worship }
 		}
@@ -26,6 +28,8 @@ country_decisions = {
     
     embrace_magic = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_murloc
             NOT = { has_country_modifier = embraced_magic }
 		}
@@ -49,6 +53,8 @@ country_decisions = {
     
     gather_treasure = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_murloc
             NOT = { has_country_modifier = treasures_of_azeroth }
 		}
@@ -72,6 +78,8 @@ country_decisions = {
     
     muster_murlocs = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_murloc
             NOT = { has_country_modifier = murloc_muster }
 		}
@@ -98,6 +106,8 @@ country_decisions = {
     
     call_a_gmmmlmmmrrmrmrmgrg = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_murloc
             NOT = { has_country_modifier = gmmmlmmmrrmrmrmgrg }
 		}

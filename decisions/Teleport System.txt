@@ -3,6 +3,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_system_decisions
+            
             # Has atleast 2 portals
             calc_true_if = {
                 amount = 2
@@ -50,6 +52,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_system_decisions
+            
             tag = P74 # Azjol-Nerub
             calc_true_if = {
                 amount = 2

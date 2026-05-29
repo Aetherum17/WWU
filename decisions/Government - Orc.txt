@@ -1,6 +1,7 @@
 country_decisions = {
     embark_on_spirit_journey = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_embark_on_spirit_journey_decision
         }
         allow = {
@@ -26,6 +27,7 @@ country_decisions = {
     
     form_demonic_covenant = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_demonic_covenant_decision
         }
         allow = {
@@ -54,6 +56,7 @@ country_decisions = {
     
     spread_death_and_decay = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_spread_death_and_decay_decision
         }
         allow = {

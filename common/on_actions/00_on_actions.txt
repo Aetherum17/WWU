@@ -16,6 +16,7 @@ on_startup = {
 	#on_startup__gilneas = yes
 	##set_up_of_estate_privileges = yes
     on_startup__omens = yes
+    on_startup__decisions = yes
 }
 
 # ROOT = Country

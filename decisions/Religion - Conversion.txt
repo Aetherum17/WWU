@@ -1,6 +1,7 @@
 country_decisions = {
     time_for_religious_monarch = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { ruler_religion = ROOT }
         }
         allow = {
@@ -30,6 +31,7 @@ country_decisions = {
     
     enforce_religious_hegemony = {
         potential = {
+            has_country_flag = display_religious_decisions
             has_government_attribute = enables_forced_conversion
         }
         allow = {
@@ -60,6 +62,7 @@ country_decisions = {
     
     submission_to_arcane = {
         potential = {
+            has_country_flag = display_religious_decisions
             primary_culture = culture_high_elf
             religion = holy_light
         }
@@ -126,6 +129,7 @@ country_decisions = {
 	
 	corruption_of_the_ruler_to_the_death = {
         potential = {
+            has_country_flag = display_religious_decisions
             ruler_religion = cult_of_the_damned
 			has_country_flag = can_corrupt_ruler
 			NOT = { has_country_flag = corruption_of_the_ruler_to_the_death_flag }

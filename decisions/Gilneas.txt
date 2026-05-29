@@ -1,7 +1,11 @@
 country_decisions = {
     # Release Greymane
     release_greymane = {
+        major = yes
+        
         potential = {
+            has_country_flag = display_major_decisions
+            
             has_country_modifier = imprisonment_of_greymane
             
             # Block for the immediate years after the disaster
@@ -52,7 +56,11 @@ country_decisions = {
     
     # Release Crownley
     release_crowley = {
+        major = yes
+        
         potential = {
+            has_country_flag = display_major_decisions
+            
             has_country_modifier = imprisonment_of_crowley
             
             # Block for the immediate years after the disaster
@@ -100,7 +108,11 @@ country_decisions = {
     
     # End Gilnean Isolation
     end_gilnean_isolation = {
+        major = yes
+        
         potential = {
+            has_country_flag = display_major_decisions
+            
             has_country_modifier = gilnean_isolation
             
             # Block for the immediate years after the disaster
@@ -139,6 +151,8 @@ country_decisions = {
     }
 	launch_assasination_attempt_against_ashbury_walden = {
 		potential = {
+            has_country_flag = display_minor_decisions
+            
 			tag = A12
 			
 			OR = {
@@ -179,6 +193,8 @@ country_decisions = {
 	
 	find_the_body_of_godfrey = { #For the Forsaken
 		potential = {
+            has_country_flag = display_minor_decisions
+            
 			tag = P14
 			has_global_flag = A12_godfrey_died
 			
@@ -211,8 +227,12 @@ country_decisions = {
 		}
 	}
 	
-	remake_lordaeron = { # A12_unlock_decision_reborn_lordaeron
+	remake_lordaeron = { # A12_unlock_decision_reborn_lordaeron 
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions  
+            
 			has_country_flag = A12_unlock_decision_reborn_lordaeron_cf #Took decision to cede Tirisfal to X04
 			NOT = { has_country_flag = A12_already_taken_remake_lordaeron }
 		}
@@ -284,7 +304,11 @@ country_decisions = {
 	}
 	
 	A12_destroy_scholomance_decision = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions  
+            
 			owns = 790
 			790 = {
 				has_great_project = {
@@ -318,6 +342,8 @@ country_decisions = {
 	
 	give_andorhal_to_new_lordaeron = { #Andorhal
 		potential = {
+            has_country_flag = display_minor_decisions  
+            
 			has_country_flag = A12_unlock_decision_reborn_lordaeron_for_andorhal_cf #Completed mission : "A12_reconquest_of_andorhal"
 			has_country_flag = A12_X04_spawned #Does X04 is actually free ?
 			NOT = { has_country_flag = A12_already_taken_give_andorhal_to_new_lordaeron }
@@ -357,6 +383,8 @@ country_decisions = {
 	}
 	give_stratholme_to_new_lordaeron = { #Stratholme
 		potential = {
+            has_country_flag = display_minor_decisions  
+            
 			has_country_flag = A12_unlock_decision_reborn_lordaeron_for_stratholme_cf #Completed mission : "A12_reconquest_of_stratholme"
 			has_country_flag = A12_X04_spawned #Does X04 is actually free ?
 			NOT = { has_country_flag = A12_already_taken_give_stratholme_to_new_lordaeron }

@@ -1,6 +1,10 @@
 country_decisions = {
     adopt_piratical_government = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_government_decisions
+            
 			is_subject = no
             government = republic
 			NOT = { has_reform = pirate_republic_reform }
@@ -35,6 +39,8 @@ country_decisions = {
     
     reward_public_offices = {
         potential = {
+            has_country_flag = display_government_decisions
+            
 			has_government_attribute = enables_reward_public_offices_decision
 		}
 		allow = {
@@ -57,6 +63,8 @@ country_decisions = {
     
     promote_loyalists = {
         potential = {
+            has_country_flag = display_government_decisions
+            
 			has_government_attribute = enables_reward_promote_loyalists_decision
 		}
 		allow = {
@@ -79,6 +87,8 @@ country_decisions = {
     
     loot_treasury = {
         potential = {
+            has_country_flag = display_government_decisions
+            
 			has_government_attribute = enables_reward_loot_treasury_decision
 		}
 		allow = {
@@ -100,6 +110,8 @@ country_decisions = {
     
     execute_traitor = {
         potential = {
+            has_country_flag = display_government_decisions
+            
 			has_government_attribute = enables_execute_traitor_decision
             has_regency = no
 		}

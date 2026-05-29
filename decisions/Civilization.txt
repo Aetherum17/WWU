@@ -4,6 +4,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_system_decisions
+            
             NOT = { has_country_flag = has_become_civilized_nation }
             NOT = { has_country_flag = civilization_process_active }
             

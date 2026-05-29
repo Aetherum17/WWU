@@ -2,6 +2,8 @@
 country_decisions = {
     summon_demonic_reinforcements = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             OR = {
                 religion = fel
                 religion = chaos
@@ -40,6 +42,8 @@ country_decisions = {
 
     release_the_felstalkers = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             OR = {
                 religion = fel
                 religion = chaos

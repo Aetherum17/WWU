@@ -3,6 +3,8 @@ country_decisions = {
 		color = { 156 158 33 }
 		
 		potential = {
+            has_country_flag = display_major_decisions
+            
 			tag = SUR
             has_disaster = veil_of_suramar
             custom_trigger_tooltip = {

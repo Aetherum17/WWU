@@ -1,6 +1,8 @@
 country_decisions = {
 	exploit_resources = {
         potential = {
+            has_country_flag = display_minor_decisions
+            
 			NOT = { total_development = 50 }
             NOT = { has_country_modifier = careless_tax_explotation }
         }
@@ -31,6 +33,8 @@ country_decisions = {
     
     exploit_population = {
         potential = {
+            has_country_flag = display_minor_decisions
+            
 			NOT = { total_development = 50 }
             NOT = { has_country_modifier = careless_recruitment }
         }

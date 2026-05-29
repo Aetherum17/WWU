@@ -1,6 +1,8 @@
 country_decisions = {
 	drink_from_the_sunwell = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_thalassian
             capital_scope = {
                 region = region_isle_of_quel_danas
@@ -37,6 +39,8 @@ country_decisions = {
     
     enforce_the_forest_protection_act = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_thalassian
             capital_scope = {
                 OR = {
@@ -70,6 +74,8 @@ country_decisions = {
     
     create_the_three_gates = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_thalassian
             capital_scope = {
                 OR = {

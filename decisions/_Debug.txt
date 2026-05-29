@@ -13,6 +13,8 @@ country_decisions = {
     
     test_decision = {
 		potential = {
+            has_country_flag = display_minor_decisions
+            
 			has_global_flag = enable_debug
 		}
 		

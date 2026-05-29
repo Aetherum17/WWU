@@ -4,6 +4,8 @@ country_decisions = {
     #--------------------------------
     summon_avatar_of_corruption = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
             OR = {
                 has_country_modifier = seat_of_cthun
                 has_country_modifier = seat_of_yogg_saron
@@ -55,6 +57,8 @@ country_decisions = {
         color = { 38 34 11 }
 		
 		potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_country_modifier = awakening_cthun }
 			NOT = { has_country_flag = awakening_cthun_timer }
             NOT = { has_country_modifier = seat_of_cthun }
@@ -133,6 +137,8 @@ country_decisions = {
         color = { 51 80 87 }
 		
 		potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_country_modifier = awakening_yogg_saron }
 			NOT = { has_country_flag = awakening_yogg_saron_timer }
             NOT = { has_country_modifier = seat_of_yogg_saron }
@@ -217,6 +223,8 @@ country_decisions = {
         color = { 37 8 38 }
 		
 		potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_country_modifier = awakening_nzoth }
 			NOT = { has_country_flag = awakening_nzoth_timer }
             NOT = { has_country_modifier = seat_of_nzoth }
@@ -295,6 +303,8 @@ country_decisions = {
         color = { 23 36 5 }
 
 		potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_country_modifier = awakening_yshaarj }
 			NOT = { has_country_flag = awakening_yshaarj_timer }
             NOT = { has_country_modifier = seat_of_yshaarj }
@@ -369,6 +379,8 @@ country_decisions = {
     #--------------------------------
 	commune_with_tidemother = {
 		potential = {
+            has_country_flag = display_religious_decisions
+            
 			OR = {
                 religion = tidemother
                 dominant_religion = tidemother
@@ -423,6 +435,8 @@ country_decisions = {
         major = yes
 
         potential = {
+            has_country_flag = display_religious_decisions
+            
             tag = A97
             religion = cthun
             is_subject = no

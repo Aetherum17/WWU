@@ -1,6 +1,7 @@
 country_decisions = {
 	bolster_war_readiness = {
         potential = {
+            has_country_flag = display_government_decisions
 			government = tribal
             NOT = { has_country_modifier = tribal_war_readiness }
         }
@@ -48,6 +49,7 @@ country_decisions = {
     
     bolster_settlement_protection = {
         potential = {
+            has_country_flag = display_government_decisions
 			government = tribal
             NOT = { has_country_modifier = tribal_settlement_protection }
         }
@@ -95,6 +97,7 @@ country_decisions = {
     
     enforce_sustainable_foraging = {
         potential = {
+            has_country_flag = display_government_decisions
 			government = tribal
             NOT = { has_country_modifier = enforce_sustainable_foraging }
         }

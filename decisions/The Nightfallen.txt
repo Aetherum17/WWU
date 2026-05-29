@@ -1,6 +1,7 @@
 country_decisions = {
 	nourishment_of_the_withered = {
 		potential = {
+            has_country_flag = display_cultural_decisions
 			primary_culture = culture_withered
             NOT = { has_country_modifier = restoration_of_the_nightfallen }
 		}
@@ -40,6 +41,7 @@ country_decisions = {
     
     attempt_arcwine_heist = {
 		potential = {
+            has_country_flag = display_cultural_decisions
 			primary_culture = culture_withered
             NOT = { has_country_modifier = arcwine_heist_cooldown }
 		}

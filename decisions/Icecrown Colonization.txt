@@ -1,6 +1,8 @@
 country_decisions = {
     establish_glaciar_settlements = {
         potential = {
+            has_country_flag = display_minor_decisions
+            
 			OR = {
 				has_dlc = "Third Rome"
 				has_dlc = "Domination"
@@ -68,6 +70,8 @@ country_decisions = {
 
     estabilsh_surfice_colonies = {
         potential = {
+            has_country_flag = display_minor_decisions
+            
 			OR = {
 				has_dlc = "Third Rome"
 				has_dlc = "Domination"
@@ -122,6 +126,8 @@ country_decisions = {
 
     advance_the_glacier = {
         potential = {
+            has_country_flag = display_minor_decisions
+            
 			OR = {
 				has_dlc = "Third Rome"
 				has_dlc = "Domination"
@@ -184,6 +190,8 @@ country_decisions = {
 
     settle_icecrown_isles = {
         potential = {
+            has_country_flag = display_minor_decisions
+            
             capital_scope = {
                 OR = {
                     region = region_icecrown
@@ -241,6 +249,8 @@ country_decisions = {
 
     establish_glaciar_settlements_no_dlc = {
         potential = {
+            has_country_flag = display_minor_decisions
+            
 			OR = {
 				NOT = { has_dlc = "Third Rome" }
 				NOT = { has_dlc = "Domination" }

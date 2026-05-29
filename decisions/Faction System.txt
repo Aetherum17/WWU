@@ -8,6 +8,8 @@ country_decisions = {
         color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_major_decisions
+            
 			tag = STW
             has_global_flag = enabled_faction_mechanics
             NOT = { has_global_flag = alliance_dismantled }
@@ -118,6 +120,8 @@ country_decisions = {
         color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_major_decisions
+            
             tag = A08
             current_age = age_rise_of_the_horde
             has_global_flag = enabled_faction_mechanics
@@ -224,6 +228,8 @@ country_decisions = {
         color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_global_flag = horde_dismantled }
             has_global_flag = enabled_faction_mechanics
             # 50 years after Orcish invasion

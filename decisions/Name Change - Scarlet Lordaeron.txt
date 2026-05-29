@@ -5,6 +5,8 @@ country_decisions = {
         ai_importance = 0
         
 		potential = { 
+            has_country_flag = display_formable_decisions
+            
 			NOT = { exists = A08 }
 			tag = A22
 			NOT = { has_country_flag = is_scarlet_lordaeron_flag }

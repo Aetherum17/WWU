@@ -5,6 +5,8 @@ country_decisions = {
         ai_importance = 0
         
 		potential = { 
+            has_country_flag = display_formable_decisions
+            
 		    OR = {
                 tag = A30
                 tag = P56

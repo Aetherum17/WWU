@@ -4,6 +4,7 @@ country_decisions = {
     #-----------------------------------------
     encourage_daily_contemplation = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = daily_contemplation }
             religion = holy_light
 		}
@@ -30,6 +31,7 @@ country_decisions = {
     #-----------------------------------------
     soothe_the_naaru = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = naaru_senerity }
             religion = light_of_the_naaru
 		}
@@ -56,6 +58,7 @@ country_decisions = {
     #-----------------------------------------
     proselytize_the_unwilling = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = ferverous_proselytization }
             religion = scarlet_light
 		}
@@ -82,6 +85,7 @@ country_decisions = {
     #-----------------------------------------
     defend_the_righteous = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = defence_of_the_righteous }
             religion = argent_light
 		}
@@ -108,6 +112,7 @@ country_decisions = {
     #-----------------------------------------
     display_the_power_of_the_sunwell = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = awe_of_the_sunwell }
             religion = light_of_the_sunwell
 		}

@@ -5,6 +5,7 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions
             
 			NOT = { has_country_flag = is_northrend_flag }
             

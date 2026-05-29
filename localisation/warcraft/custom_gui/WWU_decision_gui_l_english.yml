@@ -1,0 +1,53 @@
+﻿l_english:
+ #-----------------------------------
+ # Decision GUI
+ #-----------------------------------
+ display_major_decisions: "Displaying Major decisions."
+ display_minor_decisions: "Displaying Minor decisions."
+ display_formable_decisions: "Displaying Formable decisions."
+ display_religious_decisions: "Displaying Religious decisions."
+ display_government_decisions: "Displaying Government decisions."
+ display_cultural_decisions: "Displaying Cultural decisions."
+ display_system_decisions: "Displaying Mechanical decisions."
+ 
+ enable_major_decisions_tt: "Enable the visibility of Major decisions."
+ disable_major_decisions_tt: "Disable the visibility of Major decisions."
+ 
+ enable_minor_decisions_tt: "Enable the visibility of Minor decisions."
+ disable_minor_decisions_tt: "Disable the visibility of Minor decisions."
+ 
+ enable_formable_decisions_tt: "Enable the visibility of Formable decisions."
+ disable_formable_decisions_tt: "Disable the visibility of Formable decisions."
+ 
+ enable_religion_decisions_tt: "Enable the visibility of Religious decisions."
+ disable_religion_decisions_tt: "Disable the visibility of Religious decisions."
+ 
+ enable_government_decisions_tt: "Enable the visibility of Government decisions."
+ disable_government_decisions_tt: "Disable the visibility of Government decisions."
+ 
+ enable_cultural_decisions_tt: "Enable the visibility of Cultural decisions."
+ disable_cultural_decisions_tt: "Disable the visibility of Cultural decisions."
+ 
+ enable_system_decisions_tt: "Enable the visibility of Mechanical decisions."
+ disable_system_decisions_tt: "Disable the visibility of Mechanical decisions."
+ 
+ SHOW_MAJOR_DECISIONS: "Major decisions will be displayed within the decision list."
+ HIDE_MAJOR_DECISIONS: "Major decisions will be hidden within the decision list."
+ 
+ SHOW_MINOR_DECISIONS: "Minor decisions will be displayed within the decision list."
+ HIDE_MINOR_DECISIONS: "Minor decisions will be hidden within the decision list."
+ 
+ SHOW_FORMABLE_DECISIONS: "Formable decisions will be displayed within the decision list."
+ HIDE_FORMABLE_DECISIONS: "Formable decisions will be hidden within the decision list."
+ 
+ SHOW_RELIGION_DECISIONS: "Religious decisions will be displayed within the decision list."
+ HIDE_RELIGION_DECISIONS: "Religious decisions will be hidden within the decision list."
+ 
+ SHOW_GOVERNMENT_DECISIONS: "Government decisions will be displayed within the decision list."
+ HIDE_GOVERNMENT_DECISIONS: "Government decisions will be hidden within the decision list."
+ 
+ SHOW_CULTURAL_DECISIONS: "Cultural decisions will be displayed within the decision list."
+ HIDE_CULTURAL_DECISIONS: "Cultural decisions will be hidden within the decision list."
+ 
+ SHOW_SYSTEM_DECISIONS: "Mechanical decisions will be displayed within the decision list."
+ HIDE_SYSTEM_DECISIONS: "Mechanical decisions will be hidden within the decision list."

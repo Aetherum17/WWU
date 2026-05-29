@@ -1,0 +1,72 @@
+spriteTypes = {	
+    # Major
+    spriteType = {
+		name = "GFX_enabled_major_decisions"
+		texturefile = "gfx/custom_gui/decisions/major_enabled.dds"
+	}
+    spriteType = {
+		name = "GFX_disabled_major_decisions"
+		texturefile = "gfx/custom_gui/decisions/major_disabled.dds"
+	}
+    
+    # Minor
+    spriteType = {
+		name = "GFX_enabled_minor_decisions"
+		texturefile = "gfx/custom_gui/decisions/minor_enabled.dds"
+	}
+    spriteType = {
+		name = "GFX_disabled_minor_decisions"
+		texturefile = "gfx/custom_gui/decisions/minor_disabled.dds"
+	}
+    
+    # Formable
+    spriteType = {
+		name = "GFX_enabled_formable_decisions"
+		texturefile = "gfx/custom_gui/decisions/formable_enabled.dds"
+	}
+    spriteType = {
+		name = "GFX_disabled_formable_decisions"
+		texturefile = "gfx/custom_gui/decisions/formable_disabled.dds"
+	}
+    
+    # Religious
+    spriteType = {
+		name = "GFX_enabled_religion_decisions"
+		texturefile = "gfx/custom_gui/decisions/religion_enabled.dds"
+	}
+    spriteType = {
+		name = "GFX_disabled_religion_decisions"
+		texturefile = "gfx/custom_gui/decisions/religion_disabled.dds"
+	}
+    
+    # Government
+    spriteType = {
+		name = "GFX_enabled_government_decisions"
+		texturefile = "gfx/custom_gui/decisions/government_enabled.dds"
+	}
+    spriteType = {
+		name = "GFX_disabled_government_decisions"
+		texturefile = "gfx/custom_gui/decisions/government_disabled.dds"
+	}
+    
+    # Cultural
+    spriteType = {
+		name = "GFX_enabled_cultural_decisions"
+		texturefile = "gfx/custom_gui/decisions/cultural_enabled.dds"
+	}
+    spriteType = {
+		name = "GFX_disabled_cultural_decisions"
+		texturefile = "gfx/custom_gui/decisions/cultural_disabled.dds"
+	}
+    
+    # System
+    spriteType = {
+		name = "GFX_enabled_system_decisions"
+		texturefile = "gfx/custom_gui/decisions/system_enabled.dds"
+	}
+    spriteType = {
+		name = "GFX_disabled_system_decisions"
+		texturefile = "gfx/custom_gui/decisions/system_disabled.dds"
+	}
+}
+

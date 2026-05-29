@@ -1,6 +1,8 @@
 country_decisions = {
 	awaken_from_dream = {
 		potential = {
+            has_country_flag = display_religious_decisions
+            
 			has_country_modifier = dreaming
 			religion = druidism
 		}
@@ -49,6 +51,8 @@ country_decisions = {
 	
 	slumber_into_dream = {
 		potential = {
+            has_country_flag = display_religious_decisions
+            
 			NOT = { has_country_modifier = dreaming }
 			religion = druidism
 		}

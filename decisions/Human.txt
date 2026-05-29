@@ -1,6 +1,8 @@
 country_decisions = {
 	inspire_righteousness = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_human
             NOT = { has_country_modifier = inspire_righteousness_modifier }
 		}
@@ -37,6 +39,8 @@ country_decisions = {
     
     enact_civil_code = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_human
             NOT = { has_country_modifier = civil_code }
 		}
@@ -64,6 +68,8 @@ country_decisions = {
     
     mobilize_workforces = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_human
             NOT = { has_country_modifier = mobilized_workforces }
 		}
@@ -86,6 +92,8 @@ country_decisions = {
     
     encourage_research = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_human
             NOT = { has_country_modifier = illusion_of_grandeur }
             NOT = { has_country_modifier = enchanted_spyglass }

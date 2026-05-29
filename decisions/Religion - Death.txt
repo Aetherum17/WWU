@@ -4,6 +4,7 @@ country_decisions = {
     #-----------------------------------------
     turn_the_dead = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = necromantic_surge }
             religion = cult_of_the_damned
 		}
@@ -27,6 +28,7 @@ country_decisions = {
     
     incite_worshippers_damned = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = cult_of_the_damned
             uses_church_aspects = yes
             any_neighbor_country = {
@@ -55,6 +57,7 @@ country_decisions = {
     #-----------------------------------------
     enforce_loa_worship = {
 	    potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = enforced_loa_worship }
             religion = voodoo
 		}
@@ -81,6 +84,7 @@ country_decisions = {
     #-----------------------------------------
     grant_tribute_to_hakkar = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = hakkari_boon }
             religion = hakkari
 		}
@@ -107,6 +111,7 @@ country_decisions = {
     #-----------------------------------------
     perform_blood_rites = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = blood_rites }
             religion = bloodmancy
 		}

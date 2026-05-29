@@ -1,6 +1,8 @@
 country_decisions = {
     firelord_free = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
             tag = P26
             ai = yes
             NOT = { is_subject = yes }
@@ -23,6 +25,8 @@ country_decisions = {
 
     windlord_free = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
             tag = P28
             ai = yes
             NOT = { is_subject = yes }
@@ -45,6 +49,8 @@ country_decisions = {
 
     tidehunter_free = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
             tag = P24
             ai = yes
             NOT = { is_subject = yes }
@@ -67,6 +73,8 @@ country_decisions = {
 
     stonemother_free = {
         potential = {
+            has_country_flag = display_religious_decisions
+            
             tag = P27
             ai = yes
             NOT = { is_subject = yes }

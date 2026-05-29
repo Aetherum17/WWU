@@ -1,6 +1,10 @@
 country_decisions = {   
 	 integrate_the_orcish_horde = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions
+            
 			ai = no
             has_country_flag = spawned_orcish_horde
             has_global_flag = orcish_horde_established
@@ -37,7 +41,11 @@ country_decisions = {
     
     # Allow a player orc nation to form the Orcish Horde through force
     form_the_orcish_horde = {
+        major = yes
+        
         potential = {
+            has_country_flag = display_major_decisions
+            
 			ai = no
             NOT = { exists = U03 }
             

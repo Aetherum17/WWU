@@ -4,6 +4,7 @@ country_decisions = {
     #-----------------------------
     raise_militia = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_raise_militia_decision
         }
         allow = {
@@ -45,6 +46,7 @@ country_decisions = {
     
     desperate_push = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_desperate_push_decision
         }
         allow = {
@@ -70,6 +72,7 @@ country_decisions = {
     
     scrapping_the_barrel = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_scrapping_the_barrel_decision
         }
         allow = {
@@ -105,6 +108,7 @@ country_decisions = {
     #-----------------------------
     perform_ritual = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_perform_ritual_decision
             NOT = { has_country_modifier = blessing_of_peace }
         }
@@ -127,6 +131,7 @@ country_decisions = {
     
     perform_sacrifice = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_perform_sacrifice_decision
             NOT = { has_country_modifier = ritual_sacrifice }
         }
@@ -153,6 +158,7 @@ country_decisions = {
     
     consult_the_elders = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_consult_the_elders_decision
             NOT = { has_country_modifier = elder_consultation }
         }
@@ -175,6 +181,7 @@ country_decisions = {
     
     adopt_tribal_religion = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_adopt_tribal_religion_decision
             NOT = { has_country_modifier = tribal_religion_cooldown }
         }
@@ -203,6 +210,7 @@ country_decisions = {
     
     unite_heathens = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_unite_heathens_decision
             NOT = { has_country_modifier = unite_heathens_cooldown }
             any_owned_province = {
@@ -236,6 +244,7 @@ country_decisions = {
     
     craft_fetish = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_craft_fetish_decision
             NOT = { has_country_modifier = national_fetish }
         }
@@ -260,6 +269,7 @@ country_decisions = {
     
     bless_tomb = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_bless_tomb_decision
             NOT = { has_country_modifier = ancestral_blessing }
         }
@@ -297,6 +307,7 @@ country_decisions = {
     
     construct_totem = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_construct_totem_decision
             NOT = { has_country_modifier = totemic_power }
         }
@@ -319,6 +330,7 @@ country_decisions = {
     
     produce_constructs = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_produce_constructs_decision
             NOT = { has_country_modifier = unwavering_guardians }
         }
@@ -341,6 +353,7 @@ country_decisions = {
     
     expel_wild_magic = {
         potential = {
+            has_country_flag = display_government_decisions
             has_government_attribute = enables_expel_wild_magic_decision
             NOT = { has_country_modifier = wild_magic }
         }

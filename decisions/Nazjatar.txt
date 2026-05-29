@@ -4,6 +4,8 @@ country_decisions = {
         major = yes
         
         potential = {
+            has_country_flag = display_formable_decisions
+            
 			has_country_modifier = mission_rise_of_the_naga
             NOT = { has_country_flag = decided_on_empire_of_azshara_state }
         }

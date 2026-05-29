@@ -6,6 +6,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_major_decisions
+            
 			NOT = { has_global_flag = seeds_of_teldrassil }
             
             # Allow for a non-Night Elf to create it if they are friends with a Night Elf nation
@@ -85,6 +87,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_major_decisions
+            
             owns = 1334
             NOT = { has_country_modifier = burning_nordrassil }
             NOT = { has_country_flag = burning_nordrassil_timer }
@@ -176,6 +180,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_country_flag = burnt_nordrassil }
             controls = 1334
             1334 = {
@@ -243,6 +249,8 @@ country_decisions = {
         color = { 156 158 23 }
         
         potential = {
+            has_country_flag = display_major_decisions
+            
             has_global_flag = nordrassil_burned
             NOT = { has_country_flag = is_evil }
             NOT = { religion = fel }
@@ -311,6 +319,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_major_decisions
+            
             owns = 1073
             NOT = { has_country_modifier = burning_teldrassil }
             NOT = { has_country_flag = burning_teldrassil_timer }
@@ -403,6 +413,8 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_country_flag = burnt_teldrassil }
             controls = 1073
             1073 = {
@@ -456,6 +468,8 @@ country_decisions = {
         color = { 156 158 23 }
         
         potential = {
+            has_country_flag = display_major_decisions
+            
             has_global_flag = teldrassil_burned
             NOT = { has_country_flag = is_evil }
             NOT = { religion = fel }

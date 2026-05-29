@@ -1,6 +1,7 @@
 country_decisions = {    
     seek_kaja_mite = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_goblin
             NOT = { has_country_modifier = seek_kaja_mite }
         }
@@ -34,6 +35,7 @@ country_decisions = {
 	
     consult_with_the_trade_princes = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_goblin
             NOT = { has_country_modifier = aggressive_marketing }
         }
@@ -56,6 +58,7 @@ country_decisions = {
     
     establish_illicit_connections = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_goblin
             NOT = { has_country_modifier = illicit_connections }
         }
@@ -79,6 +82,7 @@ country_decisions = {
     
     blackmail_labourers = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_goblin
             NOT = { has_country_modifier = blackmailed_labourers }
         }
@@ -101,6 +105,7 @@ country_decisions = {
     
     alchemy_surge = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = avarice
             NOT = { has_country_modifier = alchemy_surge }
             NOT = { has_country_modifier = explosives_surge }
@@ -124,6 +129,7 @@ country_decisions = {
     
     explosives_surge = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_goblin
             NOT = { has_country_modifier = alchemy_surge }
             NOT = { has_country_modifier = explosives_surge }
@@ -147,6 +153,7 @@ country_decisions = {
     
     engineering_surge = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_goblin
             NOT = { has_country_modifier = alchemy_surge }
             NOT = { has_country_modifier = explosives_surge }

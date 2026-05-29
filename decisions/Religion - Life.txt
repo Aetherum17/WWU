@@ -4,6 +4,7 @@ country_decisions = {
     #-----------------------------------------
     soothe_the_dream = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = druidism
             NOT = { has_country_modifier = dream_support_cooldown }
         }
@@ -43,6 +44,7 @@ country_decisions = {
     
     sacrifice_druid = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = druidism
             has_advisor = yes
             NOT = { has_country_modifier = dream_support_cooldown }
@@ -82,6 +84,7 @@ country_decisions = {
     
     sycretise_druidism_and_elune = {
         potential = {
+            has_country_flag = display_religious_decisions
             ruler_religion = druidism
             religion = elune
             NOT = { has_country_modifier = druidic_elune_syncretism }
@@ -106,6 +109,7 @@ country_decisions = {
     
     enforce_druidism = {
         potential = {
+            has_country_flag = display_religious_decisions
             ruler_religion = druidism
             religion = elune
         }
@@ -129,6 +133,7 @@ country_decisions = {
     
     call_upon_the_dream = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = druidism
             NOT = { has_country_modifier = dream_empowerment }
         }
@@ -152,6 +157,7 @@ country_decisions = {
     
     siphon_the_dream = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = druidism
             NOT = { has_country_modifier = dream_siphon }
         }
@@ -174,6 +180,7 @@ country_decisions = {
     
     delve_into_the_dream = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = dream_knowledge }
             religion = druidism
 		}
@@ -197,6 +204,7 @@ country_decisions = {
     
     summon_forth_emerald_spirits = {
         potential = {
+            has_country_flag = display_religious_decisions
             piety = 0.0
             religion = druidism
             NOT = { has_country_modifier = summoned_emerald_spirits }
@@ -239,6 +247,7 @@ country_decisions = {
     #-----------------------------------------
     seek_elunes_wisdom = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = wisdom_of_elune }
             religion = elune
 		}
@@ -261,6 +270,7 @@ country_decisions = {
 	}
     beckon_the_night_warrior = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = elune
             NOT = { has_country_modifier = night_warrior_unleashed }
         }
@@ -306,6 +316,7 @@ country_decisions = {
     #-----------------------------------------
     seek_council_with_the_august_celestials = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = celestial_spirit }
             religion = celestials
 		}
@@ -329,6 +340,7 @@ country_decisions = {
     
     call_upon_the_jade_serpent = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = celestials
             has_personal_deity = deity_yulon
             NOT = { has_country_modifier = celestial_support }
@@ -362,6 +374,7 @@ country_decisions = {
     }
     call_upon_the_red_crane = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = celestials
             has_personal_deity = deity_chiji
             NOT = { has_country_modifier = celestial_support }
@@ -396,6 +409,7 @@ country_decisions = {
     }
     call_upon_the_black_ox = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = celestials
             has_personal_deity = deity_niuzao
             NOT = { has_country_modifier = celestial_support }
@@ -430,6 +444,7 @@ country_decisions = {
     }
     call_upon_the_white_tiger = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = celestials
             has_personal_deity = deity_xuen
             NOT = { has_country_modifier = celestial_support }
@@ -464,6 +479,7 @@ country_decisions = {
     }
     call_upon_the_monkey_king = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = celestials
             has_personal_deity = deity_monkey_king
             NOT = { has_country_modifier = celestial_support }
@@ -589,6 +605,7 @@ country_decisions = {
     #-----------------------------------------
     spread_fungal_spores = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = fungal_spores }
             religion = zangar
 		}
@@ -615,6 +632,7 @@ country_decisions = {
     #-----------------------------------------
     beckon_the_ocean = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = oceanic_purge }
             religion = arkkorok
 		}
@@ -641,6 +659,7 @@ country_decisions = {
     #-----------------------------------------
     enact_religious_rites = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = religious_rites }
             OR = {
                 religion = ogre_idolatry

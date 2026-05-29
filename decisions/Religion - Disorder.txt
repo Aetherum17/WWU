@@ -1,6 +1,7 @@
 country_decisions = {
     break_from_the_burning_legion = {
 		potential = {
+            has_country_flag = display_religious_decisions
 			NOT = { has_country_modifier = free_from_the_burning_legion }
 			religion = fel
 			NOT = { tag = B92 }
@@ -34,6 +35,7 @@ country_decisions = {
     
     return_to_the_burning_legion = {
 		potential = {
+            has_country_flag = display_religious_decisions
             has_country_modifier = free_from_the_burning_legion
 			religion = fel
 			NOT = { tag = B92 }
@@ -53,6 +55,7 @@ country_decisions = {
     
     invite_legion_emissaries = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = burning_legion_emissaries }
             religion = fel
 			NOT = { tag = B92 }
@@ -77,6 +80,7 @@ country_decisions = {
     
     construct_fel_conduits = {
         potential = {
+            has_country_flag = display_religious_decisions
             NOT = { has_ruler_modifier = fel_conduits }
             religion = fel
 		}

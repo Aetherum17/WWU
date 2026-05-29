@@ -1,12 +1,16 @@
 #Ancient Elven Cities Menu
 #Open/Close
 country_decisions = {
-    decision_aec_menu_open = {
+    
+	#Rebuild Eldarath
+    rebuild_eldarath = {
 		major = yes
         ai_importance = 0
         
-		potential = {
-			OR = {
+		potential = {  
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
 			    culture_group = culture_group_darnassian
 			    culture_group = culture_group_shalassian
 			    culture_group = culture_group_satyr
@@ -17,63 +21,9 @@ country_decisions = {
 			NOT = { tag = MSF }
 			NOT = { tag = U04 }
 			NOT = { tag = FDE }
-		}
-		
-		allow = {
-            always = yes			
-		}
-		
-		effect = {		    
-		    if = {
-		        limit = {
-			        NOT = { has_country_flag = anc_elven_city_menu_open }
-			    }
-			    set_country_flag = anc_elven_city_menu_open  
-		    }
-			else_if = {
-		        limit = {
-			        has_country_flag = anc_elven_city_menu_open
-			    }
-			    clr_country_flag = anc_elven_city_menu_open  
-		    }
-
-			if = {
-                limit = {
-                    ai = yes
-                }
-                
-                add_country_modifier = {
-                    name = ai_handler__elven_cities_formation_menu
-                    duration = 3600
-                }
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                NOT = { 
-                    has_country_modifier = ai_handler__elven_cities_formation_menu
-                }
-            }
-		}
-	}
-
-	#Rebuild Eldarath
-    rebuild_eldarath = {
-		major = yes
-        ai_importance = 0
-        
-		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
 			
 		    # Exclusions
 			NOT = { exists = ELD }
-			NOT = { tag = A94 }
             NOT = { tag = NJZ }
 						
 		}
@@ -121,13 +71,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
 			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
             
 		    # Exclusions
 			NOT = { exists = ELR }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }
 			
 		}
         
@@ -174,13 +134,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
-			NOT = { exists = ELE }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }			
+			NOT = { exists = ELE }	
 			
 		}
         
@@ -227,13 +197,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = ISI }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 			
 		}
         
@@ -280,13 +260,24 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = KEL }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 		}
         
 		provinces_to_highlight = {
@@ -332,13 +323,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = LAT }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 			
 		}
         
@@ -386,13 +387,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = LOR }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 			
 		}
         
@@ -439,13 +450,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = MAT }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 		}
         
 		provinces_to_highlight = {
@@ -492,13 +513,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = MOR }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 			
 		}
         
@@ -545,13 +576,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = NAL }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 		}
         
 		provinces_to_highlight = {
@@ -611,13 +652,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {  
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = SHN }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 		}
         
 		provinces_to_highlight = {
@@ -662,13 +713,23 @@ country_decisions = {
         ai_importance = 0
         
 		potential = { 
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+            OR = {
+			    culture_group = culture_group_darnassian
+			    culture_group = culture_group_shalassian
+			    culture_group = culture_group_satyr
+			    culture_group = culture_group_naga
+			}
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = SUR }
-			NOT = { tag = A94 }
-			NOT = { tag = NJZ }	
 			
             # Requisites
 			OR = {
@@ -721,12 +782,19 @@ country_decisions = {
         ai_importance = 0
         
 		potential = { 
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+			culture_group = culture_group_naga
+            
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = VHJ }
-			NOT = { tag = NJZ }
 			
 			culture_group = culture_group_naga
             
@@ -774,13 +842,20 @@ country_decisions = {
         ai_importance = 0
         
 		potential = { 
-            has_country_flag = anc_elven_city_menu_open
-            NOT = { has_country_flag = rebuild_ancient_elven_cities }
+            has_country_flag = display_formable_decisions  
+            
+			culture_group = culture_group_naga
+            
+			NOT = { has_country_flag = rebuild_ancient_elven_cities }
+			NOT = { tag = A94 }
+			NOT = { tag = MSF }
+			NOT = { tag = U04 }
+			NOT = { tag = FDE }
+			NOT = { tag = NJZ }	
 			
 		    # Exclusions
 			NOT = { exists = AZH }
 			
-			culture_group = culture_group_naga
             
 		}
         

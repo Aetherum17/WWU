@@ -3,6 +3,8 @@ country_decisions = {
 		major = yes
 		
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			tag = A29 # ironforge
 			NOT = { has_country_flag = unified_dwarf }
             NOT = { A28 = { has_country_flag = unified_dwarf } }
@@ -67,6 +69,8 @@ country_decisions = {
 		major = yes
 		
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			tag = A28
 			NOT = { has_country_flag = unified_dwarf }
             NOT = { A29 = { has_country_flag = unified_dwarf } }
@@ -131,6 +135,8 @@ country_decisions = {
 		major = yes
 		
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			tag = A30
 			NOT = { has_country_flag = unified_dwarf }
             NOT = { A28 = { has_country_flag = unified_dwarf } }

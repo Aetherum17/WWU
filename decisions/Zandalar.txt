@@ -4,6 +4,7 @@ country_decisions = {
         color = { 148 67 55 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
             tag = A78
 			NOT = { has_country_flag = zandalar_great_war_start }
 			has_country_flag = display_council_of_zanchul_menu
@@ -42,6 +43,7 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_major_decisions
 			tag = ZUZ
 			A78 = {
                 has_country_flag = zandalar_great_war
@@ -78,6 +80,7 @@ country_decisions = {
         ai_importance = 0
         
         potential = {
+            has_country_flag = display_major_decisions
             tag = A78 # Zandalar
             
             # Amani
@@ -122,6 +125,7 @@ country_decisions = {
         ai_importance = 0
         
         potential = {
+            has_country_flag = display_major_decisions
             tag = A78 # Zandalar
             
             # Gurubashi
@@ -166,6 +170,7 @@ country_decisions = {
         ai_importance = 0
         
         potential = {
+            has_country_flag = display_major_decisions
             tag = A78
             # Drakkari
 			A74 = {
@@ -209,6 +214,7 @@ country_decisions = {
         ai_importance = 0
         
         potential = {
+            has_country_flag = display_major_decisions
             tag = A78
             # Sandfury
 			A73 = {
@@ -252,6 +258,7 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
             tag = A78
             NOT = { has_country_flag = zandalari_troll_meeting_end_time }
             has_country_flag = zandalari_troll_drakkari
@@ -331,6 +338,7 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
             tag = A78
             NOT = { has_country_flag = zandalari_troll_meeting_end_time }
             has_country_flag = zandalari_troll_farraki
@@ -408,6 +416,7 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
             tag = A78
             NOT = { has_country_flag = zandalari_troll_meeting_end_time }
             has_country_flag = zandalari_troll_gurubashi
@@ -485,6 +494,7 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_cultural_decisions
             tag = A78
             has_country_flag = zandalari_troll_amani
             exists = A58
@@ -562,6 +572,7 @@ country_decisions = {
         color = { 156 158 33 }
         
         potential = {
+            has_country_flag = display_major_decisions
             tag = A78 # Zandalar
             has_country_flag = zandalar_war_against_pandaria_preparation
         }

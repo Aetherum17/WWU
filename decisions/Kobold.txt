@@ -1,6 +1,8 @@
 country_decisions = {
 	collect_shinies = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_kobold
             NOT = { has_country_modifier = shiny_trove }
 		}
@@ -30,6 +32,8 @@ country_decisions = {
     
     build_candle_shrine = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_kobold
             NOT = { has_country_modifier = candle_devotion }
 		}

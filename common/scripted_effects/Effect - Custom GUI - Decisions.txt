@@ -1,0 +1,20 @@
+#-----------------------------------
+# On Actions
+#-----------------------------------
+on_startup__decisions = {
+    if = {
+        limit = {
+            NOT = { has_country_flag = decision_vis_setup }
+        }
+        
+        set_country_flag = decision_vis_setup
+        
+        set_country_flag = display_major_decisions      # For big change decisions
+        set_country_flag = display_minor_decisions      # Catch-all
+        set_country_flag = display_formable_decisions   # For decisions that change tag/name
+        set_country_flag = display_religious_decisions  # For decisions that are aligned by religion
+        set_country_flag = display_government_decisions # For decisions that are aligned by government
+        set_country_flag = display_cultural_decisions   # For decisions that are aligned by culture
+        set_country_flag = display_system_decisions     # For decisions that are mechanical
+    }
+}

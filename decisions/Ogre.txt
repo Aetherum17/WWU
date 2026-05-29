@@ -1,6 +1,8 @@
 country_decisions = {	
     hire_retinue = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             culture_group = culture_group_ogre
             NOT = { has_ruler_modifier = personal_retinue }
         }
@@ -35,6 +37,8 @@ country_decisions = {
 
 	tame_clefthoof_packs = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             culture_group = culture_group_ogre
             NOT = { has_country_modifier = tamed_clefthooves }
         }
@@ -68,6 +72,8 @@ country_decisions = {
 
 	host_brawls = {
         potential = {
+            has_country_flag = display_cultural_decisions
+            
             culture_group = culture_group_ogre
             NOT = { has_ruler_modifier = hosted_brawls }
         }
@@ -100,7 +106,11 @@ country_decisions = {
 
 
     move_capital_goria = {
+        major = yes
+        
         potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { has_country_flag = relocated_capital_goria }
             tag = OGR
             area_shattrath_draenor = {

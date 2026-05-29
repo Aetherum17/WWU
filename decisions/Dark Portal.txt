@@ -5,6 +5,8 @@ country_decisions = {
         ai_importance = 10
         
 		potential = {
+            has_country_flag = display_major_decisions
+            
             # Draenor exists
             NOT = { has_global_flag = setup_outland }
             
@@ -48,6 +50,8 @@ country_decisions = {
         ai_importance = 10
         
 		potential = {
+            has_country_flag = display_major_decisions
+            
             # Outland Exists
             has_global_flag = setup_outland
             

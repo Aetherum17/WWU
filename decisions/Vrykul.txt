@@ -2,6 +2,7 @@
 country_decisions = {
     the_great_game = {
         potential = {
+            has_country_flag = display_cultural_decisions
             has_country_flag = great_game_unlocked
         }
         allow = {
@@ -24,6 +25,7 @@ country_decisions = {
 	# Vrykul Flavour
     vrykul_host_feast = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_vrykul
             NOT = { has_country_modifier = vrykul_flavour_hosting_feast }
         }
@@ -45,6 +47,7 @@ country_decisions = {
     }
     vrykul_organize_tournaments = {
         potential = {
+            has_country_flag = display_cultural_decisions
             culture_group = culture_group_vrykul
             NOT = { has_country_modifier = vrykul_flavour_organize_tournament }
         }

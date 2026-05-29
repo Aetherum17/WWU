@@ -3,6 +3,8 @@ country_decisions = {
 	enter_uldaman = {
 		major = yes
         potential = {
+            has_country_flag = display_major_decisions
+            
 			OR = {
 				AND = {
 					tag = A29

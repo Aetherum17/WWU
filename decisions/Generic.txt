@@ -1,6 +1,8 @@
 country_decisions = {
     institute_yearly_assessments = {
         potential = {
+            has_country_flag = display_minor_decisions  
+            
 			army_professionalism = 0.2
             has_dlc = "Cradle of Civilization"
             NOT = { has_country_modifier = yearly_assessments }
@@ -28,6 +30,8 @@ country_decisions = {
     
 	enlist_privateers = {
 		potential = {
+            has_country_flag = display_minor_decisions  
+            
 			NOT = { has_country_modifier = hire_privateers }
 			navy_size = 1
 			has_idea_group = wwu_trade_ideas
@@ -54,6 +58,8 @@ country_decisions = {
 	
     invest_in_speculative_research = {
         potential = {
+            has_country_flag = display_minor_decisions  
+            
             has_dlc = "Rule Britannia"
             innovativeness = 10
         }

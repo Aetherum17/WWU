@@ -1,0 +1,265 @@
+#----------------------------------------
+# Custom GUI - For non-specific elements
+#----------------------------------------
+custom_button = {
+    name = enable_major_decisions_button
+    tooltip = enable_major_decisions_tt
+    
+    potential = {
+        NOT = { has_country_flag = display_major_decisions }
+    }
+    
+    trigger = { 
+    
+    }
+    
+    effect = { 
+        custom_tooltip = SHOW_MAJOR_DECISIONS
+        hidden_effect = {
+            set_country_flag = display_major_decisions
+        }
+    }
+}
+custom_button = {
+    name = disable_major_decisions_button
+    tooltip = disable_major_decisions_tt
+    
+    potential = {
+        has_country_flag = display_major_decisions
+    }
+    
+    trigger = { 
+    
+    }
+    
+    effect = { 
+        custom_tooltip = HIDE_MAJOR_DECISIONS
+        hidden_effect = {
+            clr_country_flag = display_major_decisions
+        }
+    }
+}
+
+custom_button = {
+    name = enable_minor_decisions_button
+    tooltip = enable_minor_decisions_tt
+    
+    potential = {
+        NOT = { has_country_flag = display_minor_decisions }
+    }
+    
+    trigger = { 
+    
+    }
+    
+    effect = { 
+        custom_tooltip = SHOW_MINOR_DECISIONS
+        hidden_effect = {
+            set_country_flag = display_minor_decisions
+        }
+    }
+}
+custom_button = {
+    name = disable_minor_decisions_button
+    tooltip = disable_minor_decisions_tt
+    
+    potential = {
+        has_country_flag = display_minor_decisions
+    }
+    
+    trigger = { 
+    
+    }
+    
+    effect = { 
+        custom_tooltip = HIDE_MINOR_DECISIONS
+        hidden_effect = {
+            clr_country_flag = display_minor_decisions
+        }
+    }
+}
+
+custom_button = {
+    name = enable_formable_decisions_button
+    tooltip = enable_formable_decisions_tt
+    
+    potential = {
+        NOT = { has_country_flag = display_formable_decisions }
+    }
+    
+    trigger = { 
+    }
+    
+    effect = { 
+        custom_tooltip = SHOW_FORMABLE_DECISIONS
+        hidden_effect = {
+            set_country_flag = display_formable_decisions
+        }
+    }
+}
+custom_button = {
+    name = disable_formable_decisions_button
+    tooltip = disable_formable_decisions_tt
+    
+    potential = {
+        has_country_flag = display_formable_decisions
+    }
+    
+    trigger = { 
+    }
+    
+    effect = {
+        custom_tooltip = HIDE_FORMABLE_DECISIONS
+        hidden_effect = {
+            clr_country_flag = display_formable_decisions
+        }
+    }
+}
+
+custom_button = {
+    name = enable_religion_decisions_button
+    tooltip = enable_religion_decisions_tt
+    
+    potential = {
+        NOT = { has_country_flag = display_religious_decisions }
+    }
+    
+    trigger = { 
+    }
+    
+    effect = { 
+        custom_tooltip = SHOW_RELIGION_DECISIONS
+        hidden_effect = {
+            set_country_flag = display_religious_decisions
+        }
+    }
+}
+custom_button = {
+    name = disable_religion_decisions_button
+    tooltip = disable_religion_decisions_tt
+    
+    potential = {
+        has_country_flag = display_religious_decisions
+    }
+    
+    trigger = { 
+    }
+    
+    effect = {
+        custom_tooltip = HIDE_RELIGION_DECISIONS
+        hidden_effect = {
+            clr_country_flag = display_religious_decisions
+        }
+    }
+}
+
+custom_button = {
+    name = enable_government_decisions_button
+    tooltip = enable_government_decisions_tt
+    
+    potential = {
+        NOT = { has_country_flag = display_government_decisions }
+    }
+    
+    trigger = { 
+    }
+    
+    effect = { 
+        custom_tooltip = SHOW_GOVERNMENT_DECISIONS
+        hidden_effect = {
+            set_country_flag = display_government_decisions
+        }
+    }
+}
+custom_button = {
+    name = disable_government_decisions_button
+    tooltip = disable_government_decisions_tt
+    
+    potential = {
+        has_country_flag = display_government_decisions
+    }
+    
+    trigger = { 
+    }
+    
+    effect = {
+        custom_tooltip = HIDE_GOVERNMENT_DECISIONS
+        hidden_effect = {
+            clr_country_flag = display_government_decisions
+        }
+    }
+}
+
+custom_button = {
+    name = enable_cultural_decisions_button
+    tooltip = enable_cultural_decisions_tt
+    
+    potential = {
+        NOT = { has_country_flag = display_cultural_decisions }
+    }
+    
+    trigger = { 
+    }
+    
+    effect = { 
+        custom_tooltip = SHOW_CULTURAL_DECISIONS
+        hidden_effect = {
+            set_country_flag = display_cultural_decisions
+        }
+    }
+}
+custom_button = {
+    name = disable_cultural_decisions_button
+    tooltip = disable_cultural_decisions_tt
+    
+    potential = {
+        has_country_flag = display_cultural_decisions
+    }
+    
+    trigger = { 
+    }
+    
+    effect = {
+        custom_tooltip = HIDE_CULTURAL_DECISIONS
+        hidden_effect = {
+            clr_country_flag = display_cultural_decisions
+        }
+    }
+}
+
+custom_button = {
+    name = enable_system_decisions_button
+    tooltip = enable_system_decisions_tt
+    
+    potential = {
+        NOT = { has_country_flag = display_system_decisions }
+    }
+    
+    trigger = { 
+    }
+    
+    effect = { 
+        custom_tooltip = SHOW_SYSTEM_DECISIONS
+        hidden_effect = {
+            set_country_flag = display_system_decisions
+        }
+    }
+}
+custom_button = {
+    name = disable_system_decisions_button
+    tooltip = disable_system_decisions_tt
+    
+    potential = {
+        has_country_flag = display_system_decisions
+    }
+    
+    trigger = { 
+    }
+    
+    effect = {
+        custom_tooltip = HIDE_SYSTEM_DECISIONS
+        hidden_effect = {
+            clr_country_flag = display_system_decisions
+        }
+    }
+}

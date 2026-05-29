@@ -3,6 +3,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_broken_isles }
@@ -59,6 +61,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_draenor }
@@ -115,6 +119,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_eastern_kingdoms }
@@ -179,6 +185,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_kalimdor }
@@ -243,6 +251,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_kul_tiras }
@@ -299,6 +309,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_northrend }
@@ -355,6 +367,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_outland }
@@ -411,6 +425,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_pandaria }
@@ -467,6 +483,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_zandalar }
@@ -523,6 +541,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_argus }
@@ -579,6 +599,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_south_seas }
@@ -635,6 +657,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_naga_domain }
@@ -691,6 +715,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_paradise_isles }
@@ -747,6 +773,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_plunder_isle }
@@ -803,6 +831,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_elemental_realms }
@@ -859,6 +889,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_dragon_isles }
@@ -915,6 +947,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_shadowlands }
@@ -971,6 +1005,8 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+            has_country_flag = display_system_decisions
+            
             has_reform = wwu_culture_assimilation
             NOT = { has_country_flag = block_monument_research_decision }
             NOT = { has_country_flag = monument_research_khaz_algar }

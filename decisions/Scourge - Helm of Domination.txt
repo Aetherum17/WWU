@@ -1,7 +1,11 @@
 country_decisions = {
 	# Wear the Helm of Domination
 	helm_of_domination = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { current_age = age_rise_of_the_horde }
             # Exclusions
 			NOT = { has_country_modifier = helm_of_domination }
@@ -84,7 +88,11 @@ country_decisions = {
 
     # Destroy the Helm of Domination
 	destroy_the_helm = {
+        major = yes
+        
 		potential = {
+            has_country_flag = display_major_decisions
+            
             NOT = { current_age = age_rise_of_the_horde }
             # Exclusions
 			NOT = { has_country_modifier = helm_of_domination }

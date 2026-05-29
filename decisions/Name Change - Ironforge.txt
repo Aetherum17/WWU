@@ -3,6 +3,8 @@ country_decisions = {
         ai_importance = 0
         
         potential = {
+            has_country_flag = display_formable_decisions
+            
             tag = A29
             NOT = { has_country_flag = is_ironforge }
         }

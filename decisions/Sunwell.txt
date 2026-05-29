@@ -1,6 +1,10 @@
 country_decisions = {
 	restore_the_sunwell = {
+        major = yes
+        
         potential = {
+            has_country_flag = display_major_decisions
+            
 			owns = 2991
 			2991 = {
 				has_province_modifier = mission_province_desecration_of_the_sunwell

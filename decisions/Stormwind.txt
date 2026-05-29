@@ -2,6 +2,8 @@ country_decisions = {
     estate_nobility_grant_generalship = {
         color = { 195 160 20 }
         potential = {
+            has_country_flag = display_minor_decisions
+            
             has_enabled_estate_action = {
                 estate_action = GRANT_GENERALSHIP_NOBLES_STW
             }

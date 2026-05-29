@@ -1,70 +1,16 @@
 #Demonic Invasion Force Fromations Menu
 #Open/Close
 country_decisions = {
-    demonic_invasion_force_formation_menu = {
-		major = yes
-        ai_importance = 0
-        
-		potential = {
-			culture_group = culture_group_demonic
-			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			NOT = { tag = B92 }
-			NOT = { tag = B87 }
-			NOT = { tag = DDL }
-		}
-		
-		allow = {
-            NOT = { has_country_modifier = ai_handler__demonic_invasion_force_formation_menu }	
-		}
-		
-		effect = {		    
-		    if = {
-		        limit = {
-			        NOT = { has_country_flag = dem_inv_force_menu_open }
-			    }
-			    set_country_flag = dem_inv_force_menu_open  
-		    }
-			else_if = {
-		        limit = {
-			        has_country_flag = dem_inv_force_menu_open
-			    }
-			    clr_country_flag = dem_inv_force_menu_open  
-		    }
-            
-            if = {
-                limit = {
-                    ai = yes
-                }
-                
-                add_country_modifier = {
-                    name = ai_handler__demonic_invasion_force_formation_menu
-                    duration = 3600
-                }
-            }
-		}
-		
-		ai_will_do = {
-			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                NOT = { 
-                    has_country_modifier = ai_handler__demonic_invasion_force_formation_menu
-                }
-            }
-		}
-	}
-
 	#Form Aurinor
     form_aurinor = {
 		major = yes
         ai_importance = 0
         
 		potential = {          
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = AUR } # Aurinor		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -97,9 +43,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = BOC } # Bonich		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -132,9 +79,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = CEG } # Cengar		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -167,9 +115,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = NMD } # Mardum		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -202,9 +151,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = NAI } # Naigtal		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -237,9 +187,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = NNH } # Nihilam		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -272,9 +223,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = NNK } # Niskara		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -307,9 +259,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = NRC } # Rancora		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -342,9 +295,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = SAG } # Sangua		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -377,9 +331,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = VAA } # Val		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         
@@ -412,9 +367,10 @@ country_decisions = {
         ai_importance = 0
         
 		potential = {
+            has_country_flag = display_formable_decisions  
+            
 			NOT = { exists = NXR } # Xoroth		
 			NOT = { has_country_flag = summoned_demonic_invasion_force }
-			has_country_flag = dem_inv_force_menu_open
         	culture_group = culture_group_demonic
 		}
         

@@ -4,6 +4,7 @@ country_decisions = {
     #-----------------------------------------
     succumb_to_chaos = {
 		potential = {
+            has_country_flag = display_religious_decisions
 			religion = arcane
 			ruler_religion = fel
 		}
@@ -44,6 +45,7 @@ country_decisions = {
 
     construct_mana_crystals = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = arcane
             NOT = { has_ruler_modifier = empowered_mana_crystals }
 		}
@@ -68,6 +70,7 @@ country_decisions = {
 
     manifest_the_arcane = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = arcane
             NOT = { has_ruler_modifier = manifest_the_arcane }
 		}
@@ -91,6 +94,7 @@ country_decisions = {
     
     cease_arcane_manifestation = {
         potential = {
+            has_country_flag = display_religious_decisions
             has_ruler_modifier = manifest_the_arcane
 		}
 		allow = {
@@ -109,6 +113,7 @@ country_decisions = {
     #-----------------------------------------
     reiterate_pledge_to_azeroth = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = dragon_aspects
             NOT = { has_ruler_modifier = pledge_to_azeroth }
 		}
@@ -136,6 +141,7 @@ country_decisions = {
     #-----------------------------------------
     channel_aman_thul = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = titan_worship
             NOT = { has_ruler_modifier = boon_of_aman_thul }
             NOT = { has_ruler_modifier = boon_of_eonar }
@@ -170,6 +176,7 @@ country_decisions = {
 	}
     channel_eonar = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = titan_worship
             NOT = { has_ruler_modifier = boon_of_aman_thul }
             NOT = { has_ruler_modifier = boon_of_eonar }
@@ -204,6 +211,7 @@ country_decisions = {
 	}
     channel_norgannon = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = titan_worship
             NOT = { has_ruler_modifier = boon_of_aman_thul }
             NOT = { has_ruler_modifier = boon_of_eonar }
@@ -238,6 +246,7 @@ country_decisions = {
 	}
     channel_golganneth = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = titan_worship
             NOT = { has_ruler_modifier = boon_of_aman_thul }
             NOT = { has_ruler_modifier = boon_of_eonar }
@@ -272,6 +281,7 @@ country_decisions = {
 	}
     channel_khaz_goroth = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = titan_worship
             ruler_religion = ROOT
             NOT = { has_ruler_modifier = boon_of_aman_thul }
@@ -305,6 +315,7 @@ country_decisions = {
 	}
     channel_aggramar = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = titan_worship
             NOT = { has_ruler_modifier = boon_of_aman_thul }
             NOT = { has_ruler_modifier = boon_of_eonar }
@@ -343,6 +354,7 @@ country_decisions = {
     #-----------------------------------------
     catalogue_the_past = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = mystery_of_the_makers
             NOT = { has_ruler_modifier = unearthed_knowledge }
 		}
@@ -375,6 +387,7 @@ country_decisions = {
     #-----------------------------------------
     pull_souls_to_helheim = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = corrupt_titan_worship
             primary_culture = culture_kvaldir
             NOT = { has_ruler_modifier = offering_to_helya }
@@ -402,6 +415,7 @@ country_decisions = {
     #-----------------------------------------
     sate_the_worldbreaker = {
         potential = {
+            has_country_flag = display_religious_decisions
             religion = corrupt_dragon_aspect
             NOT = { has_ruler_modifier = aspect_of_death }
 		}

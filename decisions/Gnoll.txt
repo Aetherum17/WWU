@@ -1,6 +1,8 @@
 country_decisions = {
 	curb_infighting = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			culture_group = culture_group_gnoll
             NOT = { has_country_modifier = curbed_infighting }
 		}
@@ -26,6 +28,7 @@ country_decisions = {
     
     divine_magic = {
 		potential = {
+            has_country_flag = display_cultural_decisions
 			culture_group = culture_group_gnoll
             NOT = { has_country_modifier = divined_magic }
 		}
@@ -51,6 +54,7 @@ country_decisions = {
     
     initiate_weapons_trade = {
 		potential = {
+            has_country_flag = display_cultural_decisions
 			culture_group = culture_group_gnoll
             NOT = { has_country_modifier = weapons_trade }
 		}
@@ -76,6 +80,7 @@ country_decisions = {
     
     challenge_alpha = {
 		potential = {
+            has_country_flag = display_cultural_decisions
 			culture_group = culture_group_gnoll
             NOT = { has_country_modifier = challenged_alpha }
 		}

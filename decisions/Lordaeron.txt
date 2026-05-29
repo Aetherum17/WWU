@@ -1,6 +1,8 @@
 country_decisions = {
 	plow_fields = {
 		potential = {
+            has_country_flag = display_cultural_decisions
+            
 			current_age = age_frozen_throne
             
             NOT = { culture_group = culture_group_undead }

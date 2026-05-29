@@ -297,6 +297,134 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 			
+            # 34 spacing
+            
+            # Major
+            guiButtonType = {
+                name ="enable_major_decisions_button"
+                quadTextureSprite = "GFX_disabled_major_decisions"
+                position = { x= 0 y = 54 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            guiButtonType = {
+                name ="disable_major_decisions_button"
+                quadTextureSprite = "GFX_enabled_major_decisions"
+                position = { x= 0 y = 54 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            
+            # Minor
+            guiButtonType = {
+                name ="enable_minor_decisions_button"
+                quadTextureSprite = "GFX_disabled_minor_decisions"
+                position = { x= 0 y = 88 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            guiButtonType = {
+                name ="disable_minor_decisions_button"
+                quadTextureSprite = "GFX_enabled_minor_decisions"
+                position = { x= 0 y = 88 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            
+            # Formable
+            guiButtonType = {
+                name ="enable_formable_decisions_button"
+                quadTextureSprite = "GFX_disabled_formable_decisions"
+                position = { x= 0 y = 122 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            guiButtonType = {
+                name ="disable_formable_decisions_button"
+                quadTextureSprite = "GFX_enabled_formable_decisions"
+                position = { x= 0 y = 122 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            
+            # Cultural
+            guiButtonType = {
+                name ="enable_cultural_decisions_button"
+                quadTextureSprite = "GFX_disabled_cultural_decisions"
+                position = { x= 0 y = 156 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            guiButtonType = {
+                name ="disable_cultural_decisions_button"
+                quadTextureSprite = "GFX_enabled_cultural_decisions"
+                position = { x= 0 y = 156 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            
+            # Religion
+            guiButtonType = {
+                name ="enable_religion_decisions_button"
+                quadTextureSprite = "GFX_disabled_religion_decisions"
+                position = { x= 0 y = 190 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            guiButtonType = {
+                name ="disable_religion_decisions_button"
+                quadTextureSprite = "GFX_enabled_religion_decisions"
+                position = { x= 0 y = 190 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            
+            # Government
+            guiButtonType = {
+                name ="enable_government_decisions_button"
+                quadTextureSprite = "GFX_disabled_government_decisions"
+                position = { x= 0 y = 224 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            guiButtonType = {
+                name ="disable_government_decisions_button"
+                quadTextureSprite = "GFX_enabled_government_decisions"
+                position = { x= 0 y = 224 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            
+            # System
+            guiButtonType = {
+                name ="enable_system_decisions_button"
+                quadTextureSprite = "GFX_disabled_system_decisions"
+                position = { x= 0 y = 258 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            guiButtonType = {
+                name ="disable_system_decisions_button"
+                quadTextureSprite = "GFX_enabled_system_decisions"
+                position = { x= 0 y = 258 }
+                Orientation = "UPPER_LEFT"
+                clicksound = click
+                scripted = yes
+            }
+            
 			listboxType = 
 			{
 				name ="decisions_listbox"
