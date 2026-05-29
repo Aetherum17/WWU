@@ -6,17 +6,51 @@ country_decisions = {
 		color = { 156 158 33 }
         
 		potential = {
+			NOT = { has_global_flag = seeds_of_teldrassil }
+            
+            # Allow for a non-Night Elf to create it if they are friends with a Night Elf nation
+            OR = { 
+                culture_group = culture_group_darnassian
+                any_ally = {
+                    culture_group = culture_group_darnassian
+                }
+            }
+		}
+		allow = {
             OR = {
                 has_global_flag = nordrassil_burned
                 has_country_flag = night_elf_ambition
+                
+                # Fallback: owning Darkshore and Ashenvale will allow Teldrassil to be colonised
+                AND = {
+                    region_darkshore = {
+                        type = all
+                        
+                        OR = {
+                            owned_by = ROOT
+                            owned_by_subject_of = ROOT
+                        }
+                    }
+                    
+                    region_ashenvale = {
+                        type = all
+                        
+                        OR = {
+                            owned_by = ROOT
+                            owned_by_subject_of = ROOT
+                        }
+                    }
+                }
             }
-			NOT = { has_global_flag = seeds_of_teldrassil }
-            culture_group = culture_group_darnassian
-		}
-		allow = {
+            
 			OR = {
                 religion = druidism
                 religion = elune
+                
+                any_ally = {
+                    religion = druidism
+                    religion = elune
+                }
             }
             
 			scaled_treasury_check = yes
