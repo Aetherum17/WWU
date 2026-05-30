@@ -14,6 +14,8 @@ NEW NATIONS:
 
 COUNTRY CHANGES:
 -Plunder Isle Murlocs are now present since the 1st date
+-Rothide Gnolls are now present since the 1st date
+-Vile Fin and Shadowglen Troll holds adjasted and expanded in Silverpine and Tirisfall
 
 #--------------------------------------------------------
 # TO NOT BE REPORTED IN NEXT UPLOADS BEFORE ULDUM UPDATE
