@@ -6,7 +6,7 @@ mercantilism 		= 10
 technology_group 	= tech_gnoll
 religion			= earth
 primary_culture 	= culture_undead_gnoll
-capital = 1015
+capital = 731
 
 540.1.1 = {
 	monarch = {
@@ -29,5 +29,5 @@ capital = 1015
 	}
 }
 
-622.1.1 = { religion = cult_of_the_damned }
+617.1.1 = { religion = cult_of_the_damned }
 

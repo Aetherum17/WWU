@@ -1,33 +1,16 @@
-
 is_city = yes
 
-owner = A08
-controller = A08
-add_core = A08
+owner = B25
+controller = B25
+add_core = B25
 add_core = AGM
 
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 3
 
-culture = culture_lordaeron
-religion = holy_light
+culture = culture_murloc
+religion = deep_mother
 
 hre = no
 trade_goods = resource_common_fish
- 
-618.1.1 = { 
-	add_core = B25
-	owner = B25
-	controller = B25
-	culture = culture_murloc
-	religion = water
-	remove_core = A08
-	remove_core = AGM
-}
-
-# Rise of the Qiraji
-622.1.1 = { 
-	controller = B25
-}
-
