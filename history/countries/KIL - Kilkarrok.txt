@@ -1,0 +1,20 @@
+government = tribal
+add_government_reform = murloc_tribe_reform
+add_government_reform = wwu_tribal_established_warband_reform
+
+mercantilism 		= 10
+technology_group 	= tech_murloc
+religion			= water
+primary_culture 	= culture_makrura
+capital = 620
+
+546.1.1 = {
+   monarch = {
+       name = "Unu" 
+       dynasty = "Kilkarrok" 
+		adm = 4
+		dip = 2
+		mil = 4
+       birth_date = 490.1.1
+	}
+}

@@ -3,6 +3,7 @@ is_city = yes
 owner = NJZ
 controller = NJZ
 add_core = NJZ
+add_core = ZNJ
 
 base_tax = 4
 base_production = 3

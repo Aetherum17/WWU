@@ -117,9 +117,11 @@
  culture_group_murloc: "Murloc"
  culture_murloc: "Murloc"
  culture_murghoul: "Mur'ghoul"
+ culture_deep_murlocs: "Deep Murlocs"
  
  culture_group_jinyu: "Jinyu"
  culture_jinyu: "Jinyu"
+ culture_ankoan: "Ankoan"
  
  culture_group_lobstrok: "Lobstrok"
  culture_makrura: "Makrura"

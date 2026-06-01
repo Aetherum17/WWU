@@ -11,6 +11,20 @@ NAME CHANGE:
 
 NEW NATIONS:
 -Sandscalp (Sand Trolls - South Sea)
+-Nazjatar Releasables:
+    -Bloofin
+	-Necrofin
+	-Kilkarrok
+	-Zin-Azshari Remnants
+	-Waveblade
+	-Unshackled
+	-Zanjir
+	-Shirakess
+	-Azshari
+
+NEW CULTURES:
+-Anakoan (Jinyu Culture Group)
+-Deep Murlok (Murlok Culture Group)
 
 COUNTRY CHANGES:
 -Plunder Isle Murlocs are now present since the 1st date

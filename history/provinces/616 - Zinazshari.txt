@@ -3,13 +3,14 @@ is_city = yes
 owner = NJZ
 controller = NJZ
 add_core = NJZ
+add_core = ZIN
 
 base_tax = 8
 base_production = 8
 base_manpower = 8
 
-culture = culture_nazja
-religion = nzoth
+culture = culture_ghost
+religion = arcane
 
 hre = no
 trade_goods = resource_gems

@@ -1,0 +1,21 @@
+# Zanjir
+government 			= monarchy
+add_government_reform = naga_domain_reform
+mercantilism 		= 10
+technology_group 	= tech_naga
+religion			= nzoth
+primary_culture 	= culture_nazja
+capital 			= 579
+
+540.1.1 = {
+	monarch = {
+		name = "Minzera"
+		dynasty = "Zanjir"
+		birth_date = 461.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+		female = yes
+	}
+}
+

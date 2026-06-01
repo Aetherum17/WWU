@@ -3,13 +3,14 @@ is_city = yes
 owner = NJZ
 controller = NJZ
 add_core = NJZ
+add_core = KIL
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_nazja
-religion = nzoth
+culture = culture_makrura
+religion = water
 
 hre = no
 trade_goods = resource_common_fish

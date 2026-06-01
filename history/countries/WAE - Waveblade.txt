@@ -1,0 +1,20 @@
+government = tribal
+add_government_reform = tribal_federation_reform
+add_government_reform = wwu_tribal_established_hierarchy_reform
+
+mercantilism 		= 10 
+technology_group 	= tech_jinyu
+religion			= water
+primary_culture 	= culture_ankoan
+capital 			= 577
+
+546.1.1 = { 
+	monarch = { 
+		name = "Okani" 
+		dynasty = "Waveblade" 
+		adm = 4
+		dip = 4
+	   	mil = 3
+	} 
+} 
+

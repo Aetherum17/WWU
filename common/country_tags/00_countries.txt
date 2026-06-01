@@ -434,6 +434,7 @@ RTC = "countries/Ratchet.txt"                   # - RTC
 GDG = "countries/Gadgetzan.txt"                 # - GDG
 FSP = "countries/Speedbarge.txt"                # - FSP
 EVR = "countries/Everlook.txt"
+UNS = "countries/Unshackled.txt"
 
 #-------------------------------------
 # Tauren
@@ -516,6 +517,7 @@ MOR = "countries/Morlosaran.txt"
 NAL = "countries/Narthalas.txt"
 SHN = "countries/Shandaral.txt"
 MSF = "countries/Magocratic Society of Feralas.txt"
+ZIN = "countries/Zinazshari Remnants.txt"
 
 #-------------------------------------
 # Nightborne and Fal'dorei
@@ -790,6 +792,8 @@ PL8 = "countries/Piratefins.txt"
 PL9 = "countries/Frogeye.txt"
 DTE = "countries/The Dark Tide.txt"
 STE = "countries/Stonefin.txt"
+BLF = "countries/Bloodfin.txt"
+NEC = "countries/Necrofin.txt"
 
 #-------------------------------------
 # Lobster - Makrura
@@ -798,8 +802,9 @@ B37 = "countries/Makraru.txt"                   # - B37
 B38 = "countries/Bogstrok.txt"                  # - B38
 WSR = "countries/Whispereef.txt"                # - WSR
 MCW = "countries/Mistclaw.txt"                  # - MCW
-MCK = "countries/Muckshell.txt"                  # - MCK
+MCK = "countries/Muckshell.txt"                 # - MCK
 MAK = "countries/Makrana.txt"
+KIL = "countries/Kilkarrok.txt"
 
 #-------------------------------------
 # Furbolg
@@ -1099,6 +1104,9 @@ NNI = "countries/Vilescale.txt" # Zandalar Invaders
 MOZ = "countries/Matronage of Zangarmarsh.txt"
 COL = "countries/Coilfang Reservoir.txt" # No longer used
 VJE = "countries/Vashjelan.txt"
+ZNJ = "countries/Zanjir.txt"
+AZS = "countries/Azshari.txt"
+SHI = "countries/Shirakess.txt"
 
 #-------------------------------------
 # Scourge
@@ -1259,6 +1267,7 @@ P70 = "countries/Pearlfin.txt"          # - P70
 P82 = "countries/Fallsong.txt"          # - P82
 P95 = "countries/Inkgill.txt"           # - P95
 RZF = "countries/Razorfin.txt"          # - RZF
+WAE = "countries/Waveblade.txt"
 
 #-------------------------------------
 # Saurok

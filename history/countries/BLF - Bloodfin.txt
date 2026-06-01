@@ -1,0 +1,20 @@
+government = tribal
+add_government_reform = murloc_tribe_reform
+add_government_reform = wwu_tribal_established_warband_reform
+
+mercantilism 		= 10
+technology_group 	= tech_murloc
+religion			= deep_mother
+primary_culture 	= culture_murloc
+capital 			= 611
+
+540.1.1 = {
+	monarch = {
+	    name = "Gakula"
+    	dynasty = "Bloodfin"
+		birth_date = 497.1.1
+		adm = 3
+		dip = 0
+		mil = 5
+	}
+}
