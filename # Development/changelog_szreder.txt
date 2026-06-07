@@ -3,6 +3,7 @@
 #--------------------------------------
 
 # Fixes:
+-Fixed Secret Society war conditions so that peace deal can properly be made
 
 # General Gameplay:
 -Given Cult of the Sun religion a religion modifier
