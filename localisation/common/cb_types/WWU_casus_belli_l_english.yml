@@ -197,7 +197,7 @@
  cb_silitihd_invasion: "Silithid Invasion"
  cb_silitihd_invasion_desc: "The swarm needs to expand its lands."
  
- cb_defend_secret_society: "Defend the Secret Society"
+ cb_defend_secret_society: "War of the Secret Society"
  cb_defend_secret_society_desc: "We need to protect the greatest of secrets!"
 
  cb_arathi_conflict: "Arathi War"
@@ -315,8 +315,8 @@
  superiority_silithid_invasion: "Silithid Invasion"
  superiority_silithid_invasion_desc: ""
  
- defend_secret_society: "Defend the Secret Society from the Invaders"
- defend_secret_society_desc: ""
+ take_capital_secret_society: "Defend the Secret Society from the Invaders"
+ take_capital_secret_society_desc: ""
 
  take_capital_arathi_conflict: "Arathi Conflict"
  take_capital_arathi_conflict_desc: ""
@@ -358,6 +358,8 @@
  THIRD_WAR_NAME: "The Third War"
  FROSTMANE_WAR_NAME: "The Frostmane War" 
  ARATHI_CONFLICT_NAME: "The Arathi-Troll Conflict"
+
+ DEFEND_SECRET_SOCIETY_NAME: "$ORDER$$FIRST$ War against Secrecy of $SECOND$"
  
  BENEVOLENT_LIBERATION_WAR: "$ORDER$$FIRST$ Liberation War against $SECOND$"
  
