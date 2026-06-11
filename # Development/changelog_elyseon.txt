@@ -31,6 +31,9 @@ COUNTRY CHANGES:
 -Rothide Gnolls are now present since the 1st date
 -Vile Fin and Shadowglen Troll holds adjasted and expanded in Silverpine and Tirisfall
 
+MAP CHANGES:
+-Turned most uncolonized provinces of Uldum to Cult of Sun religion
+
 #--------------------------------------------------------
 # TO NOT BE REPORTED IN NEXT UPLOADS BEFORE ULDUM UPDATE
 #--------------------------------------------------------
