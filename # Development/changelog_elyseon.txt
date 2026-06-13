@@ -6,13 +6,15 @@ FORMABLES:
     -Gillijim
 	-Lapidis
 
+
 NAME CHANGE:
 -Gillijim and Lapidis Flavour Name Change
+
 
 NEW NATIONS:
 -Sandscalp (Sand Trolls - South Sea)
 -Nazjatar Releasables:
-    -Bloofin
+    -Bloodfin
 	-Necrofin
 	-Kilkarrok
 	-Zin-Azshari Remnants
@@ -22,17 +24,26 @@ NEW NATIONS:
 	-Shirakess
 	-Azshari
 
+
 NEW CULTURES:
 -Anakoan (Jinyu Culture Group)
 -Deep Murlok (Murlok Culture Group)
+
 
 COUNTRY CHANGES:
 -Plunder Isle Murlocs are now present since the 1st date
 -Rothide Gnolls are now present since the 1st date
 -Vile Fin and Shadowglen Troll holds adjasted and expanded in Silverpine and Tirisfall
 
+
 MAP CHANGES:
 -Turned most uncolonized provinces of Uldum to Cult of Sun religion
+
+
+ADJASTMENTS:
+-Re-enabled an old Sasquatch Mission Event
+-Adjasted most building requirments for Theramorean Missions making them more flexible
+
 
 #--------------------------------------------------------
 # TO NOT BE REPORTED IN NEXT UPLOADS BEFORE ULDUM UPDATE
