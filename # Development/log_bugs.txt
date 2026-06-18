@@ -46,3 +46,16 @@ Fixed: No
 Confirmed: Reported on WU-Bugs (message pinned)
 Fixed: No
 Note: I suspect since the report mention it happening during Crysis Event, the faction renown calculation might not be limited to one faction and checks for any faction renown? That or maybe the 3rd option, random, doesn't also properly check for own faction limit?
+
+10. Uldaman monument isn't tied to Monument Research & doesn't offer any tooltip on why it wouldn't be.
+Confirmed: Yes
+Fixed: No
+
+11. Stormwind "Victory over Onyxia" event doesn't end properly.
+Confirmed: Yes
+Fixed: No
+
+12. Ingame system responsible for peaceing out the inconclusive wars doesn't always work
+Confirmed: Yes
+Fixed: No
+Note SzrEdeR: Might need to consider expanding the system or have some sort of backup handle. Perhaps giving AI free teleport armies without core so they can force the peace deal? Maybe even some short-timed boost so one side can overwhelm the enemy?

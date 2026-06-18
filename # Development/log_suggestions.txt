@@ -107,3 +107,7 @@ Outland:
 -Sultry Grimoire: heir_chance = 2, monarch_lifespan = 0.5
 -Voidfire Wand: culture_conversion_time = -0.25
 -Gorehowl: max_absolutism_effect = 0.15
+
+6. Uncolonizable Terrain:
+-Add a spawning event to Scourge that fills up the uncolonizable provinces in the icecrown region
+-Add an event that fills up Dalaran: Northrend on age Wrath of the Lich King
