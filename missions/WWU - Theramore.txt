@@ -1811,7 +1811,7 @@ A23_theramore_column_3 = {
 		trigger = {
 		    1420 = {
 				owned_by = ROOT
-				has_building = wow_fort_2
+				has_fort_building_trigger = yes
 			}
 			1420 = {
 				owned_by = ROOT
@@ -1839,7 +1839,7 @@ A23_theramore_column_3 = {
 		trigger = {
 		    1372 = {
 				owned_by = ROOT
-				has_building = wow_fort_2
+				has_fort_building_trigger = yes
 			}
 		}
         
@@ -2197,19 +2197,19 @@ A23_theramore_column_3 = {
 		trigger = {
             3135 = {
 			    owned_by = ROOT
-				has_building = wow_fort_2
+				has_fort_building_trigger = yes
 			}
 			4145 = {
 			    owned_by = ROOT
-				has_building = wow_fort_2
+				has_fort_building_trigger = yes
 			}
 			3140 = {
 			    owned_by = ROOT
-				has_building = wow_fort_2
+				has_fort_building_trigger = yes
 			}
 			3124 = {
 			    owned_by = ROOT
-				has_building = wow_fort_2
+				has_fort_building_trigger = yes
 			}
 		}
         
@@ -2631,7 +2631,7 @@ A23_theramore_column_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			3435 = {
-			    has_building = wow_fort_2
+			    has_fort_building_trigger = yes
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			3436 = {
@@ -2785,20 +2785,20 @@ A23_theramore_column_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			1438 = {
-			    has_building = wow_dockyard_2
-				has_building = wow_shipyard_2
+			    has_dock_building_trigger = yes
+				has_shipyard_building_trigger = yes
 			}
 			3480 = {
-			    has_building = wow_dockyard_2
-				has_building = wow_shipyard_2
+			    has_dock_building_trigger = yes
+				has_shipyard_building_trigger = yes
 			}
 			3481 = {
-			    has_building = wow_dockyard_2
-				has_building = wow_shipyard_2
+			    has_dock_building_trigger = yes
+				has_shipyard_building_trigger = yes
 			}
 			3482 = {
-			    has_building = wow_dockyard_2
-				has_building = wow_shipyard_2
+			    has_dock_building_trigger = yes
+				has_shipyard_building_trigger = yes
 			}
 		}
 		
@@ -2837,7 +2837,7 @@ A23_theramore_column_4 = {
 				amount = 15
                 
 			    region_south_barrens = {
-			        has_building = wow_market_2
+			        has_trade_building_trigger = yes
 					type = all
 					owned_by = ROOT
 				}
@@ -2862,7 +2862,7 @@ A23_theramore_column_4 = {
 				amount = 15
                 
 			    region_north_barrens = {
-			        has_building = wow_market_2
+			        has_trade_building_trigger = yes
 					type = all
 					owned_by = ROOT
 				}
@@ -2991,26 +2991,26 @@ A23_theramore_column_4 = {
 		trigger = {
 		    2662 = {
 		        num_of_times_improved = 5
-				has_building = wow_market_2
+				has_trade_building_trigger = yes
 				province_has_center_of_trade_of_level = 2  
 			}
 			3183 = {
 		        num_of_times_improved = 4
-				has_building = wow_market_2
+				has_trade_building_trigger = yes
 			}
 			2651 = {
 		        num_of_times_improved = 4
-				has_building = wow_market_2
+				has_trade_building_trigger = yes
 				province_has_center_of_trade_of_level = 2  
 			}
 			2642 = {
 		        num_of_times_improved = 4
-				has_building = wow_market_2
+				has_trade_building_trigger = yes
 				province_has_center_of_trade_of_level = 2  
 			}
 			2678 = {
 		        num_of_times_improved = 4
-				has_building = wow_market_2
+				has_trade_building_trigger = yes
 				province_has_center_of_trade_of_level = 2  
 			}
 		}
@@ -3545,22 +3545,22 @@ A23_theramore_column_5 = {
 			    owned_by = ROOT
 				development = 30
 				has_building = wow_garrison
-				has_building = wow_town_hall_2
-				has_building = wow_barracks_2
+				has_courthouse_building_trigger = yes
+				has_manpower_building_trigger = yes
 			}
 			3477 = {
 			    owned_by = ROOT
 				development = 30
 				has_building = wow_artillery_battery
-				has_building = wow_shipyard_2
-				has_building = wow_dockyard_2
+				has_dock_building_trigger = yes
+				has_shipyard_building_trigger = yes
 			}
 			1456 = {
 			    owned_by = ROOT
 				development = 30
 				has_building = wow_manufactory
-				has_building = wow_temple_2
-				has_building = wow_market_2
+				has_temple_building_trigger = yes
+				has_trade_building_trigger = yes
 			}
 		}
 		effect = {			
@@ -3598,7 +3598,7 @@ A23_theramore_column_5 = {
 				amount = 15
                 
 			    region_dustwallow_marsh = {
-			        has_building = wow_farm_2
+			        has_tax_building_trigger = yes
 					type = all
 					owned_by = ROOT
 				}
@@ -3640,52 +3640,52 @@ A23_theramore_column_5 = {
 		
 		trigger = {
 			1456 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			2951 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1461 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			2953 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3504 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1452 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1462 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3499 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3508 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1450 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3507 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3505 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1451 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1463 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3513 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3503 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 		}
 		effect = {			
@@ -3706,12 +3706,12 @@ A23_theramore_column_5 = {
 				amount = 20
                 
 			    region_south_barrens = {
-			        has_building = wow_farm_2
+			        has_tax_building_trigger = yes
 					type = all
 					owned_by = ROOT
 				}
 				region_north_barrens = {
-			        has_building = wow_farm_2
+			        has_tax_building_trigger = yes
 					type = all
 					owned_by = ROOT
 				}
@@ -3817,61 +3817,61 @@ A23_theramore_column_5 = {
 		
 		trigger = {
 			1465 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1464 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1459 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1446 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1440 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1439 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1442 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1443 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1444 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1369 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
             3434 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3435 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3439 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3443 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3446 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3447 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3449 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3452 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			2949 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 		}
 		effect = {			
@@ -3911,55 +3911,55 @@ A23_theramore_column_5 = {
 		
 		trigger = {
 		    1465 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3454 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3455 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3464 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1373 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1422 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3461 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1421 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1420 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
             1375 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1376 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			2286 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			2283 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			1372 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3467 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3473 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 			3475 = {
-			    has_building = wow_road_2
+			    has_road_building_trigger = yes
 			}
 		}
 		
