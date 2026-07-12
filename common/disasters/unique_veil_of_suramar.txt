@@ -1,20 +1,20 @@
 veil_of_suramar = {
 	potential = {
 		tag = SUR
-        NOT = { has_country_flag = suramar_veil_lifted }
+        has_country_modifier = isolation_level_5
 	}
 	
 	can_start = {
         custom_trigger_tooltip = {
             tooltip = SURAMAR_VEIL_NOT_LIFTED_TT
-            NOT = { has_country_flag = suramar_veil_lifted }
+            has_country_modifier = isolation_level_5
         }
 	}
 	
 	can_stop = {
         custom_trigger_tooltip = {
             tooltip = SURAMAR_VEIL_LIFTED_TT
-            has_country_flag = suramar_veil_lifted
+            NOT = { has_any_isolation = yes }
         }
 	}
 	
@@ -28,12 +28,11 @@ veil_of_suramar = {
 	can_end = {
 		custom_trigger_tooltip = {
             tooltip = SURAMAR_VEIL_LIFTED_TT
-            has_country_flag = suramar_veil_lifted
+            NOT = { has_any_isolation = yes }
         }
 	}
 
 	modifier = {
-		stability_cost_to_declare_war = 3
         defensiveness = 1.0
 	}
 	

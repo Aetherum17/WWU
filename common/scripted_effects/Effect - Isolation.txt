@@ -5,8 +5,10 @@ init_default_isolation_state = {
             culture_group = culture_group_titan
         }
         
+        set_country_flag = enable_isolation_mechanic
+        
         add_country_modifier = {
-            name = enforced_isolation
+            name = isolation_level_4
             duration = -1
         }
         
@@ -17,7 +19,8 @@ init_default_isolation_state = {
             hidden = yes
         }
     }
-	#Dragon Isles Isolated States
+    
+	# Dragon Isles Isolated States
 	if = {
         limit = {
 		    OR = {
@@ -28,8 +31,10 @@ init_default_isolation_state = {
 			}
         }
         
+        set_country_flag = enable_isolation_mechanic
+        
         add_country_modifier = {
-            name = enforced_isolation
+            name = isolation_level_4
             duration = -1
         }
         
@@ -39,5 +44,154 @@ init_default_isolation_state = {
             duration = 3650
             hidden = yes
         }
+    }
+    
+	# Suramar
+	if = {
+        limit = {
+		    tag = SUR
+        }
+        
+        set_country_flag = enable_isolation_mechanic
+        
+        add_country_modifier = {
+            name = isolation_level_5
+            duration = -1
+        }
+        
+        # Add cooldown on start so player cannot immediately switch
+        add_country_modifier = {
+            name = isolation_cooldown
+            duration = 3650
+            hidden = yes
+        }
+    }
+}
+
+clear_isolation = {
+    remove_country_modifier = isolation_level_5
+    remove_country_modifier = isolation_level_4
+    remove_country_modifier = isolation_level_3
+    remove_country_modifier = isolation_level_2
+    remove_country_modifier = isolation_level_1
+}
+
+apply_total_isolation = {
+    add_country_modifier = {
+        name = isolation_level_5
+        duration = -1
+    }
+}
+
+apply_extreme_isolation = {
+    add_country_modifier = {
+        name = isolation_level_4
+        duration = -1
+    }
+}
+
+apply_strong_isolation = {
+    add_country_modifier = {
+        name = isolation_level_3
+        duration = -1
+    }
+}
+
+apply_moderate_isolation = {
+    add_country_modifier = {
+        name = isolation_level_2
+        duration = -1
+    }
+}
+
+apply_weak_isolation = {
+    add_country_modifier = {
+        name = isolation_level_1
+        duration = -1
+    }
+}
+
+weaken_isolation_level = {
+    if = {
+        limit = {
+            has_country_modifier = isolation_level_5
+        }
+        
+        remove_country_modifier = isolation_level_5
+        apply_extreme_isolation = yes
+    }
+    else_if = {
+        limit = {
+            has_country_modifier = isolation_level_4
+        }
+        
+        remove_country_modifier = isolation_level_4
+        apply_strong_isolation = yes
+    }
+    else_if = {
+        limit = {
+            has_country_modifier = isolation_level_3
+        }
+        
+        remove_country_modifier = isolation_level_3
+        apply_moderate_isolation = yes
+    }
+    else_if = {
+        limit = {
+            has_country_modifier = isolation_level_2
+        }
+        
+        remove_country_modifier = isolation_level_2
+        apply_weak_isolation = yes
+    }
+    else_if = {
+        limit = {
+            has_country_modifier = isolation_level_1
+        }
+        
+        remove_country_modifier = isolation_level_1
+        custom_tooltip = REMOVED_ISOLATION_MECHANIC_TT
+    }
+}
+
+deepen_isolation_level = {
+    if = {
+        limit = {
+            has_country_modifier = isolation_level_4
+        }
+        
+        remove_country_modifier = isolation_level_4
+        apply_total_isolation = yes
+    }
+    else_if = {
+        limit = {
+            has_country_modifier = isolation_level_3
+        }
+        
+        remove_country_modifier = isolation_level_3
+        apply_extreme_isolation = yes
+    }
+    else_if = {
+        limit = {
+            has_country_modifier = isolation_level_2
+        }
+        
+        remove_country_modifier = isolation_level_2
+        apply_strong_isolation = yes
+    }
+    else_if = {
+        limit = {
+            has_country_modifier = isolation_level_1
+        }
+        
+        remove_country_modifier = isolation_level_1
+        apply_moderate_isolation = yes
+    }
+    else = {
+        limit = {
+            NOT = { has_any_isolation = yes }
+        }
+        
+        apply_weak_isolation = yes
     }
 }

@@ -2,18 +2,34 @@
  #-----------------------------------------------
  # Isolation
  #-----------------------------------------------
- rescind_isolation_title: "[DI_golden_orb] Rescind Isolation"
- rescind_isolation_desc: "Most $CULTURE$ facilities in $COUNTRY$ are hidden beneath the ground or sealed using ancient magics. Outside levels are usually populated by golems, small constructs and common titan devices. We can disable the seal and come out of hiding as court. This will drastically lower our defenses but allow us interact with surface races more efficiently.\n\nThis decision will also render us susceptible to religious conversion."
+ # Flags
+ enable_isolation_mechanic: "Enable Isolation Mechanic"
  
- enforce_isolation_title: "[DI_grey_orb] Enforce Isolation"
- enforce_isolation_desc: "We can hide ourselves into the ground once again and seal our facilities. This will increase our defenses but we will have less chance to interact with outside nations. This also render us immune to religious conversion."
+ # Decisions
+ weaken_isolation_title: "[DI_golden_orb] Weaken Isolation"
+ weaken_isolation_desc: "The countrymen of $COUNTRY$ are currently held within isolation from the rest of Azeroth. Let us risk opening up our society, and exposing our citizens to outside influence, if only slightly."
  
- ENABLE_NORMAL_DIPLOMACY_TT: "Enables normal diplomatic actions."
- DISABLE_NORMAL_DIPLOMACY_TT: "Disables most diplomatic actions."
+ deepen_isolation_title: "[DI_grey_orb] Strength Isolation"
+ deepen_isolation_desc: "The dangers that lie outside of borders within the rest of Azeroth are too much. Let us reduce the exposure our citizens have to outside influence."
+ 
+ # Tooltips
+ REMOVED_ISOLATION_MECHANIC_TT: "Isolation will no longer affect us."
  
  # Modifiers
- enforced_isolation: "Enforced Isolation"
- desc_enforced_isolation: "Our nation is currently enforcing isolation, cutting the majority of our people off from contact with the outside world."
- 
  isolation_cooldown: "Recently changed Isolation Stance"
  desc_isolation_cooldown: ""
+ 
+ isolation_level_5: "Enforced Isolation: Total"
+ desc_isolation_level_5: "Our nation is currently enforcing total isolation, cutting the majority of our people off from contact with the outside world."
+ 
+ isolation_level_4: "Enforced Isolation: Extreme"
+ desc_isolation_level_4: "Our nation is currently enforcing extreme isolation, cutting the majority of our people off from contact with the outside world."
+ 
+ isolation_level_3: "Enforced Isolation: Strong"
+ desc_isolation_level_3: "Our nation is currently enforcing strong isolation, cutting a strong amount of our people off from contact with the outside world."
+ 
+ isolation_level_2: "Enforced Isolation: Moderate"
+ desc_isolation_level_2: "Our nation is currently enforcing moderate isolation, cutting a moderate amount of our people off from contact with the outside world."
+ 
+ isolation_level_5: "Enforced Isolation: Weak"
+ desc_isolation_level_5: "Our nation is currently enforcing weak isolation, cutting a small amount of our people off from contact with the outside world."

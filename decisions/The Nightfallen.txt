@@ -81,4 +81,50 @@ country_decisions = {
             }
 		}
 	}
+    
+    pierce_the_veil_of_suramar = {
+		potential = {
+            has_country_flag = display_cultural_decisions
+			primary_culture = culture_withered
+            NOT = { has_country_modifier = withered_pierce_the_veil }
+            SUR = {
+                has_disaster = veil_of_suramar
+            }
+		}
+		
+		allow = {
+			has_reform = withered_reform
+            primary_culture = culture_withered
+            
+            owns_core_province = 2673 # Moonguard Stronghold
+            owns_core_province = 2672 # Tel'anor
+            owns_core_province = 2675 # Falanaar
+            owns_core_province = 2676 # Felsoul Hold
+            owns_core_province = 2674 # Meredil
+            owns_core_province = 2677 # Moonwhisper Gulch
+            
+            mil_power = 100
+		}
+		
+		effect = {
+            add_mil_power = -100
+            
+            add_country_modifier = {
+                name = withered_pierce_the_veil
+                duration = 3650
+            }
+            
+            custom_tooltip = ALLOW_SURAMAR_ATTACK_TT
+		}
+		
+		ai_will_do = {
+			factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                NOT = { mil_power = 300 }
+            }
+		}
+	}
 }

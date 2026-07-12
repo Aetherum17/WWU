@@ -2,6 +2,7 @@
  #-----------------------------------------------
  # Nightfallen
  #-----------------------------------------------
+ # Decisions
  nourishment_of_the_withered_title: "[DI_withered] Nourishment of the Withered"
  nourishment_of_the_withered_desc: "It is time to nourish our withered with the arcan'dor fruit, and restore the Nightfallen to their former glory."
  THE_NIGHTFALLEN: "The Nightfallen"
@@ -10,7 +11,17 @@
  attempt_arcwine_heist_title: "[DI_arcwine] Attempt Arcwine Heist"
  attempt_arcwine_heist_desc: "We need more arcwine to sustain our people. Attempt to steal arcwine from within Suramar."
  
+ pierce_the_veil_of_suramar_title: "[DI_withered] Pierce the Veil"
+ pierce_the_veil_of_suramar_desc: "With control of vital leyline surrounding Suramar, we can pierce their veil and attack our oppressors."
+ 
+ # Tooltips
+ ARCWINE_HEIST_OCCURS_TT: "An Arcwine Heist occurs. The results may vary."
+ ALLOW_SURAMAR_ATTACK_TT: "Allows us to declare war on §YSuramar§! whilst the §YPierce the Veil§! modifier exists."
+ 
+ # Modifiers
+ withered_pierce_the_veil: "Pierce the Veil"
+ desc_withered_pierce_the_veil: "Unleash the power of the leylines to pierce Suramar's veil, if only for a moment, allowing us to enter and attack our oppressors."
+ 
  arcwine_heist_cooldown: "Arcwine Heist Cooldown"
  desc_arcwine_heist_cooldown: ""
  
- ARCWINE_HEIST_OCCURS_TT: "An Arcwine Heist occurs. The results may vary."
