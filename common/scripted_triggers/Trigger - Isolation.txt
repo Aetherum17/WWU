@@ -1,0 +1,35 @@
+# Uses Isolation Mechanic
+can_use_isolation_mechanic = {
+    has_country_flag = enable_isolation_mechanic
+}
+
+has_any_isolation = {
+    OR = {
+        has_country_modifier = isolation_level_5
+        has_country_modifier = isolation_level_4
+        has_country_modifier = isolation_level_3
+        has_country_modifier = isolation_level_2
+        has_country_modifier = isolation_level_1
+    }
+}
+
+has_total_isolation = {
+    has_country_modifier = isolation_level_5
+}
+
+has_extreme_isolation = {
+    has_country_modifier = isolation_level_4
+}
+
+has_strong_isolation = {
+    has_country_modifier = isolation_level_3
+}
+
+has_moderate_isolation = {
+    has_country_modifier = isolation_level_2
+}
+
+has_weak_isolation = {
+    has_country_modifier = isolation_level_1
+}
+

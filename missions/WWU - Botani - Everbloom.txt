@@ -55,6 +55,8 @@ EVB_botani_column_2 = {
 			region_gorgrond = {
                 add_permanent_claim = ROOT
             }
+            
+            custom_tooltip = INFESTATION_SPREADS_TO_GORGROND_TT
 		}
 	}
     
@@ -88,6 +90,11 @@ EVB_botani_column_2 = {
 			region_talador = {
                 add_permanent_claim = ROOT
             }
+            
+            add_country_modifier = {
+                name = mission_everbloom_overgrowth
+                duration = -1
+            }
 		}
 	}
     
@@ -120,6 +127,11 @@ EVB_botani_column_2 = {
 		effect = {
 			region_frostfire_ridge = {
                 add_permanent_claim = ROOT
+            }
+            
+            add_country_modifier = {
+                name = mission_frostbloom
+                duration = -1
             }
 		}
 	}
@@ -341,6 +353,11 @@ EVB_botani_column_3 = {
             hidden_effect = {
                 set_country_flag = infested_unlock_1
             }
+            
+            add_country_modifier = {
+                name = mission_infested_troops
+                duration = -1
+            }
 		}
 	}
     
@@ -380,6 +397,8 @@ EVB_botani_column_3 = {
                 name = mission_infested_machinery
                 duration = -1
             }
+            
+            custom_tooltip = INFESTATION_SPREADS_TO_NORTH_DRAENOR_TT
 		}
 	}
     
@@ -468,6 +487,11 @@ EVB_botani_column_3 = {
                 change_culture = ROOT
                 change_religion = ROOT
             }
+            
+            add_country_modifier = {
+                name = mission_secrets_of_the_jungle
+                duration = -1
+            }
 		}
 	}
     
@@ -494,6 +518,8 @@ EVB_botani_column_3 = {
                 name = mission_sporeling_integration
                 duration = -1
             }
+            
+            custom_tooltip = INFESTATION_SPREADS_TO_SOUTH_DRAENOR_TT
 		}
 	}
     
@@ -570,21 +596,23 @@ EVB_botani_column_3 = {
         }
         
 		trigger = {
-            capital_scope = {
-                development = 30
+            all_owned_province = {
+                development = 6
             }
 		}
 		provinces_to_highlight = {
-            is_capital = yes
+            NOT = { development = 6 }
             owned_by = ROOT
 		}
         
 		effect = {
 			change_primary_culture = culture_sporemound
-            capital_scope = {
-                area = {
-                    change_culture = culture_sporemound
+            every_owned_province = {
+                limit = {
+                    continent = continent_draenor
                 }
+                
+                change_culture = culture_sporemound
             }
             
             # This prevents the normal succession event from occuring
@@ -601,6 +629,8 @@ EVB_botani_column_3 = {
             hidden_effect = {
                 set_ruler_flag = is_immortal
             }
+            
+            custom_tooltip = BOTANI_RULER_IS_IMMORTAL_TT
 		}
 	}
     
@@ -613,22 +643,13 @@ EVB_botani_column_3 = {
         }
         
 		trigger = {
-            capital_scope = {
-                if = {
-                    limit = {
-                        owner = { 
-                            ai = no
-                        }
-                     }
-                    development = 40
-                }
-                else = {
-                    development = 30
-                }
+            all_owned_province = {
+                development = 8
             }
-            stability = 3
-            NOT = { unrest = 1 }
-            NOT = { num_of_rebel_armies = 1}
+		}
+		provinces_to_highlight = {
+            NOT = { development = 8 }
+            owned_by = ROOT
 		}
         
 		effect = {
@@ -650,23 +671,69 @@ EVB_botani_column_3 = {
         }
         
 		trigger = {
-            region_blasted_lands = {
+            region_frostfire_ridge = {
                 type = all
-                
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
             }
-            region_swamp_of_sorrows = {
+            region_gorgrond = {
                 type = all
-                
-                country_or_non_sovereign_subject_holds = ROOT
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
+            }
+            region_talador = {
+                type = all
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
+            }
+            region_tanaan_jungle = {
+                type = all
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
+            }
+            region_farahlon = {
+                type = all
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
+            }
+            region_nagrand_draenor = {
+                type = all
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
+            }
+            region_spires_of_arak = {
+                type = all
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
+            }
+            region_shadowmoon_valley_draenor = {
+                type = all
+                owned_by = ROOT
+                culture = ROOT
+                religion = ROOT
             }
 		}
 		provinces_to_highlight = {
             OR = {
-                region = region_blasted_lands
-                region = region_swamp_of_sorrows
+                region = region_frostfire_ridge
+                region = region_gorgrond
+                region = region_talador
+                region = region_tanaan_jungle
+                region = region_farahlon
+                region = region_nagrand_draenor
+                region = region_spires_of_arak
+                region = region_shadowmoon_valley_draenor
             }
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+            NOT = { owned_by = ROOT }
+            NOT = { culture = ROOT }
+            NOT = { religion = ROOT }
 		}
         
 		effect = {
@@ -714,33 +781,14 @@ EVB_botani_column_4 = {
 
 		effect = {
 			add_stability = 1
-			5644 = {
-			    change_culture = culture_infested
-				change_religion = sporemounds
-            }
-			5642 = {
-			    change_culture = culture_infested
-				change_religion = sporemounds
-            }
-			5634 = {
-			    change_culture = culture_infested
-				change_religion = sporemounds
-            }
-			5633 = {
-			    change_culture = culture_infested
-				change_religion = sporemounds
-            }
-			5636 = {
-			    change_culture = culture_infested
-				change_religion = sporemounds
-            }
-			5637 = {
-			    change_culture = culture_infested
-				change_religion = sporemounds
-            }
-			3849 = {
-			    change_culture = culture_infested
-				change_religion = sporemounds
+            
+            custom_tooltip = CHANGE_FARAHLON_TO_INFESTED_CULTURE_RELIGION_TT
+            
+            hidden_effect = {
+                region_farahlon = {
+                    change_culture = culture_botani
+                    change_religion = sporemounds
+                }
             }
 		}
 	}
@@ -794,12 +842,9 @@ EVB_botani_column_4 = {
 		trigger = {
             region_farahlon = {
                 type = all
-                
                 country_or_non_sovereign_subject_holds = ROOT
             }
             region_tanaan_jungle = {
-                type = all
-                
                 country_or_non_sovereign_subject_holds = ROOT
             }
 		}

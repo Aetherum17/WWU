@@ -128,7 +128,7 @@ wwu_gnoll_generic_column_5 = {
 				num_of_generals = 2
 			}
 			OR = {
-				development = 100
+				total_development = 100
 				army_size = 20
 			}
 		}

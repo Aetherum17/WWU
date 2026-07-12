@@ -2,7 +2,10 @@
 # Modifiers
 #---------------------------------------
 # Decision: 
-enforced_isolation = { 
+isolation_cooldown = { }
+
+# Isolation: Total
+isolation_level_5 = { 
     defensiveness = 1
     development_cost_in_primary_culture = -0.15
     global_spy_defence = 0.5
@@ -11,7 +14,65 @@ enforced_isolation = {
     capped_by_forcelimit = yes
     can_not_declare_war = yes
     can_not_build_colonies = yes
-    diplomatic_upkeep = -5
+    diplomatic_upkeep = -3
 }
 
-isolation_cooldown = { }
+# Isolation: Extreme
+isolation_level_4 = { 
+    defensiveness = 0.8
+    development_cost_in_primary_culture = -0.1
+    global_spy_defence = 0.4
+    global_trade_goods_size_modifier = 0.1
+    
+    capped_by_forcelimit = yes
+    can_not_declare_war = yes
+    can_not_build_colonies = yes
+    diplomatic_upkeep = -3
+}
+
+# Isolation: Strong 
+isolation_level_3 = { 
+    defensiveness = 0.6
+    development_cost_in_primary_culture = -0.075
+    global_spy_defence = 0.3
+    global_trade_goods_size_modifier = 0.075
+    
+    capped_by_forcelimit = yes
+    can_not_declare_war = yes
+    can_not_build_colonies = yes
+    diplomatic_upkeep = -2
+    
+    # Allow diplomacy
+}
+
+# Isolation: Moderate
+isolation_level_2 = { 
+    defensiveness = 0.4
+    development_cost_in_primary_culture = -0.05
+    global_spy_defence = 0.2
+    global_trade_goods_size_modifier = 0.05
+    
+    capped_by_forcelimit = yes
+    can_not_declare_war = yes
+    diplomatic_upkeep = -2
+    
+    # Allows colonies
+    # Allow diplomacy
+}
+
+# Isolation: Weak
+isolation_level_1 = { 
+    defensiveness = 0.2
+    development_cost_in_primary_culture = -0.025
+    global_spy_defence = 0.1
+    global_trade_goods_size_modifier = 0.025
+    
+    can_not_declare_war = yes
+    diplomatic_upkeep = -1
+    
+    # Uncapped forcelimit
+    # Allows colonies
+    # Allow diplomacy
+}
+
+

@@ -98,7 +98,10 @@ royal_marriage = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -109,7 +112,10 @@ royal_marriage = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -173,6 +179,8 @@ declarewar = {
         tooltip = PREVENT_WAR_VEIL_ENEMY_TT
         
         potential = {
+            # If the Withered have this modifier, they can attack Suramar
+            NOT = { has_country_modifier = withered_pierce_the_veil }
             FROM = {
                 has_disaster = veil_of_suramar
             }
@@ -213,7 +221,10 @@ declarewar = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -260,7 +271,10 @@ support_independence_action = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -271,7 +285,10 @@ support_independence_action = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -586,7 +603,10 @@ allianceaction = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -597,7 +617,10 @@ allianceaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -638,7 +661,10 @@ embargoaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -689,7 +715,10 @@ annexationaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -748,7 +777,10 @@ integrationaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -784,7 +816,10 @@ vassalaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -805,7 +840,10 @@ guaranteeaction = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -816,7 +854,10 @@ guaranteeaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -837,7 +878,10 @@ warningaction = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -848,7 +892,10 @@ warningaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -868,7 +915,10 @@ threaten_war = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -925,7 +975,10 @@ insultaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -945,7 +998,10 @@ giftaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -965,7 +1021,10 @@ claimaction = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -995,7 +1054,10 @@ offerloan = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1006,7 +1068,10 @@ offerloan = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1027,7 +1092,10 @@ warsubsidy = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1038,7 +1106,10 @@ warsubsidy = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1059,7 +1130,10 @@ sellprov = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1070,7 +1144,10 @@ sellprov = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1182,7 +1259,10 @@ enforce_peace = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1203,7 +1283,10 @@ improve_relation = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1214,7 +1297,10 @@ improve_relation = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1234,7 +1320,10 @@ fabricate_claim = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1254,7 +1343,10 @@ justify_trade_conflict = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1274,7 +1366,10 @@ transfer_trade_power = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1295,7 +1390,10 @@ infiltrate_administration = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1306,7 +1404,10 @@ infiltrate_administration = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1327,7 +1428,10 @@ sabotage_reputation = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1338,7 +1442,10 @@ sabotage_reputation = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1359,7 +1466,10 @@ support_rebels = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1370,7 +1480,10 @@ support_rebels = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1391,7 +1504,10 @@ sow_discontent = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1402,7 +1518,10 @@ sow_discontent = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1423,7 +1542,10 @@ agitate_for_liberty = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1434,7 +1556,10 @@ agitate_for_liberty = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1482,7 +1607,10 @@ form_coalition = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1656,7 +1784,10 @@ designate_march = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1676,7 +1807,10 @@ ask_for_march = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1696,7 +1830,10 @@ sell_ships_action = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1746,7 +1883,10 @@ takeondebt = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1766,7 +1906,10 @@ influence_nation = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1786,7 +1929,10 @@ claim_states = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1806,7 +1952,10 @@ steer_trade = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1827,7 +1976,10 @@ stealmap = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1838,7 +1990,10 @@ stealmap = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1859,7 +2014,10 @@ spy_network = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1870,7 +2028,10 @@ spy_network = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1907,7 +2068,10 @@ invite_to_trade_league = {
 		potential = {   
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1918,7 +2082,10 @@ invite_to_trade_league = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1953,7 +2120,10 @@ request_to_join_trade_league = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1964,7 +2134,10 @@ request_to_join_trade_league = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -1985,7 +2158,10 @@ sharemap = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -1996,7 +2172,10 @@ sharemap = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -2016,7 +2195,10 @@ intervene_in_war = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -2036,7 +2218,10 @@ break_alliance = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -2056,7 +2241,10 @@ tributary_state_action = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no
@@ -2077,7 +2265,10 @@ ask_for_tributary_state_action = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -2099,7 +2290,10 @@ knowledge_sharing = {
 		potential = {
             has_global_flag = enabled_isolation_mechanics
             FROM = {
-                has_country_modifier = enforced_isolation
+                OR = {
+                    has_country_modifier = isolation_level_5
+                    has_country_modifier = isolation_level_4
+                }
             }
 		}
 		allow = {
@@ -2110,7 +2304,10 @@ knowledge_sharing = {
 		tooltip = DIP_ENFORCED_ISOLATION_US
 		potential = {
             has_global_flag = enabled_isolation_mechanics
-            has_country_modifier = enforced_isolation
+            OR = {
+                has_country_modifier = isolation_level_5
+                has_country_modifier = isolation_level_4
+            }
 		}
 		allow = {
 			always = no

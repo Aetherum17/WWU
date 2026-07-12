@@ -14,3 +14,7 @@ arcwine_heist_cooldown = { }
 
 power_of_the_nightwell = { }
 power_of_the_sunwell = { }
+
+withered_pierce_the_veil = { 
+    land_morale = 0.05
+}

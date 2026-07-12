@@ -1,0 +1,267 @@
+namespace = wwu_mission_botani
+
+# Infested Culture Spreads in Gorgrond
+country_event = {
+    id = wwu_mission_botani.1
+    title = wwu_mission_botani.1.title
+    desc = wwu_mission_botani.1.desc
+    picture = BLACKROCK_DEPTHS_eventPicture
+
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        tag = EVB
+        mission_completed = EVB_control_the_everbloom_wilds
+        NOT = { mission_completed = EVB_destroy_the_foundry }
+        
+        any_owned_province = {
+            region = region_gorgrond
+            NOT = { culture_group = culture_group_botani }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_botani.1.option.a
+
+        random_owned_province = {
+            limit = {
+                region = region_gorgrond
+                NOT = { culture_group = culture_group_botani }
+            }
+            
+            change_culture = culture_infested
+        } 
+    }
+}
+
+# Sporemounds Religion Spreads in Gorgrond
+country_event = {
+    id = wwu_mission_botani.2
+    title = wwu_mission_botani.2.title
+    desc = wwu_mission_botani.2.desc
+    picture = BLACKROCK_DEPTHS_eventPicture
+
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        tag = EVB
+        mission_completed = EVB_control_the_everbloom_wilds
+        NOT = { mission_completed = EVB_destroy_the_foundry }
+        
+        any_owned_province = {
+            region = region_gorgrond
+            NOT = { religion = sporemounds }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_botani.2.option.a
+
+        random_owned_province = {
+            limit = {
+                region = region_gorgrond
+                NOT = { religion = sporemounds }
+            }
+            
+            change_religion = sporemounds
+        } 
+    }
+}
+
+# Infested Culture Spreads in North Draenor
+country_event = {
+    id = wwu_mission_botani.3
+    title = wwu_mission_botani.3.title
+    desc = wwu_mission_botani.3.desc
+    picture = BLACKROCK_DEPTHS_eventPicture
+
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        tag = EVB
+        mission_completed = EVB_destroy_the_foundry
+        
+        any_owned_province = {
+            OR = {
+                region = region_gorgrond
+                region = region_tanaan_jungle
+                region = region_talador
+                region = region_frostfire_ridge
+            }
+            NOT = { culture_group = culture_group_botani }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_botani.3.option.a
+
+        random_owned_province = {
+            limit = {
+                OR = {
+                    region = region_gorgrond
+                    region = region_tanaan_jungle
+                    region = region_talador
+                    region = region_frostfire_ridge
+                }
+                NOT = { culture_group = culture_group_botani }
+            }
+            
+            change_culture = culture_infested
+        } 
+    }
+}
+
+# Sporemounds Religion Spreads in North Draenor
+country_event = {
+    id = wwu_mission_botani.4
+    title = wwu_mission_botani.4.title
+    desc = wwu_mission_botani.4.desc
+    picture = BLACKROCK_DEPTHS_eventPicture
+
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        tag = EVB
+        mission_completed = EVB_destroy_the_foundry
+        
+        any_owned_province = {
+            OR = {
+                region = region_gorgrond
+                region = region_tanaan_jungle
+                region = region_talador
+                region = region_frostfire_ridge
+            }
+            NOT = { religion = sporemounds }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_botani.4.option.a
+
+        random_owned_province = {
+            limit = {
+                OR = {
+                    region = region_gorgrond
+                    region = region_tanaan_jungle
+                    region = region_talador
+                    region = region_frostfire_ridge
+                }
+                NOT = { religion = sporemounds }
+            }
+            
+            change_religion = sporemounds
+        } 
+    }
+}
+
+# Infested Culture Spreads in South Draenor
+country_event = {
+    id = wwu_mission_botani.5
+    title = wwu_mission_botani.5.title
+    desc = wwu_mission_botani.5.desc
+    picture = BLACKROCK_DEPTHS_eventPicture
+
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        tag = EVB
+        mission_completed = EVB_in_defense_of_our_kin
+        
+        any_owned_province = {
+            OR = {
+                region = region_nagrand_draenor
+                region = region_spires_of_arak
+                region = region_shadowmoon_valley_draenor
+            }
+            NOT = { culture_group = culture_group_botani }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_botani.5.option.a
+
+        random_owned_province = {
+            limit = {
+            OR = {
+                region = region_nagrand_draenor
+                region = region_spires_of_arak
+                region = region_shadowmoon_valley_draenor
+            }
+                NOT = { culture_group = culture_group_botani }
+            }
+            
+            change_culture = culture_infested
+        } 
+    }
+}
+
+# Sporemounds Religion Spreads in South Draenor
+country_event = {
+    id = wwu_mission_botani.6
+    title = wwu_mission_botani.6.title
+    desc = wwu_mission_botani.6.desc
+    picture = BLACKROCK_DEPTHS_eventPicture
+
+    is_triggered_only = yes
+    hidden = yes
+    
+    trigger = {
+        tag = EVB
+        mission_completed = EVB_in_defense_of_our_kin
+        
+        any_owned_province = {
+            OR = {
+                region = region_nagrand_draenor
+                region = region_spires_of_arak
+                region = region_shadowmoon_valley_draenor
+            }
+            NOT = { religion = sporemounds }
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = wwu_mission_botani.6.option.a
+
+        random_owned_province = {
+            limit = {
+                OR = {
+                    region = region_nagrand_draenor
+                    region = region_spires_of_arak
+                    region = region_shadowmoon_valley_draenor
+                }
+                NOT = { religion = sporemounds }
+            }
+            
+            change_religion = sporemounds
+        } 
+    }
+}

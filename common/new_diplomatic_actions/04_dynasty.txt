@@ -10,10 +10,10 @@ establish_diplomatic_links = {
     
 	is_visible = {
         NOT = { has_country_modifier = cooldown_diplomatic_links }
-        NOT = { has_country_modifier = enforced_isolation }
+        NOT = { has_any_isolation = yes }
             
         FROM = { 
-            NOT = { has_country_modifier = enforced_isolation }
+            NOT = { has_any_isolation = yes }
             NOT = { is_subject_of = ROOT }
             NOT = {
                 has_opinion_modifier = {
