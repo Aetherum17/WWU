@@ -2,6 +2,7 @@ is_city = yes
 owner = LBC
 controller = LBC
 add_core = LBC
+add_core = NOX
 
 base_tax = 1
 base_production = 3

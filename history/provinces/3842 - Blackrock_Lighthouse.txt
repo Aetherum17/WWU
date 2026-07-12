@@ -2,6 +2,7 @@ is_city = yes
 owner = A41
 controller = A41
 add_core = A41
+add_core = EVB
 
 base_tax = 1
 base_production = 1
