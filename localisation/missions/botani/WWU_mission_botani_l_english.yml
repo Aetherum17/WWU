@@ -115,6 +115,18 @@
  
  mission_southern_dominance: "Southern Dominance"
  desc_mission_southern_dominance: ""
+ 
+ mission_everbloom_overgrowth: "Everbloom Overgrowth"
+ desc_mission_everbloom_overgrowth: ""
+ 
+ mission_frostbloom: "Frostbloom"
+ desc_mission_frostbloom: ""
+ 
+ mission_infested_troops: "Infested Troops"
+ desc_mission_infested_troops: ""
+ 
+ mission_secrets_of_the_jungle: "Secrets of the Jungle"
+ desc_mission_secrets_of_the_jungle: ""
   
  #------------------------------
  # Flags
@@ -135,3 +147,40 @@
  SPECIALIST_INFESTED_1_UNLOCK_TT: "Unlocks the §YWithering Infested§! company."
  SPECIALIST_INFESTED_2_UNLOCK_TT: "Unlocks the §YThriving Infested§! company, replacing the §YWithering Infested§! company."
  SPECIALIST_INFESTED_3_UNLOCK_TT: "Unlocks the §YBlooming Infested§! company, replacing the §YThriving Infested§! company."
+ 
+ CHANGE_FARAHLON_TO_INFESTED_CULTURE_RELIGION_TT: "Change all provinces in §YFarahlon§! to §YInfested§! culture and §YSporemounds§! religion."
+ 
+ INFESTATION_SPREADS_TO_GORGROND_TT: "§YGorgrond§! provinces owned by us will randomly convert to §YInfested§! culture and §YSporemounds§! religion."
+ 
+ INFESTATION_SPREADS_TO_NORTH_DRAENOR_TT: "Provinces owned by us in §YGrogrond§!, §YFrostfire Ridge§!, §YTanaan Jungle§! and §YTalador§! will randomly convert to §YInfested§! culture and §YSporemounds§! religion."
+ 
+ INFESTATION_SPREADS_TO_SOUTH_DRAENOR_TT: "Provinces owned by us in §YNagrand§!, §YSpires of Arak§! and §YShadowmoon Valley§! will randomly convert to §YInfested§! culture and §YSporemounds§! religion."
+ 
+ BOTANI_RULER_IS_IMMORTAL_TT: "This ruler is immortal."
+ 
+ #------------------------------
+ # Events
+ #------------------------------
+ wwu_mission_botani.1.title: "Infested Culture Spreads in Gorgrond"
+ wwu_mission_botani.1.desc: ""
+ wwu_mission_botani.1.option.a: ""
+ 
+ wwu_mission_botani.2.title: "Sporemounds Religion Spreads in Gorgrond"
+ wwu_mission_botani.2.desc: ""
+ wwu_mission_botani.2.option.a: ""
+ 
+ wwu_mission_botani.3.title: "Infested Culture Spreads in North Draenor"
+ wwu_mission_botani.3.desc: ""
+ wwu_mission_botani.3.option.a: ""
+ 
+ wwu_mission_botani.4.title: "Sporemounds Religion Spreads in North Draenor"
+ wwu_mission_botani.4.desc: ""
+ wwu_mission_botani.4.option.a: ""
+ 
+ wwu_mission_botani.5.title: "Infested Culture Spreads in South Draenor"
+ wwu_mission_botani.5.desc: ""
+ wwu_mission_botani.5.option.a: ""
+ 
+ wwu_mission_botani.6.title: "Sporemounds Religion Spreads in South Draenor"
+ wwu_mission_botani.6.desc: ""
+ wwu_mission_botani.6.option.a: ""

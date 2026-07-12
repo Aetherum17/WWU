@@ -702,6 +702,19 @@ on_monthly_pulse = {
         # Mana
         wwu_magic.70                    # Mana Fulfilment
     }
+    
+    random_events = {
+        10 = wwu_mission_botani.1 # Infested Culture Spreads in Gorgrond
+        10 = wwu_mission_botani.2 # Sporemounds Religion Spreads in Gorgrond
+        
+        10 = wwu_mission_botani.3 # Infested Culture Spreads in North Draenor
+        10 = wwu_mission_botani.4 # Sporemounds Religion Spreads in North Draenor
+        
+        10 = wwu_mission_botani.5 # Infested Culture Spreads in South Draenor
+        10 = wwu_mission_botani.6 # Sporemounds Religion Spreads in South Draenor
+        
+        120 = 0
+    }
 }
 
 # ROOT = Country
