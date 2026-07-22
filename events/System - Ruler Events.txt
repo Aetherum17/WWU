@@ -135,13 +135,15 @@ country_event = {
     
 }
 
+
 #----------------------------------------------------
-# Ruler Death
+# Ruler/Heir Life Threat
 #----------------------------------------------------
+# Illness befalls [Root.Monarch.GetTitle] [Root.Monarch.GetName]
 country_event = {
-	id = wwu_ruler.10
-	title = wwu_ruler.10.title
-	desc = wwu_ruler.10.desc
+	id = wwu_ruler.20
+	title = wwu_ruler.20.title
+	desc = wwu_ruler.20.desc
 	picture = ROYAL_TOMB_eventPicture
    
     is_triggered_only = yes
@@ -570,20 +572,119 @@ country_event = {
         }
     }
    
+    # We will ensure they survive! (Level 1)
 	option = {
-		name = wwu_ruler.10.option.a
+		name = wwu_ruler.20.option.a
        
+        trigger = {
+            ai = no
+            NOT = { has_ruler_flag = ruler_death_intercept_1 }
+        }
+        
+        add_adm_power = -100
+        add_dip_power = -100
+        add_mil_power = -100
+        
+        hidden_effect = {
+            set_ruler_flag = ruler_death_intercept_1
+        }
+	}
+    
+    # We will ensure they survive! (Level 2)
+	option = {
+		name = wwu_ruler.20.option.a
+       
+        trigger = {
+            ai = no
+            has_ruler_flag = ruler_death_intercept_1
+            NOT = { has_ruler_flag = ruler_death_intercept_2 }
+        }
+        
+        add_adm_power = -200
+        add_dip_power = -200
+        add_mil_power = -200
+        
+        hidden_effect = {
+            set_ruler_flag = ruler_death_intercept_2
+        }
+	}
+    
+    # We will ensure they survive! (Level 3)
+	option = {
+		name = wwu_ruler.20.option.a
+       
+        trigger = {
+            ai = no
+            has_ruler_flag = ruler_death_intercept_1
+            has_ruler_flag = ruler_death_intercept_2
+            NOT = { has_ruler_flag = ruler_death_intercept_3 }
+        }
+        
+        add_adm_power = -300
+        add_dip_power = -300
+        add_mil_power = -300
+        
+        hidden_effect = {
+            set_ruler_flag = ruler_death_intercept_3
+        }
+	}
+    
+    # We will ensure they survive! (Level 4)
+	option = {
+		name = wwu_ruler.20.option.a
+       
+        trigger = {
+            ai = no
+            has_ruler_flag = ruler_death_intercept_1
+            has_ruler_flag = ruler_death_intercept_2
+            has_ruler_flag = ruler_death_intercept_3
+            NOT = { has_ruler_flag = ruler_death_intercept_4 }
+        }
+        
+        add_adm_power = -400
+        add_dip_power = -400
+        add_mil_power = -400
+        
+        hidden_effect = {
+            set_ruler_flag = ruler_death_intercept_4
+        }
+	}
+    
+    # We will ensure they survive! (Level 5)
+	option = {
+		name = wwu_ruler.20.option.a
+       
+        trigger = {
+            ai = no
+            has_ruler_flag = ruler_death_intercept_1
+            has_ruler_flag = ruler_death_intercept_2
+            has_ruler_flag = ruler_death_intercept_3
+            has_ruler_flag = ruler_death_intercept_4
+            NOT = { has_ruler_flag = ruler_death_intercept_5 }
+        }
+        
+        add_adm_power = -500
+        add_dip_power = -500
+        add_mil_power = -500
+        
+        hidden_effect = {
+            set_ruler_flag = ruler_death_intercept_5
+        }
+	}
+    
+    # What happens, happens.
+	option = {
+		name = wwu_ruler.20.option.b
+        
         kill_ruler = yes
 	}
 }
 
-#----------------------------------------------------
-# Heir Death
-#----------------------------------------------------
+# Heir
 country_event = {
-	id = wwu_ruler.11
-	title = wwu_ruler.11.title
-	desc = wwu_ruler.11.desc
+	id = wwu_ruler.21
+	title = wwu_ruler.21.title
+	desc = wwu_ruler.21.desc
 	picture = ROYAL_TOMB_eventPicture
    
     is_triggered_only = yes
@@ -1008,9 +1109,110 @@ country_event = {
         }
     }
    
+    # We will ensure they survive! (Level 1)
 	option = {
-		name = wwu_ruler.11.option.a
+		name = wwu_ruler.21.option.a
        
-       kill_heir = { }
+        trigger = {
+            ai = no
+            NOT = { has_heir_flag = heir_death_intercept_1 }
+        }
+        
+        add_adm_power = -100
+        add_dip_power = -100
+        add_mil_power = -100
+        
+        hidden_effect = {
+            set_heir_flag = heir_death_intercept_1
+        }
+	}
+    
+    # We will ensure they survive! (Level 2)
+	option = {
+		name = wwu_ruler.21.option.a
+       
+        trigger = {
+            ai = no
+            has_heir_flag = heir_death_intercept_1
+            NOT = { has_heir_flag = heir_death_intercept_2 }
+        }
+        
+        add_adm_power = -200
+        add_dip_power = -200
+        add_mil_power = -200
+        
+        hidden_effect = {
+            set_heir_flag = heir_death_intercept_2
+        }
+	}
+    
+    # We will ensure they survive! (Level 3)
+	option = {
+		name = wwu_ruler.21.option.a
+       
+        trigger = {
+            ai = no
+            has_heir_flag = heir_death_intercept_1
+            has_heir_flag = heir_death_intercept_2
+            NOT = { has_heir_flag = heir_death_intercept_3 }
+        }
+        
+        add_adm_power = -300
+        add_dip_power = -300
+        add_mil_power = -300
+        
+        hidden_effect = {
+            set_heir_flag = heir_death_intercept_3
+        }
+	}
+    
+    # We will ensure they survive! (Level 4)
+	option = {
+		name = wwu_ruler.21.option.a
+       
+        trigger = {
+            ai = no
+            has_heir_flag = heir_death_intercept_1
+            has_heir_flag = heir_death_intercept_2
+            has_heir_flag = heir_death_intercept_3
+            NOT = { has_heir_flag = heir_death_intercept_4 }
+        }
+        
+        add_adm_power = -400
+        add_dip_power = -400
+        add_mil_power = -400
+        
+        hidden_effect = {
+            set_heir_flag = heir_death_intercept_4
+        }
+	}
+    
+    # We will ensure they survive! (Level 5)
+	option = {
+		name = wwu_ruler.21.option.a
+       
+        trigger = {
+            ai = no
+            has_heir_flag = heir_death_intercept_1
+            has_heir_flag = heir_death_intercept_2
+            has_heir_flag = heir_death_intercept_3
+            has_heir_flag = heir_death_intercept_4
+            NOT = { has_heir_flag = heir_death_intercept_5 }
+        }
+        
+        add_adm_power = -500
+        add_dip_power = -500
+        add_mil_power = -500
+        
+        hidden_effect = {
+            set_heir_flag = heir_death_intercept_5
+        }
+	}
+    
+    # What happens, happens.
+	option = {
+		name = wwu_ruler.21.option.b
+        
+        kill_heir = yes
 	}
 }
