@@ -9,7 +9,7 @@ offensive_shock = 5
 defensive_shock = 4
 
 trigger = {
-    A23 = {
+    ROOT = {
         mission_completed = A23_theramorean_marines
     }
 }
