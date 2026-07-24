@@ -572,7 +572,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "golden_age"
 			quadTextureSprite ="GFX_age_golden_age_button"
-			position = { x = 148 y = 140 }
+			position = { x = 148 y = 0 }
 			buttonText = "START_GOLDEN_AGE"
 			buttonFont = "vic_18"
 		}
@@ -580,20 +580,20 @@ guiTypes = {
 		iconType = {
 			name = "in_golden_age_banner"
 			spriteType = "GFX_golden_age_banner"
-			position = { x = 74 y = 130 }
+			position = { x = 74 y = -5 }
 			alwaystransparent = yes 
 		}
 
 		iconType = {
 			name = "after_golden_age_banner"
 			spriteType = "GFX_golden_age_banner_tattered"
-			position = { x = 74 y = 130 }
+			position = { x = 74 y = -5 }
 			alwaystransparent = yes 
 		}
 
 		instantTextBoxType = {
 			name = "in_or_after_golden_age_text"
-			position = { x = 124 y =134 }
+			position = { x = 124 y = 0 }
 			font = "vic_22s"
 			borderSize = {x = 4 y = 4}
 			text = ""

@@ -1,6 +1,7 @@
 #----------------------------------------
 # Custom GUI - For non-specific elements
 #----------------------------------------
+# Pause
 custom_button = {
     name = stop_age_progression_button
     tooltip = stop_age_progression_tt
@@ -109,6 +110,8 @@ custom_button = {
         }
     }
 }
+
+# Resume
 custom_button = {
     name = allow_age_progression_button
     tooltip = allow_age_progression_tt
@@ -217,6 +220,15 @@ custom_button = {
         }
         
         hidden_effect = {
+            # Reset any force flags
+            clr_global_flag = force_age_frozen_throne
+            clr_global_flag = force_age_trouble_in_azeroth
+            clr_global_flag = force_age_burning_crusade
+            clr_global_flag = force_age_wrath_of_the_lich_king
+            clr_global_flag = force_age_cataclysm
+            clr_global_flag = force_age_mists_of_pandaria
+            clr_global_flag = force_age_eternal_conflict
+            
             clr_global_flag = stop_age_frozen_throne
             clr_global_flag = stop_age_trouble_in_azeroth
             clr_global_flag = stop_age_burning_crusade
@@ -227,6 +239,8 @@ custom_button = {
         }
     }
 }
+
+# Force
 custom_button = {
     name = force_age_progression_button
     tooltip = force_age_progression_tt
