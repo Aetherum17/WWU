@@ -65,7 +65,6 @@ New Mission Trees
 -Make Tabetha re-hirable after she dies as an advisor
 -Tabetha advisor events will now give 3 different versions of Tabetha based on Warcraft Rumble map mechanic_type
 -Mission with certain nations (like Beal Modan) will now give you a decision to release them as vassals like the indian vassal of Mughals if they dont exist
--Event for building a flagship if yours have sinken. Build a new one instantly for a huge price, only 1 so not repeatable)
 -Early disaster for dealing with Onyxia until complete related mission (also adress the later mentioned Varian events, the coming together of both factions to deal with Onyxia and the twilight attack)
 -Some diplomatic stuff regarding Throne of Thunder and by extension Pandaria
 -Events regarding Theramorean populace aggrivation if orcs are doing better than you
