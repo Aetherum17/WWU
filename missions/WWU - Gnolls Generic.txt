@@ -254,7 +254,7 @@ wwu_gnoll_generic_column_5 = {
 
 	wwu_azerothian_aspirations_glg = {
 		icon = mission_gnoll
-		required_missions = { wwu_continental_aspirations_glg }
+		required_missions = { wwu_multiregional_aspirations_glg }
 		position = 5
 
 		trigger = {

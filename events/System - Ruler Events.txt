@@ -1213,6 +1213,6 @@ country_event = {
 	option = {
 		name = wwu_ruler.21.option.b
         
-        kill_heir = yes
+        kill_heir = { }
 	}
 }
