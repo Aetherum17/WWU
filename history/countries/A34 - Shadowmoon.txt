@@ -16,10 +16,13 @@ capital 			= 3798
 		adm = 4
 		dip = 5
 		mil = 4
-        birth_date = 475.1.1
+        birth_date = 505.1.1
 	}
     
+    add_ruler_personality = trusting_personality
     set_ruler_flag = ruler_portrait_nerzhul
+    set_ruler_flag = shaman_personality
+	set_ruler_flag = is_long_lived
     
     setup_spellcaster_history = {
         APTITUDE = 4

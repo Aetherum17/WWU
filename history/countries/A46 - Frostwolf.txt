@@ -16,11 +16,13 @@ capital 			= 3867
 		dynasty = "Frostwolf" 
 		adm = 6
 		dip = 3
-		mil = 4
+		mil = 3
         birth_date = 528.1.1
  	}
     
     set_ruler_flag = ruler_portrait_durotan
+    set_ruler_flag = warrior_personality
+	set_ruler_flag = is_long_lived
 }
 
 # Joined the Horde

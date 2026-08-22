@@ -10,6 +10,7 @@
 -Reduced values of Warscore Cost + WS Cost Vs across the board
 
 # History + map:
+-Adjusted ages of the orcish warlords on the start. Added selected starting personalities and starting classes.
 
 # Events:
 

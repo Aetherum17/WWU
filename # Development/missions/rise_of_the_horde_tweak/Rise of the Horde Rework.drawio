@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Strona-1" id="j2AXRgCGfTFMjRRMQR6V">
+    <mxGraphModel dx="1414" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YEDn89rREIue2PcmjPcq-14" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Messanger from Ner&#39;zhul" vertex="1">
+          <mxGeometry height="60" width="120" x="177" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-11" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-12" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-13" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="The Rise of Warlocks" vertex="1">
+          <mxGeometry height="60" width="120" x="177" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Acceptance of Warlocks" vertex="1">
+          <mxGeometry height="60" width="120" x="177" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Rejection of the Warlocks" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Total Fel Embracement" vertex="1">
+          <mxGeometry height="60" width="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-23" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-24" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-26" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-28" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-29" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Rise of the Horde" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Subjugation of Breakers&#39; Descendants" vertex="1">
+          <mxGeometry height="60" width="120" x="531" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Fall of the Sporemounds" vertex="1">
+          <mxGeometry height="60" width="120" x="707" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Fall of the Apexis Civilization" vertex="1">
+          <mxGeometry height="60" width="120" x="177" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Destruction of Gorian Empire" vertex="1">
+          <mxGeometry height="60" width="120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-34" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-35" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-36" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="War Against the Draenei" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-59" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="YEDn89rREIue2PcmjPcq-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Destruction of Shattrath" vertex="1">
+          <mxGeometry height="60" width="120" x="531" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-60" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Draenei Genecide" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-61" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="YEDn89rREIue2PcmjPcq-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Defilment of Karabor" vertex="1">
+          <mxGeometry height="60" width="120" x="177" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-40" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-41" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Blood of Mannoroth" vertex="1">
+          <mxGeometry height="60" width="120" x="530" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-48" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-63" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Acceptance of Fel Blood" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Rejection of Fel Blood" vertex="1">
+          <mxGeometry height="60" width="120" x="707" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-52" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-53" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-55" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="YEDn89rREIue2PcmjPcq-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Opening of the Dark Portal" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="The Chaos Orcs" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Our Direct Crossing" vertex="1">
+          <mxGeometry height="60" width="120" x="531" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Becoming the Orcish Horde" vertex="1">
+          <mxGeometry height="60" width="120" x="181" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Assembly of Orcish Horde" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" value="Member of the Burning Legion" vertex="1">
+          <mxGeometry height="60" width="120" x="706" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-62" edge="1" parent="1" source="YEDn89rREIue2PcmjPcq-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YEDn89rREIue2PcmjPcq-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YEDn89rREIue2PcmjPcq-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" value="Construction of Dark Portal" vertex="1">
+          <mxGeometry height="60" width="120" x="355" y="840" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
