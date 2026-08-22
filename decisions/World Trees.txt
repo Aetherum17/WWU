@@ -50,8 +50,10 @@ country_decisions = {
                 religion = elune
                 
                 any_ally = {
-                    religion = druidism
-                    religion = elune
+					OR = {
+						religion = druidism
+						religion = elune
+					}
                 }
             }
             

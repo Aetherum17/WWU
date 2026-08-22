@@ -187,7 +187,7 @@ deepen_isolation_level = {
         remove_country_modifier = isolation_level_1
         apply_moderate_isolation = yes
     }
-    else = {
+    else_if = {
         limit = {
             NOT = { has_any_isolation = yes }
         }

@@ -795,9 +795,6 @@ country_decisions = {
 			
 		    # Exclusions
 			NOT = { exists = VHJ }
-			
-			culture_group = culture_group_naga
-            
 		}
         
 		provinces_to_highlight = {

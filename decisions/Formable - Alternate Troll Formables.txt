@@ -56,9 +56,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-}
 
-country_decisions = {
     form_lapidis = {
 	    major = yes
         ai_importance = 0
