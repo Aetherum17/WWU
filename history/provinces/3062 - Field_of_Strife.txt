@@ -1,14 +1,14 @@
 is_city = yes
-owner = A17
-controller = A17
-add_core = A17
+owner = G25
+controller = G25
+add_core = G25
 
 base_tax = 1
 base_production = 1
-base_manpower = 1
+base_manpower = 3
 
-culture = culture_alterac
-religion = holy_light
+culture = culture_gnoll
+religion = earth
 
 hre = no
 trade_goods = resource_fossils
@@ -18,9 +18,7 @@ trade_goods = resource_fossils
 	owner = A46
 	controller = A46
 	add_core = A46
-    
-	culture = culture_orc
-	religion = shamanism
+    add_core = G25
 }
 
 # Rise of the Qiraji
@@ -28,8 +26,6 @@ trade_goods = resource_fossils
 	owner = H11
 	controller = H11
 	add_core = H11
-    
-	culture = culture_ironforge
-	religion = holy_light
+    add_core = G25
 }
 
