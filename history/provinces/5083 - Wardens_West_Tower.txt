@@ -1,21 +1,23 @@
 is_city = yes
-owner = HAT
-controller = HAT
-add_core = HAT
-add_core = WRC
+owner = WAV
+controller = WAV
+add_core = WAV
 
 base_tax = 2
 base_production = 2
 base_manpower = 3
 
-culture = culture_azsharan
+culture = culture_sea_giant
 religion = water
 
 hre = no
 trade_goods = unknown
 
 
-618.1.1 = { 
+618.1.1 = {
+    owner = WRD
+    controller = WRD
     add_core = WRD
-	remove_core = WRC
+    add_core = WAV
+	add_core = HAT
 }

@@ -1,0 +1,19 @@
+# Court of Farondis - Faronaar
+dependency = {
+	subject_type = "vassal"
+	first = COF
+	second = FOR
+	start_date = 546.1.1
+	end_date = 632.1.1
+}
+
+# Court of Farondis - Nordanel
+dependency = {
+	subject_type = "vassal"
+	first = COF
+	second = NDA
+	start_date = 546.1.1
+	end_date = 632.1.1
+}
+
+

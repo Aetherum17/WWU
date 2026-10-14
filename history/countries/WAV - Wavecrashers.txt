@@ -6,7 +6,7 @@ mercantilism 		= 10
 technology_group 	= tech_sea_giant
 religion			= water
 primary_culture 	= culture_sea_giant
-capital = 1552
+capital = 2656
 
 546.1.1 = { 
     monarch = { 

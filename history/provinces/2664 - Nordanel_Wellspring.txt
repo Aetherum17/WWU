@@ -1,11 +1,11 @@
 is_city = yes
-owner = WRC
-controller = WRC
-add_core = WRC
+owner = NDA
+controller = NDA
+add_core = NDA
 
-base_tax = 1
+base_tax = 2
 base_production = 1
-base_manpower = 2
+base_manpower = 3
 
 culture = culture_night_elf
 religion = elune
@@ -18,6 +18,6 @@ trade_goods = unknown
     owner = WRD
     controller = WRD
     add_core = WRD
-	remove_core = WRC
+	remove_core = NDA
 }
 

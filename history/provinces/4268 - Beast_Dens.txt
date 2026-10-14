@@ -1,23 +1,14 @@
 is_city = yes
-owner = WRC
-controller = WRC
-add_core = WRC
+owner = FOR
+controller = FOR
+add_core = FOR
 
 base_tax = 1
-base_production = 1
-base_manpower = 1
+base_production = 2
+base_manpower = 2
 
-culture = culture_night_elf
-religion = elune
+culture = culture_ghost
+religion = arcane
 
 hre = no
 trade_goods = unknown
-
-
-618.1.1 = { 
-    owner = WRD
-    controller = WRD
-    add_core = WRD
-	remove_core = WRC
-}
-

@@ -1,9 +1,7 @@
 is_city = yes
-owner = HAT
-controller = HAT
-add_core = HAT
+owner = WAV
+controller = WAV
 add_core = WAV
-add_core = WRC
 
 base_tax = 1
 base_production = 1
@@ -17,7 +15,10 @@ trade_goods = unknown
 
 
 618.1.1 = {
+    owner = WRD
+    controller = WRD
     add_core = WRD
-	remove_core = WRC
+    add_core = WAV
+	add_core = HAT
 }
 

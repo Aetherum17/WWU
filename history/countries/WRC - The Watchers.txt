@@ -6,7 +6,7 @@ mercantilism = 10
 technology_group = tech_night_elf
 religion = elune
 primary_culture = culture_night_elf
-capital = 5085
+capital = 4994
 
 546.1.1 = { 
 	monarch = { 

@@ -23,7 +23,14 @@ NEW NATIONS:
 	-Zanjir
 	-Shirakess
 	-Azshari
-
+-Hyjal:
+    -Irontree (Hyjal)
+-Broken Isles
+    -Shalanir (Valsharah)
+    -Andultalah (Valsharah)
+    -Nordanel (Azshuna)
+    -Faronaar (Azsunaa)
+	
 
 NEW CULTURES:
 -Anakoan (Jinyu Culture Group)
@@ -38,7 +45,8 @@ COUNTRY CHANGES:
 
 MAP CHANGES:
 -Turned most uncolonized provinces of Uldum to Cult of Sun religion
-
+Wavecrashers a released tag now
+Updated Subject Status for Court of Farondis and Deepbeards
 
 ADJASTMENTS:
 -Re-enabled an old Sasquatch Mission Event

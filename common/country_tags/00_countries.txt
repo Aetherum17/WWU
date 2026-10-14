@@ -502,8 +502,10 @@ TTP = "countries/The Tempest.txt"
 # Highbourne
 #-------------------------------------
 G43 = "countries/Shendralar.txt"               # - G43
-RGD = "countries/Rooksguard.txt"                # - RGD
-COF = "countries/Court of Farondis.txt"         # - COF
+RGD = "countries/Rooksguard.txt"               # - RGD
+COF = "countries/Court of Farondis.txt"        # - COF
+FOR = "countries/Faronaar.txt"                 # - FOR
+NDA = "countries/Nordanel.txt"                 # - NDA
 AZH = "countries/Zinazshari.txt"
 ELD = "countries/Eldarath.txt"
 ELE = "countries/Eldrethar.txt"
@@ -555,6 +557,9 @@ AST = "countries/Astranaar.txt"
 NEN = "countries/Nendis.txt"
 STL = "countries/Starfall.txt"
 TAL = "countries/Talrendis.txt"
+IRT = "countries/Irontree.txt"
+AUT = "countries/Andutalah.txt"
+SLN = "countries/Shalanir.txt"
 
 #-------------------------------------
 # Treant

@@ -1,22 +1,23 @@
 is_city = yes
-owner = WRC
-controller = WRC
-add_core = WRC
+owner = WAV
+controller = WAV
+add_core = WAV
 
 base_tax = 3
 base_production = 3
 base_manpower = 4
 
-culture = culture_night_elf
-religion = elune
+culture = culture_sea_giant
+religion = water
 
 hre = no
 trade_goods = resource_artifacts
 
 
-618.1.1 = { 
+618.1.1 = {
     owner = WRD
     controller = WRD
     add_core = WRD
-	remove_core = WRC
+    add_core = WAV
+	add_core = HAT
 }
