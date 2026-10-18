@@ -3,12 +3,13 @@ is_city = yes
 owner = P27
 controller = P27
 add_core = P27
+add_core = SOS
 
 base_tax = 4
 base_production = 4
 base_manpower = 3
 
-culture = culture_earth
+culture = culture_stone_lord
 religion = earth
 
 hre = no

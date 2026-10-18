@@ -82,7 +82,7 @@ AGC = "countries/Argent Crusade.txt"            # AGC - F19
 F27 = "countries/Elwynn Bandits.txt"            # ELW - F27
 F28 = "countries/Kurzen.txt"                    # KUZ - F28
 F38 = "countries/Valgarde.txt"                  # VLG - F38
-F39 = "countries/Nedreck.txt"                   # NED - F39
+F39 = "countries/Nedreck.txt"                   # F39
 F40 = "countries/Bloodhill Bandits.txt"         # BHB - F40
 F52 = "countries/Pyrewood.txt"                  # PYR - F52
 F55 = "countries/Lordaeron Survivors.txt"       # LDS - F55
@@ -676,6 +676,7 @@ FBD = "countries/Forbidden Reach.txt"
 VUS = "countries/Vault of Incarnates.txt"
 FLA = "countries/Flashfrost.txt"
 SHB = "countries/Sethrias Brood.txt"
+BAS = "countries/Brood of Aeosera.txt"
 
 #-------------------------------------
 # Drakonid
@@ -957,6 +958,7 @@ SMF = "countries/Stormforged.txt"
 G32 = "countries/Earthen.txt"                   # - G32
 ERR = "countries/Earthen Remnants.txt"
 SDS = "countries/Sandstone.txt"
+SRC = "countries/Stonehearth.txt"
 
 #-------------------------------------
 # Algari Earthen
@@ -1251,6 +1253,9 @@ G26 = "countries/Irondeep.txt"          # - G26
 G42 = "countries/Gravelflint.txt"       # - G42
 SRB = "countries/Scrapbone.txt"         
 BEG = "countries/Bonegnasher.txt"
+NED = "countries/Needlerock.txt"
+VEL = "countries/Verlok.txt"
+MUR = "countries/Murkstone.txt"
 
 #-------------------------------------
 # Hozen
@@ -1332,6 +1337,8 @@ TRE = "countries/Trenchwalker.txt"
 DEP = "countries/Deepbeard.txt"
 FER = "countries/Felrage.txt"
 SHO = "countries/Shorestriders.txt"
+SOS = "countries/Stone Lords.txt"
+SOK = "countries/Sons of Kor.txt"
 
 #-------------------------------------
 # Sprite
@@ -1491,6 +1498,7 @@ OOD = "countries/Order of Desacration.txt"
 # Rock Flayer
 #-------------------------------------
 R01 = "countries/Stonescythe.txt"					# - R01
+R02 = "countries/Rockslide.txt"
 
 #-------------------------------------
 # Mawsworn

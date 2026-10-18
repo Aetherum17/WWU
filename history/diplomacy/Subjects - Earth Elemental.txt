@@ -1,0 +1,18 @@
+# Deepholm - Sons of Kor
+dependency = {
+	subject_type = "vassal"
+	first = P27
+	second = SOK
+	start_date = 540.1.1
+	end_date = 632.1.1
+}
+
+# Deepholm - Brood of Aeosera
+dependency = {
+	subject_type = "vassal"
+	first = P27
+	second = BAS
+	start_date = 540.1.1
+	end_date = 632.1.1
+}
+

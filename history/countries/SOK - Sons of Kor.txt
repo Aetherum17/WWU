@@ -1,0 +1,23 @@
+government = tribal
+add_government_reform = giant_tribe_reform
+add_government_reform = wwu_tribal_established_hierarchy_reform
+
+technology_group 	= tech_elemental_earth
+religion			= earth
+primary_culture 	= culture_stone_lord
+capital 			= 2536
+mercantilism 		= 10
+
+540.1.1 = { 
+    monarch = { 
+        name = "Kor" 
+        dynasty = "the Immovable" 
+		adm = 2
+		dip = 2
+		mil = 5
+        birth_date = 100.1.1
+ 	} 
+    
+    set_ruler_flag = is_immortal
+ } 
+

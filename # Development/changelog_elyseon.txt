@@ -24,12 +24,21 @@ NEW NATIONS:
 	-Shirakess
 	-Azshari
 -Hyjal:
-    -Irontree (Hyjal)
--Broken Isles
+    -Irontree
+-Broken Isles:
     -Shalanir (Valsharah)
     -Andultalah (Valsharah)
     -Nordanel (Azshuna)
     -Faronaar (Azsunaa)
+-Deepholm:
+    -Brood of Aeosera
+    -Murkstone
+    -Needlerock
+    -Rockslide
+    -Sons of Kor
+    -Stone Lords
+    -Stonehearth
+    -Verlok
 	
 
 NEW CULTURES:

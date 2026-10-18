@@ -1,0 +1,396 @@
+graphical_culture = trogg_gfx
+
+color = { 90 50 12 }
+
+monarch_names = {
+	"Argh" = 1
+	"Gushlush" = 1
+	"Brugosh" = 1
+	"Gashgar" = 1
+	"Gnashlak" = 1
+	"Gramlash" = 1
+	"Mogmug" = 1
+	"Oggleosh" = 1
+	"Grawlok" = 1
+	"Revegesh" = 1
+	"Ravelosh" = 1
+	"Murdluk" = 1
+	"Oggleerikk" = 1
+	"Gnesheloc" = 1
+	"Raveosh" = 1
+	"Gramgash" = 1
+	"Grawgar" = 1
+	"Grambis" = 1
+	"Gruwgesh" = 1
+	"Grumgar" = 1
+	"Mardlak" = 1
+	"Gruwlush" = 1
+	"Gnushmug" = 1
+	"Reveash" = 1
+	"Gnashbis" = 1
+	"Morlok" = 1
+	"Brageloc" = 1
+	"Magloch" = 1
+	"Grubmig" = 1
+	"Gulgash" = 1
+	"Gruberikk" = 1
+	"Bruglok" = 1
+	"Gnesher" = 1
+	"Galmig" = 1
+	"Grubluk" = 1
+	"Bruger" = 1
+	"Ravegar" = 1
+	"Ogglealoc" = 1
+	"Murdgesh" = 1
+	"Grubbas" = 1
+	"Gnusheloc" = 1
+	"Brugar" = 1
+	"Murdger" = 1
+	"Bruggash" = 1
+	"Gruwaloc" = 1
+	"Grumeloc" = 1
+	"Grobgash" = 1
+	"Brugeloc" = 1
+	"Moraloc" = 1
+	"Raveer" = 1
+	"Revelak" = 1
+	"Ravegesh" = 1
+	"Ravemog" = 1
+	"Gashosh" = 1
+	"Grummug" = 1
+	"Galgor" = 1
+	"Gramgosh" = 1
+	"Grubgosh" = 1
+	"Mormog" = 1
+	"Gulosh" = 1
+	"Gramerikk" = 1
+	"Grammog" = 1
+	"Grumbas" = 1
+	"Gashash" = 1
+	"Moger" = 1
+	"Gushlok" = 1
+	"Murdmig" = 1
+	"Morosh" = 1
+	"Moggesh" = 1
+	"Maggash" = 1
+	"Murdgor" = 1
+	"Gneshlok" = 1
+	"Morderikk" = 1
+	"Bragbas" = 1
+	"Morgash" = 1
+	"Grawlash" = 1
+	"Ogglegosh" = 1
+	"Ogglelok" = 1
+	"Grumash" = 1
+	"Gramloch" = 1
+	"Morlush" = 1
+	"Mardbis" = 1
+	"Grobbas" = 1
+	"Grumer" = 1
+	"Bruglak" = 1
+	"Gashgash" = 1
+	"Gallash" = 1
+	"Grawar" = 1
+	"Galbas" = 1
+	"Gneshbas" = 1
+	"Gashger" = 1
+	"Guleloc" = 1
+	"Marder" = 1
+	"Gnushgor" = 1
+	"Groblush" = 1
+	"Gnashgar" = 1
+	"Gruwash" = 1
+	"Grawloch" = 1
+	"Murdmug" = 1
+	"Gashmig" = 1
+	"Mordash" = 1
+	"Gushgesh" = 1
+	"Reveluk" = 1
+	"Oggleeloc" = 1
+	"Gushaloc" = 1
+	"Grublok" = 1
+	"Argh" = -1
+	"Gushlush" = -1
+	"Brugosh" = -1
+	"Gashgar" = -1
+	"Gnashlak" = -1
+	"Gramlash" = -1
+	"Mogmug" = -1
+	"Oggleosh" = -1
+	"Grawlok" = -1
+	"Revegesh" = -1
+	"Ravelosh" = -1
+	"Murdluk" = -1
+	"Oggleerikk" = -1
+	"Gnesheloc" = -1
+	"Raveosh" = -1
+	"Gramgash" = -1
+	"Grawgar" = -1
+	"Grambis" = -1
+	"Gruwgesh" = -1
+	"Grumgar" = -1
+	"Mardlak" = -1
+	"Gruwlush" = -1
+	"Gnushmug" = -1
+	"Reveash" = -1
+	"Gnashbis" = -1
+	"Morlok" = -1
+	"Brageloc" = -1
+	"Magloch" = -1
+	"Grubmig" = -1
+	"Gulgash" = -1
+	"Gruberikk" = -1
+	"Bruglok" = -1
+	"Gnesher" = -1
+	"Galmig" = -1
+	"Grubluk" = -1
+	"Bruger" = -1
+	"Ravegar" = -1
+	"Ogglealoc" = -1
+	"Murdgesh" = -1
+	"Grubbas" = -1
+	"Gnusheloc" = -1
+	"Brugar" = -1
+	"Murdger" = -1
+	"Bruggash" = -1
+	"Gruwaloc" = -1
+	"Grumeloc" = -1
+	"Grobgash" = -1
+	"Brugeloc" = -1
+	"Moraloc" = -1
+	"Raveer" = -1
+	"Revelak" = -1
+	"Ravegesh" = -1
+	"Ravemog" = -1
+	"Gashosh" = -1
+	"Grummug" = -1
+	"Galgor" = -1
+	"Gramgosh" = -1
+	"Grubgosh" = -1
+	"Mormog" = -1
+	"Gulosh" = -1
+	"Gramerikk" = -1
+	"Grammog" = -1
+	"Grumbas" = -1
+	"Gashash" = -1
+	"Moger" = -1
+	"Gushlok" = -1
+	"Murdmig" = -1
+	"Morosh" = -1
+	"Moggesh" = -1
+	"Maggash" = -1
+	"Murdgor" = -1
+	"Gneshlok" = -1
+	"Morderikk" = -1
+	"Bragbas" = -1
+	"Morgash" = -1
+	"Grawlash" = -1
+	"Ogglegosh" = -1
+	"Ogglelok" = -1
+	"Grumash" = -1
+	"Gramloch" = -1
+	"Morlush" = -1
+	"Mardbis" = -1
+	"Grobbas" = -1
+	"Grumer" = -1
+	"Bruglak" = -1
+	"Gashgash" = -1
+	"Gallash" = -1
+	"Grawar" = -1
+	"Galbas" = -1
+	"Gneshbas" = -1
+	"Gashger" = -1
+	"Guleloc" = -1
+	"Marder" = -1
+	"Gnushgor" = -1
+	"Groblush" = -1
+	"Gnashgar" = -1
+	"Gruwash" = -1
+	"Grawloch" = -1
+	"Murdmug" = -1
+	"Gashmig" = -1
+	"Mordash" = -1
+	"Gushgesh" = -1
+	"Reveluk" = -1
+	"Oggleeloc" = -1
+	"Gushaloc" = -1
+	"Grublok" = -1
+
+}
+
+leader_names = {
+	"Pebbletooth"
+	"Steelfire"
+	"Mithrilfire"
+	"Hillcleave"
+	"Ridgefire"
+	"Cavernflint"
+	"Bronzejaw"
+	"Ridgesplinter"
+	"Cavedeep"
+	"Hillfire"
+	"Steeldeep"
+	"Stonecleave"
+	"Mithrilcleave"
+	"Mithrilsplinter"
+	"Boulderfire"
+	"Cavetooth"
+	"Hillflint"
+	"Rockjaw"
+	"Spoilflame"
+	"Rockfire"
+	"Ridgeflint"
+	"Bouldercleave"
+	"Boulderflame"
+	"Pebbleflame"
+	"Covefire"
+	"Pebblecleave"
+	"Stonesplinter"
+	"Graveljaw"
+	"Gravelsplinter"
+	"Covejaw"
+	"Spoilfire"
+	"Ridgedeep"
+	"Coveflame"
+	"Graveltooth"
+	"Pebbledeep"
+	"Ridgecleave"
+	"Bronzefire"
+	"Steelflint"
+	"Hilltooth"
+	"Bronzedeep"
+	"Spoilsplinter"
+	"Mithrilflint"
+	"Coveflint"
+	"Caverncleave"
+	"Spoildeep"
+	"Bronzesplinter"
+	"Spoilflint"
+	"Ironflame"
+	"Pebblefire"
+	"Caveflint"
+	"Pebblejaw"
+	"Stonefire"
+	"Cavejaw"
+	"Hillsplinter"
+	"Cavernflame"
+	"Bronzetooth"
+	"Boulderflint"
+	"Ironflint"
+	"Caveflame"
+	"Irontooth"
+	"Bronzeflame"
+	"Hilldeep"
+	"Ridgeflame"
+	"Gravelcleave"
+	"Rockflint"
+	"Ridgejaw"
+	"Rockcleave"
+	"Bronzeflint"
+	"Ironjaw"
+	"Bouldertooth"
+	"Covecleave"
+	"Bouldersplinter"
+	"Mithriltooth"
+	"Ridgetooth"
+	"Stoneflint"
+	"Hillflame"
+	"Cavefire"
+	"Spoiltooth"
+	"Steelflame"
+	"Stonedeep"
+	"Spoilcleave"
+	"Caverndeep"
+	"Cavernfire"
+	"Ironsplinter"
+	"Gravelflint"
+	"Cavernjaw"
+	"Ironfire"
+	"Ironcleave"
+	"Mithrildeep"
+	"Rocksplinter"
+	"Bronzecleave"
+	"Steelcleave"
+	"Hilljaw"
+	"Spoiljaw"
+	"Irondeep"
+	"Covesplinter"
+	"Gravelfire"
+	"Steelsplinter"
+	"Mithriljaw"
+	"Covetooth"
+	"Cavernsplinter"
+	"Rockdeep"
+	"Steeljaw"
+	"Pebblesplinter"
+	"Cavesplinter"
+	"Covedeep"
+	"Stoneflame"
+	"Pebbleflint"
+	"Rockflame"
+	"Cavecleave"
+	"Stonetooth"
+	"Boulderdeep"
+	"Steeltooth"
+	"Mithrilflame"
+	"Rocktooth"
+	"Graveldeep"
+	"Boulderjaw"
+	"Gravelflame"
+	"Caverntooth"
+	"Stonejaw"
+
+}
+
+ship_names = {
+	"Sunshatter"
+	"Windshear"
+	"Swiftsea"
+	"Gleenshore"
+	"Greengem"
+	"Rubyshine"
+	"Quicksilver"
+    "Skylark"
+    "Whisperwind"
+    "Seaskimmer"
+    "Oceanswift"
+    "Emeraldsail"
+    "Blueshore"
+    "Silversail"
+    "Goldsail"
+    "Redshear"
+
+}
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}
+
+historical_idea_groups = {
+	wwu_innovation_ideas
+	wwu_influence_ideas
+	wwu_economic_ideas
+	wwu_expansion_ideas
+	wwu_trade_ideas
+	wwu_quality_ideas
+	wwu_offensive_ideas
+	wwu_imperialism_ideas	
+}
+
+historical_units = {
+	trogg_inf_a_1
+	trogg_cav_a_1
+	trogg_inf_a_2
+	trogg_cav_a_2
+	trogg_inf_a_3
+	trogg_cav_a_3
+	trogg_inf_a_4
+	trogg_cav_a_4
+	trogg_inf_a_5
+	trogg_cav_a_5
+}
+

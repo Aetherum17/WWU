@@ -1,0 +1,31 @@
+
+# Aeosera
+government 			    = monarchy
+add_government_reform   = dragonflight_brood_reform
+
+mercantilism 		= 10
+technology_group 	= tech_black_dragonflight
+religion			= wind
+primary_culture 	= culture_storm_dragonflight
+capital 			= 2534
+
+540.1.1 = {
+    monarch = {
+        name = "Nithogg"
+        dynasty = "the Terror of Stormheim"
+		adm = 2
+		dip = 3
+		mil = 6
+        birth_date = 100.1.1
+ 	}
+    
+    setup_spellcaster_history = {
+        APTITUDE = 5
+        FINESSE = 5
+        CONCENTRATION = 5
+        MANA = 5
+        draconic = yes
+    }
+    
+    set_ruler_flag = is_immortal
+}

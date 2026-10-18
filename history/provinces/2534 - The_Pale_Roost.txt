@@ -1,14 +1,14 @@
 is_city = yes
 
-owner = P27
-controller = P27
-add_core = P27
+owner = BAS
+controller = BAS
+add_core = BAS
 
 base_tax = 4
 base_production = 4
 base_manpower = 4
 
-culture = culture_earth
+culture = culture_stone_dragonflight
 religion = earth
 
 hre = no

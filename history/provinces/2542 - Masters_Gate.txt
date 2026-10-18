@@ -1,14 +1,14 @@
 is_city = yes
 
-owner = P27
-controller = P27
-add_core = P27
+owner = SRC
+controller = SRC
+add_core = SRC
 
 base_tax = 1
 base_production = 1
 base_manpower = 2
 
-culture = culture_earth
+culture = culture_stone_earthen
 religion = earth
 
 hre = no

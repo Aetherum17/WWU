@@ -1,14 +1,14 @@
 is_city = yes
 
-owner = P27
-controller = P27
-add_core = P27
+owner = NED
+controller = NED
+add_core = NED
 
-base_tax = 2
-base_production = 3
+base_tax = 1
+base_production = 2
 base_manpower = 2
 
-culture = culture_earth
+culture = culture_stone_trogg
 religion = earth
 
 hre = no

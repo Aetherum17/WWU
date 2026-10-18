@@ -141,6 +141,7 @@
  culture_twilight_dragonflight: "Twilight Dragonflight"
  culture_netherwing_dragonflight: "Netherwing Dragonflight"
  culture_storm_dragonflight: "Storm Dragon"
+ culture_stone_dragonflight: "Stone Dragon"
  culture_infinite_dragonflight: "Infinite Dragonflight"
  culture_aspects: "Aspects"
  culture_chromatic_dragonflight: "Chromatic Dragonflight"
@@ -205,6 +206,7 @@
  
  culture_group_trogg: "Trogg"
  culture_trogg: "Trogg"
+ culture_stone_trogg: "Stone Trogg"
  
  culture_group_grummle: "Grummle"
  culture_grummle: "Grummle"
@@ -296,6 +298,7 @@
  
  culture_group_earth_giant: "Earthen Giants"
  culture_mountain_giant: "Mountain Giant"
+ culture_stone_lord: "Stone Lords"
 
  culture_group_dryad: "Dryad"
  culture_forest_nymph: "Forest Nymph"

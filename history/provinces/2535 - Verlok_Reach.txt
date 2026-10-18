@@ -1,14 +1,14 @@
 is_city = yes
 
-owner = P27
-controller = P27
-add_core = P27
+owner = VEL
+controller = VEL
+add_core = VEL
 
 base_tax = 1
 base_production = 1
 base_manpower = 1
 
-culture = culture_earth
+culture = culture_stone_trogg
 religion = earth
 
 hre = no
