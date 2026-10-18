@@ -44,7 +44,9 @@ NEW NATIONS:
 NEW CULTURES:
 -Anakoan (Jinyu Culture Group)
 -Deep Murlok (Murlok Culture Group)
-
+-Stone Troggs (Trogg Cutlure Group)
+-Stone Dragons (Dragonkin Culture Group)
+-Stone Lords (Earth Giant Culture Group)
 
 COUNTRY CHANGES:
 -Plunder Isle Murlocs are now present since the 1st date
