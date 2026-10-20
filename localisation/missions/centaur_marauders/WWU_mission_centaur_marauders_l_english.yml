@@ -99,7 +99,7 @@
  H04_mysteries_of_maruadon_desc: "Having invested years of work and resources, we have rebuild Maraudon to the state it should be. A grand temple, a monument that proves might of the Centaur race. However, as we reached the deeperst reaches of our homeland, we have meet a being that we have ignored for far too long. Our khan bowed, as before him stood one he respected the most. The Mother of all Centaurs."
 
  H04_awakening_the_earth_mother_title: "Awakening of the Earth Mother"
- H04_awakening_the_earth_mother_desc: "Having our mother awoken, she called upon the very earth itself, or rather, the depths of earth, where the Stone Mother, the one who created the lands we call home, resided. The Earth Princess, as the earth mother was titled, called upon the Stone Mother, showing prove of her creation. It is time for the Stone Mother to anwser to her call."
+ H04_awakening_the_earth_mother_desc: "Having our mother awoken, she called upon the very earth itself, or rather, the depths of earth, where the Stone Mother, the one who created the lands we call home, resided. The Earth Princess, as the earth mother was titled, called upon the Stone Mother, showing proof of her creation. It is time for the Stone Mother to anwser to her call."
 
  # Column 5
 
@@ -195,7 +195,7 @@
  event_centaur_heirs_earth: "Heirs of the Centaur Race: Earth"
  desc_event_centaur_heirs_earth: ""
 
- allow_siberian_frontier_20Y: "Allow Siberian Frontier 20Y"
+ allow_siberian_frontier_20Y: "Barrens Frontiers"
  desc_allow_siberian_frontier_20Y: ""
 
  event_centaur_marauders_razormane_defences: "Razormane Resistance"

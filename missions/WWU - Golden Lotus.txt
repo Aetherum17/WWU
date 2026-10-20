@@ -93,7 +93,7 @@ GOL_golden_lotus_column_1 = {
         
 		trigger = {
             1839 = {
-                sieged_by = ROOT
+                controlled_by = ROOT
                 devastation = 25
             }
 		}
