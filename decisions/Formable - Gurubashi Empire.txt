@@ -40,6 +40,10 @@ country_decisions = {
             
             # Switch
 			change_tag = FNG
+			set_government_rank = 3
+			change_government = monarchy
+			add_government_reform = gurubashi_empire_reform
+			set_capital = 783
             
 			# Bonus
             add_formable_bonus = yes

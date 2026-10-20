@@ -5,9 +5,19 @@
 # Fixes:
 -Fixed Secret Society war conditions so that peace deal can properly be made
 
+# Core Gameplay
+-Base Cost of Development reduced to 50 (vanilla value) (prev. 100)
+-Reintroduced Discount to Development in Capital (0.10%)
+-Cost of General/Admiral/Conquistador/Explorer reduced to 75 (prev. 100)
+-Change Primary Culture + Add Accepted Culture cost reduced (150, 100) (prev. 200, 150)
+
+
 # General Gameplay:
 -Given Cult of the Sun religion a religion modifier
 -Reduced values of Warscore Cost + WS Cost Vs across the board
+-Troll Mojo Mechanic now offers different base modifiers
+-Buffed Tier 15 Reforms to counter powerup that comes from Monument Assimilation
+-Increased Base Cost of Monument Assimilation
 
 # History + map:
 -Adjusted ages of the orcish warlords on the start. Added selected starting personalities and starting classes.
@@ -15,6 +25,8 @@
 # Events:
 
 # Decisions:
+* Trolls:
+-Initiate Guerilla Warfare changed to be more defensive
 
 # Mission Trees:
 * Anh'Qiraj:

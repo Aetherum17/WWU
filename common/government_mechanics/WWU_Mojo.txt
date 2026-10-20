@@ -13,9 +13,9 @@ mojo_mechanic = {
 			
 			scaled_modifier = {
 				modifier = {
-					technology_cost = -0.1
+					overextension_impact_modifier = -0.2
                     idea_cost = -0.1
-                    development_cost = -0.1
+                    liberty_desire_from_subject_development = -0.2
 				}
 			}
 		}

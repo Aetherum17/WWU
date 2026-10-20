@@ -3,8 +3,9 @@
 #---------------------------------------
 # Decision: 
 initiate_guerilla_warfare = {
-    military_tactics = 0.1
-    infantry_power = 0.05
+    hostile_attrition = 2
+    war_exhaustion = -0.05
+    land_attrition = -0.1
 }
 
 # Decision: 

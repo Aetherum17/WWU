@@ -1018,7 +1018,7 @@ wwu_culture_peaceful_existence = {
 	modifiers = {
         stability_cost_to_declare_war = 1
         global_unrest = -5
-        development_cost = -0.2
+        development_cost = -0.25
 	}
     
     ai = {
@@ -1031,8 +1031,8 @@ wwu_culture_warrior_culture = {
 	allow_normal_conversion = yes
 
 	modifiers = {
-        land_morale = 0.05
-        war_exhaustion = -0.02
+        land_morale = 0.15
+        war_exhaustion = -0.05
 	}
     
     ai = {
@@ -1045,8 +1045,9 @@ wwu_culture_tavern_life = {
 	allow_normal_conversion = yes
 
 	modifiers = {
-        diplomatic_upkeep = 1
-        trade_steering = 0.05
+        diplomatic_upkeep = 2
+		diplomatic_reputation = 2
+        trade_steering = 0.1
 	}
     
     ai = {
@@ -1059,8 +1060,10 @@ wwu_culture_arts_and_sciences = {
 	allow_normal_conversion = yes
 
 	modifiers = {
-        prestige = 0.5
-        technology_cost = -0.025
+        prestige = 1
+		monthly_splendor = 1
+        technology_cost = -0.075
+		idea_cost = -0.075
 	}
     
     ai = {

@@ -952,13 +952,10 @@ troll_kingdom_reform = {
     
 	modifiers = {
         core_creation = -0.1
-        unjustified_demands = -0.05
         land_morale = 0.1
         hostile_attrition = 1
         
         land_forcelimit_modifier = 0.1
-        
-        max_absolutism = 15
 	}
     
     conditional = {
@@ -972,12 +969,16 @@ troll_kingdom_reform = {
     }
     
     custom_attributes = {
-		locked_government_type = yes
+        locked_government_type = yes
         enables_automatic_spellcasting_ruler = yes
 	}
     
 	potential = {
+        locked_government_type = yes
         have_had_reform = troll_kingdom_reform
+        OR = {
+            NOT = { tag = FNG }
+        }
     }
     
 	ai = { factor = 0 }
@@ -2274,6 +2275,63 @@ hallowfall_expedition_reform = {
         OR = {
             tag = HFE
             was_tag = HFE
+        }
+    }
+    
+	ai = { factor = 0 }
+}
+
+# Used by Gurubashi Empire
+gurubashi_empire_reform = {
+	icon                        = "troll_male"
+    legacy_equivalent           = gurubashi_empire_legacy
+    valid_for_new_country       = no 
+    allow_normal_conversion     = no 
+	allow_convert               = no 
+    valid_for_nation_designer   = yes
+	nation_designer_cost        = 0
+    lock_level_when_selected    = yes
+    
+    queen                   = no
+    heir                    = no
+    generals_become_rulers  = yes
+    raze_province           = yes
+    
+	modifiers = {
+        core_creation = -0.15
+        unjustified_demands = -0.1
+        land_morale = 0.15
+        
+        land_forcelimit_modifier = 0.2
+        
+        max_absolutism = 20
+
+        monarch_military_power = 1
+        prestige_from_land = 0.25
+
+        leader_land_shock = 1
+        leader_land_manuever = 1
+	}
+    
+    conditional = {
+        allow = {
+            has_dlc = "Cradle of Civilization"
+        }
+        
+        government_abilities = {
+            mojo_mechanic
+        }
+    }
+    
+    custom_attributes = {
+		locked_government_type = yes
+        enables_automatic_spellcasting_ruler = yes
+	}
+    
+	potential = {
+        OR = {
+            tag = FNG
+            was_tag = FNG
         }
     }
     

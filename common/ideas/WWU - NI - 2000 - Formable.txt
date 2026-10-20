@@ -1640,7 +1640,7 @@ u01_ideas = {
 		leader_siege = 1
 	}
 	u01_ideas_3 = {
-        development_cost = -0.3
+        development_cost = -0.15
 	}
 	u01_ideas_4 = {
         reinforce_speed = 0.3
@@ -2072,7 +2072,7 @@ moe_ideas = {
 nre_ideas = {
 	start = {
 		stability_cost_modifier = -0.3
-		development_cost = -0.08
+		development_cost = -0.05
 	}
 
 	bonus = {
@@ -2298,7 +2298,7 @@ shz_ideas = {
 frt_ideas = {
 	start = {
         fire_damage = 0.1
-        development_cost = -0.2
+        development_cost = -0.1
 	}
 
 	bonus = {
@@ -2343,7 +2343,7 @@ frt_ideas = {
 uld_ideas = {
 	start = {
         adm_tech_cost_modifier = -0.1
-        development_cost = -0.2
+        development_cost = -0.15
 	}
 
 	bonus = {

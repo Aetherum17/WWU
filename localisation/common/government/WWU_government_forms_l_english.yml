@@ -361,6 +361,11 @@
  secret_society_reform_desc: "A society hidden from the eyes of the world, based on strong cultural and religious bonds. Don't be mistaken though, they are not weak at all!"
  secret_society_legacy: "Secret Society"
  secret_society_legacy_desc: "A society hidden from the eyes of the world, based on strong cultural and religious bonds. Don't be mistaken though, they are not weak at all!"
+
+ gurubashi_empire_reform: "Gurubashi Imperial Dominion"
+ gurubashi_empire_reform_desc: ""
+ gurubashi_empire_legacy: "Gurubashi Imperial Dominion"
+ gurubashi_empire_legacy_desc: ""
  
  # Theocracy
  theocracy_reform: "Theocracy"

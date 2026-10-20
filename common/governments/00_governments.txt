@@ -63,6 +63,7 @@ monarchy = {
                 hallowfall_expedition_reform
                 azj_kahet_empire_reform
                 kul_tiras_admiralty_reform
+                gurubashi_empire_reform
 			}
 		}
         tier_monarchy_labor_organisation = {

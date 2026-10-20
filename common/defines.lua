@@ -822,13 +822,13 @@ NCountry = {
 	PS_ADVANCE_TECH = 800,
     --- WWU: increased.
 	PS_BOOST_STABILITY = 100,
-	PS_BUY_GENERAL = 100,
+	PS_BUY_GENERAL = 75,
     --- WWU: increased.
-	PS_BUY_ADMIRAL = 100,
+	PS_BUY_ADMIRAL = 75,
     --- WWU: increased.
-	PS_BUY_CONQUISTADOR = 100,
+	PS_BUY_CONQUISTADOR = 75,
     --- WWU: increased.
-	PS_BUY_EXPLORER = 100,
+	PS_BUY_EXPLORER = 75,
     --- WWU: increased.
 	PS_ASSAULT = 5,
 	PS_ARTILLERY_BARRAGE = 75,
@@ -860,11 +860,12 @@ NCountry = {
 	PS_ATTACK_NATIVES = 5,
 	PS_SCORCH_EARTH = 5,
 	PS_CHANGE_GOVERNMENT = 100,
-	PS_CHANGE_CULTURE = 10,
+	PS_CHANGE_CULTURE = 15,
+	--- WWU: increased base cost of changing culture to promote use of strategems
 	PS_CHANGE_CULTURE_OVERSEAS_RELIGION_MOD = 0,	-- Modifier how much cheaper it is to change culture in overseas province if same religion
 	--- WWU: overseas shouldn't be made cheaper due to the nature of WWU
-	PS_HARSH_TREATMENT_COST = 100,					-- Max cost for harsh treatment (scales to revolt size)
-	--- WWU: reduced to 100 to make Harsh Treatment for affordable.
+	PS_HARSH_TREATMENT_COST = 75,					-- Max cost for harsh treatment (scales to revolt size)
+	--- WWU: reduced to 75 to make Harsh Treatment for affordable.
 	PS_HARSH_TREATMENT_REDUCE = 30,
 	PS_GARRISON_SORTIES = 10,
 	PS_REDUCE_WAREXHAUSTION = 100,
@@ -875,14 +876,14 @@ NCountry = {
 	PS_RAISE_WAR_TAXES = 2,	-- Monthly Cost
 	PS_WAR_TAXES_LIMIT_MIN = 0,	-- Minimum value for the cost of war taxes
 	PS_CREATE_TRADE_POST = 50,
-	PS_IMPROVE_PROVINCE_BASE = 100,
+	PS_IMPROVE_PROVINCE_BASE = 50,
 	--- WWU: increased to 100 to make deving more expensive by default
 	PS_IMPROVE_PROVINCE_MUL = 0,
-	PS_IMPROVE_PROVINCE_CAPITAL_DISCOUNT = 0.0,
+	PS_IMPROVE_PROVINCE_CAPITAL_DISCOUNT = 0.1,
 	--- WWU: removed dev cost reduction in capital
-	PS_SET_PRIMARY_CULTURE = 200,
+	PS_SET_PRIMARY_CULTURE = 150,
     --- WWU: increased.
-	PS_ADD_ACCEPTED_CULTURE = 150,
+	PS_ADD_ACCEPTED_CULTURE = 100,
     --- WWU: increased.
 	PS_REMOVE_ACCEPTED_CULTURE = 10,
 	PS_REMOVE_ACCEPTED_CULTURE_UNREST_DURATION = 5,
