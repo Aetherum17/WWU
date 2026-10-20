@@ -13,3 +13,17 @@ religion = sporemounds
 hre = no
 trade_goods = unknown
 
+546.1.1 = {
+    owner = ZAN
+    controller = ZAN
+    add_core = ZAN
+}
+
+# Outlandification
+600.1.1 = {
+    
+    owner = ---
+    controller = ---
+    remove_core = ZAN
+}
+
