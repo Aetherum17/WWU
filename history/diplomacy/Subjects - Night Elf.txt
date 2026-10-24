@@ -78,3 +78,12 @@ dependency = {
 	start_date = 544.1.1
 	end_date = 622.1.1
 }
+
+# Hyjal - Elderwild
+dependency = {
+	subject_type = "vassal"
+	first = A95
+	second = ELI
+	start_date = 544.1.1
+	end_date = 631.1.1
+}

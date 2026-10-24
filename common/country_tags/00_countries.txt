@@ -560,6 +560,7 @@ TAL = "countries/Talrendis.txt"
 IRT = "countries/Irontree.txt"
 AUT = "countries/Andutalah.txt"
 SLN = "countries/Shalanir.txt"
+ELI = "countries/Elderwild.txt"
 
 #-------------------------------------
 # Treant

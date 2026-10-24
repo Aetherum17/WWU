@@ -25,6 +25,7 @@ NEW NATIONS:
 	-Azshari
 -Hyjal:
     -Irontree
+	-Elderwild
 -Broken Isles:
     -Shalanir (Valsharah)
     -Andultalah (Valsharah)
