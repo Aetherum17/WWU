@@ -346,6 +346,7 @@ region_elwynn_forest = {
         area_westvale
         area_eastvale
         area_stonecairn
+        area_balor
     }
 }
 
@@ -587,7 +588,6 @@ region_north_barrens = {
         area_the_wailing_caverns
         area_forgotten_pools
         area_raptor_grounds
-        area_fray_island
         area_farwatch
         area_dreadmist
     }
@@ -601,7 +601,6 @@ region_south_barrens = {
         area_taurajo
         area_desolation
         area_blackthorn_ridge
-        area_the_great_lift
     }
 }
 
@@ -613,6 +612,8 @@ region_stonetalon_mountains = {
         area_windshear_crag
         area_webwinder_path
         area_malaka_jin
+        area_charred_vale
+        area_elde_thar
     }
 }
 
@@ -621,8 +622,6 @@ region_desolace = {
         area_kolkar_village
         area_shok_thokar
         area_ethel_rethor
-        area_ranazjar_ruins
-        area_ranazjar_isle
         area_valley_of_spears
         area_sargeron
         area_outer_maraudon
@@ -667,6 +666,7 @@ region_dustwallow_marsh = {
 
 region_thousand_needles = {
     areas = {
+        area_the_great_lift
         area_splithoof_heights
         area_the_shimmering_flats
         area_thousand_needles_canyons
@@ -770,7 +770,7 @@ region_borean_tundra = {
         area_ruins_of_eldra_nath
         area_the_geyser_fields
         area_naxxanar
-        area_jorundall
+        area_skitteling_hollow
     }
 }
 
@@ -949,11 +949,8 @@ region_timeless_isle = {
 
 region_jade_forest = {
     areas = {
-        area_pawdon_islands
-        area_moonwater_islands
-        area_jade_islands
-        area_windward_isle
-        area_thunder_islands
+        area_northern_jade_islands
+        area_southern_jade_islands
         area_pawdon_settlement
         area_moonwater
         area_temple_of_the_jade_serpent
@@ -982,7 +979,6 @@ region_valley_of_the_four_winds = {
 region_krasarang_wilds = {
     areas = {
         area_lions_landing
-        area_anglers_wharf
         area_ruins_of_dojan
         area_temple_of_the_red_crane
         area_domination_point
@@ -1605,7 +1601,6 @@ region_vashjir = {
         area_kelpthar_forest
 		area_shimmering_grotto
 		area_abyssal_depths
-        area_balor
     }
 }
 

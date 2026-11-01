@@ -964,6 +964,10 @@ area_stonecairn = {
     1005 2143 2144
 }
 
+area_balor = {
+    4111
+}
+
 #-------------------
 # Swamp of Sorrows
 #-------------------
@@ -1581,7 +1585,7 @@ area_the_crossroads = {
 }
 
 area_ratchet = {
-    1375 3461 3462 
+    1375 1423 3461 3462 3463
 }
 
 area_the_wailing_caverns = {
@@ -1593,11 +1597,7 @@ area_forgotten_pools = {
 }
 
 area_raptor_grounds = {
-    2286 1376 3447 1423
-}
-
-area_fray_island = {
-    3463 
+    2286 1376 3447
 }
 
 area_farwatch = {
@@ -1635,24 +1635,20 @@ area_blackthorn_ridge = {
     2287 1465 1446 1448 1464 3434
 }
 
-area_the_great_lift = {
-    1458 1459 1449
-}
-
 
 #-------------------
 # Stonetalon Mountains
 #-------------------
 area_stonetalon_peak = {
-    1355 1356 2277 1359 3634 3651 3652 3653 3654 3655 3656 3662
+    1355 2277 1359 3634 3654 3655 3656 
 }
 
 area_thaldarah_grove = {
-    1358 1360 1386 3657 3658 3659 3660 3661
+    1356 1358 3651 3652 3653 3657 3662
 }
 
 area_mirkfallon_lake = {
-    1405 1357 1362 3649 3650 3645 3646 3647 3648
+    1405 1357 1362 3649 3650 3648
 }
 
 area_windshear_crag = {
@@ -1665,6 +1661,14 @@ area_webwinder_path = {
 
 area_malaka_jin = {
     2280 1408 2281 1366
+}
+
+area_charred_vale = {
+    1360 1386 3658 3659 3660 3661
+}
+
+area_elde_thar = {
+    3645 3646 3647
 }
 
 #-------------------
@@ -1684,14 +1688,6 @@ area_thunderaxe_plains = {
 
 area_shok_thokar = {
     1390 3677 3676 2300 1255
-}
-
-area_ranazjar_ruins = {
-    1403
-}
-
-area_ranazjar_isle = {
-    1399
 }
 
 area_valley_of_spears = {
@@ -1719,7 +1715,7 @@ area_kolkar_village = {
 }
 
 area_thundering_coast = {
-    1257 3683 3682 
+    1257 1399 1403 3683 3682 
 }
 
 area_kolkar_outpost = {
@@ -1815,6 +1811,10 @@ area_dustwallow_marshes = {
 #-------------------
 # Thousand Needles
 #-------------------
+area_the_great_lift = {
+    1458 1459 1449
+}
+
 area_splithoof_heights = {
     1457 1460 1581 4505
 }
@@ -2116,7 +2116,7 @@ area_naxxanar = {
     2344 866 850 2117 2118 3275 3276 3277 3278 3324
 }
 
-area_jorundall = {
+area_skitteling_hollow = {
     4093
 }
 
@@ -3466,24 +3466,13 @@ area_timeless_isle = {
 #-------------------
 # Jade Forest
 #-------------------
-area_pawdon_islands = {
-    1735 
+
+area_northern_jade_islands = {
+    1737 4439 1727
 }
 
-area_moonwater_islands = {
-    1734 
-}
-
-area_jade_islands = {
-    1736
-}
-
-area_windward_isle = {
-    1727
-}
-
-area_thunder_islands = {
-    1737 4439
+area_southern_jade_islands = {
+    1734 1735 1736
 }
 
 area_pawdon_settlement = {
@@ -3564,12 +3553,8 @@ area_lions_landing = {
     1788 1773 1774 
 }
 
-area_anglers_wharf = {
-    1775
-}
-
 area_ruins_of_dojan = {
-    1776 1777 1784 1778
+   1775 1776 1777 1784 1778
 }
 
 area_temple_of_the_red_crane = {
@@ -4148,10 +4133,6 @@ area_shimmering_grotto = {
 
 area_abyssal_depths = {
 	3175 3176 3177
-}
-
-area_balor = {
-    4111
 }
 
 # Vass'tar (Boreal Tundra)

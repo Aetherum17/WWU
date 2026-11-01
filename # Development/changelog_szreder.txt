@@ -11,16 +11,19 @@
 -Cost of General/Admiral/Conquistador/Explorer reduced to 75 (prev. 100)
 -Change Primary Culture + Add Accepted Culture cost reduced (150, 100) (prev. 200, 150)
 
-
 # General Gameplay:
 -Given Cult of the Sun religion a religion modifier
 -Reduced values of Warscore Cost + WS Cost Vs across the board
 -Troll Mojo Mechanic now offers different base modifiers
 -Buffed Tier 15 Reforms to counter powerup that comes from Monument Assimilation
 -Increased Base Cost of Monument Assimilation
+-Adjusted location for Elune holy sites for more variety
+-Replaced Elune Modifiers, now grants 5% discipline and 1 tolarance of true faith
 
 # History + map:
 -Adjusted ages of the orcish warlords on the start. Added selected starting personalities and starting classes.
+-Added new areas to Stonetalon Mountains
+-Adjusted areas in Barrens, Stonetalon, Desolace, Thousand Needles, Jade Forest and Krasarang Wilds to remove 1-2 provinces areas
 
 # Events:
 
@@ -62,6 +65,36 @@ TODO:
 -Damned Cultists
 -Theramorian + Northwatch 
 -Alliance aka shared
+
+Mission Trees:
+-Keepers of the Grove
+-Gurubashi
+-Strongarde (expansion)
+-Sentinels
+
+Reworks Spawns:
+-Orcish Horde (split into Draenor and Azeroth variants)
+-Scourge (disable the deathwar and overhaul cult of the damned)
+-Orgrimmar
+-Theramore
+
+Disasters:
+-Collapse of Gnoll Horde
+-Tol Barad Crysis
+
+Event Chains:
+-Stormwind - Gurubashi Wars
+-Stormwind - Orcish Horde
+-Ironforge - Fix Trogg Digging
+-Kingdom of Thaurassian - Fix Trogg Digging
+
+Formable:
+-Thunder Bluff
+
+Spawn Buffs:
+-Exodar
+-Orgrimmar
+-Scourge
 
 # Internal Commentary
 -Disabled all gilneas events for the time, reenable once fixed

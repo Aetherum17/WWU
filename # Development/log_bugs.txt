@@ -59,3 +59,7 @@ Fixed: No
 Confirmed: Yes
 Fixed: No
 Note SzrEdeR: Might need to consider expanding the system or have some sort of backup handle. Perhaps giving AI free teleport armies without core so they can force the peace deal? Maybe even some short-timed boost so one side can overwhelm the enemy?
+
+13. Holy Sites gfx for Elune does not match with locations
+Confirmed: Yes
+Fixed: No

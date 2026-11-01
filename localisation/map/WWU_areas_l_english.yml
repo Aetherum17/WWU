@@ -435,10 +435,10 @@
  area_windshear_crag: "Windshear Crag"
  area_webwinder_path: "Webwinder Path"
  area_malaka_jin: "Malaka'jin"
+ area_charred_vale: "Charred Vale"
+ area_elde_thar: "Elde'thar"
  
  area_shok_thokar: "Shok'thokar"
- area_ranazjar_ruins: "Ranazjar Ruins"
- area_ranazjar_isle: "Ranazjar Isle"
  area_valley_of_spears: "Valley of Spears"
  area_gelkis_village: "Gelkis Village"
  area_sargeron: "Sargeron"
@@ -787,7 +787,7 @@
  area_ruins_of_eldra_nath: "Ruins of Eldra'nath"
  area_the_geyser_fields: "The Geyser Fields"
  area_naxxanar: "Naxxanar"
- area_jorundall: "Jorundall"
+ area_skitteling_hollow: "Skitteling Hollow"
  
  area_wintergrasp: "Wintergrasp"
  area_vault_of_archavon: "Vault of Archavon"
@@ -904,11 +904,8 @@
  
  area_timeless_isle: "Timeless Isle"
  
- area_pawdon_islands: "Paw'don Islands"
- area_moonwater_islands: "Moonwater Islands"
- area_jade_islands: "Jade Islands"
- area_windward_isle: "Windward Isle"
- area_thunder_islands: "Thunder Islands"
+ area_northern_jade_islands: "North Jade Isles"
+ area_southern_jade_islands: "South Jade Isles"
  area_pawdon_settlement: "Paw'don Settlement"
  area_moonwater: "Moonwater"
  area_temple_of_the_jade_serpent: "Temple of the Jade Serpent"
@@ -929,7 +926,6 @@
  area_thunderfoot_overlook: "Thunderfoot Overlook"
  
  area_lions_landing: "Lion's Landing"
- area_anglers_wharf: "Angler's Wharf"
  area_ruins_of_dojan: "Ruins of Dojan"
  area_temple_of_the_red_crane: "Temple of the Red Crane"
  area_domination_point: "Domination Point"

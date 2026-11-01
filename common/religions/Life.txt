@@ -105,12 +105,12 @@ life_group = {
 		misguided_heretic = yes
 		
 		country = {
-			infantry_power = 0.05
-            improve_relation_modifier = 0.05
+			discipline = 0.05
+            tolerance_own = 1
 		}
 		country_as_secondary = {
-			infantry_power = 0.05
-            improve_relation_modifier = 0.05
+			discipline = 0.025
+            tolerance_own = 0.5
 		}
         province = {
             
@@ -145,7 +145,7 @@ life_group = {
 			}			
 		}
 		
-		holy_sites = { 1431 1073 1304 1308 2249 }
+		holy_sites = { 3668 2651 1304 1308 2249 }
 		
 		blessings = {
 			elune_calm_of_the_night
