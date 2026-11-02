@@ -12,9 +12,23 @@ capital 			= 772
 	monarch = {
 		name = "Garfang"
 		dynasty = "Redridge"
-		birth_date = 480.1.1
+		birth_date = 490.1.1
 		adm = 3
-		dip = 5
+		dip = 6
 		mil = 6
+
+		leader = {
+			name = "Garfang Redridge"
+			type = general
+			fire = 4
+			shock = 5
+			manuever = 5
+			siege = 2
+			personality = inspirational_leader_general_personality
+		}
 	}
+
+
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = tactical_genius_personality
 }

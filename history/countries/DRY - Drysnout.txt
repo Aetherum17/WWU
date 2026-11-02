@@ -1,0 +1,20 @@
+government = tribal
+add_government_reform = tribal_despotism_reform
+add_government_reform = wwu_tribal_established_warband_reform
+
+mercantilism 		= 10
+technology_group 	= tech_gnoll
+religion			= earth
+primary_culture 	= culture_gnoll
+capital 			= 1978
+
+540.1.1 = {
+	monarch = {
+		name = "Barkeye"
+		dynasty = "Drysnout"
+		birth_date = 520.1.1
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
